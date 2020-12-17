@@ -30,7 +30,7 @@ python reconcile.py -f dbs/resfinder.fna -r mapping/resfinder_rgi.txt -d resfind
 python reconcile.py -f dbs/ncbi_amr.faa -r mapping/ncbi_rgi.txt -d ncbi
 
 # combine outputs
-awk 'FNR > 1' resfinder_ARO_mapping.tsv ncbi_ARO_mapping.tsv > resfinder_ncbi_ARO_mapping.tsv
+awk -F $'\t' 'NR == 1 || FNR > 1'  mapping/resfinder_ARO_mapping.tsv mapping/ncbi_ARO_mapping.tsv > resfinder_ncbi_ARO_mapping.tsv
 
 # tidy up
 mv resfinder_ARO_mapping.tsv ncbi_ARO_mapping.tsv mapping
