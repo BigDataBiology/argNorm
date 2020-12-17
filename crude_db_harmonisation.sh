@@ -12,6 +12,13 @@ rm -rf resfinder_db
 wget https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt
 mv AMRProt dbs/ncbi_amr.faa
 
+# get latest CARD database
+wget -O dbs/card.tar.bz2 https://card.mcmaster.ca/latest/data 
+tar -xvf dbs/card.tar.bz2 -C dbs
+
+# load latest card into rgi
+rgi load -i dbs/card.json
+
 # run rgi on both of these databases
 # got to do CDS as resfinder doesn't have 
 mkdir -p mapping
