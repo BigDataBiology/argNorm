@@ -13,3 +13,10 @@ for mapping NCBI and ResFinder to CARD's ARO:
 
 - Highlight any situation of no hits/disconnect for manual curation
 
+## Running
+
+    conda env create -f env.yml
+    conda activate crude_harmonisation
+    bash crude_db_harmonisation.sh
+
+Output mapping can be found at `resfinder_ncbi_ARO_mapping.tsv`
