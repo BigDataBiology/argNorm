@@ -2,10 +2,10 @@ from setuptools import setup
 from setuptools import find_packages
 
 # change this.
-NAME = "expert-mst"
+NAME = "argNorm"
 AUTHOR = "Hui Chong"
 EMAIL = "huichong.me@gmail.com"
-URL = "https://github.com/BigDataBiology/ArgNorm"
+URL = "https://github.com/BigDataBiology/argNorm"
 LICENSE = "MIT"
 DESCRIPTION = "Fast ARG normalization by mapping to the ARO ontology."
 
