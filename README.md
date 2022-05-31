@@ -12,4 +12,4 @@ Fast ARG normalization by mapping to the ARO ontology.
 |ABRicate|megares|`gene_name`|Exact match|Drop first field and `replace(':', '\|')`|
 |ABRicate|resfinder|`gene_symbol`|1|`sep='_'` but gene name contains `sep`|
 |[DeepARG](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/)|deeparg|`gene_name`|Exact match||
-|ARGs-OAP|sarg|||[Known issue](https://github.com/AdeBC/quick_amr_db_harmonisation/issues/2)|
+|[ARGs-OAP](https://github.com/biofuture/Ublastx_stageone)|sarg|||[Known issue](https://github.com/AdeBC/quick_amr_db_harmonisation/issues/2)|
