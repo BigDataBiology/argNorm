@@ -11,5 +11,5 @@ Fast ARG normalization by mapping to the ARO ontology.
 |ABRicate|card|`gene_symbol`|4 (in faa, not fna) |`sep='\|'`, some output gene names are prefixed by taxonomy names (e.g. Pseudomonas_aeruginosa_emrE)|
 |ABRicate|megares|`gene_name`|Exact match|Drop first field and `replace(':', '\|')`|
 |ABRicate|resfinder|`gene_symbol`|1|`sep='_'` but gene name contains `sep`|
-|deeparg|deeparg|`gene_name`|Exact match||
+|[DeepARG](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/)|deeparg|`gene_name`|Exact match||
 |ARGs-OAP|sarg|||[Known issue](https://github.com/AdeBC/quick_amr_db_harmonisation/issues/2)|
