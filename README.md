@@ -6,7 +6,7 @@ Fast ARG normalization by mapping to the ARO ontology.
 
 |Software|Database|Gene name column|Matches with (n)th field of fasta info|Note|
 |:-------|:-------|:---------------|:-------------------------------------|:---|
-|[ABRicate](https://github.com/tseemann/abricate)|ncbi|`gene_symbol`|5 or 6|`sep='\|'` |
+|[ABRicate](https://github.com/tseemann/abricate)|[ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)|`gene_symbol`|5 or 6|`sep='\|'` |
 |ABRicate|argannot|`gene_symbol` or `gene_name`|2|`sep='~~~'`|
 |ABRicate|card|`gene_symbol`|4 (in faa, not fna) |`sep='\|'`, some output gene names are prefixed by taxonomy names (e.g. Pseudomonas_aeruginosa_emrE)|
 |ABRicate|megares|`gene_name`|Exact match|Drop first field and `replace(':', '\|')`|
