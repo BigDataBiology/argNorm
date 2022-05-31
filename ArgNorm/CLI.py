@@ -6,8 +6,8 @@ from . import Normalizer
 
 def main():
     parser = argparse.ArgumentParser(
-        description=('The program is designed to help you to normalize the annotation result \
-                      by different ARG annotation tools and databases to resolve their differences in gene naming etc.'),
+        description=('The program is designed for normalizing ARG annotation result \
+                      from different ARG annotation tools and databases to resolve their differences in gene naming etc.'),
 		formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('database', type=str, choices=['ncbi', 'resfinder', 'sarg', 'deeparg'],
         help='The database you used to do ARG annotation.')

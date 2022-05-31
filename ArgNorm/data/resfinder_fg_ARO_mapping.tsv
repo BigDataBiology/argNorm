@@ -1,390 +1,390 @@
 	Original ID	Gene Name in CARD	ARO	Database
-0	Beta-lactamase|MK935770.1|Human_feces|AMP	EC-5	3006880	resfinder_fg
-1	Beta-lactamase|KU548124.1|latrine|AMX	CARB-49	3005583	resfinder_fg
-2	Beta-lactamase|KU547469.1|feces|PEN	EC-14	3006875	resfinder_fg
-3	Beta-lactamase|KU607811.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-4	Beta-lactamase|KU606564.1|Preterm_infant_stool|AMP	CMY-136	3004854	resfinder_fg
-5	Beta-lactamase|KX125444.1|newborn_gut|PEN	EC-8	3006881	resfinder_fg
-6	Beta-lactamase|KU608201.1|Preterm_infant_stool|AMC	CMY-159	3006458	resfinder_fg
-7	16S			resfinder_fg
-8	Beta-lactamase|KU606485.1|Preterm_infant_stool|AMP	ACT-50	3006245	resfinder_fg
-9	Beta-lactamase|KU544207.1|sewage|FOX	ADC-84	3006441	resfinder_fg
-10	Beta-lactamase|KU544179.1|sewage|FOX	ADC-221	3006390	resfinder_fg
-11	Ribosomal			resfinder_fg
-12	tetracycline			resfinder_fg
-13	Beta-lactamase|KU544379.1|sewage|PIP	GES-5	3002334	resfinder_fg
-14	Beta-lactamase|MK935760.1|Human_feces|PEN	CMY-106	3002118	resfinder_fg
-15	Beta-lactamase|KJ910913.1|feces|PEN	EC-15	3006876	resfinder_fg
-16	Beta-lactamase|KU548182.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-17	Bifunctional			resfinder_fg
-18	Beta-lactamase|JX009203.1|soil|AMX	OCH-1	3002514	resfinder_fg
-19	Beta-lactamase|KM113770.1|soil|CEF	PDC-241	3006619	resfinder_fg
-20	Beta-lactamase|KX128686.1|newborn_gut|PIP	EC-5	3006880	resfinder_fg
-21	Beta-lactamase|MK935775.1|Human_feces|PIP	EC-14	3006875	resfinder_fg
-22	Beta-lactamase|GQ244493.1|soil|CAZ	PDC-33	3006699	resfinder_fg
-23	Beta-lactamase|KU607182.1|Preterm_infant_stool|CAZ	ACT-67	3006262	resfinder_fg
-24	Beta-lactamase|KU605824.1|Preterm_infant_stool|AMX	MIR-10	3002175	resfinder_fg
-25	Beta-lactamase|KU548080.1|latrine|PIP	EC-14	3006875	resfinder_fg
-26	Beta-lactamase|KU547525.1|feces|AMX	EC-5	3006880	resfinder_fg
-27	Beta-lactamase|KJ910915.1|feces|PIP	EC-14	3006875	resfinder_fg
-28	Beta-lactamase|KU547931.1|latrine|PIP	CARB-49	3005583	resfinder_fg
-29	Beta-lactamase|KX127051.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
-30	Beta-lactamase|KU545264.1|feces|AMX	CMY-119	3002130	resfinder_fg
-31	Beta-lactamase|KX126940.1|newborn_gut|CTX	EC-5	3006880	resfinder_fg
-32	Beta-lactamase|JM427660.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
-33	Beta-lactamase|KU607733.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
-34	Beta-lactamase|MK935752.1|Human_feces|AMP	EC-5	3006880	resfinder_fg
-35	putative			resfinder_fg
-36	Beta-lactamase|KU544208.1|sewage|FOX	OCH-8	3002521	resfinder_fg
-37	Beta-lactamase|KU608132.1|Preterm_infant_stool|PIP	ACT-56	3006251	resfinder_fg
-38	Beta-lactamase|KU607474.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
-39	Beta-lactamase|KU547808.1|latrine|PIP	ACI-1	3004359	resfinder_fg
-40	Beta-lactamase|KU547894.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-41	Beta-lactamase|MK935753.1|Human_feces|CST	EC-19	3006879	resfinder_fg
-42	Beta-lactamase|JX009301.1|soil|PEN	ACT-38	3003655	resfinder_fg
-43	Beta-lactamase|MK935738.1|Human_feces|AMX	ACT-69	3006264	resfinder_fg
-44	Beta-lactamase|KU547455.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-45	Beta-lactamase|GQ343073.1|human			resfinder_fg
-46	SPbeta			resfinder_fg
-47	Dihydrofolate			resfinder_fg
-48	Beta-lactamase|KX125511.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
-49	Beta-lactamase|MK935741.1|Human_feces|PEN	EC-5	3006880	resfinder_fg
-50	Beta-lactamase|KU607100.1|Preterm_infant_stool|AMC	ACT-8	3001831	resfinder_fg
-51	Beta-lactamase|MK935764.1|Human_feces|AMP	EC-18	3006878	resfinder_fg
-52	Beta-lactamase|KX127696.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
-53	Beta-lactamase|GQ244494.1|soil|PIP	AQU-1	3002993	resfinder_fg
-54	Beta-lactamase|KU607561.1|Preterm_infant_stool|FOX	ACT-32	3001852	resfinder_fg
-55	Beta-lactamase|KU608095.1|Preterm_infant_stool|AMC	ACT-18	3001839	resfinder_fg
-56	Beta-lactamase|KU547163.1|latrine|PEN	GPC-1	3005096	resfinder_fg
-57	Beta-lactamase|KU544194.1|sewage|FOX	ADC-84	3006441	resfinder_fg
-58	Beta-lactamase|JM427375.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
-59	Beta-lactamase|MK935758.1|Human_feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-60	Beta-lactamase|KU546808.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-61	Beta-lactamase|KU545278.1|feces|CTX	EC-5	3006880	resfinder_fg
-62	Beta-lactamase|KU544777.1|sewage|PIP	RCP-1	3003563	resfinder_fg
-63	Beta-lactamase|KU606585.1|Preterm_infant_stool|AMC	EC-8	3006881	resfinder_fg
-64	Beta-lactamase|KF626926.1|pediatric_fecal_sample|ATM	EC-5	3006880	resfinder_fg
-65	Beta-lactamase|MK935776.1|Human_feces|CAZ	CMY-106	3002118	resfinder_fg
-66	Beta-lactamase|KU546811.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-67	Beta-lactamase|KX125358.1|newborn_gut|PIP	CMY-132	3003652	resfinder_fg
-68	Beta-lactamase|KX126654.1|newborn_gut|PIP	EC-15	3006876	resfinder_fg
-69	Beta-lactamase|MK935774.1|Human_feces|CST	EC-18	3006878	resfinder_fg
-70	Beta-lactamase|KU607810.1|Preterm_infant_stool|PEN	ACT-56	3006251	resfinder_fg
-71	Beta-lactamase|KU546685.1|feces|AMX	BcI	3002877	resfinder_fg
-72	Beta-lactamase|KU543933.1|sewage|AMX	SCO-1	3004856	resfinder_fg
-73	Beta-lactamase|KU545121.1|feces|AMX	EC-14	3006875	resfinder_fg
-74	Beta-lactamase|KX127043.1|newborn_gut|CTX	CMY-132	3003652	resfinder_fg
-75	Beta-lactamase|KX128617.1|newborn_gut|CAZ	EC-5	3006880	resfinder_fg
-76	Beta-lactamase|KU607878.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
-77	Tetracycline			resfinder_fg
-78	Beta-lactamase|KU547568.1|feces|PEN	EC-14	3006875	resfinder_fg
-79	Beta-lactamase|KU607257.1|Preterm_infant_stool|PIP	ACT-74	3006268	resfinder_fg
-80	Beta-lactamase|KU606879.1|Preterm_infant_stool|FOX	EC-5	3006880	resfinder_fg
-81	Beta-lactamase|KU607869.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
-82	Beta-lactamase|KU608215.1|Preterm_infant_stool|AMC	ACT-74	3006268	resfinder_fg
-83	Beta-lactamase|MG586041.1|antibiotics_polluted_stream_sediment|AMP	ADC-120	3006297	resfinder_fg
-84	Beta-lactamase|KU608123.1|Preterm_infant_stool|PEN	ACT-56	3006251	resfinder_fg
-85	Beta-lactamase|KU544162.1|sewage|CTX	GES-1	3002330	resfinder_fg
-86	Beta-lactamase|KU544243.1|sewage|FOX	CMY-83	3002096	resfinder_fg
-87	Beta-lactamase|KU606101.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-88	Beta-lactamase|MK935754.1|Human_feces|CST	CMY-106	3002118	resfinder_fg
-89	Beta-lactamase|KX127900.1|newborn_gut|CAZ	CMY-132	3003652	resfinder_fg
-90	Beta-lactamase|KU547074.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-91	Beta-lactamase|KJ694108.1|grassland			resfinder_fg
-92	Chloramphenicol			resfinder_fg
-93	Beta-lactamase|KU606499.1|Preterm_infant_stool|AMC	MOX-13	3006478	resfinder_fg
-94	Beta-lactamase|KU547776.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-95	Beta-lactamase|GQ343015.1|human			resfinder_fg
-96	Beta-lactamase|KU547084.1|latrine|PEN	CARB-5	3002244	resfinder_fg
-97	Beta-lactamase|KX125963.1|newborn_gut|CTX	EC-15	3006876	resfinder_fg
-98	Beta-lactamase|KU547192.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-99	Beta-lactamase|KU548165.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-100	Beta-lactamase|KU546676.1|feces|PEN	EC-14	3006875	resfinder_fg
-101	Beta-lactamase|JX009231.1|soil|CAR	PDC-48	3005148	resfinder_fg
-102	Beta-lactamase|KU545283.1|feces|PEN	EC-5	3006880	resfinder_fg
-103	Beta-lactamase|MG739508.1|river|AMP	PDC-237	3006615	resfinder_fg
-104	Beta-lactamase|KF628772.1|pediatric_fecal_sample|PIP	EC-14	3006875	resfinder_fg
-105	Beta-lactamase|KX126516.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
-106	Beta-lactamase|KU547813.1|latrine|PIP	CARB-49	3005583	resfinder_fg
-107	Beta-lactamase|JX009209.1|soil|AMX	SRT-3	3006853	resfinder_fg
-108	Beta-lactamase|KU545330.1|feces|AMX	EC-8	3006881	resfinder_fg
-109	Beta-lactamase|KX125529.1|newborn_gut|FOX	CMY-132	3003652	resfinder_fg
-110	Beta-lactamase|KU607633.1|Preterm_infant_stool|AMX	MIR-12	3002177	resfinder_fg
-111	Beta-lactamase|KX128596.1|newborn_gut|FOX	EC-5	3006880	resfinder_fg
-112	Beta-lactamase|KU548903.1|feces|CTX	CMY-157	3005198	resfinder_fg
-113	Beta-lactamase|KJ695915.1|Agricultural			resfinder_fg
-114	Beta-lactamase|JM427694.1|gull_gut|PEN	EC-14	3006875	resfinder_fg
-115	Carbapenem-hydrolyzing			resfinder_fg
-116	Beta-lactamase|KU548562.1|soil|PEN	ACT-77	3006271	resfinder_fg
-117	Beta-lactamase|MK935767.1|Human_feces|AMX	EC-5	3006880	resfinder_fg
-118	Beta-lactamase|MK935743.1|Human_feces|CST	MIR-3	3002169	resfinder_fg
-119	Beta-lactamase|KX128530.1|newborn_gut|ATM	Sed-1	3003561	resfinder_fg
-120	Beta-lactamase|MK935979.1|Human_feces|PEN	PDC-241	3006619	resfinder_fg
-121	Beta-lactamase|KU545493.1|feces|AMX	EC-5	3006880	resfinder_fg
-122	Beta-lactamase|KU546748.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-123	Beta-lactamase|KU548092.1|latrine|PIP	CARB-49	3005583	resfinder_fg
-124	Beta-lactamase|KU548678.1|soil|CTX	ACT-78	3006272	resfinder_fg
-125	chloramphenicol			resfinder_fg
-126	Beta-lactamase|KU606321.1|Preterm_infant_stool|AMP	ACT-56	3006251	resfinder_fg
-127	Beta-lactamase|KJ692539.1|grassland			resfinder_fg
-128	Beta-lactamase|KU547910.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-129	Beta-lactamase|KU543918.1|sewage|AMX	AER-1	3002481	resfinder_fg
-130	Beta-lactamase|KX125600.1|newborn_gut|TZB	CMY-132	3003652	resfinder_fg
-131	Beta-lactamase|KU607092.1|Preterm_infant_stool|AMX	ACT-67	3006262	resfinder_fg
-132	Vancomycin/teicoplanin			resfinder_fg
-133	Beta-lactamase|JX009328.1|soil|PIP	SRT-3	3006853	resfinder_fg
-134	Beta-lactamase|JM427352.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
-135	Beta-lactamase|KU548922.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-136	Beta-lactamase|KU548300.1|latrine|AMX	CARB-49	3005583	resfinder_fg
-137	Beta-lactamase|KJ692663.1|grassland			resfinder_fg
-138	Beta-lactamase|KU548168.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-139	Beta-lactamase			resfinder_fg
-140	Beta-lactamase|KU546538.1|feces|AMX	EC-14	3006875	resfinder_fg
-141	Beta-lactamase|KU606042.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-142	Beta-lactamase|KU606030.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
-143	Beta-lactamase|KU543973.1|sewage|AMX	GES-5	3002334	resfinder_fg
-144	Beta-lactamase|KU547585.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-145	Beta-lactamase|JX009322.1|soil|PIP	PDC-161	3006540	resfinder_fg
-146	Beta-lactamase|KU605899.1|Preterm_infant_stool|CAZ	CMY-101	3002113	resfinder_fg
-147	Beta-lactamase|KU546390.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-148	Beta-lactamase|KU607584.1|Preterm_infant_stool|PEN	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
-149	Beta-lactamase|KU544399.1|sewage|PIP	CARB-16	3002255	resfinder_fg
-150	Beta-lactamase|KU606494.1|Preterm_infant_stool|AMC	ACT-50	3006245	resfinder_fg
-151	Beta-lactamase|KF629885.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
-152	Beta-lactamase|GQ343009.1|human			resfinder_fg
-153	Beta-lactamase|FN640467.1|loamy			resfinder_fg
-154	Beta-lactamase|KX127579.1|human_gut|PEN	EC-5	3006880	resfinder_fg
-155	ABC-F			resfinder_fg
-156	Beta-lactamase|KU544841.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-157	Beta-lactamase|KU545287.1|feces|TZP	EC-5	3006880	resfinder_fg
-158	Beta-lactamase|KC520484.1|Active			resfinder_fg
-159	Beta-lactamase|KU607062.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
-160	Beta-lactamase|KU605898.1|Preterm_infant_stool|CAZ	MIR-9	3002174	resfinder_fg
-161	Beta-lactamase|KF629594.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
-162	Beta-lactamase|KX125964.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
-163	Beta-lactamase|KU543705.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-164	Beta-lactamase|KU545152.1|feces|PIP	EC-14	3006875	resfinder_fg
-165	Beta-lactamase|KU545266.1|feces|AMX	EC-5	3006880	resfinder_fg
-166	Beta-lactamase|KU548035.1|latrine|PEN	EC-18	3006878	resfinder_fg
-167	Beta-lactamase|KU607886.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-168	Beta-lactamase|KJ696348.1|Agricultural			resfinder_fg
-169	Beta-lactamase|KU548133.1|latrine|AMX	MOR-2	3006953	resfinder_fg
-170	Beta-lactamase|KU546517.1|feces|AMX	EC-8	3006881	resfinder_fg
-171	Beta-lactamase|MK935748.1|Human_feces|CST	EC-14	3006875	resfinder_fg
-172	Beta-lactamase|MK935746.1|Human_feces|PIP	EC-18	3006878	resfinder_fg
-173	Beta-lactamase|KU607673.1|Preterm_infant_stool|PEN	MIR-16	3002181	resfinder_fg
-174	Beta-lactamase|JX009229.1|soil|CAR	PDC-343	3006713	resfinder_fg
-175	Beta-lactamase|KJ910914.1|feces|TZP	CMY-132	3003652	resfinder_fg
-176	Beta-lactamase|KJ695330.1|Agricultural			resfinder_fg
-177	Beta-lactamase|MK935730.1|Human_feces|PIP	CMY-66	3002079	resfinder_fg
-178	Beta-lactamase|KU547600.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-179	Beta-lactamase|MK935734.1|Human_feces|CAZ	EC-18	3006878	resfinder_fg
-180	Beta-lactamase|KU545536.1|feces|PEN	EC-5	3006880	resfinder_fg
-181	Beta-lactamase|KJ695458.1|Agricultural			resfinder_fg
-182	D-alanine--D-alanine			resfinder_fg
-183	Beta-lactamase|KU607685.1|Preterm_infant_stool|PIP	MIR-12	3002177	resfinder_fg
-184	Beta-lactamase|KU608079.1|Preterm_infant_stool|AMP	CMY-136	3004854	resfinder_fg
-185	Beta-lactamase|KU546633.1|feces|AMX	EC-14	3006875	resfinder_fg
-186	Beta-lactamase|KU547393.1|feces|AMX	CMY-136	3004854	resfinder_fg
-187	Beta-lactamase|MK935991.1|Gorilla_feces|CAZ	PDC-241	3006619	resfinder_fg
-188	Beta-lactamase|KU606072.1|Preterm_infant_stool|CAZ	ACT-74	3006268	resfinder_fg
-189	Beta-lactamase|MK935778.1|Human_feces|CST	EC-15	3006876	resfinder_fg
-190	Beta-lactamase|MK935749.1|Gorilla_feces|AMX	EC-5	3006880	resfinder_fg
-191	Beta-lactamase|KU607800.1|Preterm_infant_stool|PEN	CMY-87	3002100	resfinder_fg
-192	Beta-lactamase|KU605848.1|Preterm_infant_stool|AMC	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
-193	Beta-lactamase|KU544887.1|feces|CAZ	CMY-34	3002045	resfinder_fg
-194	Beta-lactamase|KJ694078.1|grassland			resfinder_fg
-195	Beta-lactamase|KJ910910.1|feces|CAZ	EC-14	3006875	resfinder_fg
-196	Beta-lactamase|KU547042.1|latrine|AMX	CARB-49	3005583	resfinder_fg
-197	Beta-lactamase|KX125879.1|human_gut|PEN	EC-5	3006880	resfinder_fg
-198	Beta-lactamase|KJ692949.1|grassland			resfinder_fg
-199	Dihydropteroate			resfinder_fg
-200	Beta-lactamase|KX125271.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
-201	Beta-lactamase|JX009212.1|soil|AMX	SRT-3	3006853	resfinder_fg
-202	Beta-lactamase|KU607674.1|Preterm_infant_stool|PIP	CMY-85	3002098	resfinder_fg
-203	Beta-lactamase|MG739509.1|river|AMP	RSA2-1	3006981	resfinder_fg
-204	Beta-lactamase|KU544701.1|sewage|CAZ	LRA-13	3002484	resfinder_fg
-205	Beta-lactamase|MK935727.1|Gorilla_feces|CST	EC-5	3006880	resfinder_fg
-206	Beta-lactamase|KU607568.1|Preterm_infant_stool|FOX	EC-5	3006880	resfinder_fg
-207	Beta-lactamase|KX126946.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
-208	Beta-lactamase|KU547039.1|latrine|AMX	SCO-1	3004856	resfinder_fg
-209	Beta-lactamase|KU546585.1|feces|PEN	EC-15	3006876	resfinder_fg
-210	Beta-lactamase|KU544751.1|sewage|PIP	AER-1	3002481	resfinder_fg
-211	Beta-lactamase|KU548132.1|latrine|AMX	CARB-49	3005583	resfinder_fg
-212	Beta-lactamase|KJ693015.1|grassland			resfinder_fg
-213	Beta-lactamase|KU545376.1|feces|PEN	EC-8	3006881	resfinder_fg
-214	Beta-lactamase|KU606870.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-215	Beta-lactamase|KU544910.1|feces|PEN	EC-15	3006876	resfinder_fg
-216	Beta-lactamase|KU548126.1|latrine|AMX	ACT-52	3006247	resfinder_fg
-217	Metallo-beta-lactamase			resfinder_fg
-218	Beta-lactamase|KF630242.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
-219	Beta-lactamase|KX125579.1|newborn_gut|PIP	CMY-132	3003652	resfinder_fg
-220	Beta-lactamase|KU545645.1|feces|AMX	EC-5	3006880	resfinder_fg
-221	2''-aminoglycoside			resfinder_fg
-222	Beta-lactamase|KF628694.1|pediatric_fecal_sample|PEN	EC-14	3006875	resfinder_fg
-223	Beta-lactamase|KU607363.1|Preterm_infant_stool|CAZ	ACC-1a	3006228	resfinder_fg
-224	Beta-lactamase|KF627385.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
-225	Beta-lactamase|KU544223.1|sewage|FOX	ACT-29	3001849	resfinder_fg
-226	Beta-lactamase|KU606526.1|Preterm_infant_stool|FOX	ACT-50	3006245	resfinder_fg
-227	Pentapeptide			resfinder_fg
-228	Beta-lactamase|KU548878.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-229	Beta-lactamase|JM427353.1|gull_gut|PEN	EC-8	3006881	resfinder_fg
-230	Beta-lactamase|JX009294.1|soil|PEN	SRT-3	3006853	resfinder_fg
-231	Beta-lactamase|KU606824.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
-232	Beta-lactamase|KU606643.1|Preterm_infant_stool|PEN	EC-8	3006881	resfinder_fg
-233	Beta-lactamase|JX009235.1|soil|CAR	SRT-3	3006853	resfinder_fg
-234	Beta-lactamase|KU545809.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-235	Beta-lactamase|KU607301.1|Preterm_infant_stool|PIP	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
-236	Beta-lactamase|JM426738.1|gull_gut|AMP	EC-15	3006876	resfinder_fg
-237	Beta-lactamase|KU608085.1|Preterm_infant_stool|AMX	ACT-56	3006251	resfinder_fg
-238	Beta-lactamase|JX009206.1|soil|AMX	SRT-3	3006853	resfinder_fg
-239	Beta-lactamase|KU548577.1|soil|PIP	RCP-1	3003563	resfinder_fg
-240	Beta-lactamase|KX128077.1|newborn_gut|PEN	EC-15	3006876	resfinder_fg
-241	Beta-lactamase|KJ694531.1|grassland			resfinder_fg
-242	Beta-lactamase|KU607829.1|Preterm_infant_stool|PIP	ACT-8	3001831	resfinder_fg
-243	Beta-lactamase|JM427368.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
-244	Beta-lactamase|KJ512902.1|manure|CAR	ACI-1	3004359	resfinder_fg
-245	Beta-lactamase|KU548998.1|feces|CTX	CMY-66	3002079	resfinder_fg
-246	Beta-lactamase|KJ692935.1|grassland			resfinder_fg
-247	Beta-lactamase|KX125631.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
-248	Beta-lactamase|KU607672.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-249	Beta-lactamase|JM427612.1|gull_gut|PEN	ACT-52	3006247	resfinder_fg
-250	Beta-lactamase|KF630193.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
-251	Beta-lactamase|MK935731.1|Human_feces|AMP	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-252	Beta-lactamase|KU548040.1|latrine|PEN	EC-8	3006881	resfinder_fg
-253	Methicillin			resfinder_fg
-254	Beta-lactamase|KU543700.1|feces|CTX	CMY-132	3003652	resfinder_fg
-255	Beta-lactamase|KX125570.1|newborn_gut|CAZ	CMY-132	3003652	resfinder_fg
-256	Beta-lactamase|MK935755.1|Human_feces|CST	EC-18	3006878	resfinder_fg
-257	Beta-lactamase|KU607281.1|Preterm_infant_stool|PIP	ACT-38	3003655	resfinder_fg
-258	Beta-lactamase|KC520483.1|Active			resfinder_fg
-259	Beta-lactamase|KU545197.1|feces|AMX	EC-8	3006881	resfinder_fg
-260	Beta-lactamase|KU606896.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-261	Beta-lactamase|KU545249.1|feces|PEN	EC-8	3006881	resfinder_fg
-262	Beta-lactamase|KJ694385.1|grassland			resfinder_fg
-263	Beta-lactamase|KU606100.1|Preterm_infant_stool|PEN	CMY-51	3002062	resfinder_fg
-264	Beta-lactamase|KX125523.1|newborn_gut|CTX	CMY-132	3003652	resfinder_fg
-265	Beta-lactamase|KU548492.1|soil|PIP	AXC-2	3006898	resfinder_fg
-266	Beta-lactamase|KJ910932.1|feces|CAZ	EC-14	3006875	resfinder_fg
-267	Beta-lactamase|KU546021.1|feces|PEN	EC-8	3006881	resfinder_fg
-268	Beta-lactamase|KJ695366.1|Agricultural			resfinder_fg
-269	Beta-lactamase|MK935735.1|Human_feces|CST	EC-5	3006880	resfinder_fg
-270	Beta-lactamase|MG586034.1|antibiotics_polluted_stream_sediment|CTX	MOX-9	3002191	resfinder_fg
-271	Beta-lactamase|KU547195.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-272	Beta-lactamase|MK935737.1|Human_feces|AMX	EC-18	3006878	resfinder_fg
-273	Beta-lactamase|KX128289.1|newborn_gut|PEN	EC-13	3006874	resfinder_fg
-274	Beta-lactamase|KU547957.1|latrine|AMX	EC-8	3006881	resfinder_fg
-275	Beta-lactamase|MW234456.1|duck			resfinder_fg
-276	Beta-lactamase|MK935949.1|Gorilla_feces|PIP	ACI-1	3004359	resfinder_fg
+0	Beta-lactamase|KU544910.1|feces|PEN	EC-15	3006876	resfinder_fg
+1	Beta-lactamase|MK935778.1|Human_feces|CST	EC-15	3006876	resfinder_fg
+2	Beta-lactamase|KJ692935.1|grassland			resfinder_fg
+3	Beta-lactamase|KU546685.1|feces|AMX	BcI	3002877	resfinder_fg
+4	Beta-lactamase|KU608123.1|Preterm_infant_stool|PEN	ACT-56	3006251	resfinder_fg
+5	Beta-lactamase|KU548577.1|soil|PIP	RCP-1	3003563	resfinder_fg
+6	Vancomycin			resfinder_fg
+7	Beta-lactamase|KU547195.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+8	Beta-lactamase|KU607733.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
+9	Beta-lactamase|KX128852.1|newborn_gut|PEN	CMY-136	3004854	resfinder_fg
+10	Beta-lactamase|KX125579.1|newborn_gut|PIP	CMY-132	3003652	resfinder_fg
+11	Beta-lactamase|JX009323.1|soil|PIP	SRT-3	3006853	resfinder_fg
+12	Beta-lactamase|KJ696348.1|Agricultural			resfinder_fg
+13	Beta-lactamase|KJ910936.1|feces|PIP	EC-18	3006878	resfinder_fg
+14	Beta-lactamase|KU545190.1|feces|AMX	EC-8	3006881	resfinder_fg
+15	Beta-lactamase|KU546206.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+16	Beta-lactamase|KU545249.1|feces|PEN	EC-8	3006881	resfinder_fg
+17	Beta-lactamase|KU547881.1|latrine|PEN	EC-14	3006875	resfinder_fg
+18	Beta-lactamase|KU607674.1|Preterm_infant_stool|PIP	CMY-85	3002098	resfinder_fg
+19	Beta-lactamase|KU607761.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
+20	Beta-lactamase|KU548132.1|latrine|AMX	CARB-49	3005583	resfinder_fg
+21	Beta-lactamase|KU548182.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+22	Beta-lactamase|KJ910932.1|feces|CAZ	EC-14	3006875	resfinder_fg
+23	Beta-lactamase|JM427612.1|gull_gut|PEN	ACT-52	3006247	resfinder_fg
+24	Beta-lactamase|KU545149.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+25	Beta-lactamase|MK935756.1|Human_feces|CAZ	CMY-66	3002079	resfinder_fg
+26	Beta-lactamase|MK935991.1|Gorilla_feces|CAZ	PDC-241	3006619	resfinder_fg
+27	Beta-lactamase|KU544751.1|sewage|PIP	AER-1	3002481	resfinder_fg
+28	Beta-lactamase|KX126654.1|newborn_gut|PIP	EC-15	3006876	resfinder_fg
+29	2''-aminoglycoside			resfinder_fg
+30	Beta-lactamase|KU549021.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+31	Beta-lactamase|KU607059.1|Preterm_infant_stool|AMP	ACT-67	3006262	resfinder_fg
+32	Beta-lactamase|KU607800.1|Preterm_infant_stool|PEN	CMY-87	3002100	resfinder_fg
+33	Beta-lactamase|JX009207.1|soil|AMX	PDC-33	3006699	resfinder_fg
+34	Beta-lactamase|KX128677.1|newborn_gut|PEN	CMY-132	3003652	resfinder_fg
+35	Beta-lactamase|KU548124.1|latrine|AMX	CARB-49	3005583	resfinder_fg
+36	Beta-lactamase|KF629594.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
+37	Beta-lactamase|KU607672.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
+38	16S			resfinder_fg
+39	Beta-lactamase|KU548300.1|latrine|AMX	CARB-49	3005583	resfinder_fg
+40	Beta-lactamase|KF628224.1|pediatric_fecal_sample|PEN	EC-15	3006876	resfinder_fg
+41	Beta-lactamase|JX009231.1|soil|CAR	PDC-48	3005148	resfinder_fg
+42	tetracycline			resfinder_fg
+43	Beta-lactamase|KU607092.1|Preterm_infant_stool|AMX	ACT-67	3006262	resfinder_fg
+44	Beta-lactamase|KX125358.1|newborn_gut|PIP	CMY-132	3003652	resfinder_fg
+45	Beta-lactamase|KJ693456.1|grassland			resfinder_fg
+46	Beta-lactamase|KU544701.1|sewage|CAZ	LRA-13	3002484	resfinder_fg
+47	Beta-lactamase|KU547585.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+48	Beta-lactamase|KJ695458.1|Agricultural			resfinder_fg
+49	Beta-lactamase|MK935764.1|Human_feces|AMP	EC-18	3006878	resfinder_fg
+50	Beta-lactamase|KJ910933.1|feces|PEN	EC-18	3006878	resfinder_fg
+51	Beta-lactamase|KX127696.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
+52	Beta-lactamase|MK935979.1|Human_feces|PEN	PDC-241	3006619	resfinder_fg
+53	Beta-lactamase|KU606870.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
+54	Bifunctional			resfinder_fg
+55	Beta-lactamase|MK935735.1|Human_feces|CST	EC-5	3006880	resfinder_fg
+56	Beta-lactamase|KU544243.1|sewage|FOX	CMY-83	3002096	resfinder_fg
+57	Beta-lactamase|KU606004.1|Preterm_infant_stool|AMP	ACT-56	3006251	resfinder_fg
+58	Gentamicin			resfinder_fg
+59	Beta-lactamase|KU544399.1|sewage|PIP	CARB-16	3002255	resfinder_fg
+60	Beta-lactamase|MK935734.1|Human_feces|CAZ	EC-18	3006878	resfinder_fg
+61	Beta-lactamase|KU547568.1|feces|PEN	EC-14	3006875	resfinder_fg
+62	Beta-lactamase|JX009203.1|soil|AMX	OCH-1	3002514	resfinder_fg
+63	Beta-lactamase|KU545493.1|feces|AMX	EC-5	3006880	resfinder_fg
+64	Beta-lactamase|KU606585.1|Preterm_infant_stool|AMC	EC-8	3006881	resfinder_fg
+65	Beta-lactamase|MK935752.1|Human_feces|AMP	EC-5	3006880	resfinder_fg
+66	Beta-lactamase|GQ343055.1|human			resfinder_fg
+67	Beta-lactamase|KU606249.1|Preterm_infant_stool|AMC	CMY-66	3002079	resfinder_fg
+68	Beta-lactamase|KU607474.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
+69	Beta-lactamase|KU607301.1|Preterm_infant_stool|PIP	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
+70	Beta-lactamase|KU545230.1|feces|AMX	EC-8	3006881	resfinder_fg
+71	Beta-lactamase|KJ910913.1|feces|PEN	EC-15	3006876	resfinder_fg
+72	Beta-lactamase|KU606879.1|Preterm_infant_stool|FOX	EC-5	3006880	resfinder_fg
+73	Beta-lactamase|MK935736.1|Human_feces|ATM	EC-19	3006879	resfinder_fg
+74	Beta-lactamase|KU544812.1|feces|AMX	EC-15	3006876	resfinder_fg
+75	Beta-lactamase|GQ343009.1|human			resfinder_fg
+76	Beta-lactamase|JM427375.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
+77	Beta-lactamase|KU605899.1|Preterm_infant_stool|CAZ	CMY-101	3002113	resfinder_fg
+78	Beta-lactamase|JX009206.1|soil|AMX	SRT-3	3006853	resfinder_fg
+79	Beta-lactamase|KX128596.1|newborn_gut|FOX	EC-5	3006880	resfinder_fg
+80	Beta-lactamase|KU548040.1|latrine|PEN	EC-8	3006881	resfinder_fg
+81	Beta-lactamase|KX126946.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
+82	Beta-lactamase|KU544208.1|sewage|FOX	OCH-8	3002521	resfinder_fg
+83	Beta-lactamase|KF626926.1|pediatric_fecal_sample|ATM	EC-5	3006880	resfinder_fg
+84	Beta-lactamase|KU548133.1|latrine|AMX	MOR-2	3006953	resfinder_fg
+85	Beta-lactamase|KU546811.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+86	Beta-lactamase|KU546808.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+87	Beta-lactamase|KF628694.1|pediatric_fecal_sample|PEN	EC-14	3006875	resfinder_fg
+88	Beta-lactamase|MK935737.1|Human_feces|AMX	EC-18	3006878	resfinder_fg
+89	Beta-lactamase|KF628556.1|pediatric_fecal_sample|PIP	EC-14	3006875	resfinder_fg
+90	Beta-lactamase|KU546538.1|feces|AMX	EC-14	3006875	resfinder_fg
+91	Beta-lactamase|KU544752.1|sewage|PIP	AER-1	3002481	resfinder_fg
+92	Beta-lactamase|KF033132.1|river			resfinder_fg
+93	Beta-lactamase|KU548126.1|latrine|AMX	ACT-52	3006247	resfinder_fg
+94	Beta-lactamase|KX125444.1|newborn_gut|PEN	EC-8	3006881	resfinder_fg
+95	Beta-lactamase|KU547957.1|latrine|AMX	EC-8	3006881	resfinder_fg
+96	Beta-lactamase|KF628448.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
+97	Beta-lactamase|MK935727.1|Gorilla_feces|CST	EC-5	3006880	resfinder_fg
+98	Beta-lactamase|KU545287.1|feces|TZP	EC-5	3006880	resfinder_fg
+99	Beta-lactamase|KU606824.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
+100	Beta-lactamase|KU607062.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
+101	Beta-lactamase|KU605848.1|Preterm_infant_stool|AMC	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
+102	Beta-lactamase|KU608215.1|Preterm_infant_stool|AMC	ACT-74	3006268	resfinder_fg
+103	Beta-lactamase|KU543705.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+104	Beta-lactamase|KX126516.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
+105	Chloramphenicol			resfinder_fg
+106	Beta-lactamase|KU548092.1|latrine|PIP	CARB-49	3005583	resfinder_fg
+107	Beta-lactamase|KU608201.1|Preterm_infant_stool|AMC	CMY-159	3006458	resfinder_fg
+108	Beta-lactamase|MK935738.1|Human_feces|AMX	ACT-69	3006264	resfinder_fg
+109	Beta-lactamase|KU544223.1|sewage|FOX	ACT-29	3001849	resfinder_fg
+110	Beta-lactamase|KU607803.1|Preterm_infant_stool|PEN	CMY-87	3002100	resfinder_fg
+111	Aminoglycoside			resfinder_fg
+112	Beta-lactamase|KU543918.1|sewage|AMX	AER-1	3002481	resfinder_fg
+113	Beta-lactamase|KU545317.1|feces|AMX	EC-8	3006881	resfinder_fg
+114	Beta-lactamase|KJ910915.1|feces|PIP	EC-14	3006875	resfinder_fg
+115	Beta-lactamase|KJ694180.1|grassland			resfinder_fg
+116	Beta-lactamase|MK935740.1|Human_feces|AMP	EC-19	3006879	resfinder_fg
+117	Beta-lactamase|KX127579.1|human_gut|PEN	EC-5	3006880	resfinder_fg
+118	Beta-lactamase|MK935745.1|Human_feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+119	Beta-lactamase|KX125600.1|newborn_gut|TZB	CMY-132	3003652	resfinder_fg
+120	Beta-lactamase|KX128077.1|newborn_gut|PEN	EC-15	3006876	resfinder_fg
+121	Beta-lactamase|KU607514.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
+122	Tetracycline			resfinder_fg
+123	Beta-lactamase|KU606485.1|Preterm_infant_stool|AMP	ACT-50	3006245	resfinder_fg
+124	Beta-lactamase|KU607954.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
+125	Beta-lactamase|KU607568.1|Preterm_infant_stool|FOX	EC-5	3006880	resfinder_fg
+126	Beta-lactamase|KU548035.1|latrine|PEN	EC-18	3006878	resfinder_fg
+127	Beta-lactamase|KU545152.1|feces|PIP	EC-14	3006875	resfinder_fg
+128	Beta-lactamase|KU606564.1|Preterm_infant_stool|AMP	CMY-136	3004854	resfinder_fg
+129	Beta-lactamase|GQ343015.1|human			resfinder_fg
+130	Beta-lactamase|KF629077.1|pediatric_fecal_sample|PEN	EC-8	3006881	resfinder_fg
+131	Beta-lactamase|KU606499.1|Preterm_infant_stool|AMC	MOX-13	3006478	resfinder_fg
+132	Beta-lactamase|JX009212.1|soil|AMX	SRT-2	3002494	resfinder_fg
+133	Beta-lactamase|KU547034.1|latrine|AMX	CARB-8	3002247	resfinder_fg
+134	Beta-lactamase|KU545264.1|feces|AMX	CMY-119	3002130	resfinder_fg
+135	Beta-lactamase|KJ694108.1|grassland			resfinder_fg
+136	Beta-lactamase|KJ910989.1|feces|PEN	ROB-6	3005076	resfinder_fg
+137	Beta-lactamase|KU606100.1|Preterm_infant_stool|PEN	CMY-51	3002062	resfinder_fg
+138	Beta-lactamase|KU546517.1|feces|AMX	EC-8	3006881	resfinder_fg
+139	Beta-lactamase|KU607281.1|Preterm_infant_stool|PIP	ACT-38	3003655	resfinder_fg
+140	Beta-lactamase|KU606137.1|Preterm_infant_stool|PIP	EC-5	3006880	resfinder_fg
+141	Beta-lactamase|KX126940.1|newborn_gut|CTX	EC-5	3006880	resfinder_fg
+142	Beta-lactamase|MK935743.1|Human_feces|CST	MIR-3	3002169	resfinder_fg
+143	ABC-F			resfinder_fg
+144	Beta-lactamase|KU547042.1|latrine|AMX	CARB-49	3005583	resfinder_fg
+145	Beta-lactamase|KU547623.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+146	Beta-lactamase|KJ910934.1|feces|TZP	EC-14	3006875	resfinder_fg
+147	Beta-lactamase|KU606643.1|Preterm_infant_stool|PEN	EC-8	3006881	resfinder_fg
+148	Beta-lactamase|KX128289.1|newborn_gut|PEN	EC-13	3006874	resfinder_fg
+149	Beta-lactamase|KU607238.1|Preterm_infant_stool|AMP	CMY-85	3002098	resfinder_fg
+150	Beta-lactamase|KU547393.1|feces|AMX	CMY-136	3004854	resfinder_fg
+151	Beta-lactamase|MK935741.1|Human_feces|PEN	EC-5	3006880	resfinder_fg
+152	Beta-lactamase|KX126612.1|newborn_gut|PEN	EC-14	3006875	resfinder_fg
+153	Beta-lactamase|KJ693015.1|grassland			resfinder_fg
+154	Beta-lactamase|KU607811.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
+155	Beta-lactamase|MG586034.1|antibiotics_polluted_stream_sediment|CTX	MOX-9	3002191	resfinder_fg
+156	Beta-lactamase|KX128530.1|newborn_gut|ATM	Sed-1	3003561	resfinder_fg
+157	D-alanine--D-alanine			resfinder_fg
+158	Beta-lactamase|KU546676.1|feces|PEN	EC-14	3006875	resfinder_fg
+159	Beta-lactamase|KJ512902.1|manure|CAR	ACI-1	3004359	resfinder_fg
+160	Beta-lactamase|KU544961.1|feces|AMX	EC-14	3006875	resfinder_fg
+161	Beta-lactamase|KU547163.1|latrine|PEN	GPC-1	3005096	resfinder_fg
+162	Beta-lactamase|KU547084.1|latrine|PEN	CARB-5	3002244	resfinder_fg
+163	Beta-lactamase|KX125879.1|human_gut|PEN	EC-5	3006880	resfinder_fg
+164	Beta-lactamase|JX009322.1|soil|PIP	PDC-161	3006540	resfinder_fg
+165	Beta-lactamase|KM113767.1|cow			resfinder_fg
+166	Beta-lactamase|KU544887.1|feces|CAZ	CMY-34	3002045	resfinder_fg
+167	Beta-lactamase|JX009324.1|soil|PIP	PDC-241	3006619	resfinder_fg
+168	Beta-lactamase|KU605837.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
+169	Beta-lactamase|KU547039.1|latrine|AMX	SCO-1	3004856	resfinder_fg
+170	Beta-lactamase|MK935730.1|Human_feces|PIP	CMY-66	3002079	resfinder_fg
+171	Beta-lactamase|GQ343073.1|human			resfinder_fg
+172	Vancomycin/teicoplanin			resfinder_fg
+173	Beta-lactamase|KU543973.1|sewage|AMX	GES-5	3002334	resfinder_fg
+174	Beta-lactamase|KU544179.1|sewage|FOX	ADC-221	3006390	resfinder_fg
+175	Beta-lactamase|KU606101.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
+176	Beta-lactamase|KF630193.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
+177	Beta-lactamase|KU606321.1|Preterm_infant_stool|AMP	ACT-56	3006251	resfinder_fg
+178	Beta-lactamase|KF630242.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
+179	Streptomycin			resfinder_fg
+180	Beta-lactamase|KU547859.1|latrine|AMX	CARB-49	3005583	resfinder_fg
+181	Beta-lactamase|MG739508.1|river|AMP	PDC-237	3006615	resfinder_fg
+182	Beta-lactamase|KF626778.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
+183	Beta-lactamase|KU606030.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
+184	Beta-lactamase|KU606042.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
+185	Beta-lactamase|GQ244494.1|soil|PIP	AQU-1	3002993	resfinder_fg
+186	Beta-lactamase|KU549001.1|feces|PEN	EC-14	3006875	resfinder_fg
+187	Dihydrofolate			resfinder_fg
+188	Beta-lactamase			resfinder_fg
+189	Beta-lactamase|KU606500.1|Preterm_infant_stool|ATM	ACT-50	3006245	resfinder_fg
+190	Beta-lactamase|KU607878.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
+191	Beta-lactamase|KU545283.1|feces|PEN	EC-5	3006880	resfinder_fg
+192	Beta-lactamase|KU545376.1|feces|PEN	EC-8	3006881	resfinder_fg
+193	Beta-lactamase|KC520484.1|Active			resfinder_fg
+194	Beta-lactamase|JM426737.1|gull_gut|AMP	EC-15	3006876	resfinder_fg
+195	Beta-lactamase|KU608085.1|Preterm_infant_stool|AMX	ACT-56	3006251	resfinder_fg
+196	Beta-lactamase|KU607207.1|Preterm_infant_stool|PIP	CMY-136	3004854	resfinder_fg
+197	Beta-lactamase|KU547455.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+198	Beta-lactamase|KU548550.1|soil|AMX	ACT-77	3006271	resfinder_fg
+199	Beta-lactamase|KX125511.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
+200	Beta-lactamase|KJ695915.1|Agricultural			resfinder_fg
+201	Beta-lactamase|JX009300.1|soil|PEN	EC-16	3006877	resfinder_fg
+202	Beta-lactamase|KJ910914.1|feces|TZP	CMY-132	3003652	resfinder_fg
+203	Beta-lactamase|GQ343018.1|human			resfinder_fg
+204	Beta-lactamase|KU545197.1|feces|AMX	EC-8	3006881	resfinder_fg
+205	Beta-lactamase|KU547808.1|latrine|PIP	ACI-1	3004359	resfinder_fg
+206	Beta-lactamase|MK935755.1|Human_feces|CST	EC-18	3006878	resfinder_fg
+207	Beta-lactamase|KX125963.1|newborn_gut|CTX	EC-15	3006876	resfinder_fg
+208	Beta-lactamase|KJ692663.1|grassland			resfinder_fg
+209	Beta-lactamase|KU606014.1|Preterm_infant_stool|AMP	LRG-1	3006941	resfinder_fg
+210	Beta-lactamase|KU606896.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
+211	putative			resfinder_fg
+212	Beta-lactamase|KU607363.1|Preterm_infant_stool|CAZ	ACC-1a	3006228	resfinder_fg
+213	Beta-lactamase|MK935748.1|Human_feces|CST	EC-14	3006875	resfinder_fg
+214	Beta-lactamase|KU607673.1|Preterm_infant_stool|PEN	MIR-16	3002181	resfinder_fg
+215	Beta-lactamase|KJ692539.1|grassland			resfinder_fg
+216	Beta-lactamase|KF629885.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
+217	Beta-lactamase|KU545121.1|feces|AMX	EC-14	3006875	resfinder_fg
+218	Beta-lactamase|KU547894.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+219	Beta-lactamase|KU544018.1|sewage|ATM	OCH-8	3002521	resfinder_fg
+220	Beta-lactamase|JM427368.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
+221	Beta-lactamase|KU547074.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+222	Beta-lactamase|KU544379.1|sewage|PIP	GES-5	3002334	resfinder_fg
+223	Beta-lactamase|JX009294.1|soil|PEN	SRT-3	3006853	resfinder_fg
+224	Beta-lactamase|KU607633.1|Preterm_infant_stool|AMX	MIR-12	3002177	resfinder_fg
+225	Beta-lactamase|KU608132.1|Preterm_infant_stool|PIP	ACT-56	3006251	resfinder_fg
+226	Beta-lactamase|KU545603.1|feces|PEN	CMY-136	3004854	resfinder_fg
+227	Beta-lactamase|JX009229.1|soil|CAR	PDC-343	3006713	resfinder_fg
+228	Beta-lactamase|JX009328.1|soil|PIP	SRT-3	3006853	resfinder_fg
+229	Beta-lactamase|KM113771.1|soil|CEF	LRA-10	3002489	resfinder_fg
+230	Beta-lactamase|KJ694385.1|grassland			resfinder_fg
+231	Beta-lactamase|KU546390.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+232	Beta-lactamase|KU547931.1|latrine|PIP	CARB-49	3005583	resfinder_fg
+233	Beta-lactamase|KU607100.1|Preterm_infant_stool|AMC	ACT-8	3001831	resfinder_fg
+234	Beta-lactamase|JM427660.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
+235	Beta-lactamase|MK935767.1|Human_feces|AMX	EC-5	3006880	resfinder_fg
+236	Beta-lactamase|KU547192.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+237	Beta-lactamase|KU547158.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+238	Beta-lactamase|KU607105.1|Preterm_infant_stool|ATM	EC-5	3006880	resfinder_fg
+239	Beta-lactamase|MK935776.1|Human_feces|CAZ	CMY-106	3002118	resfinder_fg
+240	Beta-lactamase|JX009301.1|soil|PEN	ACT-38	3003655	resfinder_fg
+241	Beta-lactamase|KF626746.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
+242	Beta-lactamase|KU545330.1|feces|AMX	EC-8	3006881	resfinder_fg
+243	Beta-lactamase|KJ694531.1|grassland			resfinder_fg
+244	Beta-lactamase|KU606072.1|Preterm_infant_stool|CAZ	ACT-74	3006268	resfinder_fg
+245	Beta-lactamase|KU548185.1|latrine|TZP	CARB-49	3005583	resfinder_fg
+246	Beta-lactamase|MK935746.1|Human_feces|PIP	EC-18	3006878	resfinder_fg
+247	Beta-lactamase|KU606096.1|Preterm_infant_stool|PEN	ACT-18	3001839	resfinder_fg
+248	Beta-lactamase|KU548168.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+249	Beta-lactamase|KU548080.1|latrine|PIP	EC-14	3006875	resfinder_fg
+250	Beta-lactamase|KU608094.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
+251	Beta-lactamase|KF630159.1|pediatric_fecal_sample|PEN	ACT-2	3001822	resfinder_fg
+252	Beta-lactamase|MG586041.1|antibiotics_polluted_stream_sediment|AMP	ADC-120	3006297	resfinder_fg
+253	Beta-lactamase|GQ244493.1|soil|CAZ	PDC-33	3006699	resfinder_fg
+254	Beta-lactamase|JX009295.1|soil|PEN	OCH-1	3002514	resfinder_fg
+255	Beta-lactamase|KU547525.1|feces|AMX	EC-5	3006880	resfinder_fg
+256	Beta-lactamase|KU606395.1|Preterm_infant_stool|PIP	ACT-32	3001852	resfinder_fg
+257	Carbapenem-hydrolyzing			resfinder_fg
+258	Beta-lactamase|KU544162.1|sewage|CTX	GES-1	3002330	resfinder_fg
+259	Beta-lactamase|KU544747.1|sewage|PIP	AER-1	3002481	resfinder_fg
+260	Beta-lactamase|KJ910910.1|feces|CAZ	EC-14	3006875	resfinder_fg
+261	Beta-lactamase|KX128686.1|newborn_gut|PIP	EC-5	3006880	resfinder_fg
+262	Beta-lactamase|KJ512941.1|manure|CAZ	Bla1	3000090	resfinder_fg
+263	Methicillin			resfinder_fg
+264	Beta-lactamase|KU548562.1|soil|PEN	ACT-77	3006271	resfinder_fg
+265	Beta-lactamase|MK935774.1|Human_feces|CST	EC-18	3006878	resfinder_fg
+266	Beta-lactamase|KU607869.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
+267	Beta-lactamase|KU607182.1|Preterm_infant_stool|CAZ	ACT-67	3006262	resfinder_fg
+268	Beta-lactamase|JM427694.1|gull_gut|PEN	EC-14	3006875	resfinder_fg
+269	Beta-lactamase|KU544194.1|sewage|FOX	ADC-84	3006441	resfinder_fg
+270	Beta-lactamase|KU547813.1|latrine|PIP	CARB-49	3005583	resfinder_fg
+271	Beta-lactamase|KF627385.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
+272	Beta-lactamase|KU546021.1|feces|PEN	EC-8	3006881	resfinder_fg
+273	Beta-lactamase|KU607584.1|Preterm_infant_stool|PEN	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
+274	Beta-lactamase|KU544841.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+275	Beta-lactamase|MK935749.1|Gorilla_feces|AMX	EC-5	3006880	resfinder_fg
+276	Beta-lactamase|KU544432.1|sewage|PIP	GES-1	3002330	resfinder_fg
 277	Beta-lactamase|MK935747.1|Human_feces|CST	EC-5	3006880	resfinder_fg
-278	Beta-lactamase|KU606249.1|Preterm_infant_stool|AMC	CMY-66	3002079	resfinder_fg
-279	Beta-lactamase|KF628556.1|pediatric_fecal_sample|PIP	EC-14	3006875	resfinder_fg
-280	Beta-lactamase|MK935736.1|Human_feces|ATM	EC-19	3006879	resfinder_fg
-281	Beta-lactamase|KJ910934.1|feces|TZP	EC-14	3006875	resfinder_fg
-282	Beta-lactamase|KU549001.1|feces|PEN	EC-14	3006875	resfinder_fg
-283	Beta-lactamase|KU544961.1|feces|AMX	EC-14	3006875	resfinder_fg
-284	Beta-lactamase|JX009207.1|soil|AMX	PDC-33	3006699	resfinder_fg
-285	Beta-lactamase|KJ693194.1|grassland			resfinder_fg
-286	Beta-lactamase|KU606004.1|Preterm_infant_stool|AMP	ACT-56	3006251	resfinder_fg
-287	Beta-lactamase|KJ512941.1|manure|CAZ	Bla1	3000090	resfinder_fg
-288	Beta-lactamase|KU547158.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-289	Beta-lactamase|KJ910989.1|feces|PEN	ROB-6	3005076	resfinder_fg
-290	Beta-lactamase|MK935756.1|Human_feces|CAZ	CMY-66	3002079	resfinder_fg
-291	Beta-lactamase|KU607761.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-292	Beta-lactamase|MK935990.1|Pan_troglodytes_feces|ATM	PDC-241	3006619	resfinder_fg
-293	Beta-lactamase|KF628448.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
-294	Beta-lactamase|KU606773.1|Preterm_infant_stool|AMP	ACI-1	3004359	resfinder_fg
-295	Beta-lactamase|JX009323.1|soil|PIP	SRT-3	3006853	resfinder_fg
-296	Beta-lactamase|KU607588.1|Preterm_infant_stool|PEN	MIR-9	3002174	resfinder_fg
-297	Beta-lactamase|KU547623.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-298	Beta-lactamase|KU605837.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-299	Beta-lactamase|KJ694180.1|grassland			resfinder_fg
-300	Beta-lactamase|KU549021.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-301	Beta-lactamase|KU606395.1|Preterm_infant_stool|PIP	ACT-32	3001852	resfinder_fg
-302	Beta-lactamase|KU607803.1|Preterm_infant_stool|PEN	CMY-87	3002100	resfinder_fg
-303	Beta-lactamase|KU608094.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-304	Beta-lactamase|KU544747.1|sewage|PIP	AER-1	3002481	resfinder_fg
-305	Beta-lactamase|KX125309.1|newborn_gut|TZP	CMY-132	3003652	resfinder_fg
-306	Beta-lactamase|KU607059.1|Preterm_infant_stool|AMP	ACT-67	3006262	resfinder_fg
-307	Beta-lactamase|KU544752.1|sewage|PIP	AER-1	3002481	resfinder_fg
-308	Beta-lactamase|KU607105.1|Preterm_infant_stool|ATM	EC-5	3006880	resfinder_fg
-309	Beta-lactamase|KJ910983.1|feces|CAZ	ROB-1	3002995	resfinder_fg
-310	Beta-lactamase|MK935742.1|Human_feces|CST	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-311	Beta-lactamase|KU545317.1|feces|AMX	EC-8	3006881	resfinder_fg
-312	Beta-lactamase|KU607814.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-313	Beta-lactamase|KF629077.1|pediatric_fecal_sample|PEN	EC-8	3006881	resfinder_fg
-314	Beta-lactamase|KU607160.1|Preterm_infant_stool|FOX	ACT-67	3006262	resfinder_fg
-315	Beta-lactamase|KU606886.1|Preterm_infant_stool|CAZ	CMY-136	3004854	resfinder_fg
-316	Beta-lactamase|KF626778.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
-317	Beta-lactamase|KU605821.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
-318	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine			resfinder_fg
-319	Beta-lactamase|MK935739.1|Human_feces|AMX	EC-18	3006878	resfinder_fg
-320	Beta-lactamase|KM113771.1|soil|CEF	LRA-10	3002489	resfinder_fg
-321	Beta-lactamase|KU544432.1|sewage|PIP	GES-1	3002330	resfinder_fg
-322	Beta-lactamase|KU547859.1|latrine|AMX	CARB-49	3005583	resfinder_fg
-323	Beta-lactamase|GQ343055.1|human			resfinder_fg
-324	Gentamicin			resfinder_fg
-325	Beta-lactamase|KU544812.1|feces|AMX	EC-15	3006876	resfinder_fg
-326	Beta-lactamase|KU606044.1|Preterm_infant_stool|AMC	ACT-56	3006251	resfinder_fg
-327	Beta-lactamase|MK935740.1|Human_feces|AMP	EC-19	3006879	resfinder_fg
-328	Vancomycin			resfinder_fg
-329	Beta-lactamase|JX009204.1|soil|AMX	SRT-3	3006853	resfinder_fg
-330	Beta-lactamase|KM113767.1|cow			resfinder_fg
-331	Beta-lactamase|KX125968.1|newborn_gut|PIP	EC-15	3006876	resfinder_fg
-332	Beta-lactamase|MK935759.1|Human_feces|CST	CMY-66	3002079	resfinder_fg
-333	Beta-lactamase|KF630159.1|pediatric_fecal_sample|PEN	ACT-2	3001822	resfinder_fg
-334	Extended-spectrum			resfinder_fg
-335	Beta-lactamase|KU606014.1|Preterm_infant_stool|AMP	LRG-1	3006941	resfinder_fg
-336	Beta-lactamase|KF626746.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
-337	Beta-lactamase|KX128184.1|newborn_gut|ATM	ACI-1	3004359	resfinder_fg
-338	Beta-lactamase|JX009295.1|soil|PEN	OCH-1	3002514	resfinder_fg
-339	Beta-lactamase|KU606067.1|Preterm_infant_stool|FOX	CMY-136	3004854	resfinder_fg
-340	Beta-lactamase|KU606500.1|Preterm_infant_stool|ATM	ACT-50	3006245	resfinder_fg
-341	Beta-lactamase|KU545190.1|feces|AMX	EC-8	3006881	resfinder_fg
-342	Beta-lactamase|KU546206.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-343	Beta-lactamase|KU606096.1|Preterm_infant_stool|PEN	ACT-18	3001839	resfinder_fg
-344	Beta-lactamase|MK935932.1|Gorilla_feces|AMP	ACI-1	3004359	resfinder_fg
-345	Beta-lactamase|KX126612.1|newborn_gut|PEN	EC-14	3006875	resfinder_fg
-346	Beta-lactamase|KU545271.1|feces|ATM	EC-5	3006880	resfinder_fg
-347	Beta-lactamase|KU607514.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-348	Beta-lactamase|KU548341.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-349	Beta-lactamase|KX128677.1|newborn_gut|PEN	CMY-132	3003652	resfinder_fg
-350	Beta-lactamase|KU548550.1|soil|AMX	ACT-77	3006271	resfinder_fg
-351	Beta-lactamase|KU547136.1|latrine|AMX	GPC-1	3005096	resfinder_fg
-352	Beta-lactamase|GQ343018.1|human			resfinder_fg
-353	Beta-lactamase|JM426737.1|gull_gut|AMP	EC-15	3006876	resfinder_fg
-354	Beta-lactamase|KF033132.1|river			resfinder_fg
-355	Beta-lactamase|KU548288.1|latrine|AMX	CARB-49	3005583	resfinder_fg
-356	Beta-lactamase|JX009324.1|soil|PIP	PDC-241	3006619	resfinder_fg
-357	Beta-lactamase|KJ694733.1|grassland			resfinder_fg
-358	Beta-lactamase|MK935732.1|Human_feces|AMP	EC-14	3006875	resfinder_fg
-359	Beta-lactamase|KU547080.1|latrine|PEN	CARB-8	3002247	resfinder_fg
-360	Beta-lactamase|MK935745.1|Human_feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-361	Beta-lactamase|KU545603.1|feces|PEN	CMY-136	3004854	resfinder_fg
-362	Beta-lactamase|KU544155.1|sewage|CTX	PAC-1	3005150	resfinder_fg
-363	Beta-lactamase|KF628224.1|pediatric_fecal_sample|PEN	EC-15	3006876	resfinder_fg
-364	Streptomycin			resfinder_fg
-365	Beta-lactamase|KX128852.1|newborn_gut|PEN	CMY-136	3004854	resfinder_fg
-366	Beta-lactamase|KX126958.1|newborn_gut|PIP	EC-5	3006880	resfinder_fg
-367	Beta-lactamase|KU547881.1|latrine|PEN	EC-14	3006875	resfinder_fg
-368	Beta-lactamase|KU607954.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-369	Beta-lactamase|KJ910933.1|feces|PEN	EC-18	3006878	resfinder_fg
-370	Beta-lactamase|KU544018.1|sewage|ATM	OCH-8	3002521	resfinder_fg
-371	Beta-lactamase|KU607578.1|Preterm_infant_stool|CAZ	EC-5	3006880	resfinder_fg
-372	Beta-lactamase|KU547034.1|latrine|AMX	CARB-8	3002247	resfinder_fg
-373	Beta-lactamase|KU607300.1|Preterm_infant_stool|PIP	EC-8	3006881	resfinder_fg
-374	Beta-lactamase|JX009300.1|soil|PEN	EC-16	3006877	resfinder_fg
-375	Beta-lactamase|KJ910936.1|feces|PIP	EC-18	3006878	resfinder_fg
-376	Beta-lactamase|KU607238.1|Preterm_infant_stool|AMP	CMY-85	3002098	resfinder_fg
-377	Beta-lactamase|KU607207.1|Preterm_infant_stool|PIP	CMY-136	3004854	resfinder_fg
-378	Beta-lactamase|KU545149.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-379	Beta-lactamase|KU606570.1|Preterm_infant_stool|AMX	EC-8	3006881	resfinder_fg
-380	Aminoglycoside			resfinder_fg
-381	Beta-lactamase|KU606137.1|Preterm_infant_stool|PIP	EC-5	3006880	resfinder_fg
-382	Beta-lactamase|MK935751.1|Human_feces|PEN	EC-5	3006880	resfinder_fg
-383	Beta-lactamase|KU548185.1|latrine|TZP	CARB-49	3005583	resfinder_fg
-384	Beta-lactamase|KU545230.1|feces|AMX	EC-8	3006881	resfinder_fg
-385	Beta-lactamase|KJ693456.1|grassland			resfinder_fg
+278	Beta-lactamase|KX125271.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
+279	Beta-lactamase|KU547776.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+280	Beta-lactamase|KU547910.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+281	Beta-lactamase|MK935949.1|Gorilla_feces|PIP	ACI-1	3004359	resfinder_fg
+282	Beta-lactamase|JM426738.1|gull_gut|AMP	EC-15	3006876	resfinder_fg
+283	Beta-lactamase|KU545809.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+284	Beta-lactamase|KU606067.1|Preterm_infant_stool|FOX	CMY-136	3004854	resfinder_fg
+285	Beta-lactamase|MK935731.1|Human_feces|AMP	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+286	Beta-lactamase|KU546633.1|feces|AMX	EC-14	3006875	resfinder_fg
+287	Beta-lactamase|JX009204.1|soil|AMX	SRT-3	3006853	resfinder_fg
+288	Beta-lactamase|KU607810.1|Preterm_infant_stool|PEN	ACT-56	3006251	resfinder_fg
+289	Beta-lactamase|FN640467.1|loamy			resfinder_fg
+290	Beta-lactamase|JM427353.1|gull_gut|PEN	EC-8	3006881	resfinder_fg
+291	Beta-lactamase|KX126958.1|newborn_gut|PIP	EC-5	3006880	resfinder_fg
+292	Beta-lactamase|KU608095.1|Preterm_infant_stool|AMC	ACT-18	3001839	resfinder_fg
+293	Beta-lactamase|KM113770.1|soil|CEF	PDC-241	3006619	resfinder_fg
+294	Beta-lactamase|KC520483.1|Active			resfinder_fg
+295	Beta-lactamase|KU607685.1|Preterm_infant_stool|PIP	MIR-12	3002177	resfinder_fg
+296	Beta-lactamase|KU548922.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+297	Beta-lactamase|KJ692949.1|grassland			resfinder_fg
+298	Beta-lactamase|KU547080.1|latrine|PEN	CARB-8	3002247	resfinder_fg
+299	Beta-lactamase|KU607814.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
+300	Beta-lactamase|KJ695366.1|Agricultural			resfinder_fg
+301	Beta-lactamase|KU548998.1|feces|CTX	CMY-66	3002079	resfinder_fg
+302	Beta-lactamase|MK935732.1|Human_feces|AMP	EC-14	3006875	resfinder_fg
+303	Beta-lactamase|KU607257.1|Preterm_infant_stool|PIP	ACT-74	3006268	resfinder_fg
+304	Beta-lactamase|KU548341.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+305	Beta-lactamase|JX009235.1|soil|CAR	SRT-3	3006853	resfinder_fg
+306	Beta-lactamase|KX125631.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
+307	Beta-lactamase|KU607578.1|Preterm_infant_stool|CAZ	EC-5	3006880	resfinder_fg
+308	Beta-lactamase|KU548903.1|feces|CTX	CMY-157	3005198	resfinder_fg
+309	Beta-lactamase|MK935754.1|Human_feces|CST	CMY-106	3002118	resfinder_fg
+310	Beta-lactamase|MG739509.1|river|AMP	RSA2-1	3006981	resfinder_fg
+311	Beta-lactamase|KU545266.1|feces|AMX	EC-5	3006880	resfinder_fg
+312	Beta-lactamase|KU607300.1|Preterm_infant_stool|PIP	EC-8	3006881	resfinder_fg
+313	Beta-lactamase|KU606886.1|Preterm_infant_stool|CAZ	CMY-136	3004854	resfinder_fg
+314	Beta-lactamase|KX127043.1|newborn_gut|CTX	CMY-132	3003652	resfinder_fg
+315	SPbeta			resfinder_fg
+316	Beta-lactamase|MK935775.1|Human_feces|PIP	EC-14	3006875	resfinder_fg
+317	Beta-lactamase|KX128617.1|newborn_gut|CAZ	EC-5	3006880	resfinder_fg
+318	Beta-lactamase|MK935751.1|Human_feces|PEN	EC-5	3006880	resfinder_fg
+319	Beta-lactamase|KJ693194.1|grassland			resfinder_fg
+320	Beta-lactamase|KU607886.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
+321	Beta-lactamase|KU544777.1|sewage|PIP	RCP-1	3003563	resfinder_fg
+322	Ribosomal			resfinder_fg
+323	Pentapeptide			resfinder_fg
+324	Beta-lactamase|KU545278.1|feces|CTX	EC-5	3006880	resfinder_fg
+325	Beta-lactamase|KX125964.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
+326	Beta-lactamase|KU547136.1|latrine|AMX	GPC-1	3005096	resfinder_fg
+327	Beta-lactamase|KU606044.1|Preterm_infant_stool|AMC	ACT-56	3006251	resfinder_fg
+328	Beta-lactamase|MK935990.1|Pan_troglodytes_feces|ATM	PDC-241	3006619	resfinder_fg
+329	Beta-lactamase|KU544155.1|sewage|CTX	PAC-1	3005150	resfinder_fg
+330	Beta-lactamase|KU543700.1|feces|CTX	CMY-132	3003652	resfinder_fg
+331	Beta-lactamase|KJ910983.1|feces|CAZ	ROB-1	3002995	resfinder_fg
+332	Beta-lactamase|KU548165.1|latrine|PEN	CARB-49	3005583	resfinder_fg
+333	Beta-lactamase|KU548492.1|soil|PIP	AXC-2	3006898	resfinder_fg
+334	Beta-lactamase|JX009209.1|soil|AMX	SRT-3	3006853	resfinder_fg
+335	Beta-lactamase|KU605898.1|Preterm_infant_stool|CAZ	MIR-9	3002174	resfinder_fg
+336	Beta-lactamase|KU544207.1|sewage|FOX	ADC-84	3006441	resfinder_fg
+337	Beta-lactamase|KU607829.1|Preterm_infant_stool|PIP	ACT-8	3001831	resfinder_fg
+338	Beta-lactamase|KU548878.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+339	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine			resfinder_fg
+340	Beta-lactamase|KU545645.1|feces|AMX	EC-5	3006880	resfinder_fg
+341	Beta-lactamase|KJ695330.1|Agricultural			resfinder_fg
+342	Beta-lactamase|KU547600.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+343	Beta-lactamase|KU546585.1|feces|PEN	EC-15	3006876	resfinder_fg
+344	Beta-lactamase|KX125523.1|newborn_gut|CTX	CMY-132	3003652	resfinder_fg
+345	Beta-lactamase|KX125968.1|newborn_gut|PIP	EC-15	3006876	resfinder_fg
+346	Beta-lactamase|JM427352.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
+347	Beta-lactamase|KU547469.1|feces|PEN	EC-14	3006875	resfinder_fg
+348	Beta-lactamase|MK935770.1|Human_feces|AMP	EC-5	3006880	resfinder_fg
+349	Beta-lactamase|MK935760.1|Human_feces|PEN	CMY-106	3002118	resfinder_fg
+350	Beta-lactamase|KU606773.1|Preterm_infant_stool|AMP	ACI-1	3004359	resfinder_fg
+351	Dihydropteroate			resfinder_fg
+352	Beta-lactamase|KX128184.1|newborn_gut|ATM	ACI-1	3004359	resfinder_fg
+353	Beta-lactamase|KU607561.1|Preterm_infant_stool|FOX	ACT-32	3001852	resfinder_fg
+354	Beta-lactamase|KU548288.1|latrine|AMX	CARB-49	3005583	resfinder_fg
+355	Beta-lactamase|KU545271.1|feces|ATM	EC-5	3006880	resfinder_fg
+356	Beta-lactamase|KU606494.1|Preterm_infant_stool|AMC	ACT-50	3006245	resfinder_fg
+357	Extended-spectrum			resfinder_fg
+358	Beta-lactamase|KU606570.1|Preterm_infant_stool|AMX	EC-8	3006881	resfinder_fg
+359	Beta-lactamase|MK935739.1|Human_feces|AMX	EC-18	3006878	resfinder_fg
+360	Beta-lactamase|KU605821.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
+361	chloramphenicol			resfinder_fg
+362	Beta-lactamase|MK935758.1|Human_feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+363	Beta-lactamase|KX125309.1|newborn_gut|TZP	CMY-132	3003652	resfinder_fg
+364	Beta-lactamase|KJ694733.1|grassland			resfinder_fg
+365	Beta-lactamase|KU608079.1|Preterm_infant_stool|AMP	CMY-136	3004854	resfinder_fg
+366	Beta-lactamase|MK935759.1|Human_feces|CST	CMY-66	3002079	resfinder_fg
+367	Beta-lactamase|KX125529.1|newborn_gut|FOX	CMY-132	3003652	resfinder_fg
+368	Beta-lactamase|KX127900.1|newborn_gut|CAZ	CMY-132	3003652	resfinder_fg
+369	Metallo-beta-lactamase			resfinder_fg
+370	Beta-lactamase|MK935932.1|Gorilla_feces|AMP	ACI-1	3004359	resfinder_fg
+371	Beta-lactamase|KU607588.1|Preterm_infant_stool|PEN	MIR-9	3002174	resfinder_fg
+372	Beta-lactamase|MW234456.1|duck			resfinder_fg
+373	Beta-lactamase|KF628772.1|pediatric_fecal_sample|PIP	EC-14	3006875	resfinder_fg
+374	Beta-lactamase|KU607160.1|Preterm_infant_stool|FOX	ACT-67	3006262	resfinder_fg
+375	Beta-lactamase|MK935753.1|Human_feces|CST	EC-19	3006879	resfinder_fg
+376	Beta-lactamase|KU548678.1|soil|CTX	ACT-78	3006272	resfinder_fg
+377	Beta-lactamase|MK935742.1|Human_feces|CST	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+378	Beta-lactamase|KU545536.1|feces|PEN	EC-5	3006880	resfinder_fg
+379	Beta-lactamase|KX125570.1|newborn_gut|CAZ	CMY-132	3003652	resfinder_fg
+380	Beta-lactamase|KU606526.1|Preterm_infant_stool|FOX	ACT-50	3006245	resfinder_fg
+381	Beta-lactamase|KU546748.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+382	Beta-lactamase|KJ694078.1|grassland			resfinder_fg
+383	Beta-lactamase|KX127051.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
+384	Beta-lactamase|KU605824.1|Preterm_infant_stool|AMX	MIR-10	3002175	resfinder_fg
+385	Beta-lactamase|KU543933.1|sewage|AMX	SCO-1	3004856	resfinder_fg
 386	Beta-lactamase CTX-M-97|EU885954.1|larval midguts|CAR	LRG-1	3006941	resfinder_fg
 387	Beta-lactamase CTX-M-1|KF791056.1|retail host|AMP	ERP-1	3004782	resfinder_fg
 388	Dihydrofolate reductase|KF791059.1|retail host|TMP	dfrA3	3003105	resfinder_fg
@@ -425,7 +425,7 @@
 423	16S rRNA (guanine(1405)-N(7))-methyltransferase|MK935864.1|Pan_troglodytes_feces|GEN	rmtD	3002667	resfinder_fg
 424	16S rRNA (guanine(1405)-N(7))-methyltransferase|MK935865.1|Gorilla_feces|GEN	sgm	3000862	resfinder_fg
 425	16S rRNA (guanine(1405)-N(7))-methyltransferase|MK935867.1|Gorilla_feces|GEN	rmtF	3002666	resfinder_fg
-426	16S rRNA (guanine(1405)-N(7))-methyltransferase|MK935868.1|Gorilla_feces|GEN	rmtD	3002667	resfinder_fg
+426	16S rRNA (guanine(1405)-N(7))-methyltransferase|MK935868.1|Gorilla_feces|GEN	rmtD2	3004677	resfinder_fg
 427	16S rRNA (guanine(1405)-N(7))-methyltransferase|MK935869.1|Pan_troglodytes_feces|GEN	sgm	3000862	resfinder_fg
 428	16S rRNA (guanine(1405)-N(7))-methyltransferase|MK935872.1|Pan_troglodytes_feces|GEN	sgm	3000862	resfinder_fg
 429	Beta-lactamase SHV-1|MK935873.1|Human_feces|CST	LEN-16	3002464	resfinder_fg
@@ -530,7 +530,7 @@
 528	Dihydrofolate reductase|KJ691937.1|grassland soil|TMP	dfrI	3004645	resfinder_fg
 529	putative beta-lactamase YbxI|KJ691939.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
 530	Beta-lactamase Toho-1|KJ691941.1|grassland soil|PEN	CTX-M-86	3001946	resfinder_fg
-531	Beta-lactamase OXA-2|KJ691944.1|grassland soil|PEN	OXA-347	3001777	resfinder_fg
+531	Beta-lactamase OXA-2|KJ691944.1|grassland soil|PEN	OXA-198	3001805	resfinder_fg
 532	D-alanine--D-alanine ligase|KJ691947.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 533	Dihydrofolate reductase|KJ691954.1|grassland soil|SXT	dfrG	3002868	resfinder_fg
 534	Dihydrofolate reductase|KJ691958.1|grassland soil|TMP	dfrG	3002868	resfinder_fg
@@ -554,7 +554,7 @@
 552	Dihydrofolate reductase type 3|KJ692028.1|grassland soil|SXT	dfrA3	3003105	resfinder_fg
 553	Dihydrofolate reductase|KJ692029.1|grassland soil|SXT	dfrA3	3003105	resfinder_fg
 554	Dihydrofolate reductase|KJ692032.1|grassland soil|SXT	dfrA22	3003018	resfinder_fg
-555	Dihydrofolate reductase|KJ692033.1|grassland soil|SXT	dfrG	3002868	resfinder_fg
+555	Dihydrofolate reductase|KJ692033.1|grassland soil|SXT	dfr22	3005354	resfinder_fg
 556	Dihydrofolate reductase type 3|KJ692038.1|grassland soil|TMP	dfrA26	3002857	resfinder_fg
 557	Dihydrofolate reductase|KJ692039.1|grassland soil|TMP	dfrA3	3003105	resfinder_fg
 558	16S rRNA (guanine(1405)-N(7))-methyltransferase|KJ692040.1|grassland soil|GEN	sgm	3000862	resfinder_fg
@@ -620,7 +620,7 @@
 618	Dihydrofolate reductase|KJ692376.1|grassland soil|TMP	dfrK	3002869	resfinder_fg
 619	Dihydrofolate reductase|KJ692378.1|grassland soil|TMP	dfrI	3004645	resfinder_fg
 620	Dihydrofolate reductase|KJ692379.1|grassland soil|TMP	dfrA3	3003105	resfinder_fg
-621	Beta-lactamase OXA-10|KJ692398.1|grassland soil|PEN	OXA-571	3005326	resfinder_fg
+621	Beta-lactamase OXA-10|KJ692398.1|grassland soil|PEN	OXA-60	3001808	resfinder_fg
 622	Dihydrofolate reductase|KJ692402.1|grassland soil|TMP	dfrA20	3003016	resfinder_fg
 623	D-alanine--D-alanine ligase|KJ692407.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 624	Dihydrofolate reductase|KJ692427.1|grassland soil|TMP	dfrA35	3005164	resfinder_fg
@@ -1035,7 +1035,7 @@
 1033	Dihydrofolate reductase type 3|KJ694619.1|grassland soil|TMP	dfrA26	3002857	resfinder_fg
 1034	Dihydrofolate reductase|KJ694620.1|grassland soil|TMP	dfrA35	3005164	resfinder_fg
 1035	Dihydrofolate reductase type 3|KJ694621.1|grassland soil|TMP	dfrA3	3003105	resfinder_fg
-1036	Beta-lactamase OXA-10|KJ694629.1|grassland soil|PEN	OXA-347	3001777	resfinder_fg
+1036	Beta-lactamase OXA-10|KJ694629.1|grassland soil|PEN	OXA-60	3001808	resfinder_fg
 1037	Extended-spectrum beta-lactamase PER-1|KJ694633.1|grassland soil|PEN	TLA-1	3003202	resfinder_fg
 1038	Tetracycline resistance protein%2C class C|KJ694639.1|grassland soil|TET	tet(D)	3000168	resfinder_fg
 1039	D-alanine--D-alanine ligase A|KJ694644.1|grassland soil|CYC	vanG	3002909	resfinder_fg
@@ -1144,7 +1144,7 @@
 1142	Carbapenem-hydrolyzing beta-lactamase KPC|KJ695017.1|Agricultural soil|CAZ	LRA-5	3002483	resfinder_fg
 1143	Tetracycline resistance protein%2C class C|KJ695022.1|Agricultural soil|TET	tet(D)	3000168	resfinder_fg
 1144	Tetracycline resistance protein%2C class C|KJ695023.1|Agricultural soil|TET	tet(C)	3000167	resfinder_fg
-1145	Dihydrofolate reductase|KJ695026.1|Agricultural soil|TMP	DfrA38	3005349	resfinder_fg
+1145	Dihydrofolate reductase|KJ695026.1|Agricultural soil|TMP	dfr22	3005354	resfinder_fg
 1146	Dihydrofolate reductase type 3|KJ695031.1|Agricultural soil|SXT	dfrA3	3003105	resfinder_fg
 1147	Dihydrofolate reductase|KJ695032.1|Agricultural soil|TMP	dfrA24	3002856	resfinder_fg
 1148	Metallo-beta-lactamase L1 type 3|KJ695034.1|Agricultural soil|CAZ	Rm3	3003894	resfinder_fg
@@ -1508,8 +1508,8 @@
 1506	Beta-lactamase SHV-1|KU606003.1|Preterm_infant_stool|AMP	SHV-11	3001070	resfinder_fg
 1507	Beta-lactamase OXY-1|KU606211.1|Preterm_infant_stool|PIP	OXY-6-4	3002416	resfinder_fg
 1508	Beta-lactamase OXY-2|KU606242.1|Preterm_infant_stool|AMP	OXY-2-4	3002399	resfinder_fg
-1509	Beta-lactamase SHV-1|KU606324.1|Preterm_infant_stool|AMX	OKP-B-22	3006144	resfinder_fg
-1510	Beta-lactamase SHV-1|KU606394.1|Preterm_infant_stool|PIP	OKP-B-22	3006144	resfinder_fg
+1509	Beta-lactamase SHV-1|KU606324.1|Preterm_infant_stool|AMX	OKP-B-6	3002439	resfinder_fg
+1510	Beta-lactamase SHV-1|KU606394.1|Preterm_infant_stool|PIP	OKP-B-6	3002439	resfinder_fg
 1511	Beta-lactamase TEM|KU606420.1|Preterm_infant_stool|AMP	ORN-1	3006957	resfinder_fg
 1512	Beta-lactamase SHV-1|KU606425.1|Preterm_infant_stool|AMC	SHV-1	3001059	resfinder_fg
 1513	Beta-lactamase TEM|KU606537.1|Preterm_infant_stool|PEN	ORN-1	3006957	resfinder_fg
@@ -1517,14 +1517,14 @@
 1515	Beta-lactamase SHV-1|KU606562.1|Preterm_infant_stool|AMP	SHV-11	3001070	resfinder_fg
 1516	Beta-lactamase SHV-1|KU606575.1|Preterm_infant_stool|AMX	SHV-11	3001070	resfinder_fg
 1517	tetracycline resistance ribosomal protection protein Tet(M)|KU606656.1|Preterm_infant_stool|TET	tetM	3000186	resfinder_fg
-1518	Beta-lactamase SHV-1|KU606783.1|Preterm_infant_stool|AMC	OKP-B-22	3006144	resfinder_fg
+1518	Beta-lactamase SHV-1|KU606783.1|Preterm_infant_stool|AMC	OKP-B-6	3002439	resfinder_fg
 1519	Beta-lactamase OXY-1|KU606908.1|Preterm_infant_stool|PIP	OXY-1-2	3002390	resfinder_fg
 1520	tetracycline resistance ribosomal protection protein Tet(M)|KU606927.1|Preterm_infant_stool|TET	tetM	3000186	resfinder_fg
 1521	tetracycline resistance ribosomal protection protein Tet(W)|KU606935.1|Preterm_infant_stool|TET	tet(W/N/W)	3004442	resfinder_fg
-1522	Beta-lactamase SHV-1|KU606942.1|Preterm_infant_stool|AMP	OKP-B-22	3006144	resfinder_fg
-1523	Beta-lactamase SHV-1|KU606955.1|Preterm_infant_stool|AMX	OKP-B-22	3006144	resfinder_fg
-1524	Beta-lactamase SHV-1|KU606965.1|Preterm_infant_stool|AMC	OKP-B-22	3006144	resfinder_fg
-1525	Beta-lactamase SHV-1|KU607031.1|Preterm_infant_stool|PIP	OKP-B-22	3006144	resfinder_fg
+1522	Beta-lactamase SHV-1|KU606942.1|Preterm_infant_stool|AMP	OKP-B-6	3002439	resfinder_fg
+1523	Beta-lactamase SHV-1|KU606955.1|Preterm_infant_stool|AMX	OKP-B-6	3002439	resfinder_fg
+1524	Beta-lactamase SHV-1|KU606965.1|Preterm_infant_stool|AMC	OKP-B-6	3002439	resfinder_fg
+1525	Beta-lactamase SHV-1|KU607031.1|Preterm_infant_stool|PIP	OKP-B-6	3002439	resfinder_fg
 1526	Beta-lactamase OXY-1|KU607107.1|Preterm_infant_stool|ATM	OXY-1-3	3002391	resfinder_fg
 1527	Chloramphenicol acetyltransferase|KU607141.1|Preterm_infant_stool|CHL	catA4	3004657	resfinder_fg
 1528	Beta-lactamase OXY-1|KU607236.1|Preterm_infant_stool|AMP	OXY-1-1	3002389	resfinder_fg
@@ -1537,8 +1537,8 @@
 1535	tetracycline resistance ribosomal protection protein Tet(W)|KU607844.1|Preterm_infant_stool|TET	tet(W/N/W)	3004442	resfinder_fg
 1536	Tetracycline resistance protein TetO|KU607847.1|Preterm_infant_stool|TET	tetQ	3000191	resfinder_fg
 1537	Tetracycline resistance protein TetO|KU607965.1|Preterm_infant_stool|TET	tetQ	3000191	resfinder_fg
-1538	Beta-lactamase SHV-1|KU608109.1|Preterm_infant_stool|FOX	OKP-B-22	3006144	resfinder_fg
-1539	Beta-lactamase SHV-1|KU608128.1|Preterm_infant_stool|PIP	OKP-B-22	3006144	resfinder_fg
+1538	Beta-lactamase SHV-1|KU608109.1|Preterm_infant_stool|FOX	OKP-B-6	3002439	resfinder_fg
+1539	Beta-lactamase SHV-1|KU608128.1|Preterm_infant_stool|PIP	OKP-B-6	3002439	resfinder_fg
 1540	tetracycline resistance ribosomal protection protein Tet(M)|KU608148.1|Preterm_infant_stool|TET	tetM	3000186	resfinder_fg
 1541	Beta-lactamase 1|KU608166.1|Preterm_infant_stool|AMP	CBP-1	3004764	resfinder_fg
 1542	ABC-F type ribosomal protection protein Msr(E)|MG585948.1|pharmaceutical_effluent|AZM	msrE	3003109	resfinder_fg
@@ -1912,7 +1912,7 @@
 1910	D-alanine--D-alanine ligase B|KF626830.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 1911	Dihydrofolate reductase|KF626831.1|pediatric_fecal_sample|SXT	dfrA3	3003105	resfinder_fg
 1912	Dihydrofolate reductase|KF626836.1|pediatric_fecal_sample|SXT	dfrG	3002868	resfinder_fg
-1913	Dihydrofolate reductase|KF626842.1|pediatric_fecal_sample|TMP	dfrG	3002868	resfinder_fg
+1913	Dihydrofolate reductase|KF626842.1|pediatric_fecal_sample|TMP	dfr22	3005354	resfinder_fg
 1914	Dihydrofolate reductase|KF626846.1|pediatric_fecal_sample|TMP	DfrA36	3005348	resfinder_fg
 1915	Dihydrofolate reductase|KF626850.1|pediatric_fecal_sample|TMP	dfrE	3002875	resfinder_fg
 1916	tetracycline resistance ribosomal protection protein Tet(O)|KF626853.1|pediatric_fecal_sample|TET	tetO	3000190	resfinder_fg
@@ -2216,7 +2216,7 @@
 2214	D-alanine--D-alanine ligase|KF628277.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 2215	D-alanine--D-alanine ligase A|KF628295.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 2216	Dihydrofolate reductase|KF628298.1|pediatric_fecal_sample|TMP	dfrA26	3002857	resfinder_fg
-2217	Dihydrofolate reductase|KF628299.1|pediatric_fecal_sample|SXT	dfrG	3002868	resfinder_fg
+2217	Dihydrofolate reductase|KF628299.1|pediatric_fecal_sample|SXT	dfr22	3005354	resfinder_fg
 2218	Dihydrofolate reductase|KF628300.1|pediatric_fecal_sample|SXT	DfrA36	3005348	resfinder_fg
 2219	Dihydrofolate reductase|KF628308.1|pediatric_fecal_sample|TMP	DfrA36	3005348	resfinder_fg
 2220	D-alanine--D-alanine ligase A|KF628310.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
@@ -2670,7 +2670,7 @@
 2668	Beta-lactamase OXA-2|KU543984.1|sewage|AMX	OXA-205	3001483	resfinder_fg
 2669	Beta-lactamase OXA-15|KU543988.1|sewage|AMX	OXA-15	3001410	resfinder_fg
 2670	Beta-lactamase OXA-2|KU544007.1|sewage|AMX	OXA-2	3001397	resfinder_fg
-2671	Beta-lactamase CTX-M-97|KU544013.1|sewage|ATM	CTX-M-235	3005658	resfinder_fg
+2671	Beta-lactamase CTX-M-97|KU544013.1|sewage|ATM	CTX-M-14	3001877	resfinder_fg
 2672	Extended-spectrum beta-lactamase PER-1|KU544014.1|sewage|ATM	VEB-1	3002370	resfinder_fg
 2673	Extended-spectrum beta-lactamase PER-1|KU544023.1|sewage|ATM	TLA-3	3003204	resfinder_fg
 2674	Chloramphenicol acetyltransferase|KU544029.1|sewage|CHL	catB3	3002676	resfinder_fg
@@ -2824,7 +2824,7 @@
 2822	Chloramphenicol acetyltransferase|KU545838.1|feces|CHL	Campylobacter coli chloramphenicol acetyltransferase	3004454	resfinder_fg
 2823	Extended-spectrum beta-lactamase PER-1|KU545864.1|feces|CAZ	CblA-1	3002999	resfinder_fg
 2824	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU545868.1|feces|GEN	rmtB	3000860	resfinder_fg
-2825	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU545869.1|feces|GEN	rmtD	3002667	resfinder_fg
+2825	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU545869.1|feces|GEN	rmtD2	3004677	resfinder_fg
 2826	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU545874.1|feces|GEN	rmtF	3002666	resfinder_fg
 2827	tetracycline resistance ribosomal protection protein Tet(O)|KU545887.1|feces|TET	tetO	3000190	resfinder_fg
 2828	Tetracycline resistance protein%2C class B|KU545892.1|feces|TET	tet(B)	3000166	resfinder_fg
@@ -2886,7 +2886,7 @@
 2884	Extended-spectrum beta-lactamase PER-1|KU546632.1|feces|AMX	CblA-1	3002999	resfinder_fg
 2885	Extended-spectrum beta-lactamase PER-1|KU546634.1|feces|AMX	CblA-1	3002999	resfinder_fg
 2886	Beta-lactamase OXA-10|KU546638.1|feces|AMX	OXA-85	3001780	resfinder_fg
-2887	chloramphenicol efflux MFS transporter CmlA1|KU546654.1|feces|CHL	cmlA6	3002696	resfinder_fg
+2887	chloramphenicol efflux MFS transporter CmlA1|KU546654.1|feces|CHL	cmlA1	3002693	resfinder_fg
 2888	Extended-spectrum beta-lactamase PER-1|KU546669.1|feces|CAZ	CblA-1	3002999	resfinder_fg
 2889	Extended-spectrum beta-lactamase PER-1|KU546677.1|feces|PEN	CblA-1	3002999	resfinder_fg
 2890	tetracycline resistance ribosomal protection protein TetB(P)|KU546683.1|feces|TET	tetB(P)	3000195	resfinder_fg
@@ -2917,8 +2917,8 @@
 2915	Chloramphenicol acetyltransferase|KU546900.1|feces|CHL	catP	3002686	resfinder_fg
 2916	Chloramphenicol acetyltransferase|KU546902.1|feces|CHL	catQ	3002687	resfinder_fg
 2917	Chloramphenicol acetyltransferase|KU546907.1|feces|CHL	catQ	3002687	resfinder_fg
-2918	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU546924.1|feces|GEN	rmtD	3002667	resfinder_fg
-2919	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU546928.1|feces|GEN	rmtD	3002667	resfinder_fg
+2918	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU546924.1|feces|GEN	rmtD2	3004677	resfinder_fg
+2919	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU546928.1|feces|GEN	rmtD2	3004677	resfinder_fg
 2920	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU546929.1|feces|GEN	rmtB	3000860	resfinder_fg
 2921	Tetracycline resistance protein TetO|KU546937.1|feces|TET	tetQ	3000191	resfinder_fg
 2922	tetracycline resistance ribosomal protection protein Tet(O)|KU546939.1|feces|TET	tetO	3000190	resfinder_fg
@@ -2977,7 +2977,7 @@
 2975	Extended-spectrum beta-lactamase PER-1|KU547684.1|feces|ATM	CepA-44	3006225	resfinder_fg
 2976	Extended-spectrum beta-lactamase PER-1|KU547691.1|feces|CAZ	CepA-44	3006225	resfinder_fg
 2977	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU547692.1|feces|GEN	rmtF	3002666	resfinder_fg
-2978	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU547701.1|feces|GEN	rmtD	3002667	resfinder_fg
+2978	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU547701.1|feces|GEN	rmtD2	3004677	resfinder_fg
 2979	tetracycline resistance ribosomal protection protein Tet(32)|KU547704.1|feces|TET	tet32	3000196	resfinder_fg
 2980	Tetracycline resistance protein TetO|KU547706.1|feces|TET	tet(W/N/W)	3004442	resfinder_fg
 2981	tetracycline resistance ribosomal protection protein Tet(W)|KU547708.1|feces|TET	tet(W/N/W)	3004442	resfinder_fg
@@ -3004,8 +3004,8 @@
 3002	Beta-lactamase OXA-10|KU548046.1|latrine|TZP	OXA-129	3001811	resfinder_fg
 3003	Extended-spectrum beta-lactamase PER-1|KU548063.1|latrine|PIP	VEB-24	3006219	resfinder_fg
 3004	Beta-lactamase OXA-2|KU548071.1|latrine|PIP	OXA-2	3001397	resfinder_fg
-3005	chloramphenicol efflux MFS transporter CmlA1|KU548155.1|latrine|CHL	cmlA6	3002696	resfinder_fg
-3006	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU548161.1|latrine|GEN	rmtD	3002667	resfinder_fg
+3005	chloramphenicol efflux MFS transporter CmlA1|KU548155.1|latrine|CHL	cmlA1	3002693	resfinder_fg
+3006	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU548161.1|latrine|GEN	rmtD2	3004677	resfinder_fg
 3007	Tetracycline resistance protein%2C class C|KU548191.1|latrine|TET	tet(D)	3000168	resfinder_fg
 3008	Tetracycline resistance protein%2C class B|KU548194.1|latrine|TET	tet(D)	3000168	resfinder_fg
 3009	Tetracycline resistance protein TetM from transposon TnFO1|KU548284.1|latrine|TET	tetQ	3000191	resfinder_fg
@@ -3048,7 +3048,7 @@
 3046	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU548957.1|feces|GEN	rmtB	3000860	resfinder_fg
 3047	tetracycline resistance ribosomal protection protein Tet(O)|KU548973.1|feces|TET	tetO	3000190	resfinder_fg
 3048	tetracycline efflux MFS transporter Tet(L)|KU548974.1|feces|TET	tet(45)	3003196	resfinder_fg
-3049	Beta-lactamase SHV-1|KU548986.1|feces|AMX	SHV-38	3001096	resfinder_fg
+3049	Beta-lactamase SHV-1|KU548986.1|feces|AMX	SHV-71	3001125	resfinder_fg
 3050	tetracycline resistance ribosomal protection protein Tet(W)|KU549010.1|feces|TET	tetW	3000194	resfinder_fg
 3051	16S rRNA (guanine(1405)-N(7))-methyltransferase|KU549029.1|feces|GEN	rmtB	3000860	resfinder_fg
 3052	tetracycline resistance ribosomal protection protein Tet(M)|KU549038.1|feces|TET	tetM	3000186	resfinder_fg
@@ -3065,7 +3065,7 @@
 3063	Extended-spectrum beta-lactamase PER-1|GQ343002.1|human fecal matter|AMX	CblA-1	3002999	resfinder_fg
 3064	Extended-spectrum beta-lactamase PER-1|GQ343003.1|human fecal matter|AMX	CblA-1	3002999	resfinder_fg
 3065	Beta-lactamase CTX-M-1|GQ343005.1|human fecal matter|AMX	CTX-M-15	3001878	resfinder_fg
-3066	Beta-lactamase|GQ343009.1|human fecal matter|AMX	CMY-118	3002129	resfinder_fg
+3066	Beta-lactamase|GQ343009.1|human fecal matter|AMX	CMY-48	3002059	resfinder_fg
 3067	Beta-lactamase|GQ343015.1|human fecal matter|AMX	EC-5	3006880	resfinder_fg
 3068	Beta-lactamase|GQ343018.1|human fecal matter|AMX	CMY-105	3002117	resfinder_fg
 3069	Extended-spectrum beta-lactamase PER-1|GQ343035.1|human saliva|AMX	CSP-1	3006871	resfinder_fg
