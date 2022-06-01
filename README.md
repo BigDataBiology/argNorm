@@ -1,5 +1,8 @@
 # argNorm
 
+[![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
+[![Pylint](https://github.com/BigDataBiology/argNorm/actions/workflows/pylint.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/pylint.yml)
+
 Fast ARG normalization by mapping to the ARO ontology.
 
 ## Gene name matching
