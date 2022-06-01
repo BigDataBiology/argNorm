@@ -16,7 +16,7 @@ Fast ARG normalization by mapping to the ARO ontology.
 
 ## Database support
 
-- [ ] deeparg
+- [x] deeparg
 - [ ] sarg
 - [x] ncbi
 - [x] argannot
