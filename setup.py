@@ -28,13 +28,13 @@ if __name__ == "__main__":
         # change package_name to your package name.
         entry_points={
             "console_scripts": [
-                "argnorm=ArgNorm:CLI"
+                "argnorm=ArgNorm.CLI:main"
             ]
         },
-        package_data={
-            # change package_name to your package name.
-            # "config": ["./resources/config.ini"],
-        },
+        # package_data={
+        #     # change package_name to your package name.
+        #     "data": ["./data/deeparg_ARO_mapping.tsv"],
+        # },
         zip_safe=True,
         classifiers=[
             "Topic :: Scientific/Engineering :: Bio-Informatics",
@@ -43,7 +43,6 @@ if __name__ == "__main__":
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
             "Natural Language :: English"
-
         ],
         python_requires=">=3.6"
     )

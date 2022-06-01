@@ -1,14 +1,9 @@
-from .CLI import *
-from .src import Normalizer
-import os
+from . import CLI
+from . import src
 
-_ROOT = os.path.abspath(os.path.dirname(__file__))
-
-def get_data(path):
-    return os.path.join(_ROOT, 'data', path)
 
 __all__ = [
     'main'
-    'Normalizer'
-    'get_data'
+    'CLI'
+    'src'
 ]
