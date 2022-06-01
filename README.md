@@ -13,3 +13,12 @@ Fast ARG normalization by mapping to the ARO ontology.
 |ABRicate|[resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db)|`gene_symbol`|1|`sep='_'` but gene name contains `sep`|
 |[DeepARG](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/)|[deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)|`gene_name`|Exact match||
 |[ARGs-OAP](https://github.com/biofuture/Ublastx_stageone)|[sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)|||[Known issue](https://github.com/AdeBC/quick_amr_db_harmonisation/issues/2)|
+
+## Database support
+
+- [ ] deeparg
+- [ ] sarg
+- [x] ncbi
+- [x] argannot
+- [x] megares
+- [x] resfinder
