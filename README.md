@@ -29,7 +29,7 @@ pip install argnorm
 
 ## Basic usage
 
-Use `argnorm -h` too see available options.
+Use `argnorm -h` to see available options.
 
 ```bash
 argnorm [database] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
@@ -45,7 +45,7 @@ argnorm resfinder -i examples/abricate.resfinder.tsv -o tmp
 argnorm ncbi -i examples/abricate.ncbi.tsv -o tmp
 ```
 
-## Maintainer
+## Maintainers
 
 |   Name    | Email                 | Organization                                                 |
 | :-------: | --------------------- | ------------------------------------------------------------ |
