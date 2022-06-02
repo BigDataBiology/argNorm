@@ -14,12 +14,12 @@ We recieve feedback on [GitHub Issue](https://github.com/BigDataBiology/argNorm/
 
 ## Supported databases
 
-- [x] deeparg
-- [ ] sarg
-- [x] ncbi
-- [x] argannot
-- [x] megares
-- [x] resfinder
+- [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
+- [ ] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
+- [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
+- [x] [argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)
+- [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
+- [x] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db)
 
 
 ## Installation
