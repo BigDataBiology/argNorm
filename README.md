@@ -2,22 +2,17 @@
 
 [![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
 [![Pylint](https://github.com/BigDataBiology/argNorm/actions/workflows/pylint.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/pylint.yml)
+[![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
+![](https://img.shields.io/badge/status-alpha-red?style=flat) 
+<!-- ![](https://img.shields.io/github/license/BigDataBiology/argNorm?style=flat) -->
 
 Fast ARG normalization by mapping to the ARO ontology.
 
-## Gene name matching
+This is a very-first implementation (**not ready for production**), but you're welcomed to try it and provide feedback to make it better. 
 
-|Software|Database|Gene name column|Matches with (n)th field of fasta info|Note|
-|:-------|:-------|:---------------|:-------------------------------------|:---|
-|[ABRicate](https://github.com/tseemann/abricate)|[ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)|`gene_symbol`|5 or 6|`sep='\|'` |
-|ABRicate|[argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)|`gene_symbol` or `gene_name`|2|`sep='~~~'`|
-|ABRicate|[card](http://dbs/card.tar.bz2%20https://card.mcmaster.ca/latest/data)|`gene_symbol`|4 (in faa, not fna) |`sep='\|'`, some output gene names are prefixed by taxonomy names (e.g. Pseudomonas_aeruginosa_emrE)|
-|ABRicate|[megares](https://github.com/tseemann/abricate/tree/master/db/megares)|`gene_name`|Exact match|Drop first field and `replace(':', '\|')`|
-|ABRicate|[resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db)|`gene_symbol`|1|`sep='_'` but gene name contains `sep`|
-|[DeepARG](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/)|[deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)|`gene_name`|Exact match||
-|[ARGs-OAP](https://github.com/biofuture/Ublastx_stageone)|[sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)|||[Known issue](https://github.com/AdeBC/quick_amr_db_harmonisation/issues/2)|
+We recieve feedback on [GitHub Issue](https://github.com/BigDataBiology/argNorm/issues). 
 
-## Database support
+## Supported databases
 
 - [x] deeparg
 - [ ] sarg
@@ -25,3 +20,36 @@ Fast ARG normalization by mapping to the ARO ontology.
 - [x] argannot
 - [x] megares
 - [x] resfinder
+
+
+## Installation
+
+```bash
+pip install argnorm
+```
+
+## Basic usage
+
+Use `argnorm -h` too see available options.
+
+```bash
+argnorm [database] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
+```
+
+## Examples
+
+```bash
+argnorm deeparg -i examples/deeparg.deeparg.tsv -o tmp
+argnorm megares -i examples/abricate.megares.tsv -o tmp
+argnorm argannot -i examples/abricate.argannot.tsv -o tmp
+argnorm resfinder -i examples/abricate.resfinder.tsv -o tmp
+argnorm ncbi -i examples/abricate.ncbi.tsv -o tmp
+```
+
+## Maintainer
+
+|   Name    | Email                 | Organization                                                 |
+| :-------: | --------------------- | ------------------------------------------------------------ |
+| Hui Chong | huichong.me@gmail.com | Research Assistant, Big Data Biology Lab, Fudan University |
+| Svetlana Ugarcina | svetlana.ugarcina@gmail.com | Postdoc Researcher, Big Data Biology Lab, Fudan University |
+| Luis Pedro Coelho | luis@luispedro.org | Principle Investigator, Big Data Biology Lab, Fudan University |

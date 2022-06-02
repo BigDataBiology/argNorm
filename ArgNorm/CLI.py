@@ -5,8 +5,8 @@ import pandas as pd
 
 def main():
     parser = argparse.ArgumentParser(
-        description=('The program is designed for normalizing ARG annotation result \
-                      from different ARG annotation tools and databases to resolve their differences in gene naming etc.'),
+        description=('The program is designed for normalizing ARG annotation result '
+                     'from different ARG annotation tools and databases to resolve their differences in gene naming etc.'),
 		formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('database', type=str, 
         choices=['ncbi', 'resfinder', 'deeparg', 'megares', 'argannot'],
