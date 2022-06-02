@@ -1,5 +1,8 @@
-import pandas as pd
+"""Source code for the Normalizer class"""
+
 import os
+import pandas as pd
+
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -8,7 +11,9 @@ def get_data(path):
 
 supported_dbs = ['ncbi', 'resfinder', 'sarg', 'deeparg', 'megares', 'argannot']
 
-class Normalizer(object):
+
+class Normalizer:
+    """Major class to perform the normalization"""
 
     def __init__(self, db):
         self.database = db
@@ -47,24 +52,27 @@ class Normalizer(object):
             argannot=lambda x: x.split('~~~')[1]
         )
         self.__temp_gene_name_col = 'temp_gene_name'
-        self.__supported_dbs = supported_dbs
+        # self.__supported_dbs = supported_dbs
 
     def run(self, input_file):
-        original_annot = self.__load_input(input_file)
+        """Performs the normalization"""
+        original_annot = __load_input(input_file)
         original_annot = self._preprocess_input(original_annot)
-        
+        ##
         mapping_table = self.load_mapping_table()
         names = self._preprocess_gene_names(mapping_table['Original ID']).str.lower()
         aros = 'ARO:' + mapping_table['ARO'].astype(str).apply(lambda x: x.split('.')[0])
-        hashmap = self.__make_hashmap(names, aros)
-        
-        original_annot[self.__aro_col] = original_annot[self.__temp_gene_name_col].str.lower().map(hashmap)
+        hashmap = __make_hashmap(names, aros)
+        ##
+        original_annot[self.__aro_col] = original_annot[self.__temp_gene_name_col].\
+            str.lower().map(hashmap)
         return original_annot.drop(columns=[self.__temp_gene_name_col])
 
     def _preprocess_input(self, input_annot):
         gene_name_col = self.__gene_name_cols[self.database]
         single_gene_name_process = self.__preprocess_input_gene_name_funcs[self.database]
-        input_annot[self.__temp_gene_name_col] = input_annot[gene_name_col].apply(single_gene_name_process)
+        input_annot[self.__temp_gene_name_col] = input_annot[gene_name_col].\
+            apply(single_gene_name_process)
         return input_annot
 
     def _preprocess_gene_names(self, gene_names):
@@ -74,8 +82,9 @@ class Normalizer(object):
         file = self.mapping_tables[self.database]
         return pd.read_csv(file, sep='\t', index_col=0)
 
-    def __load_input(self, file):
-        return pd.read_csv(file, sep='\t', index_col=0)
 
-    def __make_hashmap(self, keys, vals):
-        return dict(zip(keys, vals))
+def __load_input(file):
+    return pd.read_csv(file, sep='\t', index_col=0)
+
+def __make_hashmap(keys, vals):
+    return dict(zip(keys, vals))

@@ -1,4 +1,4 @@
-from . import CLI
+from . import cli
 from . import src
 
 
