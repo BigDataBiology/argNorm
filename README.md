@@ -51,5 +51,5 @@ argnorm ncbi -i examples/abricate.ncbi.tsv -o tmp
 |   Name    | Email                 | Organization                                                 |
 | :-------: | --------------------- | ------------------------------------------------------------ |
 | Hui Chong | huichong.me@gmail.com | Research Assistant, Big Data Biology Lab, Fudan University |
-| Svetlana Ugarcina | svetlana.ugarcina@gmail.com | Postdoc Researcher, Big Data Biology Lab, Fudan University |
+| Svetlana Ugarcina Perovic | svetlana.ugarcina@gmail.com | Postdoc Researcher, Big Data Biology Lab, Fudan University |
 | Luis Pedro Coelho | luis@luispedro.org | Principle Investigator, Big Data Biology Lab, Fudan University |
