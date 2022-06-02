@@ -1,7 +1,6 @@
 # argNorm
 
 [![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
-[![Pylint](https://github.com/BigDataBiology/argNorm/actions/workflows/pylint.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/pylint.yml)
 [![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
 ![](https://img.shields.io/badge/status-alpha-red?style=flat) 
 <!-- ![](https://img.shields.io/github/license/BigDataBiology/argNorm?style=flat) -->
