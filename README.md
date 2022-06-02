@@ -10,7 +10,7 @@ Fast antibiotic resistance gene (ARG) normalization by mapping to the [antibioti
 
 This is a very-first implementation (**not ready for production**), but you're welcomed to try it and provide feedback to make it better. 
 
-We welcome your feedback on [GitHub Issue](https://github.com/BigDataBiology/argNorm/issues) page. 
+We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues). 
 
 ## Supported databases
 
