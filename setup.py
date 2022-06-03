@@ -28,7 +28,7 @@ if __name__ == "__main__":
         # change package_name to your package name.
         entry_points={
             "console_scripts": [
-                "argnorm=ArgNorm.CLI:main"
+                "argnorm=ArgNorm.cli:main"
             ]
         },
         # package_data={
