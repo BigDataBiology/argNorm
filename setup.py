@@ -13,7 +13,7 @@ DESCRIPTION = "Fast ARG normalization by mapping to the ARO ontology."
 if __name__ == "__main__":
     setup(
         name=NAME,
-        version="0.0.1rc1",
+        version="0.0.1rc2",
         author=AUTHOR,
         author_email=EMAIL,
         url=URL,
@@ -25,16 +25,11 @@ if __name__ == "__main__":
         install_requires=open("./requirements.txt", "r").read().splitlines(),
         long_description=open("./README.md", "r").read(),
         long_description_content_type='text/markdown',
-        # change package_name to your package name.
         entry_points={
             "console_scripts": [
-                "argnorm=ArgNorm.CLI:main"
+                "argnorm=ArgNorm.cli:main"
             ]
         },
-        # package_data={
-        #     # change package_name to your package name.
-        #     "data": ["./data/deeparg_ARO_mapping.tsv"],
-        # },
         zip_safe=True,
         classifiers=[
             "Topic :: Scientific/Engineering :: Bio-Informatics",
@@ -44,5 +39,5 @@ if __name__ == "__main__":
             "Operating System :: OS Independent",
             "Natural Language :: English"
         ],
-        python_requires=">=3.6"
+        python_requires=">=3.8"
     )
