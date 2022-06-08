@@ -18,15 +18,15 @@ class HamronizedNormalizer:
 
     def __init__(self, db):
         self.database = db
-        self.__set_mapping_table()
-        self.__aro_col = 'ARO'
-        self.__set_gene_name_cols()
-        self.__set_input_gene_name_process_funcs()
-        self.__set_AROmap_gene_name_process_funcs()
-        self.__temp_gene_name_col = 'temp_gene_name'
-        # self.__supported_dbs = supported_dbs
+        self._set_mapping_table()
+        self._aro_col = 'ARO'
+        self._set_gene_name_cols()
+        self._set_input_gene_name_process_funcs()
+        self._set_AROmap_gene_name_process_funcs()
+        self._set_input_loading_funcs()
+        self._temp_gene_name_col = 'temp_gene_name'
 
-    def __set_mapping_table(self):
+    def _set_mapping_table(self):
         suffix = '_ARO_mapping.tsv'
         self.mapping_tables = dict(
             ncbi=get_data('ncbi' + suffix),
@@ -37,18 +37,18 @@ class HamronizedNormalizer:
             argannot=get_data('argannot' + suffix)
         )
 
-    def __set_gene_name_cols(self):
-        self.__gene_name_cols = dict(
+    def _set_gene_name_cols(self):
+        self._gene_name_cols = dict(
             ncbi='gene_symbol',
             deeparg='gene_name',
             resfinder='gene_symbol',
             sarg='gene_symbol',
-            megares='gene_name',
-            argannot='gene_symbol'
+            megares='reference_accession',
+            argannot='reference_accession'
         )
         
-    def __set_input_gene_name_process_funcs(self):
-        self.__preprocess_input_gene_name_funcs = dict(
+    def _set_input_gene_name_process_funcs(self):
+        self._preprocess_input_gene_name_funcs = dict(
             ncbi=lambda x: x,
             deeparg=lambda x: x,
             resfinder=lambda x: x,
@@ -57,88 +57,89 @@ class HamronizedNormalizer:
             argannot=lambda x: x
         )
 
-    def __set_AROmap_gene_name_process_funcs(self):
-        self.__preprocess_AROmap_gene_name_funcs = dict(
+    def _set_AROmap_gene_name_process_funcs(self):
+        self._preprocess_AROmap_gene_name_funcs = dict(
             ncbi=lambda x: x.split('|')[5],
             deeparg=lambda x: x,
             resfinder=lambda x: '_'.join(x.split('_')[:-1]),
             sarg=lambda x: x,
-            megares=lambda x: ':'.join(x.split('|')[1:]),
-            argannot=lambda x: x.split('~~~')[1]
+            megares=lambda x: x.split('|')[0],
+            argannot=lambda x: x.split('~~~')[-1]
+        )
+
+    def _set_input_loading_funcs(self):
+        fun = lambda file: pd.read_csv(file, sep='\t', index_col=0)
+        self._input_loading_funcs = dict(
+            ncbi=fun,
+            deeparg=fun,
+            resfinder=fun,
+            sarg=fun,
+            megares=fun,
+            argannot=fun
         )
 
     def run(self, input_file):
         """Performs the normalization"""
-        original_annot = self.__load_input(input_file)
+        original_annot = self._load_input(input_file)
         original_annot = self._preprocess_input(original_annot)
         ##
         mapping_table = self.load_mapping_table()
         names = self._preprocess_gene_names(mapping_table['Original ID']).str.lower()
-        aros = 'ARO:' + mapping_table['ARO'].astype(str).apply(lambda x: x.split('.')[0])
-        hashmap = self.__make_hashmap(names, aros)
+        aros = 'ARO:' + mapping_table[self._aro_col].astype(str).apply(lambda x: x.split('.')[0])
+        hashmap = self._make_hashmap(names, aros)
         ##
-        original_annot[self.__aro_col] = original_annot[self.__temp_gene_name_col].\
+        original_annot[self._aro_col] = original_annot[self._temp_gene_name_col].\
             str.lower().map(hashmap)
-        return original_annot.drop(columns=[self.__temp_gene_name_col])
+        return original_annot.drop(columns=[self._temp_gene_name_col])
 
     def _preprocess_input(self, input_annot):
-        gene_name_col = self.__gene_name_cols[self.database]
-        single_gene_name_process = self.__preprocess_input_gene_name_funcs[self.database]
-        input_annot[self.__temp_gene_name_col] = input_annot[gene_name_col].\
+        gene_name_col = self._gene_name_cols[self.database]
+        single_gene_name_process = self._preprocess_input_gene_name_funcs[self.database]
+        input_annot[self._temp_gene_name_col] = input_annot[gene_name_col].\
             apply(single_gene_name_process)
         return input_annot
 
     def _preprocess_gene_names(self, gene_names):
-        return gene_names.apply(self.__preprocess_AROmap_gene_name_funcs[self.database])
+        return gene_names.apply(self._preprocess_AROmap_gene_name_funcs[self.database])
 
     def load_mapping_table(self):
         file = self.mapping_tables[self.database]
         return pd.read_csv(file, sep='\t', index_col=0)
 
-    def __load_input(self, file):
-        return pd.read_csv(file, sep='\t', index_col=0)
+    def _load_input(self, file):
+        return self._input_loading_funcs[self.database](file)
 
-    def __make_hashmap(self, keys, vals):
+    def _make_hashmap(self, keys, vals):
         return dict(zip(keys, vals))
-
-
-# class HamronizedNormalizer(BaseNormalizer):
-
-#     def __init__(self, db):
-    #     super(HamronizedNormalizer, self).__init__(db=db)
-    #     self.__set_gene_name_cols()
-    #     self.__set_input_gene_name_process_funcs()
-
-    # def __set_gene_name_cols(self):
-    #     self.__gene_name_cols = dict(
-    #         ncbi='gene_symbol',
-    #         deeparg='gene_name',
-    #         resfinder='gene_symbol',
-    #         sarg='gene_symbol',
-    #         megares='gene_name',
-    #         argannot='gene_symbol'
-    #     )
-        
-    # def __set_input_gene_name_process_funcs(self):
-    #     self.__preprocess_input_gene_name_funcs = dict(
-    #         ncbi=lambda x: x,
-    #         deeparg=lambda x: x,
-    #         resfinder=lambda x: x,
-    #         sarg=lambda x: x,
-    #         megares=lambda x: x,
-    #         argannot=lambda x: x
-    #     )
 
 
 class RawNormalizer(HamronizedNormalizer):
 
     def __init__(self, db):
-        super(RawNormalizer, self).__init__(db=db)
-        self.__set_gene_name_cols()
-        self.__set_input_gene_name_process_funcs()
+        HamronizedNormalizer.__init__(self, db=db)
 
-    def __set_gene_name_cols(self):
-        pass
+    def _set_gene_name_cols(self):
+        self._gene_name_cols = dict(
+            ncbi='GENE',
+            deeparg='best-hit',
+            resfinder='GENE',
+            megares='ACCESSION',
+            argannot='ACCESSION'
+        )
 
-    def __set_input_gene_name_process_funcs(self):
-        pass
+    # def _set_input_gene_name_process_funcs(self):
+        # self._preprocess_input_gene_name_funcs = dict(
+        #     ncbi=lambda x: x
+        # )
+
+    # def _set_AROmap_gene_name_process_funcs(self):
+        # self._preprocess_AROmap_gene_name_funcs = dict(
+        #     ncbi=lambda x: x.split('|')[5],
+        # )
+
+    def _set_input_loading_funcs(self):
+        HamronizedNormalizer._set_input_loading_funcs(self)
+        self._input_loading_funcs['sarg'] = lambda x: x # TODO to be updated
+
+    def run(self, input_file):
+        return HamronizedNormalizer.run(self, input_file=input_file)
