@@ -1,0 +1,9 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0001.fna.gz	GMGC10.015_877_632.UNKNOWN	14	300	-	QACEDELTA1	61-348/348	..======/======	1/1	82.47	99.65	megares	MEG_5829	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_pumps:QACEDELTA1	
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0004.fna.gz	GMGC10.007_463_324.HNS	1	414	+	HNS	1-414/414	===============	0/0	100.00	96.38	megares	MEG_3271	Drugs:Multi-drug_resistance:Multi-drug_RND_efflux_pumps:HNS	
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0005.fna.gz	GMGC10.005_321_079.HYFJ	1	477	+	MPHB	1-477/477	===============	0/0	100.00	97.69	megares	MEG_4033	Drugs:MLS:Macrolide_phosphotransferases:MPHB	
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0005.fna.gz	GMGC10.043_155_950.EMRE	106	453	+	QACEDELTA1	1-348/348	===============	0/0	100.00	100.00	megares	MEG_5829	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_pumps:QACEDELTA1	
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0006.fna.gz	GMGC10.034_105_239.FOLA	1	498	+	DFRA	1-498/498	===============	0/0	100.00	99.80	megares	MEG_2551	Drugs:Trimethoprim:Dihydrofolate_reductase:DFRA	
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0007.fna.gz	GMGC10.001_965_233.UNKNOWN	1	534	+	AAC3	1-534/534	===============	0/0	100.00	99.06	megares	MEG_67	Drugs:Aminoglycosides:Aminoglycoside_N-acetyltransferases:AAC3	
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0007.fna.gz	GMGC10.014_515_172.EMRE	181	513	+	MVRC	1-333/333	===============	0/0	100.00	92.19	megares	MEG_4103	Multi-compound:Drug_and_biocide_resistance:Drug_and_biocide_SMR_efflux_pumps:MVRC	
+GMGC10.wastewater.95nr.test_10k.fna.gz_block_0008.fna.gz	GMGC10.011_294_336.SOXS	1	321	+	SOXS	1-321/324	===============	0/0	99.07	97.51	megares	MEG_6551	Multi-compound:Drug_and_biocide_and_metal_resistance:Drug_and_biocide_and_metal_resistance_regulator:SOXS	
