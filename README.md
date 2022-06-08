@@ -13,6 +13,8 @@ We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/
 
 ## Supported databases
 
+Hamronized output
+
 - [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
 - [ ] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
 - [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
@@ -20,6 +22,14 @@ We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/
 - [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
 - [x] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db)
 
+Raw output
+
+- [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
+- [ ] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
+- [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
+- [x] [argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)
+- [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
+- [ ] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db)
 
 ## Installation
 
@@ -37,12 +47,24 @@ argnorm [database] -i [original_annotation.tsv] -o [annotation_result_with_aro.t
 
 ## Examples
 
+Handling hamronized inputs.
+
 ```bash
-argnorm deeparg -i examples/deeparg.deeparg.tsv -o tmp
-argnorm megares -i examples/abricate.megares.tsv -o tmp
-argnorm argannot -i examples/abricate.argannot.tsv -o tmp
-argnorm resfinder -i examples/abricate.resfinder.tsv -o tmp
-argnorm ncbi -i examples/abricate.ncbi.tsv -o tmp
+argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o tmp
+argnorm megares -i examples/hamronized/abricate.megares.tsv -o tmp
+argnorm argannot -i examples/hamronized/abricate.argannot.tsv -o tmp
+argnorm resfinder -i examples/hamronized/abricate.resfinder.tsv -o tmp
+argnorm ncbi -i examples/hamronized/abricate.ncbi.tsv -o tmp
+```
+
+Handling raw inputs (not hamronized by hAMRonization)
+
+```bash
+argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o tmp --raw
+argnorm megares -i examples/raw/abricate.megares.tsv -o tmp --raw
+argnorm argannot -i examples/raw/abricate.argannot.tsv -o tmp --raw
+# argnorm resfinder -i examples/raw/abricate.resfinder.tsv -o tmp --raw
+argnorm ncbi -i examples/raw/abricate.ncbi.tsv -o tmp --raw
 ```
 
 ## Maintainers
