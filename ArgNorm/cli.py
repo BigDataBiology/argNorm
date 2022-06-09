@@ -1,7 +1,7 @@
 """Major script to run in command line"""
 
 import argparse
-from .src import HamronizedNormalizer, RawNormalizer
+from .src import ARGSOAPNormalizer
 
 
 def main():
@@ -13,18 +13,28 @@ def main():
                       'from different ARG annotation tools and databases to resolve '
                       'their differences in gene naming etc.'),
     formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('database', type=str,
-                        choices=['ncbi', 'resfinder', 'deeparg', 'megares', 'argannot'],
+    parser.add_argument('tool', type=str,
+                        choices=['argsoap', 'abricate', 'deeparg'],
+                        help='The tool you used to do ARG annotation.')
+    parser.add_argument('--db', type=str,
+                        choices=['sarg', 'ncbi', 'resfinder', 'deeparg', 'megares', 'argannot'],
                         help='The database you used to do ARG annotation.')
-    parser.add_argument('--raw', action='store_true', help='Use this if the input is raw (not hamronized by hAMRonization)')
+    parser.add_argument('--mode', type=str,
+                        choices=['reads', 'orfs'],
+                        help='The tool you used to do ARG annotation.')
+    parser.add_argument('--hamronized', action='store_true', help='Use this if the input is hamronized (not hamronized by hAMRonization)')
     parser.add_argument('-i', '--input', type=str, help='The annotation result you have.')
     parser.add_argument('-o', '--output', type=str, help='The file to save normalization results.')
     args = parser.parse_args()
-    if not args.raw:
-        norm = HamronizedNormalizer(db=args.database)
-    else:
-        norm = RawNormalizer(db=args.database)
+
+    if args.tool == 'argsoap':
+        norm = ARGSOAPNormalizer(is_hamronized=args.hamronized, mode=args.mode)
+    # if not args.raw:
+    #     norm = HamronizedNormalizer(db=args.database)
+    # else:
+    #     norm = RawNormalizer(db=args.database)
     result = norm.run(input_file=args.input)
+    print(result)
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
     print(f'{round(1 - prop_unmapped, 3):.2%} args mapped.')
     result.to_csv(args.output, sep='\t')
