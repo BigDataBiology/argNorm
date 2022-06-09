@@ -47,7 +47,14 @@ argnorm [database] -i [original_annotation.tsv] -o [annotation_result_with_aro.t
 
 ## Examples
 
-Handling hamronized inputs.
+```bash
+argnorm argsoap --mode reads -i examples/raw/args-oap.sarg.reads.tsv -o tmp
+argnorm argsoap --mode reads -i examples/hamronized/args-oap.sarg.reads.tsv -o tmp --hamronized
+argnorm argsoap --mode orfs -i examples/raw/args-oap.sarg.orfs.tsv -o tmp
+argnorm argsoap --mode orfs -i examples/hamronized/args-oap.sarg.orfs.tsv -o tmp --hamronized
+```
+
+<!-- Handling hamronized inputs.
 
 ```bash
 argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o tmp
@@ -65,7 +72,14 @@ argnorm megares -i examples/raw/abricate.megares.tsv -o tmp --raw
 argnorm argannot -i examples/raw/abricate.argannot.tsv -o tmp --raw
 # argnorm resfinder -i examples/raw/abricate.resfinder.tsv -o tmp --raw
 argnorm ncbi -i examples/raw/abricate.ncbi.tsv -o tmp --raw
-```
+``` -->
+
+<!-- ## TODO
+
+- [ ] Add aro categories in outputs, see reference file at: ../quick_amr_db_harmonisation/dbs/aro_categories.tsv.
+- [ ] Add sarg support by including the reference file (../quick_amr_db_harmonisation/Ublastx_stageone2.3/DB/structure_20181107.LIST), but how to deal with multiple ARO matches of each query result.
+
+Note: Sarg reads mode and orfs mode output formats are different.  -->
 
 ## Maintainers
 
@@ -74,3 +88,4 @@ argnorm ncbi -i examples/raw/abricate.ncbi.tsv -o tmp --raw
 | Hui Chong | huichong.me@gmail.com | Research Assistant, Big Data Biology Lab, Fudan University |
 | Svetlana Ugarcina Perovic | svetlana.ugarcina@gmail.com | Postdoc Researcher, Big Data Biology Lab, Fudan University |
 | Luis Pedro Coelho | luis@luispedro.org | Principle Investigator, Big Data Biology Lab, Fudan University |
+| Finlay Maguire | finlaymaguire@gmail.com | Assistant Professor, Department of Community Health and Epidemiology, Dalhousie University |
