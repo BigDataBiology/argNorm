@@ -11,25 +11,29 @@ This is a very-first implementation (**not ready for production**), but you're w
 
 We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues). 
 
-## Supported databases
+## Supported tools
 
-Hamronized output
+- [x] [DeepARG](https://bench.cs.vt.edu/deeparg)
+- [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/)
+- [ ] [Abricate](https://github.com/tseemann/abricate) (work in progress)
+
+<!-- Hamronized output
+
+- [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
+- [x] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
+- [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
+- [x] [argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)
+- [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
+- [x] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db) -->
+
+<!-- Raw output
 
 - [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
 - [ ] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
 - [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
 - [x] [argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)
 - [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
-- [x] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db)
-
-Raw output
-
-- [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
-- [ ] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
-- [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
-- [x] [argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)
-- [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
-- [ ] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db)
+- [ ] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db) -->
 
 ## Installation
 
