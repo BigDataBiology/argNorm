@@ -2,6 +2,7 @@
 
 import os
 import pandas as pd
+import warnings
 
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -46,25 +47,25 @@ class BaseNormalizer:
 
     def preprocess_ref_genes(self, ref_genes):
         """
-        Customize this
+        Customize this when ref gene and input gene can not exactly match.
         """ 
         return ref_genes
 
     def preprocess_input_genes(self, input_genes):
         """
-        Customize this
+        Customize this when ref gene and input gene can not exactly match.
         """ 
         return input_genes
 
     def _set_tmp_gene_col(self):
         """
-        Customize this when the default col name causes conflicted with the input
+        Customize this when the default col name causes conflict with the input
         """   
         self._tmp_gene_col = 'tmp_gene'
 
     def _set_output_aro_col(self):   
         """
-        Customize this when the default col name causes conflicted with the input
+        Customize this when the default col name causes conflict with the input
         """   
         self._aro_col = 'ARO'
 
@@ -102,9 +103,14 @@ class BaseNormalizer:
     
 class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+        if not database:
+            warnings.warn('No `database` specified. Will try using SARG.')
+            database = 'sarg'
+        elif database != 'sarg':
+            warnings.warn('The `database` is not supported. Will try using SARG instead.')
+            database = 'sarg'
         super().__init__(database, is_hamronized, mode)
         self.tool = 'argsoap'
-        self.database = 'sarg'
     
     def _set_ref_gene_and_aro_cols(self):
         if self.mode == 'reads':
@@ -161,12 +167,32 @@ class ARGSOAPNormalizer(BaseNormalizer):
         raise ValueError('Please specify correct mode for your input.')
 
 
-
 class DeepARGNormalizer(BaseNormalizer):
 
     def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+        if mode:
+            warnings.warn('`mode` is not relavant for DeepARG and will be ignored.')
+            mode = 'both'
+        else:
+            warnings.warn('`mode` is not specified. Will use default setting "both".')
+            mode = 'both'
+        if not database:
+            warnings.warn('No `database` specified. Will try using DeepARG.')
+            database = 'deeparg'
+        elif database != 'deeparg':
+            warnings.warn('The `database` is not supported. Will try using DeepARG instead.')
+            database = 'deeparg'
         super().__init__(database, is_hamronized, mode)
         self.tool = 'deeparg'
+    
+    def _set_input_gene_col(self):
+        """
+        Always adapt this method to the input data format.
+        """
+        if self.is_hamronized:
+            self._input_gene_col = 'gene_name'
+        else:
+            self._input_gene_col = 'best-hit'
 
 
 class AbricateNormalizer(BaseNormalizer):
