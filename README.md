@@ -52,6 +52,9 @@ argnorm argsoap --mode reads -i examples/raw/args-oap.sarg.reads.tsv -o tmp
 argnorm argsoap --mode reads -i examples/hamronized/args-oap.sarg.reads.tsv -o tmp --hamronized
 argnorm argsoap --mode orfs -i examples/raw/args-oap.sarg.orfs.tsv -o tmp
 argnorm argsoap --mode orfs -i examples/hamronized/args-oap.sarg.orfs.tsv -o tmp --hamronized
+
+argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o tmp
+argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o tmp --hamronized
 ```
 
 <!-- Handling hamronized inputs.
