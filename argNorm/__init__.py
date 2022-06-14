@@ -1,9 +1,9 @@
 from . import cli
-from . import src
+from . import normalizers
 
 
 __all__ = [
     'main'
     'CLI'
-    'src'
+    'normalizers'
 ]

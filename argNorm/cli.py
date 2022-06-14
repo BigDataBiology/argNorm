@@ -1,7 +1,7 @@
 """Major script to run in command line"""
 
 import argparse
-from .src import ARGSOAPNormalizer, DeepARGNormalizer, AbricateNormalizer
+from .normalizers import ARGSOAPNormalizer, DeepARGNormalizer, AbricateNormalizer
 
 
 def main():
