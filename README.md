@@ -15,7 +15,7 @@ We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/
 
 - [x] [DeepARG](https://bench.cs.vt.edu/deeparg)
 - [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/)
-- [ ] [Abricate](https://github.com/tseemann/abricate) (work in progress)
+- [x] [Abricate](https://github.com/tseemann/abricate) (work in progress)
 
 <!-- Hamronized output
 
@@ -46,7 +46,7 @@ pip install argnorm
 Use `argnorm -h` to see available options.
 
 ```bash
-argnorm [database] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
+argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
 ```
 
 ## Examples
@@ -59,34 +59,17 @@ argnorm argsoap --mode orfs -i examples/hamronized/args-oap.sarg.orfs.tsv -o tmp
 
 argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o tmp
 argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o tmp --hamronized
+
+argnorm abricate --db ncbi -i examples/raw/abricate.ncbi.tsv -o tmp
+argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o tmp
+argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o tmp
+
+argnorm abricate --db ncbi -i examples/hamronized/abricate.ncbi.tsv -o tmp --hamronized
+argnorm abricate --db megares -i examples/hamronized/abricate.megares.tsv -o tmp --hamronized
+argnorm abricate --db argannot -i examples/hamronized/abricate.argannot.tsv -o tmp --hamronized
+argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o tmp --hamronized
+
 ```
-
-<!-- Handling hamronized inputs.
-
-```bash
-argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o tmp
-argnorm megares -i examples/hamronized/abricate.megares.tsv -o tmp
-argnorm argannot -i examples/hamronized/abricate.argannot.tsv -o tmp
-argnorm resfinder -i examples/hamronized/abricate.resfinder.tsv -o tmp
-argnorm ncbi -i examples/hamronized/abricate.ncbi.tsv -o tmp
-```
-
-Handling raw inputs (not hamronized by hAMRonization)
-
-```bash
-argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o tmp --raw
-argnorm megares -i examples/raw/abricate.megares.tsv -o tmp --raw
-argnorm argannot -i examples/raw/abricate.argannot.tsv -o tmp --raw
-# argnorm resfinder -i examples/raw/abricate.resfinder.tsv -o tmp --raw
-argnorm ncbi -i examples/raw/abricate.ncbi.tsv -o tmp --raw
-``` -->
-
-<!-- ## TODO
-
-- [ ] Add aro categories in outputs, see reference file at: ../quick_amr_db_harmonisation/dbs/aro_categories.tsv.
-- [ ] Add sarg support by including the reference file (../quick_amr_db_harmonisation/Ublastx_stageone2.3/DB/structure_20181107.LIST), but how to deal with multiple ARO matches of each query result.
-
-Note: Sarg reads mode and orfs mode output formats are different.  -->
 
 ## Maintainers
 
