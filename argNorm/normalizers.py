@@ -4,6 +4,7 @@ import os
 import pandas as pd
 import warnings
 
+MAPPING_TABLE_ARO_COL = 'ARO'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -15,33 +16,32 @@ class BaseNormalizer:
     """
     Inherit this class and customize subclass methods to implement the normalization of tools.
     """
-    
+
     def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
         self.tool = ''
         self.database = database
         self.mode = mode
         self.is_hamronized = is_hamronized
         self._set_input_gene_col()
-        self._set_tmp_gene_col()
         self._set_output_aro_col()
         self._set_ref_gene_and_aro_cols()
 
-    def run(self, input_file):
+    def run(self, input_file : str):
         """
         Main normalization pipeline.
         """
         original_annot = self.load_input(input_file)
-        original_annot[self._tmp_gene_col] = self.preprocess_input_genes(
+        input_genes = self.preprocess_input_genes(
             original_annot[self._input_gene_col].str.lower()
         )
         aro_table = self.get_aro_mapping_table()
-        ref_genes = self.preprocess_ref_genes(
+        aro_table.set_index(self.preprocess_ref_genes(
             aro_table[self.ref_gene_col].str.lower()
-        )
-        mapping = self._make_hashmap(ref_genes, aro_table[self.ref_aro_col])
-        original_annot[self._aro_col] = original_annot[self._tmp_gene_col].map(mapping)
-        return original_annot.drop(columns=self._tmp_gene_col)
-        
+        ), inplace=True)
+        mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
+        original_annot[self._aro_col] = input_genes.map(mapping)
+        return original_annot
+
 
     def preprocess_ref_genes(self, ref_genes):
         """
@@ -55,11 +55,6 @@ class BaseNormalizer:
         """ 
         return input_genes
 
-    def _set_tmp_gene_col(self):
-        """
-        Customize this when the default col name causes conflict with the input
-        """   
-        self._tmp_gene_col = 'tmp_gene'
 
     def _set_output_aro_col(self):   
         """
@@ -72,7 +67,6 @@ class BaseNormalizer:
         Customize this when the reference data format is different from the default (e.g. for sarg orfs mode).
         """
         self.ref_gene_col = 'Original ID'
-        self.ref_aro_col = 'ARO'
 
     def _set_input_gene_col(self):
         """
@@ -95,8 +89,6 @@ class BaseNormalizer:
         """
         return pd.read_csv(input_file, sep='\t')
 
-    def _make_hashmap(self, keys, vals):
-        return dict(zip(keys, vals))
 
     
 class ARGSOAPNormalizer(BaseNormalizer):
@@ -117,7 +109,6 @@ class ARGSOAPNormalizer(BaseNormalizer):
             self.ref_gene_col = 'Categories_in_database'
         else:
             self._raise_incorrect_mode_error()
-        self.ref_aro_col = 'ARO'
 
     def _set_input_gene_col(self):
         if self.is_hamronized and self.mode == 'reads':
