@@ -13,21 +13,21 @@ DESCRIPTION = "Fast ARG normalization by mapping to the ARO ontology."
 if __name__ == "__main__":
     setup(
         name=NAME,
-        version="0.0.1rc2",
+        version="0.0.1rc3",
         author=AUTHOR,
         author_email=EMAIL,
         url=URL,
         license=LICENSE,
         description=DESCRIPTION,
-        packages=find_packages(),
-        package_dir={'ArgNorm': 'ArgNorm'},
+        packages=['argNorm', 'argNorm.data'],
         include_package_data=True,
+        package_data={'argNorm': ['data/*.tsv']},
         install_requires=open("./requirements.txt", "r").read().splitlines(),
         long_description=open("./README.md", "r").read(),
         long_description_content_type='text/markdown',
         entry_points={
             "console_scripts": [
-                "argnorm=ArgNorm.cli:main"
+                "argnorm=argNorm.cli:main"
             ]
         },
         zip_safe=True,
