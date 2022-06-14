@@ -21,6 +21,7 @@ if __name__ == "__main__":
         description=DESCRIPTION,
         packages=['argNorm', 'argNorm.data'],
         include_package_data=True,
+        package_dir={'argNorm': 'argNorm' },
         package_data={'argNorm': ['data/*.tsv']},
         install_requires=open("./requirements.txt", "r").read().splitlines(),
         long_description=open("./README.md", "r").read(),
@@ -30,7 +31,7 @@ if __name__ == "__main__":
                 "argnorm=argNorm.cli:main"
             ]
         },
-        zip_safe=True,
+        zip_safe=False,
         classifiers=[
             "Topic :: Scientific/Engineering :: Bio-Informatics",
             "Programming Language :: Python :: 3.8",
