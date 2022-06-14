@@ -1,6 +1,7 @@
 import unittest
 import argNorm.normalizers as argnorm
 
+
 class TestARGSOAPNormalizer(unittest.TestCase):
 
     def test_raw_reads_mode_input(self):
@@ -24,6 +25,7 @@ class TestARGSOAPNormalizer(unittest.TestCase):
             norm = argnorm.ARGSOAPNormalizer(is_hamronized=is_hamronized, mode=mode)
             norm.run(input_file=prefix + f'args-oap.sarg.{mode}.tsv')
             raised = False
-        except:
+        except Exception as e:
+            print(str(e))
             raised = True
         self.assertEqual(raised, False)
