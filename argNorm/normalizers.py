@@ -5,6 +5,7 @@ import pandas as pd
 import warnings
 
 MAPPING_TABLE_ARO_COL = 'ARO'
+TARGET_ARO_COL = 'ARO'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -23,7 +24,6 @@ class BaseNormalizer:
         self.mode = mode
         self.is_hamronized = is_hamronized
         self._set_input_gene_col()
-        self._set_output_aro_col()
         self._set_ref_gene_and_aro_cols()
 
     def run(self, input_file : str):
@@ -39,7 +39,7 @@ class BaseNormalizer:
             aro_table[self.ref_gene_col].str.lower()
         ), inplace=True)
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
-        original_annot[self._aro_col] = input_genes.map(mapping)
+        original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
         return original_annot
 
 
@@ -56,11 +56,6 @@ class BaseNormalizer:
         return input_genes
 
 
-    def _set_output_aro_col(self):   
-        """
-        Customize this when the default col name causes conflict with the input
-        """   
-        self._aro_col = 'ARO'
 
     def _set_ref_gene_and_aro_cols(self):
         """
@@ -80,7 +75,7 @@ class BaseNormalizer:
         """
         df = pd.read_csv(get_data(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv'), sep='\t', index_col=0)
         if self.tool != 'argsoap' or self.mode != 'orfs':
-            df[self._aro_col] = 'ARO:' + df[self._aro_col].astype(str).apply(lambda x: x.split('.')[0])
+            df[TARGET_ARO_COL] = 'ARO:' + df[TARGET_ARO_COL].astype(str).apply(lambda x: x.split('.')[0])
         return df
 
     def load_input(self, input_file):
