@@ -1,5 +1,5 @@
 import unittest
-import ArgNorm.src as argnorm
+import argNorm.normalizers as argnorm
 
 class TestARGSOAPNormalizer(unittest.TestCase):
 
