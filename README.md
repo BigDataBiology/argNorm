@@ -77,5 +77,5 @@ argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o
 | :-------: | --------------------- | ------------------------------------------------------------ |
 | Hui Chong | huichong.me@gmail.com | Research Assistant, Big Data Biology Lab, Fudan University |
 | Svetlana Ugarcina Perovic | svetlana.ugarcina@gmail.com | Postdoc Researcher, Big Data Biology Lab, Fudan University |
-| Luis Pedro Coelho | luis@luispedro.org | Principle Investigator, Big Data Biology Lab, Fudan University |
 | Finlay Maguire | finlaymaguire@gmail.com | Assistant Professor, Department of Community Health and Epidemiology, Dalhousie University |
+| [Luis Pedro Coelho](https://luispedro.org) | luis@luispedro.org | Principal Investigator, Big Data Biology Lab, Fudan University |
