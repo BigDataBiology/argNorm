@@ -15,7 +15,7 @@ We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/
 
 - [x] [DeepARG](https://bench.cs.vt.edu/deeparg)
 - [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/)
-- [x] [Abricate](https://github.com/tseemann/abricate) (work in progress)
+- [x] [ABRicate](https://github.com/tseemann/abricate) (work in progress)
 
 <!-- Hamronized output
 
