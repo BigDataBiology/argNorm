@@ -13,7 +13,7 @@ DESCRIPTION = "Fast ARG normalization by mapping to the ARO ontology."
 if __name__ == "__main__":
     setup(
         name=NAME,
-        version="0.0.1rc3",
+        version="0.0.1rc4",
         author=AUTHOR,
         author_email=EMAIL,
         url=URL,
