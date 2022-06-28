@@ -16,7 +16,8 @@ We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/
 - [x] [DeepARG](https://bench.cs.vt.edu/deeparg)
 - [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/)
 - [x] [ABRicate](https://github.com/tseemann/abricate) with NCBI, ResFinder, MEGARes, ARG-ANNOT (work in progress)
-
+- [x] [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/)
+- [x] [AMRFinderPlus](https://github.com/ncbi/amr)
 <!-- Hamronized output
 
 - [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
@@ -68,6 +69,11 @@ argnorm abricate --db ncbi -i examples/hamronized/abricate.ncbi.tsv -o tmp --ham
 argnorm abricate --db megares -i examples/hamronized/abricate.megares.tsv -o tmp --hamronized
 argnorm abricate --db argannot -i examples/hamronized/abricate.argannot.tsv -o tmp --hamronized
 argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o tmp --hamronized
+
+argnorm resfinder -i examples/raw/resfinder.resfinder.orfs.tsv -o outputs/raw/resfinder.resfinder.orfs.tsv
+argnorm resfinder -i examples/raw/resfinder.resfinder.reads.tsv -o outputs/raw/resfinder.resfinder.reads.tsv
+
+argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.tsv
 
 ```
 
