@@ -46,3 +46,22 @@ def test_add_aro_column_abricate(is_hamronized, db):
         else:
             assert normed.set_index('SEQUENCE').loc['GMGC10.034_105_239.FOLA', 'ARO'] == 'ARO:3002858'
 
+
+@pytest.mark.parametrize("is_hamronized", [False])
+@pytest.mark.parametrize("mode", ['reads', 'orfs'])
+def test_add_aro_column_resfinder(is_hamronized, mode):  # We only have raw inputs now.
+    example_dir = 'raw'
+    norm = argnorm.ResFinderNormalizer(is_hamronized=is_hamronized)
+    normed = norm.run(input_file=f'examples/{example_dir}/resfinder.resfinder.{mode}.tsv')
+    assert 'ARO' in normed.columns
+    assert normed.set_index('Resistance gene').loc["aph(3')-III", 'ARO'] == 'ARO:3002647'
+
+
+@pytest.mark.parametrize("is_hamronized", [False])
+@pytest.mark.parametrize("mode", ['orfs'])
+def test_add_aro_column_amrfinderplus(is_hamronized, mode):  # We only have raw inputs now.
+    example_dir = 'raw'
+    norm = argnorm.AMRFinderPlusNormalizer(is_hamronized=is_hamronized)
+    normed = norm.run(input_file=f'examples/{example_dir}/amrfinderplus.ncbi.{mode}.tsv')
+    assert 'ARO' in normed.columns
+    assert normed.set_index('Gene symbol').loc["aph(3')-IIIa", 'ARO'] == 'ARO:3002647'
