@@ -56,7 +56,6 @@ class BaseNormalizer:
         return input_genes
 
 
-
     def _set_ref_gene_and_aro_cols(self):
         """
         Customize this when the reference data format is different from the default (e.g. for sarg orfs mode).
@@ -177,6 +176,70 @@ class DeepARGNormalizer(BaseNormalizer):
             self._input_gene_col = 'gene_name'
         else:
             self._input_gene_col = 'best-hit'
+
+
+class ResFinderNormalizer(BaseNormalizer):
+
+    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+        if mode:
+            warnings.warn('`mode` is not relavant for ResFinder and will be ignored.')
+            mode = 'both'
+        else:
+            warnings.warn('`mode` is not specified. Will use default setting "both".')
+            mode = 'both'
+        if not database:
+            warnings.warn('No `database` specified. Will try using ResFinder.')
+            database = 'resfinder'
+        elif database != 'resfinder':
+            warnings.warn('The `database` is not supported. Will try using ResFinder instead.')
+            database = 'resfinder'
+        super().__init__(database, is_hamronized, mode)
+        self.tool = 'resfinder'
+    
+    def _set_input_gene_col(self):
+        """
+        Always adapt this method to the input data format.
+        """
+        if self.is_hamronized:
+            self._input_gene_col = ''  # TODO add here.
+        else:
+            self._input_gene_col = 'Accession no.'
+
+    def preprocess_ref_genes(self, ref_genes):
+        return ref_genes.apply(lambda x: x.split('_')[-1])
+
+
+class AMRFinderPlusNormalizer(BaseNormalizer):
+
+    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+        if mode:
+            warnings.warn('`mode` is not relavant for AMRFinderPlus and will be ignored.')
+            mode = 'both'
+        else:
+            warnings.warn('`mode` is not specified. Will use default setting "both".')
+            mode = 'both'
+        if not database:
+            warnings.warn('No `database` specified. Will try using NCBI.')
+            database = 'ncbi'
+        elif database != 'ncbi':
+            warnings.warn('The `database` is not supported. Will try using NCBI instead.')
+            database = 'ncbi'
+        super().__init__(database, is_hamronized, mode)
+        self.tool = 'amrfinderplus'
+    
+    def _set_input_gene_col(self):
+        """
+        Always adapt this method to the input data format.
+        """
+        if self.is_hamronized:
+            self._input_gene_col = ''  # TODO add this.
+        else:
+            self._input_gene_col = 'Accession of closest sequence'
+
+    def preprocess_ref_genes(self, ref_genes):
+        return ref_genes.apply(lambda x: x.split('|')[1])
+
+    
 
 
 class AbricateNormalizer(BaseNormalizer):

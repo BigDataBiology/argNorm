@@ -1,7 +1,8 @@
 """Major script to run in command line"""
 
 import argparse
-from .normalizers import ARGSOAPNormalizer, DeepARGNormalizer, AbricateNormalizer
+from .normalizers import ARGSOAPNormalizer, \
+    DeepARGNormalizer, AbricateNormalizer, ResFinderNormalizer, AMRFinderPlusNormalizer
 
 
 def main():
@@ -14,14 +15,14 @@ def main():
                       'their differences in gene naming etc.'),
     formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('tool', type=str,
-                        choices=['argsoap', 'abricate', 'deeparg'],
+                        choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus'],
                         help='The tool you used to do ARG annotation.')
     parser.add_argument('--db', type=str,
                         choices=['sarg', 'ncbi', 'resfinder', 'deeparg', 'megares', 'argannot'],
                         help='The database you used to do ARG annotation.')
     parser.add_argument('--mode', type=str,
                         choices=['reads', 'orfs', 'both'],
-                        help='The tool you used to do ARG annotation.')
+                        help='The mode you run the annotation tool.')
     parser.add_argument('--hamronized', action='store_true', help='Use this if the input is hamronized (not hamronized by hAMRonization)')
     parser.add_argument('-i', '--input', type=str, help='The annotation result you have.')
     parser.add_argument('-o', '--output', type=str, help='The file to save normalization results.')
@@ -31,6 +32,10 @@ def main():
         norm = ARGSOAPNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
     elif args.tool == 'deeparg':
         norm = DeepARGNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
+    elif args.tool == 'resfinder':
+        norm = ResFinderNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
+    elif args.tool == 'amrfinderplus':
+        norm = AMRFinderPlusNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
     elif args.tool == 'abricate':
         norm = AbricateNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
     else:
