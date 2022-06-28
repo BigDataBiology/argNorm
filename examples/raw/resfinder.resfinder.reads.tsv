@@ -1,0 +1,19 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+ant(6)-Ia	100.00	867/867	100.0	1..868	NA	NA..NA	Aminoglycoside resistance	KF864551
+aph(3')-III	100.00	795/795	100.0	1..796	NA	NA..NA	Aminoglycoside resistance	M26832
+erm(B)	100.00	738/738	100.0	1..739	NA	NA..NA	Macrolide resistance	U18931
+erm(F)	100.00	801/801	100.0	1..802	NA	NA..NA	Macrolide resistance	M17808
+lnu(C)	98.99	495/495	100.0	1..496	NA	NA..NA	Lincosamide resistance	AY928180
+erm(B)	89.02	728/738	89.02	11..739	NA	NA..NA	Macrolide resistance	X72021
+cat	96.96	624/624	100.0	1..625	NA	NA..NA	Phenicol resistance	M35190
+tet(32)	95.10	1920/1920	95.16	1..1921	NA	NA..NA	Tetracycline resistance	EU722333
+tet(32)	100.00	1920/1920	100.0	1..1921	NA	NA..NA	Tetracycline resistance	EF626943
+tet(40)	99.92	1221/1221	100.0	1..1222	NA	NA..NA	Tetracycline resistance	FJ158002
+tet(Q)	98.91	1926/1926	100.0	1..1927	NA	NA..NA	Tetracycline resistance	L33696
+tet(Q)	96.73	1926/1926	100.0	1..1927	NA	NA..NA	Tetracycline resistance	X58717
+tet(Q)	81.83	1965/1965	87.48	1..1966	NA	NA..NA	Tetracycline resistance	U73497
+tet(X)	99.91	1167/1167	100.0	1..1168	NA	NA..NA	Tetracycline resistance	M37699
+tet(W)	100.00	1920/1920	100.0	1..1921	NA	NA..NA	Tetracycline resistance	AJ427422
+tet(O/W)	86.92	1726/1889	87.03	65..1791	NA	NA..NA	Warning: gene is missing from Notes file. Please inform curator.	AM889122
+tet(O/W)-1	89.27	1716/1920	89.38	205..1921	NA	NA..NA	Warning: gene is missing from Notes file. Please inform curator.	AY485126
+tet(O/32/O)	85.99	1745/1920	86.61	15..1760	NA	NA..NA	Warning: gene is missing from Notes file. Please inform curator.	FP929050

@@ -1,0 +1,14 @@
+Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.
+aph(3')-III	100.00	795/795	100.0	1..795	k119_48139 flag=1 multi=7.0000 len=1034	204..998	Aminoglycoside resistance	M26832
+ant(6)-Ia	100.00	867/867	100.0	1..867	k119_64006 flag=0 multi=37.0000 len=1517	617..1483	Aminoglycoside resistance	KF864551
+erm(B)	100.00	738/738	100.0	1..738	k119_84636 flag=0 multi=44.9396 len=29273	24647..25384	Macrolide resistance	U18931
+lnu(C)	98.99	495/495	100.0	1..495	k119_46979 flag=1 multi=6.0000 len=2214	231..725	Lincosamide resistance	AY928180
+erm(F)	100.00	801/801	100.0	1..801	k119_66841 flag=0 multi=55.0000 len=875	73..873	Macrolide resistance	M17808
+cat	96.96	624/624	100.0	1..624	k119_95290 flag=3 multi=26.0047 len=5640	1975..2598	Phenicol resistance	M35190
+tet(Q)	90.61	1927/1926	99.94807892004154	1..1926	k119_48273 flag=0 multi=99.8140 len=13795	8574..10499	Tetracycline resistance	L33696
+tet(X)	99.91	1167/1167	100.0	1..1167	k119_48273 flag=0 multi=99.8140 len=13795	12370..13536	Tetracycline resistance	M37699
+tet(O)	99.43	1920/1920	100.0	1..1920	k119_60190 flag=1 multi=13.0000 len=3573	978..2897	Tetracycline resistance	M20925
+tet(Q)	99.69	1926/1926	100.0	1..1926	k119_36643 flag=0 multi=62.4691 len=39287	11179..13104	Tetracycline resistance	L33696
+tet(32)	99.74	1920/1920	100.0	1..1920	k119_69070 flag=0 multi=12.9788 len=11428	121..2040	Tetracycline resistance	EF626943
+tet(W)	100.00	1920/1920	100.0	1..1920	k119_9485 flag=0 multi=25.2509 len=23983	21199..23118	Tetracycline resistance	AJ427422
+tet(40)	99.84	1221/1221	100.0	1..1221	k119_2904 flag=1 multi=9.0000 len=1720	160..1380	Tetracycline resistance	FJ158002
