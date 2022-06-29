@@ -1,0 +1,19 @@
+	Resistance gene	Identity	Alignment Length/Gene Length	Coverage	Position in reference	Contig	Position in contig	Phenotype	Accession no.	ARO
+0	ant(6)-Ia	100.0	867/867	100.0	1..868		NA..NA	Aminoglycoside resistance	KF864551	ARO:3002629
+1	aph(3')-III	100.0	795/795	100.0	1..796		NA..NA	Aminoglycoside resistance	M26832	ARO:3002647
+2	erm(B)	100.0	738/738	100.0	1..739		NA..NA	Macrolide resistance	U18931	ARO:3000375
+3	erm(F)	100.0	801/801	100.0	1..802		NA..NA	Macrolide resistance	M17808	ARO:3000498
+4	lnu(C)	98.99	495/495	100.0	1..496		NA..NA	Lincosamide resistance	AY928180	ARO:3002837
+5	erm(B)	89.02	728/738	89.02	11..739		NA..NA	Macrolide resistance	X72021	ARO:3000375
+6	cat	96.96	624/624	100.0	1..625		NA..NA	Phenicol resistance	M35190	ARO:3004454
+7	tet(32)	95.1	1920/1920	95.16	1..1921		NA..NA	Tetracycline resistance	EU722333	ARO:3000196
+8	tet(32)	100.0	1920/1920	100.0	1..1921		NA..NA	Tetracycline resistance	EF626943	ARO:3000196
+9	tet(40)	99.92	1221/1221	100.0	1..1222		NA..NA	Tetracycline resistance	FJ158002	ARO:3000567
+10	tet(Q)	98.91	1926/1926	100.0	1..1927		NA..NA	Tetracycline resistance	L33696	ARO:3000191
+11	tet(Q)	96.73	1926/1926	100.0	1..1927		NA..NA	Tetracycline resistance	X58717	ARO:3000191
+12	tet(Q)	81.83	1965/1965	87.48	1..1966		NA..NA	Tetracycline resistance	U73497	ARO:3000191
+13	tet(X)	99.91	1167/1167	100.0	1..1168		NA..NA	Tetracycline resistance	M37699	ARO:3000205
+14	tet(W)	100.0	1920/1920	100.0	1..1921		NA..NA	Tetracycline resistance	AJ427422	ARO:3000194
+15	tet(O/W)	86.92	1726/1889	87.03	65..1791		NA..NA	Warning: gene is missing from Notes file. Please inform curator.	AM889122	ARO:3004442
+16	tet(O/W)-1	89.27	1716/1920	89.38	205..1921		NA..NA	Warning: gene is missing from Notes file. Please inform curator.	AY485126	ARO:3004442
+17	tet(O/32/O)	85.99	1745/1920	86.61	15..1760		NA..NA	Warning: gene is missing from Notes file. Please inform curator.	FP929050	ARO:3000190
