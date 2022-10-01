@@ -1,13 +1,15 @@
 from setuptools import setup
 from setuptools import find_packages
 
-# change this.
 NAME = "argNorm"
-AUTHOR = "Hui Chong"
-EMAIL = "huichong.me@gmail.com"
+AUTHOR = "Hui Chong and others"
+EMAIL = "svetlana@big-data-biology.org"
 URL = "https://github.com/BigDataBiology/argNorm"
 LICENSE = "MIT"
-DESCRIPTION = "Fast ARG normalization by mapping to the ARO ontology."
+DESCRIPTION = """
+Normalize antibiotic resistance genes (ARGs) abundance tables (e.g., from metagenomics) by using the ARO ontology (developed by CARD).
+
+"""
 
 
 if __name__ == "__main__":
@@ -34,11 +36,13 @@ if __name__ == "__main__":
         zip_safe=False,
         classifiers=[
             "Topic :: Scientific/Engineering :: Bio-Informatics",
+            "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.9",
+            "Programming Language :: Python :: 3.10",
             "Development Status :: 4 - Beta",
             "License :: OSI Approved :: MIT License",
             "Operating System :: OS Independent",
             "Natural Language :: English"
         ],
-        python_requires=">=3.8"
     )
