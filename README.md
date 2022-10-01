@@ -5,13 +5,22 @@
 ![](https://img.shields.io/badge/status-alpha-red?style=flat) 
 <!-- ![](https://img.shields.io/github/license/BigDataBiology/argNorm?style=flat) -->
 
-Fast antibiotic resistance gene (ARG) normalization by mapping to the [antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD.
+Antibiotic resistance gene (ARG) normalization by mapping to the [antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD.
 
-This is a very-first implementation (**not ready for production**), but you're welcomed to try it and provide feedback to make it better. 
+Right now, many tools exist for annotating ARGs in genomes and metagenomes.
+However, each tool will output in its own format.
+The [hAMRonization](https://github.com/pha4ge/hAMRonization) package can normalize the file formats, but each tool will use different names/identifiers (_e.g._, `TetA` or `TETA` or `tet(A)` or `tet-A` are all different ways to spell the same genes).
+For a small number of isolate genomes, a human user can still quickly evaluate the outputs.
+However, for metagenomics, especially large scale projects, this becomes infeasible.
+Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all tools to the same ontology (ARO).
+
+This is a beta-quality implementation (subject to changes and some bugs may remain), but you're welcomed to try it and provide feedback.
 
 We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues). 
 
 ## Supported tools
+
+Note that CARD RGI already uses ARO, thus there is no need to use argNorm.
 
 - [x] [DeepARG](https://bench.cs.vt.edu/deeparg)
 - [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/)
