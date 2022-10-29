@@ -1,5 +1,5 @@
 import pytest
-import argNorm.normalizers as argnorm
+import argnorm.normalizers as argnorm
 
 @pytest.mark.parametrize("is_hamronized", [True, False])
 @pytest.mark.parametrize("mode", ['reads', 'orfs'])

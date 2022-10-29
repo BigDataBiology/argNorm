@@ -1,7 +1,7 @@
 from setuptools import setup
 from setuptools import find_packages
 
-NAME = "argNorm"
+NAME = "argnorm"
 AUTHOR = "Hui Chong and others"
 EMAIL = "svetlana@big-data-biology.org"
 URL = "https://github.com/BigDataBiology/argNorm"
@@ -21,16 +21,16 @@ if __name__ == "__main__":
         url=URL,
         license=LICENSE,
         description=DESCRIPTION,
-        packages=['argNorm', 'argNorm.data'],
+        packages=['argnorm', 'argnorm.data'],
         include_package_data=True,
-        package_dir={'argNorm': 'argNorm' },
-        package_data={'argNorm': ['data/*.tsv']},
+        package_dir={'argnorm': 'argnorm' },
+        package_data={'argnorm': ['data/*.tsv']},
         install_requires=open("./requirements.txt", "r").read().splitlines(),
         long_description=open("./README.md", "r").read(),
         long_description_content_type='text/markdown',
         entry_points={
             "console_scripts": [
-                "argnorm=argNorm.cli:main"
+                "argnorm=argnorm.cli:main"
             ]
         },
         zip_safe=False,
