@@ -1,9 +1,7 @@
-"""Major script to run in command line"""
+"""Major script to run on command line"""
 
 import argparse
-from .normalizers import ARGSOAPNormalizer, \
-    DeepARGNormalizer, AbricateNormalizer, ResFinderNormalizer, AMRFinderPlusNormalizer
-
+from .normalize import normalize
 
 def main():
     """
@@ -28,20 +26,12 @@ def main():
     parser.add_argument('-o', '--output', type=str, help='The file to save normalization results.')
     args = parser.parse_args()
 
-    if args.tool == 'argsoap':
-        norm = ARGSOAPNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
-    elif args.tool == 'deeparg':
-        norm = DeepARGNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
-    elif args.tool == 'resfinder':
-        norm = ResFinderNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
-    elif args.tool == 'amrfinderplus':
-        norm = AMRFinderPlusNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
-    elif args.tool == 'abricate':
-        norm = AbricateNormalizer(database=args.db, is_hamronized=args.hamronized, mode=args.mode)
-    else:
-        raise ValueError('Please specify a correct tool name.')
-    result = norm.run(input_file=args.input)
-    print(result)
+    result = normalize(args.input,
+            tool=args.tool,
+            database=args.db,
+            is_hamronized=args.hamronized,
+            mode=args.mode)
+
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
     print(f'{round(1 - prop_unmapped, 3):.2%} args mapped.')
     result.to_csv(args.output, sep='\t')
