@@ -46,13 +46,13 @@ class BaseNormalizer:
     def preprocess_ref_genes(self, ref_genes):
         """
         Customize this when ref gene and input gene can not exactly match.
-        """ 
+        """
         return ref_genes
 
     def preprocess_input_genes(self, input_genes):
         """
         Customize this when ref gene and input gene can not exactly match.
-        """ 
+        """
         return input_genes
 
 
@@ -84,7 +84,6 @@ class BaseNormalizer:
         return pd.read_csv(input_file, sep='\t')
 
 
-    
 class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
         if not database:
@@ -95,7 +94,7 @@ class ARGSOAPNormalizer(BaseNormalizer):
             database = 'sarg'
         super().__init__(database, is_hamronized, mode)
         self.tool = 'argsoap'
-    
+
     def _set_ref_gene_and_aro_cols(self):
         if self.mode == 'reads':
             self.ref_gene_col = 'Original ID'
@@ -167,7 +166,7 @@ class DeepARGNormalizer(BaseNormalizer):
             database = 'deeparg'
         super().__init__(database, is_hamronized, mode)
         self.tool = 'deeparg'
-    
+
     def _set_input_gene_col(self):
         """
         Always adapt this method to the input data format.
@@ -195,7 +194,7 @@ class ResFinderNormalizer(BaseNormalizer):
             database = 'resfinder'
         super().__init__(database, is_hamronized, mode)
         self.tool = 'resfinder'
-    
+
     def _set_input_gene_col(self):
         """
         Always adapt this method to the input data format.
@@ -226,7 +225,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
             database = 'ncbi'
         super().__init__(database, is_hamronized, mode)
         self.tool = 'amrfinderplus'
-    
+
     def _set_input_gene_col(self):
         """
         Always adapt this method to the input data format.
@@ -238,8 +237,6 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
     def preprocess_ref_genes(self, ref_genes):
         return ref_genes.apply(lambda x: x.split('|')[1])
-
-    
 
 
 class AbricateNormalizer(BaseNormalizer):
