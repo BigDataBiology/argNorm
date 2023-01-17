@@ -9,9 +9,9 @@ Antibiotic resistance gene (ARG) normalization by mapping to the [antibiotic res
 
 Right now, many tools exist for annotating ARGs in genomes and metagenomes.
 However, each tool will output in its own format.
-The [hAMRonization](https://github.com/pha4ge/hAMRonization) package can normalize the file formats, but each tool will use different names/identifiers (_e.g._, `TetA` or `TETA` or `tet(A)` or `tet-A` are all different ways to spell the same genes).
+The [hAMRonization](https://github.com/pha4ge/hAMRonization) package can normalize file formats, but each tool will use different names/identifiers (_e.g._, `TetA` or `TETA` or `tet(A)` or `tet-A` are all different ways to spell the same gene name).
 For a small number of isolate genomes, a human user can still quickly evaluate the outputs.
-However, for metagenomics, especially large scale projects, this becomes infeasible.
+However, for metagenomics, especially for large-scale projects, this becomes infeasible.
 Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all tools to the same ontology (ARO).
 
 This is a beta-quality implementation (subject to changes and some bugs may remain), but you're welcomed to try it and provide feedback.
