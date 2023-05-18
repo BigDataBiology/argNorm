@@ -22,11 +22,11 @@ We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/
 
 Note that CARD RGI already uses ARO, thus there is no need to use argNorm.
 
-- [x] [DeepARG](https://bench.cs.vt.edu/deeparg)
-- [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/)
-- [x] [ABRicate](https://github.com/tseemann/abricate) with NCBI, ResFinder, MEGARes, ARG-ANNOT
-- [x] [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/)
-- [x] [AMRFinderPlus](https://github.com/ncbi/amr)
+- [x] [DeepARG](https://bench.cs.vt.edu/deeparg) (v1.0.2)
+- [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v2.3)
+- [x] [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5)
+- [x] [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) (v4.0)
+- [x] [AMRFinderPlus](https://github.com/ncbi/amr) (v3.10.30)
 <!-- Hamronized output
 
 - [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
