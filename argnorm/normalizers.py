@@ -74,7 +74,7 @@ class BaseNormalizer:
         """
         df = pd.read_csv(get_data(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv'), sep='\t', index_col=0)
         if self.tool != 'argsoap' or self.mode != 'orfs':
-            df[TARGET_ARO_COL] = 'ARO:' + df[TARGET_ARO_COL].astype(str).apply(lambda x: x.split('.')[0])
+            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
         return df
 
     def load_input(self, input_file):
