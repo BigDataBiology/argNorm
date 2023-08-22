@@ -1,0 +1,18 @@
+Accession	Name	Description
+0002312	evolutionary_variant_of	Gene or protein is an evolutionary variant of a parent
+0003002	represses_expression_of	A relationship between a transcriptional regulator and a gene or gene product, in which the regulator is plays a negative role in the transcriptional process.
+0012006	is_small_molecule_inhibitor	A relation between a continuant and a process, in which the continuant is a small molecule that inhibits the process
+25	stoichiometrically_homologous_to	Homology that is defined by similarity with regard to selected stoichiometrical parameters.
+catalyze	catalyze	enzymes that facilitates the movement of transposons
+confers_resistance_to_antibiotic	confers_resistance_to_antibiotic	A relationship ontology term in which the subject (usually an enzyme, protein or other gene product) confers or contributes to clinically relevant resistance to a specific antibiotic drug. An entity is resistant to a chemical compound if and only if x is a pathogen and y is an antibiotic, and the fitness of that pathogen is not decreased when exposed to that antibiotic.
+confers_resistance_to_drug_class	confers_resistance_to_drug_class	A relationship ontology term in which the subject (e.g. a gene family) confers or contributes to antibiotic resistance to the object (e.g. a drug class). It is a qualitative measure of antibiotic resistance, based on an experiment illustrating elevated MIC even outside of a clinical setting. A family of AMR genes confers resistance to a class of antibiotics if and only if all instances of that family confer resistance to some instances of that class in a pathogen.
+derives_from	derives_from	A relationship ontology term in which the subject has its origins from the object (paraphrased from Relationship Ontology).
+has_part	has_part	A core relation that holds between a whole and its part. The subject has_part object. (paraphrased from Relationship Ontology)
+HOM0000006	structurally_homologous_to	Homology that is defined by similarity with regard to selected structural parameters.
+is_a	is_a	An axiomatic relationship ontology term in which the subject is placed into a higher order classification (paraphrased from Relationship Ontology).
+participates_in	participates_in	A relation between a continuant and a process, in which the continuant is somehow involved in the process, e.g., this input material (or this output material) participates in this process.
+part_of	part_of	A relationship ontology term in which the subject is but part of the object (paraphrased from Relationship Ontology).
+regulates	regulates	A relationship ontology term in which the subject regulates expression of the object.
+relationship	relationship	A relationship between two ontology terms.
+targeted_by	targeted_by	A relationship ontology term in which the subject is targeted by the object (usually a class of antibiotics).
+targeted_by_antibiotic	targeted_by_antibiotic	A relationship ontology term in which the subject is targeted by a specific antibiotic.
