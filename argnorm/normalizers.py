@@ -4,12 +4,20 @@ import os
 import pandas as pd
 import warnings
 
+# Importing drug categorization code
+from drug_categorization import get_immediate_drug_classes
+from drug_categorization import get_drug_class_category
+
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
+# Column headings for drug categorization output
+IMMEDIATE_DRUG_CLASS_COL_HEADING = 'CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS'
+DRUG_CLASS_CATEGORY_COL_HEADING = 'OVERALL CATEGORY OF DRUG CLASS'
+
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
-def get_data_path(path):
+def get_data(path):
     return os.path.join(_ROOT, 'data', path)
 
 
@@ -40,8 +48,26 @@ class BaseNormalizer:
         ), inplace=True)
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
+
+        # Drug categorization
+        original_annot[IMMEDIATE_DRUG_CLASS_COL_HEADING] = self.initial_drug_categorization(original_annot[TARGET_ARO_COL])
+        original_annot[DRUG_CLASS_CATEGORY_COL_HEADING] = self.final_drug_categorization(original_annot[IMMEDIATE_DRUG_CLASS_COL_HEADING])
+
         return original_annot
 
+    def initial_drug_categorization(self, aro_list):
+        immediate_drug_classes = []
+        for aro in aro_list:
+            immediate_drug_classes.append(get_immediate_drug_classes(aro))
+        
+        return immediate_drug_classes
+    
+    def final_drug_categorization(self, immediate_drug_classes_col):
+        drug_class_catogeries_col = []
+        for drug_classes in immediate_drug_classes_col:
+            drug_class_catogeries_col.append(get_drug_class_category(drug_classes))
+        
+        return drug_class_catogeries_col
 
     def preprocess_ref_genes(self, ref_genes):
         """
@@ -72,9 +98,9 @@ class BaseNormalizer:
         """
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
-        df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv'), sep='\t', index_col=0)
+        df = pd.read_csv(get_data(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv'), sep='\t', index_col=0)
         if self.tool != 'argsoap' or self.mode != 'orfs':
-            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
+            df[TARGET_ARO_COL] = 'ARO:' + df[TARGET_ARO_COL].astype(str).apply(lambda x: x.split('.')[0])
         return df
 
     def load_input(self, input_file):
@@ -82,7 +108,7 @@ class BaseNormalizer:
         Customize this when it fails to parse the input data.
         """
         return pd.read_csv(input_file, sep='\t')
-
+        
 
 class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
