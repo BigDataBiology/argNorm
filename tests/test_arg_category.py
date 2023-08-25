@@ -9,7 +9,7 @@ def test_get_immediate_drug_classes():
     ]
 
     for i in range(len(test_cases)):
-        assert sorted(drug_categorization.get_immediate_drug_classes(test_cases[i])) == sorted(expected_output[i]), drug_categorization.get_immediate_drug_classes(test_cases[i])
+        assert sorted(drug_categorization.get_immediate_drug_classes(test_cases[i])) == sorted(expected_output[i])
 
 def test_get_drug_class_category():
     test_cases = [
@@ -22,4 +22,4 @@ def test_get_drug_class_category():
     expected_output = [['beta-lactam antibiotic'], ['rifamycin antibiotic'], ['tetracycline antibiotic'], ['fluoroquinolone antibiotic']]
 
     for i in range(len(test_cases)):
-        assert drug_categorization.get_drug_class_category(test_cases[i]) == expected_output[i], i
+        assert drug_categorization.get_drug_class_category(test_cases[i]) == expected_output[i]
