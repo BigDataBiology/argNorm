@@ -29,11 +29,11 @@ def get_immediate_drug_classes(aro_num: str) -> list[tuple]:
 
     if confers_resistance_to_drug_class:
         for drug_class in gene.relationships[ARO.get_relationship('confers_resistance_to_drug_class')]:
-            drug_classes.append([drug_class.id, drug_class.name])
+            drug_classes.append((drug_class.id, drug_class.name))
     
     if confers_resistance_to_antibiotic:
         for drug_class in gene.relationships[ARO.get_relationship('confers_resistance_to_antibiotic')]:
-            drug_classes.append([drug_class.id, drug_class.name])
+            drug_classes.append((drug_class.id, drug_class.name))
     
     return drug_classes
 
