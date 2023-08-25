@@ -6,7 +6,7 @@ import pronto
 # Load the ArgNorm ontology from the 'aro.obo' file
 ARO = pronto.Ontology.from_obo_library('aro.obo')
 
-def get_immediate_drug_classes(aro_num: str) -> list[list]:
+def get_immediate_drug_classes(aro_num: str) -> list[tuple]:
     '''
     Description: Gets the drug classes to which a gene confers resistance to.
     Only lists the drug class column in the CARD db.
@@ -15,45 +15,34 @@ def get_immediate_drug_classes(aro_num: str) -> list[list]:
         aro_num (str): ARO number. Needs to be in the form 'ARO:number'.
 
     Returns:
-        drug_classes_list (list[list]): 
+        drug_classes_list (list[tuple]): 
             A two-dimensional list where each inner list represents a drug class.
             Each inner list contains the ARO number and name of the drug class in that order. [ARO:number, name].
     '''
 
-    GENE = ARO[aro_num]
-    confers_resistance_to_drug_class = False
-    confers_resistance_to_antibiotic = False
+    gene = ARO[aro_num]
 
-    if confers_resistance_to_drug_class == False or confers_resistance_to_antibiotic == False:
-        for i in GENE.relationships:
-            if i.name == 'confers_resistance_to_drug_class' and confers_resistance_to_drug_class == False:
-                confers_resistance_to_drug_class = True
-
-            if i.name == 'confers_resistance_to_antibiotic' and confers_resistance_to_antibiotic == False:
-               confers_resistance_to_antibiotic = True
+    confers_resistance_to_drug_class = any(r.name == 'confers_resistance_to_drug_class' for r in gene.relationships)
+    confers_resistance_to_antibiotic = any(r.name == 'confers_resistance_to_antibiotic' for r in gene.relationships)
 
     drug_classes = []
 
     if confers_resistance_to_drug_class:
-        for drug_class in GENE.relationships[ARO.get_relationship('confers_resistance_to_drug_class')]:
-            drug_classes.append(drug_class)
+        for drug_class in gene.relationships[ARO.get_relationship('confers_resistance_to_drug_class')]:
+            drug_classes.append([drug_class.id, drug_class.name])
     
     if confers_resistance_to_antibiotic:
-        for drug_class in GENE.relationships[ARO.get_relationship('confers_resistance_to_antibiotic')]:
-            drug_classes.append(drug_class)
-
-    drug_classes_list = []
-    for i in drug_classes:
-        drug_classes_list.append([i.id, i.name])
+        for drug_class in gene.relationships[ARO.get_relationship('confers_resistance_to_antibiotic')]:
+            drug_classes.append([drug_class.id, drug_class.name])
     
-    return drug_classes_list
+    return drug_classes
 
-def get_drug_class_category(drug_classes_list: list[list]) -> list[str]:
+def get_drug_class_category(drug_classes_list: list[tuple]) -> list[str]:
     '''
     Description: Gives a list of categories of drug classes, e.g. cephem and penam are categorized as beta_lactam antibiotics.
 
     Parameters:
-        drug_classes_list (list[list]): 
+        drug_classes_list (list[tuple]): 
             A two-dimensional list where each inner list represents a drug class.
             Each inner list contains the ARO number and name of the drug class in that order. [ARO:number, name].
             Designed to use the return value of the function 'get_immediate_drug_classes'.
