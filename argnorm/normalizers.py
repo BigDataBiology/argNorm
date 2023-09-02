@@ -5,8 +5,7 @@ import pandas as pd
 import warnings
 
 # Importing drug categorization code
-from drug_categorization import get_immediate_drug_classes
-from drug_categorization import get_drug_class_category
+from .drug_categorization import get_immediate_drug_classes, get_drug_class_category
 
 MAPPING_TABLE_ARO_COL = "ARO"
 TARGET_ARO_COL = "ARO"
