@@ -2,11 +2,12 @@
 # After ARO numbers are obtained, these functions can be executed - hence should be independent of which db is used.
 
 import pronto
+from typing import List, Tuple
 
 # Load the ArgNorm ontology from the 'aro.obo' file
 ARO = pronto.Ontology.from_obo_library('aro.obo')
 
-def get_immediate_drug_classes(aro_num: str) -> list[tuple]:
+def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
     '''
     Description: Gets the drug classes to which a gene confers resistance to.
     Only lists the drug class column in the CARD db.
@@ -37,7 +38,7 @@ def get_immediate_drug_classes(aro_num: str) -> list[tuple]:
     
     return drug_classes
 
-def get_drug_class_category(drug_classes_list: list[tuple]) -> list[str]:
+def get_drug_class_category(drug_classes_list: List[Tuple]) -> List[str]:
     '''
     Description: Gives a list of categories of drug classes, e.g. cephem and penam are categorized as beta_lactam antibiotics.
 
