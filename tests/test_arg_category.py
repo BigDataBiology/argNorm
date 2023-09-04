@@ -2,7 +2,7 @@ from argnorm.drug_categorization import (
     get_immediate_drug_classes,
     get_drug_class_category,
 )
-
+import pronto
 
 def test_get_immediate_drug_classes():
     test_cases = ["ARO:3003938", "ARO:3000014"]
