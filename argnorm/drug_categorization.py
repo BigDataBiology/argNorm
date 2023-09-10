@@ -21,6 +21,8 @@ def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
             Each inner list contains the ARO number and name of the drug class in that order. [ARO:number, name].
     '''
 
+    # Some databases don't provide aro numbers as strings. 
+    # Converting those aro numbers to pronto's desired format.
     if type(aro_num) == float or type(aro_num) == int:
         aro_num = 'ARO:' + str(aro_num)
 
