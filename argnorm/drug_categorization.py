@@ -26,6 +26,11 @@ def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
     if type(aro_num) == float or type(aro_num) == int:
         aro_num = 'ARO:' + str(aro_num)
 
+    # If dealing with aro nans, the final drug class categorization will give [].
+    # Hence, immediate drug classes categorization also gives empty list.
+    if aro_num == 'ARO:nan':
+        return []
+
     gene = ARO[aro_num]
 
     confers_resistance_to_drug_class = any(r.name == 'confers_resistance_to_drug_class' for r in gene.relationships)
