@@ -21,6 +21,9 @@ def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
             Each inner list contains the ARO number and name of the drug class in that order. [ARO:number, name].
     '''
 
+    if type(aro_num) == float or type(aro_num) == int:
+        aro_num = 'ARO:' + str(aro_num)
+
     gene = ARO[aro_num]
 
     confers_resistance_to_drug_class = any(r.name == 'confers_resistance_to_drug_class' for r in gene.relationships)
