@@ -31,6 +31,10 @@ def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
     if aro_num == 'ARO:nan':
         return []
 
+    # Returning empty list if aro number not in ARO ontology.
+    if aro_num not in ARO.terms():
+        return []
+
     gene = ARO[aro_num]
 
     confers_resistance_to_drug_class = any(r.name == 'confers_resistance_to_drug_class' for r in gene.relationships)
