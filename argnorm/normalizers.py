@@ -17,7 +17,7 @@ DRUG_CLASS_CATEGORY_COL_HEADING = "OVERALL CATEGORY OF DRUG CLASS"
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
 
-def get_data(path):
+def get_data_path(path):
     return os.path.join(_ROOT, "data", path)
 
 
@@ -108,7 +108,7 @@ class BaseNormalizer:
         own (not package built-in) reference data.
         """
         df = pd.read_csv(
-            get_data(f"{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv"),
+            get_data_path(f"{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv"),
             sep="\t",
             index_col=0,
         )
