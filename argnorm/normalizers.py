@@ -87,6 +87,7 @@ class BaseNormalizer:
         """
         return input_genes
 
+    
     def _set_ref_gene_and_aro_cols(self):
         """
         Customize this when the reference data format is different from the default (e.g. for sarg orfs mode).
@@ -113,6 +114,7 @@ class BaseNormalizer:
         Customize this when it fails to parse the input data.
         """
         return pd.read_csv(input_file, sep='\t')
+
 
 class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
