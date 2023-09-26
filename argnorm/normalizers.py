@@ -86,7 +86,6 @@ class BaseNormalizer:
         Customize this when ref gene and input gene can not exactly match.
         """
         return input_genes
-
     
     def _set_ref_gene_and_aro_cols(self):
         """
