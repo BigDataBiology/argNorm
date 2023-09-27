@@ -4,10 +4,18 @@ import os
 import pandas as pd
 import warnings
 
+# Importing drug categorization code
+from .drug_categorization import get_immediate_drug_classes, get_drug_class_category
+
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
+# Column headings for drug categorization output
+IMMEDIATE_DRUG_CLASS_COL_HEADING = 'CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS'
+DRUG_CLASS_CATEGORY_COL_HEADING = 'OVERALL CATEGORY OF DRUG CLASS'
+
 _ROOT = os.path.abspath(os.path.dirname(__file__))
+
 
 def get_data_path(path):
     return os.path.join(_ROOT, 'data', path)
@@ -40,8 +48,32 @@ class BaseNormalizer:
         ), inplace=True)
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
+
+        # Drug categorization
+        original_annot[
+            IMMEDIATE_DRUG_CLASS_COL_HEADING
+        ] = self.initial_drug_categorization(original_annot[TARGET_ARO_COL])
+        original_annot[
+            DRUG_CLASS_CATEGORY_COL_HEADING
+        ] = self.final_drug_categorization(
+            original_annot[IMMEDIATE_DRUG_CLASS_COL_HEADING]
+        )
+
         return original_annot
 
+    def initial_drug_categorization(self, aro_list):
+        immediate_drug_classes = []
+        for aro in aro_list:
+            immediate_drug_classes.append(get_immediate_drug_classes(aro))
+
+        return immediate_drug_classes
+
+    def final_drug_categorization(self, immediate_drug_classes_col):
+        drug_class_catogeries_col = []
+        for drug_classes in immediate_drug_classes_col:
+            drug_class_catogeries_col.append(get_drug_class_category(drug_classes))
+
+        return drug_class_catogeries_col
 
     def preprocess_ref_genes(self, ref_genes):
         """
@@ -54,8 +86,7 @@ class BaseNormalizer:
         Customize this when ref gene and input gene can not exactly match.
         """
         return input_genes
-
-
+    
     def _set_ref_gene_and_aro_cols(self):
         """
         Customize this when the reference data format is different from the default (e.g. for sarg orfs mode).
