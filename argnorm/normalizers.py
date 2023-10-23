@@ -15,11 +15,14 @@ IMMEDIATE_DRUG_CLASS_COL_HEADING = 'CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS'
 DRUG_CLASS_CATEGORY_COL_HEADING = 'OVERALL CATEGORY OF DRUG CLASS'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
+USING_MANUALLY_CURATED_MAPPING = True
 
 
-def get_data_path(path):
-    return os.path.join(_ROOT, 'data', path)
-
+def get_data_path(tool, db, mode):
+    if USING_MANUALLY_CURATED_MAPPING:
+        return os.path.join(_ROOT, 'data/nan_replaced_data', f'{tool}_{db}_{mode}_ARO_mapping_nan_replaced.tsv')
+    else:
+        return os.path.join(_ROOT, 'data', f'{tool}_{db}_{mode}_ARO_mapping.tsv')
 
 class BaseNormalizer:
     """
@@ -103,7 +106,7 @@ class BaseNormalizer:
         """
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
-        df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv'), sep='\t', index_col=0)
+        df = pd.read_csv(get_data_path(self.tool, self.database, self.mode), sep='\t', index_col=0)
         if self.tool != 'argsoap' or self.mode != 'orfs':
             df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
         return df
