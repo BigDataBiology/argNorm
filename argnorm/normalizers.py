@@ -18,6 +18,18 @@ _ROOT = os.path.abspath(os.path.dirname(__file__))
 USING_MANUALLY_CURATED_MAPPING = True
 
 
+def is_number(num):
+    """
+    Required for checking aro mappings to discern between numbers and other
+    string identifiers.
+    """
+    try:
+        float(num)
+    except ValueError:
+        return False
+
+    return True
+
 def get_data_path(tool, db, mode):
     if USING_MANUALLY_CURATED_MAPPING:
         return os.path.join(_ROOT, 'data/nan_replaced_data', f'{tool}_{db}_{mode}_ARO_mapping_nan_replaced.tsv')
@@ -108,7 +120,7 @@ class BaseNormalizer:
         """
         df = pd.read_csv(get_data_path(self.tool, self.database, self.mode), sep='\t', index_col=0)
         if self.tool != 'argsoap' or self.mode != 'orfs':
-            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if a == a else "nan"}') # a == a checks that a is not nan
+            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
         return df
 
     def load_input(self, input_file):
