@@ -142,8 +142,9 @@ class BaseNormalizer:
 
             if self.tool != 'argsoap' and self.mode != 'orfs':
                 df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
+        if self.tool != 'argsoap' or self.mode != 'orfs':
+            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
 
-        df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
         return df
 
     def load_input(self, input_file):
