@@ -123,7 +123,7 @@ class BaseNormalizer:
         """
         df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv', False), sep='\t', index_col=0)
 
-        if self.database == 'argsoap' and self.mode == 'orfs':
+        if self.database == 'sarg' and self.mode == 'orfs':
             gene_identifier = 'Categories_in_database'
         else:
             gene_identifier = 'Original ID'
