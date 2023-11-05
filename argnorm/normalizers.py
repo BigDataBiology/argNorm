@@ -15,26 +15,17 @@ IMMEDIATE_DRUG_CLASS_COL_HEADING = 'CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS'
 DRUG_CLASS_CATEGORY_COL_HEADING = 'OVERALL CATEGORY OF DRUG CLASS'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
-USING_MANUALLY_CURATED_MAPPING = True
 
-
-def is_number(num):
+def get_data_path(path, getting_manual_curation):
     """
-    Required for checking aro mappings to discern between numbers and other
-    string identifiers.
+    Gets mapping tables and manual curation tables.
+    Giving 'True' as argument after 'path' will get manual curation table.
+    Else mapping table will be returned.
     """
-    try:
-        float(num)
-    except ValueError:
-        return False
+    if getting_manual_curation:
+        return os.path.join(_ROOT, 'data/manual_curation', path)
 
-    return True
-
-def get_data_path(tool, db, mode):
-    if USING_MANUALLY_CURATED_MAPPING:
-        return os.path.join(_ROOT, 'data/nan_replaced_data', f'{tool}_{db}_{mode}_ARO_mapping_nan_replaced.tsv')
-    else:
-        return os.path.join(_ROOT, 'data', f'{tool}_{db}_{mode}_ARO_mapping.tsv')
+    return os.path.join(_ROOT, 'data', path)
 
 class BaseNormalizer:
     """
@@ -118,9 +109,23 @@ class BaseNormalizer:
         """
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
-        df = pd.read_csv(get_data_path(self.tool, self.database, self.mode), sep='\t', index_col=0)
-        if self.tool != 'argsoap' or self.mode != 'orfs':
-            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
+        df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv', False), sep='\t', index_col=0)
+
+        if self.database == 'ncbi':
+            manual_curation = pd.read_csv(get_data_path('ncbi_manual_curation.tsv', True), sep='\t')
+        elif self.database == 'resfinder':
+            manual_curation = pd.read_csv(get_data_path('resfinder_manual_curation.tsv', True), sep='\t')
+        else:
+            manual_curation = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv', True), sep='\t')
+
+        aro_nan_indices = [(list(df['Original ID']).index(manual_curation.loc[i, 'Original ID'])) for i in range(manual_curation.shape[0])]
+
+        for i in range(len(aro_nan_indices)):
+            df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO Replacement']
+
+            if self.tool != 'argsoap' and self.mode != 'orfs':
+                df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
+
         return df
 
     def load_input(self, input_file):
