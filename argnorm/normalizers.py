@@ -123,6 +123,11 @@ class BaseNormalizer:
         """
         df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv', False), sep='\t', index_col=0)
 
+        if self.database == 'argsoap' and self.mode == 'orfs':
+            gene_identifier = 'Categories_in_database'
+        else:
+            gene_identifier = 'Original ID'
+
         if self.database == 'ncbi':
             manual_curation = pd.read_csv(get_data_path('ncbi_manual_curation.tsv', True), sep='\t')
         elif self.database == 'resfinder':
@@ -130,7 +135,7 @@ class BaseNormalizer:
         else:
             manual_curation = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv', True), sep='\t')
 
-        aro_nan_indices = [(list(df['Original ID']).index(manual_curation.loc[i, 'Original ID'])) for i in range(manual_curation.shape[0])]
+        aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
 
         for i in range(len(aro_nan_indices)):
             df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO Replacement']
