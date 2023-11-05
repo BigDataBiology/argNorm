@@ -16,6 +16,18 @@ DRUG_CLASS_CATEGORY_COL_HEADING = 'OVERALL CATEGORY OF DRUG CLASS'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
+def is_number(num):
+    """
+    Required for checking aro mappings to discern between numbers and other
+    string identifiers.
+    """
+    try:
+        float(num)
+    except ValueError:
+        return False
+
+    return True
+
 def get_data_path(path, getting_manual_curation):
     """
     Gets mapping tables and manual curation tables.
@@ -126,6 +138,7 @@ class BaseNormalizer:
             if self.tool != 'argsoap' and self.mode != 'orfs':
                 df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
 
+        df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
         return df
 
     def load_input(self, input_file):
