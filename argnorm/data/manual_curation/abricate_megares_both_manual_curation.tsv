@@ -334,7 +334,7 @@
 332	332	MEG_5407|Drugs|betalactams|Penicillin_binding_protein|PBP2X|RequiresSNPConfirmation	PBP2X	PBP2X
 333	333	MEG_3931|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXS|RequiresSNPConfirmation	3000813	MEXS
 334	334	MEG_5856|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|QACR	QACR	QACR
-335	335	MEG_6068|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|RMTD	3000210	rmtD2
+335	335	MEG_6117|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOB|RequiresSNPConfirmation	3000210	RPOB
 336	336	MEG_6116|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOB|RequiresSNPConfirmation	3000210	RPOB
 337	337	MEG_3246|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479	GYRBA
 338	338	MEG_7818|Biocides|Peroxide_resistance|peroxide_resistance_protein|YDEI	YDEI	YDEI
