@@ -262,12 +262,12 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         Always adapt this method to the input data format.
         """
         if self.is_hamronized:
-            self._input_gene_col = ''  # TODO add this.
+            self._input_gene_col = 'gene_symbol' 
         else:
             self._input_gene_col = 'Accession of closest sequence'
 
     def preprocess_ref_genes(self, ref_genes):
-        return ref_genes.apply(lambda x: x.split('|')[1])
+        return ref_genes.apply(lambda x: x.split('|')[5])
 
 
 class AbricateNormalizer(BaseNormalizer):
