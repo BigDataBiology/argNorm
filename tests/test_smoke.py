@@ -4,10 +4,10 @@ import pronto
 
 @pytest.mark.parametrize("is_hamronized", [True, False])
 @pytest.mark.parametrize("mode", ['reads', 'orfs'])
-@pytest.mark.parametrize("using_manual_curation", [True, False])
-def test_add_aro_column_argsoap(is_hamronized, mode, using_manual_curation):
+@pytest.mark.parametrize("uses_manual_curation", [True, False])
+def test_add_aro_column_argsoap(is_hamronized, mode, uses_manual_curation):
     example_dir = 'hamronized' if is_hamronized else 'raw'
-    norm = argnorm.ARGSOAPNormalizer(is_hamronized=is_hamronized, mode=mode, using_manual_curation=using_manual_curation)
+    norm = argnorm.ARGSOAPNormalizer(is_hamronized=is_hamronized, mode=mode, uses_manual_curation=uses_manual_curation)
     normed = norm.run(input_file=f'examples/{example_dir}/args-oap.sarg.{mode}.tsv')
 
     assert 'ARO' in normed.columns
@@ -32,10 +32,10 @@ def test_add_aro_column_argsoap(is_hamronized, mode, using_manual_curation):
 
 
 @pytest.mark.parametrize("is_hamronized", [True, False])
-@pytest.mark.parametrize("using_manual_curation", [True, False])
-def test_add_aro_column_deeparg(is_hamronized, using_manual_curation):
+@pytest.mark.parametrize("uses_manual_curation", [True, False])
+def test_add_aro_column_deeparg(is_hamronized, uses_manual_curation):
     example_dir = 'hamronized' if is_hamronized else 'raw'
-    norm = argnorm.DeepARGNormalizer(is_hamronized=is_hamronized, using_manual_curation=using_manual_curation)
+    norm = argnorm.DeepARGNormalizer(is_hamronized=is_hamronized, uses_manual_curation=uses_manual_curation)
     normed = norm.run(input_file=f'examples/{example_dir}/deeparg.deeparg.orfs.tsv')
 
     assert 'ARO' in normed.columns
@@ -53,15 +53,15 @@ def test_add_aro_column_deeparg(is_hamronized, using_manual_curation):
 
 @pytest.mark.parametrize("is_hamronized", [True, False])
 @pytest.mark.parametrize("db", ['argannot', 'megares', 'ncbi', 'resfinder'])
-@pytest.mark.parametrize("using_manual_curation", [True, False])
-def test_add_aro_column_abricate(is_hamronized, db, using_manual_curation):
+@pytest.mark.parametrize("uses_manual_curation", [True, False])
+def test_add_aro_column_abricate(is_hamronized, db, uses_manual_curation):
     if not is_hamronized and db == 'resfinder':
         pass
         # TODO We are missing this example test input.
     else:
         # No ARO:nans in input file.
         example_dir = 'hamronized' if is_hamronized else 'raw'
-        norm = argnorm.AbricateNormalizer(database=db, is_hamronized=is_hamronized, using_manual_curation=using_manual_curation)
+        norm = argnorm.AbricateNormalizer(database=db, is_hamronized=is_hamronized, uses_manual_curation=uses_manual_curation)
         normed = norm.run(input_file=f'examples/{example_dir}/abricate.{db}.tsv')
 
         assert 'ARO' in normed.columns
@@ -74,10 +74,10 @@ def test_add_aro_column_abricate(is_hamronized, db, using_manual_curation):
 
 @pytest.mark.parametrize("is_hamronized", [False])
 @pytest.mark.parametrize("mode", ['reads', 'orfs'])
-@pytest.mark.parametrize("using_manual_curation", [True, False])
-def test_add_aro_column_resfinder(is_hamronized, mode, using_manual_curation):  # We only have raw inputs now.
+@pytest.mark.parametrize("uses_manual_curation", [True, False])
+def test_add_aro_column_resfinder(is_hamronized, mode, uses_manual_curation):  # We only have raw inputs now.
     example_dir = 'raw'
-    norm = argnorm.ResFinderNormalizer(is_hamronized=is_hamronized, using_manual_curation=using_manual_curation)
+    norm = argnorm.ResFinderNormalizer(is_hamronized=is_hamronized, uses_manual_curation=uses_manual_curation)
     normed = norm.run(input_file=f'examples/{example_dir}/resfinder.resfinder.{mode}.tsv')
     assert 'ARO' in normed.columns
     assert normed.set_index('Resistance gene').loc["aph(3')-III", 'ARO'] == 'ARO:3002647'
@@ -85,11 +85,10 @@ def test_add_aro_column_resfinder(is_hamronized, mode, using_manual_curation):  
 
 @pytest.mark.parametrize("is_hamronized", [False])
 @pytest.mark.parametrize("mode", ['orfs'])
-@pytest.mark.parametrize("using_manual_curation", [True, False])
-def test_add_aro_column_amrfinderplus(is_hamronized, mode, using_manual_curation):  # We only have raw inputs now.
+@pytest.mark.parametrize("uses_manual_curation", [True, False])
+def test_add_aro_column_amrfinderplus(is_hamronized, mode, uses_manual_curation):  # We only have raw inputs now.
     example_dir = 'raw'
-    norm = argnorm.AMRFinderPlusNormalizer(is_hamronized=is_hamronized, using_manual_curation=using_manual_curation)
+    norm = argnorm.AMRFinderPlusNormalizer(is_hamronized=is_hamronized, uses_manual_curation=uses_manual_curation)
     normed = norm.run(input_file=f'examples/{example_dir}/amrfinderplus.ncbi.{mode}.tsv')
     assert 'ARO' in normed.columns
     assert normed.set_index('Gene symbol').loc["aph(3')-IIIa", 'ARO'] == 'ARO:3002647'
-
