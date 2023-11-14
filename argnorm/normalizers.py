@@ -160,7 +160,7 @@ class BaseNormalizer:
 
 
 class ARGSOAPNormalizer(BaseNormalizer):
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if not database:
             warnings.warn('No `database` specified. Will try using SARG.')
             database = 'sarg'
@@ -226,7 +226,7 @@ class ARGSOAPNormalizer(BaseNormalizer):
 
 class DeepARGNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for DeepARG and will be ignored.')
             mode = 'both'
@@ -254,7 +254,7 @@ class DeepARGNormalizer(BaseNormalizer):
 
 class ResFinderNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for ResFinder and will be ignored.')
             mode = 'both'
@@ -285,7 +285,7 @@ class ResFinderNormalizer(BaseNormalizer):
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for AMRFinderPlus and will be ignored.')
             mode = 'both'
@@ -316,7 +316,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
 class AbricateNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for Abricate and will be ignored.')
             mode = 'both'
