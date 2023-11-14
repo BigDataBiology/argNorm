@@ -44,11 +44,12 @@ class BaseNormalizer:
     Inherit this class and customize subclass methods to implement the normalization of tools.
     """
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         self.tool = ''
         self.database = database
         self.mode = mode
         self.is_hamronized = is_hamronized
+        self.uses_manual_curation = uses_manual_curation
         self._set_input_gene_col()
         self._set_ref_gene_and_aro_cols()
 
@@ -123,27 +124,31 @@ class BaseNormalizer:
         """
         df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv', False), sep='\t', index_col=0)
 
-        if self.database == 'sarg' and self.mode == 'orfs':
-            gene_identifier = 'Categories_in_database'
+        if self.uses_manual_curation:
+            if self.database == 'sarg' and self.mode == 'orfs':
+                gene_identifier = 'Categories_in_database'
+            else:
+                gene_identifier = 'Original ID'
+
+            if self.database == 'ncbi':
+                manual_curation = pd.read_csv(get_data_path('ncbi_manual_curation.tsv', True), sep='\t')
+            elif self.database == 'resfinder':
+                manual_curation = pd.read_csv(get_data_path('resfinder_manual_curation.tsv', True), sep='\t')
+            else:
+                manual_curation = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv', True), sep='\t')
+
+            aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
+
+            for i in range(len(aro_nan_indices)):
+                df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO Replacement']
+
+                if self.tool != 'argsoap' and self.mode != 'orfs':
+                    df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
+            if self.tool != 'argsoap' or self.mode != 'orfs':
+                df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
         else:
-            gene_identifier = 'Original ID'
-
-        if self.database == 'ncbi':
-            manual_curation = pd.read_csv(get_data_path('ncbi_manual_curation.tsv', True), sep='\t')
-        elif self.database == 'resfinder':
-            manual_curation = pd.read_csv(get_data_path('resfinder_manual_curation.tsv', True), sep='\t')
-        else:
-            manual_curation = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv', True), sep='\t')
-
-        aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
-
-        for i in range(len(aro_nan_indices)):
-            df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO Replacement']
-
-            if self.tool != 'argsoap' and self.mode != 'orfs':
-                df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
-        if self.tool != 'argsoap' or self.mode != 'orfs':
-            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
+            if self.tool != 'argsoap' or self.mode != 'orfs':
+                df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
 
         return df
 
