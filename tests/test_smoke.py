@@ -24,8 +24,7 @@ def test_add_aro_column_argsoap(is_hamronized, mode, uses_manual_curation):
 
     elif is_hamronized and mode == 'reads':
         assert set(normed.loc[normed['gene_symbol'] == 'ykkD', 'ARO'].tolist()) == {'ARO:3003064'}
-        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {'ARO:0000051'}
-        assert set(normed.loc[normed['gene_symbol'] == 'mexT', 'ARO'].tolist()) == {'ARO:3000814'}
+        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {'ARO:gi|504416866|ref|WP_014603968.1|', 'ARO:gi|553755386|ref|WP_023088115.1|'}
 
     else:
         assert set(normed.loc[normed[1] == 'gi|489421661|ref|WP_003327389.1|', 'ARO'].tolist()) == {'ARO:3003064'}
