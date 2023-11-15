@@ -44,8 +44,8 @@ def test_add_aro_column_deeparg(is_hamronized, uses_manual_curation):
         assert set(normed.loc[normed['gene_symbol'] == 'MGRB', 'ARO'].tolist()) == {'ARO:mgrB'}
     else:
         assert normed.set_index('#ARG').loc['YKKD', 'ARO'] == 'ARO:3003064'
-        assert normed.set_index('#ARG').loc['PENA', 'ARO'] == 'ARO:3004832'
-        assert normed.set_index('#ARG').loc['PBP-2X', 'ARO'] == 'ARO:PBP-2X'
+        assert list(normed.set_index('#ARG').loc['PENA', 'ARO']) == ['ARO:3004832', 'ARO:3004832']
+        assert list(normed.set_index('#ARG').loc['PBP-2X', 'ARO']) == ['ARO:PBP-2X', 'ARO:PBP-2X']
         assert normed.set_index('#ARG').loc['TETR', 'ARO'] == 'ARO:3003479'
         assert normed.set_index('#ARG').loc['PATA', 'ARO'] == 'ARO:3000024'
 
