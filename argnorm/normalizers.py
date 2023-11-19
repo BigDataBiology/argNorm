@@ -167,7 +167,7 @@ class ARGSOAPNormalizer(BaseNormalizer):
         elif database != 'sarg':
             warnings.warn('The `database` is not supported. Will try using SARG instead.')
             database = 'sarg'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'argsoap'
 
     def _set_ref_gene_and_aro_cols(self):
@@ -239,7 +239,7 @@ class DeepARGNormalizer(BaseNormalizer):
         elif database != 'deeparg':
             warnings.warn('The `database` is not supported. Will try using DeepARG instead.')
             database = 'deeparg'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'deeparg'
 
     def _set_input_gene_col(self):
@@ -267,7 +267,7 @@ class ResFinderNormalizer(BaseNormalizer):
         elif database != 'resfinder':
             warnings.warn('The `database` is not supported. Will try using ResFinder instead.')
             database = 'resfinder'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'resfinder'
 
     def _set_input_gene_col(self):
@@ -298,7 +298,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         elif database != 'ncbi':
             warnings.warn('The `database` is not supported. Will try using NCBI instead.')
             database = 'ncbi'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'amrfinderplus'
 
     def _set_input_gene_col(self):
@@ -323,7 +323,7 @@ class AbricateNormalizer(BaseNormalizer):
         else:
             warnings.warn('`mode` is not specified. Will use default setting "both".')
             mode = 'both'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'abricate'
 
     def _set_input_gene_col(self):
