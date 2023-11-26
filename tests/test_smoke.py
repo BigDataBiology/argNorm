@@ -13,7 +13,7 @@ def test_add_aro_column_argsoap_reads_hamronized(uses_manual_curation):
     if uses_manual_curation:
         assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {'ARO:gi|504416866|ref|WP_014603968.1|', 'ARO:gi|553755386|ref|WP_023088115.1|'}
     else:
-        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'.tolist()]) == {'ARO:nan'}
+        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {'ARO:nan'}
 
 
 @pytest.mark.parametrize('uses_manual_curation', [True, False])
@@ -26,7 +26,7 @@ def test_add_aro_column_argsoap_reads_raw(uses_manual_curation):
 
 
 @pytest.mark.parametrize('uses_manual_curation', [True, False])
-def test_add_aro_column_argsoap_orfs(uses_manual_curation):
+def test_add_aro_column_argsoap_orfs_hamronized(uses_manual_curation):
     norm = argnorm.ARGSOAPNormalizer(is_hamronized=True, mode='orfs', uses_manual_curation=uses_manual_curation)
     normed = norm.run(input_file=f'examples/hamronized/args-oap.sarg.orfs.tsv')
     assert 'ARO' in normed.columns
@@ -36,7 +36,7 @@ def test_add_aro_column_argsoap_orfs(uses_manual_curation):
         assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {"{'ARO:0000051'}"}
         assert set(normed.loc[normed['gene_symbol'] == 'mexT', 'ARO'].tolist()) == {"{'ARO:3000814'}"}
     else:
-        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {"{'ARO:nan'}"}
+        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {"{'ARO:3001805', 'ARO:3000559', 'ARO:3003710', 'ARO:nan'}"}
         assert set(normed.loc[normed['gene_symbol'] == 'mexT', 'ARO'].tolist()) == {"{'ARO:nan'}"}
 
 
@@ -116,8 +116,8 @@ def test_add_aro_column_resfinder_raw(mode, uses_manual_curation):
 
 # Will be getting hamronized inputs from PR#11
 @pytest.mark.parametrize('uses_manual_curation', [True, False])
-def test_add_aro_column_amrfinder_plus_raw(is_hamronized, uses_manual_curation):
-    norm = argnorm.AMRFinderPlusNormalizer(is_hamronized=is_hamronized, uses_manual_curation=uses_manual_curation)
+def test_add_aro_column_amrfinder_plus_raw(uses_manual_curation):
+    norm = argnorm.AMRFinderPlusNormalizer(is_hamronized=False, uses_manual_curation=uses_manual_curation)
     normed = norm.run(input_file=f'examples/raw/amrfinderplus.ncbi.orfs.tsv')
 
     assert 'ARO' in normed.columns
