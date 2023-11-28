@@ -4,7 +4,7 @@
 import pronto
 from typing import List, Tuple
 
-# Load the ArgNorm ontology from the 'aro.obo' file
+# Load the ArgNorm ontology from internet
 ARO = pronto.Ontology.from_obo_library('aro.obo')
 
 def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
