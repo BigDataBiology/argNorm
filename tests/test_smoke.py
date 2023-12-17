@@ -122,3 +122,11 @@ def test_add_aro_column_amrfinder_plus_raw(uses_manual_curation):
 
     assert 'ARO' in normed.columns
     assert normed.set_index('Gene symbol').loc["aph(3')-IIIa", 'ARO'] == 'ARO:3002647'
+
+@pytest.mark.parametrize('uses_manual_curation', [True, False])
+def test_add_aro_column_amrfinder_plus_hamronized(uses_manual_curation):
+    norm = argnorm.AMRFinderPlusNormalizer(is_hamronized=True, uses_manual_curation=uses_manual_curation)
+    normed = norm.run(input_file=f'examples/hamronized/amrfinderplus.ncbi.orfs.tsv')
+
+    assert 'ARO' in normed.columns
+    assert normed.set_index('gene_symbol').loc["aph(3')-IIIa", 'ARO'] == 'ARO:3002647'

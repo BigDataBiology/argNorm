@@ -105,7 +105,7 @@ class BaseNormalizer:
         Customize this when ref gene and input gene can not exactly match.
         """
         return input_genes
-    
+
     def _set_ref_gene_and_aro_cols(self):
         """
         Customize this when the reference data format is different from the default (e.g. for sarg orfs mode).
@@ -306,12 +306,15 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         Always adapt this method to the input data format.
         """
         if self.is_hamronized:
-            self._input_gene_col = ''  # TODO add this.
+            self._input_gene_col = 'gene_symbol'
         else:
             self._input_gene_col = 'Accession of closest sequence'
 
     def preprocess_ref_genes(self, ref_genes):
-        return ref_genes.apply(lambda x: x.split('|')[1])
+        if self.is_hamronized:
+            return ref_genes.apply(lambda x: x.split('|')[5])
+        else:
+            return ref_genes.apply(lambda x: x.split('|')[1])
 
 
 class AbricateNormalizer(BaseNormalizer):
