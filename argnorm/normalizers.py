@@ -16,21 +16,40 @@ DRUG_CLASS_CATEGORY_COL_HEADING = 'OVERALL CATEGORY OF DRUG CLASS'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
+def is_number(num):
+    """
+    Required for checking aro mappings to discern between numbers and other
+    string identifiers.
+    """
+    try:
+        float(num)
+    except ValueError:
+        return False
 
-def get_data_path(path):
+    return True
+
+def get_data_path(path, getting_manual_curation):
+    """
+    Gets mapping tables and manual curation tables.
+    Giving 'True' as argument after 'path' will get manual curation table.
+    Else mapping table will be returned.
+    """
+    if getting_manual_curation:
+        return os.path.join(_ROOT, 'data/manual_curation', path)
+
     return os.path.join(_ROOT, 'data', path)
-
 
 class BaseNormalizer:
     """
     Inherit this class and customize subclass methods to implement the normalization of tools.
     """
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         self.tool = ''
         self.database = database
         self.mode = mode
         self.is_hamronized = is_hamronized
+        self.uses_manual_curation = uses_manual_curation
         self._set_input_gene_col()
         self._set_ref_gene_and_aro_cols()
 
@@ -103,9 +122,34 @@ class BaseNormalizer:
         """
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
-        df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv'), sep='\t', index_col=0)
-        if self.tool != 'argsoap' or self.mode != 'orfs':
-            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
+        df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv', False), sep='\t', index_col=0)
+
+        if self.uses_manual_curation:
+            if self.database == 'sarg' and self.mode == 'orfs':
+                gene_identifier = 'Categories_in_database'
+            else:
+                gene_identifier = 'Original ID'
+
+            if self.database == 'ncbi':
+                manual_curation = pd.read_csv(get_data_path('ncbi_manual_curation.tsv', True), sep='\t')
+            elif self.database == 'resfinder':
+                manual_curation = pd.read_csv(get_data_path('resfinder_manual_curation.tsv', True), sep='\t')
+            else:
+                manual_curation = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv', True), sep='\t')
+
+            aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
+
+            for i in range(len(aro_nan_indices)):
+                df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO Replacement']
+
+                if self.tool != 'argsoap' and self.mode != 'orfs':
+                    df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
+            if self.tool != 'argsoap' or self.mode != 'orfs':
+                df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
+        else:
+            if self.tool != 'argsoap' or self.mode != 'orfs':
+                df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
+
         return df
 
     def load_input(self, input_file):
@@ -116,14 +160,14 @@ class BaseNormalizer:
 
 
 class ARGSOAPNormalizer(BaseNormalizer):
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if not database:
             warnings.warn('No `database` specified. Will try using SARG.')
             database = 'sarg'
         elif database != 'sarg':
             warnings.warn('The `database` is not supported. Will try using SARG instead.')
             database = 'sarg'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'argsoap'
 
     def _set_ref_gene_and_aro_cols(self):
@@ -182,7 +226,7 @@ class ARGSOAPNormalizer(BaseNormalizer):
 
 class DeepARGNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for DeepARG and will be ignored.')
             mode = 'both'
@@ -195,7 +239,7 @@ class DeepARGNormalizer(BaseNormalizer):
         elif database != 'deeparg':
             warnings.warn('The `database` is not supported. Will try using DeepARG instead.')
             database = 'deeparg'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'deeparg'
 
     def _set_input_gene_col(self):
@@ -210,7 +254,7 @@ class DeepARGNormalizer(BaseNormalizer):
 
 class ResFinderNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for ResFinder and will be ignored.')
             mode = 'both'
@@ -223,7 +267,7 @@ class ResFinderNormalizer(BaseNormalizer):
         elif database != 'resfinder':
             warnings.warn('The `database` is not supported. Will try using ResFinder instead.')
             database = 'resfinder'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'resfinder'
 
     def _set_input_gene_col(self):
@@ -241,7 +285,7 @@ class ResFinderNormalizer(BaseNormalizer):
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for AMRFinderPlus and will be ignored.')
             mode = 'both'
@@ -254,7 +298,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         elif database != 'ncbi':
             warnings.warn('The `database` is not supported. Will try using NCBI instead.')
             database = 'ncbi'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'amrfinderplus'
 
     def _set_input_gene_col(self):
@@ -272,14 +316,14 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
 class AbricateNormalizer(BaseNormalizer):
 
-    def __init__(self, database=None, is_hamronized=False, mode=None) -> None:
+    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
         if mode:
             warnings.warn('`mode` is not relavant for Abricate and will be ignored.')
             mode = 'both'
         else:
             warnings.warn('`mode` is not specified. Will use default setting "both".')
             mode = 'both'
-        super().__init__(database, is_hamronized, mode)
+        super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'abricate'
 
     def _set_input_gene_col(self):

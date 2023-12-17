@@ -1,0 +1,11 @@
+	Original ID	ARO Replacement	Gene Name in CARD
+0	argannot~~~(Bla)PBP1a~~~JN645776:1-2160	3003041	(Bla)PBP1a
+1	argannot~~~(Ntmdz)nimj_Nitroimidazole_Gene~~~KJ816753.1:19295-19792	3007112	(Ntmdz)nimj_Nitroimidazole_Gene
+2	argannot~~~(Phe)cpt_strepv~~~U09991:1412-1948	(Phe)cpt_strepv	(Phe)cpt_strepv
+3	argannot~~~(Bla)Penicillin_Binding_Protein_Ecoli~~~CP002291:664439-666340	3007423	(Bla)Penicillin_Binding_Protein_Ecoli
+4	argannot~~~(AGly)aac3-I~~~AJ877225:5293-5757	3007384	(AGly)aac3-I
+5	argannot~~~(Bla)penA~~~AB511945:1298-3049	(Bla)penA	(Bla)penA
+6	argannot~~~(Phe)catB6~~~AJ223604:3727-4341	3002678	(Phe)catB6
+7	argannot~~~(Tet)tetR~~~HF545434:53576-54226	3003479	(Tet)tetR
+8	argannot~~~(Tet)tetR(G)~~~S52438:113-745	(Tet)tetR(G)	(Tet)tetR(G)
+9	argannot~~~(Bla)PBP1b~~~AF101781:1-2466	(Bla)PBP1b	(Bla)PBP1b
