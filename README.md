@@ -86,11 +86,12 @@ argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw
 
 ```
 
-## Maintainers
+## Authors
 
-|   Name    | Email                 | Organization                                                 |
-| :-------: | --------------------- | ------------------------------------------------------------ |
-| Hui Chong | huichong.me@gmail.com | Research Assistant, Big Data Biology Lab, Fudan University |
-| Svetlana Ugarcina Perovic | svetlana.ugarcina@gmail.com | Postdoc Researcher, Big Data Biology Lab, Fudan University |
-| Finlay Maguire | finlaymaguire@gmail.com | Assistant Professor, Department of Community Health and Epidemiology, Dalhousie University |
-| [Luis Pedro Coelho](https://luispedro.org) | luis@luispedro.org | Principal Investigator, Big Data Biology Lab, Fudan University |
+- Vedanth Ramji [vedanth.ramji@gmail.com](mailto:vedanth.ramji@gmail.com)*
+- Hui Chong [huichong.me@gmail.com](mailto:huichong.me@gmail.com)
+- Svetlana Ugarcina Perovic [svetlana.ugarcina@gmail.com](mailto:svetlana.ugarcina@gmail.com)
+- Finlay Maguire [finlaymaguire@gmail.com](mailto:finlaymaguire@gmail.com)
+- [Luis Pedro Coelho](https://luispedro.org) [luis@luispedro.org](mailto:luis@luispedro.org)
+
+*: current maintainer

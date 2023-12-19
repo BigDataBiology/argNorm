@@ -2,8 +2,8 @@ from setuptools import setup
 from setuptools import find_packages
 
 NAME = "argnorm"
-AUTHOR = "Hui Chong and others"
-EMAIL = "svetlana@big-data-biology.org"
+AUTHOR = "See README"
+EMAIL = "luispedro@big-data-biology.org"
 URL = "https://github.com/BigDataBiology/argNorm"
 LICENSE = "MIT"
 DESCRIPTION = """
