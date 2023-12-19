@@ -1,0 +1,13 @@
+site_name: "argNorm: Normalize ARG annotations to ARO"
+repo_url: "https://github.com/BigDataBiology/argNorm"
+repo_name: "GitHub"
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    html_show_sourcelink: false
+    prev_next_buttons_location: both
+
+nav:
+        - 'argNorm': index.md
+
