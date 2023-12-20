@@ -15,7 +15,7 @@ Normalize antibiotic resistance genes (ARGs) abundance tables (e.g., from metage
 if __name__ == "__main__":
     setup(
         name=NAME,
-        version="0.0.1rc4",
+        version="0.1.0",
         author=AUTHOR,
         author_email=EMAIL,
         url=URL,
