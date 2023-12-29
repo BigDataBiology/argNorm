@@ -275,7 +275,7 @@ class ResFinderNormalizer(BaseNormalizer):
         Always adapt this method to the input data format.
         """
         if self.is_hamronized:
-            self._input_gene_col = ''  # TODO add here.
+            self._input_gene_col = 'gene_symbol'  # TODO add here.
         else:
             self._input_gene_col = 'Accession no.'
 

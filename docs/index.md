@@ -2,7 +2,7 @@
 
 [![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
 [![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
-![](https://img.shields.io/badge/status-alpha-red?style=flat) 
+![](https://img.shields.io/badge/status-alpha-red?style=flat)
 
 Antibiotic resistance gene (ARG) normalization by mapping to the [antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD.
 
@@ -15,7 +15,7 @@ Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all
 
 This is a beta-quality implementation (subject to changes and some bugs may remain), but you're welcomed to try it and provide feedback.
 
-We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues). 
+We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues).
 
 ## Supported tools
 
