@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.1.0 - 20 December 2023
+## 0.2.0 - 6 December, 2024
+- Hamronized ResFinderFG support
+- New example outputs created using latest argNorm version from examples directory
+
+## 0.1.0 - 20 December, 2023
 
 - Added hamronized support for AMRFinderPlus
 - Fixed ARO:nan issue (added manually curated mapping tables and integrated it with normalizers)
@@ -8,7 +12,7 @@
 - Added AMRFinderPlusNormalizer, ResFinderNormalizer
 - Added specific smoke tests for ARGSOAPNormalizer, DeepARGNormalizer, AbricateNormalizer, AMRFinderPlusNormalizer and ResFinderNormalizer
 
-## 0.0.1 - June 13, 2022
+## 0.0.1 - 13 June, 2022
 
 - First release
 - Initial source code started
@@ -17,6 +21,3 @@
 
 
 ## Unreleased
-- Hamronized ResFinderFG support
-- New example outputs created using latest argNorm version from examples directory
-
