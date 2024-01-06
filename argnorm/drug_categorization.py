@@ -16,12 +16,12 @@ def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
         aro_num (str): ARO number. Needs to be in the form 'ARO:number'.
 
     Returns:
-        drug_classes_list (list[tuple]): 
+        drug_classes_list (list[tuple]):
             A two-dimensional list where each inner list represents a drug class.
             Each inner list contains the ARO number and name of the drug class in that order. [ARO:number, name].
     '''
 
-    # Some databases don't provide aro numbers as strings. 
+    # Some databases don't provide aro numbers as strings.
     # Converting those aro numbers to pronto's desired format.
     if type(aro_num) == float or type(aro_num) == int:
         aro_num = 'ARO:' + str(aro_num)
@@ -45,11 +45,11 @@ def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
     if confers_resistance_to_drug_class:
         for drug_class in gene.relationships[ARO.get_relationship('confers_resistance_to_drug_class')]:
             drug_classes.append((drug_class.id, drug_class.name))
-    
+
     if confers_resistance_to_antibiotic:
         for drug_class in gene.relationships[ARO.get_relationship('confers_resistance_to_antibiotic')]:
             drug_classes.append((drug_class.id, drug_class.name))
-    
+
     return drug_classes
 
 def get_drug_class_category(drug_classes_list: List[Tuple]) -> List[str]:
@@ -57,11 +57,11 @@ def get_drug_class_category(drug_classes_list: List[Tuple]) -> List[str]:
     Description: Gives a list of categories of drug classes, e.g. cephem and penam are categorized as beta_lactam antibiotics.
 
     Parameters:
-        drug_classes_list (list[tuple]): 
+        drug_classes_list (list[tuple]):
             A two-dimensional list where each inner list represents a drug class.
             Each inner list contains the ARO number and name of the drug class in that order. [ARO:number, name].
             Designed to use the return value of the function 'get_immediate_drug_classes'.
-    
+
     Returns:
         drug_class_categories (list[str]):
             A list containing the names of the drug class categories of each drug class given as input to the function.
@@ -79,5 +79,5 @@ def get_drug_class_category(drug_classes_list: List[Tuple]) -> List[str]:
             drug_class_categories.append(drug_class_instance_superclasses[superclasses_len - 3].name)
         else:
             drug_class_categories.append(drug_class_instance_superclasses[0].name)
-        
+
     return drug_class_categories

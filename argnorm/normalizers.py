@@ -275,12 +275,15 @@ class ResFinderNormalizer(BaseNormalizer):
         Always adapt this method to the input data format.
         """
         if self.is_hamronized:
-            self._input_gene_col = 'gene_symbol'  # TODO add here.
+            self._input_gene_col = 'gene_symbol'
         else:
             self._input_gene_col = 'Accession no.'
 
     def preprocess_ref_genes(self, ref_genes):
-        return ref_genes.apply(lambda x: x.split('_')[-1])
+        if self.is_hamronized:
+            return ref_genes.apply(lambda x: x.split('_')[0])
+        else:
+            return ref_genes.apply(lambda x: x.split('_')[-1])
 
 
 class AMRFinderPlusNormalizer(BaseNormalizer):

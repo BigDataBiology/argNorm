@@ -1,0 +1,38 @@
+input_file_name	gene_symbol	gene_name	reference_database_name	reference_database_version	reference_accession	analysis_software_name	analysis_software_version	genetic_variation_type	antimicrobial_agent	coverage_percentage	coverage_depth	coverage_ratio	drug_class	input_gene_length	input_gene_start	input_gene_stop	input_protein_length	input_protein_start	input_protein_stop	input_sequence_id	nucleotide_mutation	nucleotide_mutation_interpretation	predicted_phenotype	predicted_phenotype_confidence_level	amino_acid_mutation	amino_acid_mutation_interpretation	reference_gene_length	reference_gene_start	reference_gene_stop	reference_protein_length	reference_protein_start	reference_protein_stop	resistance_mechanism	strand_orientation	sequence_identity
+
+resfinder.resfinder.reads.tsv	ant(6)-Ia	ant(6)-Ia	resfinder	4.1.0	KF864551	resfinder	06-01-24	gene_presence_detected		100.0			Aminoglycoside resistance		Na	Na				NA							867							+	100.0
+
+resfinder.resfinder.reads.tsv	aph(3')-III	aph(3')-III	resfinder	4.1.0	M26832	resfinder	06-01-24	gene_presence_detected		100.0			Aminoglycoside resistance		Na	Na				NA							795							+	100.0
+
+resfinder.resfinder.reads.tsv	erm(B)	erm(B)	resfinder	4.1.0	U18931	resfinder	06-01-24	gene_presence_detected		100.0			Macrolide resistance		Na	Na				NA							738							+	100.0
+
+resfinder.resfinder.reads.tsv	erm(F)	erm(F)	resfinder	4.1.0	M17808	resfinder	06-01-24	gene_presence_detected		100.0			Macrolide resistance		Na	Na				NA							801							+	100.0
+
+resfinder.resfinder.reads.tsv	lnu(C)	lnu(C)	resfinder	4.1.0	AY928180	resfinder	06-01-24	gene_presence_detected		100.0			Lincosamide resistance		Na	Na				NA							495							+	98.99
+
+resfinder.resfinder.reads.tsv	erm(B)	erm(B)	resfinder	4.1.0	X72021	resfinder	06-01-24	gene_presence_detected		89.02			Macrolide resistance		Na	Na				NA							728							+	89.02
+
+resfinder.resfinder.reads.tsv	cat	cat	resfinder	4.1.0	M35190	resfinder	06-01-24	gene_presence_detected		100.0			Phenicol resistance		Na	Na				NA							624							+	96.96
+
+resfinder.resfinder.reads.tsv	tet(32)	tet(32)	resfinder	4.1.0	EU722333	resfinder	06-01-24	gene_presence_detected		95.16			Tetracycline resistance		Na	Na				NA							1920							+	95.1
+
+resfinder.resfinder.reads.tsv	tet(32)	tet(32)	resfinder	4.1.0	EF626943	resfinder	06-01-24	gene_presence_detected		100.0			Tetracycline resistance		Na	Na				NA							1920							+	100.0
+
+resfinder.resfinder.reads.tsv	tet(40)	tet(40)	resfinder	4.1.0	FJ158002	resfinder	06-01-24	gene_presence_detected		100.0			Tetracycline resistance		Na	Na				NA							1221							+	99.92
+
+resfinder.resfinder.reads.tsv	tet(Q)	tet(Q)	resfinder	4.1.0	L33696	resfinder	06-01-24	gene_presence_detected		100.0			Tetracycline resistance		Na	Na				NA							1926							+	98.91
+
+resfinder.resfinder.reads.tsv	tet(Q)	tet(Q)	resfinder	4.1.0	X58717	resfinder	06-01-24	gene_presence_detected		100.0			Tetracycline resistance		Na	Na				NA							1926							+	96.73
+
+resfinder.resfinder.reads.tsv	tet(Q)	tet(Q)	resfinder	4.1.0	U73497	resfinder	06-01-24	gene_presence_detected		87.48			Tetracycline resistance		Na	Na				NA							1965							+	81.83
+
+resfinder.resfinder.reads.tsv	tet(X)	tet(X)	resfinder	4.1.0	M37699	resfinder	06-01-24	gene_presence_detected		100.0			Tetracycline resistance		Na	Na				NA							1167							+	99.91
+
+resfinder.resfinder.reads.tsv	tet(W)	tet(W)	resfinder	4.1.0	AJ427422	resfinder	06-01-24	gene_presence_detected		100.0			Tetracycline resistance		Na	Na				NA							1920							+	100.0
+
+resfinder.resfinder.reads.tsv	tet(O/W)	tet(O/W)	resfinder	4.1.0	AM889122	resfinder	06-01-24	gene_presence_detected		87.03			Warning: gene is missing from Notes file. Please inform curator.		Na	Na				NA							1726							+	86.92
+
+resfinder.resfinder.reads.tsv	tet(O/W)-1	tet(O/W)-1	resfinder	4.1.0	AY485126	resfinder	06-01-24	gene_presence_detected		89.38			Warning: gene is missing from Notes file. Please inform curator.		Na	Na				NA							1716							+	89.27
+
+resfinder.resfinder.reads.tsv	tet(O/32/O)	tet(O/32/O)	resfinder	4.1.0	FP929050	resfinder	06-01-24	gene_presence_detected		86.61			Warning: gene is missing from Notes file. Please inform curator.		Na	Na				NA							1745							+	85.99
+
