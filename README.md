@@ -138,9 +138,16 @@ argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o tmp
 ```
 
 ### ResFinder
+
+#### Hamronized
+```bash
+argnorm resfinder -i examples/hamronized/resfinder.resfinder.orfs.tsv -o outputs/hamronized/resfinder.resfinder.orfs.tsv --hamronized
+argnorm resfinder -i examples/hamronized/resfinder.resfinder.reads.tsv -o outputs/hamronized/resfinder.resfinder.reads.tsv --hamronized
+```
+
+#### Raw
 ```bash
 argnorm resfinder -i examples/raw/resfinder.resfinder.orfs.tsv -o outputs/raw/resfinder.resfinder.orfs.tsv
-
 argnorm resfinder -i examples/raw/resfinder.resfinder.reads.tsv -o outputs/raw/resfinder.resfinder.reads.tsv
 ```
 
