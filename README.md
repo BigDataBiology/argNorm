@@ -24,6 +24,10 @@ Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all
 
 *We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues).*
 
+## Tutorial Video
+
+[![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
+
 ## Installation
 argNorm can be installed using pip as shown.
 ```bash
