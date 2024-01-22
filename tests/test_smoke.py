@@ -33,7 +33,7 @@ def test_add_aro_column_argsoap_orfs_hamronized(uses_manual_curation):
     assert set(normed.loc[normed['gene_symbol'] == 'ykkD', 'ARO'].tolist()) == {"{'ARO:3003064'}"}
 
     if uses_manual_curation:
-        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {"{'ARO:0000051'}"}
+        assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {"{'ARO:3003479'}"}
         assert set(normed.loc[normed['gene_symbol'] == 'mexT', 'ARO'].tolist()) == {"{'ARO:3000814'}"}
     else:
         assert set(normed.loc[normed['gene_symbol'] == 'tetR', 'ARO'].tolist()) == {"{'ARO:3001805', 'ARO:3000559', 'ARO:3003710', 'ARO:nan'}"}
@@ -48,7 +48,7 @@ def test_add_aro_column_argsoap_orfs_raw(uses_manual_curation):
     assert set(normed.loc[normed[0].str.contains('multidrug__ykkD_train_msa'), 'ARO'].tolist()) == {"{'ARO:3003064'}"}
 
     if uses_manual_curation:
-        assert set(normed.loc[normed[0].str.contains('tetracycline__tetR_train_msa'), 'ARO'].tolist()) == {"{'ARO:0000051'}"}
+        assert set(normed.loc[normed[0].str.contains('tetracycline__tetR_train_msa'), 'ARO'].tolist()) == {"{'ARO:3003479'}"}
         assert set(normed.loc[normed[0].str.contains('multidrug__mexT_train_msa'), 'ARO'].tolist()) == {"{'ARO:3000814'}"}
     else:
         assert set(normed.loc[normed[0].str.contains('tetracycline__tetR_train_msa'), 'ARO'].tolist()) == {"{'ARO:3001805', 'ARO:3000559', 'ARO:3003710', 'ARO:nan'}"}
@@ -63,7 +63,7 @@ def test_add_aro_column_deeparg_hamronized(uses_manual_curation):
     assert set(normed.loc[normed['gene_symbol'] == 'YKKD', 'ARO'].tolist()) == {'ARO:3003064'}
 
     if uses_manual_curation:
-        assert set(normed.loc[normed['gene_symbol'] == 'MGRB', 'ARO'].tolist()) == {'ARO:mgrB'}
+        assert set(normed.loc[normed['gene_symbol'] == 'MGRB', 'ARO'].tolist()) == {'ARO:3003820'}
     else:
         assert set(normed.loc[normed['gene_symbol'] == 'MGRB', 'ARO'].tolist()) == {'ARO:nan'}
 
@@ -78,7 +78,7 @@ def test_add_aro_column_deeparg_raw(uses_manual_curation):
 
     if uses_manual_curation:
         assert list(normed.set_index('#ARG').loc['PENA', 'ARO']) == ['ARO:3004832', 'ARO:3004832']
-        assert list(normed.set_index('#ARG').loc['PBP-2X', 'ARO']) == ['ARO:PBP-2X', 'ARO:PBP-2X']
+        assert list(normed.set_index('#ARG').loc['PBP-2X', 'ARO']) == ['ARO:3003938', 'ARO:3003938']
         assert normed.set_index('#ARG').loc['TETR', 'ARO'] == 'ARO:3003479'
         assert normed.set_index('#ARG').loc['PATA', 'ARO'] == 'ARO:3000024'
     else:
