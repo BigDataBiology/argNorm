@@ -8,7 +8,7 @@
 6	multidrug__mexT	{'ARO:3000814'}
 7	tetracycline__tetC	{'ARO:3000656', 'ARO:3000167'}
 8	tetracycline__tetD	{'ARO:3000168'}
-9	tetracycline__tetR	{'ARO:0000051'}
+9	tetracycline__tetR	{'ARO:3003479'}
 10	tetracycline__tetracycline_resistance_protein	tetracycline_resistance_protein
 11	tetracycline__tetU	{'ARO:3004650'}
 12	unclassified__cob(I)alamin adenolsyltransferase	cob(I)alamin adenolsyltransferase
