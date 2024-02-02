@@ -1,12 +1,5 @@
 # Changelog
 
-## 0.2.1 - 22 January, 2024
-- Changed manual curation tables to use parent term ARO if a direct mapping can't be done
-
-## 0.2.0 - 6 January, 2024
-- Hamronized ResFinderFG support
-- New example outputs created using latest argNorm version from examples directory
-
 ## 0.1.0 - 20 December, 2023
 
 - Added hamronized support for AMRFinderPlus
