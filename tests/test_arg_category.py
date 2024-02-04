@@ -36,10 +36,10 @@ def test_get_drug_class_category():
     ]
 
     expected_output = [
-        ["beta-lactam antibiotic"],
-        ["rifamycin antibiotic"],
-        ["tetracycline antibiotic"],
-        ["fluoroquinolone antibiotic"],
+        [("ARO:3000007", "beta-lactam antibiotic")],
+        [("ARO:3000157", "rifamycin antibiotic")],
+        [("ARO:3000050", "tetracycline antibiotic")],
+        [("ARO:0000001", "fluoroquinolone antibiotic")],
     ]
 
     zipped_test_cases_and_output = zip(test_cases, expected_output)

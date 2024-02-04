@@ -52,7 +52,7 @@ def get_immediate_drug_classes(aro_num: str) -> List[Tuple]:
 
     return drug_classes
 
-def get_drug_class_category(drug_classes_list: List[Tuple]) -> List[str]:
+def get_drug_class_category(drug_classes_list: List[Tuple]) -> List[Tuple]:
     '''
     Description: Gives a list of categories of drug classes, e.g. cephem and penam are categorized as beta_lactam antibiotics.
 
@@ -76,8 +76,14 @@ def get_drug_class_category(drug_classes_list: List[Tuple]) -> List[str]:
         superclasses_len = len(drug_class_instance_superclasses)
 
         if superclasses_len >= 3:
-            drug_class_categories.append(drug_class_instance_superclasses[superclasses_len - 3].name)
+            drug_class_categories.append((
+                drug_class_instance_superclasses[superclasses_len - 3].id,
+                drug_class_instance_superclasses[superclasses_len - 3].name
+            ))
         else:
-            drug_class_categories.append(drug_class_instance_superclasses[0].name)
+            drug_class_categories.append((
+                drug_class_instance_superclasses[0].id,
+                drug_class_instance_superclasses[0].name
+            ))
 
     return drug_class_categories
