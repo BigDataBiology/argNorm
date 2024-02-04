@@ -19,3 +19,4 @@
 - Changed manual curation tables to use parent term ARO if a direct mapping can't be done
 - Hamronized ResFinderFG support
 - New example outputs created using latest argNorm version from examples directory
+- Added ARO numbers to OVERALL CATEGORY OF DRUG CLASS
