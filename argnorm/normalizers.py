@@ -1,12 +1,10 @@
-"""Source code for the Normalizer class"""
-
 import os
 import pandas as pd
 import warnings
 
-# Importing drug categorization code
 from .drug_categorization import get_immediate_drug_classes, get_drug_class_category
 
+ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
@@ -51,7 +49,6 @@ class BaseNormalizer:
         self.is_hamronized = is_hamronized
         self.uses_manual_curation = uses_manual_curation
         self._set_input_gene_col()
-        self._set_ref_gene_and_aro_cols()
 
     def run(self, input_file : str):
         """
@@ -63,7 +60,7 @@ class BaseNormalizer:
         )
         aro_table = self.get_aro_mapping_table()
         aro_table.set_index(self.preprocess_ref_genes(
-            aro_table[self.ref_gene_col].str.lower()
+            aro_table[ORIGINAL_ID_COL].str.lower()
         ), inplace=True)
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
@@ -106,11 +103,6 @@ class BaseNormalizer:
         """
         return input_genes
 
-    def _set_ref_gene_and_aro_cols(self):
-        """
-        Customize this when the reference data format is different from the default (e.g. for sarg orfs mode).
-        """
-        self.ref_gene_col = 'Original ID'
 
     def _set_input_gene_col(self):
         """
@@ -125,10 +117,7 @@ class BaseNormalizer:
         df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv', False), sep='\t', index_col=0)
 
         if self.uses_manual_curation:
-            if self.database == 'sarg' and self.mode == 'orfs':
-                gene_identifier = 'Categories_in_database'
-            else:
-                gene_identifier = 'Original ID'
+            gene_identifier = 'Original ID'
 
             if self.database == 'ncbi':
                 manual_curation_fname = 'ncbi_manual_curation.tsv'
@@ -171,13 +160,6 @@ class ARGSOAPNormalizer(BaseNormalizer):
         super().__init__(database, is_hamronized, mode, uses_manual_curation)
         self.tool = 'argsoap'
 
-    def _set_ref_gene_and_aro_cols(self):
-        if self.mode == 'reads':
-            self.ref_gene_col = 'Original ID'
-        elif self.mode == 'orfs':
-            self.ref_gene_col = 'Categories_in_database'
-        else:
-            self._raise_incorrect_mode_error()
 
     def _set_input_gene_col(self):
         if self.is_hamronized and self.mode == 'reads':
@@ -374,3 +356,4 @@ class AbricateNormalizer(BaseNormalizer):
             argannot=lambda x: x.split('~~~')[-1]
         )
         return ref_genes.apply(process_funcs_by_db[self.database])
+
