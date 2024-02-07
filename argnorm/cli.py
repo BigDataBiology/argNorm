@@ -1,7 +1,6 @@
 """Major script to run on command line"""
 
 import argparse
-from .normalize import normalize
 
 def main():
     """
@@ -26,6 +25,9 @@ def main():
     parser.add_argument('-o', '--output', type=str, help='The file to save normalization results')
     args = parser.parse_args()
 
+    # We only import the normalize function when the user actually wants to run the program
+    # This makes running `argnorm -h` much faster because it avoids importing slow modules (e.g. pandas)
+    from .normalize import normalize
     result = normalize(args.input,
             tool=args.tool,
             database=args.db,
