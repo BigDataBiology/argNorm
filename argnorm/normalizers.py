@@ -131,11 +131,12 @@ class BaseNormalizer:
                 gene_identifier = 'Original ID'
 
             if self.database == 'ncbi':
-                manual_curation = pd.read_csv(get_data_path('ncbi_manual_curation.tsv', True), sep='\t')
+                manual_curation_fname = 'ncbi_manual_curation.tsv'
             elif self.database == 'resfinder':
-                manual_curation = pd.read_csv(get_data_path('resfinder_manual_curation.tsv', True), sep='\t')
+                manual_curation_fname = 'resfinder_manual_curation.tsv'
             else:
-                manual_curation = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv', True), sep='\t')
+                manual_curation_fname = f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv'
+            manual_curation = pd.read_csv(get_data_path(manual_curation_fname, True), sep='\t')
 
             aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
 

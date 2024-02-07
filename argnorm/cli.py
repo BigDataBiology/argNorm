@@ -1,5 +1,3 @@
-"""Major script to run on command line"""
-
 import argparse
 
 def main():
