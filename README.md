@@ -70,13 +70,12 @@ The available options are:
 Use `argnorm -h` or `argnorm --help` to see available options.
 
 ```bash
->argnorm -h
-usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot}] [--mode {reads,orfs,both}] [--hamronized] [-i INPUT] [-o OUTPUT] {argsoap,abricate,deeparg}
+usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot}] [--mode {reads,orfs,both}] [--hamronized] [-i INPUT] [-o OUTPUT] {argsoap,abricate,deeparg,resfinder,amrfinderplus}
 
-The program is designed for normalizing ARG annotation result from different ARG annotation tools and databases to resolve their differences in gene naming etc.
+argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
-  {argsoap,abricate,deeparg}
+  {argsoap,abricate,deeparg,resfinder,amrfinderplus}
                         The tool you used to do ARG annotation.
 
 options:
@@ -84,12 +83,12 @@ options:
   --db {sarg,ncbi,resfinder,deeparg,megares,argannot}
                         The database you used to do ARG annotation.
   --mode {reads,orfs,both}
-                        The tool you used to do ARG annotation.
-  --hamronized          Use this if the input is hamronized (not hamronized by hAMRonization)
+                        The mode you run the annotation tool.
+  --hamronized          Use this if the input is hamronized (processed using the hAMRonization tool)
   -i INPUT, --input INPUT
-                        The annotation result you have.
+                        The annotation result you have
   -o OUTPUT, --output OUTPUT
-                        The file to save normalization results.
+                        The file to save normalization results
 ```
 
 Here is a basic outline of a command using argNorm.
