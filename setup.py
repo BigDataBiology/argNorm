@@ -24,7 +24,7 @@ if __name__ == "__main__":
         packages=['argnorm', 'argnorm.data'],
         include_package_data=True,
         package_dir={'argnorm': 'argnorm' },
-        package_data={'argnorm': ['data/*.tsv']},
+        package_data={'argnorm': ['data/*.tsv', 'data/manual_curation/*.tsv']},
         install_requires=open("./requirements.txt", "r").read().splitlines(),
         long_description=open("./README.md", "r").read(),
         long_description_content_type='text/markdown',
