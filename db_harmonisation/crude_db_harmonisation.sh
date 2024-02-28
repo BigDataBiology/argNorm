@@ -34,8 +34,8 @@ wget -c -O dbs/card.tar.bz2 https://card.mcmaster.ca/latest/data
 tar -xvf dbs/card.tar.bz2 -C dbs
 ls -hl dbs
 
-# Get megares db
-wget -c -O dbs/megares.fna https://megares.meglab.org/download/megares_v2.00/megares_full_database_v2.00.fasta
+# Get megares db: LINK NOT WORKING
+# wget -c -O dbs/megares.fna https://megares.meglab.org/download/megares_v2.00/megares_full_database_v2.00.fasta
 
 # Get argannot db
 wget -c -O dbs/argannot.fna https://raw.githubusercontent.com/tseemann/abricate/master/db/argannot/sequences
@@ -47,7 +47,8 @@ rgi load -i dbs/card.json
 mkdir -p mapping
 
 rgi main -i dbs/resfinder.fna -o mapping/resfinder_rgi -t contig -a BLAST --clean --include_loose
-rgi main -i dbs/ncbi_amr.faa -o mapping/ncbi_rgi -t protein -a BLAST --clean --include_loose
+python clean_ncbi.py
+rgi main -i dbs/ncbi_amr_corrected.faa -o mapping/ncbi_rgi -t protein -a BLAST --clean --include_loose
 rgi main -i dbs/sarg.faa -o mapping/sarg_rgi -t protein -a BLAST --clean --include_loose
 rgi main -i dbs/resfinder_fg.faa -o mapping/resfinder_fg_rgi -t protein -a BLAST --clean --include_loose
 rgi main -i dbs/deeparg.faa -o mapping/deeparg_rgi -t protein -a BLAST --clean --include_loose
@@ -62,3 +63,9 @@ python reconcile.py -f dbs/resfinder_fg.faa -r mapping/resfinder_fg_rgi.txt -d r
 python reconcile.py -f dbs/deeparg.faa -r mapping/deeparg_rgi.txt -d deeparg
 python reconcile.py -f dbs/argannot.fna -r mapping/argannot_rgi.txt -d argannot
 python reconcile.py -f dbs/megares.fna -r mapping/megares_rgi.txt -d megares
+
+# Clean up
+mv {megares,ncbi,resfinder,argannot,sarg,deeparg,resfinder_fg}_ARO_mapping.tsv mapping
+rm -rf ResFinderFG
+rm -rf deeparg-largerepo
+rm ./mapping/*.json
