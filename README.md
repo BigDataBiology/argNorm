@@ -39,8 +39,8 @@ pip install argnorm
 Note that CARD RGI already uses ARO, thus there is no need to use argNorm.
 
 - [DeepARG](https://bench.cs.vt.edu/deeparg) (v1.0.2)
-- [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v2.3)
-- [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5)
+- [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v3)
+- [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5), ResFinderFG (v2)
 - [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) (v4.0)
 - [AMRFinderPlus](https://github.com/ncbi/amr) (v3.10.30)
 
