@@ -2,15 +2,15 @@ import os
 import pandas as pd
 import warnings
 
-from .drug_categorization import get_immediate_drug_classes, get_drug_class_category
+from .drug_categorization import get_inaffective_drugs, get_inaffective_drug_classes
 
 ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
 # Column headings for drug categorization output
-IMMEDIATE_DRUG_CLASS_COL_HEADING = 'CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS'
-DRUG_CLASS_CATEGORY_COL_HEADING = 'OVERALL CATEGORY OF DRUG CLASS'
+INAFFECTIVE_DRUGS_COL = 'inaffective_drugs'
+INAFFECTIVE_DRUG_CLASSES_COL = 'inaffective_drug_classes'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -67,29 +67,29 @@ class BaseNormalizer:
 
         # Drug categorization
         original_annot[
-            IMMEDIATE_DRUG_CLASS_COL_HEADING
+            INAFFECTIVE_DRUGS_COL
         ] = self.initial_drug_categorization(original_annot[TARGET_ARO_COL])
         original_annot[
-            DRUG_CLASS_CATEGORY_COL_HEADING
+            INAFFECTIVE_DRUG_CLASSES_COL
         ] = self.final_drug_categorization(
-            original_annot[IMMEDIATE_DRUG_CLASS_COL_HEADING]
+            original_annot[INAFFECTIVE_DRUGS_COL]
         )
 
         return original_annot
 
     def initial_drug_categorization(self, aro_list):
-        immediate_drug_classes = []
+        inaffective_drugs = []
         for aro in aro_list:
-            immediate_drug_classes.append(get_immediate_drug_classes(aro))
+            inaffective_drugs.append(get_inaffective_drugs(aro))
 
-        return immediate_drug_classes
+        return inaffective_drugs
 
     def final_drug_categorization(self, immediate_drug_classes_col):
-        drug_class_catogeries_col = []
+        inaffective_drug_classes = []
         for drug_classes in immediate_drug_classes_col:
-            drug_class_catogeries_col.append(get_drug_class_category(drug_classes))
+            inaffective_drug_classes.append(get_inaffective_drug_classes(drug_classes))
 
-        return drug_class_catogeries_col
+        return inaffective_drug_classes
 
     def preprocess_ref_genes(self, ref_genes):
         """
