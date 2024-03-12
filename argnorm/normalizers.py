@@ -66,30 +66,28 @@ class BaseNormalizer:
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
 
         # Drug categorization
-        original_annot[
-            CONFERS_RESISTANCE_TO_COL
-        ] = self.initial_drug_categorization(original_annot[TARGET_ARO_COL])
-        original_annot[
-            RESISTANCE_TO_DRUG_CLASSES_COL
-        ] = self.final_drug_categorization(
-            original_annot[CONFERS_RESISTANCE_TO_COL]
-        )
+        original_annot[CONFERS_RESISTANCE_TO_COL] = self.initial_drug_categorization(original_annot[TARGET_ARO_COL])
+        original_annot[RESISTANCE_TO_DRUG_CLASSES_COL] = self.final_drug_categorization(original_annot[TARGET_ARO_COL])
 
         return original_annot
 
     def initial_drug_categorization(self, aro_list):
         result = []
         for aro in aro_list:
-            result.append(confers_resistance_to(aro))
+            result.append(", ".join(confers_resistance_to(aro)))
 
         return result
 
-    def final_drug_categorization(self, immediate_drug_classes_col):
-        inaffective_drug_classes = []
-        for drug_classes in immediate_drug_classes_col:
-            inaffective_drug_classes.append(drugs_to_drug_classes(drug_classes))
+    def final_drug_categorization(self, aro_list):
+        drugs = []
+        for aro in aro_list:
+            drugs.append(confers_resistance_to(aro))
 
-        return inaffective_drug_classes
+        drug_classes = []
+        for drug in drugs:
+            drug_classes.append(", ".join(drugs_to_drug_classes(drug)))
+
+        return drug_classes
 
     def preprocess_ref_genes(self, ref_genes):
         """

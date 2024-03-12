@@ -44,11 +44,11 @@ def confers_resistance_to(aro_num: str) -> List[Tuple]:
 
     if confers_resistance_to_drug_class:
         for drug in gene.relationships[ARO.get_relationship('confers_resistance_to_drug_class')]:
-            drugs_list.append((drug.id, drug.name))
+            drugs_list.append(drug.id)
 
     if confers_resistance_to_antibiotic:
         for drug in gene.relationships[ARO.get_relationship('confers_resistance_to_antibiotic')]:
-            drugs_list.append((drug.id, drug.name))
+            drugs_list.append(drug.id)
 
     return drugs_list
 
@@ -71,19 +71,13 @@ def drugs_to_drug_classes(drugs_list: List[Tuple]) -> List[Tuple]:
     drug_classes = []
 
     for drug in drugs_list:
-        drug_instance = ARO[drug[0]]
+        drug_instance = ARO[drug]
         drug_instance_superclasses = list(drug_instance.superclasses())
         superclasses_len = len(drug_instance_superclasses)
 
         if superclasses_len >= 3:
-            drug_classes.append((
-                drug_instance_superclasses[superclasses_len - 3].id,
-                drug_instance_superclasses[superclasses_len - 3].name
-            ))
+            drug_classes.append(drug_instance_superclasses[superclasses_len - 3].id)
         else:
-            drug_classes.append((
-                drug_instance_superclasses[0].id,
-                drug_instance_superclasses[0].name
-            ))
+            drug_classes.append(drug_instance_superclasses[0].id)
 
     return drug_classes
