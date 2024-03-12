@@ -1,9 +1,9 @@
 from argnorm.drug_categorization import (
-    get_inaffective_drugs,
-    get_inaffective_drug_classes
+    confers_resistance_to,
+    drugs_to_drug_classes
 )
 
-def test_get_inaffective_drugs():
+def test_confers_resistance_to():
     test_cases = ["ARO:3003938", "ARO:3000014"]
 
     expected_output = [
@@ -24,7 +24,7 @@ def test_get_inaffective_drugs():
     zipped_test_cases_and_output = zip(test_cases, expected_output)
 
     for i in zipped_test_cases_and_output:
-        assert sorted(get_inaffective_drugs(i[0])) == sorted(i[1])
+        assert sorted(confers_resistance_to(i[0])) == sorted(i[1])
 
 
 def test_get_inaffective_drug_classes():
@@ -45,4 +45,4 @@ def test_get_inaffective_drug_classes():
     zipped_test_cases_and_output = zip(test_cases, expected_output)
 
     for i in zipped_test_cases_and_output:
-        assert get_inaffective_drug_classes(i[0]) == i[1]
+        assert drugs_to_drug_classes(i[0]) == i[1]

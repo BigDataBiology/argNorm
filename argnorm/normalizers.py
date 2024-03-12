@@ -2,15 +2,15 @@ import os
 import pandas as pd
 import warnings
 
-from .drug_categorization import get_inaffective_drugs, get_inaffective_drug_classes
+from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 
 ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
 # Column headings for drug categorization output
-INAFFECTIVE_DRUGS_COL = 'inaffective_drugs'
-INAFFECTIVE_DRUG_CLASSES_COL = 'inaffective_drug_classes'
+CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
+RESISTANCE_TO_DRUG_CLASSES_COL = 'resistance_to_drug_classes'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
@@ -67,27 +67,27 @@ class BaseNormalizer:
 
         # Drug categorization
         original_annot[
-            INAFFECTIVE_DRUGS_COL
+            CONFERS_RESISTANCE_TO_COL
         ] = self.initial_drug_categorization(original_annot[TARGET_ARO_COL])
         original_annot[
-            INAFFECTIVE_DRUG_CLASSES_COL
+            RESISTANCE_TO_DRUG_CLASSES_COL
         ] = self.final_drug_categorization(
-            original_annot[INAFFECTIVE_DRUGS_COL]
+            original_annot[CONFERS_RESISTANCE_TO_COL]
         )
 
         return original_annot
 
     def initial_drug_categorization(self, aro_list):
-        inaffective_drugs = []
+        result = []
         for aro in aro_list:
-            inaffective_drugs.append(get_inaffective_drugs(aro))
+            result.append(confers_resistance_to(aro))
 
-        return inaffective_drugs
+        return result
 
     def final_drug_categorization(self, immediate_drug_classes_col):
         inaffective_drug_classes = []
         for drug_classes in immediate_drug_classes_col:
-            inaffective_drug_classes.append(get_inaffective_drug_classes(drug_classes))
+            inaffective_drug_classes.append(drugs_to_drug_classes(drug_classes))
 
         return inaffective_drug_classes
 

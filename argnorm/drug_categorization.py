@@ -7,7 +7,7 @@ from typing import List, Tuple
 # Load the ARO ontology from internet
 ARO = pronto.Ontology.from_obo_library('aro.obo')
 
-def get_inaffective_drugs(aro_num: str) -> List[Tuple]:
+def confers_resistance_to(aro_num: str) -> List[Tuple]:
     '''
     Description: Gets the drugs/antibiotics to which a gene confers resistance to.
     Only lists the drug class column in the CARD db.
@@ -52,7 +52,7 @@ def get_inaffective_drugs(aro_num: str) -> List[Tuple]:
 
     return drugs_list
 
-def get_inaffective_drug_classes(drugs_list: List[Tuple]) -> List[Tuple]:
+def drugs_to_drug_classes(drugs_list: List[Tuple]) -> List[Tuple]:
     '''
     Description: Gives a list of categories of drug classes, e.g. cephem and penam are categorized as beta_lactam antibiotics.
 
@@ -60,7 +60,7 @@ def get_inaffective_drug_classes(drugs_list: List[Tuple]) -> List[Tuple]:
         drugs_list (list[tuple]):
             A two-dimensional list where each inner list represents a drug.
             Each inner list contains the ARO number and name of the drug in that order. [ARO:number, name].
-            Designed to use the return value of the function 'get_inaffective_drugs'.
+            Designed to use the return value of the function 'confers_resistance_to'.
 
     Returns:
         drug_classes (list[str]):
