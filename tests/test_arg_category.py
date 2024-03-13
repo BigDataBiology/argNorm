@@ -15,7 +15,6 @@ def test_confers_resistance_to():
 
     for i in zipped_test_cases_and_output:
         assert sorted(confers_resistance_to(i[0])) == sorted(i[1])
-        assert sorted(confers_resistance_to(i[0])) == sorted(i[1])
 
 
 def test_drug_to_drug_classes():
@@ -24,5 +23,4 @@ def test_drug_to_drug_classes():
     zipped_test_cases_and_output = zip(test_cases, expected_output)
 
     for i in zipped_test_cases_and_output:
-        assert drugs_to_drug_classes(i[0]) == i[1]
         assert drugs_to_drug_classes(i[0]) == i[1]
