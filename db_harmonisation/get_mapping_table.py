@@ -31,6 +31,8 @@ def get_aro_for_hits(rgi_output, database):
         rgi_hits['Original ID'] = rgi_hits['Contig'].apply(lambda x: '_'.join(x.split('_')[:-1]))
     elif database == 'megares':
         rgi_hits['Original ID'] = rgi_hits['Contig'].apply(lambda x: '_'.join(x.split('_')[:-1]))
+    else:
+        raise ValueError(f"Unknown database {database}")
 
 
     mapping = rgi_hits[['Original ID', "Best_Hit_ARO", 'ARO']]
