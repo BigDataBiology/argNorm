@@ -38,8 +38,10 @@ def test_abricate_hamronized(database):
     normed = norm.run(input_file=f'examples/hamronized/abricate.{database}.tsv')
 
     assert 'ARO' in normed.columns
-    assert normed.set_index('input_sequence_id').loc['GMGC10.017_618_532.GPT', 'ARO'] == 'ARO:3001305'
-
+    if database != 'ncbi':
+        assert normed.set_index('input_sequence_id').loc['GMGC10.007_884_757.FOSB', 'ARO'] == 'ARO:3007372'
+    else:
+        assert normed.set_index('input_sequence_id').loc['GMGC10.002_430_984.FOSB', 'ARO'] == 'ARO:3005100'
 @pytest.mark.parametrize("database", ['argannot', 'megares', 'ncbi'])
 def test_abricate_raw(database):
     norm = argnorm.AbricateNormalizer(database=database, is_hamronized=False)
