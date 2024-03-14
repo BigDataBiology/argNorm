@@ -142,7 +142,7 @@ def reconcile_dbs():
     get_aro_for_hits('mapping/sarg_rgi.txt').to_csv('mapping/sarg_ARO_mapping.tsv', sep='\t', index=False)
     get_aro_for_hits('mapping/resfinder_fg_rgi.txt').to_csv('mapping/resfinder_fg_ARO_mapping.tsv', sep='\t', index=False)
     get_aro_for_hits('mapping/deeparg_rgi.txt').to_csv('mapping/deeparg_ARO_mapping.tsv', sep='\t', index=False)
-    get_aro_for_hits('mapping/argannot_rgi.txt').to_csv('mapping/argannot_ARO_mapping.tsv', sep='\t', index=False, index=False)
+    get_aro_for_hits('mapping/argannot_rgi.txt').to_csv('mapping/argannot_ARO_mapping.tsv', sep='\t', index=False)
     get_aro_for_hits('mapping/megares_rgi.txt').to_csv('mapping/megares_ARO_mapping.tsv', sep='\t', index=False)
 
 create_out_dirs()
