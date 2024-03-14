@@ -1,7 +1,7 @@
 from .normalizers import ARGSOAPNormalizer, \
     DeepARGNormalizer, AbricateNormalizer, ResFinderNormalizer, AMRFinderPlusNormalizer
 
-def normalize(ifile, tool : str, database : str, is_hamronized : bool, mode : str):
+def normalize(ifile, tool : str, database : str, is_hamronized : bool):
     '''Normalize ARG tables
 
     Parameters
@@ -13,7 +13,6 @@ def normalize(ifile, tool : str, database : str, is_hamronized : bool, mode : st
         Database to use
     is_hamronized : bool
         Whether input has been run through hAMRonization already
-    mode : str
     '''
     normalizer = {
         'abricate': AbricateNormalizer,
@@ -25,6 +24,6 @@ def normalize(ifile, tool : str, database : str, is_hamronized : bool, mode : st
 
     if normalizer is None:
         raise ValueError('Please specify a correct tool name.')
-    norm = normalizer(database=database, is_hamronized=is_hamronized, mode=mode)
+    norm = normalizer(database=database, is_hamronized=is_hamronized)
     return norm.run(ifile)
 

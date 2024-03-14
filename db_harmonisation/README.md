@@ -18,8 +18,3 @@ The approach used here is:
     conda env create -f env.yml
     conda activate crude_harmonisation
     bash crude_db_harmonisation.sh
-
-Output mapping can be found at `resfinder_ncbi_ARO_mapping.tsv`
-
-- 93.1% of ResFinder entries with trivial mapping to ARO using homology models (218 entries missing).
-- 80.7% of NCBI entries with trivial mapping to ARO using homology models (1260 entries missing).

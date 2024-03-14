@@ -62,7 +62,6 @@ The available options are:
     - DeepARG (`deeparg`)
     - MEGARes (`megares`)
     - ARG-ANNOT (`argannot`)
-- `--mode`: can be `reads`, `orfs` or `both`
 - `--hamronized`: use this if the input is hamronized by [hAMRonization](https://github.com/pha4ge/hAMRonization)
 - `-i` or `--input`: path to the annotation result
 - `-o` or `--output`: the file to save normalization results
@@ -71,25 +70,23 @@ Use `argnorm -h` or `argnorm --help` to see available options.
 
 ```bash
 >argnorm -h
-usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot}] [--mode {reads,orfs,both}] [--hamronized] [-i INPUT] [-o OUTPUT] {argsoap,abricate,deeparg}
+usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot}] [--hamronized] [-i INPUT] [-o OUTPUT] {argsoap,abricate,deeparg,resfinder,amrfinderplus}
 
-The program is designed for normalizing ARG annotation result from different ARG annotation tools and databases to resolve their differences in gene naming etc.
+argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
-  {argsoap,abricate,deeparg}
+  {argsoap,abricate,deeparg,resfinder,amrfinderplus}
                         The tool you used to do ARG annotation.
 
 options:
   -h, --help            show this help message and exit
   --db {sarg,ncbi,resfinder,deeparg,megares,argannot}
                         The database you used to do ARG annotation.
-  --mode {reads,orfs,both}
-                        The tool you used to do ARG annotation.
-  --hamronized          Use this if the input is hamronized (not hamronized by hAMRonization)
+  --hamronized          Use this if the input is hamronized (processed using the hAMRonization tool)
   -i INPUT, --input INPUT
-                        The annotation result you have.
+                        The annotation result you have
   -o OUTPUT, --output OUTPUT
-                        The file to save normalization results.
+                        The file to save normalization results
 ```
 
 Here is a basic outline of a command using argNorm.
@@ -103,38 +100,34 @@ argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
 ### ARGs-OAP
 
 ```bash
-argnorm argsoap --mode reads -i examples/raw/args-oap.sarg.reads.tsv -o tmp
-argnorm argsoap --mode reads -i examples/hamronized/args-oap.sarg.reads.tsv -o tmp --hamronized
+argnorm argsoap -i examples/raw/args-oap.sarg.reads.tsv -o outputs/raw/args-oap.sarg.reads.tsv
 
--------------------------------------------------------------------------------------------------------
-
-argnorm argsoap --mode orfs -i examples/raw/args-oap.sarg.orfs.tsv -o tmp
-argnorm argsoap --mode orfs -i examples/hamronized/args-oap.sarg.orfs.tsv -o tmp --hamronized
+argnorm argsoap -i examples/hamronized/args-oap.sarg.reads.tsv -o outputs/hamronized/args-oap.sarg.reads.tsv --hamronized
 ```
 
 ### DeepARG
 
 ```bash
-argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o tmp
+argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o outputs/raw/deeparg.deeparg.orfs.tsv
 
-argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o tmp --hamronized
+argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o outputs/hamronized/deeparg.deeparg.orfs.tsv --hamronized
 ```
 
 ### ABRicate
 
 #### Hamronized
 ```bash
-argnorm abricate --db ncbi -i examples/hamronized/abricate.ncbi.tsv -o tmp --hamronized
-argnorm abricate --db megares -i examples/hamronized/abricate.megares.tsv -o tmp --hamronized
-argnorm abricate --db argannot -i examples/hamronized/abricate.argannot.tsv -o tmp --hamronized
-argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o tmp --hamronized
+argnorm abricate --db ncbi -i examples/hamronized/abricate.ncbi.tsv -o outputs/hamronized/abricate.ncbi.tsv --hamronized
+argnorm abricate --db megares -i examples/hamronized/abricate.megares.tsv -o outputs/hamronized/abricate.megares.tsv --hamronized
+argnorm abricate --db argannot -i examples/hamronized/abricate.argannot.tsv -o outputs/hamronized/abricate.argannot.tsv --hamronized
+argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o outputs/hamronized/abricate.resfinder.tsv --hamronized
 ```
 
 #### Raw
 ```bash
-argnorm abricate --db ncbi -i examples/raw/abricate.ncbi.tsv -o tmp
-argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o tmp
-argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o tmp
+argnorm abricate --db ncbi -i examples/raw/abricate.ncbi.tsv -o outputs/raw/abricate.ncbi.tsv
+argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o outputs/raw/abricate.megarest.tsv
+argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o outputs/raw/abricate.argannot.tsv
 ```
 
 ### ResFinder

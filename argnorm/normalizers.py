@@ -42,12 +42,10 @@ class BaseNormalizer:
     Inherit this class and customize subclass methods to implement the normalization of tools.
     """
 
-    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
+    def __init__(self, database=None, is_hamronized=False) -> None:
         self.tool = ''
         self.database = database
-        self.mode = mode
         self.is_hamronized = is_hamronized
-        self.uses_manual_curation = uses_manual_curation
         self._set_input_gene_col()
 
     def run(self, input_file : str):
@@ -112,31 +110,21 @@ class BaseNormalizer:
         """
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
-        df = pd.read_csv(get_data_path(f'{self.tool}_{self.database}_{self.mode}_ARO_mapping.tsv', False), sep='\t', index_col=0)
+        df = pd.read_csv(get_data_path(f'{self.database}_ARO_mapping.tsv', False), sep='\t')
 
-        if self.uses_manual_curation:
+        if self.database == 'sarg':
             gene_identifier = 'Original ID'
-
-            if self.database == 'ncbi':
-                manual_curation_fname = 'ncbi_manual_curation.tsv'
-            elif self.database == 'resfinder':
-                manual_curation_fname = 'resfinder_manual_curation.tsv'
-            else:
-                manual_curation_fname = f'{self.tool}_{self.database}_{self.mode}_manual_curation.tsv'
+            manual_curation_fname = 'sarg_manual_curation.tsv'
             manual_curation = pd.read_csv(get_data_path(manual_curation_fname, True), sep='\t')
-
             aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
 
             for i in range(len(aro_nan_indices)):
-                df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO Replacement']
-
-                if self.tool != 'argsoap' and self.mode != 'orfs':
-                    df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
-            if self.tool != 'argsoap' or self.mode != 'orfs':
-                df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
+                df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO']
+                df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
+            
+            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
         else:
-            if self.tool != 'argsoap' or self.mode != 'orfs':
-                df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
+            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
 
         return df
 
@@ -148,28 +136,22 @@ class BaseNormalizer:
 
 
 class ARGSOAPNormalizer(BaseNormalizer):
-    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
+    def __init__(self, database=None, is_hamronized=False) -> None:
         if not database:
             warnings.warn('No `database` specified. Will try using SARG.')
             database = 'sarg'
         elif database != 'sarg':
             warnings.warn('The `database` is not supported. Will try using SARG instead.')
             database = 'sarg'
-        super().__init__(database, is_hamronized, mode, uses_manual_curation)
+        super().__init__(database, is_hamronized)
         self.tool = 'argsoap'
 
 
     def _set_input_gene_col(self):
-        if self.is_hamronized and self.mode == 'reads':
+        if self.is_hamronized:
             self._input_gene_col = 'reference_accession'
-        elif self.is_hamronized and self.mode == 'orfs':
-            self._input_gene_col = 'gene_name'
-        elif not self.is_hamronized and self.mode == 'reads':
-            self._input_gene_col = 1
-        elif not self.is_hamronized and self.mode == 'orfs':
-            self._input_gene_col = 0
         else:
-            self._raise_incorrect_mode_error()
+            self._input_gene_col = 1
 
     def load_input(self, input_file):
         if self.is_hamronized:
@@ -177,56 +159,19 @@ class ARGSOAPNormalizer(BaseNormalizer):
         else:
             return pd.read_csv(input_file, sep='\t', header=None)
 
-    def preprocess_input_genes(self, input_genes):
-        if self.is_hamronized and self.mode == 'reads':
-            return input_genes
-        elif self.is_hamronized and self.mode == 'orfs':
-            return input_genes
-        elif not self.is_hamronized and self.mode == 'reads':
-            return input_genes
-        elif not self.is_hamronized and self.mode == 'orfs':
-            return input_genes.apply(lambda x: x.split('_train_msa')[0])
-        else:
-            self._raise_incorrect_mode_error()
-
-    def preprocess_ref_genes(self, ref_genes):
-        if self.is_hamronized and self.mode == 'reads':
-            return ref_genes
-        elif self.is_hamronized and self.mode == 'orfs':
-            return ref_genes.apply(lambda x: x.replace("'", '_').replace('-', '_'))
-        elif not self.is_hamronized and self.mode == 'reads':
-            return ref_genes
-        elif not self.is_hamronized and self.mode == 'orfs':
-            return ref_genes.apply(lambda x: x.replace("'", '_').replace('-', '_'))
-        else:
-            self._raise_incorrect_mode_error()
-
-    def _raise_incorrect_mode_error(self):
-        raise ValueError('Please specify correct mode for your input.')
-
 
 class DeepARGNormalizer(BaseNormalizer):
-
-    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
-        if mode:
-            warnings.warn('`mode` is not relavant for DeepARG and will be ignored.')
-            mode = 'both'
-        else:
-            warnings.warn('`mode` is not specified. Will use default setting "both".')
-            mode = 'both'
+    def __init__(self, database=None, is_hamronized=False) -> None:
         if not database:
             warnings.warn('No `database` specified. Will try using DeepARG.')
             database = 'deeparg'
         elif database != 'deeparg':
             warnings.warn('The `database` is not supported. Will try using DeepARG instead.')
             database = 'deeparg'
-        super().__init__(database, is_hamronized, mode, uses_manual_curation)
+        super().__init__(database, is_hamronized)
         self.tool = 'deeparg'
 
     def _set_input_gene_col(self):
-        """
-        Always adapt this method to the input data format.
-        """
         if self.is_hamronized:
             self._input_gene_col = 'gene_name'
         else:
@@ -234,27 +179,17 @@ class DeepARGNormalizer(BaseNormalizer):
 
 
 class ResFinderNormalizer(BaseNormalizer):
-
-    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
-        if mode:
-            warnings.warn('`mode` is not relavant for ResFinder and will be ignored.')
-            mode = 'both'
-        else:
-            warnings.warn('`mode` is not specified. Will use default setting "both".')
-            mode = 'both'
+    def __init__(self, database=None, is_hamronized=False) -> None:
         if not database:
             warnings.warn('No `database` specified. Will try using ResFinder.')
             database = 'resfinder'
         elif database != 'resfinder':
             warnings.warn('The `database` is not supported. Will try using ResFinder instead.')
             database = 'resfinder'
-        super().__init__(database, is_hamronized, mode, uses_manual_curation)
+        super().__init__(database, is_hamronized)
         self.tool = 'resfinder'
 
     def _set_input_gene_col(self):
-        """
-        Always adapt this method to the input data format.
-        """
         if self.is_hamronized:
             self._input_gene_col = 'gene_symbol'
         else:
@@ -268,27 +203,17 @@ class ResFinderNormalizer(BaseNormalizer):
 
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
-
-    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
-        if mode:
-            warnings.warn('`mode` is not relavant for AMRFinderPlus and will be ignored.')
-            mode = 'both'
-        else:
-            warnings.warn('`mode` is not specified. Will use default setting "both".')
-            mode = 'both'
+    def __init__(self, database=None, is_hamronized=False) -> None:
         if not database:
             warnings.warn('No `database` specified. Will try using NCBI.')
             database = 'ncbi'
         elif database != 'ncbi':
             warnings.warn('The `database` is not supported. Will try using NCBI instead.')
             database = 'ncbi'
-        super().__init__(database, is_hamronized, mode, uses_manual_curation)
+        super().__init__(database, is_hamronized)
         self.tool = 'amrfinderplus'
 
     def _set_input_gene_col(self):
-        """
-        Always adapt this method to the input data format.
-        """
         if self.is_hamronized:
             self._input_gene_col = 'gene_symbol'
         else:
@@ -302,15 +227,8 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
 
 class AbricateNormalizer(BaseNormalizer):
-
-    def __init__(self, database=None, is_hamronized=False, mode=None, uses_manual_curation=True) -> None:
-        if mode:
-            warnings.warn('`mode` is not relavant for Abricate and will be ignored.')
-            mode = 'both'
-        else:
-            warnings.warn('`mode` is not specified. Will use default setting "both".')
-            mode = 'both'
-        super().__init__(database, is_hamronized, mode, uses_manual_curation)
+    def __init__(self, database=None, is_hamronized=False) -> None:
+        super().__init__(database, is_hamronized)
         self.tool = 'abricate'
 
     def _set_input_gene_col(self):
@@ -354,4 +272,3 @@ class AbricateNormalizer(BaseNormalizer):
             argannot=lambda x: x.split('~~~')[-1]
         )
         return ref_genes.apply(process_funcs_by_db[self.database])
-
