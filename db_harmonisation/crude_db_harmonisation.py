@@ -137,13 +137,13 @@ def rgi_on_megares(megares_fna):
 def reconcile_dbs():
     from .get_mapping_table import get_aro_for_hits
     
-    get_aro_for_hits('mapping/resfinder_rgi.txt').to_csv('mapping/resfinder_ARO_mapping.tsv', sep='\t')
-    get_aro_for_hits('mapping/ncbi_rgi.txt').to_csv('mapping/ncbi_ARO_mapping.tsv', sep='\t')
-    get_aro_for_hits('mapping/sarg_rgi.txt').to_csv('mapping/sarg_ARO_mapping.tsv', sep='\t')
-    get_aro_for_hits('mapping/resfinder_fg_rgi.txt').to_csv('mapping/resfinder_fg_ARO_mapping.tsv', sep='\t')
-    get_aro_for_hits('mapping/deeparg_rgi.txt').to_csv('mapping/deeparg_ARO_mapping.tsv', sep='\t')
-    get_aro_for_hits('mapping/argannot_rgi.txt').to_csv('mapping/argannot_ARO_mapping.tsv', sep='\t')
-    get_aro_for_hits('mapping/megares_rgi.txt').to_csv('mapping/megares_ARO_mapping.tsv', sep='\t')
+    get_aro_for_hits('mapping/resfinder_rgi.txt').to_csv('mapping/resfinder_ARO_mapping.tsv', sep='\t', index=False)
+    get_aro_for_hits('mapping/ncbi_rgi.txt').to_csv('mapping/ncbi_ARO_mapping.tsv', sep='\t', index=False)
+    get_aro_for_hits('mapping/sarg_rgi.txt').to_csv('mapping/sarg_ARO_mapping.tsv', sep='\t', index=False)
+    get_aro_for_hits('mapping/resfinder_fg_rgi.txt').to_csv('mapping/resfinder_fg_ARO_mapping.tsv', sep='\t', index=False)
+    get_aro_for_hits('mapping/deeparg_rgi.txt').to_csv('mapping/deeparg_ARO_mapping.tsv', sep='\t', index=False)
+    get_aro_for_hits('mapping/argannot_rgi.txt').to_csv('mapping/argannot_ARO_mapping.tsv', sep='\t', index=False, index=False)
+    get_aro_for_hits('mapping/megares_rgi.txt').to_csv('mapping/megares_ARO_mapping.tsv', sep='\t', index=False)
 
 create_out_dirs()
 databases = [
