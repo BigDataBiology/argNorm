@@ -60,15 +60,6 @@ def get_deeparg_db():
     url = 'https://bitbucket.org/gusphdproj/deeparg-largerepo/raw/5683ea1c075dad3a68e0e236c98e2a98d564f560/database/v2/features.fasta'
     return download_file(url, 'dbs/deeparg.faa')
 
-@TaskGenerator
-def get_card_db():
-    with tempfile.TemporaryDirectory() as tmpdir:
-        download_file.f('https://card.mcmaster.ca/latest/data', f'{tmpdir}/card.tar.bz2')
-        subprocess.check_call(
-            ['tar', '-xvf', f'{tmpdir}/card.tar.bz2', '-C', tmpdir])
-        shutil.copy(f'{tmpdir}/card.json', 'dbs/card.json')
-    return 'dbs/card.json'
-
 def get_argannot_db():
     url = 'https://raw.githubusercontent.com/tseemann/abricate/master/db/argannot/sequences'
     return download_file(url, 'dbs/argannot.fna')
@@ -76,11 +67,6 @@ def get_argannot_db():
 def get_megares_db():
     url = 'https://www.meglab.org/downloads/megares_v3.00/megares_database_v3.00.fasta'
     return download_file(url, 'dbs/megares.fna')
-
-@TaskGenerator
-def load_card_db(card_json):
-    subprocess.check_call(
-            ['rgi', 'load', '-i', card_json])
 
 @TaskGenerator
 def fix_ncbi(ncbi_amr_faa):
@@ -94,7 +80,6 @@ def fix_ncbi(ncbi_amr_faa):
             record.seq = Seq(str(record.seq).replace("*", ""))
             SeqIO.write(record, corrected, 'fasta')
     return ofile
-
 
 @TaskGenerator
 def run_rgi(fa):
@@ -115,23 +100,39 @@ def run_rgi(fa):
             '-t', mode,
             '-a', 'BLAST',
             '--clean',
-            '--include_loose']
+            '--include_loose'
+        ]
     )
     get_aro_for_hits(rgi_ofile + '.txt', db).to_csv(ofile, sep='\t', index=False)
     return ofile
 
+@TaskGenerator
+def move_mappings_to_argnorm():
+    for i in os.listdir('./mapping'):
+        if '.tsv' in i:
+            subprocess.check_call(
+                ['mv', os.path.join('./mapping', i), '../argnorm/data']
+            )
 
-create_out_dirs()
-load_card_db(get_card_db())
+    # for i in filter(lambda x: os.listdir('./mapping'))
+    # subprocess.check_call(
+    #     ['mv', 'mapping', '../argnorm/']
+    # )
+
+# create_out_dirs()
+
+# barrier()
+# for db in [
+#         get_resfinder_db(),
+#         fix_ncbi(get_ncbi_db()),
+#         get_sarg_db(),
+#         get_resfinderfg_db(),
+#         get_deeparg_db(),
+#         get_megares_db(),
+#         get_argannot_db()
+#     ]:
+#     run_rgi(db)
 
 barrier()
-for db in [
-        get_resfinder_db(),
-        fix_ncbi(get_ncbi_db()),
-        get_sarg_db(),
-        get_resfinderfg_db(),
-        get_deeparg_db(),
-        get_megares_db(),
-        get_argannot_db()]:
-    run_rgi(db)
 
+move_mappings_to_argnorm()

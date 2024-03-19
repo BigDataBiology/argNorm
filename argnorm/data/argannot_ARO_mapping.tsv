@@ -74,7 +74,7 @@ argannot~~~(AGly)aacA29b~~~AY139599:768-1148	AAC(6')-29b	3002584	argannot
 argannot~~~(AGly)aacA4~~~AF416297:2738-3304	AAC(6')-Ib8	3002579	argannot
 argannot~~~(AGly)aacA43~~~HQ247816:639-1202	AAC(6')-I-43	3004641	argannot
 argannot~~~(AGly)aad9~~~M69221:271-1038	ANT(9)-Ib	3007401	argannot
-argannot~~~(AGly)aadA1~~~M95287:3320-4111	aadA	3002601	argannot
+argannot~~~(AGly)aadA1~~~M95287:3320-4111	ANT(3'')-IIa	3004089	argannot
 argannot~~~(AGly)aadA1-pm~~~JQ690540:7968-8798	aadA	3002601	argannot
 argannot~~~(AGly)aadA10~~~U37105:2807-3640	aadA10	3004692	argannot
 argannot~~~(AGly)aadA11~~~AJ567827:1-792	aadA8	3002608	argannot
@@ -88,7 +88,7 @@ argannot~~~(AGly)aadA2~~~X68227:66-945	aadA2	3002602	argannot
 argannot~~~(AGly)aadA21~~~AY171244:47-838	aadA21	3002618	argannot
 argannot~~~(AGly)aadA22~~~AM261837:74-865	aadA22	3002619	argannot
 argannot~~~(AGly)aadA23~~~AJ809407:119-898	aadA22	3002619	argannot
-argannot~~~(AGly)aadA24~~~HQ123586:88-768	aadA	3002601	argannot
+argannot~~~(AGly)aadA24~~~HQ123586:88-768	ANT(3'')-IIa	3004089	argannot
 argannot~~~(AGly)aadA27~~~NG_054660:101-889	aadA27	3004682	argannot
 argannot~~~(AGly)aadA3~~~AF047479:1296-2087	aadA3	3002603	argannot
 argannot~~~(AGly)aadA4~~~AY138986:1-798	aadA4	3002604	argannot
@@ -105,9 +105,9 @@ argannot~~~(AGly)aadE-Cc~~~NG_054665:101-1000	aadK	3002627	argannot
 argannot~~~(AGly)aadE-Pp~~~HE577054:1299623-1300477	aadK	3002627	argannot
 argannot~~~(AGly)aadK-Pm~~~CP002869:c4442322-4441435	aadK	3002627	argannot
 argannot~~~(AGly)aadS~~~NG_047380:101-964	aadS	3004683	argannot
-argannot~~~(AGly)ant(3'')-IIa~~~NG_054648:101-889	ANT(3'')-IIa	3004089	argannot
+argannot~~~(AGly)ant(3'')-IIa~~~NG_054648:101-889	ANT(3'')-IIc	3004091	argannot
 argannot~~~(AGly)ant(3'')-IIb~~~NG_054651:101-892	ANT(3'')-IIb	3004090	argannot
-argannot~~~(AGly)ant(3'')-IIc~~~NG_054654:101-889	ANT(3'')-IIc	3004091	argannot
+argannot~~~(AGly)ant(3'')-IIc~~~NG_054654:101-889	aadA27	3004682	argannot
 argannot~~~(AGly)ant(4')-Ic~~~KY753881:1-771	ANT(4')-Ib	3003905	argannot
 argannot~~~(AGly)ant3''Ih-Aac6-IId~~~AF453998:3555-4946	ANT(3'')-II-AAC(6')-IId bifunctional protein	3002598	argannot
 argannot~~~(AGly)ant4-IIa~~~M98270:145-903	ANT(4')-IIa	3002624	argannot
@@ -769,7 +769,7 @@ argannot~~~(Bla)blaKPC-8~~~FJ234412:1-882	KPC-8	3002318	argannot
 argannot~~~(Bla)blaKPC-9~~~FJ624872:1-854	KPC-9	3002319	argannot
 argannot~~~(Bla)blaL-1~~~AJ272109:1-888	L1 beta-lactamase	3000582	argannot
 argannot~~~(Bla)blaL1~~~NG_047517:101-973	L1 beta-lactamase	3000582	argannot
-argannot~~~(Bla)blaL2~~~NG_047518:101-1015	CAE-1	3007635	argannot
+argannot~~~(Bla)blaL2~~~NG_047518:101-1015	AXC-3	3006899	argannot
 argannot~~~(Bla)blaLAP-1~~~EF026092:1-858	LAP-1	3004825	argannot
 argannot~~~(Bla)blaLAP-2~~~EU159120:1-858	LAP-2	3004826	argannot
 argannot~~~(Bla)blaLAT-1~~~X78117:122-1287	LAT-1	3001857	argannot
@@ -1234,7 +1234,7 @@ argannot~~~(Bla)blaSED-1~~~AF321608:1-888	Sed-1	3003561	argannot
 argannot~~~(Bla)blaSFB-1~~~AY590119:1-735	SFB-1	3003557	argannot
 argannot~~~(Bla)blaSFC-1~~~AY354402:82-1011	SFC-1	3006985	argannot
 argannot~~~(Bla)blaSFH-1~~~NZ_AUZV01000091:3453-4220	SFH-1	3000849	argannot
-argannot~~~(Bla)blaSFO-1~~~FJ848785:4719-5594	Pseudomonas aeruginosa ampR with mutation conferring resistance to aztreonam	3007491	argannot
+argannot~~~(Bla)blaSFO-1~~~FJ848785:4719-5594	NmcR	3003665	argannot
 argannot~~~(Bla)blaSGM-1~~~NG_049983:101-1066	SGM-1	3006987	argannot
 argannot~~~(Bla)blaSGM-2~~~NG_049984:101-1036	SGM-2	3006988	argannot
 argannot~~~(Bla)blaSGM-3~~~NG_052647:101-1030	SGM-3	3006989	argannot
@@ -1696,7 +1696,7 @@ argannot~~~(Col)mcr-3.18~~~NG_060519:1-1623	MCR-3.18	3007263	argannot
 argannot~~~(Col)mcr-3.19~~~NG_055497:101-1726	MCR-3.29	3007272	argannot
 argannot~~~(Col)mcr-3.19~~~NG_055497:101-1726	MCR-3.23	3007256	argannot
 argannot~~~(Col)mcr-3.2~~~NG_055523:101-1726	MCR-3.2	3004511	argannot
-argannot~~~(Col)mcr-3.20~~~NG_055493:101-1726	MCR-3.1	3004139	argannot
+argannot~~~(Col)mcr-3.20~~~NG_055493:101-1726	MCR-3.20	3007266	argannot
 argannot~~~(Col)mcr-3.21~~~NG_060582:101-1726	MCR-3.21	3007262	argannot
 argannot~~~(Col)mcr-3.22~~~NG_060581:101-1726	MCR-3.22	3007259	argannot
 argannot~~~(Col)mcr-3.23~~~NG_060583:101-1726	MCR-3.23	3007256	argannot
@@ -1989,7 +1989,7 @@ argannot~~~(MLS)lsa(B)~~~AJ579365:4150-5628	lsaB	3003111	argannot
 argannot~~~(MLS)lsa(C)~~~HM990671:5193-6671	lsaC	3003112	argannot
 argannot~~~(MLS)mef(A)~~~U70055:314-1531	mel	3000616	argannot
 argannot~~~(MLS)mef(B)~~~FJ196385:11084-12313	mef(B)	3003107	argannot
-argannot~~~(MLS)mef(C)~~~NG_047979:101-1324	mef(C)	3003745	argannot
+argannot~~~(MLS)mef(C)~~~NG_047979:101-1324	mefC	3003745	argannot
 argannot~~~(MLS)mph(A)~~~DQ445270:1626-2531	mphA	3000316	argannot
 argannot~~~(MLS)mph(B)~~~D85892:1159-2067	mphB	3000318	argannot
 argannot~~~(MLS)mph(C)~~~AF167161:5665-6564	mphC	3000319	argannot
@@ -2054,7 +2054,7 @@ argannot~~~(Phe)cat-86~~~K00544:145-807	Bacillus pumilus cat86	3002672	argannot
 argannot~~~(Phe)cat-pC221~~~X02529:2267-2914	Staphylococcus intermedius chloramphenicol acetyltransferase	3004457	argannot
 argannot~~~(Phe)cat-pC223~~~AY355285:1000-1647	Enterococcus faecium chloramphenicol acetyltransferase	3004456	argannot
 argannot~~~(Phe)catA-St~~~NG_047581:101-763	Vibrio anguillarum chloramphenicol acetyltransferase	3004460	argannot
-argannot~~~(Phe)catA1~~~V00622:244-903	catA1	3002683	argannot
+argannot~~~(Phe)catA1~~~V00622:244-903	catI	3002683	argannot
 argannot~~~(Phe)catA13~~~NG_047588:101-724	Campylobacter coli chloramphenicol acetyltransferase	3004454	argannot
 argannot~~~(Phe)catA14~~~NG_047573:101-751	Vibrio anguillarum chloramphenicol acetyltransferase	3004460	argannot
 argannot~~~(Phe)catA2~~~X53796:187-903	catII from Escherichia coli K-12	3004656	argannot
@@ -2062,7 +2062,7 @@ argannot~~~(Phe)catA3~~~X07848:272-913	catIII	3002685	argannot
 argannot~~~(Phe)catA4~~~NG_047569:101-754	catA4	3004657	argannot
 argannot~~~(Phe)catA7~~~M64281:208-855	Staphylococcus intermedius chloramphenicol acetyltransferase	3004457	argannot
 argannot~~~(Phe)catA8~~~NC_009751:21916-22563	catA8	3004658	argannot
-argannot~~~(Phe)catA9~~~K01998:288-938	Limosilactobacillus reuteri cat-TC	3002671	argannot
+argannot~~~(Phe)catA9~~~K01998:288-938	Streptococcus suis chloramphenicol acetyltransferase	3004455	argannot
 argannot~~~(Phe)catB~~~M93113:145-804	Clostridium butyricum catB	3002674	argannot
 argannot~~~(Phe)catB1~~~M58472:148-777	Agrobacterium fabrum chloramphenicol acetyltransferase	3004451	argannot
 argannot~~~(Phe)catB10~~~AJ878850:1197-1829	catB10	3003110	argannot
@@ -2167,7 +2167,7 @@ argannot~~~(Tet)tetR~~~HF545434:53576-54226	tetR	3003479	argannot
 argannot~~~(Tet)tetR(G)~~~S52438:113-745	tetR	3003479	argannot
 argannot~~~(Tet)tetS~~~L09756:447-2372	tet(S)	3000192	argannot
 argannot~~~(Tet)tetT~~~L42544:478-2433	tet(T)	3000193	argannot
-argannot~~~(Tet)tetU~~~U01917:413-730	vanE	3002907	argannot
+argannot~~~(Tet)tetU~~~U01917:413-730	tet(U)	3004650	argannot
 argannot~~~(Tet)tetV~~~AF030344:462-1721	tet(V)	3000181	argannot
 argannot~~~(Tet)tetW~~~AJ222769:3687-5606	tet(W)	3000194	argannot
 argannot~~~(Tet)tetX~~~M37699:586-1752	tet(X)	3000205	argannot
