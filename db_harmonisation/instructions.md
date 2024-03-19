@@ -10,7 +10,7 @@ conda activate rgi
 
 ```
 pip install jug
-```~
+```
 
 # Running the code
 

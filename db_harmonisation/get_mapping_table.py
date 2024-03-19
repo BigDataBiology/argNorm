@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import argparse
 from pathlib import Path
 import pandas as pd
@@ -41,27 +39,3 @@ def get_aro_for_hits(rgi_output, database):
     mapping['Database'] = database
 
     return mapping
-
-if __name__ == '__main__':
-
-    parser = argparse.ArgumentParser("Recover cure ARO mapping for an AMR "
-                                     "database using the fasta and an RGI "
-                                     "tsv (homolog models only)")
-    parser.add_argument("-f", "--fasta", required=False, type=check_file,
-						 help="Fasta file containing sequences run through "
-							  "RGI")
-
-    parser.add_argument("-r", "--rgi", required=True, type=check_file,
-						help="Corresponding rgi output tsv for the fasta file")
-    parser.add_argument("-d", "--database", required=True, type=str,
-						help="Name of the database",
-                        choices=['resfinder', 'ncbi', 'sarg', 'deeparg', 'resfinder_fg', 'megares', 'argannot'])
-
-
-    args = parser.parse_args()
-
-    mapping = get_aro_for_hits(args.rgi, args.database)
-
-    output_file = f"{args.database}_ARO_mapping.tsv"
-    print(f"Writing mapping to {output_file}")
-    mapping.to_csv(output_file, sep='\t', index=False)

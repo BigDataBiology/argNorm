@@ -94,7 +94,9 @@ def run_rgi(fa):
     rgi_ofile = f'mapping/{db}_rgi'
     ofile = f'mapping/{db}_ARO_mapping.tsv'
     subprocess.check_call(
-        ['rgi', 'main',
+        [
+            'rgi', 
+            'main',
             '-i', fa,
             '-o', rgi_ofile,
             '-t', mode,
@@ -110,29 +112,20 @@ def run_rgi(fa):
 def move_mappings_to_argnorm():
     for i in os.listdir('./mapping'):
         if '.tsv' in i:
-            subprocess.check_call(
-                ['mv', os.path.join('./mapping', i), '../argnorm/data']
-            )
+            subprocess.check_call(['mv', os.path.join('./mapping', i), '../argnorm/data'])
 
-    # for i in filter(lambda x: os.listdir('./mapping'))
-    # subprocess.check_call(
-    #     ['mv', 'mapping', '../argnorm/']
-    # )
-
-# create_out_dirs()
-
-# barrier()
-# for db in [
-#         get_resfinder_db(),
-#         fix_ncbi(get_ncbi_db()),
-#         get_sarg_db(),
-#         get_resfinderfg_db(),
-#         get_deeparg_db(),
-#         get_megares_db(),
-#         get_argannot_db()
-#     ]:
-#     run_rgi(db)
-
+create_out_dirs()
 barrier()
+for db in [
+        get_resfinder_db(),
+        fix_ncbi(get_ncbi_db()),
+        get_sarg_db(),
+        get_resfinderfg_db(),
+        get_deeparg_db(),
 
+        get_megares_db(),
+        get_argannot_db()
+    ]:
+    run_rgi(db)
+barrier()
 move_mappings_to_argnorm()
