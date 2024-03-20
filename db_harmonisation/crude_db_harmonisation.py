@@ -109,10 +109,8 @@ def run_rgi(fa):
     return ofile
 
 @TaskGenerator
-def move_mappings_to_argnorm():
-    for i in os.listdir('./mapping'):
-        if '.tsv' in i:
-            subprocess.check_call(['mv', os.path.join('./mapping', i), '../argnorm/data'])
+def move_mappings_to_argnorm(aro_mapping):
+    shutil.copy(aro_mapping, '../argnorm/data')
 
 create_out_dirs()
 barrier()
@@ -126,6 +124,4 @@ for db in [
         get_megares_db(),
         get_argannot_db()
     ]:
-    run_rgi(db)
-barrier()
-move_mappings_to_argnorm()
+    move_mappings_to_argnorm(run_rgi(db))
