@@ -36,8 +36,6 @@ pip install argnorm
 
 ## Supported tools
 
-Note that CARD RGI already uses ARO, thus there is no need to use argNorm.
-
 - [DeepARG](https://bench.cs.vt.edu/deeparg) (v1.0.2)
 - [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v2.3)
 - [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5)
@@ -126,7 +124,7 @@ argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o
 #### Raw
 ```bash
 argnorm abricate --db ncbi -i examples/raw/abricate.ncbi.tsv -o outputs/raw/abricate.ncbi.tsv
-argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o outputs/raw/abricate.megarest.tsv
+argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o outputs/raw/abricate.megares.tsv
 argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o outputs/raw/abricate.argannot.tsv
 ```
 
