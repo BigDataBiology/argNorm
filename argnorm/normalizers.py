@@ -111,20 +111,7 @@ class BaseNormalizer:
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
         df = pd.read_csv(get_data_path(f'{self.database}_ARO_mapping.tsv', False), sep='\t')
-
-        if self.database == 'sarg':
-            gene_identifier = 'Original ID'
-            manual_curation_fname = 'sarg_manual_curation.tsv'
-            manual_curation = pd.read_csv(get_data_path(manual_curation_fname, True), sep='\t')
-            aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
-
-            for i in range(len(aro_nan_indices)):
-                df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO']
-                df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
-            
-            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(float(a)) if is_number(a) == True else a}')
-        else:
-            df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
+        df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
 
         return df
 
