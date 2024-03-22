@@ -2,4 +2,3 @@ pandas
 pytest
 setuptools
 pronto
-jug
