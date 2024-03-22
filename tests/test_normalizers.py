@@ -3,17 +3,12 @@ import argnorm.normalize as argnorm
 import pandas as pd
 import os
 import numpy as np
-
-def assert_params(normed, golden_file):
-    assert normed['ARO'].equals(golden_file['ARO'])
-    assert normed['confers_resistance_to'].equals(golden_file['confers_resistance_to'])
-    assert normed['resistance_to_drug_classes'].equals(golden_file['resistance_to_drug_classes'])
-
+    
 def get_normed(normalizer, input_path):
     normed = normalizer.run(input_path)
     normed = normed.apply(lambda x: x.str.strip() if isinstance(x, str) else x).replace('', np.nan)
     return normed
-
+ 
 @pytest.mark.parametrize('hamronized', [True, False])
 def test_argsoap_normalizer(hamronized):
     folder = 'hamronized' if hamronized else 'raw'
@@ -22,8 +17,10 @@ def test_argsoap_normalizer(hamronized):
 
     normed = get_normed(normalizer, input_path)
     golden_file = pd.read_csv(os.path.join('./outputs/', folder, 'args-oap.sarg.reads.tsv'), sep='\t')
+    # The numbers in the heading of the raw normed df have the type int, while numbers in heading of golden file have type str
+    normed.columns = golden_file.columns
 
-    assert_params(normed, golden_file)
+    pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('hamronized', [True, False])
 def test_deeparg_normalizer(hamronized):
@@ -34,7 +31,7 @@ def test_deeparg_normalizer(hamronized):
     normed = get_normed(normalizer, input_path)
     golden_file = pd.read_csv(os.path.join('./outputs/', folder, 'deeparg.deeparg.orfs.tsv'), sep='\t')
 
-    assert_params(normed, golden_file)
+    pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder'])
 def test_abricate_normalizer_hamronized(database):
@@ -44,7 +41,7 @@ def test_abricate_normalizer_hamronized(database):
     normed = get_normed(normalizer, input_path)
     golden_file = pd.read_csv(os.path.join('./outputs/', 'hamronized', f'abricate.{database}.tsv'), sep='\t')
 
-    assert_params(normed, golden_file)
+    pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi'])
 def test_abricate_normalizer_raw(database):
@@ -54,7 +51,7 @@ def test_abricate_normalizer_raw(database):
     normed = get_normed(normalizer, input_path)
     golden_file = pd.read_csv(os.path.join('./outputs/', 'raw', f'abricate.{database}.tsv'), sep='\t')
 
-    assert_params(normed, golden_file)
+    pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('hamronized', [True, False])
 @pytest.mark.parametrize('mode', ['reads', 'orfs'])
@@ -66,7 +63,7 @@ def test_resfinder_normalizer(hamronized, mode):
     normed = get_normed(normalizer, input_path)
     golden_file = pd.read_csv(os.path.join('./outputs/', folder, f'resfinder.resfinder.{mode}.tsv'), sep='\t')
 
-    assert_params(normed, golden_file)
+    pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('hamronized', [True, False])
 def test_amrfinderplus_normalizer(hamronized):
@@ -77,4 +74,4 @@ def test_amrfinderplus_normalizer(hamronized):
     normed = get_normed(normalizer, input_file)
     golden_file = pd.read_csv(os.path.join('./outputs/', folder, f'amrfinderplus.ncbi.orfs.tsv'), sep='\t')
 
-    assert_params(normed, golden_file)
+    pd.testing.assert_frame_equal(normed, golden_file)
