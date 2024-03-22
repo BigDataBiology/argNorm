@@ -1,8 +1,12 @@
 import subprocess
 import pytest
 import pandas as pd
+import os
 
 def perform_cli_test(tool, file, folder, db=None):
+    os.makedirs('tests/outputs/raw', exist_ok=True)
+    os.makedirs('tests/outputs/hamronized', exist_ok=True)
+
     command = ['argnorm', tool, '-i', f'examples/{folder}/{file}', '-o', f'tests/outputs/{folder}/{file}']
 
     if folder == 'hamronized':
