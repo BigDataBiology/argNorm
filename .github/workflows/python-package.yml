@@ -6,7 +6,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -18,7 +17,7 @@ jobs:
           - "3.10"
           - "3.11"
           - "3.12"
-
+  
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
@@ -40,3 +39,9 @@ jobs:
     - name: Test with pytest
       run: |
         python -m pytest tests/
+    - name: Test with argNorm command
+      run: |
+        for t in integration_tests/*.py; do
+          echo "Running $t ..."
+          python $t
+        done

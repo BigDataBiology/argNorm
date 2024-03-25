@@ -50,7 +50,7 @@ def confers_resistance_to(aro_num: str) -> List[Tuple]:
         for drug in gene.relationships[ARO.get_relationship('confers_resistance_to_antibiotic')]:
             drugs_list.append(drug.id)
 
-    return drugs_list
+    return sorted(drugs_list)
 
 def drugs_to_drug_classes(drugs_list: List[Tuple]) -> List[Tuple]:
     '''
@@ -80,4 +80,4 @@ def drugs_to_drug_classes(drugs_list: List[Tuple]) -> List[Tuple]:
         else:
             drug_classes.append(drug_instance_superclasses[0].id)
 
-    return drug_classes
+    return sorted(drug_classes)

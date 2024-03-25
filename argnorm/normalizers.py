@@ -72,7 +72,7 @@ class BaseNormalizer:
     def initial_drug_categorization(self, aro_list):
         result = []
         for aro in aro_list:
-            result.append(", ".join(confers_resistance_to(aro)))
+            result.append(",".join(confers_resistance_to(aro)))
 
         return result
 
@@ -83,7 +83,7 @@ class BaseNormalizer:
 
         drug_classes = []
         for drug in drugs:
-            drug_classes.append(", ".join(drugs_to_drug_classes(drug)))
+            drug_classes.append(",".join(drugs_to_drug_classes(drug)))
 
         return drug_classes
 
