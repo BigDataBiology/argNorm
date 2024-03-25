@@ -2,7 +2,7 @@ include LICENSE
 include README.md
 include requirements.txt
 
-recursive-include argNorm *
+recursive-include argnorm *
 
 recursive-exclude * *.pyc
 recursive-exclude * .DS_Store
