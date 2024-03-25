@@ -1,0 +1,13 @@
+Original ID	ARO	Gene Name in CARD
+CP000034.1.gene2198.p01|FEATURES|ompF|multidrug|ompF	3000265	porin OmpF
+AAB08925|FEATURES|tetU|tetracycline|tetU	3004650	tet(U)
+CP000647.1.gene2517.p01|FEATURES|ompF|multidrug|ompF	3000265	porin OmpF
+gi:504720116:ref:WP_014907218.1:|FEATURES|ompF|multidrug|ompF	3000265	porin OmpF
+AM180355.1.gene2260.p01|FEATURES|ermC|MLS|ermC	3000250	ErmC
+gi:501976562:ref:WP_012681429.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025	patB
+gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase		
+gi:489831097:ref:WP_003734834.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025	patB
+gi:685904080:ref:WP_031644138.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025	patB
+NP_253005.1|FEATURES|MvaT|multidrug|MvaT	3004069	MvaT
+NP_417544.5|FEATURES|patA|fluoroquinolone|patA	3000024	patA
+NP_416340.1|FEATURES|mgrB|multidrug|mgrB	3003820	mgrB
