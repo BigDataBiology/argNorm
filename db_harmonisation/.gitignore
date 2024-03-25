@@ -1,3 +1,5 @@
 crude_db_harmonisation.jugdata/
 mapping/
 dbs/
+manual_curation/
+manual_curation_script.py
