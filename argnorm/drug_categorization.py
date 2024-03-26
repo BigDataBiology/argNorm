@@ -3,6 +3,8 @@ from typing import List
 
 # Load the ARO ontology from internet
 ARO = pronto.Ontology.from_obo_library('aro.obo')
+confers_resistance_to_drug_class_rel = ARO.get_relationship('confers_resistance_to_drug_class')
+confers_resistance_to_antibiotic_rel = ARO.get_relationship('confers_resistance_to_antibiotic')
 
 def confers_resistance_to(aro_num: str) -> List[str]:
     '''
@@ -18,35 +20,20 @@ def confers_resistance_to(aro_num: str) -> List[str]:
 
     if aro_num not in ARO.terms():
         return []
-    
-    if type(aro_num) == float or type(aro_num) == int:
-        aro_num = 'ARO:' + str(aro_num)
 
     drugs_list = []
-    found_drugs_list = False
-    gene = ARO[aro_num]
 
-    while not found_drugs_list:
-        confers_resistance_to_drug_class = any(r.name == 'confers_resistance_to_drug_class' for r in gene.relationships)
-        confers_resistance_to_antibiotic = any(r.name == 'confers_resistance_to_antibiotic' for r in gene.relationships)
+    for term in ARO[aro_num].superclasses():
+        for drug in term.relationships.get(confers_resistance_to_drug_class_rel, []):
+            drugs_list.append(drug.id)
 
-        if confers_resistance_to_drug_class:
-            found_drugs_list = True
-            for drug in gene.relationships[ARO.get_relationship('confers_resistance_to_drug_class')]:
-                drugs_list.append(drug.id)
+        for drug in term.relationships.get(confers_resistance_to_antibiotic_rel, []):
+            drugs_list.append(drug.id)
 
-        if confers_resistance_to_antibiotic:
-            found_drugs_list = True
-            for drug in gene.relationships[ARO.get_relationship('confers_resistance_to_antibiotic')]:
-                drugs_list.append(drug.id)
-
-        # ARO:1000001 is 'process or component of antibiotic biology or chemistry'
-        if gene.id == 'ARO:1000001':
+        if drugs_list:
             break
 
-        gene = list(gene.superclasses(1))[1]
-    
-    return sorted(drugs_list)
+    return sorted(set(drugs_list))
 
 def drugs_to_drug_classes(drugs_list: List[str]) -> List[str]:
     '''
