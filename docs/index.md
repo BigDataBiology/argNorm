@@ -39,8 +39,8 @@ pip install argnorm
 Note that CARD RGI already uses ARO, thus there is no need to use argNorm.
 
 - [DeepARG](https://bench.cs.vt.edu/deeparg) (v1.0.2)
-- [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v2.3)
-- [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5)
+- [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v3)
+- [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5), ResFinderFG (v2)
 - [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) (v4.0)
 - [AMRFinderPlus](https://github.com/ncbi/amr) (v3.10.30)
 
@@ -157,8 +157,18 @@ Besides performing normalization, argNorm also provides drug categorization of d
 
 For example, the `PBP2b` gene confers resistance to the drug classes `penam`, `cephalosporin` and `cephamycin`. These drug classes can then be categorized into a broader category of `beta-lactam`.
 
-argNorm provides support for this, and adds the `CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS` and `OVERALL CATEGORY OF DRUG CLASS` columns to ARG annotations.
+argNorm provides support for this, and adds the `confers_resistance_to` and `resistance_to_drug_classes` columns to ARG annotations.
 
-The `CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS` column will contain entries with all the drug classes that a gene provides resistance to (`penam`, `cephalosporin` and `cephamycin` in the previous example) with their corresponding ARO numbers.
+The `confers_resistance_to` column will contain entries with all the drug classes that a gene provides resistance to (`penam`, `cephalosporin` and `cephamycin` in the previous example) with their corresponding ARO numbers.
 
-The `OVERALL CATEGORY OF DRUG CLASS` will contain entries of the broader categories of the drug classes in `CONFERS RESISTANCE TO IMMEDIATE DRUG CLASS` (`beta-lactam` in the previous example) with its corresponding ARO number.
+The `resistance_to_drug_classes` column will contain entries of the broader categories of the drug classes in the `confers_resistance_to` column (`beta-lactam` in the previous example) with its corresponding ARO number.
+
+## Authors
+
+- Vedanth Ramji [vedanth.ramji@gmail.com](mailto:vedanth.ramji@gmail.com)*
+- Hui Chong [huichong.me@gmail.com](mailto:huichong.me@gmail.com)
+- Svetlana Ugarcina Perovic [svetlana.ugarcina@gmail.com](mailto:svetlana.ugarcina@gmail.com)
+- Finlay Maguire [finlaymaguire@gmail.com](mailto:finlaymaguire@gmail.com)
+- [Luis Pedro Coelho](https://luispedro.org) [luis@luispedro.org](mailto:luis@luispedro.org)
+
+*: current maintainer
