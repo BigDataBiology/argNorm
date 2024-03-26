@@ -155,13 +155,13 @@ argnorm amrfinderplus -i examples/hamronized/amrfinderplus.ncbi.orfs.tsv -o outp
 
 Besides performing normalization, argNorm also provides drug categorization of drugs that antibiotic resistance genes confer resistance to.
 
-For example, the `PBP2b` gene confers resistance to the drug classes `penam`, `cephalosporin` and `cephamycin`. These drug classes can then be categorized into a broader category of `beta-lactam`.
+For example, the `PBP2b` (`ARO:3003042`) gene confers resistance to the drug class `amoxicillin`. `amoxicillin` is then categorized into a broader category of `beta lactam antibiotic`.
 
 argNorm provides support for this, and adds the `confers_resistance_to` and `resistance_to_drug_classes` columns to ARG annotations.
 
-The `confers_resistance_to` column will contain entries with all the drug classes that a gene provides resistance to (`penam`, `cephalosporin` and `cephamycin` in the previous example) with their corresponding ARO numbers.
+The `confers_resistance_to` column will contain ARO numbers of all the drug classes that a gene provides resistance to (`ARO:0000064` for `amoxicillin` in the previous example).
 
-The `resistance_to_drug_classes` column will contain entries of the broader categories of the drug classes in the `confers_resistance_to` column (`beta-lactam` in the previous example) with its corresponding ARO number.
+The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
 
 ## Authors
 
