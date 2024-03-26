@@ -38,12 +38,13 @@ def get_resfinder_db():
 
         fsa_files = glob(f'{clonedir}/*.fsa')
         assert len(fsa_files) > 0, "No fsa files found"
+
         with open('dbs/resfinder.fna', 'w') as f:
             for file in fsa_files:
                 with open(file) as f2:
                     f.write(f2.read())
-    return 'dbs/resfinder.fna'
 
+    return 'dbs/resfinder.fna'
 
 @TaskGenerator
 def get_sarg_db():
@@ -79,20 +80,25 @@ def fix_ncbi(ncbi_amr_faa):
         for record in SeqIO.parse(ncbi_amr_faa, 'fasta'):
             record.seq = Seq(str(record.seq).replace("*", ""))
             SeqIO.write(record, corrected, 'fasta')
+
     return ofile
 
 @TaskGenerator
 def run_rgi(fa):
     from get_mapping_table import get_aro_for_hits
-    db = path.basename(fa).split('.')[0]
+
+    db_name = path.basename(fa).split('.')[0]
+
     if fa.endswith('.fna'):
         mode = 'contig'
     elif fa.endswith('.faa'):
         mode = 'protein'
     else:
         raise ValueError(f"Unknown file type {fa}")
-    rgi_ofile = f'mapping/{db}_rgi'
-    ofile = f'mapping/{db}_ARO_mapping.tsv'
+
+    rgi_ofile = f'mapping/{db_name}_rgi'
+    ofile = f'mapping/{db_name}_ARO_mapping.tsv'
+
     subprocess.check_call(
         [
             'rgi', 
@@ -105,7 +111,8 @@ def run_rgi(fa):
             '--include_loose'
         ]
     )
-    get_aro_for_hits(rgi_ofile + '.txt', db).to_csv(ofile, sep='\t', index=False)
+
+    get_aro_for_hits(fa, rgi_ofile + '.txt', db_name).to_csv(ofile, sep='\t', index=False)
     return ofile
 
 @TaskGenerator
@@ -120,7 +127,6 @@ for db in [
         get_sarg_db(),
         get_resfinderfg_db(),
         get_deeparg_db(),
-
         get_megares_db(),
         get_argannot_db()
     ]:

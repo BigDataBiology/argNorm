@@ -15,23 +15,14 @@ RESISTANCE_TO_DRUG_CLASSES_COL = 'resistance_to_drug_classes'
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
 def is_number(num):
-    """
-    Required for checking aro mappings to discern between numbers and other
-    string identifiers.
-    """
     try:
-        float(num)
+        int(num)
     except ValueError:
         return False
 
     return True
 
 def get_data_path(path, getting_manual_curation):
-    """
-    Gets mapping tables and manual curation tables.
-    Giving 'True' as argument after 'path' will get manual curation table.
-    Else mapping table will be returned.
-    """
     if getting_manual_curation:
         return os.path.join(_ROOT, 'data/manual_curation', path)
 
@@ -111,9 +102,14 @@ class BaseNormalizer:
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
         df = pd.read_csv(get_data_path(f'{self.database}_ARO_mapping.tsv', False), sep='\t')
-        df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a) if a == a else "nan"}') # a == a checks that a is not nan
 
-        return df
+        manual_curation = pd.read_csv(get_data_path(f'{self.database}_curation.tsv', True), sep='\t')
+        manual_curation['Database'] = df['Database']
+
+        aro_mapping_table = pd.concat([df, manual_curation])
+        aro_mapping_table[TARGET_ARO_COL] = aro_mapping_table[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a)}' if is_number(a) else a)
+        
+        return aro_mapping_table
 
     def load_input(self, input_file):
         """
