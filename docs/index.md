@@ -7,7 +7,9 @@
 
 ## What is argNorm?
 argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the
-[antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD. It also provides drug categorization of drugs that antibiotic resistance genes confer resistance to.
+[antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) from [CARD](https://card.mcmaster.ca/).
+
+It also enhances tables of antibiotic resistance genes by annotating with the antibiotic they target (as provided by ARO).
 
 ## Why argNorm?
 
@@ -29,7 +31,7 @@ Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all
 [![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
 
 ## Installation
-argNorm can be installed using pip as shown.
+argNorm can be installed using pip:
 ```bash
 pip install argnorm
 ```
@@ -89,7 +91,7 @@ options:
                         The file to save normalization results
 ```
 
-Here is a basic outline of a command using argNorm.
+Here is a basic outline of calling argNorm:
 
 ```bash
 argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
@@ -114,6 +116,8 @@ argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o outputs/hamro
 ```
 
 ### ABRicate
+
+When using abricate, it is necessary to specify the database used:
 
 #### Hamronized
 ```bash
