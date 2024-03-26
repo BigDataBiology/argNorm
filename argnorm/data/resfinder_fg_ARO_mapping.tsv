@@ -2450,7 +2450,6 @@ D-alanine--D-alanine ligase B|KF629134.1|pediatric_fecal_sample|CYC	vanE	3002907
 Dihydrofolate reductase|KF629137.1|pediatric_fecal_sample|SXT	dfrA26	3002857	resfinder_fg
 Dihydrofolate reductase|KF629142.1|pediatric_fecal_sample|SXT	DfrA36	3005348	resfinder_fg
 D-alanine--D-alanine ligase A|KF629150.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629153.1|pediatric_fecal_sample|CYC			resfinder_fg
 D-alanine--D-alanine ligase B|KF629154.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
 Vancomycin B-type resistance protein VanB|KF629159.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629161.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
@@ -2578,7 +2577,6 @@ D-alanine--D-alanine ligase|KF629564.1|pediatric_fecal_sample|CYC	vanG	3002909	r
 D-alanine--D-alanine ligase A|KF629567.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629568.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 Dihydrofolate reductase|KF629574.1|pediatric_fecal_sample|TMP	dfrA26	3002857	resfinder_fg
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629588.1|pediatric_fecal_sample|CYC			resfinder_fg
 D-alanine--D-alanine ligase|KF629592.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
 Beta-lactamase|KF629594.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
 D-alanine--D-alanine ligase B|KF629595.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg

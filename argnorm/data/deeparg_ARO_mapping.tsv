@@ -229,7 +229,6 @@ FJ349556.1.gene4.p01|FEATURES|vanY|glycopeptide|vanY	vanY gene in vanM cluster	3
 HE963771.1.gene1.p01|FEATURES|OXA-250|beta-lactam|OXA	OXA-250	3001675	deeparg
 gi:281335928:gb:ADA62521.1:|FEATURES|CTX-M|beta-lactam|CTX-M	CTX-M-3	3001866	deeparg
 YP_002295271|FEATURES|mdtL|multidrug|mdtL	bcr-1	3003801	deeparg
-CP000034.1.gene2198.p01|FEATURES|ompF|multidrug|ompF			deeparg
 gi:487414406:ref:WP_001681940.1:|FEATURES|class_C|beta-lactam|class_C	EC-15	3006876	deeparg
 gi:489799107:ref:WP_003702998.1:|FEATURES|macA|MLS|macA	macA	3000533	deeparg
 gi:665939114:ref:WP_031305161.1:|FEATURES|fosB|fosfomycin|fosB	FosBx1	3007372	deeparg
@@ -1401,7 +1400,6 @@ CAJ00299|FEATURES|tetM|tetracycline|tetM	tet(M)	3000186	deeparg
 gi:486284536:ref:WP_001571645.1:|FEATURES|macB|MLS|macB	macB	3000535	deeparg
 gi:686379454:ref:WP_031899389.1:|FEATURES|msrA|MLS|msrA	msrA	3000251	deeparg
 gi:410407357:gb:EKP59343.1:|FEATURES|TolC|multidrug|TolC	OpmH	3003682	deeparg
-AAB08925|FEATURES|tetU|tetracycline|tetU			deeparg
 gi:497301484:ref:WP_009615701.1:|FEATURES|vanZ|glycopeptide|vanZ	vanZ gene in vanA cluster	3002962	deeparg
 gi:568797412:gb:AHE27856.1:|FEATURES|oprM|multidrug|oprM	OprZ	3004142	deeparg
 gi:323161554:gb:EFZ47443.1:|FEATURES|tetC|tetracycline|tetC	nalD	3000819	deeparg
@@ -2941,7 +2939,6 @@ gi:806499240:ref:WP_046132296.1:|FEATURES|fosB|fosfomycin|fosB	FosBx1	3007372	de
 gi:686393404:ref:WP_031907214.1:|FEATURES|norA|multidrug|norA	Staphylococcus aureus norA	3004667	deeparg
 EU496816.1.gene1.p1|FEATURES|CMY-33|beta-lactam|CMX	CMY-33	3002044	deeparg
 gi:446533225:ref:WP_000610571.1:|FEATURES|mdtP|multidrug|mdtP	mdtP	3003550	deeparg
-CP000647.1.gene2517.p01|FEATURES|ompF|multidrug|ompF			deeparg
 gi:893176346:emb:CNU38720.1:|FEATURES|mdtH|multidrug|mdtH	mdtH	3001216	deeparg
 gi:827010223:ref:WP_047172736.1:|FEATURES|norA|multidrug|norA	norA	3000391	deeparg
 gi:919965280:ref:WP_052922694.1:|FEATURES|emrB|multidrug|emrB	emrB	3000074	deeparg
@@ -4731,7 +4728,6 @@ gi:694120321:ref:WP_032461793.1:|FEATURES|mefA|MLS|mefA	mel	3000616	deeparg
 gi:554922614:ref:WP_023195115.1:|FEATURES|TolC|multidrug|TolC	TolC	3000237	deeparg
 gi:752513602:ref:WP_041185218.1:|FEATURES|class_A|beta-lactam|class_A	Bla1	3000090	deeparg
 gi:1028186057:ref:WP_063931428.1:|FEATURES|macA|MLS|macA	macA	3000533	deeparg
-gi:504720116:ref:WP_014907218.1:|FEATURES|ompF|multidrug|ompF			deeparg
 AAL09826|FEATURES|tetW|tetracycline|tetW	tet(W/32/O)	3007124	deeparg
 gi:585358525:ref:WP_024240123.1:|FEATURES|emrA|multidrug|emrA	emrA	3000027	deeparg
 ZP_04174269|FEATURES|fosB|fosfomycin|fosB	FosB	3000172	deeparg
@@ -4796,7 +4792,6 @@ gi:498515090:ref:WP_010815297.1:|FEATURES|vanY|glycopeptide|vanY	vanY gene in va
 gi:1005546621:ref:WP_061651133.1:|FEATURES|fosB|fosfomycin|fosB	Staphylococcus aureus FosB	3004661	deeparg
 gi:730400588:ref:WP_034007400.1:|FEATURES|mexA|multidrug|mexA	MexA	3000377	deeparg
 JQ808129.1.gene1.p01|FEATURES|aac(6')-I|aminoglycoside|aac(6')-I	AAC(6')-Ib	3002546	deeparg
-AM180355.1.gene2260.p01|FEATURES|ermC|MLS|ermC			deeparg
 gi:1028085759:ref:WP_063844288.1:|FEATURES|dfrA1|diaminopyrimidine|dfrA1	dfrA1	3002854	deeparg
 gi:970275554:ref:WP_058656073.1:|FEATURES|mdtH|multidrug|mdtH	mdtH	3001216	deeparg
 AF190692.1.gene1.p01|FEATURES|TEM-79|beta-lactam|TEM	TEM-79	3000946	deeparg
@@ -10817,7 +10812,6 @@ gi:545298013:ref:WP_021578217.1:|FEATURES|mdtO|multidrug|mdtO	mdtO	3003549	deepa
 gi:766968860:ref:WP_044862880.1:|FEATURES|mexX|multidrug|mexX	AcrE	3000499	deeparg
 gi:974633183:ref:WP_059219858.1:|FEATURES|macB|MLS|macB	macB	3000535	deeparg
 AF015087.1.gene1.p01|FEATURES|cmrA|phenicol|cmrA	cmrA	3002702	deeparg
-gi:501976562:ref:WP_012681429.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB			deeparg
 gi:514082323:ref:WP_016531940.1:|FEATURES|emrA|multidrug|emrA	Klebsiella pneumoniae KpnG	3004588	deeparg
 gi:916813154:ref:WP_051420210.1:|FEATURES|emrB|multidrug|emrB	Klebsiella pneumoniae KpnH	3004597	deeparg
 EF418608.1.gene1.p01|FEATURES|CTX-M-65|beta-lactam|CTX-M	CTX-M-65	3001926	deeparg
@@ -10987,7 +10981,6 @@ gi:495736522:ref:WP_008461101.1:|FEATURES|macB|MLS|macB	macB	3000535	deeparg
 A7ZP73|FEATURES|arnA|polymyxin|arnA	arnA	3002985	deeparg
 AAT34976|FEATURES|streptomycin_resistance_protein|aminoglycoside|streptomycin_resistance_protein	aadK	3002627	deeparg
 gi:485786971:ref:WP_001409256.1:|FEATURES|class_C|beta-lactam|class_C	EC-5	3006880	deeparg
-gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase			deeparg
 YP_002807856|FEATURES|mdtF|multidrug|mdtF	mdtF	3000796	deeparg
 AJ631966.1.gene1.p01|FEATURES|OXA-57|beta-lactam|OXA	OXA-57	3001771	deeparg
 gi:32345890:gb:AAM97239.1:|FEATURES|penA|beta-lactam|penA	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	deeparg
@@ -11159,7 +11152,6 @@ KF478993.1.gene8.p01|FEATURES|vanR|glycopeptide|vanR	vanR gene in vanO cluster	3
 gi:446657994:ref:WP_000735340.1:|FEATURES|TolC|multidrug|TolC	TolC	3000237	deeparg
 ABY55284|FEATURES|dfrA7|diaminopyrimidine|dfrA7	dfrA7	3002862	deeparg
 gi:485771438:ref:WP_001395401.1:|FEATURES|class_C|beta-lactam|class_C	Escherichia coli ampC beta-lactamase	3004290	deeparg
-gi:489831097:ref:WP_003734834.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB			deeparg
 gi:852042535:ref:WP_048267006.1:|FEATURES|class_C|beta-lactam|class_C	Escherichia coli ampC beta-lactamase	3004290	deeparg
 DQ888718.1.gene1.p01|FEATURES|OXA-99|beta-lactam|OXA	OXA-99	3001649	deeparg
 gi:498515087:ref:WP_010815294.1:|FEATURES|vanX|glycopeptide|vanX	vanX gene in vanB cluster	3002950	deeparg
@@ -11323,7 +11315,6 @@ gi:486386697:ref:WP_001600585.1:|FEATURES|mdtG|multidrug|mdtG	mdtG	3001329	deepa
 gi:499595733:ref:WP_011276467.1:|FEATURES|marR|multidrug|marR	mgrA	3000815	deeparg
 AAZ85968|FEATURES|class_C|beta-lactam|class_C	EC-8	3006881	deeparg
 gi:446669112:ref:WP_000746458.1:|FEATURES|macA|MLS|macA	macA	3000533	deeparg
-gi:685904080:ref:WP_031644138.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB			deeparg
 gi:685891619:ref:WP_031632892.1:|FEATURES|tetR|tetracycline|tetR	nalD	3000819	deeparg
 gi:489200326:ref:WP_003109550.1:|FEATURES|oprN|multidrug|oprN	OprN	3000805	deeparg
 gi:822524709:ref:WP_046954623.1:|FEATURES|lsa|MLS|lsa	lsaB	3003111	deeparg
@@ -11811,7 +11802,6 @@ AIS67611.1|FEATURES|CTX-M-155|beta-lactam|CTX-M	CTX-M-155	3003163	deeparg
 BAO21229.1|FEATURES|AAC(6')-Iak|aminoglycoside|AAC(6')-Iak	AAC(6')-Iak	3003199	deeparg
 BAI83385.1|FEATURES|mecB|beta-lactam|mecB	mecB	3003440	deeparg
 AGL43630.1|FEATURES|QnrB69|fluoroquinolone|QnrB69	QnrB69	3002781	deeparg
-NP_253005.1|FEATURES|MvaT|multidrug|MvaT			deeparg
 CAD58780.1|FEATURES|OXA-45|beta-lactam|OXA	OXA-45	3001794	deeparg
 WP_063857793.1|FEATURES|ADC-19|beta-lactam|ADC-19	ADC-19	3003863	deeparg
 CAX52582.1|FEATURES|Bacillus_subtilis_mprF|peptide|Bacillus_subtilis_mprF	Bacillus subtilis mprF	3003324	deeparg
@@ -12124,7 +12114,6 @@ YP_001693238|FEATURES|oqxB|multidrug|oqxB	oqxB	3003923	deeparg
 BAE77933.1|FEATURES|CRP|multidrug|CRP	CRP	3000518	deeparg
 AHL39336.1|FEATURES|ACT-24|beta-lactam|ACT	ACT-24	3001844	deeparg
 AIT76089.1|FEATURES|CMY-113|beta-lactam|CMX	CMY-113	3002124	deeparg
-NP_417544.5|FEATURES|patA|fluoroquinolone|patA			deeparg
 AGS82586.1|FEATURES|VIM-39|beta-lactam|VIM	VIM-39	3002309	deeparg
 AFY16910.1|FEATURES|QnrB62|fluoroquinolone|QnrB62	QnrB62	3002775	deeparg
 AHL39338.1|FEATURES|ACT-25|beta-lactam|ACT	ACT-25	3001845	deeparg
@@ -12144,7 +12133,6 @@ AEZ49855.1|FEATURES|CMY-68|beta-lactam|CMX	CMY-68	3002081	deeparg
 ANZ79476.1|FEATURES|Erm(47)|MLS|Erm(47)	Erm(47)	3003908	deeparg
 CAG25831.1|FEATURES|OKP-B-12|beta-lactam|OKP-B-12	OKP-B-12	3002445	deeparg
 AIT76096.1|FEATURES|ACT-31|beta-lactam|ACT	ACT-31	3001851	deeparg
-NP_416340.1|FEATURES|mgrB|multidrug|mgrB			deeparg
 AFK93491.1|FEATURES|SHV-144|beta-lactam|SHV	SHV-144	3001345	deeparg
 AMP35312.1|FEATURES|vgaC|MLS|vgaC	ceoB	3003010	deeparg
 ACX70402.1|FEATURES|OXA-143|beta-lactam|OXA	OXA-143	3001654	deeparg

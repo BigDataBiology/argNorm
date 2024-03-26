@@ -1,5 +1,4 @@
 Original ID	Gene Name in CARD	ARO	Database
-MEG_1|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|A16S|RequiresSNPConfirmation			megares
 MEG_2|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|A16S|RequiresSNPConfirmation	FIM-1	3004786	megares
 MEG_2|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|A16S|RequiresSNPConfirmation	vgbB	3001308	megares
 MEG_3|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|A16S|RequiresSNPConfirmation	tet(Z)	3000183	megares
@@ -27,7 +26,6 @@ MEG_24|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Id	
 MEG_25|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Ia	3002528	megares
 MEG_26|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Ia	3002528	megares
 MEG_27|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Ia	3002528	megares
-MEG_28|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3			megares
 MEG_29|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Ia	3002528	megares
 MEG_30|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Ia	3002528	megares
 MEG_31|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Id	3002529	megares
@@ -42,7 +40,6 @@ MEG_39|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-VIa
 MEG_40|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-Ib	3002530	megares
 MEG_41|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-IIe	3004621	megares
 MEG_42|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(6')-Iap	3007204	megares
-MEG_43|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3			megares
 MEG_44|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-IIe	3004621	megares
 MEG_45|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-IId	3004623	megares
 MEG_46|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	AAC(3)-IIe	3004621	megares
@@ -496,12 +493,10 @@ MEG_493|Drugs|betalactams|Class_C_betalactamases|ACT	ACT-22	3001843	megares
 MEG_494|Drugs|betalactams|Class_C_betalactamases|ACT	ACT-18	3001839	megares
 MEG_495|Drugs|betalactams|Class_C_betalactamases|ACT	ACT-19	3001840	megares
 MEG_496|Drugs|betalactams|Class_C_betalactamases|ACT	ACT-36	3003171	megares
-MEG_497|Drugs|betalactams|Class_C_betalactamases|ACT			megares
 MEG_498|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|ACTA	adeB	3000775	megares
 MEG_499|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|ACTA	adeB	3000775	megares
 MEG_500|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|ACTP	AIM-1	3000853	megares
 MEG_501|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|ACTP	AIM-1	3000853	megares
-MEG_502|Metals|Tellurium_resistance|Tellurium_resistance_protein|ACTP1			megares
 MEG_503|Metals|Copper_resistance|Copper_resistance_protein|ACTPC	srmB	3002828	megares
 MEG_504|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_regulator|ACTR	Pseudomonas aeruginosa CpxR	3004054	megares
 MEG_505|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_regulator|ACTS	cpxA	3000830	megares
@@ -712,7 +707,6 @@ MEG_709|Drugs|betalactams|Class_B_betalactamases|AFM	AFM-1	3006890	megares
 MEG_710|Drugs|betalactams|Class_B_betalactamases|AIM	AIM-1	3000853	megares
 MEG_711|Metals|Arsenic_resistance|Arsenite_oxidase|AIOA	mdtE	3000795	megares
 MEG_712|Metals|Arsenic_resistance|Arsenite_oxidase|AIOA	mdtE	3000795	megares
-MEG_713|Metals|Arsenic_resistance|Arsenite_oxidase|AIOB			megares
 MEG_714|Metals|Arsenic_resistance|Arsenite_oxidase|AIOE	Mycobacterium tuberculosis ethA with mutation conferring resistance to ethionamide	3003458	megares
 MEG_715|Metals|Arsenic_resistance|Arsenite_oxidase_regulator|AIOR	TxR	3005008	megares
 MEG_716|Metals|Arsenic_resistance|Arsenite_oxidase_regulator|AIOS	vanS gene in vanB cluster	3002932	megares
@@ -1141,21 +1135,12 @@ MEG_1137|Drugs|Rifampin|Rifampin_ADP-ribosyltransferase_Arr|ARR	arr-3	3002848	me
 MEG_1138|Drugs|Rifampin|Rifampin_ADP-ribosyltransferase_Arr|ARR	arr-3	3002848	megares
 MEG_1139|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARRA	Erm(49)	3004626	megares
 MEG_1140|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARRA	Erm(49)	3004626	megares
-MEG_1141|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARRB			megares
 MEG_1142|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSA	salE	3007029	megares
 MEG_1143|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSA	oleB	3003036	megares
 MEG_1144|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSA	APH(3')-IIa	3002644	megares
-MEG_1145|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSB			megares
 MEG_1146|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSB	tet(31)	3000476	megares
 MEG_1147|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSB	tet(31)	3000476	megares
-MEG_1148|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSBM			megares
 MEG_1149|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSBM	mdtB	3000793	megares
-MEG_1150|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSBM			megares
-MEG_1151|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSBM			megares
-MEG_1152|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSBM			megares
-MEG_1153|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSBM			megares
-MEG_1154|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSC			megares
-MEG_1155|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSC			megares
 MEG_1156|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSC	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	megares
 MEG_1157|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSC	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	megares
 MEG_1158|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSC	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	megares
@@ -1170,17 +1155,11 @@ MEG_1166|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSDM	ANT(
 MEG_1167|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSH	Streptomyces venezuelae rox	3007209	megares
 MEG_1168|Biocides|Naphthoquinone|Naphthoquinone_resistance_protein|ARSHN	ANT(9)-Ib	3007401	megares
 MEG_1169|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSM	emtA	3004669	megares
-MEG_1170|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARSP			megares
 MEG_1171|Metals|Arsenic_resistance|Arsenic_resistance_regulator|ARSR	tet(43)	3000573	megares
 MEG_1172|Metals|Arsenic_resistance|Arsenic_resistance_regulator|ARSR	CME-2	3006155	megares
-MEG_1173|Metals|Arsenic_resistance|Arsenic_resistance_regulator|ARSR			megares
 MEG_1174|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSRM	PFM-2	3006966	megares
-MEG_1175|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSRM			megares
-MEG_1176|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSRM			megares
 MEG_1177|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ARSRM	lsaC	3003112	megares
 MEG_1178|Metals|Arsenic_resistance|Arsenic_resistance_protein|ARST	tet(50)	3004584	megares
-MEG_1179|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|ASMA			megares
-MEG_1180|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|ASMA			megares
 MEG_1181|Biocides|Acid_resistance|Acid_resistance_protein|ASR	amrB	3002983	megares
 MEG_1182|Biocides|Acid_resistance|Acid_resistance_protein|ASR	amrB	3002983	megares
 MEG_1183|Drugs|betalactams|Class_A_betalactamases|AST	AST-1	3004740	megares
@@ -1231,7 +1210,6 @@ MEG_1227|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_
 MEG_1228|Drugs|betalactams|Class_A_betalactamases|BES	BES-1	3004751	megares
 MEG_1229|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|BEXA	hmrM	3003953	megares
 MEG_1230|Metals|Iron_resistance|Iron_resistance_protein|BFRA	tlrC	3002827	megares
-MEG_1231|Metals|Copper_resistance|Copper_resistance_regulator|BHSA			megares
 MEG_1232|Drugs|betalactams|Class_A_betalactamases|BIC	BIC-1	3004753	megares
 MEG_1233|Drugs|betalactams|Class_C_betalactamases|BIL	BIL-1	3004755	megares
 MEG_1234|Drugs|betalactams|Class_B_betalactamases|BJP1	BJP-1	3000856	megares
@@ -1487,9 +1465,7 @@ MEG_1482|Drugs|betalactams|Class_C_betalactamases|BUT	BUT-2	3005558	megares
 MEG_1483|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|CADA	smeB	3003052	megares
 MEG_1484|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|CADA	smeB	3003052	megares
 MEG_1485|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|CADC	Listeria monocytogenes mprF	3003770	megares
-MEG_1486|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|CADD			megares
 MEG_1487|Metals|Cadmium_resistance|Cadmium_resistance_regulator|CADR	golS	3000504	megares
-MEG_1488|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|CADX			megares
 MEG_1489|Drugs|betalactams|Class_B_betalactamases|CAM	CAM-1	3004559	megares
 MEG_1490|Drugs|Cationic_antimicrobial_peptides|Cationic_peptide-resistant_16S_ribosomal_subunit_protein|CAP16S|RequiresSNPConfirmation	vgbB	3001308	megares
 MEG_1490|Drugs|Cationic_antimicrobial_peptides|Cationic_peptide-resistant_16S_ribosomal_subunit_protein|CAP16S|RequiresSNPConfirmation	FIM-1	3004786	megares
@@ -1705,7 +1681,6 @@ MEG_1697|Drugs|betalactams|Class_A_betalactamases|CFX	CfxA2	3003002	megares
 MEG_1698|Drugs|betalactams|Class_A_betalactamases|CFX	CfxA2	3003002	megares
 MEG_1699|Drugs|betalactams|Class_A_betalactamases|CGA	CGA-1	3004766	megares
 MEG_1700|Drugs|betalactams|Class_B_betalactamases|CGB	CGB-1	3000841	megares
-MEG_1701|Metals|Sodium_resistance|Sodium_resistance_protein|CHAA			megares
 MEG_1702|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|CHR	APH(4)-Ia	3002655	megares
 MEG_1703|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|CHR	PC1 beta-lactamase (blaZ)	3000621	megares
 MEG_1704|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|CHR	SPS-1	3006997	megares
@@ -1719,9 +1694,7 @@ MEG_1711|Metals|Chromium_resistance|Chromium_resistance_protein|CHRB1	mdtB	30007
 MEG_1712|Drugs|MLS|23S_rRNA_methyltransferases|CHRBM	chrB	3001302	megares
 MEG_1713|Metals|Chromium_resistance|Chromium_resistance_protein|CHRC	vanP	3007189	megares
 MEG_1714|Metals|Chromium_resistance|Chromium_resistance_protein|CHRE	OXA-152	3001457	megares
-MEG_1715|Metals|Chromium_resistance|Chromium_resistance_regulator|CHRF			megares
 MEG_1716|Metals|Chromium_resistance|Chromium_resistance_regulator|CHRI	Streptomyces lividans cmlR	3002690	megares
-MEG_1717|Metals|Chromium_resistance|Chromium_resistance_protein|CHRR	Helicobacter pylori rdxA mutation conferring resistance to metronidazole	3007055	megares
 MEG_1718|Drugs|betalactams|Class_A_betalactamases|CIA	CIA-1	3004768	megares
 MEG_1719|Drugs|betalactams|Class_A_betalactamases|CIA	CIA-2	3004769	megares
 MEG_1720|Drugs|betalactams|Class_A_betalactamases|CIA	CIA-3	3004770	megares
@@ -1736,7 +1709,6 @@ MEG_1728|Drugs|Multi-drug_resistance|MDR_23S_ribosomal_RNA_methyltransferase|CLB
 MEG_1729|Drugs|Multi-drug_resistance|MDR_23S_ribosomal_RNA_methyltransferase|CLBD	clcD	3004599	megares
 MEG_1730|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	Enterococcus faecium cls conferring resistance to daptomycin	3003092	megares
 MEG_1731|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	OpmD	3000809	megares
-MEG_1732|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation			megares
 MEG_1733|Drugs|betalactams|Class_C_betalactamases|CMA	CMA-2	3006923	megares
 MEG_1734|Drugs|betalactams|Class_C_betalactamases|CMA	CMA-1	3006922	megares
 MEG_1735|Drugs|betalactams|Class_A_betalactamases|CME	CME-2	3006155	megares
@@ -2034,13 +2006,11 @@ MEG_2027|Metals|Copper_resistance|Copper_resistance_protein|COPA	PEDO-2	3003714	
 MEG_2028|Metals|Copper_resistance|Copper_resistance_protein|COPA	EC-16	3006877	megares
 MEG_2029|Metals|Copper_resistance|Copper_resistance_protein|COPA	AER-1	3002481	megares
 MEG_2030|Metals|Copper_resistance|Copper_resistance_protein|COPA	mdtF	3000796	megares
-MEG_2032|Metals|Copper_resistance|Copper_resistance_protein|COPA			megares
 MEG_2033|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|COPAM	LRA-19	3002513	megares
 MEG_2034|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|COPAM	FONA-4	3004791	megares
 MEG_2035|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|COPAM	smeE	3003056	megares
 MEG_2036|Metals|Copper_resistance|Copper_resistance_protein|COPB	ErmC	3000250	megares
 MEG_2037|Metals|Copper_resistance|Copper_resistance_protein|COPB	baeS	3000829	megares
-MEG_2038|Metals|Copper_resistance|Copper_resistance_protein|COPB			megares
 MEG_2039|Metals|Copper_resistance|Copper_resistance_protein|COPB	MexF	3000804	megares
 MEG_2040|Metals|Copper_resistance|Copper_resistance_protein|COPB	SGM-4	3006990	megares
 MEG_2041|Metals|Copper_resistance|Copper_resistance_protein|COPB	mexQ	3003699	megares
@@ -2052,7 +2022,6 @@ MEG_2046|Metals|Copper_resistance|Copper_resistance_protein|COPC	adeA	3000774	me
 MEG_2047|Metals|Copper_resistance|Copper_resistance_protein|COPC	OprZ	3004142	megares
 MEG_2048|Metals|Copper_resistance|Copper_resistance_protein|COPC	CBP-1	3004764	megares
 MEG_2049|Metals|Copper_resistance|Copper_resistance_protein|COPC	CBP-1	3004764	megares
-MEG_2050|Metals|Copper_resistance|Copper_resistance_protein|COPC			megares
 MEG_2051|Metals|Copper_resistance|Copper_resistance_protein|COPD	vanS gene in vanM cluster	3002939	megares
 MEG_2052|Metals|Copper_resistance|Copper_resistance_protein|COPD	Escherichia coli soxR with mutation conferring antibiotic resistance	3003381	megares
 MEG_2053|Metals|Copper_resistance|Copper_resistance_protein|COPD	APH(4)-Ib	3002656	megares
@@ -2061,11 +2030,7 @@ MEG_2055|Metals|Copper_resistance|Copper_resistance_protein|COPD	SHV-156	3001195
 MEG_2056|Metals|Copper_resistance|Copper_resistance_protein|COPF	sul2	3000412	megares
 MEG_2058|Metals|Copper_resistance|Copper_resistance_protein|COPG	Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	3004480	megares
 MEG_2059|Metals|Copper_resistance|Copper_resistance_protein|COPG	smeA	3003051	megares
-MEG_2060|Metals|Copper_resistance|Copper_resistance_protein|COPJ			megares
 MEG_2061|Metals|Copper_resistance|Copper_resistance_protein|COPK	OXA-452	3003608	megares
-MEG_2062|Metals|Copper_resistance|Copper_resistance_protein|COPL			megares
-MEG_2063|Metals|Copper_resistance|Copper_resistance_protein|COPL			megares
-MEG_2064|Metals|Copper_resistance|Copper_resistance_protein|COPL			megares
 MEG_2065|Metals|Copper_resistance|Copper_resistance_protein|COPM	qacA	3003046	megares
 MEG_2066|Metals|Copper_resistance|Copper_resistance_protein|COPM	PAC-1	3005150	megares
 MEG_2067|Metals|Copper_resistance|Copper_resistance_protein|COPP	msrF	3005087	megares
@@ -2073,7 +2038,6 @@ MEG_2068|Metals|Copper_resistance|Copper_resistance_protein|COPP	msrF	3005087	me
 MEG_2069|Metals|Copper_resistance|Copper_resistance_regulator|COPR	arlR	3000838	megares
 MEG_2070|Metals|Copper_resistance|Copper_resistance_regulator|COPR	emrR	3000516	megares
 MEG_2071|Metals|Copper_resistance|Copper_resistance_regulator|COPR	arlR	3000838	megares
-MEG_2072|Metals|Copper_resistance|Copper_resistance_regulator|COPR			megares
 MEG_2073|Metals|Copper_resistance|Copper_resistance_regulator|COPR	arlR	3000838	megares
 MEG_2074|Metals|Copper_resistance|Copper_resistance_regulator|COPR	arlR	3000838	megares
 MEG_2075|Metals|Copper_resistance|Copper_resistance_regulator|COPS	basS	3003583	megares
@@ -2115,7 +2079,6 @@ MEG_2110|Drugs|betalactams|Class_B_betalactamases|CPHA	cphA6	3003102	megares
 MEG_2111|Drugs|betalactams|Class_B_betalactamases|CPHA	imiH	3003094	megares
 MEG_2112|Drugs|betalactams|Class_B_betalactamases|CPS	CPS-1	3003716	megares
 MEG_2113|Drugs|Phenicol|Chloramphenicol_phosphotransferase|CPT	lsaB	3003111	megares
-MEG_2114|Drugs|Phenicol|Chloramphenicol_phosphotransferase|CPT			megares
 MEG_2115|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR	cpxA	3000830	megares
 MEG_2116|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR	Pseudomonas aeruginosa CpxR	3004054	megares
 MEG_2117|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR	Pseudomonas aeruginosa CpxR	3004054	megares
@@ -2125,7 +2088,6 @@ MEG_2120|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_
 MEG_2121|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR	cpxA	3000830	megares
 MEG_2122|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR	Pseudomonas aeruginosa CpxR	3004054	megares
 MEG_2123|Drugs|betalactams|Class_B_betalactamases|CRD	CRD3-1	3006864	megares
-MEG_2124|Metals|Copper_resistance|Copper_resistance_protein|CRDA			megares
 MEG_2125|Metals|Copper_resistance|Copper_resistance_protein|CRDB	OprZ	3004142	megares
 MEG_2126|Metals|Copper_resistance|Copper_resistance_regulator|CRDR	vanR gene in vanB cluster	3002921	megares
 MEG_2127|Metals|Copper_resistance|Copper_resistance_regulator|CRDR	vanR gene in vanB cluster	3002921	megares
@@ -2438,7 +2400,6 @@ MEG_2427|Drugs|betalactams|Class_A_betalactamases|CTX	ANT(4')-IIb	3002625	megare
 MEG_2428|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-52	3001914	megares
 MEG_2429|Drugs|betalactams|Class_A_betalactamases|CTX	L1 beta-lactamase	3000582	megares
 MEG_2429|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-82	3001943	megares
-MEG_2430|Drugs|betalactams|Class_A_betalactamases|CTX			megares
 MEG_2431|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-55	3001917	megares
 MEG_2432|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-1	3001864	megares
 MEG_2433|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-3	3001866	megares
@@ -2447,9 +2408,7 @@ MEG_2435|Drugs|betalactams|Class_A_betalactamases|CTX	TLA-2	3003203	megares
 MEG_2436|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-14	3001877	megares
 MEG_2437|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-110	3001970	megares
 MEG_2438|Drugs|betalactams|Class_A_betalactamases|CTX	CTX-M-206	3005629	megares
-MEG_2439|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|CUEA			megares
 MEG_2440|Metals|Copper_resistance|Copper_resistance_protein|CUEO	ErmF	3000498	megares
-MEG_2441|Metals|Copper_resistance|Copper_resistance_protein|CUEP			megares
 MEG_2442|Metals|Copper_resistance|Copper_resistance_regulator|CUER	golS	3000504	megares
 MEG_2443|Metals|Copper_resistance|Copper_resistance_regulator|CUER	golS	3000504	megares
 MEG_2444|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|CUID	OXA-501	3005731	megares
@@ -2463,12 +2422,8 @@ MEG_2451|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|CUSF	IND-12	
 MEG_2452|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_regulator|CUSR	arlR	3000838	megares
 MEG_2453|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_regulator|CUSS	basS	3003583	megares
 MEG_2454|Metals|Copper_resistance|Copper_resistance_protein|CUTA	vga(E) Staphylococcus cohnii	3004715	megares
-MEG_2455|Metals|Copper_resistance|Copper_resistance_protein|CUTC			megares
-MEG_2456|Metals|Copper_resistance|Copper_resistance_protein|CUTC			megares
-MEG_2457|Metals|Copper_resistance|Copper_resistance_protein|CUTE			megares
 MEG_2458|Metals|Copper_resistance|Copper_resistance_protein|CUTF	BEL-3	3002387	megares
 MEG_2459|Metals|Copper_resistance|Copper_resistance_protein|CUTO	tlrC	3002827	megares
-MEG_2460|Metals|Copper_resistance|Copper_resistance_protein|CUTR			megares
 MEG_2461|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|CZCA	adeB	3000775	megares
 MEG_2462|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|CZCA	adeB	3000775	megares
 MEG_2463|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|CZCB	mtrC	3000810	megares
@@ -2659,16 +2614,12 @@ MEG_2647|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFRIII|RequiresSNPConfirmat
 MEG_2648|Drugs|betalactams|Class_B_betalactamases|DHT	DHT2-1	3006872	megares
 MEG_2649|Drugs|betalactams|Class_B_betalactamases|DIM	DIM-1	3000848	megares
 MEG_2650|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|DMEF	lsaE	3003206	megares
-MEG_2651|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|DMEF			megares
-MEG_2652|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|DMER			megares
 MEG_2653|Metals|Copper_resistance|Copper_resistance_protein|DNAK	carA	3002817	megares
 MEG_2654|Metals|Copper_resistance|Copper_resistance_protein|DNAK	carA	3002817	megares
 MEG_2655|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR	OXA-904	3006092	megares
-MEG_2656|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR			megares
 MEG_2657|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR	AAC(3)-Xa	3002544	megares
 MEG_2658|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR	AAC(3)-Xa	3002544	megares
 MEG_2659|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR	OXA-904	3006092	megares
-MEG_2660|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR			megares
 MEG_2661|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR	OXA-904	3006092	megares
 MEG_2662|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPR	AAC(3)-Xa	3002544	megares
 MEG_2663|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|DPSA	vanS gene in vanL cluster	3002938	megares
@@ -2878,7 +2829,6 @@ MEG_2861|Drugs|MLS|23S_rRNA_methyltransferases|ERMX	ErmX	3000596	megares
 MEG_2862|Drugs|betalactams|Class_A_betalactamases|ERP	ERP-1	3004782	megares
 MEG_2863|Drugs|betalactams|Class_B_betalactamases|ESP	ESP-1	3003717	megares
 MEG_2864|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	APH(3')-IXa	3004087	megares
-MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD			megares
 MEG_2866|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethionamide-resistant_mutant|ETHA|RequiresSNPConfirmation	tet(50)	3004584	megares
 MEG_2867|Biocides|Acid_resistance|Acid_resistance_regulator|EVGA	evgA	3000832	megares
 MEG_2868|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|EVGS	evgS	3000833	megares
@@ -2886,8 +2836,7 @@ MEG_2869|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_
 MEG_2870|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|EVGS	evgS	3000833	megares
 MEG_2871|Drugs|betalactams|Class_B_betalactamases|EVM	EVM-1	3006886	megares
 MEG_2872|Drugs|betalactams|Class_A_betalactamases|EXO	EXO-1	3003564	megares
-MEG_2874|Biocides|Phenolic_compound_resistance|Phenolic_resistance_protein|FABI	Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan	3004045	megares
-MEG_2875|Biocides|Phenolic_compound_resistance|Phenolic_resistance_protein|FABI			megares
+MEG_2873|Biocides|Phenolic_compound_resistance|Triclosan-resistant_mutation|FABG|RequiresSNPConfirmation	ECV-1	3006883	megares
 MEG_2876|Biocides|Phenolic_compound_resistance|Phenolic_resistance_protein|FABK	mphF	3003071	megares
 MEG_2877|Biocides|Phenolic_compound_resistance|Phenolic_resistance_protein|FABL	Escherichia coli fabG mutations conferring resistance to triclosan	3004049	megares
 MEG_2878|Biocides|Phenolic_compound_resistance|Phenolic_resistance_protein|FABV	KPC-73	3006198	megares
@@ -2900,19 +2849,13 @@ MEG_2884|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_
 MEG_2885|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FARB	farB	3003962	megares
 MEG_2886|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FARB	farB	3003962	megares
 MEG_2887|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|FARR	mgrA	3000815	megares
-MEG_2888|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FBPA			megares
-MEG_2889|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FBPB			megares
 MEG_2890|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FBPB	TriC	3003681	megares
 MEG_2891|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FBPC	RanA	3005091	megares
 MEG_2892|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FBPC	RanA	3005091	megares
 MEG_2893|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FECD	PFM-3	3006967	megares
-MEG_2894|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FECD			megares
-MEG_2895|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FECD			megares
 MEG_2896|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FECE	tetA(58)	3003980	megares
 MEG_2897|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|FECE	tetA(58)	3003980	megares
 MEG_2898|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|FETA	macB	3000535	megares
-MEG_2899|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|FETB			megares
-MEG_2900|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|FETB			megares
 MEG_2901|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA	fexA	3002704	megares
 MEG_2902|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA	fexA	3002704	megares
 MEG_2903|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA	fexA	3002704	megares
@@ -2945,7 +2888,6 @@ MEG_2929|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|FLOR	pp-flo	3002812
 MEG_2930|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|FLOR	floR	3002705	megares
 MEG_2931|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|FLOR	floR	3002705	megares
 MEG_2932|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|FMRO	armA	3000858	megares
-MEG_2933|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|FOLC|RequiresSNPConfirmation			megares
 MEG_2934|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|FOLP|RequiresSNPConfirmation	sul4	3004361	megares
 MEG_2935|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|FOLP|RequiresSNPConfirmation	sul4	3004361	megares
 MEG_2936|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|FOLP|RequiresSNPConfirmation	sul3	3000413	megares
@@ -3061,9 +3003,6 @@ MEG_3045|Drugs|betalactams|Class_C_betalactamases|FOX	FOX-9	3002163	megares
 MEG_3046|Drugs|betalactams|Class_C_betalactamases|FOX	FOX-1	3002155	megares
 MEG_3047|Drugs|betalactams|Class_C_betalactamases|FOX	FOX-2	3002156	megares
 MEG_3048|Drugs|betalactams|Class_A_betalactamases|FPH	FPH-1	3004795	megares
-MEG_3049|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|FPTA			megares
-MEG_3050|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|FPVA			megares
-MEG_3051|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|FPVA			megares
 MEG_3052|Drugs|betalactams|Class_A_betalactamases|FRI	FRI-8	3005031	megares
 MEG_3053|Drugs|betalactams|Class_A_betalactamases|FRI	FRI-5	3005028	megares
 MEG_3054|Drugs|betalactams|Class_A_betalactamases|FRI	FRI-9	3005032	megares
@@ -3075,8 +3014,7 @@ MEG_3059|Drugs|betalactams|Class_A_betalactamases|FRI	FRI-3	3004799	megares
 MEG_3060|Drugs|betalactams|Class_A_betalactamases|FRI	FRI-4	3005027	megares
 MEG_3061|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|FRNE	tet(X6)	3005056	megares
 MEG_3062|Drugs|betalactams|Class_A_betalactamases|FTU	FTU-1	3004801	megares
-MEG_3063|Metals|Iron_resistance|Iron_resistance_regulator|FURA			megares
-MEG_3064|Metals|Iron_resistance|Iron_resistance_regulator|FURA			megares
+MEG_3065|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	tet(T)	3000193	megares
 MEG_3066|Drugs|Fusidic_acid|Ribosomal_zinc-binding_protein|FUSB	fusB	3003552	megares
 MEG_3067|Drugs|Fusidic_acid|Ribosomal_zinc-binding_protein|FUSB	fusB	3003552	megares
 MEG_3068|Drugs|Fusidic_acid|Ribosomal_zinc-binding_protein|FUSC	fusC	3003733	megares
@@ -3155,6 +3093,8 @@ MEG_3139|Drugs|MLS|Macrolide_glycosyltransferases|GIMA	gimA	3000463	megares
 MEG_3140|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|GLPF	SGM-4	3006990	megares
 MEG_3141|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|GLPF	SGM-4	3006990	megares
 MEG_3142|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|GLPF	SGM-4	3006990	megares
+MEG_3143|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin	3003901	megares
+MEG_3144|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin	3003901	megares
 MEG_3145|Drugs|betalactams|Class_B_betalactamases|GOB	GOB-29	3005678	megares
 MEG_3146|Drugs|betalactams|Class_B_betalactamases|GOB	GOB-20	3005669	megares
 MEG_3147|Drugs|betalactams|Class_B_betalactamases|GOB	GOB-10	3004802	megares
@@ -3191,17 +3131,13 @@ MEG_3177|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYR
 MEG_3178|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3179|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3180|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_3181|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3182|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Mycobacterium tuberculosis gyrA conferring resistance to fluoroquinolones	3003295	megares
 MEG_3183|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3184|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Shigella flexneri parC conferring resistance to fluoroquinolones	3003941	megares
-MEG_3185|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Escherichia coli gyrA conferring resistance to fluoroquinolones	3003294	megares
 MEG_3186|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Staphylococcus aureus gyrA conferring resistance to fluoroquinolones	3003296	megares
 MEG_3187|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3188|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3189|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Haemophilus parainfluenzae gyrA conferring resistance to fluoroquinolones	3003924	megares
-MEG_3190|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_3191|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Staphylococcus aureus gyrA conferring resistance to fluoroquinolones	3003296	megares
 MEG_3192|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Acinetobacter baumannii gyrA conferring resistance to fluoroquinolones	3003817	megares
 MEG_3193|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3194|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Neisseria gonorrhoeae gyrA conferring resistance to fluoroquinolones	3003928	megares
@@ -3210,7 +3146,6 @@ MEG_3196|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYR
 MEG_3197|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3198|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3199|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_3200|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3201|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3202|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3203|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Shigella flexneri parC conferring resistance to fluoroquinolones	3003941	megares
@@ -3221,12 +3156,10 @@ MEG_3207|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYR
 MEG_3208|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3209|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3210|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Escherichia coli gyrA conferring resistance to fluoroquinolones	3003294	megares
-MEG_3211|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3212|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3213|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3214|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3215|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Acinetobacter baumannii gyrA conferring resistance to fluoroquinolones	3003817	megares
-MEG_3216|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3217|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3218|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3219|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Salmonella enterica gyrA conferring resistance to fluoroquinolones	3003926	megares
@@ -3245,15 +3178,12 @@ MEG_3231|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYR
 MEG_3232|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Acinetobacter baumannii gyrA conferring resistance to fluoroquinolones	3003817	megares
 MEG_3233|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Staphylococcus aureus gyrA conferring resistance to fluoroquinolones	3003296	megares
 MEG_3234|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_3235|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3236|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_3237|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_3238|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_3239|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_3240|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Morganella morganii gyrB conferring resistance to fluoroquinolones	3003306	megares
 MEG_3241|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_3242|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Morganella morganii gyrB conferring resistance to fluoroquinolones	3003306	megares
-MEG_3243|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_3244|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_3245|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_3246|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
@@ -3264,8 +3194,6 @@ MEG_3250|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|R
 MEG_3251|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRC|RequiresSNPConfirmation	CBP-1	3004764	megares
 MEG_3252|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|HASF	TolC	3000237	megares
 MEG_3253|Biocides|Acid_resistance|Acid_resistance_protein|HDEA	ADC-23	3003867	megares
-MEG_3254|Biocides|Acid_resistance|Acid_resistance_protein|HDEB			megares
-MEG_3255|Biocides|Acid_resistance|Acid_resistance_protein|HDEB			megares
 MEG_3256|Biocides|Acid_resistance|Acid_resistance_protein|HEFA	TolC	3000237	megares
 MEG_3257|Biocides|Acid_resistance|Acid_resistance_protein|HEFC	mdtC	3000794	megares
 MEG_3258|Drugs|betalactams|Class_A_betalactamases|HERA	HERA-4	3004819	megares
@@ -3293,9 +3221,6 @@ MEG_3279|Biocides|Multi-biocide_resistance|Multi-biocide_resistance_protein|HSMR
 MEG_3280|Drugs|betalactams|Class_A_betalactamases|HUGA	OXY-1-4	3002392	megares
 MEG_3281|Drugs|betalactams|Class_A_betalactamases|HUGA	OXY-1-4	3002392	megares
 MEG_3282|Drugs|betalactams|Class_A_betalactamases|HUGA	FONA-2	3004789	megares
-MEG_3283|Metals|Nickel_resistance|Nickel_resistance_protein|HUPE			megares
-MEG_3284|Metals|Nickel_resistance|Nickel_resistance_protein|HUPE			megares
-MEG_3285|Metals|Nickel_resistance|Nickel_resistance_protein|HUPN			megares
 MEG_3286|Drugs|Multi-drug_resistance|MDR_acetyltransferase|IBCR	AAC(6')-Ib-cr6	3005116	megares
 MEG_3287|Biocides|Peroxide_resistance|Peroxide_resistance_stress_protein|IBPA	almE	3007433	megares
 MEG_3288|Biocides|Peroxide_resistance|Peroxide_resistance_stress_protein|IBPB	tetA(60)	3004035	megares
@@ -3457,7 +3382,6 @@ MEG_3441|Drugs|betalactams|Class_B_betalactamases|JOHN	JOHN-1	3000840	megares
 MEG_3442|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|KAMB	kamB	3004102	megares
 MEG_3443|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|KAMB	kamB	3004102	megares
 MEG_3444|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|KAMB	kamB	3004102	megares
-MEG_3445|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|KASA|RequiresSNPConfirmation			megares
 MEG_3446|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|KATG|RequiresSNPConfirmation	Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid	3003392	megares
 MEG_3447|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|KDEA	Escherichia coli mdfA	3001328	megares
 MEG_3448|Drugs|Aminoglycosides|Aminoglycoside_efflux_pumps|KDPE	kdpE	3003841	megares
@@ -3465,7 +3389,6 @@ MEG_3449|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|KEXD	ad
 MEG_3450|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|KGMB	sgm	3000862	megares
 MEG_3451|Drugs|betalactams|Class_B_betalactamases|KHM	KHM-1	3000847	megares
 MEG_3452|Metals|Tellurium_resistance|Tellurium_resistance_protein|KLAB	CTX-M-11	3001874	megares
-MEG_3453|Metals|Tellurium_resistance|Tellurium_resistance_protein|KLAC			megares
 MEG_3454|Drugs|betalactams|Class_A_betalactamases|KLUC	KLUC-4	3006930	megares
 MEG_3455|Drugs|betalactams|Class_A_betalactamases|KLUC	KLUC-5	3006931	megares
 MEG_3456|Drugs|betalactams|Class_A_betalactamases|KLUC	KLUC-3	3006929	megares
@@ -3600,7 +3523,6 @@ MEG_3584|Drugs|betalactams|Class_A_betalactamases|LHK	LHK-3	3006937	megares
 MEG_3585|Drugs|betalactams|Class_A_betalactamases|LHK	LHK-1	3006935	megares
 MEG_3586|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	evgA	3000832	megares
 MEG_3587|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	basS	3003583	megares
-MEG_3588|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation			megares
 MEG_3589|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	evgS	3000833	megares
 MEG_3590|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	evgA	3000832	megares
 MEG_3591|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	vanT gene in vanN cluster	3002975	megares
@@ -3751,6 +3673,7 @@ MEG_3736|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_
 MEG_3737|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDFA	Escherichia coli mdfA	3001328	megares
 MEG_3738|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDFA	Escherichia coli mdfA	3001328	megares
 MEG_3739|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDFA	Escherichia coli mdfA	3001328	megares
+MEG_3740|Drugs|Multi-drug_resistance|MDR_23S_rRNA_mutation|MDR23S|RequiresSNPConfirmation	CMY-154	3005194	megares
 MEG_3741|Multi-compound|Drug_and_biocide_and_metal_resistance|Drug_and_biocide_and_metal_MFS_efflux_pumps|MDRL	Staphylococcus aureus norA	3004667	megares
 MEG_3742|Multi-compound|Drug_and_biocide_and_metal_resistance|Drug_and_biocide_and_metal_MFS_efflux_pumps|MDRL	Staphylococcus aureus norA	3004667	megares
 MEG_3743|Multi-compound|Drug_and_biocide_and_metal_resistance|Drug_and_biocide_and_metal_MFS_efflux_pumps|MDRL	Staphylococcus aureus norA	3004667	megares
@@ -3849,7 +3772,6 @@ MEG_3835|Drugs|Multi-drug_resistance|Multi-drug_MATE_efflux_pump|MEPB	ErmC	30002
 MEG_3836|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_regulator|MEPR	mepR	3000746	megares
 MEG_3837|Metals|Mercury_resistance|Mercury_resistance_protein|MERA	MCR-8.3	3007227	megares
 MEG_3838|Metals|Mercury_resistance|Mercury_resistance_protein|MERA	Streptococcus agalactiae mprF	3003774	megares
-MEG_3839|Metals|Mercury_resistance|Mercury_resistance_protein|MERA			megares
 MEG_3840|Metals|Mercury_resistance|Mercury_resistance_protein|MERA	blaF	3003562	megares
 MEG_3841|Metals|Mercury_resistance|Mercury_resistance_protein|MERA	catIII	3002685	megares
 MEG_3842|Metals|Mercury_resistance|Mercury_resistance_protein|MERA	blaF	3003562	megares
@@ -3861,13 +3783,9 @@ MEG_3847|Metals|Mercury_resistance|Mercury_resistance_protein|MERB	MexJ	3003692	
 MEG_3848|Metals|Mercury_resistance|Mercury_resistance_protein|MERB	AXC-3	3006899	megares
 MEG_3849|Metals|Mercury_resistance|Mercury_resistance_protein|MERB	mdtO	3003549	megares
 MEG_3850|Metals|Mercury_resistance|Mercury_resistance_protein|MERB	mdtA	3000792	megares
-MEG_3851|Metals|Mercury_resistance|Mercury_resistance_protein|MERB			megares
-MEG_3852|Metals|Mercury_resistance|Mercury_resistance_protein|MERB			megares
-MEG_3853|Metals|Mercury_resistance|Mercury_resistance_protein|MERB			megares
 MEG_3854|Metals|Mercury_resistance|Mercury_resistance_protein|MERB	kamB	3004102	megares
 MEG_3855|Metals|Mercury_resistance|Mercury_resistance_protein|MERB	FosG	3007368	megares
 MEG_3856|Metals|Mercury_resistance|Mercury_resistance_protein|MERB	FosG	3007368	megares
-MEG_3857|Metals|Mercury_resistance|Mercury_resistance_protein|MERC			megares
 MEG_3858|Metals|Mercury_resistance|Mercury_resistance_protein|MERC	adeB	3000775	megares
 MEG_3859|Metals|Mercury_resistance|Mercury_resistance_protein|MERC	vanX gene in vanA cluster	3002949	megares
 MEG_3860|Metals|Mercury_resistance|Mercury_resistance_regulator|MERD	golS	3000504	megares
@@ -3881,15 +3799,10 @@ MEG_3867|Metals|Mercury_resistance|Mercury_resistance_protein|MERE	cmrA	3002702	
 MEG_3868|Metals|Mercury_resistance|Mercury_resistance_protein|MERE	cmlA9	3005043	megares
 MEG_3869|Metals|Mercury_resistance|Mercury_resistance_protein|MERF	lfrA	3003967	megares
 MEG_3870|Metals|Mercury_resistance|Mercury_resistance_protein|MERF	Streptococcus agalactiae mprF	3003774	megares
-MEG_3871|Metals|Mercury_resistance|Mercury_resistance_protein|MERG			megares
 MEG_3872|Metals|Mercury_resistance|Mercury_resistance_protein|MERH	Rhodococcus fascians cmr	3002701	megares
 MEG_3873|Metals|Mercury_resistance|Mercury_resistance_protein|MERP	TaeA	3003986	megares
 MEG_3874|Metals|Mercury_resistance|Mercury_resistance_protein|MERP	sul4	3004361	megares
-MEG_3875|Metals|Mercury_resistance|Mercury_resistance_protein|MERP			megares
 MEG_3876|Metals|Mercury_resistance|Mercury_resistance_protein|MERP	mecC-type BlaZ	3005097	megares
-MEG_3877|Metals|Mercury_resistance|Mercury_resistance_protein|MERP			megares
-MEG_3878|Metals|Mercury_resistance|Mercury_resistance_protein|MERP			megares
-MEG_3879|Metals|Mercury_resistance|Mercury_resistance_protein|MERP			megares
 MEG_3880|Metals|Mercury_resistance|Mercury_resistance_regulator|MERR	golS	3000504	megares
 MEG_3881|Metals|Mercury_resistance|Mercury_resistance_regulator|MERR	golS	3000504	megares
 MEG_3882|Metals|Mercury_resistance|Mercury_resistance_regulator|MERR	mecC	3001209	megares
@@ -3985,14 +3898,36 @@ MEG_3971|Drugs|betalactams|Class_C_betalactamases|MIR	MIR-1	3002166	megares
 MEG_3972|Drugs|betalactams|Class_C_betalactamases|MIR	MIR-3	3002169	megares
 MEG_3973|Drugs|betalactams|Class_C_betalactamases|MIR	MIR-7	3002172	megares
 MEG_3974|Drugs|betalactams|Class_C_betalactamases|MIR	MIR-4	3002167	megares
+MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	mtrA	3000816	megares
+MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OprA	3003039	megares
+MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	cmeB	3000784	megares
+MEG_3976|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	mexY	3003033	megares
+MEG_3976|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	tet(43)	3000573	megares
+MEG_3977|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AAC(3)-VIIa	3002541	megares
+MEG_3978|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	almG	3004364	megares
+MEG_3979|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AXC-3	3006899	megares
+MEG_3979|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	mdsA	3000789	megares
+MEG_3981|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-45	3001794	megares
+MEG_3983|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AXC-3	3006899	megares
+MEG_3983|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	CGB-1	3000841	megares
+MEG_3984|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-298	3001753	megares
+MEG_3985|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	Vibrio anguillarum chloramphenicol acetyltransferase	3004460	megares
+MEG_3988|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-42	3001769	megares
+MEG_3989|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	tet(U)	3004650	megares
+MEG_3989|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	CMY-7	3002018	megares
+MEG_3990|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	APH(6)-Ia	3002657	megares
+MEG_3990|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	MexB	3000378	megares
+MEG_3991|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	TriC	3003681	megares
+MEG_3991|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	PSV-1	3006978	megares
+MEG_3992|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AAC(6')-Iae	3002573	megares
+MEG_3993|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	acrD	3000491	megares
+MEG_3993|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-298	3001753	megares
+MEG_3994|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	Laribacter hongkongensis ampC beta-lactamase	3004292	megares
 MEG_3995|Metals|Copper_resistance|Copper_resistance_protein|MMCO	APH(3')-IIc	3002646	megares
 MEG_3996|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|MMR	qacE	3005009	megares
 MEG_3997|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MNTA	LRA-8	3002487	megares
-MEG_3998|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MNTH			megares
-MEG_3999|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MNTP			megares
 MEG_4000|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MNTR	leuO	3003843	megares
 MEG_4001|Drugs|betalactams|Class_B_betalactamases|MOC	MOC-1	3006952	megares
-MEG_4002|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|MODA			megares
 MEG_4003|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|MODA	LRA-5	3002483	megares
 MEG_4004|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|MODB	AAC(3)-Xa	3002544	megares
 MEG_4005|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|MODB	AAC(3)-Xa	3002544	megares
@@ -4023,7 +3958,6 @@ MEG_4029|Drugs|MLS|Macrolide_phosphotransferases|MPHA	mphA	3000316	megares
 MEG_4030|Drugs|MLS|Macrolide_phosphotransferases|MPHA	mphA	3000316	megares
 MEG_4031|Drugs|MLS|Macrolide_phosphotransferases|MPHB	mphB	3000318	megares
 MEG_4032|Drugs|MLS|Macrolide_phosphotransferases|MPHB	mphM	3003767	megares
-MEG_4033|Drugs|MLS|Macrolide_phosphotransferases|MPHB			megares
 MEG_4034|Drugs|MLS|Macrolide_phosphotransferases|MPHC	mphC	3000319	megares
 MEG_4035|Drugs|MLS|Macrolide_phosphotransferases|MPHC	mphC	3000319	megares
 MEG_4036|Drugs|MLS|Macrolide_phosphotransferases|MPHC	mphC	3000319	megares
@@ -4048,7 +3982,6 @@ MEG_4054|Drugs|Cationic_antimicrobial_peptides|Defensin-resistant_mprF|MPRF	Bruc
 MEG_4055|Drugs|Cationic_antimicrobial_peptides|Defensin-resistant_mprF|MPRF	Listeria monocytogenes mprF	3003770	megares
 MEG_4056|Drugs|Cationic_antimicrobial_peptides|Defensin-resistant_mprF|MPRF	Clostridium perfringens mprF	3003773	megares
 MEG_4057|Drugs|Lipopeptides|Daptomycin-resistant_mutant|MPRFD|RequiresSNPConfirmation	Bacillus subtilis mprF	3003324	megares
-MEG_4058|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MRDH			megares
 MEG_4059|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA	Mef(En2)	3004659	megares
 MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA	mreA	3007050	megares
 MEG_4061|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|MSBA	msbA	3003950	megares
@@ -4082,6 +4015,12 @@ MEG_4088|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_
 MEG_4089|Drugs|Mupirocin|Mupirocin-resistant_isoleucyl-tRNA_synthetase|MUPA	Staphylococcus aureus mupA conferring resistance to mupirocin	3000521	megares
 MEG_4090|Drugs|Mupirocin|Mupirocin-resistant_isoleucyl-tRNA_synthetase|MUPA	Staphylococcus aureus mupA conferring resistance to mupirocin	3000521	megares
 MEG_4091|Drugs|Mupirocin|Mupirocin-resistant_isoleucyl-tRNA_synthetase|MUPB	Staphylococcus aureus mupB conferring resistance to mupirocin	3000510	megares
+MEG_4092|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	3003784	megares
+MEG_4093|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Chlamydia trachomatis intrinsic murA conferring resistance to fosfomycin	3003785	megares
+MEG_4094|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Staphylococcus aureus murA with mutation conferring resistance to fosfomycin	3003776	megares
+MEG_4095|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Staphylococcus aureus murA with mutation conferring resistance to fosfomycin	3003776	megares
+MEG_4096|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	3003784	megares
+MEG_4097|Drugs|Glycopeptides|Vancomycin-resistant_mutation|MURG|RequiresSNPConfirmation	oleD	3000865	megares
 MEG_4098|Drugs|betalactams|Class_B_betalactamases|MUS	MUS-1	3000843	megares
 MEG_4099|Drugs|betalactams|Class_B_betalactamases|MUS	MUS-2	3003842	megares
 MEG_4100|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_pumps|MUXA	MuxA	3004073	megares
@@ -4110,7 +4049,6 @@ MEG_4122|Metals|Multi-metal_resistance|Multi-metal_MFS_efflux_regulator|NCRB	van
 MEG_4123|Metals|Nickel_resistance|Nickel_MFS_efflux_regulator|NCRBN	EBR-2	3004463	megares
 MEG_4124|Metals|Multi-metal_resistance|Multi-metal_MFS_efflux_pumps|NCRC	LptD	3005059	megares
 MEG_4125|Metals|Multi-metal_resistance|Multi-metal_MFS_efflux_pumps|NCRC	OXA-912	3006099	megares
-MEG_4126|Metals|Nickel_resistance|Nickel_MFS_efflux_pumps|NCRCN			megares
 MEG_4127|Metals|Multi-metal_resistance|Multi-metal_MFS_efflux_regulator|NCRY	APH(2'')-IIIa	3002636	megares
 MEG_4128|Metals|Nickel_resistance|Nickel_MFS_efflux_regulator|NCRYN	tet(50)	3004584	megares
 MEG_4129|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|NCZA	TriC	3003681	megares
@@ -4146,12 +4084,9 @@ MEG_4158|Drugs|betalactams|Class_B_betalactamases|NDM	NDM-15	3003663	megares
 MEG_4159|Drugs|betalactams|Class_B_betalactamases|NDM	NDM-40	3007217	megares
 MEG_4160|Metals|Chromium_resistance|Chromium_resistance_protein|NFSA	MCR-6.1	3004501	megares
 MEG_4161|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_pumps|NFXB|RequiresSNPConfirmation	Type B NfxB	3004060	megares
-MEG_4162|Metals|Sodium_resistance|Sodium_resistance_protein|NHAA			megares
 MEG_4163|Metals|Sodium_resistance|Sodium_resistance_protein|NHAB	Streptococcus agalactiae mprF	3003774	megares
 MEG_4164|Metals|Sodium_resistance|Sodium_resistance_protein|NHAB	Streptococcus agalactiae mprF	3003774	megares
 MEG_4165|Metals|Cobalt_resistance|Cobalt_transporting_ATPase|NHLF	AAC(6')-34	3003989	megares
-MEG_4166|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|NIA			megares
-MEG_4167|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKA	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	3003784	megares
 MEG_4168|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKB	cmlA4	3002694	megares
 MEG_4169|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKB	cmlA4	3002694	megares
 MEG_4170|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKC	mexP	3003698	megares
@@ -4159,7 +4094,6 @@ MEG_4171|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKD	msbA	3003950	mega
 MEG_4172|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKD	msbA	3003950	megares
 MEG_4173|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKE	RanA	3005091	megares
 MEG_4174|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKE	RanA	3005091	megares
-MEG_4175|Metals|Nickel_resistance|Nickel_ABC_efflux_regulator|NIKR			megares
 MEG_4177|Metals|Nickel_resistance|Nickel_ABC_efflux_regulator|NIKR	dfrD	3002866	megares
 MEG_4178|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMA	nimH	3007110	megares
 MEG_4179|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMA	nimA	3007104	megares
@@ -4180,7 +4114,6 @@ MEG_4193|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMI	nimI	3007111	mega
 MEG_4194|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMJ	nimJ	3007112	megares
 MEG_4195|Metals|Nickel_resistance|Nickel_resistance_protein|NIRA	mel	3000616	megares
 MEG_4196|Metals|Nickel_resistance|Nickel_resistance_protein|NIRB	EBR-1	3000842	megares
-MEG_4197|Metals|Nickel_resistance|Nickel_resistance_protein|NIRC			megares
 MEG_4198|Metals|Nickel_resistance|Nickel_resistance_protein|NIRD	ErmN	3000592	megares
 MEG_4199|Metals|Nickel_resistance|Nickel_resistance_protein|NIXA	tet(D)	3000168	megares
 MEG_4200|Metals|Nickel_resistance|Nickel_resistance_protein|NIXA	tet(D)	3000168	megares
@@ -4206,6 +4139,7 @@ MEG_4219|Metals|Multi-metal_resistance|Multi-metal_MFS_efflux_pumps|NRSD	mefE	30
 MEG_4220|Metals|Nickel_resistance|Nickel_resistance_regulator|NRSR	arlR	3000838	megares
 MEG_4221|Metals|Nickel_resistance|Nickel_resistance_regulator|NRSS	arlS	3000839	megares
 MEG_4222|Drugs|Thiopeptides|Thiostrepton_23S_rRNA_methyltransferases|NSHR	tsnR	3003060	megares
+MEG_4223|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|O23S|RequiresSNPConfirmation	blaR1	3000217	megares
 MEG_4224|Drugs|betalactams|Class_C_betalactamases|OCH	OCH-6	3002519	megares
 MEG_4225|Drugs|betalactams|Class_C_betalactamases|OCH	OCH-2	3002515	megares
 MEG_4226|Drugs|betalactams|Class_C_betalactamases|OCH	OCH-3	3002516	megares
@@ -5308,32 +5242,27 @@ MEG_5319|Drugs|betalactams|Class_A_betalactamases|OXY	OXY-1-6	3002394	megares
 MEG_5320|Drugs|betalactams|Class_A_betalactamases|OXY	OXY-1-1	3002389	megares
 MEG_5321|Biocides|Multi-biocide_resistance|Multi-biocide_resistance_regulator|OXYRKP	NmcR	3003665	megares
 MEG_5322|Drugs|Pactamycin|Pactamycin-resistant_16S_ribosomal_subunit_protein|P16S|RequiresSNPConfirmation	rphA	3000444	megares
+MEG_5323|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|P23S|RequiresSNPConfirmation	emrK	3000206	megares
 MEG_5324|Drugs|betalactams|Class_C_betalactamases|PAC	PAC-1	3005150	megares
 MEG_5325|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	rpoB2	3000501	megares
 MEG_5326|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_5327|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5328|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Helicobacter pylori gyrA conferring resistance to fluoroquinolones	3007052	megares
 MEG_5329|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Staphylococcus aureus parC conferring resistance to fluoroquinolones	3003312	megares
-MEG_5330|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Mycoplasma genitalium parC mutations confers resistance to Moxifloxacin	3004630	megares
 MEG_5331|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5332|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
 MEG_5333|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
 MEG_5334|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
 MEG_5335|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_5336|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
-MEG_5337|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation			megares
-MEG_5338|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5339|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5340|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5341|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5342|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
-MEG_5343|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5344|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Staphylococcus aureus parC conferring resistance to fluoroquinolones	3003312	megares
 MEG_5345|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_5346|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_5347|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	SAT-2	3002895	megares
 MEG_5348|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
-MEG_5349|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5350|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_5351|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_5352|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
@@ -5344,42 +5273,29 @@ MEG_5356|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAR
 MEG_5357|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	rpoB2	3000501	megares
 MEG_5358|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_5359|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_5360|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_5361|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
 MEG_5362|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_5363|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
 MEG_5364|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5365|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5366|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5367|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5368|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5369|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5370|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5371|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Bartonella bacilliformis gyrB conferring resistance to aminocoumarin	3003302	megares
-MEG_5372|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5373|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5374|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5375|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5376|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5377|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5378|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5379|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5380|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5381|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5382|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5383|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5384|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5385|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5386|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5387|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5388|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5389|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5390|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5391|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5392|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5393|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5394|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAREF|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_5395|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAREF|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_5396|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARY	Mycobacterium tuberculosis gyrB mutant conferring resistance to fluoroquinolones	3003459	megares
 MEG_5397|Drugs|Fluoroquinolones|Fluoroquinolone_ABC_efflux_pump|PATA	patA	3000024	megares
 MEG_5398|Drugs|Fluoroquinolones|Fluoroquinolone_ABC_efflux_pump|PATB	patB	3000025	megares
@@ -5401,10 +5317,8 @@ MEG_5413|Metals|Lead_resistance|Lead_P-type_ATPase_regulator|PBRR	golS	3000504	m
 MEG_5414|Metals|Lead_resistance|Lead_P-type_ATPase_transporter|PBRT	OXA-53	3001810	megares
 MEG_5415|Biocides|Multi-biocide_resistance|Multi-biocide_resistance_regulator|PCM	ErmB	3000375	megares
 MEG_5416|Metals|Copper_resistance|Copper_resistance_protein|PCOA	LRA-19	3002513	megares
-MEG_5417|Metals|Copper_resistance|Copper_resistance_protein|PCOB			megares
 MEG_5418|Metals|Copper_resistance|Copper_resistance_protein|PCOB	SHV-218	3005238	megares
 MEG_5419|Metals|Copper_resistance|Copper_resistance_protein|PCOC	vanR gene in vanM cluster	3002928	megares
-MEG_5420|Metals|Copper_resistance|Copper_resistance_protein|PCOC			megares
 MEG_5421|Metals|Copper_resistance|Copper_resistance_protein|PCOD	GPC-1	3005096	megares
 MEG_5422|Metals|Copper_resistance|Copper_resistance_protein|PCOD	tetA(P)	3000180	megares
 MEG_5423|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|PCOE	AAC(6')-Ib-cr1	3002547	megares
@@ -5763,7 +5677,6 @@ MEG_5775|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|PFR	ErmQ	3
 MEG_5776|Drugs|Lipopeptides|Lipid_A_phosphatase|PGBB	pgpB	3003920	megares
 MEG_5777|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|PGPA	tetB(46)	3004033	megares
 MEG_5779|Drugs|Lipopeptides|Daptomycin-resistant_mutant|PGSA|RequiresSNPConfirmation	vanS gene in vanB cluster	3002932	megares
-MEG_5780|Drugs|Lipopeptides|Daptomycin-resistant_mutant|PGSA|RequiresSNPConfirmation			megares
 MEG_5782|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|PHOB|RequiresSNPConfirmation	kdpE	3003841	megares
 MEG_5783|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|PHOB|RequiresSNPConfirmation	kdpE	3003841	megares
 MEG_5784|Drugs|Lipopeptides|Colistin-resistant_mutant|PHOP|RequiresSNPConfirmation	arlR	3000838	megares
@@ -5797,10 +5710,8 @@ MEG_5811|Drugs|betalactams|Class_A_betalactamases|PSE	CARB-55	3005589	megares
 MEG_5812|Drugs|betalactams|Class_B_betalactamases|PST	PST-1	3006976	megares
 MEG_5813|Metals|Arsenic_resistance|Arsenic_resistance_protein|PSTA	tet(J)	3000177	megares
 MEG_5814|Metals|Arsenic_resistance|Arsenic_resistance_protein|PSTB	RanA	3005091	megares
-MEG_5815|Metals|Arsenic_resistance|Arsenic_resistance_protein|PSTC			megares
-MEG_5816|Metals|Arsenic_resistance|Arsenic_resistance_protein|PSTS			megares
-MEG_5817|Metals|Arsenic_resistance|Arsenic_resistance_protein|PSTS			megares
 MEG_5818|Drugs|betalactams|Class_A_betalactamases|PSV	PSV-1	3006978	megares
+MEG_5819|Drugs|Fosfomycin|Fosfomycin_target_mutation|PTSL|RequiresSNPConfirmation	rphB	3003992	megares
 MEG_5820|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB	qacA	3003046	megares
 MEG_5821|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB	qacB	3003047	megares
 MEG_5822|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB	qacB	3003047	megares
@@ -6032,13 +5943,10 @@ MEG_6046|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|RAMR|Requir
 MEG_6047|Drugs|Rifampin|RNA-polymerase_binding_protein|RBPA	RbpA	3000245	megares
 MEG_6048|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|RCNA	ceoA	3003009	megares
 MEG_6049|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|RCNB	LRA-17	3002512	megares
-MEG_6050|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|RCNR			megares
 MEG_6051|Drugs|betalactams|Class_A_betalactamases|RCP	RCP-1	3003563	megares
 MEG_6052|Metals|Chromium_resistance|Chromium_resistance_protein|RECG	OXA-258	3001503	megares
 MEG_6053|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|RECGM	ParS	3005067	megares
 MEG_6054|Drugs|Rifampin|Rifampin_glycosyltransferase|RGT	rgt1438	3002883	megares
-MEG_6055|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|RIBD|RequiresSNPConfirmation			megares
-MEG_6056|Metals|Copper_resistance|Copper_resistance_regulator|RICR			megares
 MEG_6057|Drugs|MLS|23S_rRNA_methyltransferases|RLMA	RlmA(II)	3001301	megares
 MEG_6058|Drugs|MLS|23S_rRNA_methyltransferases|RLMH	LpsB	3005051	megares
 MEG_6059|Drugs|betalactams|Class_B_betalactamases|RM3	Rm3	3003894	megares
@@ -6118,9 +6026,10 @@ MEG_6132|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|R
 MEG_6133|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOB|RequiresSNPConfirmation	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	megares
 MEG_6134|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOB|RequiresSNPConfirmation	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	megares
 MEG_6135|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOB|RequiresSNPConfirmation	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	megares
+MEG_6136|Drugs|Multi-drug_resistance|MDR_mutation|MRPOB|RequiresSNPConfirmation	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	megares
+MEG_6138|Drugs|Glycopeptides|Vancomycin-resistant_mutation|RPOC|RequiresSNPConfirmation	cfrC	3004146	megares
 MEG_6139|Drugs|Lipopeptides|Daptomycin-resistant_beta-subunit_of_RNA_polymerase_RpoC|RPOCL|RequiresSNPConfirmation	optrA	3003746	megares
 MEG_6140|Biocides|Multi-biocide_resistance|Multi-biocide_resistance_regulator|RPOS	myrA	3001300	megares
-MEG_6141|Biocides|Multi-biocide_resistance|Multi-biocide_resistance_regulator|RPOS			megares
 MEG_6142|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|RPSA|RequiresSNPConfirmation	vanP	3007189	megares
 MEG_6143|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|RPSJ|RequiresSNPConfirmation	SHV-182	3001364	megares
 MEG_6144|Drugs|Aminoglycosides|Aminoglycoside-resistant_30S_ribosomal_protein_S12|RPSL|RequiresSNPConfirmation	APH(2'')-Ig	3002669	megares
@@ -6495,7 +6404,6 @@ MEG_6509|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_regulator|SILS	bae
 MEG_6510|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_regulator|SILS	arlS	3000839	megares
 MEG_6511|Drugs|betalactams|Class_B_betalactamases|SIM	SIM-2	3005494	megares
 MEG_6512|Drugs|betalactams|Class_B_betalactamases|SIM	SIM-1	3000846	megares
-MEG_6513|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|SITA			megares
 MEG_6514|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|SITB	macB	3000535	megares
 MEG_6515|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|SITC	bmr	3003007	megares
 MEG_6516|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|SITD	patB	3000025	megares
@@ -6518,8 +6426,6 @@ MEG_6532|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_
 MEG_6533|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR	ykkC	3003063	megares
 MEG_6534|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR	ykkC	3003063	megares
 MEG_6535|Biocides|Multi-biocide_resistance|Multi-biocide_ABC_efflux_pump|SMRA	novA	3002522	megares
-MEG_6536|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|SMTA			megares
-MEG_6537|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|SMTA			megares
 MEG_6538|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|SMTB	smeA	3003051	megares
 MEG_6539|Biocides|Multi-biocide_resistance|Multi-biocide_MFS_efflux_pump|SMVA	Acinetobacter baumannii AmvA	3004577	megares
 MEG_6540|Biocides|Peroxide_resistance|peroxide_resistance_protein|SODA	mecA	3000617	megares
@@ -6527,7 +6433,6 @@ MEG_6541|Biocides|Peroxide_resistance|peroxide_resistance_protein|SODA	LRA-19	30
 MEG_6542|Biocides|Peroxide_resistance|peroxide_resistance_protein|SODA	mecA	3000617	megares
 MEG_6543|Biocides|Peroxide_resistance|peroxide_resistance_protein|SODA	ANT(6)-Ib	3002629	megares
 MEG_6544|Biocides|Peroxide_resistance|peroxide_resistance_protein|SODB	EstT	3007459	megares
-MEG_6545|Biocides|Peroxide_resistance|peroxide_resistance_protein|SODB			megares
 MEG_6546|Biocides|Peroxide_resistance|peroxide_resistance_protein|SODB	NmcR	3003665	megares
 MEG_6547|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|SOXR	Pseudomonas aeruginosa soxR	3004107	megares
 MEG_6548|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|SOXR|RequiresSNPConfirmation	Escherichia coli soxR with mutation conferring antibiotic resistance	3003381	megares
@@ -6544,7 +6449,6 @@ MEG_6558|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|SRMB	srmB	30028
 MEG_6559|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|SRPA	MexA	3000377	megares
 MEG_6560|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|SRPB	MexB	3000378	megares
 MEG_6561|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|SRPC	OprM	3000379	megares
-MEG_6562|Metals|Chromium_resistance|Chromium_resistance_protein|SRPCC			megares
 MEG_6563|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_regulator|SRPR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	megares
 MEG_6564|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_regulator|SRPS	CRP	3000518	megares
 MEG_6565|Drugs|betalactams|Class_C_betalactamases|SRT	SST-1	3006999	megares
@@ -6942,11 +6846,9 @@ MEG_6955|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERB	tet(39)	3
 MEG_6956|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERB	tet(39)	3000566	megares
 MEG_6957|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERC	pgpB	3003920	megares
 MEG_6958|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERD	mexQ	3003699	megares
-MEG_6959|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERE			megares
 MEG_6960|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERW	LHK-4	3006938	megares
 MEG_6961|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERZ	MexD	3000801	megares
 MEG_6962|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERZ	tet(D)	3000168	megares
-MEG_6963|Drugs|Tetracyclines|Tetracycline-resistant_16S_ribosomal_subunit_protein|TET16S|RequiresSNPConfirmation			megares
 MEG_6964|Drugs|Tetracyclines|Tetracycline-resistant_16S_ribosomal_subunit_protein|TET16S|RequiresSNPConfirmation	blaR1	3000217	megares
 MEG_6964|Drugs|Tetracyclines|Tetracycline-resistant_16S_ribosomal_subunit_protein|TET16S|RequiresSNPConfirmation	OpmD	3000809	megares
 MEG_6965|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TET30	tet(30)	3000561	megares
@@ -7254,10 +7156,8 @@ MEG_7265|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|TOLC	To
 MEG_7266|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|TOLC	TolC	3000237	megares
 MEG_7267|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|TOLC	TolC	3000237	megares
 MEG_7268|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|TOLCSM	OpmH	3003682	megares
-MEG_7269|Metals|Tellurium_resistance|Tellurium_resistance_protein|TRGA			megares
 MEG_7270|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|TRGB	smeC	3003053	megares
 MEG_7271|Biocides|Phenolic_compound_resistance|Phenolic_RND_efflux_pump|TRIA	TriA	3003679	megares
-MEG_7272|Biocides|Phenolic_compound_resistance|Phenolic_RND_efflux_pump|TRIAP			megares
 MEG_7273|Biocides|Phenolic_compound_resistance|Phenolic_RND_efflux_pump|TRIB	TriB	3003680	megares
 MEG_7274|Biocides|Phenolic_compound_resistance|Phenolic_RND_efflux_pump|TRIBP	PNGM-1	3004571	megares
 MEG_7275|Biocides|Phenolic_compound_resistance|Phenolic_RND_efflux_pump|TRIC	TriC	3003681	megares
@@ -7314,6 +7214,8 @@ MEG_7325|Metals|Tungsten_Resistance|Tungsten_ABC_efflux_pumps|TUPC	RanA	3005091	
 MEG_7326|Drugs|betalactams|Class_B_betalactamases|TUS	TUS-1	3000844	megares
 MEG_7327|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|TVAA	tva(A)	3004730	megares
 MEG_7328|Drugs|Cationic_antimicrobial_peptides|Lipid_A_modification|UGD	ugd	3003577	megares
+MEG_7329|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	emeA	3003551	megares
+MEG_7330|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	rosA	3003048	megares
 MEG_7331|Drugs|Glycopeptides|VanA-type_resistance_protein|VAN	vanV gene in vanB cluster	3004254	megares
 MEG_7332|Drugs|Glycopeptides|VanA-type_resistance_protein|VAN	vanY gene in vanD cluster	3002957	megares
 MEG_7333|Drugs|Glycopeptides|VanA-type_resistance_protein|VAN|RequiresSNPConfirmation	vanL	3002910	megares
@@ -7855,7 +7757,6 @@ MEG_7805|Biocides|Multi-biocide_resistance|Multi-biocide_RND_efflux_pump|VPOC	To
 MEG_7806|Drugs|Lipopeptides|Daptomycin-resistant_mutant|WALK|RequiresSNPConfirmation	arlS	3000839	megares
 MEG_7807|Drugs|betalactams|Class_A_betalactamases|WHH	VHH-1	3007003	megares
 MEG_7808|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|WTPA	armA	3000858	megares
-MEG_7809|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|WTPB			megares
 MEG_7810|Metals|Multi-metal_resistance|Multi-metal_ABC_efflux_pumps|WTPC	RanA	3005091	megares
 MEG_7811|Metals|Iron_resistance|Iron_resistance_protein|YBTP	msbA	3003950	megares
 MEG_7812|Metals|Iron_resistance|Iron_resistance_protein|YBTQ	novA	3002522	megares
@@ -7864,7 +7765,6 @@ MEG_7814|Metals|Copper_resistance|Copper_resistance_protein|YCNJ	tet(Z)	3000183	
 MEG_7815|Metals|Copper_resistance|Copper_resistance_protein|YCNJ	tet(Z)	3000183	megares
 MEG_7816|Metals|Copper_resistance|Copper_resistance_regulator|YCNK	mexY	3003033	megares
 MEG_7817|Biocides|Paraquat_resistance|Paraquat_efflux_pump|YDDG	adeF	3000777	megares
-MEG_7818|Biocides|Peroxide_resistance|peroxide_resistance_protein|YDEI			megares
 MEG_7819|Biocides|Multi-biocide_resistance|Multi-biocide_resistance_regulator|YDEO	gadW	3003838	megares
 MEG_7820|Biocides|Acid_resistance|Acid_resistance_protein|YDEP	vanR gene in vanE cluster	3002924	megares
 MEG_7821|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|YFEA	CfiA24	3006916	megares
@@ -7877,8 +7777,6 @@ MEG_7827|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|YFED	patB	
 MEG_7828|Metals|Copper_resistance|Copper_resistance_protein|YFMO	norA	3000391	megares
 MEG_7829|Metals|Copper_resistance|Copper_resistance_regulator|YFMP	golS	3000504	megares
 MEG_7830|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|YGIW	OprN	3000805	megares
-MEG_7831|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|YGIW			megares
-MEG_7832|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|YGJH			megares
 MEG_7833|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|YHCN	LpeB	3004100	megares
 MEG_7834|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|YHCN	LpeB	3004100	megares
 MEG_7835|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|YIEF	MexE	3000803	megares
@@ -7892,34 +7790,28 @@ MEG_7842|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_
 MEG_7843|Drugs|Lipopeptides|Daptomycin-resistant_mutant|YYBT|RequiresSNPConfirmation	SAT-3	3002898	megares
 MEG_7844|Drugs|Glycopeptides|Bleomycin_resistance_protein|ZBMA	AAC(6')-IIc	3002596	megares
 MEG_7845|Metals|Zinc_resistance|Zinc_resistance_protein|ZEVA	PDC-173	3005306	megares
-MEG_7846|Metals|Zinc_resistance|Zinc_resistance_protein|ZEVB			megares
 MEG_7847|Metals|Zinc_resistance|Zinc_resistance_protein|ZIAA	tetA(60)	3004035	megares
 MEG_7848|Metals|Zinc_resistance|Zinc_resistance_regulator|ZIAR	emrA	3000027	megares
 MEG_7849|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ZINT	CDD-1	3006904	megares
-MEG_7850|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ZIPB			megares
 MEG_7851|Metals|Zinc_resistance|Zinc_resistance_protein|ZITB	cmlB1	3002699	megares
 MEG_7852|Metals|Zinc_resistance|Zinc_resistance_protein|ZNEB	MexC	3000800	megares
 MEG_7853|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|ZNTA	MexB	3000378	megares
 MEG_7854|Metals|Zinc_resistance|Zinc_resistance_regulator|ZNTR	golS	3000504	megares
 MEG_7855|Metals|Zinc_resistance|Zinc_resistance_protein|ZNUA	MOX-4	3002184	megares
 MEG_7856|Metals|Zinc_resistance|Zinc_resistance_protein|ZNUA	MOX-4	3002184	megares
-MEG_7857|Metals|Zinc_resistance|Zinc_resistance_protein|ZNUB			megares
-MEG_7858|Metals|Zinc_resistance|Zinc_resistance_protein|ZNUB			megares
 MEG_7859|Metals|Zinc_resistance|Zinc_resistance_protein|ZNUC	salC	3007027	megares
 MEG_7860|Drugs|betalactams|Class_B_betalactamases|ZOG	ZOG-1	3007006	megares
 MEG_7861|Metals|Zinc_resistance|Zinc_resistance_regulator|ZRAR	TxR	3005008	megares
 MEG_7862|Metals|Zinc_resistance|Zinc_resistance_regulator|ZRAR	TxR	3005008	megares
 MEG_7863|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|ZRAS	baeS	3000829	megares
 MEG_7864|Metals|Multi-metal_resistance|Multi-metal_resistance_regulator|ZRAS	evgS	3000833	megares
-MEG_7865|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|ZUPT			megares
-MEG_7866|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_resistance_protein|ZUPT			megares
 MEG_7867|Metals|Zinc_resistance|Zinc_resistance_regulator|ZUR	AxyX	3004143	megares
 MEG_7868|Metals|Zinc_resistance|Zinc_resistance_regulator|ZUR	AxyX	3004143	megares
 MEG_8147|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_8677|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSL|RequiresSNPConfirmation	APH(2'')-Ig	3002669	megares
 MEG_8145|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_8461|Drugs|betalactams|Penicillin_binding_protein|PBP5|RequiresSNPConfirmation	mecA	3000617	megares
-MEG_7974|Drugs|betalactams|Class_C_betalactamase_regulator|AMPCR|RequiresSNPConfirmation			megares
+MEG_8249|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	vanG	3002909	megares
 MEG_8445|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
 MEG_8634|Drugs|Lipopeptides|Colistin-resistant_mutant|PMRAR|RequiresSNPConfirmation	arlR	3000838	megares
 MEG_8672|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOB|RequiresSNPConfirmation	Staphylococcus aureus rpoB mutants conferring resistance to rifampicin	3003285	megares
@@ -7928,7 +7820,6 @@ MEG_8144|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYR
 MEG_8151|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_8289|Drugs|Multi-drug_resistance|MDR_mutant_porin_proteins|OMPK|RequiresSNPConfirmation	Klebsiella pneumoniae OmpK37	3004122	megares
 MEG_8290|Drugs|betalactams|Mutant_porin_proteins|OMPK36|RequiresSNPConfirmation	Klebsiella pneumoniae OmpK37	3004122	megares
-MEG_8447|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation			megares
 MEG_8659|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|RAMR|RequiresSNPConfirmation	AcrS	3000656	megares
 MEG_8678|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSL|RequiresSNPConfirmation	APH(2'')-Ig	3002669	megares
 MEG_8687|Drugs|Mycobacterium_tuberculosis-specific_Drug|MDR_mutant_promoter|RV0678|RequiresSNPConfirmation	nimH	3007110	megares
@@ -7943,9 +7834,19 @@ MEG_8171|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_muta
 MEG_8275|Drugs|Mycobacterium_tuberculosis-specific_Drug|MDR_mutant_promoter|NUOA|RequiresSNPConfirmation	tet(42)	3000572	megares
 MEG_8444|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|PAND|RequiresSNPConfirmation	apmA	3003918	megares
 MEG_8636|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|PNCA|RequiresSNPConfirmation	lnuD	3002838	megares
+MEG_8670|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RPLC|RequiresSNPConfirmation	Thermus thermophilus uL3 mutations conferring resistance to pleuromutilin antibiotics	3005081	megares
 MEG_8675|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOCR|RequiresSNPConfirmation	clbA	3002814	megares
+MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	ADC-215	3006384	megares
+MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	vanX gene in vanF cluster	3002952	megares
+MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	mphA	3000316	megares
+MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	dfrA14	3002859	megares
 MEG_8680|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RRS|RequiresSNPConfirmation	tet(Z)	3000183	megares
 MEG_8720|Drugs|Aminoglycosides|Aminoglycoside-resistant_arabinosyltransferase|TLYA|RequiresSNPConfirmation	tet(32)	3000196	megares
+MEG_8250|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
+MEG_8251|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
+MEG_8252|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
+MEG_8253|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	TEM-124	3000986	megares
+MEG_8253|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
 MEG_8234|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|MACAB|RequiresSNPConfirmation	AAC(3)-IIIc	3002538	megares
 MEG_8263|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRC|RequiresSNPConfirmation	tet(48)	3004581	megares
 MEG_8263|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRC|RequiresSNPConfirmation	mtrC	3000810	megares
@@ -7957,15 +7858,15 @@ MEG_8637|Drugs|Multi-drug_resistance|MDR_mutant_porin_proteins|POR|RequiresSNPCo
 MEG_8676|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSE|RequiresSNPConfirmation	CME-2	3006155	megares
 MEG_8073|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	dfrA20	3003016	megares
 MEG_8074|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|DHPS|RequiresSNPConfirmation	Mycobacterium leprae folP with mutation conferring resistance to dapsone	3003389	megares
+MEG_8242|Drugs|Multi-drug_resistance|MDR_mutation|MDR|RequiresSNPConfirmation	msbA	3003950	megares
 MEG_7883|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ACRB|RequiresSNPConfirmation	acrB	3000216	megares
 MEG_8146|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_8150|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_8446|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	BcIII	3007101	megares
 MEG_8449|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_8635|Drugs|Lipopeptides|Colistin-resistant_mutant|PMRAR|RequiresSNPConfirmation	vanR gene in vanA cluster	3002919	megares
 MEG_8070|Drugs|Trimethoprim|Dihydrofolate_reductase|DFRB|RequiresSNPConfirmation	dfrC	3002865	megares
+MEG_8100|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	tet(T)	3000193	megares
 MEG_8142|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GRLA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
-MEG_8143|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GRLB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_8456|Drugs|betalactams|Penicillin_binding_protein|PBP2|RequiresSNPConfirmation	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	megares
 MEG_8459|Drugs|betalactams|Penicillin_binding_protein|PBP4|RequiresSNPConfirmation	blaS1	3005111	megares
 MEG_8460|Drugs|betalactams|Penicillin_binding_protein|PBP4|RequiresSNPConfirmation	PAC-1	3005150	megares
@@ -8627,7 +8528,6 @@ MEG_8262|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|MSRL	msr(I)	3007043	megares
 MEG_8244|Drugs|MLS|MLS_resistance_MFS_efflux_pumps|MEFF	mefF	3007044	megares
 MEG_8082|Drugs|MLS|23S_rRNA_methyltransferases|ERM51	Erm(51)	3007033	megares
 MEG_8246|Drugs|MLS|MLS_resistance_MFS_efflux_pumps|MEFJ	mefJ	3007049	megares
-MEG_8662|Drugs|Metronidazole|rdxA_nitroimidazole_reductase|RDXA	Helicobacter pylori rdxA mutation conferring resistance to metronidazole	3007055	megares
 MEG_8724|Drugs|betalactams|Class_B_betalactamases|VAM	VAM-1	3007062	megares
 MEG_8081|Drugs|MLS|23S_rRNA_methyltransferases|ERM50	Erm(50)	3007032	megares
 MEG_8095|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSY	FosY	3007069	megares
@@ -8646,8 +8546,6 @@ MEG_8272|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMK	nimK	3007113	mega
 MEG_8717|Drugs|Tetracyclines|Tetracycline_inactivation_enzymes|TETX	tet(X6)	3005056	megares
 MEG_8667|Drugs|betalactams|Class_A_betalactamases|ROB	ROB-11	3007125	megares
 MEG_8668|Drugs|betalactams|Class_A_betalactamases|ROB	ROB-12	3007126	megares
-MEG_8450|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
-MEG_8153|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_8287|Drugs|betalactams|Mutant_porin_proteins|OMP36|RequiresSNPConfirmation	Klebsiella pneumoniae OmpK37	3004122	megares
 MEG_8448|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
 MEG_8257|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|MSHA|RequiresSNPConfirmation	LpsB	3005051	megares
@@ -8656,6 +8554,7 @@ MEG_8154|Drugs|Spiropyrimidinetriones|Zoliflodacin-resistant_DNA_topoisomerases|
 MEG_8148|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_8455|Drugs|betalactams|Penicillin_binding_protein|PBP1|RequiresSNPConfirmation	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	megares
 MEG_8633|Drugs|betalactams|Penicillin_binding_protein|PILQ|RequiresSNPConfirmation	CMY-69	3002082	megares
+MEG_8723|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|UL3|RequiresSNPConfirmation	mdtH	3001216	megares
 MEG_8149|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
 MEG_8152|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_8458|Drugs|betalactams|Penicillin_binding_protein|PBP3|RequiresSNPConfirmation	mecD	3004185	megares
@@ -8663,6 +8562,9 @@ MEG_8457|Drugs|betalactams|Penicillin_binding_protein|PBP2|RequiresSNPConfirmati
 MEG_8454|Drugs|betalactams|Penicillin_binding_protein|PBP1|RequiresSNPConfirmation	mecB	3003440	megares
 MEG_8101|Drugs|Metronidazole|fxr_nitroimidazole_reductase|FXRA|RequiresSNPConfirmation	Helicobacter pylori frxA mutation conferring resistance to metronidazole	3007059	megares
 MEG_8673|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOB|RequiresSNPConfirmation	Staphylococcus aureus rpoB mutants conferring resistance to rifampicin	3003285	megares
+MEG_8671|Drugs|MLS|Macrolide-resistant_50S_rRNA_mutation|RPLD|RequiresSNPConfirmation	Erm(K)	3004643	megares
+MEG_8254|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	TEM-124	3000986	megares
+MEG_8254|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
 MEG_8020|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|CML	cmlA9	3005043	megares
 MEG_8089|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA	FosA8	3007371	megares
 MEG_8013|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	catI	3002683	megares
@@ -8790,66 +8692,42 @@ MEG_8014|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATT	catA4	3004657	me
 MEG_8656|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	QnrB10	3002724	megares
 MEG_8716|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	adeF	3000777	megares
 MEG_8716|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	tet(O/32/O)	3007119	megares
-MEG_2873|Biocides|Phenolic_compound_resistance|Triclosan-resistant_mutation|FABG|RequiresSNPConfirmation	ECV-1	3006883	megares
-MEG_3065|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	tet(T)	3000193	megares
-MEG_3143|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin	3003901	megares
-MEG_3144|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin	3003901	megares
-MEG_3740|Drugs|Multi-drug_resistance|MDR_23S_rRNA_mutation|MDR23S|RequiresSNPConfirmation	CMY-154	3005194	megares
-MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	mtrA	3000816	megares
-MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OprA	3003039	megares
-MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	cmeB	3000784	megares
-MEG_3976|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	mexY	3003033	megares
-MEG_3976|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	tet(43)	3000573	megares
-MEG_3977|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AAC(3)-VIIa	3002541	megares
-MEG_3978|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	almG	3004364	megares
-MEG_3979|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AXC-3	3006899	megares
-MEG_3979|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	mdsA	3000789	megares
-MEG_3981|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-45	3001794	megares
-MEG_3983|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AXC-3	3006899	megares
-MEG_3983|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	CGB-1	3000841	megares
-MEG_3984|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-298	3001753	megares
-MEG_3985|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	Vibrio anguillarum chloramphenicol acetyltransferase	3004460	megares
-MEG_3988|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-42	3001769	megares
-MEG_3989|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	tet(U)	3004650	megares
-MEG_3989|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	CMY-7	3002018	megares
-MEG_3990|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	APH(6)-Ia	3002657	megares
-MEG_3990|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	MexB	3000378	megares
-MEG_3991|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	TriC	3003681	megares
-MEG_3991|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	PSV-1	3006978	megares
-MEG_3992|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	AAC(6')-Iae	3002573	megares
-MEG_3993|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	acrD	3000491	megares
-MEG_3993|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	OXA-298	3001753	megares
-MEG_3994|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	Laribacter hongkongensis ampC beta-lactamase	3004292	megares
-MEG_4092|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	3003784	megares
-MEG_4093|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Chlamydia trachomatis intrinsic murA conferring resistance to fosfomycin	3003785	megares
-MEG_4094|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Staphylococcus aureus murA with mutation conferring resistance to fosfomycin	3003776	megares
-MEG_4095|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Staphylococcus aureus murA with mutation conferring resistance to fosfomycin	3003776	megares
-MEG_4096|Drugs|Fosfomycin|Fosfomycin_target_mutation|MURA|RequiresSNPConfirmation	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	3003784	megares
-MEG_4097|Drugs|Glycopeptides|Vancomycin-resistant_mutation|MURG|RequiresSNPConfirmation	oleD	3000865	megares
-MEG_4223|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|O23S|RequiresSNPConfirmation	blaR1	3000217	megares
-MEG_5323|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|P23S|RequiresSNPConfirmation	emrK	3000206	megares
-MEG_5819|Drugs|Fosfomycin|Fosfomycin_target_mutation|PTSL|RequiresSNPConfirmation	rphB	3003992	megares
-MEG_6136|Drugs|Multi-drug_resistance|MDR_mutation|MRPOB|RequiresSNPConfirmation	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	megares
-MEG_6138|Drugs|Glycopeptides|Vancomycin-resistant_mutation|RPOC|RequiresSNPConfirmation	cfrC	3004146	megares
-MEG_7329|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	emeA	3003551	megares
-MEG_7330|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	rosA	3003048	megares
-MEG_8249|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	vanG	3002909	megares
-MEG_8670|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RPLC|RequiresSNPConfirmation	Thermus thermophilus uL3 mutations conferring resistance to pleuromutilin antibiotics	3005081	megares
-MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	ADC-215	3006384	megares
-MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	vanX gene in vanF cluster	3002952	megares
-MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	mphA	3000316	megares
-MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	dfrA14	3002859	megares
-MEG_8250|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
-MEG_8251|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
-MEG_8252|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
-MEG_8253|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	TEM-124	3000986	megares
-MEG_8253|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
-MEG_8242|Drugs|Multi-drug_resistance|MDR_mutation|MDR|RequiresSNPConfirmation	msbA	3003950	megares
-MEG_8100|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	tet(T)	3000193	megares
-MEG_8723|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|UL3|RequiresSNPConfirmation	mdtH	3001216	megares
-MEG_8671|Drugs|MLS|Macrolide-resistant_50S_rRNA_mutation|RPLD|RequiresSNPConfirmation	Erm(K)	3004643	megares
-MEG_8254|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	TEM-124	3000986	megares
-MEG_8254|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	myrA	3001300	megares
+MEG_1717|Metals|Chromium_resistance|Chromium_resistance_protein|CHRR	Helicobacter pylori rdxA mutation conferring resistance to metronidazole	3007055	megares
+MEG_2874|Biocides|Phenolic_compound_resistance|Phenolic_resistance_protein|FABI	Escherichia coli fabI mutations conferring resistance to isoniazid and triclosan	3004045	megares
+MEG_3181|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_3185|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Escherichia coli gyrA conferring resistance to fluoroquinolones	3003294	megares
+MEG_3190|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_3191|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Staphylococcus aureus gyrA conferring resistance to fluoroquinolones	3003296	megares
+MEG_3200|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_3211|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_3216|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_3235|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_3238|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_3243|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_4167|Metals|Nickel_resistance|Nickel_ABC_efflux_pumps|NIKA	Mycobacterium tuberculosis intrinsic murA conferring resistance to fosfomycin	3003784	megares
+MEG_5330|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Mycoplasma genitalium parC mutations confers resistance to Moxifloxacin	3004630	megares
+MEG_5338|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_5343|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_5346|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
+MEG_5349|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	megares
+MEG_5360|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	megares
+MEG_5366|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5372|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5377|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5379|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5383|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5384|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5385|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5387|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5389|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5390|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5391|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_5395|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAREF|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_8150|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_8143|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GRLB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_8662|Drugs|Metronidazole|rdxA_nitroimidazole_reductase|RDXA	Helicobacter pylori rdxA mutation conferring resistance to metronidazole	3007055	megares
+MEG_8450|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
+MEG_8153|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	megares
 MEG_3988|Drugs|MLS|Macrolide-resistant_23S_rRNA	Clostridioides difficile 23S rRNA with mutation conferring resistance to erythromycin and clindamycin	3004654	megares
 MEG_3976|Drugs|MLS|Macrolide-resistant_23S_rRNA	Helicobacter pylori 23S rRNA with mutation conferring resistance to clarithromycin	3004134	megares
 MEG_3994|Drugs|MLS|Macrolide-resistant_23S_rRNA	Propionibacteria 23S rRNA with mutation conferring resistance to macrolide antibiotics	3004161	megares

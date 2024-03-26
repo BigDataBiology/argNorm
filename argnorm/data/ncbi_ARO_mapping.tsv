@@ -7,7 +7,6 @@ Original ID	Gene Name in CARD	ARO	Database
 0|MBO4175406.1|1|1|mcr-9.2|mcr-9||1|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-9.2	MCR-9.1	3004684	ncbi
 0|MBY0597968.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	vanH gene in vanO cluster	3002948	ncbi
 0|NDR16746.1|1|1|sel27|sel27||1|||staphylococcal_enterotoxin_type_27	fusC	3003733	ncbi
-0|NDR16747.1|1|1|sel28|sel28||1|||staphylococcal_enterotoxin_type_28			ncbi
 1000903631|WP_061154665.1|1|1|blaLEN-42|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-42	LEN-42	3004845	ncbi
 1000909371|WP_061158039.1|1|1|blaTEM-156|blaTEM|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_TEM-156	TEM-156	3001022	ncbi
 1001043515|WP_061189306.1|1|1|blaPDC-114|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-114	PDC-114	3006492	ncbi
@@ -16,10 +15,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1001048721|WP_061193431.1|1|1|blaPDC-298|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-298	PDC-298	3006668	ncbi
 1001056857|WP_061196139.1|1|1|blaPDC-97|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-97	PDC-97	3006850	ncbi
 1001067679|WP_061199990.1|1|1|blaPDC-184|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-184	PDC-184	3006563	ncbi
-100173053|ABF69110.1|1|1|beta-4|beta-4||1|KAPPA|INTIMIN|intimin_type_kappa			ncbi
 100173067|ABF69117.1|1|1|epsilon-7|epsilon-7||1|XI|INTIMIN|intimin_type_xi	mecA	3000617	ncbi
-100173075|ABF69121.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
-100173077|ABF69122.1|1|1|alpha-5|alpha-5||1|NU|INTIMIN|intimin_type_nu			ncbi
 1001733947|WP_061284984.1|1|1|blaKLUC-1|blaKLUC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_KLUC-1	KLUC-1	3006927	ncbi
 1001891729|WP_061345584.1|1|1|cml_Ochro|cml_Ochro|efflux|2|CHLORAMPHENICOL|PHENICOL|Cml_family_chloramphenicol_efflux_MFS_transporter	cmlA9	3005043	ncbi
 1002390465|WP_061377147.1|1|1|fosA7.6|fosA7_fam|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosA7.6	FosA7	3004113	ncbi
@@ -242,7 +238,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1028085751|WP_063844284.1|1|1|cphA1|cphA1|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B2_metallo-beta-lactamase_CphA1	cphA6	3003102	ncbi
 1028085752|WP_063844285.1|1|1|cphA1|cphA1|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B2_metallo-beta-lactamase_CphA1	cphA3	3003093	ncbi
 1028085754|WP_063844286.1|1|1|cphA1|cphA1|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B2_metallo-beta-lactamase_CphA1	imiH	3003094	ncbi
-1028085756|WP_063844287.1|1|1|cpt|cpt|phosphotransferase|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_phosphotransferase_CPT			ncbi
 1028085759|WP_063844288.1|1|1|dfr1_rpt|dfr1_rpt|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_repeat-containing_dihydrofolate_reductase_DfrA1	dfrA1	3002854	ncbi
 1028085790|WP_063844289.1|1|1|dfrA1|dfrA1|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA1	dfrA1	3002854	ncbi
 1028085792|WP_063844290.1|1|1|dfrA1|dfrA1|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA1	dfrA1	3002854	ncbi
@@ -1945,7 +1940,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1035157548|WP_064511513.1|1|1|blaPDC-163|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-163	PDC-163	3006542	ncbi
 1035157549|WP_064511514.1|1|1|blaPDC-164|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-164	PDC-164	3006543	ncbi
 1035157550|WP_064511515.1|1|1|blaPDC-165|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-165	PDC-165	3006544	ncbi
-1035517479|BAA82061.2|1|1|merB1|merB1||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB1			ncbi
 1035702317|WP_064543755.1|1|1|blaCTX-M-152|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-152	CTX-M-152	3002009	ncbi
 1037232573|WP_064733493.1|1|1|blaSHV-207|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_SHV-207	SHV-207	3005236	ncbi
 1039004533|WP_064760451.1|1|1|qepA4|qepA|efflux|2|QUINOLONE|QUINOLONE|fluoroquinolone_efflux_MFS_transporter_QepA4	QepA4	3004379	ncbi
@@ -2048,7 +2042,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1061158352|WP_069174568.1|1|1|aac(6')-Iaj|aac(6')_Ia_fam|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase_AAC(6')-Iaj	AAC(6')-Iaj	3003677	ncbi
 1061158353|WP_069174569.1|1|1|blaADC-29|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-29	ADC-29	3006427	ncbi
 1061158354|WP_069174570.1|1|1|fosA6|fosA5_fam|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosA6	FosA6	3004111	ncbi
-1061414|AAB09624.1|1|1|arsR_R46|arsR_R46||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			ncbi
 1061415|AAB09625.1|1|1|arsD|arsD||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD	ANT(3'')-IIb	3004090	ncbi
 1061416|AAB09626.1|1|1|arsA|arsA||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_ATPase_subunit_ArsA	oleB	3003036	ncbi
 1061418|AAB09628.1|1|1|arsC_gluta|arsC_gluta||1|ARSENATE|ARSENIC|glutaredoxin-dependent_arsenate_reductase	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	ncbi
@@ -2101,7 +2094,6 @@ Original ID	Gene Name in CARD	ARO	Database
 108743117|CAJ76692.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A	tet(E)	3000173	ncbi
 108766906|ABG05788.1|1|1|arsN2|arsN2||1|ARSENIC|ARSENIC|arsenic_resistance_N-acetyltransferase_ArsN2	SAT-3	3002898	ncbi
 1088257|AAA98291.1|1|1|terC|terC||1|TELLURIUM|TELLURIUM|tellurium_resistance_membrane_protein_TerC	pgpB	3003920	ncbi
-1088258|AAA98293.1|1|1|terE|terE||1|TELLURIUM|TELLURIUM|tellurium_resistance_cAMP_binding_protein_TerE			ncbi
 1092525475|WP_070509550.1|1|1|mef(H)|mef(H)|efflux|2|ERYTHROMYCIN|MACROLIDE|macrolide_efflux_MFS_transporter_Mef(H)	mefH	3007047	ncbi
 1092775147|WP_070698497.1|1|1|blaPDC-278|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-278	PDC-278	3006652	ncbi
 1093986236|WP_070984444.1|1|1|blaSHV-171|blaSHV|hydrolase|2|||broad-spectrum_class_A_beta-lactamase_SHV-171	SHV-171	3001355	ncbi
@@ -2357,7 +2349,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1121408346|WP_073668892.1|1|1|blaKPC-31|blaKPC|hydrolase|2|CEFIDEROCOL/CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-31	KPC-31	3005362	ncbi
 1121409587|WP_073669325.1|1|1|blaPDC-285|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-285	PDC-285	3005287	ncbi
 1121570438|WP_073800284.1|1|1|blaKPC-32|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-32	KPC-32	3005363	ncbi
-1122937092|OKT93637.1|1|1|crsA|crsA||1|||CS26_fimbrial_major_subunit_CrsA			ncbi
 1123848914|WP_074385924.1|1|1|blaLEN-43|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-43	LEN-43	3004846	ncbi
 1125678991|WP_075040046.1|1|1|blaOXA-817|blaOXA-23_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-23_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-817	OXA-817	3006016	ncbi
 1125744093|WP_075071939.1|1|1|blaOXA-1089|blaOXA-1089_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1089	BSU-1	3006902	ncbi
@@ -2401,7 +2392,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1149331617|WP_077767292.1|1|1|blaCTX-M-195|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-195	CTX-M-195	3005618	ncbi
 1149331618|WP_077767293.1|1|1|blaCTX-M-196|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-196	CTX-M-196	3005619	ncbi
 1149331619|WP_077767294.1|1|1|blaDHA-25|blaDHA|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_DHA-25	DHA-25	3006466	ncbi
-1150846|AAA85196.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			ncbi
 1152321488|WP_078202643.1|1|1|blaADC-280|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-280	ADC-158	3006332	ncbi
 1152329478|WP_078207746.1|1|1|qnrE2|qnrE||2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrE2	qnrE2	3004637	ncbi
 1152342194|WP_078216190.1|1|1|blaADC-218|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-218	ADC-218	3006387	ncbi
@@ -2410,7 +2400,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1152386501|WP_078254299.1|1|1|mcr-2.2|mcr-2||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-2.2	MCR-2.2	3004502	ncbi
 1152461789|WP_078318620.1|1|1|blaROB-4|blaROB|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_ROB-4	ROB-4	3005074	ncbi
 115250273|CAJ68095.1|1|1|vanZ1|vanZ1|re-structuring_of_the_cell_wall|1|VANCOMYCIN|GLYCOPEPTIDE|glycopeptide_resistance_protein_VanZ1	vanZ gene in vanA cluster	3002962	ncbi
-11527908|AAG37043.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			ncbi
 115291570|ABI93207.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF	oleI	3000866	ncbi
 1153874461|WP_078394827.1|1|1|blaB-14|blaB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_BlaB-14	BlaB-20	3005534	ncbi
 1153874957|WP_078395323.1|1|1|blaGOB-41|blaGOB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_GOB-41	GOB-41	3005690	ncbi
@@ -2445,13 +2434,10 @@ Original ID	Gene Name in CARD	ARO	Database
 1154891920|WP_078798391.1|1|1|blaB-37|blaB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_BlaB-37	BlaB-6	3005554	ncbi
 115500641|BAF33872.1|1|1|capU|capU||1|||putative_hexosyltransferase_CapU	LpsB	3005051	ncbi
 115500647|BAF33878.1|1|1|aggR|aggR||1|||aggregative_adherence_transcriptional_regulator_AggR	gadW	3003838	ncbi
-115500654|BAF33885.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			ncbi
 115500657|BAF33888.1|1|1|agg4D|agg4D||1|||aggregative_adherence_fimbria_4_chaperone_Agg4D/HdaD	LlmA 23S ribosomal RNA methyltransferase	3003982	ncbi
 115500660|BAF33891.1|1|1|agg4A|agg4A||1|||aggregative_adherence_fimbria_4_major_subunit_Agg4A/HdaA	tet(K)	3000178	ncbi
 115500670|BAF33901.1|1|1|aatA|aatA||1|||dispersin_export_ABC_transporter_outer_membrane_protein_AatA	adeC	3003811	ncbi
 115500787|BAF34018.1|1|1|aap|aap||1|||dispersin_Aap	SHV-24	3001082	ncbi
-115514355|ABJ02430.1|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			ncbi
-1159362952|OPH66324.1|1|1|lpfA1|lpfA1||1|||long_polar_fimbria_major_subunit_LpfA1			ncbi
 1159855376|WP_079387329.1|1|1|blaIMP-91|blaIMP|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_IMP-91	IMP-91	3007460	ncbi
 1160410937|WP_079452738.1|1|1|aac(6')-Ib-AKT|aac(6')-Ib-AKT|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib3	3002576	ncbi
 1160597642|WP_079459897.1|1|1|aac(3)-Ib|aac(3)-Ib|acetyltransferase|2|||aminoglycoside_N-acetyltransferase_AAC(3)-Ib	AAC(3)-Ib	3002530	ncbi
@@ -2635,15 +2621,9 @@ Original ID	Gene Name in CARD	ARO	Database
 1209144265|WP_088245227.1|1|1|blaADC-157|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-157	ADC-157	3006331	ncbi
 1209253190|WP_088303859.1|1|1|blaOXA-624|blaOXA-184_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-184_family_class_D_beta-lactamase_OXA-624	OXA-624	3005845	ncbi
 1212330117|ASF80763.1|1|1|clpK|clpK||1|||heat_shock_survival_AAA_family_ATPase_ClpK	salD	3007028	ncbi
-1212330120|ASF80766.1|1|1|LHR_yfdX2|LHR_yfdX2||1|||heat_resistance_protein_YfdX2			ncbi
-1212330125|ASF80771.1|1|1|LHR_hsp20B|LHR_hsp20B||1|||small_heat_shock_protein_sHSP20-GI			ncbi
-121308153|CAM11313.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
-121308155|CAM11314.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
 121308157|CAM11315.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	ELM-1	3006885	ncbi
 121308161|CAM11317.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	ELM-1	3006885	ncbi
 121308169|CAM11321.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	IND-5	3002261	ncbi
-121308173|CAM11323.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
-121308175|CAM11324.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
 121308177|CAM11325.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	IND-5	3002261	ncbi
 1214585035|ASJ31253.1|1|1|sfaF|sfaF||1|||S/F1C_fimbrial_biogenesis_usher_protein_SfaF/FocD	msbA	3003950	ncbi
 1214893014|WP_088903431.1|1|1|tmexC2|tmexC|efflux|2|TIGECYCLINE|TETRACYCLINE|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_TMexC2	MexC	3000800	ncbi
@@ -2681,8 +2661,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1231416411|WP_094323230.1|1|1|mcr-2.3|mcr-2||2|||phosphoethanolamine--lipid_A_transferase_MCR-2.3	MCR-2.3	3007284	ncbi
 1231454752|WP_094353585.1|1|1|blaTEM-103|blaTEM|hydrolase|2|||inhibitor-resistant_broad-spectrum_class_A_beta-lactamase_TEM-103	TEM-122	3000984	ncbi
 1232058|AAA92618.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	3004480	ncbi
-1232061|AAA92621.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			ncbi
-123229145|ABM73977.1|1|1|bont_B3|bont_B3||1|||botulinum_neurotoxin_subtype_B3			ncbi
 123229158|ABM73980.1|1|1|bont_E3|bont_E3||1|||botulinum_neurotoxin_subtype_E3	ErmB	3000375	ncbi
 123229171|ABM73981.1|1|1|bont_E2|bont_E2||1|||botulinum_neurotoxin_subtype_E2	ErmB	3000375	ncbi
 123229296|ABM73987.1|1|1|bont_B4|bont_B4||1|||botulinum_neurotoxin_subtype_B4	KHM-1	3000847	ncbi
@@ -2695,12 +2673,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1237115|AAA93060.1|1|1|arsD|arsD||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD	ANT(3'')-IIb	3004090	ncbi
 12407853|AAG53662.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
 124106613|BAF45432.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
-124106630|BAF45437.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-124106634|BAF45439.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-124106636|BAF45440.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-124106650|BAF45447.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-124106658|BAF45451.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-124106674|BAF45459.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
 124107893|ABM90581.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
 124107896|ABM90583.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
 124107902|ABM90587.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
@@ -2719,7 +2691,6 @@ Original ID	Gene Name in CARD	ARO	Database
 12513756|AAG55141.1|1|1|nleC|nleC||1|||type_III_secretion_system_effector_zinc_metalloprotease_NleC	CMY-73	3002086	ncbi
 12513986|AAG55323.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	salD	3007028	ncbi
 12516088|AAG56990.1|1|1|espJ|espJ||1|||type_III_secretion_system_effector_ADP-ribosyltransferase_EspJ	FosM3	3007099	ncbi
-12518278|AAG58695.1|1|1|lpfA1|lpfA1||1|||long_polar_fimbria_major_subunit_LpfA1			ncbi
 12518435|AAG58814.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF	AQU-2	3004647	ncbi
 12518439|AAG58818.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	tet(36)	3000197	ncbi
 12518449|AAG58825.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
@@ -2806,12 +2777,10 @@ Original ID	Gene Name in CARD	ARO	Database
 1321015611|AUM09787.1|1|1|stxB2h|stxB2h||1|STX2H|STX2|Shiga_toxin_Stx2h_subunit_B	IMP-41	3002232	ncbi
 1321015612|AUM09788.1|1|1|stxA2h|stxA2h||1|STX2H|STX2|Shiga_toxin_Stx2h_subunit_A	msrE	3003109	ncbi
 1324435188|WP_101516660.1|1|1|aac(6')-Ib-AKT|aac(6')-Ib-AKT|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib3	3002576	ncbi
-1325136444|AUN52700.1|1|1|rmpD|rmpD||1|||mucoid_phenotype_synthesis_protein_RmpD			ncbi
 1325763172|WP_101663562.1|1|1|blaOXA-1224|blaOXA-213_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-213_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1224	OXA-943	3006123	ncbi
 13259568|AAK16940.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	IND-5	3002261	ncbi
 13272483|AAK17180.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE	APH(3'')-Ib	3002639	ncbi
 1330019300|WP_102272729.1|1|1|fosM1|fosM1|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_protein_FosM1	FosM1	3007097	ncbi
-13310561|AAK18385.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			ncbi
 13310620|AAK18444.1|1|1|ipaD|ipaD||1|||type_III_secretion_system_needle_tip_complex_protein_IpaD	PEDO-3	3003715	ncbi
 1331531441|WP_102607451.1|1|1|blaCTX-M-191|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-191	CTX-M-191	3005614	ncbi
 1331531442|WP_102607452.1|1|1|blaCTX-M-192|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-192	CTX-M-192	3005615	ncbi
@@ -2928,33 +2897,16 @@ Original ID	Gene Name in CARD	ARO	Database
 1370081|CAA57175.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	BlaB-27	3005540	ncbi
 1370084|CAA57173.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	BlaB-27	3005540	ncbi
 1370087|CAA57171.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	BlaB-27	3005540	ncbi
-13701623|BAB42916.1|1|1|seo|seo||1|||staphylococcal_enterotoxin_type_O			ncbi
 13701804|BAB43097.1|1|1|sec3|sec3||1|||staphylococcal_enterotoxin_type_C3	OXA-137	3001767	ncbi
 1371724125|WP_106672612.1|1|1|blaCMY-150|blaCMY|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_CMY-150	CMY-150	3005016	ncbi
 1371811880|WP_106743337.1|1|1|mcr-1.18|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.18	MCR-1.18	3007233	ncbi
 1372054669|WP_106924209.1|1|1|blaCTX-M-213|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-213	CTX-M-213	3005636	ncbi
 1376178835|WP_107309513.1|1|1|vanY-M|vanY-M|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-Ala-D-Ala_carboxypeptidase_VanY-M	vanY gene in vanM cluster	3002961	ncbi
-13774144|BAB43874.1|1|1|cadD|cadD||1|CADMIUM|CADMIUM|cadmium_resistance_transporter_CadD			ncbi
-13811426|AAK40114.1|1|1|hreP|hreP||1|||subtilisin/kexin-like_serine_protease_HreP			ncbi
 1381927610|WP_107808007.1|1|1|blaB-28|blaB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_BlaB-28	BlaB-28	3005541	ncbi
 1381929461|WP_107809858.1|1|1|blaGOB-34|blaGOB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_GOB-34	GOB-34	3005683	ncbi
 1382129965|WP_107999608.1|1|1|blaPEN-A15|blaPEN-A|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_PEN-A15	LRA-1	3002482	ncbi
 1383191985|WP_108361548.1|1|1|blaLMB-1|blaLMB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_LMB-1	LMB-1	3005018	ncbi
 13898625|AAK48830.1|1|1|cadR|cadR||1|CADMIUM|CADMIUM|cadmium_resistance_transcriptional_regulator_CadR	golS	3000504	ncbi
-139002545|BAF52034.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139002548|BAF52035.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139002755|BAF52033.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003779|BAF52358.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003787|BAF52360.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003791|BAF52362.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003796|BAF52363.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003798|BAF52364.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003804|BAF52365.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003810|BAF52366.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003812|BAF52367.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003825|BAF52370.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003840|BAF52374.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
-139003851|BAF52377.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
 139004404|BAF52548.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
 139004406|BAF52549.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-13	3002484	ncbi
 1390992900|WP_109213213.1|1|1|blaOXY-5-5|blaOXY-5|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-5-5	OXY-5-1	3002411	ncbi
@@ -3155,7 +3107,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1430734452|WP_113877255.1|1|1|blaRAHN-6|blaRAHN|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_RAHN-6	RAHN-1	3006979	ncbi
 1431093301|WP_114012592.1|1|1|blaPDC-572|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-572	PDC-19a	3005295	ncbi
 143191|AAA83977.1|1|1|merA|merA||1|MERCURY|MERCURY|mercury(II)_reductase	Streptococcus agalactiae mprF	3003774	ncbi
-143192|AAA83978.1|1|1|merB1|merB1||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB1			ncbi
 1433225753|WP_114158997.1|1|1|blaOXA-854|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-854	OXA-854	3006046	ncbi
 1433234115|WP_114166683.1|1|1|blaADC-199|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-199	ADC-199	3006368	ncbi
 1433308462|WP_114225343.1|1|1|blaOXA-739|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-739	OXA-739	3005943	ncbi
@@ -3163,14 +3114,12 @@ Original ID	Gene Name in CARD	ARO	Database
 1433356710|WP_114259520.1|1|1|blaADC-258|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-258	ADC-96	3006453	ncbi
 1433370827|WP_114268491.1|1|1|blaOXA-926|blaOXA-PR|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_D_beta-lactamase_OXA-926	OXA-926	3005323	ncbi
 1433373424|WP_114270086.1|1|1|blaADC-289|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-289	ADC-131	3006306	ncbi
-1433476833|RCV70079.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi
 1433905230|WP_114272532.1|1|1|blaOXA-727|blaOXA-727_fam|hydrolase|2|||OXA-727_family_class_D_beta-lactamase_OXA-727	OXA-727	3005932	ncbi
 1434725489|WP_114429521.1|1|1|mcr-1.37|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.37	MCR-1.1	3003689	ncbi
 1434819014|WP_114473955.1|1|1|fosA9|fosA5_fam|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosA9	fosA5	3003209	ncbi
 1434875645|WP_114500971.1|1|1|mcr-3.39|mcr-3||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-3.39	MCR-3.39	3007271	ncbi
 1435060694|WP_114508147.1|1|1|blaOKP-B-40|blaOKP-B|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_OKP-B-40	OKP-B-40	3006149	ncbi
 1437152696|SUK32596.1|1|1|selZ|selZ||1|||staphylococcal_enterotoxin_type_Z	PNGM-1	3004571	ncbi
-1437352259|SUK66413.1|1|1|sel30|sel30||1|||staphylococcal_enterotoxin_type_30			ncbi
 1440786778|WP_114699266.1|1|1|blaOXA-729|blaOXA-55_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-55_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-729	OXA-729	3005934	ncbi
 1440786779|WP_114699267.1|1|1|blaKPC-36|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-36	KPC-36	3005368	ncbi
 1440786780|WP_114699268.1|1|1|blaADC-174|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-174	ADC-174	3006346	ncbi
@@ -3196,8 +3145,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1444191666|WP_115434994.1|1|1|blaADC-284|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-284	ADC-156	3006330	ncbi
 1444647619|WP_115470049.1|1|1|blaKPC-40|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|inhibitor-resistant_carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-40	KPC-40	3005372	ncbi
 144802|AAA23235.1|1|1|etx|etx||1|||epsilon_toxin_type_B	salC	3007027	ncbi
-144867|AAA23263.1|1|1|bont_F6|bont_F6||1|||botulinum_neurotoxin_subtype_F6			ncbi
-144928|AAA72120.1|1|1|cpe|cpe||1|||enterotoxin_CPE			ncbi
 1449943273|WP_116020564.1|1|1|blaADC-257|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-257	ADC-52	3006432	ncbi
 1450277924|AXN77488.1|1|1|ednB|ednB||1|||epidermal_cell_differentiation_inhibitor_EdnB	ADC-83	3006440	ncbi
 145160|AAA23405.1|1|1|fasA|fasA||1|||F6_fimbrial_major_subunit_FasA	tet(38)	3000565	ncbi
@@ -3207,11 +3154,9 @@ Original ID	Gene Name in CARD	ARO	Database
 14549666|AAK66972.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A	msrE	3003109	ncbi
 145510|AAC41416.1|1|1|cfaC|cfaC||1|||CFA/I_pilus_usher_protein_CfaC	AxyY	3004144	ncbi
 14571687|CAB54534.2|1|1|mchB|mchB||1|||microcin_H47	APH(6)-Ic	3002659	ncbi
-14579333|AAK69210.1|1|1|yopD|yopD||1|||type_III_secretion_system_translocon_subunit_YopD			ncbi
 14579334|AAK69211.1|1|1|yopB|yopB||1|||type_III_secretion_system_translocon_subunit_YopB	efrA	3003948	ncbi
 14582623|AAK69562.1|1|1|srpS|srpS||1|EFFLUX|EFFLUX|solvent_efflux_transporter_transcriptional_repressor_SrpS	CRP	3000518	ncbi
 145871|AAA23734.1|1|1|fedA|fedA||1|||F18_fimbrial_major_subunit_FedA	MuxA	3004073	ncbi
-146150132|ABQ02454.1|1|1|rho-1|rho-1||1|RHO|INTIMIN|intimin_type_rho			ncbi
 146314413|ABQ18953.1|1|1|emrD3|emrD3||1|EFFLUX|EFFLUX|multidrug_efflux_MFS_transporter_EmrD-3	bcr-1	3003801	ncbi
 1463804819|WP_116743769.1|1|1|blaROB-10|blaROB|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_ROB-10	ROB-10	3005080	ncbi
 1463920486|WP_116786828.1|1|1|mcr-4.6|mcr-4||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-4.6	MCR-4.6	3007231	ncbi
@@ -3247,7 +3192,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1477770268|AYA44303.1|1|1|becB|becB||1|||ADP-ribosylating_binary_toxin_binding_subunit_BecB	vanXY gene in vanE cluster	3002967	ncbi
 147825|AAA19189.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	msrE	3003109	ncbi
 147826|AAA19190.1|1|1|stxB2e|stxB2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_B	ADC-98	3006455	ncbi
-147830|AAA24632.1|1|1|stxA2f|stxA2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_A			ncbi
 147831|AAA24633.1|1|1|stxB2f|stxB2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_B	ADC-99	3006456	ncbi
 147833|AAA71893.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A	tet(E)	3000173	ncbi
 147834|AAA71894.1|1|1|stxB1a|stxB1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_B	AFM-1	3006890	ncbi
@@ -3257,7 +3201,6 @@ Original ID	Gene Name in CARD	ARO	Database
 148288285|CAL82360.1|1|1|bont_A1|bont_A1||1|||botulinum_neurotoxin_subtype_A1	ADC-207	3006376	ncbi
 148524739|BAF63361.1|1|1|cdtB_I|cdtB_I||1|||cytolethal_distending_toxin_type_I_nuclease_subunit_CdtB	Bla1	3000090	ncbi
 148750653|ABR09925.1|1|1|stxB2a|stxB2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_B	IMP-44	3002235	ncbi
-148750667|ABR09934.1|1|1|stxA2c|stxA2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_A			ncbi
 148750668|ABR09935.1|1|1|stxB2c|stxB2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_B	IMP-11	3002202	ncbi
 148750670|ABR09936.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A	msrE	3003109	ncbi
 148750671|ABR09937.1|1|1|stxB2d|stxB2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_B	IMP-41	3002232	ncbi
@@ -3282,7 +3225,6 @@ Original ID	Gene Name in CARD	ARO	Database
 150634|AAA98223.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP	TaeA	3003986	ncbi
 150727|AAA25636.1|1|1|arsR_pI258|arsR_pI258||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR	PFM-2	3006966	ncbi
 150728|AAA25637.1|1|1|arsB_pI258|arsB_pI258||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB	mdtB	3000793	ncbi
-150729|AAA25638.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase			ncbi
 1509058860|WP_122543028.1|1|1|blaOKP-B-22|blaOKP-B|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_OKP-B-22	OKP-B-22	3006144	ncbi
 150954280|ABR76310.1|1|1|kdeA|kdeA||1|EFFLUX|EFFLUX|multidrug_efflux_MFS_transporter_KdeA	Escherichia coli mdfA	3001328	ncbi
 1509794513|WP_122630822.1|1|1|blaEFM-1|blaEFM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_EFM-1	EFM-1	3006884	ncbi
@@ -3408,7 +3350,6 @@ Original ID	Gene Name in CARD	ARO	Database
 15139860|CAC48398.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	msrE	3003109	ncbi
 1516481566|AYW01299.1|1|1|mcr-9.1|mcr-9||1|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-9.1	MCR-9.1	3004684	ncbi
 151857|AAA21094.1|1|1|arsA|arsA||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_ATPase_subunit_ArsA	salE	3007029	ncbi
-151858|AAA21095.1|1|1|arsB_R773|arsB_R773||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			ncbi
 151859|AAA21096.1|1|1|arsC_gluta|arsC_gluta||1|ARSENATE|ARSENIC|glutaredoxin-dependent_arsenate_reductase	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	ncbi
 152024039|ABS21809.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	CTX-M-72	3001933	ncbi
 1520296400|WP_123836928.1|1|1|blaLEN-51|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-51	LEN-51	3004847	ncbi
@@ -3419,7 +3360,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1524109117|WP_124129493.1|1|1|blaPDC-529|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-529	PDC-167	3006546	ncbi
 1524648963|WP_124187209.1|1|1|blaPDC-407|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-407	PDC-407	3006777	ncbi
 152519|AAA26402.1|1|1|klaB|klaB||1|TELLURIUM|TELLURIUM|tellurium_resistance_system_protein_klaB	CTX-M-11	3001874	ncbi
-152520|AAA26403.1|1|1|klaC|klaC||1|TELLURIUM|TELLURIUM|tellurium_resistance_system_protein_klaC			ncbi
 1525845835|WP_124470450.1|1|1|tet(64)|tet(64)||2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_MFS_transporter_Tet(64)	tet(41)	3000569	ncbi
 152935704|ABS41202.1|1|1|bont_F1|bont_F1||1|||botulinum_neurotoxin_subtype_F1	mecR1	3000215	ncbi
 153000|AAA88550.1|1|1|seb|seb||1|||staphylococcal_enterotoxin_type_B	acrD	3000491	ncbi
@@ -3433,7 +3373,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1532334961|WP_125064048.1|1|1|blaOXA-1083|blaOXA-2_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-2_family_class_D_beta-lactamase_OXA-1083	OXA-2	3001397	ncbi
 1535641057|WP_125353308.1|1|1|qnrB96|qnrB|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrB96	QnrB37	3002752	ncbi
 154103681|ABS58643.1|1|1|blaEC|blaEC|hydrolase|1|BETA-LACTAM|BETA-LACTAM|BlaEC_family_class_C_beta-lactamase	Escherichia coli ampC beta-lactamase	3004290	ncbi
-15419713|AAK97135.1|1|1|csaB|csaB||1|||CS4_pilus_major_pilin_CsaB			ncbi
 15419714|AAK97136.1|1|1|cfaC|cfaC||1|||CFA/I_pilus_usher_protein_CfaC	msr(G)	3007042	ncbi
 1543222687|WP_126118969.1|1|1|blaPDC-371|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-371	PDC-371	3006742	ncbi
 1543256693|WP_126123880.1|1|1|aac(6')-Ib-G|aac(6')-Ib-G|acetyltransferase|2|GENTAMICIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib'	3003676	ncbi
@@ -3445,18 +3384,13 @@ Original ID	Gene Name in CARD	ARO	Database
 1545527185|WP_126622689.1|1|1|blaOXA-1131|blaOXA-50_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-50_family_oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-1131	OXA-494	3005727	ncbi
 15458479|AAK99679.1|1|1|pmrA|pmrA|efflux|1|QUINOLONE|QUINOLONE|multidrug_efflux_MFS_transporter_PmrA	pmrA	3000822	ncbi
 1545991|AAB42203.1|1|1|arsC_gluta|arsC_gluta||1|ARSENATE|ARSENIC|glutaredoxin-dependent_arsenate_reductase	PLA-1	3006968	ncbi
-1545992|AAB42204.1|1|1|arsB_pYV|arsB_pYV||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			ncbi
 1546801380|WP_126817982.1|1|1|blaACT-76|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-76	ACT-76	3006270	ncbi
 1546850458|WP_126861771.1|1|1|blaOXA-1029|blaOXA-50_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-50_family_oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-1029	OXA-846	3005130	ncbi
 15528431|CAC69248.1|1|1|merR_Ps|merR_Ps||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR	golS	3000504	ncbi
 15528432|CAC69249.1|1|1|merT|merT||1|MERCURY|MERCURY|mercuric_transport_protein_MerT	SatA	3005045	ncbi
-15528433|CAC69250.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			ncbi
 15528434|CAC69251.1|1|1|merA|merA||1|MERCURY|MERCURY|mercury(II)_reductase	rpoB2	3000501	ncbi
 15528535|BAB64566.1|1|1|bexA|bexA|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_MATE_transporter_BexA	hmrM	3003953	ncbi
 1553321449|WP_127728991.1|1|1|blaFRI-6|blaFRI|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_FRI-6	FRI-6	3005029	ncbi
-155344|AAA27587.1|1|1|arsR_pSX267|arsR_pSX267||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			ncbi
-155345|AAA27588.1|1|1|arsB_pI258|arsB_pI258||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			ncbi
-155346|AAA27589.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase			ncbi
 155438|AAA88694.1|1|1|ail|ail||1|||attachment_invasion_locus_protein_Ail	tet(W/32/O)	3007124	ncbi
 1559612966|WP_128268231.1|1|1|mecC2|mecC2|insensitivity|2|METHICILLIN|BETA-LACTAM|PBP2a_family_beta-lactam-resistant_peptidoglycan_transpeptidase_MecC2	mecC	3001209	ncbi
 1559612967|WP_128268232.1|1|1|blaADC-183|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-183	ADC-183	3005246	ncbi
@@ -3530,17 +3464,12 @@ Original ID	Gene Name in CARD	ARO	Database
 157021158|ABV01310.1|1|1|ltcA|ltcA||1|||heat-labile_enterotoxin_LT_subunit_A	tet(56)	3004603	ncbi
 157059867|BAF79679.1|1|1|smdA|smdA||1|EFFLUX|EFFLUX|multidrug_efflux_ABC_transporter_permease/ATP-binding_subunit_SmdA	tetA(60)	3004035	ncbi
 157059868|BAF79680.1|1|1|smdB|smdB||1|EFFLUX|EFFLUX|multidrug_efflux_ABC_transporter_permease/ATP-binding_subunit_SmdB	tetB(60)	3004036	ncbi
-157076729|ABV16438.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			ncbi
 15718405|BAB68369.1|1|1|stxA2c|stxA2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_A	msrE	3003109	ncbi
 15718406|BAB68370.1|1|1|stxB2c|stxB2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_B	IMP-41	3002232	ncbi
 157201147|BAF80121.1|1|1|ssmE|ssmE|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_SMR_transporter_SsmE	qacG	3007015	ncbi
 15723929|AAL06376.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	CMY-11	3002022	ncbi
 15723934|AAL06381.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	adeG	3000778	ncbi
-15723940|AAL06387.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			ncbi
 1574453|AAC23256.1|1|1|hmrM|hmrM|efflux|1|EFFLUX|EFFLUX|sodium-coupled_multidrug_efflux_MATE_transporter_HmrM	hmrM	3003953	ncbi
-157688250|ABQ02442.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			ncbi
-157688252|ABQ02443.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			ncbi
-157688256|ABQ02445.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			ncbi
 157688260|ABQ02447.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA	vga(E) Staphylococcus cohnii	3004715	ncbi
 157688262|ABQ02448.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA	vga(E) Staphylococcus cohnii	3004715	ncbi
 1577407490|WP_130173437.1|1|1|blaADC-207|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-207	ADC-207	3006376	ncbi
@@ -3550,7 +3479,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1589968224|WP_131386768.1|1|1|erm(51)|erm(51)|target_modification|2|AZITHROMYCIN/CLARITHROMYCIN/CLINDAMYCIN/ERYTHROMYCIN/VIRGINIAMYCIN|LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(51)	Erm(51)	3007033	ncbi
 1590003573|WP_131419583.1|1|1|blaTEM-238|blaTEM|hydrolase|2|||class_A_beta-lactamase_TEM-238	TEM-238	3005269	ncbi
 1590146759|WP_131534982.1|1|1|aac(6')-Ib-cr9|aac(6')-Ib-cr|acetyltransferase|2|AMIKACIN/KANAMYCIN/QUINOLONE/TOBRAMYCIN|AMINOGLYCOSIDE/QUINOLONE|fluoroquinolone-acetylating_aminoglycoside_6'-N-acetyltransferase_AAC(6')-Ib-cr9	AAC(6')-Ib-cr9	3005119	ncbi
-159132570|BAF91946.1|1|1|bont_B6|bont_B6||1|||botulinum_neurotoxin_subtype_B6			ncbi
 1592123251|WP_132038428.1|1|1|blaADC-235|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-235	ADC-235	3006404	ncbi
 1592712056|WP_132586462.1|1|1|dfrA37|dfrA37|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA37	DfrA37	3005347	ncbi
 1592761878|WP_132629969.1|1|1|aac(6')-Ib-AKT|aac(6')-Ib-AKT|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib'	3003676	ncbi
@@ -3558,7 +3486,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1593270718|WP_132995818.1|1|1|blaROB-11|blaROB|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_ROB-11	ROB-11	3007125	ncbi
 1597685933|WP_133452685.1|1|1|blaPDC-433|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-433	PDC-433	3006802	ncbi
 159796256|ABX00624.1|1|1|lmrC_abcf|lmrC_abcf|target_protection|1|FOSFOMYCIN|FOSFOMYCIN|ABC-F_type_ribosomal_protection_protein_LmrC	lmrC	3002881	ncbi
-159885585|BAF92845.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir			ncbi
 1601567023|WP_133963898.1|1|1|blaNDM-16b|blaNDM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_NDM-16b	NDM-16b	3007202	ncbi
 1601575630|WP_133972424.1|1|1|blaADC-194|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-194	ADC-194	3006363	ncbi
 1601577124|WP_133973918.1|1|1|blaOXA-822|blaOXA-213_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-213_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-822	OXA-822	3006020	ncbi
@@ -3643,7 +3570,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1625655435|WP_136512112.1|1|1|mcr-3.29|mcr-3||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-3.29	MCR-3.29	3007272	ncbi
 1632730106|WP_136828312.1|1|1|blaPDC-528|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-528	PDC-223	3006603	ncbi
 1635420641|WP_137138291.1|1|1|blaKBL-1|blaKBL|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_KBL-1	KBL-1	3007206	ncbi
-16417609|AAL18821.1|1|1|epeA|epeA||1|||serine_protease_autotransporter_EpeA			ncbi
 16418852|AAL19305.1|1|1|mdsB|mdsB|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_permease_subunit_MdsB	mdsB	3000790	ncbi
 16418853|AAL19306.1|1|1|mdsA|mdsA|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_MdsA	mdsA	3000789	ncbi
 16418854|AAL19307.1|1|1|golT|golT||1|COPPER/GOLD|COPPER/GOLD|gold/copper-translocating_P-type_ATPase_GolT	CfxA6	3003097	ncbi
@@ -3654,14 +3580,11 @@ Original ID	Gene Name in CARD	ARO	Database
 1644265|BAA13544.1|1|1|ystB|ystB||1|||ST-I_family_heat-stable_enterotoxin_YstB	salB	3007026	ncbi
 164457616|BAF96525.1|1|1|espJ|espJ||1|||type_III_secretion_system_effector_ADP-ribosyltransferase_EspJ	TEM-184	3001375	ncbi
 164457631|BAF96538.1|1|1|nleB2|nleB2||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB2	vanH gene in vanO cluster	3002948	ncbi
-164457634|BAF96541.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
 16502954|CAD02120.1|1|1|cdtB_Salmo|cdtB_Salmo||1|||cytolethal_distending_toxin_S-CDT	ICR-Mo	3004569	ncbi
-1653492|BAA18405.1|1|1|acr3|acr3||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_Acr3			ncbi
 1653494|BAA18407.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase	FosC2	3002874	ncbi
 16565696|AAL26283.1|1|1|saa|saa||1|||autoagglutinating_adhesin_Saa	FIA-1	3006887	ncbi
 1657263|CAA65654.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	tet(36)	3000197	ncbi
 166409297|BAG06666.1|1|1|set|set||1|||staphylococcal_enterotoxin_type_T	OXA-437	3003593	ncbi
-166409298|BAG06667.1|1|1|ses|ses||1|||staphylococcal_enterotoxin_type_S			ncbi
 1667932524|WP_138070341.1|1|1|msr(H)|msr(H)|target_protection|2|ERYTHROMYCIN/PRISTINAMYCIN|MACROLIDE/STREPTOGRAMIN|ABC-F_type_ribosomal_protection_protein_Msr(H)	msrH	3005088	ncbi
 1669863|AAC45964.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	msrE	3003109	ncbi
 1669864|AAC45965.1|1|1|stxB2e|stxB2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_B	ADC-99	3006456	ncbi
@@ -3669,13 +3592,11 @@ Original ID	Gene Name in CARD	ARO	Database
 168831012|ACA34793.1|1|1|tsh|tsh||1|||temperature-sensitive_protease_autotransporter_hemagglutinin_Tsh	Staphylococcus aureus mupB conferring resistance to mupirocin	3000510	ncbi
 168986458|BAG11995.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
 168986462|BAG11997.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
-168986470|BAG12001.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
 1690617860|WP_139419258.1|1|1|blaOXA-1190|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1190	OXA-356	3001543	ncbi
 1690668477|WP_139462269.1|1|1|blaOXA-1162|blaOXA-12_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-12_family_class_D_beta-lactamase_OXA-1162	OXA-912	3006099	ncbi
 169123155|ACA46990.1|1|1|bont_B1|bont_B1||1|||botulinum_neurotoxin_subtype_B1	MexA	3000377	ncbi
 16923924|AAL31637.1|1|1|csnA|csnA||1|||CS20_fimbrial_major_subunit_CsnA	vanTr gene in vanL cluster	3002974	ncbi
 1692709724|WP_139847607.1|1|1|erm(53)|erm(53)|target_modification|2|MACROLIDE|MACROLIDE|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(53)	Erm(42)	3003106	ncbi
-169294941|EDS77074.1|1|1|c3bot2|c3bot2||1|||C3_toxin			ncbi
 1693892789|WP_140423191.1|1|1|aac(6')-Ib-generic|aac(6')-Ib-generic|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib3	3002576	ncbi
 1693892901|WP_140423278.1|1|1|aadA1|aadA1|nucleotidyltransferase|2|||ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA1	ANT(3'')-IIa	3004089	ncbi
 1693892902|WP_140423279.1|1|1|aadA2|aadA2|nucleotidyltransferase|2|||ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA2	aadA3	3002603	ncbi
@@ -3727,8 +3648,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1705152794|WP_142515482.1|1|1|blaOXY-8-2|blaOXY-8|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-8-2	OXY-1-4	3002392	ncbi
 170518246|ACB16424.1|1|1|lpfA-O113|lpfA-O113||1|||long_polar_fimbria_major_subunit_LpfA-O113	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	ncbi
 170518477|ACB16655.1|1|1|eilA|eilA||1|||HilA_family_transcriptional_regulator_EilA	vanR gene in vanP cluster	3007191	ncbi
-170518859|ACB17037.1|1|1|air|air||1|||inverse_autotransporter_adhesin_EaeX/Air			ncbi
-170521958|ACB20136.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			ncbi
 1706463212|WP_142836723.1|1|1|blaVIM-78|blaVIM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_VIM-78	VIM-4	3002274	ncbi
 1706506523|WP_142875125.1|1|1|blaVIM-67|blaVIM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_VIM-67	VIM-67	3005515	ncbi
 1707017921|WP_142981135.1|1|1|blaOXY-3-3|blaOXY-3|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-3-3	OXY-3-1	3002409	ncbi
@@ -3821,7 +3740,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1741678809|WP_149691965.1|1|1|qnrB98|qnrB|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrB98	QnrB12	3002726	ncbi
 1742942|CAA70196.1|1|1|merT|merT||1|MERCURY|MERCURY|mercuric_transport_protein_MerT	Escherichia coli mdfA	3001328	ncbi
 1752245223|WP_150378267.1|1|1|tet(X5)|tet(X5)|hydroxylation|2|TIGECYCLINE|TETRACYCLINE|tetracycline-inactivating_monooxygenase_Tet(X5)	tet(X5)	3005057	ncbi
-1753231480|KAA9473339.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			ncbi
 1753231481|KAA9473340.1|1|1|arsD|arsD||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD	TriB	3003680	ncbi
 1753231482|KAA9473341.1|1|1|arsA|arsA||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_ATPase_subunit_ArsA	vanS gene in vanC cluster	3002933	ncbi
 1753231483|KAA9473342.1|1|1|arsD|arsD||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD	oleI	3000866	ncbi
@@ -3880,7 +3798,6 @@ Original ID	Gene Name in CARD	ARO	Database
 175950639|ACB72721.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
 1759515026|WP_151405943.1|1|1|aac(6')-Ib-G|aac(6')-Ib-G|acetyltransferase|2|GENTAMICIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib'	3003676	ncbi
 1762146375|WP_151713720.1|1|1|blaOXA-1197|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1197	OXA-895	3005332	ncbi
-1764164|AAC44731.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			ncbi
 1764258368|WP_151781119.1|1|1|blaOXA-930|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-930	OXA-930	3005331	ncbi
 1764277852|WP_151798075.1|1|1|blaOXA-1193|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1193	OXA-355	3001542	ncbi
 1764293597|WP_151810644.1|1|1|blaOXA-1196|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1196	OXA-895	3005332	ncbi
@@ -3975,7 +3892,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1789970593|WP_158386862.1|1|1|blaCAE-1|blaCAE|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_CAE-1	PAU-1	3006964	ncbi
 1790593|AAC77110.1|1|1|blaEC|blaEC|hydrolase|1|BETA-LACTAM|BETA-LACTAM|BlaEC_family_class_C_beta-lactamase	Escherichia coli ampC beta-lactamase	3004290	ncbi
 1790794|AAC77293.1|1|1|mdtM|mdtM||1|EFFLUX|EFFLUX|multidrug_efflux_MFS_transporter_MdtM	mdtM	3001214	ncbi
-1796443971|QHF70768.1|1|1|fanC|fanC||1|||F5_fimbrial_major_subunit_protein_FanC			ncbi
 1797117818|WP_159108984.1|1|1|blaGOB-52|blaGOB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_GOB-52	GOB-21	3005670	ncbi
 1797481985|WP_159162532.1|1|1|blaADC-234|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-234	ADC-234	3006403	ncbi
 1797770217|WP_159241551.1|1|1|aac(6')-Ib-cr11|aac(6')-Ib-cr|acetyltransferase|2|AMIKACIN/KANAMYCIN/QUINOLONE/TOBRAMYCIN|AMINOGLYCOSIDE/QUINOLONE|fluoroquinolone-acetylating_aminoglycoside_6'-N-acetyltransferase_AAC(6')-Ib-cr11	AAC(6')-Ib-cr5	3005115	ncbi
@@ -4015,8 +3931,6 @@ Original ID	Gene Name in CARD	ARO	Database
 18147038|BAB83003.1|1|1|stxB2g|stxB2g||1|STX2G|STX2|Shiga_toxin_Stx2g_subunit_B	IMP-44	3002235	ncbi
 18147041|BAB83005.1|1|1|stxB2b|stxB2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_B	IMP-11	3002202	ncbi
 18147044|BAB83007.1|1|1|stxB2b|stxB2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_B	IMP-41	3002232	ncbi
-18147064|BAB83020.1|1|1|stxA2g|stxA2g||1|STX2G|STX2|Shiga_toxin_Stx2g_subunit_A			ncbi
-18147067|BAB83022.1|1|1|stxA1c|stxA1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_A			ncbi
 18147068|BAB83023.1|1|1|stxB1c|stxB1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_B	KPC-73	3006198	ncbi
 18147070|BAB83024.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A	msrE	3003109	ncbi
 18152905|AAF98391.2|1|1|ibeA|ibeA||1|||putative_intracellular_survival_FAD-dependent_oxidoreductase_IbeA	tet(X5)	3005057	ncbi
@@ -4090,7 +4004,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1844099958|WP_171476789.1|1|1|blaKPC-57|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-57	KPC-57	3005385	ncbi
 1844099959|WP_171476790.1|1|1|blaOXA-916|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-916	OXA-916	3006102	ncbi
 1846147816|WP_171865690.1|1|1|blaOXA-1143|blaOXA-PR|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_D_beta-lactamase_OXA-1143	OXA-780	3005983	ncbi
-18462537|AAL72309.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			ncbi
 18462578|AAL72350.1|1|1|ipaD|ipaD||1|||type_III_secretion_system_needle_tip_complex_protein_IpaD	PEDO-3	3003715	ncbi
 1846522197|WP_171943877.1|1|1|vga(F)|vga(F)|target_protection|2|LINCOSAMIDE|LINCOSAMIDE|ABC-F_type_ribosomal_protection_protein_Vga(F)	vga(E) Staphylococcus cohnii	3004715	ncbi
 18476187|AAL05407.1|1|1|tcrB|tcrB||1|COPPER|COPPER|copper-translocating_P-type_ATPase_TcrB	mdtA	3000792	ncbi
@@ -4170,7 +4083,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1887756518|WP_182237112.1|1|1|blaOXY-12-2|blaOXY-12|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-12-2	OXY-1-4	3002392	ncbi
 1888296434|WP_182409324.1|1|1|blaOXY-5-9|blaOXY-5|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-5-9	OXY-5-1	3002411	ncbi
 1888891724|WP_182496339.1|1|1|blaCTX-M-240|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-240	CTX-M-240	3005663	ncbi
-188998312|ACD67884.1|1|1|cpd|cpd||1|||beta-channel_forming_cytolysin_CPD			ncbi
 1893034077|WP_185148407.1|1|1|estT|estT||2|TYLOSIN|MACROLIDE|macrolide_hydrolase_EstT	EstT	3007459	ncbi
 1893233117|WP_185219566.1|1|1|blaOXY-1-18|blaOXY-1|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-1-18	OXY-1-1	3002389	ncbi
 1893268003|WP_185250308.1|1|1|aph(2'')-G141|aph(2'')-G141|phosphotransferase|2|GENTAMICIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-phosphotransferase_APH(2')-G141	APH(2'')-IIIa	3002636	ncbi
@@ -4227,7 +4139,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1907960645|WP_190259775.1|1|1|blaCTX-M-242|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-242	CTX-M-242	3005665	ncbi
 1907960660|WP_190259776.1|1|1|blaOXA-931|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-931	OXA-931	3005330	ncbi
 1927003294|WP_193683783.1|1|1|cfiA28|cfiA_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_CfiA28	CfiA27	3006918	ncbi
-192758587|ACF05260.1|1|1|agg4A|agg4A||1|||aggregative_adherence_fimbria_4_major_subunit_Agg4A/HdaA			ncbi
 1929697372|WP_194293131.1|1|1|gar|gar||2|GENTAMICIN|AMINOGLYCOSIDE|gentamicin_resistance_ATP-binding_protein_Gar	AAC(6')-Isa	3002563	ncbi
 1929697373|WP_194293132.1|1|1|blaAAK-1|blaAAK|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_AAK-1	AAK-1	3006863	ncbi
 1929697374|WP_194293133.1|1|1|blaIMI-20|blaIMI|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_IMI-20	IMI-20	3006184	ncbi
@@ -4271,7 +4182,6 @@ Original ID	Gene Name in CARD	ARO	Database
 1949139237|WP_198462968.1|1|1|mef(J)|mef(J)|efflux|2|MACROLIDE|MACROLIDE|macrolide_efflux_MFS_transporter_Mef(J)	mefJ	3007049	ncbi
 1950519794|WP_198799270.1|1|1|blaPFM-4|blaPFM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B2_metallo-beta-lactamase_PFM-4	PFM-4	3007021	ncbi
 195182790|BAG66370.1|1|1|cif|cif||1|||type_III_secretion_system_effector_Cif	CARB-12	3002250	ncbi
-195182801|BAG66379.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
 195183184|BAG66729.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	VAM-1	3007062	ncbi
 195183191|BAG66736.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	fexA	3002704	ncbi
 1951967720|QQK39289.1|1|1|aph(3')-IId|aph(3')-IId|phosphotransferase|1|KANAMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-phosphotransferase_APH(3')-IId	APH(3')-IIb	3002645	ncbi
@@ -4284,16 +4194,13 @@ Original ID	Gene Name in CARD	ARO	Database
 1957530832|WP_200925854.1|1|1|blaGES-51|blaGES|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_GES-51	GES-5	3002334	ncbi
 195957512|ACG59623.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
 195957564|ACG59674.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	OXY-4-1	3002410	ncbi
-195957566|ACG59676.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			ncbi
 195957571|ACG59681.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
 195957621|ACG59730.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	tet(36)	3000197	ncbi
 195957623|ACG59732.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	smeE	3003056	ncbi
 195957628|ACG59737.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
 1963021720|WP_202089433.1|1|1|blaPER-16|blaPER|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_PER-16	PER-16	3006137	ncbi
-196475602|ACG76368.1|1|1|arsP|arsP||1|ORGANOARSENIC|ARSENIC|organoarsenical_efflux_permease_ArsP			ncbi
 1966320739|WP_202272142.1|1|1|blaCHM-1|blaCHM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_CHM-1	MYO-1	3006954	ncbi
 1969375088|WP_202781289.1|1|1|blaKPC-82|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-82	KPC-82	3006207	ncbi
-198040639|CAR56625.1|1|1|cblA_Bc|cblA_Bc||1|||cable_pilus_major_pilin_CblA			ncbi
 1988761213|WP_204313008.1|1|1|tet(O/W)|tet(O/W)||2|TETRACYCLINE|TETRACYCLINE|tetracycline_resistance_ribosomal_protection_mosaic_protein_Tet(O/W)	tet(O/W)	3007121	ncbi
 1988761216|WP_204313011.1|1|1|tet(W/32/O)|tet(W/32/O)||2|TETRACYCLINE|TETRACYCLINE|tetracycline_resistance_ribosomal_protection_mosaic_protein_Tet(W/32/O)	tet(O/W/32/O)	3007122	ncbi
 1992386351|WP_204376219.1|1|1|dfrA25|dfrA25|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA25	dfrA29	3004554	ncbi
@@ -4471,16 +4378,10 @@ Original ID	Gene Name in CARD	ARO	Database
 215252871|ACJ63530.1|1|1|iroE|iroE||1|||catecholate_siderophore_esterase_IroE	GOB-11	3004803	ncbi
 215264243|CAS08589.1|1|1|nleB2|nleB2||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB2	vanH gene in vanO cluster	3002948	ncbi
 215264622|CAS08990.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	IND-5	3002261	ncbi
-215266044|CAS10463.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			ncbi
-215489834|CAS06720.1|1|1|gamma-2|gamma-2||1|THETA|INTIMIN|intimin_type_theta			ncbi
-215489836|CAS06721.1|1|1|alpha-6|alpha-6||1|ZETA|INTIMIN|intimin_type_zeta			ncbi
-215489840|CAS06723.1|1|1|alpha-6|alpha-6||1|ZETA|INTIMIN|intimin_type_zeta			ncbi
 2159766608|WP_230924646.1|1|1|blaPRC-1|blaPRC|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_C_beta-lactamase_PRC-1	PRC-1	3007085	ncbi
 2159995|BAA20334.1|1|1|merR_Ps|merR_Ps||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR	golS	3000504	ncbi
-2159997|BAA20336.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			ncbi
 2159998|BAA20337.1|1|1|merA|merA||1|MERCURY|MERCURY|mercury(II)_reductase	rpoB2	3000501	ncbi
 2161526577|WP_231236808.1|1|1|mcr-1.34|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.34	MCR-1.34	3007230	ncbi
-21636536|AAM70045.1|1|1|stxA2a|stxA2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_A			ncbi
 2165384323|WP_231869585.1|1|1|npmB2|npmB||2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|16S_rRNA_(adenine(1408)-N(1))-methyltransferase_NpmB2	npmA	3002665	ncbi
 2165384324|WP_231869586.1|1|1|npmB1|npmB||2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|16S_rRNA_(adenine(1408)-N(1))-methyltransferase_NpmB1	npmA	3002665	ncbi
 2165384325|WP_231869587.1|1|1|blaOXA-1042|blaOXA-1_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-1_family_class_D_beta-lactamase_OXA-1042	OXA-1	3001396	ncbi
@@ -4563,7 +4464,6 @@ Original ID	Gene Name in CARD	ARO	Database
 217781|BAA14235.1|1|1|bont_C1|bont_C1||1|||botulinum_neurotoxin_subtype_C1	vgaB	3000118	ncbi
 2179505850|WP_234855925.1|1|1|blaIMP-93|blaIMP|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_IMP-93	IMP-93	3007463	ncbi
 21832314|BAC05434.1|1|1|bont_E4|bont_E4||1|||botulinum_neurotoxin_subtype_E4	ErmB	3000375	ncbi
-218349792|CAQ87187.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			ncbi
 218353314|CAU99295.1|1|1|pic_auto|pic_auto||1|||serine_protease_autotransporter_toxin_Pic	CBP-1	3004764	ncbi
 218353995|CAV00478.1|1|1|lpfA_gen|lpfA_gen||1|||long_polar_fimbria_major_subunit_LpfA	eptA	3003576	ncbi
 218354186|CAV00812.1|1|1|lpfA-O113|lpfA-O113||1|||long_polar_fimbria_major_subunit_LpfA-O113	OCH-7	3002520	ncbi
@@ -4571,10 +4471,8 @@ Original ID	Gene Name in CARD	ARO	Database
 218359306|CAU95796.1|1|1|aatA|aatA||1|||dispersin_export_ABC_transporter_outer_membrane_protein_AatA	adeK	3000782	ncbi
 218359334|CAU95824.1|1|1|agg3D|agg3D||1|||aggregative_adherence_fimbria_3_chaperone_Agg3D	VEB-17	3006213	ncbi
 218363970|CAR01635.1|1|1|vac_auto|vac_auto||1|||vacuolating_autotransporter_toxin_Vat	rmtC	3000861	ncbi
-218428762|CAR09703.2|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			ncbi
 218428771|CAR09712.2|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	tva(A)	3004730	ncbi
 218431740|CAR12622.1|1|1|iss|iss||1|||increased_serum_survival_lipoprotein_Iss	tet(E)	3000173	ncbi
-218434398|CAR15326.1|1|1|air|air||1|||inverse_autotransporter_adhesin_EaeX/Air			ncbi
 218921798|CAW30799.1|1|1|afaC|afaC||1|||AfaC-I/III_family_usher_protein	CARB-49	3005583	ncbi
 218921813|CAW30811.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE	APH(3'')-Ib	3002639	ncbi
 218921818|CAW30815.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE	APH(3'')-Ib	3002639	ncbi
@@ -4590,7 +4488,6 @@ Original ID	Gene Name in CARD	ARO	Database
 22001090|AAM88299.1|1|1|astA|astA||1|||heat-stable_enterotoxin_EAST1	OXA-198	3001805	ncbi
 22001098|AAM88302.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A	msrE	3003109	ncbi
 22002430|BAA14138.2|1|1|merC|merC||1|ORGANOMERCURY|MERCURY|organomercurial_transporter_MerC	vanX gene in vanA cluster	3002949	ncbi
-22003413|AAM88668.1|1|1|cueA|cueA||1|COPPER|COPPER|copper_resistance_metal-translocating_P1-type_ATPase_CueA			ncbi
 2201559171|WP_240067712.1|1|1|blaACT-100|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-100	ACT-51	3006246	ncbi
 2201559172|WP_240067713.1|1|1|blaACT-96|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-96	ACT-28	3001848	ncbi
 2201559173|WP_240067714.1|1|1|blaACT-97|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-97	ACT-51	3006246	ncbi
@@ -4632,7 +4529,6 @@ Original ID	Gene Name in CARD	ARO	Database
 2209736461|WP_241700785.1|1|1|blaOXY-2-30|blaOXY-2|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-2-30	OXY-2-9	3002404	ncbi
 221361403|CAX18553.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB	CTX-M-114	3001974	ncbi
 221361460|CAX18626.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB	CTX-M-114	3001974	ncbi
-221361465|CAX18635.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			ncbi
 221361471|CAX18641.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 221361476|CAX18646.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	CARB-42	3005576	ncbi
 221361531|CAX18721.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
@@ -4706,24 +4602,12 @@ Original ID	Gene Name in CARD	ARO	Database
 2220926459|WP_244054059.1|1|1|blaMOX-24|blaMOX|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|CMY-1/MOX_family_class_C_beta-lactamase_MOX-24	MOX-13	3006478	ncbi
 222708683|ACM67143.1|1|1|alpha-1|alpha-1||1|ALPHA|INTIMIN|intimin_type_alpha	SFC-1	3006985	ncbi
 222708687|ACM67145.1|1|1|iota-1|iota-1||1|IOTA|INTIMIN|intimin_type_iota	BJP-1	3000856	ncbi
-222708689|ACM67146.1|1|1|alpha-2|alpha-2||1|ALPHA|INTIMIN|intimin_type_alpha			ncbi
 222708693|ACM67148.1|1|1|gamma-1|gamma-1||1|GAMMA|INTIMIN|intimin_type_gamma	PST-2	3006977	ncbi
 222708695|ACM67149.1|1|1|gamma-3|gamma-3||1|GAMMA|INTIMIN|intimin_type_gamma	GOB-6	3004813	ncbi
-222708701|ACM67152.1|1|1|beta-2|beta-2||1|BETA|INTIMIN|intimin_type_beta			ncbi
-222708703|ACM67153.1|1|1|lambda-2|lambda-2||1|LAMBDA|INTIMIN|intimin_type_lambda			ncbi
-222708705|ACM67154.1|1|1|gamma-6|gamma-6||1|GAMMA|INTIMIN|intimin_type_gamma			ncbi
-222708707|ACM67155.1|1|1|epsilon-8|epsilon-8||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
-222708709|ACM67156.1|1|1|epsilon-8|epsilon-8||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
 222708711|ACM67157.1|1|1|beta-1|beta-1||1|BETA|INTIMIN|intimin_type_beta	FRI-8	3005031	ncbi
-222708713|ACM67158.1|1|1|epsilon-6|epsilon-6||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
 222708717|ACM67160.1|1|1|beta-1|beta-1||1|BETA|INTIMIN|intimin_type_beta	FLC-1	3005033	ncbi
-222708719|ACM67161.1|1|1|beta-2|beta-2||1|BETA|INTIMIN|intimin_type_beta			ncbi
-222708721|ACM67162.1|1|1|gamma-4|gamma-4||1|GAMMA|INTIMIN|intimin_type_gamma			ncbi
-222708723|ACM67163.1|1|1|rho-3|rho-3||1|RHO|INTIMIN|intimin_type_rho			ncbi
 222708725|ACM67164.1|1|1|gamma-4|gamma-4||1|GAMMA|INTIMIN|intimin_type_gamma	LEN-39	3004842	ncbi
-222708727|ACM67165.1|1|1|gamma-3|gamma-3||1|GAMMA|INTIMIN|intimin_type_gamma			ncbi
 222708729|ACM67166.1|1|1|gamma-5|gamma-5||1|GAMMA|INTIMIN|intimin_type_gamma	LEN-39	3004842	ncbi
-222708731|ACM67167.1|1|1|epsilon-6|epsilon-6||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
 222708733|ACM67168.1|1|1|alpha-1|alpha-1||1|ALPHA|INTIMIN|intimin_type_alpha	SFC-1	3006985	ncbi
 222708735|ACM67169.1|1|1|gamma-4|gamma-4||1|GAMMA|INTIMIN|intimin_type_gamma	LEN-39	3004842	ncbi
 222708741|ACM67172.1|1|1|epsilon-3|epsilon-3||1|EPSILON|INTIMIN|intimin_type_epsilon	LEN-39	3004842	ncbi
@@ -4747,7 +4631,6 @@ Original ID	Gene Name in CARD	ARO	Database
 2244254866|WP_249828070.1|1|1|blaWUS-1|blaWUS|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_WUS-1	WUS-1	3007435	ncbi
 224471378|BAH24012.1|1|1|toxB|toxB||1|||toxin_B	vanR gene in vanC cluster	3002922	ncbi
 2246006611|WP_250115625.1|1|1|blaGES-54|blaGES|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_GES-54	GES-4	3002333	ncbi
-224612960|CAQ77251.1|1|1|hlyA-alpha|hlyA-alpha||1|||RTX_toxin_hemolysin_HlyA			ncbi
 2246146926|WP_250127581.1|1|1|blaACT-110|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-110	ACT-52	3006247	ncbi
 2246529961|WP_250200322.1|1|1|blaKPC-100|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|inhibitor-resistant_carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-100	KPC-100	3007446	ncbi
 2246529962|WP_250200323.1|1|1|blaKPC-127|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-127	KPC-25	3005357	ncbi
@@ -4762,12 +4645,9 @@ Original ID	Gene Name in CARD	ARO	Database
 2263710706|WP_253114439.1|1|1|blaOXA-1110|blaOXA-134_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-134_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1110	OXA-496	3005335	ncbi
 2263747577|WP_253147258.1|1|1|blaOXA-1112|blaOXA-134_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-134_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1112	OXA-915	3005336	ncbi
 2265042055|WP_253282916.1|1|1|blaCDA-1|blaCDA|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_CDA-1	CMY-132	3003652	ncbi
-22652647|AAN03785.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			ncbi
-22652649|AAN03786.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			ncbi
 22657798|AAN04250.1|1|1|dpsA|dpsA||1|||non-specific_DNA-binding_protein_DpsA	vanS gene in vanL cluster	3002938	ncbi
 2267696040|WP_253892094.1|1|1|blaKPC-130|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|class_A_beta-lactamase_KPC-130	KPC-86	3007381	ncbi
 2270175537|WP_254205601.1|1|1|blaCTX-M-255|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-255	CTX-M-27	3001889	ncbi
-22759881|BAC10987.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			ncbi
 22759883|BAC10988.1|1|1|stxB1a|stxB1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_B	AFM-1	3006890	ncbi
 22759891|BAC10992.1|1|1|stxB1c|stxB1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_B	PNGM-1	3004571	ncbi
 2282479159|WP_256823972.1|1|1|blaVIM-84|blaVIM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_VIM-84	VIM-24	3002294	ncbi
@@ -4833,7 +4713,6 @@ Original ID	Gene Name in CARD	ARO	Database
 228698261|EEL50994.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	AAC(3)-IIIb	3002537	ncbi
 228756528|EEM05837.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	vanH gene in vanO cluster	3002948	ncbi
 2288277442|WP_258164747.1|1|1|blaVIM-81|blaVIM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_VIM-81	VIM-2	3002272	ncbi
-229260169|ACQ51206.1|1|1|bont_B5|bont_B5||1|||botulinum_neurotoxin_subtype_B5			ncbi
 229260380|ACQ51417.1|1|1|bont_A4|bont_A4||1|||botulinum_neurotoxin_subtype_A4	ADC-84	3006441	ncbi
 2293902530|WP_259115967.1|1|1|blaKPC-157|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-157	KPC-2	3002312	ncbi
 229487242|CAY54182.1|1|1|bfpA|bfpA||1|||bundle-forming_pilus_major_subunit_BfpA	KPC-99	3007452	ncbi
@@ -4895,7 +4774,6 @@ Original ID	Gene Name in CARD	ARO	Database
 23630581|AAN37537.1|1|1|yopJ_gen|yopJ_gen||1|||YopJ/YopP_family_T3SS_effector_serine/threonine_acetyltransferase	lsaD	3005121	ncbi
 23821234|CAC86907.1|1|1|merB|merB||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB	MexJ	3003692	ncbi
 238549596|BAH65947.1|1|1|peg-344|peg-344||1|||DMT_family_inner_membrane_transporter_PEG344	smeE	3003056	ncbi
-238549598|BAH65949.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			ncbi
 2395687275|WAK53219.1|1|1|stxB2n|stxB2n||1|STX2N|STX2|Shiga_toxin_Stx2n_subunit_B	tet(55)	3004591	ncbi
 2395698164|WAK61649.1|1|1|stxA2n|stxA2n||1|STX2N|STX2|Shiga_toxin_Stx2n_subunit_A	msrE	3003109	ncbi
 239710|AAB20438.1|1|1|focG|focG||1|||F1C_fimbria_minor_subunit_FocG	GES-13	3002342	ncbi
@@ -4948,7 +4826,6 @@ Original ID	Gene Name in CARD	ARO	Database
 2413681033|WP_268871885.1|1|1|blaPDC-536|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-536	PDC-35	3006719	ncbi
 2413681065|WP_268871888.1|1|1|blaSHV-230|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_SHV-230	SHV-12	3001071	ncbi
 2413681067|WP_268871889.1|1|1|blaSHV-231|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_SHV-231	SHV-5	3001064	ncbi
-24137633|BAC22064.1|1|1|bont_B2|bont_B2||1|||botulinum_neurotoxin_subtype_B2			ncbi
 242200048|ACS88189.1|1|1|ipaD|ipaD||1|||type_III_secretion_system_needle_tip_complex_protein_IpaD	rgt1438	3002883	ncbi
 2440070168|WP_272236549.1|1|1|blaADC-320|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-320	ADC-99	3006456	ncbi
 2440082783|WP_272247217.1|1|1|blaADC-307|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-307	ADC-158	3006332	ncbi
@@ -4995,7 +4872,6 @@ Original ID	Gene Name in CARD	ARO	Database
 2457337591|WP_275573817.1|1|1|blaOXA-1215|blaOXA-286_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-286_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1215	OXA-286	3001741	ncbi
 2460903379|WP_275802705.1|1|1|blaPDC-547|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-547	PDC-16	3006538	ncbi
 2465782|AAC45719.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	VIM-57	3005505	ncbi
-2465785|AAC45722.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 2487040336|WP_279240765.1|1|1|blaACT-113|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-113	ACT-70	3006265	ncbi
 2487040366|WP_279240766.1|1|1|blaACT-117|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-117	ACT-54	3006249	ncbi
 2487040369|WP_279240767.1|1|1|blaACT-118|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-118	ACT-29	3001849	ncbi
@@ -5050,7 +4926,6 @@ Original ID	Gene Name in CARD	ARO	Database
 2497690247|WGO76391.1|1|1|stxA2m|stxA2m||1|STX2M|STX2|Shiga_toxin_Stx2m_subunit_A	msrE	3003109	ncbi
 2497690248|WGO76392.1|1|1|stxB2m|stxB2m||1|STX2M|STX2|Shiga_toxin_Stx2m_subunit_B	IMP-41	3002232	ncbi
 24983435|AAN67541.1|1|1|arsN1b|arsN1b||1|ARSENIC|ARSENIC|arsinothricin_resistance_N-acetyltransferase_ArsN1_family_B	AAC(6')-Iu	3002565	ncbi
-24984576|AAN68576.1|1|1|mrdH|mrdH||1|COPPER/NICKEL|COPPER/NICKEL|Ni(II)/Co(II)_efflux_transporter_permease_subunit_MrdH			ncbi
 24984577|AAN68577.1|1|1|mreA|mreA||1|||metal-sensing_transcriptional_repressor_MreA	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	ncbi
 2498488757|WP_280940591.1|1|1|blaNDM-56|blaNDM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_NDM-56	NDM-5	3000467	ncbi
 2501000753|WP_281441144.1|1|1|blaOXA-1203|blaOXA-10_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-10_family_class_D_beta-lactamase_OXA-1203	OXA-101	3001439	ncbi
@@ -5085,11 +4960,9 @@ Original ID	Gene Name in CARD	ARO	Database
 2533492874|WP_290468365.1|1|1|blaPSZ-1|blaPSZ|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_C_beta-lactamase_PSZ-1	Escherichia coli ampC beta-lactamase	3004290	ncbi
 2533492875|WP_290468366.1|1|1|mcr-1.35|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.35	MCR-1.1	3003689	ncbi
 253721159|ACT33468.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	MCR-4.5	3004697	ncbi
-253721162|ACT33471.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 254593030|ACT72391.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
 254692351|CAR47993.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 254692367|CAR48009.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB	CTX-M-114	3001974	ncbi
-254939479|BAH86759.1|1|1|stxA2f|stxA2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_A			ncbi
 254939480|BAH86760.1|1|1|stxB2f|stxB2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_B	ADC-135	3006310	ncbi
 25553416|BAA20338.2|1|1|merB|merB||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB	mdtA	3000792	ncbi
 255760591|ACU32684.1|1|1|stxA2a|stxA2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_A	msrE	3003109	ncbi
@@ -5125,10 +4998,8 @@ Original ID	Gene Name in CARD	ARO	Database
 257146594|CAX45746.1|1|1|stxA2c|stxA2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_A	msrE	3003109	ncbi
 257146606|CAX51714.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	msrE	3003109	ncbi
 2575890069|WP_309367897.1|1|1|blaKPC-154|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-154	KPC-44	3006186	ncbi
-2576413|AAB82330.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			ncbi
 257753971|BAI25473.1|1|1|nleC|nleC||1|||type_III_secretion_system_effector_zinc_metalloprotease_NleC	CMY-73	3002086	ncbi
 257755753|BAI27255.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	salD	3007028	ncbi
-257759657|BAI31154.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
 257760795|BAI32292.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB	CTX-M-114	3001974	ncbi
 257760797|BAI32294.1|1|1|efa1|efa1||1|||lymphostatin_Efa1/LifA	mecD	3004185	ncbi
 257760830|BAI32327.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	VAM-1	3007062	ncbi
@@ -5137,7 +5008,6 @@ Original ID	Gene Name in CARD	ARO	Database
 257764761|BAI36256.1|1|1|nleC|nleC||1|||type_III_secretion_system_effector_zinc_metalloprotease_NleC	CMY-73	3002086	ncbi
 257765295|BAI36790.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	IND-5	3002261	ncbi
 257766018|BAI37513.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB	CTX-M-114	3001974	ncbi
-257766024|BAI37519.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			ncbi
 257766030|BAI37525.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 2580836124|WP_311033290.1|1|1|blaOCH|blaOCH|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|OCH_family_extended-spectrum_class_C_beta-lactamase	OCH-8	3002521	ncbi
 2580836125|WP_311033291.1|1|1|blaOCH|blaOCH|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|OCH_family_extended-spectrum_class_C_beta-lactamase	OCH-8	3002521	ncbi
@@ -5184,26 +5054,20 @@ Original ID	Gene Name in CARD	ARO	Database
 2580836166|WP_311033332.1|1|1|mcr-1.36|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.36	MCR-1.1	3003689	ncbi
 2580836167|WP_311033333.1|1|1|mcr-4.8|mcr-4||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-4.8	MCR-4.6	3007231	ncbi
 2580836168|WP_311033334.1|1|1|mcr-5.5|mcr-5||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-5.5	MCR-5.1	3004332	ncbi
-2588785|BAA23166.1|1|1|merG|merG||1|PHENYLMERCURY|MERCURY|phenylmercury_resistance_protein_MerG			ncbi
 2593830447|WP_316472302.1|1|1|blaKPC-197|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-197	KPC-82	3006207	ncbi
-25987939|AAN76093.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			ncbi
 259879880|ACW83608.1|1|1|bont_A6|bont_A6||1|||botulinum_neurotoxin_subtype_A6	ADC-207	3006376	ncbi
 25992110|AAN77057.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A	msrE	3003109	ncbi
 25992116|AAN77061.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A	msrE	3003109	ncbi
 25992119|AAN77063.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A	msrE	3003109	ncbi
 260212689|CBE03766.1|1|1|nimB-Cd|nimB-Cd||1|NITROIMIDAZOLE|NITROIMIDAZOLE|putative_5-nitroimidazole_reductase_NimB-Cd	nimE	3007107	ncbi
-260213855|CBE05858.1|1|1|bin_CdtB|bin_CdtB||1|||ADP-ribosylating_binary_toxin_binding_subunit_CdtB			ncbi
-260279121|BAI44131.1|1|1|agg5A|agg5A||1|||aggregative_adherence_fimbria_V_major_subunit_Agg5A			ncbi
 2605914|AAD12176.1|1|1|srpB|srpB||1|EFFLUX|EFFLUX|solvent_efflux_RND_transporter_permease_subunit_SrpB	MexB	3000378	ncbi
 2605915|AAD12177.1|1|1|srpC|srpC||1|EFFLUX|EFFLUX|solvent_efflux_RND_transporter_outer_membrane_subunit_SrpC	OprM	3000379	ncbi
 2605916|AAD12178.1|1|1|srpA|srpA||1|EFFLUX|EFFLUX|solvent_efflux_RND_transporter_periplasmic_adaptor_subunit_SrpA	MexA	3000377	ncbi
 26106648|AAN78833.1|1|1|pic_auto|pic_auto||1|||serine_protease_autotransporter_toxin_Pic	mphG	3003742	ncbi
 26106689|AAN78874.1|1|1|vac_auto|vac_auto||1|||vacuolating_autotransporter_toxin_Vat	rmtC	3000861	ncbi
-26107524|AAN79707.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			ncbi
 26109853|AAN82058.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	salD	3007028	ncbi
 26109868|AAN82073.1|1|1|iucC|iucC||1|||NIS_family_aerobactin_synthetase_IucC	ArnT	3005053	ncbi
 26109869|AAN82074.1|1|1|iucB|iucB||1|||N(6)-hydroxylysine_O-acetyltransferase_IucB	AAC(6')-IIb	3002595	ncbi
-26111414|AAN83596.1|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			ncbi
 2619142723|WP_318245537.1|1|1|aac(6')-D42|aac(6')-D42|acetyltransferase|2|KANAMYCIN|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase_AAC(6')-D42	AAC(6')-32	3002586	ncbi
 2619142724|WP_318245538.1|1|1|aac(6')_E449|aac(6')_E449|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase_AAC(6')-E449	AAC(6')-Iad	3002572	ncbi
 2619142725|WP_318245539.1|1|1|aac(6')_E553|aac(6')_E553|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase_AAC(6')-E553	AAC(6')-If	3002553	ncbi
@@ -5264,22 +5128,15 @@ Original ID	Gene Name in CARD	ARO	Database
 2664543118|WP_328703082.1|1|1|blaVEB-33|blaVEB|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_VEB-33	VEB-3	3002372	ncbi
 2665524|AAB88410.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	ACT-53	3006248	ncbi
 2696712|BAA24008.1|1|1|lukF-PV|lukF-PV||1|||Panton-Valentine_bi-component_leukocidin_subunit_F	KHM-1	3000847	ncbi
-270269184|ACZ66176.1|1|1|sel31|sel31||1|||staphylococcal_enterotoxin_type_31			ncbi
 27549252|AAO17297.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA	rphB	3003992	ncbi
-2765303|CAA73667.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi
-2765304|CAA73668.1|1|1|lukD|lukD||1|||bi-component_leukocidin_LukED_subunit_D			ncbi
 2808454|CAA50789.1|1|1|cshE|cshE||1|||CS13_fimbrial_major_subunit_CshE	ACT-9	3001826	ncbi
 281600803|ADA73787.1|1|1|ipaH3|ipaH3||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH3	QnrB1	3002714	ncbi
 281601418|ADA74402.1|1|1|ipaH4|ipaH4||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH4/H7	CfxA5	3003096	ncbi
-281603818|ADA76801.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			ncbi
 28192583|AAO19475.1|1|1|stxA1d|stxA1d||1|STX1D|STX1|Shiga_toxin_Stx1d_subunit_A	tet(E)	3000173	ncbi
 28192584|AAO19476.1|1|1|stxB1d|stxB1d||1|STX1D|STX1|Shiga_toxin_Stx1d_subunit_B	OXA-822	3006020	ncbi
 282160561|ADA79560.1|1|1|bont_F5|bont_F5||1|||botulinum_neurotoxin_subtype_F5	Mef(En2)	3004659	ncbi
-282160579|ADA79569.1|1|1|bont_F4|bont_F4||1|||botulinum_neurotoxin_subtype_F4			ncbi
 282160591|ADA79575.1|1|1|bont_F3|bont_F3||1|||botulinum_neurotoxin_subtype_F3	MCR-9.1	3004684	ncbi
 282165972|ADA79992.1|1|1|merT_pI258|merT_pI258||1|MERCURY|MERCURY|mercuric_transport_protein_MerT	mexN	3003705	ncbi
-282948281|CBG87859.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB			ncbi
-282950079|CBG89712.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			ncbi
 28316269|CAD66214.1|1|1|vac_auto|vac_auto||1|||vacuolating_autotransporter_toxin_Vat	vatB	3002841	ncbi
 283445101|ADB20445.1|1|1|toxB|toxB||1|||toxin_B	vanR gene in vanC cluster	3002922	ncbi
 284057669|ADB68610.1|1|1|emrE_Lis|emrE_Lis|efflux|1|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|quaternary_ammonium_compound_efflux_SMR_transporter_EmrE	qacG	3007015	ncbi
@@ -5289,25 +5146,17 @@ Original ID	Gene Name in CARD	ARO	Database
 284924280|CBG37385.1|1|1|aaiC|aaiC||1|||type_VI_secretion_system_protein_AaiC/Hcp2	OXA-457	3003613	ncbi
 284924589|CBG27762.1|1|1|aatA|aatA||1|||dispersin_export_ABC_transporter_outer_membrane_protein_AatA	adeC	3003811	ncbi
 284924606|CBG27784.1|1|1|aafB|aafB||1|||aggregative_adherence_fimbria_II_minor_subunit_AafB	tet(36)	3000197	ncbi
-284924615|CBG27798.1|1|1|aafD|aafD||1|||aggregative_adherence_fimbria_II_chaperone_AafD			ncbi
 284924617|CBG27800.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA	smeE	3003056	ncbi
 284924620|CBG27804.1|1|1|aggR|aggR||1|||aggregative_adherence_transcriptional_regulator_AggR	gadW	3003838	ncbi
 284924621|CBG27807.1|1|1|aap|aap||1|||dispersin_Aap	SHV-24	3001082	ncbi
 284924624|CBG27812.1|1|1|aar|aar||1|||AggR-activated_transcriptional_regulator_Aar	mdeA	3007011	ncbi
-2853151|CAA11820.1|1|1|cfsA|cfsA||1|||CS5_fimbrial_major_subunit_CsfA			ncbi
 2854037|AAD12174.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A	msrE	3003109	ncbi
 285817633|ADC38120.1|1|1|sep|sep||1|||staphylococcal_enterotoxin_type_P	tet(44)	3000556	ncbi
 28631601|AAO49780.1|1|1|ttgD|ttgD||1|EFFLUX|EFFLUX|toluene_efflux_RND_transporter_periplasmic_adaptor_subunit_TtgD	MexA	3000377	ncbi
 2865297|AAC38390.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	ACT-53	3006248	ncbi
-2865302|AAC38394.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			ncbi
-2865304|AAC38396.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			ncbi
-2865308|AAC38400.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			ncbi
 2879919|BAA24822.1|1|1|arsA|arsA||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_ATPase_subunit_ArsA	APH(3')-IIa	3002644	ncbi
-2879920|BAA24823.1|1|1|arsB_pKW301|arsB_pKW301||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			ncbi
 2879921|BAA24824.1|1|1|arsC_gluta|arsC_gluta||1|ARSENATE|ARSENIC|glutaredoxin-dependent_arsenate_reductase	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	ncbi
 290422|AAA20885.1|1|1|astA|astA||1|||heat-stable_enterotoxin_EAST1	OXA-198	3001805	ncbi
-290430|AAA23736.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
-290432|AAA23737.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin			ncbi
 290760718|ADD54679.1|1|1|espX1|espX1||1|||type_III_secretion_system_effector_EspX1	QnrC	3002787	ncbi
 290764911|ADD58872.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF	AQU-2	3004647	ncbi
 290764920|ADD58881.1|1|1|gamma-1|gamma-1||1|GAMMA|INTIMIN|intimin_type_gamma	PST-2	3006977	ncbi
@@ -5326,32 +5175,25 @@ Original ID	Gene Name in CARD	ARO	Database
 2947085|AAC38229.1|1|1|merR_Ps|merR_Ps||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR	golS	3000504	ncbi
 2947086|AAC38230.1|1|1|merB|merB||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB	mdtO	3003549	ncbi
 2947087|AAC38231.1|1|1|merT|merT||1|MERCURY|MERCURY|mercuric_transport_protein_MerT	SatA	3005045	ncbi
-2947088|AAC38232.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			ncbi
 2947089|AAC38233.1|1|1|merC|merC||1|ORGANOMERCURY|MERCURY|organomercurial_transporter_MerC	adeB	3000775	ncbi
 2947093|AAC38236.1|1|1|merE|merE||1|MERCURY|MERCURY|broad-spectrum_mercury_transporter_MerE	cmlA9	3005043	ncbi
-295060061|ADF64798.1|1|1|ncrC|ncrC||1|COPPER/NICKEL|COPPER/NICKEL|Ni(II)/Co(II)_efflux_transporter_permease_subunit_NcrC			ncbi
 296323016|ADH05944.1|1|1|inhA1|inhA1||1|||M6_family_metalloprotease_immune_inhibitor_InhA1	evgS	3000833	ncbi
 297374344|CBL93318.1|1|1|capU|capU||1|||putative_hexosyltransferase_CapU	LpsB	3005051	ncbi
 297374444|CBL93506.1|1|1|lngA|lngA||1|||type_IV_pilus_longus_major_pilin	adeF	3000777	ncbi
-297592330|ADI47068.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			ncbi
 298162636|ADI59685.1|1|1|astA|astA||1|||heat-stable_enterotoxin_EAST1	OXA-198	3001805	ncbi
 298682348|ADI95409.1|1|1|ttgE|ttgE||1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_permease_subunit_TtgE	MexB	3000378	ncbi
 298682350|ADI95411.1|1|1|ttgT|ttgT||1|EFFLUX|EFFLUX|efflux_transport_transcriptional_regulator_TtgT	CRP	3000518	ncbi
 29894390|AAP07680.1|1|1|inhA2|inhA2||1|||M6_family_metalloprotease_immune_inhibitor_InhA2	APH(6)-Ic	3002659	ncbi
 29894808|AAP08097.1|1|1|cytK2|cytK2||1|||beta-channel_forming_cytolysin_CytK2	vanF	3002908	ncbi
-29895498|AAP08785.1|1|1|nheC|nheC||1|||non-hemolytic_enterotoxin_NHE_subunit_C			ncbi
 29895642|AAP08924.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	SLB-1	3003556	ncbi
 29896768|AAP10046.1|1|1|hblB|hblB||1|||hemolytic_enterotoxin_HBL_binding_subunit_HblB	clbA	3002814	ncbi
 29896769|AAP10047.1|1|1|hblD|hblD||1|||hemolytic_enterotoxin_HBL_lytic_component_L1	cmlA5	3002695	ncbi
-29896770|AAP10048.1|1|1|hblC|hblC||1|||hemolytic_enterotoxin_HBL_lytic_component_L2			ncbi
 29897180|AAP10457.1|1|1|hlyII|hlyII||1|||hemolysin_II_HlyII	adeI	3000780	ncbi
 29897410|AAP10686.1|1|1|plcA|plcA||1|||phosphatidylinositol_diacylglycerol-lyase	tet(32)	3000196	ncbi
 30026597|AAP03990.1|1|1|mchF|mchF||1|||microcin_H47_export_transporter_peptidase/ATP-binding_subunit_MchF	novA	3002522	ncbi
-30043229|AAP18950.1|1|1|lpfA-O113|lpfA-O113||1|||long_polar_fimbria_major_subunit_LpfA-O113			ncbi
 300492223|ADK23698.1|1|1|qacR|qacR||1|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|multidrug-binding_transcriptional_regulator_QacR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
 301033171|ADK48765.1|1|1|bont_F7|bont_F7||1|||botulinum_neurotoxin_subtype_F7	TLA-3	3003204	ncbi
 301344464|ADK73987.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
-302333605|ADL23798.1|1|1|scn|scn||1|||complement_inhibitor_SCIN-A			ncbi
 30254271|AAP24685.1|1|1|inhA2|inhA2||1|||M6_family_metalloprotease_immune_inhibitor_InhA2	APH(6)-Ic	3002659	ncbi
 30254277|AAP24691.1|1|1|sph|sph||1|||sphingomyelinase_C	Pseudomonas aeruginosa CpxR	3004054	ncbi
 30257898|AAP27127.1|1|1|alo|alo||1|||anthrolysin_O/cereolysin_O_family_cholesterol-dependent_cytolysin_Alo	carA	3002817	ncbi
@@ -5367,12 +5209,10 @@ Original ID	Gene Name in CARD	ARO	Database
 307554992|ADN47767.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	salD	3007028	ncbi
 307627355|ADN71659.1|1|1|iss|iss||1|||increased_serum_survival_lipoprotein_Iss	tet(E)	3000173	ncbi
 30909080|AAP37403.1|1|1|stxA2g|stxA2g||1|STX2G|STX2|Shiga_toxin_Stx2g_subunit_A	msrE	3003109	ncbi
-3095184|AAC26634.1|1|1|pet|pet||1|||serine_protease_autotransporter_toxin_Pet			ncbi
 309706226|CBJ04488.1|1|1|cfaC|cfaC||1|||CFA/I_pilus_usher_protein_CfaC	AxyY	3004144	ncbi
 3098522|AAC15683.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	fexA	3002704	ncbi
 309973285|ADO96486.1|1|1|hmrM|hmrM|efflux|1|EFFLUX|EFFLUX|sodium-coupled_multidrug_efflux_MATE_transporter_HmrM	hmrM	3003953	ncbi
 310645232|ADP02162.1|1|1|merA|merA||1|MERCURY|MERCURY|mercury(II)_reductase	mdsB	3000790	ncbi
-3115184|CAA73506.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			ncbi
 312945734|ADR26561.1|1|1|iss|iss||1|||increased_serum_survival_lipoprotein_Iss	tet(E)	3000173	ncbi
 31322346|AAO74585.1|1|1|hlyIIR|hlyIIR||1|||hemolysin_II_regulator_HlyIIR	MexL	3003710	ncbi
 313585028|ADR70747.1|1|1|multi_CopA|multi_CopA||1|COPPER|COPPER|laccase-like_oxidase_CopA	EC-16	3006877	ncbi
@@ -5388,8 +5228,6 @@ Original ID	Gene Name in CARD	ARO	Database
 32400303|BAC78640.1|1|1|stxB1a|stxB1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_B	AFM-1	3006890	ncbi
 3249027|AAC69314.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
 3249033|AAC69318.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	fexA	3002704	ncbi
-325048858|BAJ79293.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			ncbi
-325048862|BAJ79295.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			ncbi
 325048864|BAJ79296.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA	smeE	3003056	ncbi
 325048866|BAJ79297.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA	OXA-333	3001521	ncbi
 325048870|BAJ79299.1|1|1|agg5A|agg5A||1|||aggregative_adherence_fimbria_V_major_subunit_Agg5A	IMP-75	3005480	ncbi
@@ -5407,33 +5245,26 @@ Original ID	Gene Name in CARD	ARO	Database
 330847160|AEC46568.1|1|1|bind_CopB|bind_CopB||1|COPPER|COPPER|copper-binding_protein_CopB	Trimethoprim-resistant dihydrofolate reductase DfrA42	3005334	ncbi
 331053717|EGI25746.1|1|1|iucA|iucA||1|||aerobactin_synthase_IucA	BahA	3003984	ncbi
 3319233|AAC38671.1|1|1|ttgB|ttgB||1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_permease_subunit_TtgB	adeF	3000777	ncbi
-332312684|EGJ25779.1|1|1|arsD_like|arsD_like||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD-related_protein			ncbi
 332312685|EGJ25780.1|1|1|arsA|arsA||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_ATPase_subunit_ArsA	mexY	3003033	ncbi
 332312687|EGJ25782.1|1|1|arsD|arsD||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD	tet(48)	3004581	ncbi
 332312688|EGJ25783.1|1|1|arsR_LGI2_2|arsR_LGI2_2||1|ARSENITE|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR	FONA-6	3004793	ncbi
 332312689|EGJ25784.1|1|1|arsA|arsA||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_ATPase_subunit_ArsA	mexY	3003033	ncbi
-332312690|EGJ25785.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			ncbi
-332312691|EGJ25786.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			ncbi
 332312696|EGJ25791.1|1|1|cadC_Lm|cadC_Lm||1|CADMIUM|CADMIUM|Cd(II)-sensing_metalloregulatory_transcriptional_repressor_CadC	aadA2	3002602	ncbi
 332312697|EGJ25792.1|1|1|cadA_Lm|cadA_Lm||1|CADMIUM|CADMIUM|cadmium-translocating_P-type_ATPase_CadA	MexL	3003710	ncbi
 33323007|AAQ07241.1|1|1|cif|cif||1|||type_III_secretion_system_effector_Cif	CARB-2	3002241	ncbi
 3337015|BAA31774.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA	vanX gene in vanM cluster	3002953	ncbi
 3337056|BAA31815.1|1|1|toxB|toxB||1|||toxin_B	vanR gene in vanC cluster	3002922	ncbi
 3337073|BAA31832.1|1|1|katP|katP||1|||catalase/peroxidase_KatP	Mycobacterium tuberculosis katG mutations conferring resistance to isoniazid	3003392	ncbi
-3337077|BAA31836.1|1|1|espP|espP||1|||serine_protease_autotransporter_EspP			ncbi
 33391260|AAQ17236.1|1|1|mco|mco||1|COPPER|COPPER|multi-copper_oxidase_Mco	vanX gene in vanM cluster	3002953	ncbi
 33391900|AAQ17546.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	msrE	3003109	ncbi
 3341424|CAA74174.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	VAM-1	3007062	ncbi
 3342215|AAC27654.1|1|1|cpb2|cpb2||1|||beta-2_toxin_CPB2	H-NS	3000676	ncbi
-33469479|AAQ19775.1|1|1|csdA|csdA||1|||CS19_fimbria_major_subunit_CsdA			ncbi
 334733218|AEG95593.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN	MexF	3000804	ncbi
 33518934|AAQ20107.1|1|1|csuC|csuC||1|||CS14_pilus_usher_protein_CsuC	OXA-945	3006124	ncbi
 337235577|AEI60187.1|1|1|selX|selX||1|||staphylococcal_enterotoxin-like_toxin_X	FIA-1	3006887	ncbi
-3372542|AAC78590.1|1|1|sej|sej||1|||staphylococcal_enterotoxin_type_J			ncbi
 339764841|AEK01061.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN	OXA-427	3003115	ncbi
 3414888|AAC31499.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	tet(36)	3000197	ncbi
 341579930|AAY90617.2|1|1|emhA|emhA|efflux|1|EFFLUX|EFFLUX|efflux_RND_transporter_periplasmic_adaptor_subunit_EmhA	MexA	3000377	ncbi
-3417251|CAA12346.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			ncbi
 3417255|CAA12348.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 341849332|EGS90476.1|1|1|sel32|sel32||1|||staphylococcal_enterotoxin_type_32	mdtC	3000794	ncbi
 343381794|AEM17342.1|1|1|cdtB|cdtB||1|||cytolethal_distending_toxin_nuclease_subunit_CdtB	AAC(6')-Iaf	3002574	ncbi
@@ -5443,43 +5274,27 @@ Original ID	Gene Name in CARD	ARO	Database
 349739484|AEQ14190.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	salD	3007028	ncbi
 349740291|AEQ14997.1|1|1|eilA|eilA||1|||HilA_family_transcriptional_regulator_EilA	vanR gene in vanP cluster	3007191	ncbi
 349740988|AEQ15694.1|1|1|capU|capU||1|||putative_hexosyltransferase_CapU	LpsB	3005051	ncbi
-3513658|AAC33908.1|1|1|merC|merC||1|ORGANOMERCURY|MERCURY|organomercurial_transporter_MerC			ncbi
 353234015|CCE21264.1|1|1|agg3A|agg3A||1|||aggregative_adherence_fimbria_3_major_subunit_Agg3A	dfrA15	3003013	ncbi
 353558547|AER11391.1|1|1|bont_E7|bont_E7||1|||botulinum_neurotoxin_subtype_E7	ErmB	3000375	ncbi
 353558549|AER11392.1|1|1|bont_E8|bont_E8||1|||botulinum_neurotoxin_subtype_E8	ErmB	3000375	ncbi
 353892712|EHE72460.1|1|1|pmrA|pmrA|efflux|1|QUINOLONE|QUINOLONE|multidrug_efflux_MFS_transporter_PmrA	pmrA	3000822	ncbi
 354855771|EHF16244.1|1|1|aatA|aatA||1|||dispersin_export_ABC_transporter_outer_membrane_protein_AatA	adeC	3003811	ncbi
-354855824|EHF16297.1|1|1|aggB|aggB||1|||aggregative_adherence_fimbria_I_minor_subunit_AggB			ncbi
-354855825|EHF16298.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			ncbi
-356484840|AET11941.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
-356484899|AET11995.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
-356484913|AET12008.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			ncbi
 356596044|AET17094.1|1|1|arsR_pKW301|arsR_pKW301||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR	lsaC	3003112	ncbi
 356598351|AET14866.1|1|1|stb|stb||1|||heat-stable_enterotoxin_ST-II	OXA-542	3005768	ncbi
-371976459|EHO93748.1|1|1|aur|aur||1|||zinc_metalloproteinase_aureolysin			ncbi
 37222597|AAQ90017.1|1|1|ymoA|ymoA||1|||expression_modulating_protein_YmoA	KHM-1	3000847	ncbi
-374343131|BAL46940.1|1|1|alpha|alpha||1|ALPHA|INTIMIN|intimin_type_alpha			ncbi
-374343133|BAL46941.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
-374343515|BAL47132.1|1|1|epsilon-4|epsilon-4||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
-374343603|BAL47176.1|1|1|rho-2|rho-2||1|YPSILON|INTIMIN|intimin_type_ypsilon			ncbi
-374343609|BAL47179.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			ncbi
-374343613|BAL47181.1|1|1|alpha|alpha||1|ALPHA|INTIMIN|intimin_type_alpha			ncbi
 374361082|AEZ42789.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
 374362005|AEZ43710.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	IND-5	3002261	ncbi
 37519362|AAQ92182.1|1|1|emhC|emhC||1|EFFLUX|EFFLUX|efflux_RND_transporter_outer_membrane_subunit_EmhC	OprM	3000379	ncbi
 3757832|CAA77068.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA	vgbA	3001307	ncbi
 37723869|AAR02190.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA	LpeB	3004100	ncbi
 378937643|AFC62715.1|1|1|eat(A)|eat(A)|target_protection|0|PLEUROMUTILIN|PLEUROMUTILIN|ABC-F_type_ribosomal_protection_protein_Eat(A)	lsaA	3000300	ncbi
-380005626|AFD29291.1|1|1|aalE|aalE||1|||CS23_fimbrial_major_subunit_AalE			ncbi
 380083190|AFD33678.1|1|1|bont_B7|bont_B7||1|||botulinum_neurotoxin_subtype_B7	KHM-1	3000847	ncbi
 38016683|AAR07704.1|1|1|rmpA2|rmpA2||1|||mucoid_phenotype_regulator_RmpA2	evgA	3000832	ncbi
-380248692|CBW53086.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			ncbi
 380503729|BAL72684.1|1|1|cdtB|cdtB||1|||cytolethal_distending_toxin_nuclease_subunit_CdtB	tet(G)	3000174	ncbi
 380503743|BAL72697.1|1|1|cdtB|cdtB||1|||cytolethal_distending_toxin_nuclease_subunit_CdtB	vatC	3002842	ncbi
 3805790|CAA73972.1|1|1|bont_F2|bont_F2||1|||botulinum_neurotoxin_subtype_F2	Bla1	3000090	ncbi
 38154560|AAR12207.1|1|1|cdtB_III|cdtB_III||1|||cytolethal_distending_toxin_type_III/V_nuclease_subunit_CdtB	vatC	3002842	ncbi
 3818601|AAC69584.1|1|1|ybtQ|ybtQ||1|||yersiniabactin_ABC_transporter_ATP-binding/permease_protein_YbtQ	novA	3002522	ncbi
-38194523|AAR13270.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			ncbi
 383394815|AFH14350.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
 383468048|EID63069.1|1|1|ipaH5|ipaH5||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH5	AAC(6')-Ie-APH(2'')-Ia bifunctional protein	3002597	ncbi
 383472743|EID64799.1|1|1|cnf2|cnf2||1|||cytotoxic_necrotizing_factor_CNF2	MdtK	3001327	ncbi
@@ -5488,24 +5303,18 @@ Original ID	Gene Name in CARD	ARO	Database
 38636519|CAD87835.1|1|1|stb|stb||1|||heat-stable_enterotoxin_ST-II	OXA-542	3005768	ncbi
 3868983|BAA34299.1|1|1|mexX|mexX|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_MexX	mexX	3003034	ncbi
 388383013|EIL44824.1|1|1|sfaF|sfaF||1|||S/F1C_fimbrial_biogenesis_usher_protein_SfaF/FocD	msbA	3003950	ncbi
-389595513|AFK88558.1|1|1|sat_auto|sat_auto||1|||serine_protease_autotransporter_toxin_Sat			ncbi
-390980685|AFM31243.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			ncbi
 392336447|AFM70729.1|1|1|copA_Ehir|copA_Ehir||1|COPPER|COPPER|copper-translocating_P-type_ATPase_CopA	mdtF	3000796	ncbi
 392336448|AFM70730.1|1|1|copB_Ehir|copB_Ehir||1|COPPER/SILVER|COPPER/SILVER|copper/silver-translocating_P-type_ATPase_CopB	tetR	3003479	ncbi
 3941400|AAC82360.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	VAM-1	3007062	ncbi
-394333411|AFN27480.1|1|1|bonA|bonA||1|||bongkrekic_acid_type_I_polyketide_synthase_BonA			ncbi
-395406670|AFN61309.1|1|1|bont_B8|bont_B8||1|||botulinum_neurotoxin_subtype_B8			ncbi
 401170014|EJQ77255.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	SLB-1	3003556	ncbi
 401658099|EJS75599.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	SLB-1	3003556	ncbi
 402170|CAA79951.1|1|1|myfA|myfA||1|||fimbrial_protein_MyfA	arnA	3002985	ncbi
 40218082|AAR82964.1|1|1|nirB|nirB||1|NICKEL|NICKEL|nickel-sensing_transcriptional_repressor_NirB	EBR-1	3000842	ncbi
 40218084|AAR82966.1|1|1|nirD|nirD||1|NICKEL|NICKEL|nickel_resistance_OB_fold_protein_NirD	ErmN	3000592	ncbi
-403299|CAA50007.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			ncbi
 4038548|CAA12345.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 4038550|CAA12350.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 4038551|CAA12351.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 40394|CAA43999.1|1|1|bont_E1|bont_E1||1|||botulinum_neurotoxin_subtype_E1	ErmB	3000375	ncbi
-406780449|AFS59871.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			ncbi
 407052774|AFS72825.1|1|1|pic_auto|pic_auto||1|||serine_protease_autotransporter_toxin_Pic	CBP-1	3004764	ncbi
 407054979|AFS75030.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	salD	3007028	ncbi
 407064638|AFS85685.1|1|1|mchF|mchF||1|||microcin_H47_export_transporter_peptidase/ATP-binding_subunit_MchF	novA	3002522	ncbi
@@ -5515,11 +5324,9 @@ Original ID	Gene Name in CARD	ARO	Database
 410825131|AFV91339.1|1|1|bont_E9|bont_E9||1|||botulinum_neurotoxin_subtype_E9	ErmB	3000375	ncbi
 4115576|BAA36431.1|1|1|merR_Ps|merR_Ps||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR	golS	3000504	ncbi
 4115578|BAA36433.1|1|1|merD|merD||1|MERCURY|MERCURY|mercury_resistance_co-regulator_MerD	golS	3000504	ncbi
-41157|CAA34816.1|1|1|cstB|cstB||1|||CS3_fimbrial_usher_protein_CstB	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	ncbi
 41176|CAA40744.1|1|1|mchF|mchF||1|||microcin_H47_export_transporter_peptidase/ATP-binding_subunit_MchF	novA	3002522	ncbi
 41179|CAA40746.1|1|1|cvaC|cvaC||1|||colicin_V	Klebsiella pneumoniae KpnE	3004580	ncbi
 41453|CAA32535.1|1|1|fim41a|fim41a||1|||fimbrial_adhesin_F41_protein_Fim41a	smeB	3003052	ncbi
-414655|CAA51960.1|1|1|ibp|ibp||1|||ADP-ribosylating_binary_toxin_iota_binding_subunit_Ib			ncbi
 414709724|CCN31428.1|1|1|crcB|crcB||1|FLUORIDE|FLUORIDE|fluoride_efflux_transporter_CrcB	CrcB	3005049	ncbi
 4154886|AAD05936.1|1|1|copP|copP||1|COPPER|COPPER|copper-binding_metallochaperone_CopP	msrF	3005087	ncbi
 41581495|AAS07580.1|1|1|stxA2c|stxA2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_A	msrE	3003109	ncbi
@@ -5544,7 +5351,6 @@ Original ID	Gene Name in CARD	ARO	Database
 42299|CAA43568.1|1|1|papE|papE||1|||P_fimbrial_minor_subunit_PapE	tet(37)	3002871	ncbi
 42300|CAA43569.1|1|1|papF|papF||1|||P_fimbrial_tip_protein_PapF	FIA-1	3006887	ncbi
 42301|CAA43570.1|1|1|papG-I|papG-I||1|||P_fimbria_tip_G-adhesin_PapG-I	DfrA39	3005351	ncbi
-42529|CAA43558.1|1|1|papG-III|papG-III||1|||P_fimbria_tip_G-adhesin_PapG-III			ncbi
 42601196|AAS21297.1|1|1|tbtR|tbtR||1|EFFLUX|EFFLUX|tribuytltin_resistance_regulator_TbtR	oqxB	3003923	ncbi
 42735739|AAS39677.1|1|1|cerA|cerA||1|||phospholipase_CerA	vanT gene in vanC cluster	3002970	ncbi
 42736958|AAS40892.1|1|1|nheA|nheA||1|||non-hemolytic_enterotoxin_NHE_subunit_A	Campylobacter coli chloramphenicol acetyltransferase	3004454	ncbi
@@ -5558,9 +5364,6 @@ Original ID	Gene Name in CARD	ARO	Database
 4335904|AAD17509.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	3004480	ncbi
 4335906|AAD17510.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	APH(3')-IXa	3004087	ncbi
 4335908|AAD17511.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	CIA-1	3004768	ncbi
-4335912|AAD17513.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			ncbi
-4335914|AAD17514.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			ncbi
-4335916|AAD17515.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 436946|AAA18786.1|1|1|cdtB_II|cdtB_II||1|||cytolethal_distending_toxin_type_II_nuclease_subunit_CdtB	AAC(6')-Iaf	3002574	ncbi
 43715|CAA77320.1|1|1|merR_Ps|merR_Ps||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR	golS	3000504	ncbi
 43719|CAA77324.1|1|1|merD|merD||1|MERCURY|MERCURY|mercury_resistance_co-regulator_MerD	Pseudomonas aeruginosa soxR	3004107	ncbi
@@ -5852,20 +5655,15 @@ Original ID	Gene Name in CARD	ARO	Database
 4588029|AAD25959.1|1|1|merR_Bc2|merR_Bc2||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR2	golS	3000504	ncbi
 459392465|AGB13719.2|1|1|stxA2k|stxA2k||1|STX2K|STX2|Shiga_toxin_Stx2k_subunit_A	msrE	3003109	ncbi
 459907|AAA98245.1|1|1|merA|merA||1|MERCURY|MERCURY|mercury(II)_reductase	catIII	3002685	ncbi
-46369880|AAS89773.1|1|1|cosA|cosA||1|||PCF071_fimbrial_major_subunit_CosA			ncbi
-46369885|AAS89777.1|1|1|csbA|csbA||1|||CS17_fimbrial_major_subunit_CsbA			ncbi
 46567|CAA29260.1|1|1|sec1|sec1||1|||staphylococcal_enterotoxin_type_C1	AAC(6')-Iaf	3002574	ncbi
 4689215|AAD27810.1|1|1|aafC|aafC||1|||aggregative_adherence_fimbria_II_usher_protein_AafC	catA4	3004657	ncbi
 4691718|AAD28042.1|1|1|blaEC|blaEC|hydrolase|1|BETA-LACTAM|BETA-LACTAM|BlaEC_family_class_C_beta-lactamase	EC-8	3006881	ncbi
 469236|AAA24698.1|1|1|tsh|tsh||1|||temperature-sensitive_protease_autotransporter_hemagglutinin_Tsh	Staphylococcus aureus mupB conferring resistance to mupirocin	3000510	ncbi
-46949087|AAT07441.1|1|1|cooA|cooA||1|||CS1_fimbrial_major_subunit_CooA			ncbi
 46981054|CAE82650.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
 46981060|CAE82653.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
 46981094|CAE82670.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
 4704412|AAD28079.1|1|1|hlyE|hlyE||1|||hemolysin_HlyE	mexY	3003033	ncbi
 471302|CAA83535.1|1|1|aggR|aggR||1|||aggregative_adherence_transcriptional_regulator_AggR	gadW	3003838	ncbi
-472420551|EMS03085.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			ncbi
-47600653|CAE55775.1|1|1|sat_auto|sat_auto||1|||serine_protease_autotransporter_toxin_Sat			ncbi
 47600660|CAE55782.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	tva(A)	3004730	ncbi
 47606661|AAT36311.1|1|1|rpeA|rpeA||1|||serine_protease_autotransporter_colonization_factor_RpeA	AAC(6')-31	3002585	ncbi
 476720331|ENA25238.1|1|1|papA|papA||1|||P_fimbria_major_subunit_PapA	MCR-3.15	3007252	ncbi
@@ -6654,7 +6452,6 @@ Original ID	Gene Name in CARD	ARO	Database
 507092197|WP_016162901.1|1|1|aacA-ACI6|aacA-ACI6|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ighjkrstuvwx_family_aminoglycoside_N-acetyltransferase	AAC(6')-Is	3002562	ncbi
 508434103|EOW04219.1|1|1|iroB|iroB||1|||salmochelin_biosynthesis_C-glycosyltransferase_IroB	oleI	3000866	ncbi
 5091480|AAD39553.1|1|1|ttgA|ttgA||1|EFFLUX|EFFLUX|toluene_efflux_RND_transporter_periplasmic_adaptor_subunit_TtgA	MexA	3000377	ncbi
-50956507|AAT90756.1|1|1|tcbA|tcbA||1|||Tc_family_toxin_subunit_TcbA			ncbi
 50956508|AAT90757.1|1|1|tcaC|tcaC||1|||Tc_family_toxin_subunit_TcaC	fusH	3003026	ncbi
 50956512|AAT90761.1|1|1|tccC|tccC||1|||Tc_family_toxin_RHS_repeat_subunit_TccC	emrR	3000516	ncbi
 50983078|AAT92048.1|1|1|cdtB_IV|cdtB_IV||1|||cytolethal_distending_toxin_type_IV_nuclease_subunit_CdtB	Bla1	3000090	ncbi
@@ -6719,7 +6516,6 @@ Original ID	Gene Name in CARD	ARO	Database
 518556154|WP_019726361.1|1|1|rmtD1|rmtD|target_modification|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|16S_rRNA_(guanine(1405)-N(7))-methyltransferase_RmtD1	rmtD	3002667	ncbi
 518557037|WP_019727244.1|1|1|sul1|sul1|insensitivity|2|SULFONAMIDE|SULFONAMIDE|sulfonamide-resistant_dihydropteroate_synthase_Sul1	sul1	3000410	ncbi
 518557885|WP_019728092.1|1|1|erm(49)|erm(49)|target_modification|2|CLINDAMYCIN/ERYTHROMYCIN|LINCOSAMIDE/MACROLIDE|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(49)	Erm(49)	3004626	ncbi
-51949833|AAU14850.1|1|1|cpb2|cpb2||1|||beta-2_toxin_CPB2			ncbi
 520888660|WP_020316986.1|1|1|blaSHV-7|blaSHV|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_SHV-7	SHV-7	3001066	ncbi
 521255830|WP_020442395.1|1|1|qnrA6|qnrA|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrA6	QnrA6	3002712	ncbi
 523676098|WP_020803043.1|1|1|blaKPC-7|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-7	KPC-7	3002317	ncbi
@@ -6727,26 +6523,19 @@ Original ID	Gene Name in CARD	ARO	Database
 526007648|WP_020836977.1|1|1|blaOXA-452|blaOXA-61_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-61_family_class_D_beta-lactamase_OXA-452	OXA-452	3003608	ncbi
 526475188|WP_020848173.1|1|1|blaOXA-491|blaOXA|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_D_beta-lactamase_OXA-491	OXA-491	3005725	ncbi
 52854339|AAU88208.1|1|1|stxA2c|stxA2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_A	msrE	3003109	ncbi
-52854784|AAU88264.1|1|1|cdtB|cdtB||1|||cytolethal_distending_toxin_nuclease_subunit_CdtB			ncbi
 529016727|WP_020924773.1|1|1|blaAXC-1|blaAXC|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_AXC-1	AXC-1	3006897	ncbi
 5305719|AAD41788.1|1|1|plcR|plcR||1|||transcriptional_regulator_PlcR	RanA	3005091	ncbi
 530666611|WP_020956917.1|1|1|blaVEB-3|blaVEB|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_VEB-3	VEB-3	3002372	ncbi
 531397|AAA57451.1|1|1|aggD|aggD||1|||aggregative_adherence_fimbria_I_chaperone_AggD	vanG	3002909	ncbi
-531398|AAA57452.1|1|1|aggC|aggC||1|||aggregative_adherence_fimbria_I_usher_protein_AggC			ncbi
 531399|AAA57453.1|1|1|aggB|aggB||1|||aggregative_adherence_fimbria_I_minor_subunit_AggB	PAC-1	3005150	ncbi
 531400|AAA57454.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA	MCR-8.2	3007229	ncbi
 533119|AAA92037.1|1|1|cph|cph||1|CAPREOMYCIN/VIOMYCIN|TUBERACTINOMYCIN|capreomycin_phosphotransferase	cph	3007075	ncbi
-534988|CAA85366.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			ncbi
 535055|CAA85368.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A	tet(E)	3000173	ncbi
-535089|CAA85370.1|1|1|stxA1c|stxA1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_A			ncbi
 535090|CAA85371.1|1|1|stxB1c|stxB1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_B	NDM-38	3007215	ncbi
-535625057|EQX61716.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			ncbi
 537391516|AGU62139.1|1|1|hld|hld||1|||delta-hemolysin	tet(47)	3004613	ncbi
 538025271|WP_020996270.1|1|1|blaCMY-13|blaCMY|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_CMY-13	CMY-13	3002024	ncbi
-53850832|AAU95470.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB			ncbi
 53854858|AAU95768.1|1|1|mepA|mepA|efflux|1|TIGECYCLINE|TETRACYCLINE|multidrug_efflux_MATE_transporter_MepA	mepA	3000026	ncbi
 54311621|CAG17536.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	macA	3000533	ncbi
-54311626|CAG17541.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			ncbi
 543134908|WP_021018581.1|1|1|catB8|catB8|acetyltransferase|2|CHLORAMPHENICOL|PHENICOL|type_B-3_chloramphenicol_O-acetyltransferase_CatB8	catB8	3002680	ncbi
 543135134|WP_021018609.1|1|1|blaIMP-9|blaIMP|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_IMP-9	IMP-9	3002200	ncbi
 543996038|WP_021034342.1|1|1|aph(2'')-Ig|aph(2'')-Ig|phosphotransferase|2|AMIKACIN/GENTAMICIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-phosphotransferase_APH(2'')-Ig	APH(2'')-Ig	3002669	ncbi
@@ -6780,7 +6569,6 @@ Original ID	Gene Name in CARD	ARO	Database
 545323583|WP_021598056.1|1|1|blaTEM-144|blaTEM|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_TEM-144	TEM-144	3001007	ncbi
 5453449|AAD43578.1|1|1|astA|astA||1|||heat-stable_enterotoxin_EAST1	arnA	3002985	ncbi
 5453451|AAD43579.1|1|1|astA|astA||1|||heat-stable_enterotoxin_EAST1	OXA-198	3001805	ncbi
-545581792|AGW33874.1|1|1|lukS-PV|lukS-PV||1|||Panton-Valentine_bi-component_leukocidin_subunit_S			ncbi
 546164563|WP_021806421.1|1|1|blaFONA-11|blaFONA|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_FONA-11	FONA-5	3004792	ncbi
 547422422|WP_022065596.1|1|1|blaLEN-10|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-10	LEN-10	3002460	ncbi
 547452244|WP_022071788.1|1|1|lnu(P)|lnu(P)|nucleotidyltransferase|2|LINCOSAMIDE|LINCOSAMIDE|lincosamide_nucleotidyltransferase_Lnu(P)	LnuP	3004601	ncbi
@@ -6789,7 +6577,6 @@ Original ID	Gene Name in CARD	ARO	Database
 549996339|WP_022575343.1|1|1|blaADC-255|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-255	ADC-255	3006425	ncbi
 550049059|WP_022580963.1|1|1|blaPDC-38|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-38	PDC-38	3006750	ncbi
 550334|CAA85780.1|1|1|stxA2a|stxA2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_A	catB2	3002675	ncbi
-550423|CAA57277.1|1|1|hlgC|hlgC||1|||bi-component_gamma-hemolysin_HlgCB_subunit_C			ncbi
 550424|CAA57278.1|1|1|hlgB|hlgB||1|||bi-component_gamma-hemolysin_HlgAB/HlgCB_subunit_B	KHM-1	3000847	ncbi
 550460|AAA80193.1|1|1|mtrC|mtrC|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_MtrC	mtrC	3000810	ncbi
 550552027|WP_022631162.1|1|1|aac(6')-Ib-G|aac(6')-Ib-G|acetyltransferase|2|GENTAMICIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib'	3003676	ncbi
@@ -6872,7 +6659,6 @@ Original ID	Gene Name in CARD	ARO	Database
 57284345|AAW36439.1|1|1|sek|sek||1|||staphylococcal_enterotoxin_type_K	OXA-296	3001751	ncbi
 57286370|AAW38464.1|1|1|lmrS|lmrS||1|CHLORAMPHENICOL/ERYTHROMYCIN|MACROLIDE/PHENICOL|multidrug_efflux_MFS_transporter_LmrS	Staphylococcus aureus LmrS	3004572	ncbi
 57434401|CAI43818.1|1|1|efa1|efa1||1|||lymphostatin_Efa1/LifA	tetB(P)	3000195	ncbi
-57434439|CAI43856.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			ncbi
 57434443|CAI43860.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	VAM-1	3007062	ncbi
 57434445|CAI43862.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 57434448|CAI43865.1|1|1|epsilon-1|epsilon-1||1|EPSILON|INTIMIN|intimin_type_epsilon	LEN-39	3004842	ncbi
@@ -6886,7 +6672,6 @@ Original ID	Gene Name in CARD	ARO	Database
 5852501|AAD54074.1|1|1|farB|farB||1|EFFLUX|EFFLUX|fatty_acid_resistance_MFS_efflux_transporter_permease_subunit_FarB	farB	3003962	ncbi
 585316628|WP_024198294.1|1|1|aadA22|aadA22|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA22	aadA22	3002619	ncbi
 586640775|AHJ80154.1|1|1|stxB1e|stxB1e||1|STX1E|STX1|Shiga_toxin_Stx1e_subunit_B	PNGM-1	3004571	ncbi
-586640776|AHJ80155.1|1|1|stxA1e|stxA1e||1|STX1E|STX1|Shiga_toxin_Stx1e_subunit_A			ncbi
 587656006|AHK10119.1|1|1|bont_E12|bont_E12||1|||botulinum_neurotoxin_subtype_E12	MCR-10.2	3007277	ncbi
 600562782|EYN56163.1|1|1|seq|seq||1|||staphylococcal_enterotoxin_type_Q	APH(2'')-Ie	3002634	ncbi
 6009379|BAA84838.1|1|1|bfpA|bfpA||1|||bundle-forming_pilus_major_subunit_BfpA	KPC-99	3007452	ncbi
@@ -6899,19 +6684,15 @@ Original ID	Gene Name in CARD	ARO	Database
 611963771|AHW84567.1|1|1|aaiC|aaiC||1|||type_VI_secretion_system_protein_AaiC/Hcp2	OXA-457	3003613	ncbi
 61652451|AAX47728.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	fexA	3002704	ncbi
 61652453|AAX47729.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	fexA	3002704	ncbi
-61652455|AAX47730.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir			ncbi
 61652457|AAX47731.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	fexA	3002704	ncbi
 616824935|KAG18833.1|1|1|sel26|sel26||1|||staphylococcal_enterotoxin_type_26	Staphylococcus aureus mupA conferring resistance to mupirocin	3000521	ncbi
 619128|CAA58525.1|1|1|pcoA|pcoA||1|COPPER|COPPER|multicopper_oxidase_PcoA	LRA-19	3002513	ncbi
 619129|CAA58526.1|1|1|pcoB|pcoB||1|COPPER|COPPER|copper-binding_protein_PcoB	SHV-218	3005238	ncbi
-619130|CAA58527.1|1|1|pcoC|pcoC||1|COPPER|COPPER|copper_resistance_system_metallochaperone_PcoC			ncbi
 619131|CAA58528.1|1|1|pcoD|pcoD||1|COPPER|COPPER|copper_resistance_inner_membrane_protein_PcoD	tetA(P)	3000180	ncbi
 619132|CAA58529.1|1|1|pcoR|pcoR||1|COPPER|COPPER|copper_response_regulator_transcription_factor_PcoR	arlR	3000838	ncbi
 619133|CAA58530.1|1|1|pcoS|pcoS||1|COPPER|COPPER|copper_resistance_membrane_spanning_protein_PcoS	vanS gene in vanA cluster	3002931	ncbi
 619135|CAA58532.1|1|1|pcoE|pcoE||1|COPPER|COPPER|copper_resistance_system_metallochaperone_PcoE	AAC(6')-Ib-cr1	3002547	ncbi
 62085704|AAX63244.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF	vanG	3002909	ncbi
-62085706|AAX63245.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			ncbi
-62085734|AAX63259.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			ncbi
 62085756|AAX63270.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF	cipA	3003907	ncbi
 62550724|AAX88798.1|1|1|alo|alo||1|||anthrolysin_O/cereolysin_O_family_cholesterol-dependent_cytolysin_Alo	carA	3002817	ncbi
 63002562|AAY25390.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	LRA-18	3002492	ncbi
@@ -6957,7 +6738,6 @@ Original ID	Gene Name in CARD	ARO	Database
 646742063|WP_025577435.1|1|1|blaCARB-48|blaCARB|hydrolase|2|BETA-LACTAM|BETA-LACTAM|carbenicillin-hydrolyzing_class_A_beta-lactamase_CARB-48	CARB-48	3005582	ncbi
 646998191|WP_025623492.1|1|1|blaCARB-27|blaCARB|hydrolase|2|BETA-LACTAM|BETA-LACTAM|carbenicillin-hydrolyzing_class_A_beta-lactamase_CARB-27	CARB-27	3005563	ncbi
 6470205|AAF13659.1|1|1|capE|capE||1|||capsule_biosynthesis_protein_CapE	tet(K)	3000178	ncbi
-6470209|AAF13663.1|1|1|capB|capB||1|||capsule_biosynthesis_protein_CapB			ncbi
 647047270|WP_025632811.1|1|1|blaCARB-21|blaCARB|hydrolase|2|BETA-LACTAM|BETA-LACTAM|carbenicillin-hydrolyzing_class_A_beta-lactamase_CARB-21	CARB-21	3003176	ncbi
 647218547|WP_025672409.1|1|1|aadA15|aadA15|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA15	aadA15	3002615	ncbi
 647264291|WP_025712239.1|1|1|blaLEN-26|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-26	LEN-26	3002474	ncbi
@@ -7009,7 +6789,6 @@ Original ID	Gene Name in CARD	ARO	Database
 659675639|WP_029884393.1|1|1|oqxB6|oqxB|efflux|2|PHENICOL/QUINOLONE|PHENICOL/QUINOLONE|multidrug_efflux_RND_transporter_permease_subunit_OqxB6	oqxB	3003923	ncbi
 659878453|WP_029925205.1|1|1|blaOCH-7|blaOCH|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_OCH-7	OCH-7	3002520	ncbi
 663142911|WP_030183523.1|1|1|aph(3')-VIIIa|aph(3')-VIIIa|phosphotransferase|2|AMIKACIN/KANAMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-phosphotransferase_APH(3')-VIIIa	APH(3')-VIIIa	3004680	ncbi
-663201|CAA54115.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE			ncbi
 663241056|WP_030275963.1|1|1|vph|vph|phosphotransferase|2|VIOMYCIN|TUBERACTINOMYCIN|viomycin_phosphotransferase	vph	3003061	ncbi
 663407871|WP_030403494.1|1|1|aacA-STR-7|aacA-STR-7|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Isa	3002563	ncbi
 664161234|WP_030695745.1|1|1|aacA-STR-13|aacA-STR-13|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Isa	3002563	ncbi
@@ -7028,14 +6807,12 @@ Original ID	Gene Name in CARD	ARO	Database
 667759344|WP_031380727.1|1|1|dfrA44|dfrA44|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA44	dfrG	3002868	ncbi
 6683770|AAF23359.1|1|1|epsilon-1|epsilon-1||1|EPSILON|INTIMIN|intimin_type_epsilon	LEN-39	3004842	ncbi
 6686906|CAB64770.1|1|1|hblA|hblA||1|||hemolytic_enterotoxin_HBL_binding_subunit_HblA	vanX gene in vanM cluster	3002953	ncbi
-6687466|CAB64953.1|1|1|stxA2f|stxA2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_A			ncbi
 67043451|AAY63864.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A	msrE	3003109	ncbi
 670464736|WP_031413517.1|1|1|blaCARB-24|blaCARB|hydrolase|2|BETA-LACTAM|BETA-LACTAM|carbenicillin-hydrolyzing_class_A_beta-lactamase_CARB-24	CARB-24	3005560	ncbi
 670516706|WP_031464190.1|1|1|qacA|qacA|efflux|2|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|quaternary_ammonium_compound_efflux_MFS_transporter_QacA	qacA	3003046	ncbi
 671722471|AII82289.1|1|1|bont_E11|bont_E11||1|||botulinum_neurotoxin_subtype_E11	MCR-10.2	3007277	ncbi
 671722553|AII82330.1|1|1|bont_E10|bont_E10||1|||botulinum_neurotoxin_subtype_E10	ErmB	3000375	ncbi
 674138353|AIK83625.1|1|1|rmpC|rmpC||1|||mucoid_phenotype_regulator_RmpC	evgA	3000832	ncbi
-674651835|CDY80020.1|1|1|LHR_hsp20A|LHR_hsp20A||1|||small_heat_shock_protein_sHSP20			ncbi
 68343009|AAY90615.1|1|1|emhC|emhC||1|EFFLUX|EFFLUX|efflux_RND_transporter_outer_membrane_subunit_EmhC	OprM	3000379	ncbi
 685889027|WP_031630420.1|1|1|blaPDC-71|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-71	PDC-71	3006846	ncbi
 685897950|WP_031638595.1|1|1|blaPDC-361|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-361	PDC-361	3006731	ncbi
@@ -7473,7 +7250,6 @@ Original ID	Gene Name in CARD	ARO	Database
 734521392|AJA05787.1|1|1|bont_A8|bont_A8||1|||botulinum_neurotoxin_subtype_A8	ADC-207	3006376	ncbi
 73476882|AAZ76497.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA	MCR-1.24	3007243	ncbi
 73476885|AAZ76500.1|1|1|sab|sab||1|||autotransporter_adhesin_Sab	vanS gene in vanE cluster	3002935	ncbi
-73476899|AAZ76514.1|1|1|espP|espP||1|||serine_protease_autotransporter_EspP			ncbi
 73476909|AAZ76524.1|1|1|subA|subA||1|||subtilase_AB5_cytotoxin_subunit_A	sdrM	3007013	ncbi
 735679972|WP_034169413.1|1|1|mcr-1.26|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.26	MCR-1.26	3007280	ncbi
 735680083|WP_034169466.1|1|1|fosA4|fos_A3_A4|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosA4	FosA4	3003210	ncbi
@@ -7588,7 +7364,6 @@ Original ID	Gene Name in CARD	ARO	Database
 754686391|WP_042065300.1|1|1|blaTEM-12|blaTEM|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_TEM-12	TEM-12	3000884	ncbi
 754713822|WP_042088348.1|1|1|blaOXA-1001|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1001	OXA-355	3001542	ncbi
 754951950|WP_042308119.1|1|1|qnrB69|qnrB|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrB69	QnrB69	3002781	ncbi
-755408432|AJJ21446.1|1|1|yopM|yopM||1|||type_III_secretion_system_effector_YopM			ncbi
 755408439|AJJ21453.1|1|1|yopH|yopH||1|||T3SS_effector_protein-tyrosine-phosphatase_YopH	tet(Y)	3000182	ncbi
 755408452|AJJ21466.1|1|1|yopT|yopT||1|||T3SS_effector_cysteine_protease_YopT	smeC	3003053	ncbi
 755408457|AJJ21471.1|1|1|yopE|yopE||1|||type_III_secretion_system_effector_GTPase_activator_YopE	MCR-3.34	3007268	ncbi
@@ -7619,10 +7394,8 @@ Original ID	Gene Name in CARD	ARO	Database
 759906063|WP_043592266.1|1|1|blaCRH-1|blaCRH|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_CRH-1	CRH-1	3006865	ncbi
 759944943|WP_043629745.1|1|1|blaCRP-1|blaCRP|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_CRP-1	CRP-1	3006868	ncbi
 760091946|WP_043774378.1|1|1|catA13|catA13|acetyltransferase|2|CHLORAMPHENICOL|PHENICOL|type_A-13_chloramphenicol_O-acetyltransferase	Campylobacter coli chloramphenicol acetyltransferase	3004454	ncbi
-760237696|AJP10335.1|1|1|tcdR|tcdR||1|||glycosylating_toxin_sigma_factor_TcdR			ncbi
 760237697|AJP10336.1|1|1|tcdB|tcdB||1|||glycosylating_toxin_TcdB	cphA7	3003103	ncbi
 760237698|AJP10337.1|1|1|tcdE|tcdE||1|||holin-like_glycosylating_toxin_export_protein_TcdE	OXA-79	3001633	ncbi
-760237700|AJP10339.1|1|1|tcdA|tcdA||1|||glycosylating_toxin_TcdA			ncbi
 760237701|AJP10340.1|1|1|tcdC|tcdC||1|||glycosylating_toxin_anti-sigma_factor_TcdC	lin	3004651	ncbi
 760239703|AJP12342.1|1|1|cplR|cplR|target_protection|1|CLINDAMYCIN/LINCOMYCIN/RETAPAMULIN/VIRGINIAMYCIN|LINCOSAMIDE/PLEUROMUTILIN/STREPTOGRAMIN|ABC-F_type_ribosomal_protection_protein_CplR	vgaD	3002832	ncbi
 762039390|WP_043875313.1|1|1|blaLEN-32|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-32	LEN-32	3004839	ncbi
@@ -7685,8 +7458,6 @@ Original ID	Gene Name in CARD	ARO	Database
 808209287|AKC61310.1|1|1|cplR|cplR|target_protection|1|CLINDAMYCIN/LINCOMYCIN/RETAPAMULIN/VIRGINIAMYCIN|LINCOSAMIDE/PLEUROMUTILIN/STREPTOGRAMIN|ABC-F_type_ribosomal_protection_protein_CplR	vgaD	3002832	ncbi
 808791368|WP_046275846.1|1|1|blaCMY-70|blaCMY|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_CMY-70	CMY-70	3002083	ncbi
 810924243|WP_046361760.1|1|1|erm(55)|erm(55)|target_modification|2|CLARITHROMYCIN|MACROLIDE|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(55)	erm(46)	3004596	ncbi
-812239686|CNC65351.1|1|1|yadA|yadA||1|||trimeric_autotransporter_adhesin_YadA			ncbi
-81240477|ABB61187.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			ncbi
 81241386|ABB62096.1|1|1|ipaH3|ipaH3||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH3	QnrB1	3002714	ncbi
 81241388|ABB62098.1|1|1|ipaH2|ipaH2||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH2	AAC(6')-Ie-APH(2'')-Ia bifunctional protein	3002597	ncbi
 81243968|ABB64677.1|1|1|ipaD|ipaD||1|||type_III_secretion_system_needle_tip_complex_protein_IpaD	rgt1438	3002883	ncbi
@@ -7694,7 +7465,6 @@ Original ID	Gene Name in CARD	ARO	Database
 81245521|ABB66229.1|1|1|ipaH2|ipaH2||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH2	AAC(6')-Ie-APH(2'')-Ia bifunctional protein	3002597	ncbi
 81248217|ABB68924.1|1|1|virF|virF||1|||AraC_family_invasion_system_transcriptional_regulator_VirF	gadW	3003838	ncbi
 815697313|WP_046430859.1|1|1|blaL1|blaL1|hydrolase|2|CARBAPENEM|BETA-LACTAM|L1_family_subclass_B3_metallo-beta-lactamase	L1 beta-lactamase	3000582	ncbi
-817048098|AKF16652.1|1|1|netF|netF||1|||necrotizing_enteritis_toxin_NetF			ncbi
 817129630|WP_046502149.1|1|1|aac(6')_Strep|aac(6')_Strep|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Isa	3002563	ncbi
 817653623|WP_046619698.1|1|1|blaLEN-7|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-7	LEN-7	3002457	ncbi
 817656445|WP_046622360.1|1|1|aadA1|aadA1|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA1	ANT(3'')-IIa	3004089	ncbi
@@ -7705,7 +7475,6 @@ Original ID	Gene Name in CARD	ARO	Database
 820798439|WP_046759755.1|1|1|blaOXA-1144|blaOXA-229_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-229_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1144	OXA-355	3001542	ncbi
 820902263|WP_046808255.1|1|1|blaFONA-1|blaFONA|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_FONA-1	FONA-1	3004788	ncbi
 820953904|WP_046811527.1|1|1|blaOXA-1045|blaOXA-213_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-213_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1045	OXA-533	3005763	ncbi
-821787072|KLB41245.1|1|1|copL|copL||1|COPPER|COPPER|transcriptional_regulator_CopL			ncbi
 822023208|WP_046882921.1|1|1|blaADC-259|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-259	ADC-5	3003851	ncbi
 822027863|WP_046887417.1|1|1|blaCMH-5|blaCMH|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_C_beta-lactamase_CMH-5	CMH-5	3006857	ncbi
 822042381|WP_046897272.1|1|1|aac(6')_Serra|aac(6')_Serra|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ic	3002549	ncbi
@@ -7721,7 +7490,6 @@ Original ID	Gene Name in CARD	ARO	Database
 827451024|WP_047211550.1|1|1|vat(B)|vat(B)|acetyltransferase|2|STREPTOGRAMIN|STREPTOGRAMIN|streptogramin_A_O-acetyltransferase_Vat(B)	vatB	3002841	ncbi
 829851921|WP_047354536.1|1|1|blaACT-19|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-19	ACT-19	3001840	ncbi
 829921638|WP_047364854.1|1|1|blaACT-70|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-70	ACT-70	3006265	ncbi
-83308567|CAI79539.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			ncbi
 83408547|CAJ44959.1|1|1|mchF|mchF||1|||microcin_H47_export_transporter_peptidase/ATP-binding_subunit_MchF	novA	3002522	ncbi
 8346571|CAB77169.2|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	msrE	3003109	ncbi
 835265496|WP_047426753.1|1|1|aacA-ACI5|aacA-ACI5|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ighjkrstuvwx_family_aminoglycoside_N-acetyltransferase	AAC(6')-Ir	3002561	ncbi
@@ -7738,7 +7506,6 @@ Original ID	Gene Name in CARD	ARO	Database
 836571982|WP_047729810.1|1|1|aac(6')_Serra|aac(6')_Serra|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ic	3002549	ncbi
 836573978|WP_047731800.1|1|1|qnrB3|qnrB|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrB3	QnrB3	3002716	ncbi
 8439282|CAB94149.1|1|1|stxB2a|stxB2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_B	IMP-44	3002235	ncbi
-844574223|AKN09807.1|1|1|yopJ_gen|yopJ_gen||1|||YopJ/YopP_family_T3SS_effector_serine/threonine_acetyltransferase			ncbi
 847745|AAC34727.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
 851889999|WP_048207712.1|1|1|aadA2|aadA2|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA2	aadA2	3002602	ncbi
 851894243|WP_048209719.1|1|1|blaACT-69|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-69	ACT-69	3006264	ncbi
@@ -7760,12 +7527,9 @@ Original ID	Gene Name in CARD	ARO	Database
 85675040|BAA15331.2|1|1|asr|asr||1|||acid_resistance_repetitive_basic_protein_Asr	amrB	3002983	ncbi
 85676145|BAE77395.1|1|1|fieF|fieF||1|||CDF_family_cation-efflux_transporter_FieF	OXA-205	3001483	ncbi
 85676370|BAE77620.1|1|1|emrD|emrD|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_MFS_transporter_EmrD	bcr-1	3003801	ncbi
-85676543|BAE77793.1|1|1|arsR_K-12|arsR_K-12||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			ncbi
 8671435|BAA96815.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	BIL-1	3004755	ncbi
 86753170|ABD14712.1|1|1|cesB|cesB||1|||cereulide_non-ribosomal_peptide_synthetase_CesB	almE	3007433	ncbi
 86753171|ABD14713.1|1|1|cesC|cesC||1|||cereulide_export_ABC_transporter_permease_ATP-binding_protein_CesC	bcrA	3002987	ncbi
-86753172|ABD14714.1|1|1|cesD|cesD||1|||cereulide_export_ABC_transporter_permease_subunit_CesD			ncbi
-871816|AAA69514.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 871999085|CRY27194.1|1|1|yadA|yadA||1|||trimeric_autotransporter_adhesin_YadA	ugd	3003577	ncbi
 87203189|ABD30999.1|1|1|splE|splE||1|||serine_protease_SplE	Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	3004480	ncbi
 87203193|ABD31003.1|1|1|splB|splB||1|||serine_protease_SplB	IMP-41	3002232	ncbi
@@ -7778,7 +7542,6 @@ Original ID	Gene Name in CARD	ARO	Database
 880995312|WP_048717443.1|1|1|tetB(46)|tetB(46)|efflux|2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_ABC_transporter_Tet(46)_subunit_B	tetB(46)	3004033	ncbi
 881126937|WP_048804470.1|1|1|blaPEN-A8|blaPEN-A|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_PEN-A8	LRA-1	3002482	ncbi
 881138939|WP_048806429.1|1|1|blaOXA-151|blaOXA-62_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-62_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-151	OXA-151	3001456	ncbi
-886953|CAA88252.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			ncbi
 88759144|BAE79899.1|1|1|smfY|smfY||1|EFFLUX|EFFLUX|multidrug_efflux_MFS_transporter_SmfY	Acinetobacter baumannii AmvA	3004577	ncbi
 890088027|WP_048880934.1|1|1|blaOXA-360|blaOXA-134_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-134_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-360	OXA-360	3001547	ncbi
 8926247|AAF81760.1|1|1|bin_CdtA|bin_CdtA||1|||ADP-ribosylating_binary_toxin_enzymatic_subunit_CdtA	QnrC	3002787	ncbi
@@ -7827,7 +7590,6 @@ Original ID	Gene Name in CARD	ARO	Database
 910236568|WP_050041693.1|1|1|aadA27|aadA27|nucleotidyltransferase|2|SPECTINOMYCIN/STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-II_family_aminoglycoside_nucleotidyltransferase_AadA27	aadA27	3004682	ncbi
 91070941|ABE05822.1|1|1|fdeC|fdeC||1|||inverse_autotransporter_adhesin_FdeC	mexX	3003034	ncbi
 91071717|ABE06598.1|1|1|sfaS|sfaS||1|||S-fimbrial_adhesin_minor_subunit_SfaS	adeB	3000775	ncbi
-91075443|ABE10324.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			ncbi
 910928430|WP_050141558.1|1|1|aac(6')_Yersi|aac(6')_Yersi|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Iaa	3002571	ncbi
 912572581|WP_050190632.1|1|1|blaTEM-215|blaTEM|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_TEM-215	TEM-215	3001392	ncbi
 912687134|WP_050232631.1|1|1|tet(M)|tet(M)|target_protection|2|TETRACYCLINE|TETRACYCLINE|tetracycline_resistance_ribosomal_protection_protein_Tet(M)	tet(M)	3000186	ncbi
@@ -7916,7 +7678,6 @@ Original ID	Gene Name in CARD	ARO	Database
 94315076|ABF14407.1|1|1|ncrB|ncrB||1|NICKEL|NICKEL|nickel-sensing_transcriptional_repressor_NcrB	vanJ	3002914	ncbi
 943909695|WP_055545096.1|1|1|aac(6')-sk|aac(6')-sk|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib-SK	3002593	ncbi
 944149328|WP_055641627.1|1|1|erm(30)|erm(30)|target_modification|2|LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN|LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(30)	Erm(30)	3001265	ncbi
-94480755|CAK02719.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			ncbi
 944825|CAA90630.1|1|1|stxA2a|stxA2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_A	msrE	3003109	ncbi
 947856904|WP_056517622.1|1|1|blaOXA-669|blaOXA-274_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-274_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-669	OXA-669	3005880	ncbi
 949429320|BAT41861.1|1|1|alpha-8|alpha-8||1|ALPHA|INTIMIN|intimin_type_alpha	LEN-39	3004842	ncbi
@@ -8032,37 +7793,9 @@ Original ID	Gene Name in CARD	ARO	Database
 99030337|ABF61434.1|1|1|ncrA|ncrA||1|NICKEL|NICKEL|Metal_Resistance	efmA	3003954	ncbi
 99030338|ABF61435.1|1|1|ncrB|ncrB||1|NICKEL|NICKEL|nickel-sensing_transcriptional_repressor_NcrB	EBR-2	3004463	ncbi
 99030340|ABF61437.1|1|1|ncrY|ncrY||1|NICKEL|NICKEL|nickel_resistance_OB_fold_protein_NcrY	tet(50)	3004584	ncbi
-991872253|AMG40538.1|1|1|sel|sel||1|||staphylococcal_enterotoxin_type_L			ncbi
 9948545|AAG05881.1|1|1|mexE|mexE|efflux|1|EFFLUX|EFFLUX|MexE_family_multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit	MexE	3000803	ncbi
-997194215|CXT91862.1|1|1|sel33|sel33||1|||staphylococcal_enterotoxin_type_33			ncbi
 9988580|AAG10695.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
 999916810|KXI80363.1|1|1|cesA|cesA||1|||cereulide_non-ribosomal_peptide_synthetase_CesA	almE	3007433	ncbi
-0|WP_000872264.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X59	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872267.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X2	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872270.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X4	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872271.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X0	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872273.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X10	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872275.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X3	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872277.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X6	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872282.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X5	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_001039998.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A1	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001040004.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A3	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001040010.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A2	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001040013.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A0	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001224867.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B0	mecA	3000617	ncbi
-0|WP_001224871.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B3	mecA	3000617	ncbi
-0|WP_001224884.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B2	mecA	3000617	ncbi
-0|WP_001224885.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B6	mecA	3000617	ncbi
-0|WP_001224886.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B4	mecA	3000617	ncbi
-0|WP_003703066.1|1|1|pbp2|pbp2|susceptible|2|||penicillin-binding_protein_PBP2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_033707918.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X23	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_050078510.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A11	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_050208712.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A12	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_050293540.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X27	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_054364452.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X12	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_054370471.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A9	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_061634854.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B5	mecA	3000617	ncbi
-0|WP_061745305.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X17	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
 0|WP_000064875.1|1|1|lpxA|lpxA|mutation|2|||acyl-ACP--UDP-N-acetylglucosamine_O-acyltransferase_LpxA	catB2	3002675	ncbi
 0|WP_000159119.1|1|1|cdsA|cdsA|mutation|2|||phosphatidate_cytidylyltransferase_CdsA	MexF	3000804	ncbi
 0|WP_000161505.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	arlR	3000838	ncbi
@@ -8251,6 +7984,32 @@ Original ID	Gene Name in CARD	ARO	Database
 941950587|WP_002289473.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	acrD	3000491	ncbi
 949628753|WP_057042458.1|1|1|rpsL|rpsL|mutation|2|||30S_ribosomal_protein_S12_RpsL	APH(2'')-Ig	3002669	ncbi
 985479976|WP_002295408.1|1|1|liaF|liaF|mutation|2|||three-component_signaling_pathway_regulator_LiaF	vanT gene in vanN cluster	3002975	ncbi
+0|WP_000872264.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X59	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872267.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X2	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872270.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X4	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872271.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X0	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872273.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X10	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872275.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X3	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872277.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X6	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872282.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X5	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_001039998.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A1	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001040004.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A3	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001040010.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A2	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001040013.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A0	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001224867.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B0	mecA	3000617	ncbi
+0|WP_001224871.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B3	mecA	3000617	ncbi
+0|WP_001224884.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B2	mecA	3000617	ncbi
+0|WP_001224885.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B6	mecA	3000617	ncbi
+0|WP_001224886.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B4	mecA	3000617	ncbi
+0|WP_003703066.1|1|1|pbp2|pbp2|susceptible|2|||penicillin-binding_protein_PBP2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_033707918.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X23	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_050078510.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A11	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_050208712.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A12	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_050293540.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X27	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_054364452.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X12	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_054370471.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A9	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_061634854.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B5	mecA	3000617	ncbi
+0|WP_061745305.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X17	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
 0|WP_002912926.1:253:cirA_Y253CfsTer5ins7|1|1|cirA|cirA|mutation|2|||catecholate_siderophore_receptor_CirA	GOB-42	3005691	ncbi
 0|WP_000642196.1:336:ftsI_I336IKYRI|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
 0|WP_000642196.1:336:ftsI_I336IPYRI|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
@@ -8261,6 +8020,12 @@ Original ID	Gene Name in CARD	ARO	Database
 489000713|WP_002911375.1:47:mgrB_W47R|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	mdtC	3000794	ncbi
 490283234|WP_004179093.1:129:pmrB_ALNQLV129del|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
 0|WP_004193008.1:107:yciV_DALAALG107del|1|1|yciV|yciV|mutation|2|||PHP_domain-containing_protein_YciV	MCR-10.5	3007274	ncbi
+2465785|AAC45722.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
+253721162|ACT33471.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
+290430|AAA23736.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
+41157|CAA34816.1|1|1|cstB|cstB||1|||CS3_fimbrial_usher_protein_CstB	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	ncbi
+4335916|AAD17515.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
+871816|AAA69514.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 0|WP_000351450.1|1|1|nfsB|nfsB|mutation|2|||oxygen-insensitive_NAD(P)H_nitroreductase_NfsB	Helicobacter pylori rdxA mutation conferring resistance to metronidazole	3007055	ncbi
 0|WP_001281183.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 0|WP_005494728.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
@@ -8269,3 +8034,5 @@ Original ID	Gene Name in CARD	ARO	Database
 445994192|WP_000072047.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
 487756832|WP_001837315.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
 727330535|WP_033785346.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+1433476833|RCV70079.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi
+2765303|CAA73667.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi

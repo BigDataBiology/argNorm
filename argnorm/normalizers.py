@@ -102,17 +102,14 @@ class BaseNormalizer:
         Don't customize this unless you're using your own (not package built-in) reference data.
         """
         df = pd.read_csv(get_data_path(f'{self.database}_ARO_mapping.tsv', False), sep='\t')
+
         manual_curation = pd.read_csv(get_data_path(f'{self.database}_curation.tsv', True), sep='\t')
+        manual_curation['Database'] = df['Database']
 
-        gene_identifier = 'Original ID'
-        aro_nan_indices = [(list(df[gene_identifier]).index(manual_curation.loc[i, gene_identifier])) for i in range(manual_curation.shape[0])]
-
-        for i in range(len(aro_nan_indices)):
-            df.loc[aro_nan_indices[i], 'ARO'] = manual_curation.loc[i, 'ARO']
-            df.loc[aro_nan_indices[i], 'Gene Name in CARD'] = manual_curation.loc[i, 'Gene Name in CARD']
+        aro_mapping_table = pd.concat([df, manual_curation])
+        aro_mapping_table[TARGET_ARO_COL] = aro_mapping_table[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a)}' if is_number(a) else a)
         
-        df[TARGET_ARO_COL] = df[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a)}' if is_number(a) else a)
-        return df
+        return aro_mapping_table
 
     def load_input(self, input_file):
         """

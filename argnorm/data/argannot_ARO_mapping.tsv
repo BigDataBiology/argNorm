@@ -17,7 +17,6 @@ argannot~~~(AGly)aac2-Ia~~~L06156:264-800	AAC(2')-Ia	3002523	argannot
 argannot~~~(AGly)aac2-Ib~~~U41471:266-822	AAC(2')-Ib	3002524	argannot
 argannot~~~(AGly)aac2-Ic~~~U72714:373-918	AAC(2')-Ic	3002525	argannot
 argannot~~~(AGly)aac2-Ie~~~NC_011896:3039059-3039607	AAC(2')-Ie	3002527	argannot
-argannot~~~(AGly)aac3-I~~~AJ877225:5293-5757			argannot
 argannot~~~(AGly)aac3-I~~~X15852:1250-1783	AAC(3)-Ia	3002528	argannot
 argannot~~~(AGly)aac3-IIa~~~X51534:91-951	AAC(3)-IIe	3004621	argannot
 argannot~~~(AGly)aac3-IIc~~~X54723:819-1679	AAC(3)-IIc	3002535	argannot
@@ -2097,7 +2096,6 @@ argannot~~~(Phe)cmr~~~U85507:3518-4693	cmx	3002703	argannot
 argannot~~~(Phe)cmrA~~~Z12001:993-2168	Rhodococcus fascians cmr	3002701	argannot
 argannot~~~(Phe)cmxA~~~AF024666:15877-17052	cmx	3002703	argannot
 argannot~~~(Phe)cpt~~~NG_051909:101-631	lsaB	3003111	argannot
-argannot~~~(Phe)cpt_strepv~~~U09991:1412-1948			argannot
 argannot~~~(Phe)dha1~~~BA000018:2517801-2518988	cmx	3002703	argannot
 argannot~~~(Phe)fexA~~~JQ041372:14024-15451	fexA	3002704	argannot
 argannot~~~(Phe)floR~~~AKLJ01000508:383-1597	floR	3002705	argannot
