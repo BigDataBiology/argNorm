@@ -32,7 +32,3 @@
 - Initial source code started
 - Normalizers: added BaseNormalizer, ARGSOAPNormalizer, DeepARGNormalizer, AbricateNormalizer
 - Testing: added basic ARO column test
-
-## Unreleased
-
-- Bioconda package
