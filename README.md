@@ -9,6 +9,8 @@
 argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the
 [antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD. It also provides drug categorization of drugs that antibiotic resistance genes confer resistance to.
 
+![argNorm Workflow](./docs/images/argnorm_workflow.svg)
+
 ## Why argNorm?
 
 Right now, many tools exist for annotating ARGs in genomes and metagenomes. However, each tool will have distinct output formats.
