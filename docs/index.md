@@ -11,7 +11,7 @@ argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping the
 
 It also enhances tables of antibiotic resistance genes by annotating with the antibiotic they target (as provided by ARO).
 
-![argNorm Workflow](./images/argnorm_workflow.png)
+![argNorm Workflow](./images/argnorm_workflow.svg)
 
 ## Why argNorm?
 
