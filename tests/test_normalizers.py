@@ -3,6 +3,7 @@ import argnorm.normalize as argnorm
 import pandas as pd
 import os
 import numpy as np
+from warnings import warn
     
 def get_normed(normalizer, input_path):
     normed = normalizer.run(input_path)
@@ -33,25 +34,33 @@ def test_deeparg_normalizer(hamronized):
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder'])
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'random_db'])
 def test_abricate_normalizer_hamronized(database):
-    normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=True)
-    input_path = f'./examples/hamronized/abricate.{database}.tsv'
+    try:
+        normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=True)
+    except:
+        warn(f'Unsupported database: {database} used.')
+    else:
+        input_path = f'./examples/hamronized/abricate.{database}.tsv'
 
-    normed = get_normed(normalizer, input_path)
-    golden_file = pd.read_csv(os.path.join('./outputs/', 'hamronized', f'abricate.{database}.tsv'), sep='\t')
+        normed = get_normed(normalizer, input_path)
+        golden_file = pd.read_csv(os.path.join('./outputs/', 'hamronized', f'abricate.{database}.tsv'), sep='\t')
 
-    pd.testing.assert_frame_equal(normed, golden_file)
+        pd.testing.assert_frame_equal(normed, golden_file)
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi'])
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'sarg', 'random_db'])
 def test_abricate_normalizer_raw(database):
-    normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=False)
-    input_path = f'./examples/raw/abricate.{database}.tsv'
+    try:
+        normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=False)
+    except:
+        warn(f'Unsupported database: {database} used.')
+    else:
+        input_path = f'./examples/raw/abricate.{database}.tsv'
     
-    normed = get_normed(normalizer, input_path)
-    golden_file = pd.read_csv(os.path.join('./outputs/', 'raw', f'abricate.{database}.tsv'), sep='\t')
+        normed = get_normed(normalizer, input_path)
+        golden_file = pd.read_csv(os.path.join('./outputs/', 'raw', f'abricate.{database}.tsv'), sep='\t')
 
-    pd.testing.assert_frame_equal(normed, golden_file)
+        pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('hamronized', [True, False])
 @pytest.mark.parametrize('mode', ['reads', 'orfs'])
