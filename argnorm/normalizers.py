@@ -172,7 +172,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
-        if database not in ['ncbi', 'deeparg', 'sarg', 'megares', 'argannot']:
+        if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
             raise Exception(f'{database} is not a supported database.')
         
         if not is_hamronized and database == 'sarg':
