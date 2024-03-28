@@ -30,5 +30,5 @@ def main():
         )
 
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
-    print(f'{round(1 - prop_unmapped, 3):.2%} args mapped.')
+    print(f'{args.output}:', f'{round(1 - prop_unmapped, 3):.2%} ARGs mapped.')
     result.to_csv(args.output, sep='\t', index=False)

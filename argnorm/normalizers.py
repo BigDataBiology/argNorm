@@ -1,7 +1,5 @@
 import os
 import pandas as pd
-import warnings
-
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 
 ORIGINAL_ID_COL = 'Original ID'
@@ -103,12 +101,7 @@ class BaseNormalizer:
 
 class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
-        if not database:
-            warnings.warn('No `database` specified. Will try using SARG.')
-            database = 'sarg'
-        elif database != 'sarg':
-            warnings.warn('The `database` is not supported. Will try using SARG instead.')
-            database = 'sarg'
+        database = 'sarg'
         super().__init__(database, is_hamronized)
         self.tool = 'argsoap'
 
@@ -128,12 +121,7 @@ class ARGSOAPNormalizer(BaseNormalizer):
 
 class DeepARGNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
-        if not database:
-            warnings.warn('No `database` specified. Will try using DeepARG.')
-            database = 'deeparg'
-        elif database != 'deeparg':
-            warnings.warn('The `database` is not supported. Will try using DeepARG instead.')
-            database = 'deeparg'
+        database = 'deeparg'
         super().__init__(database, is_hamronized)
         self.tool = 'deeparg'
 
@@ -146,12 +134,7 @@ class DeepARGNormalizer(BaseNormalizer):
 
 class ResFinderNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
-        if not database:
-            warnings.warn('No `database` specified. Will try using ResFinder.')
-            database = 'resfinder'
-        elif database != 'resfinder':
-            warnings.warn('The `database` is not supported. Will try using ResFinder instead.')
-            database = 'resfinder'
+        database = 'resfinder'
         super().__init__(database, is_hamronized)
         self.tool = 'resfinder'
 
@@ -170,12 +153,7 @@ class ResFinderNormalizer(BaseNormalizer):
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
-        if not database:
-            warnings.warn('No `database` specified. Will try using NCBI.')
-            database = 'ncbi'
-        elif database != 'ncbi':
-            warnings.warn('The `database` is not supported. Will try using NCBI instead.')
-            database = 'ncbi'
+        database = 'ncbi'
         super().__init__(database, is_hamronized)
         self.tool = 'amrfinderplus'
 
@@ -194,6 +172,12 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
+        if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
+            raise Exception(f'{database} is not a supported database.')
+        
+        if not is_hamronized and database == 'sarg':
+            raise Exception(f'sarg is not a supported database for raw files.')
+
         super().__init__(database, is_hamronized)
         self.tool = 'abricate'
 
