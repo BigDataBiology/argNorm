@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import pronto
 
 ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
@@ -33,12 +34,20 @@ def get_aro_mapping_table(database):
     return aro_mapping_table
 
 def map_to_aro(gene, database):
+    if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
+        raise Exception(f'{database} is not a supported database.')
+    
     mapping_table = get_aro_mapping_table(database).set_index('Original ID')
-    result = mapping_table.loc[gene, 'ARO']
 
-    # Dealing with duplicated genes in ARO mapping table.
-    # Getting only one ARO number
-    if type(result) != str:
-        return list(set(result))[0]
+    try:
+        result = mapping_table.loc[gene, 'ARO']
+    except:
+        raise Exception(f'{gene} is not in {database} database')
     else:
-        return result
+        # Dealing with duplicated genes in ARO mapping table.
+        # Getting only one ARO number
+        ARO = pronto.Ontology.from_obo_library('aro.obo')
+        if type(result) != str:
+            return ARO[list(set(result))[0]]
+        else:
+            return ARO[result]
