@@ -1,46 +1,43 @@
-# argNorm
+# argNorm: Normalize ARG Annotations to the ARO
 
 [![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
 [![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
 ![](https://img.shields.io/badge/status-alpha-red?style=flat)
 
-
 ## What is argNorm?
-argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the
-[antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) from [CARD](https://card.mcmaster.ca/).
 
-It also enhances tables of antibiotic resistance genes by annotating with the antibiotic they target (as provided by ARO).
+argNorm is a tool to normalize antiobiotic resistance genes (ARGs) by mapping them to the [antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) created by the [CARD database](https://card.mcmaster.ca/).
 
-![argNorm Workflow](./images/argnorm_workflow.svg)
+argNorm also enhances antibiotic resistance gene annotations by providing drug categorization of the drugs that antibiotic resistance genes confer resistance to.
+
+> #### *Note:*
+> *This is a beta-quality implementation (subject to changes and some bugs may remain), but you're welcome to try it and provide feedback in the [Issues Page](https://github.com/BigDataBiology/argNorm/issues).*
 
 ## Why argNorm?
 
 Right now, many tools exist for annotating ARGs in genomes and metagenomes. However, each tool will have distinct output formats.
 
-The [hAMRonization](https://github.com/pha4ge/hAMRonization) package can normalize file formats, but each tool will use different names/identifiers (_e.g._, `TetA` or `TETA` or `tet(A)` or `tet-A` are all different ways to spell the same gene name).
+The [hAMRonization package](https://github.com/pha4ge/hAMRonization) can normalize file formats, but each tool will use different names/identifiers (_e.g._, `TetA` or `TETA` or `tet(A)` or `tet-A` are all different ways to spell the same gene name).
 
-For a small number of isolate genomes, a human user can still quickly evaluate the outputs.
-However, for metagenomics, especially for large-scale projects, this becomes infeasible.
-Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all tools to the same ontology (ARO).
+For a small number of isolate genomes, a human user can manually evaluate the outputs.
+However, in metagenomics, especially for large-scale projects, this becomes infeasible.
+Thus, `argNorm` normalizes the _output vocabulary_ of ARG annotation tools by mapping them to the same ontology (ARO).
 
-### Note:
-*This is a beta-quality implementation (subject to changes and some bugs may remain), but you're welcomed to try it and provide feedback.*
+## Drug Categorization
 
-*We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues).*
+Besides performing normalization, argNorm also provides drug categorization of drugs that antibiotic resistance genes confer resistance to.
 
-## Tutorial Video
+For example, the `PBP2b` (`ARO:3003042`) gene confers resistance to the drug class `amoxicillin`. `amoxicillin` is then categorized into a broader category of `beta lactam antibiotic`.
 
-[![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
+argNorm provides support for this, and adds the `confers_resistance_to` and `resistance_to_drug_classes` columns to ARG annotations.
 
-## Installation
-argNorm can be installed using pip:
-```bash
-pip install argnorm
-```
+The `confers_resistance_to` column will contain ARO numbers of all the drug classes that a gene provides resistance to (`ARO:0000064` for `amoxicillin` in the previous example).
 
-## Supported tools
+The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
 
-Note that CARD RGI already uses ARO, thus there is no need to use argNorm.
+![argNorm Workflow](./images/argnorm_workflow.svg)
+
+## Supported Tools
 
 - [DeepARG](https://bench.cs.vt.edu/deeparg) (v1.0.2)
 - [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v3)
@@ -48,32 +45,37 @@ Note that CARD RGI already uses ARO, thus there is no need to use argNorm.
 - [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) (v4.0)
 - [AMRFinderPlus](https://github.com/ncbi/amr) (v3.10.30)
 
-## Basic usage
+## Installation
 
-The only positional argument required is `tool` which can be:
-- `deeparg`
-- `argsoap`
-- `abricate`
-- `resfinder`
-- `amrfinderplus`
+argNorm can be installed using pip using any one of the commands shown:
 
-The available options are:
-- `-h` or `--help`: shows available options and exits.
-- `--db`: database used to perform ARG annotation. Supported databases are:
-    - SARG (`sarg`)
-    - NCBI (`ncbi`)
-    - ResFinder (`resfinder`)
-    - DeepARG (`deeparg`)
-    - MEGARes (`megares`)
-    - ARG-ANNOT (`argannot`)
-- `--hamronized`: use this if the input is hamronized by [hAMRonization](https://github.com/pha4ge/hAMRonization)
-- `-i` or `--input`: path to the annotation result
-- `-o` or `--output`: the file to save normalization results
+```
+pip install argnorm
 
-Use `argnorm -h` or `argnorm --help` to see available options.
+pip install https://github.com/BigDataBiology/argNorm/archive/refs/heads/main.zip
+```
 
-```bash
->argnorm -h
+## Tutorial Video
+
+[![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
+
+## Quick Example 1: argNorm as a Command Line Tool
+
+Here is a quick demo of running argNorm on the command line.
+
+### Step 0: Install argNorm & Create Working Directory
+
+```
+pip install argnorm
+
+argnorm -h
+```
+
+`argnorm -h` or `argnorm --help` will display all the available options to run argNorm with.
+
+```
+> argnorm -h
+
 usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot}] [--hamronized] [-i INPUT] [-o OUTPUT] {argsoap,abricate,deeparg,resfinder,amrfinderplus}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
@@ -93,88 +95,126 @@ options:
                         The file to save normalization results
 ```
 
-Here is a basic outline of calling argNorm:
+Create a folder called `argNorm_tutorial` and store the downloaded data file in it. Navigate into the `argNorm_tutorial` folder.
 
-```bash
-argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
+### Step 1: Download Input Data
+
+argNorm adds columns to the outputs of ARG annotation tools.
+
+For this example, we'll run argNorm on the ARG annotation output from the [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) tool (with ResFinder as the reference database for the tool).
+
+Click [here](https://raw.githubusercontent.com/BigDataBiology/argNorm/main/examples/raw/resfinder.resfinder.orfs.tsv) to download the input data.
+
+If you are on Linux:
+```
+wget https://raw.githubusercontent.com/BigDataBiology/argNorm/main/examples/raw/resfinder.resfinder.orfs.tsv
 ```
 
-## Examples
+### Step 2: Run argNorm
 
-### ARGs-OAP
-
-```bash
-argnorm argsoap -i examples/raw/args-oap.sarg.reads.tsv -o outputs/raw/args-oap.sarg.reads.tsv
-
-argnorm argsoap -i examples/hamronized/args-oap.sarg.reads.tsv -o outputs/hamronized/args-oap.sarg.reads.tsv --hamronized
-```
-
-### DeepARG
+Here is a basic outline of most argNorm commands:
 
 ```bash
-argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o outputs/raw/deeparg.deeparg.orfs.tsv
-
-argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o outputs/hamronized/deeparg.deeparg.orfs.tsv --hamronized
+argnorm [tool] -i [original_annotation.tsv] -o [argnorm_result.tsv] [--hamronized]
 ```
 
-### ABRicate
+Here, `tool` refers to the ARG annotation tool used (ResFinder in this case). `original_annotation.tsv` is the path to the input data and `argnorm_result.tsv` is the path to output file where the resulting table from argNorm will be stored. `--hamronized` is an option to indicate if the input data is a result of using the [hAMRonization package](https://github.com/pha4ge/hAMRonization). In our example, the input data is not a result of using the hAMRonization package.
 
-When using abricate, it is necessary to specify the database used:
+To run argNorm on our input data, use this command in your terminal:
 
-#### Hamronized
-```bash
-argnorm abricate --db ncbi -i examples/hamronized/abricate.ncbi.tsv -o outputs/hamronized/abricate.ncbi.tsv --hamronized
-argnorm abricate --db megares -i examples/hamronized/abricate.megares.tsv -o outputs/hamronized/abricate.megares.tsv --hamronized
-argnorm abricate --db argannot -i examples/hamronized/abricate.argannot.tsv -o outputs/hamronized/abricate.argannot.tsv --hamronized
-argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o outputs/hamronized/abricate.resfinder.tsv --hamronized
+```
+argnorm resfinder -i ./resfinder.resfinder.orfs.tsv -o ./resfinder.resfinder.orfs.normed.tsv
 ```
 
-#### Raw
-```bash
-argnorm abricate --db ncbi -i examples/raw/abricate.ncbi.tsv -o outputs/raw/abricate.ncbi.tsv
-argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o outputs/raw/abricate.megarest.tsv
-argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o outputs/raw/abricate.argannot.tsv
+The argNorm result will be stored in the file `resfinder.resfinder.orf.normed.tsv`.
+
+For more examples of using argNorm as a command line tool, click [here](cli_examples.md).
+
+## Quick Example 2: argNorm as a Library
+
+Here is a quick demo of using argNorm as a Python library.
+
+### Code
+
+Save this piece of Python code to a file called `argnorm_tutorial.py`
+
+```
+# Import from argNorm
+from argnorm.general import map_to_aro
+from argnorm.drug_categorization import confers_resistance_to, drugs_to_drug_classes
+
+# Creating a list of input genes to be mapped to the ARO
+list_of_input_genes = ['sul1_2_U12338', 'sul1_3_EU855787', 'sul2_1_AF542061']
+
+# The database from which the `list_of_input_genes` was created is the SARG database
+database = 'sarg'
+
+# Looping through `list_of_input` genes and mapping each gene to the ARO
+# Storing each ARO mapping in the `list_of_aros` list
+list_of_aros = []
+for gene in list_of_input_genes:
+    list_of_aros.append(map_to_aro(gene, 'sarg'))
+print(list_of_aros)
+
+# Looping through `list_of_aros` and finding the drugs to which the each ARO confers resistance to
+# Storing each drug in the `list_of_drugs` list
+list_of_drugs = []
+for aro in list_of_aros:
+    list_of_drugs.append(confers_resistance_to(aro))
+print(list_of_drugs)
+
+# Looping through `list_of_drugs` and finding the superclass/drug class of each drug
+# Storing each superclass/drug class in the `list_of_drug_classes` list
+list_of_drug_classes = []
+for drug in list_of_drugs:
+    list_of_drug_classes.append(drugs_to_drug_classes(drug))
+print(list_of_drug_classes)
 ```
 
-### ResFinder
+### Explanation
 
-#### Hamronized
-```bash
-argnorm resfinder -i examples/hamronized/resfinder.resfinder.orfs.tsv -o outputs/hamronized/resfinder.resfinder.orfs.tsv --hamronized
-argnorm resfinder -i examples/hamronized/resfinder.resfinder.reads.tsv -o outputs/hamronized/resfinder.resfinder.reads.tsv --hamronized
+To use argNorm as a library, we must first import it in our Python file:
+
+```
+from argnorm.general import map_to_aro
+from argnorm.drug_categorization import confers_resistance_to, drugs_to_drug_classes
 ```
 
-#### Raw
-```bash
-argnorm resfinder -i examples/raw/resfinder.resfinder.orfs.tsv -o outputs/raw/resfinder.resfinder.orfs.tsv
-argnorm resfinder -i examples/raw/resfinder.resfinder.reads.tsv -o outputs/raw/resfinder.resfinder.reads.tsv
+The `general` module contains the function `map_to_aro` which will return the ARO number of a particular antibiotic resistance gene. The `drug_categorization` module contains the functions `confers_resistance_to` and `drugs_to_drug_classes`. The `confers_resistance_to` function returns the drugs to which a gene confers resistance to. The `drugs_to_drug_classes` function returns the drug class to which a specific drug belongs.
+
+The `map_to_aro` function takes two arguments: `gene` and `database`. `gene` is the name of an antibiotic resistance gene. `database` is the database from which `gene` is taken from.
+
+In this example, a list of genes from the SARG database is used, and `map_to_aro` maps each gene in the list to an ARO term. These ARO terms are also stored in the `list_of_aros` list:
+
+```
+database = 'sarg'
+
+list_of_aros = []
+for gene in list_of_input_genes:
+    list_of_aros.append(map_to_aro(gene, 'sarg'))
+print(list_of_aros)
 ```
 
-### AMRFinderPlus
-```bash
-argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.tsv
+Once a list of AROs is created for each gene, the `confers_resistance_to` function can be used on each ARO to create a list of drugs to which each gene/ARO confers resistance to:
 
-argnorm amrfinderplus -i examples/hamronized/amrfinderplus.ncbi.orfs.tsv -o outputs/hamronized/amrfinderplus.ncbi.orfs.tsv
+```
+list_of_drugs = []
+for aro in list_of_aros:
+    list_of_drugs.append(confers_resistance_to(aro))
+print(list_of_drugs)
 ```
 
-## Drug Categorization
+Now, each drug in the `list_of_drugs` can be categorized into a broader drug category using the `drugs_to_drug_classes` function:
 
-Besides performing normalization, argNorm also provides drug categorization of drugs that antibiotic resistance genes confer resistance to.
+```
+list_of_drug_classes = []
+for drug in list_of_drugs:
+    list_of_drug_classes.append(drugs_to_drug_classes(drug))
+print(list_of_drug_classes)
+```
 
-For example, the `PBP2b` (`ARO:3003042`) gene confers resistance to the drug class `amoxicillin`. `amoxicillin` is then categorized into a broader category of `beta lactam antibiotic`.
+For more examples of argNorm as a library, click [here](lib_examples.md).
 
-argNorm provides support for this, and adds the `confers_resistance_to` and `resistance_to_drug_classes` columns to ARG annotations.
+## API Reference
 
-The `confers_resistance_to` column will contain ARO numbers of all the drug classes that a gene provides resistance to (`ARO:0000064` for `amoxicillin` in the previous example).
-
-The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
-
-## Authors
-
-- Vedanth Ramji [vedanth.ramji@gmail.com](mailto:vedanth.ramji@gmail.com)*
-- Hui Chong [huichong.me@gmail.com](mailto:huichong.me@gmail.com)
-- Svetlana Ugarcina Perovic [svetlana.ugarcina@gmail.com](mailto:svetlana.ugarcina@gmail.com)
-- Finlay Maguire [finlaymaguire@gmail.com](mailto:finlaymaguire@gmail.com)
-- [Luis Pedro Coelho](https://luispedro.org) [luis@luispedro.org](mailto:luis@luispedro.org)
-
-*: current maintainer
+Click [here](api_reference) to view the API reference
