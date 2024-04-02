@@ -128,7 +128,7 @@ argnorm resfinder -i ./resfinder.resfinder.orfs.tsv -o ./resfinder.resfinder.orf
 
 The argNorm result will be stored in the file `resfinder.resfinder.orf.normed.tsv`.
 
-For more examples of using argNorm as a command line tool, click [here](cli_examples.md).
+<!-- TODO: For more examples of using argNorm as a command line tool, click [here](cli_examples.md). -->
 
 ## Quick Example 2: argNorm as a Library
 
@@ -213,8 +213,10 @@ for drug in list_of_drugs:
 print(list_of_drug_classes)
 ```
 
-For more examples of argNorm as a library, click [here](lib_examples.md).
+<!-- TODO: For more examples of argNorm as a library, click [here](lib_examples.md). -->
+
+<!-- TODO:
 
 ## API Reference
 
-Click [here](api_reference) to view the API reference
+Click [here](api_reference) to view the API reference -->
