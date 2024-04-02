@@ -1,30 +1,11 @@
 import os
 import pandas as pd
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
-
-ORIGINAL_ID_COL = 'Original ID'
-MAPPING_TABLE_ARO_COL = 'ARO'
-TARGET_ARO_COL = 'ARO'
+from .general import *
 
 # Column headings for drug categorization output
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
 RESISTANCE_TO_DRUG_CLASSES_COL = 'resistance_to_drug_classes'
-
-_ROOT = os.path.abspath(os.path.dirname(__file__))
-
-def is_number(num):
-    try:
-        int(num)
-    except ValueError:
-        return False
-
-    return True
-
-def get_data_path(path, getting_manual_curation):
-    if getting_manual_curation:
-        return os.path.join(_ROOT, 'data/manual_curation', path)
-
-    return os.path.join(_ROOT, 'data', path)
 
 class BaseNormalizer:
     """
@@ -45,7 +26,7 @@ class BaseNormalizer:
         input_genes = self.preprocess_input_genes(
             original_annot[self._input_gene_col].str.lower()
         )
-        aro_table = self.get_aro_mapping_table()
+        aro_table = get_aro_mapping_table(self.database)
         aro_table.set_index(self.preprocess_ref_genes(
             aro_table[ORIGINAL_ID_COL].str.lower()
         ), inplace=True)
@@ -57,7 +38,6 @@ class BaseNormalizer:
         original_annot[RESISTANCE_TO_DRUG_CLASSES_COL] = original_annot[TARGET_ARO_COL].map(lambda a: ','.join(drugs_to_drug_classes(confers_resistance_to(a))))
 
         return original_annot
-
 
     def preprocess_ref_genes(self, ref_genes):
         """
@@ -77,20 +57,6 @@ class BaseNormalizer:
         Always adapt this method to the input data format.
         """
         self._input_gene_col = ''
-
-    def get_aro_mapping_table(self):
-        """
-        Don't customize this unless you're using your own (not package built-in) reference data.
-        """
-        df = pd.read_csv(get_data_path(f'{self.database}_ARO_mapping.tsv', False), sep='\t')
-
-        manual_curation = pd.read_csv(get_data_path(f'{self.database}_curation.tsv', True), sep='\t')
-        manual_curation['Database'] = df['Database']
-
-        aro_mapping_table = pd.concat([df, manual_curation])
-        aro_mapping_table[TARGET_ARO_COL] = aro_mapping_table[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a)}' if is_number(a) else a)
-        
-        return aro_mapping_table
 
     def load_input(self, input_file):
         """
