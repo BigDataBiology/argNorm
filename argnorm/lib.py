@@ -41,7 +41,7 @@ def map_to_aro(gene, database):
 
     try:
         result = mapping_table.loc[gene, 'ARO']
-    except:
+    except KeyError:
         raise Exception(f'{gene} is not in {database} database')
     else:
         # Dealing with duplicated genes in ARO mapping table.

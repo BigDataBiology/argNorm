@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
-from .general import *
+from .lib import *
 
 # Column headings for drug categorization output
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
@@ -166,17 +166,6 @@ class AbricateNormalizer(BaseNormalizer):
             argannot='ACCESSION'
         )
         self._input_gene_col = gene_col_by_db[self.database]
-
-    def preprocess_input_genes(self, input_genes):
-        process_funcs_by_db = dict(
-            ncbi=lambda x: x,
-            deeparg=lambda x: x,
-            resfinder=lambda x: x,
-            sarg=lambda x: x,
-            megares=lambda x: x,
-            argannot=lambda x: x
-        )
-        return input_genes.apply(process_funcs_by_db[self.database])
 
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
