@@ -72,7 +72,7 @@ def fix_ncbi(ncbi_amr_faa):
 
 @TaskGenerator
 def run_rgi(fa):
-    from get_mapping_table import get_aro_for_hits
+    from .get_mapping_table import get_aro_for_hits
 
     db_name = path.basename(fa).split('.')[0]
 
