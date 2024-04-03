@@ -28,23 +28,10 @@ def get_ncbi_db():
     url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt'
     return download_file(url, ofile)
 
-@TaskGenerator
 def get_resfinder_db():
-    from glob import glob
-    with tempfile.TemporaryDirectory() as tmpdir:
-        clonedir = f'{tmpdir}/resfinder_db'
-        subprocess.check_call(
-            ['git', 'clone', 'https://bitbucket.org/genomicepidemiology/resfinder_db', clonedir])
-
-        fsa_files = glob(f'{clonedir}/*.fsa')
-        assert len(fsa_files) > 0, "No fsa files found"
-
-        with open('dbs/resfinder.fna', 'w') as f:
-            for file in fsa_files:
-                with open(file) as f2:
-                    f.write(f2.read())
-
-    return 'dbs/resfinder.fna'
+    ofile = 'dbs/resfinder.fna'
+    url = 'https://bitbucket.org/genomicepidemiology/resfinder_db/raw/8aad1d20603fbec937cdae55024568de6dbd609f/all.fsa'
+    return download_file(url, ofile)
 
 @TaskGenerator
 def get_sarg_db():

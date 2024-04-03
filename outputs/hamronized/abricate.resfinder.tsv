@@ -859,7 +859,7 @@ GMGC10.006_574_647.BLA	GMGC10.95nr_block_0023	blaSGM-1_1	blaSGM-1	resfinder	2021
 GMGC10.007_442_608.UNKNOWN	GMGC10.95nr_block_0023	blaZ_12	blaZ	resfinder	2021-Mar-27	M15195	abricate	abricate 1.0.1	97.9			1	951					+		100.0						Amoxicillin;Ampicillin;Penicillin;Piperacillin			ARO:3007101	ARO:0000032,ARO:3003706	ARO:3000007,ARO:3000007
 GMGC10.007_663_890.BLA	GMGC10.95nr_block_0023	blaSGM-2_1	blaSGM-2	resfinder	2021-Mar-27	AP010803	abricate	abricate 1.0.1	91.71			1	929					+		99.25									ARO:3006988	ARO:0000020	ARO:3000007
 GMGC10.010_077_879.UNKNOWN	GMGC10.95nr_block_0023	blaCME-1_1	blaCME-1	resfinder	2021-Mar-27	AJ006275	abricate	abricate 1.0.1	99.5			92	889					+		89.86									ARO:3004775	ARO:3000008	ARO:3000007
-GMGC10.010_980_812.AADA	GMGC10.95nr_block_0023	ant(3'')-Ia_1	ant(3'')-Ia	resfinder	2021-Mar-27	X02340	abricate	abricate 1.0.1	97.55			5	942					+		96.5						Streptomycin			ARO:3000232	ARO:0000016	ARO:0000016
+GMGC10.010_980_812.AADA	GMGC10.95nr_block_0023	ant(3'')-Ia_1	ant(3'')-Ia	resfinder	2021-Mar-27	X02340	abricate	abricate 1.0.1	97.55			5	942					+		96.5						Streptomycin			ARO:3002601	ARO:0000039,ARO:0000040	ARO:0000016,ARO:0000016
 GMGC10.011_733_785.BLA	GMGC10.95nr_block_0023	blaSGM-1_1	blaSGM-1	resfinder	2021-Mar-27	AAQG01000013	abricate	abricate 1.0.1	100.0			1	966					+		100.0									ARO:3006987	ARO:0000020	ARO:3000007
 GMGC10.013_566_266.BLA	GMGC10.95nr_block_0023	blaSGM-1_1	blaSGM-1	resfinder	2021-Mar-27	AAQG01000013	abricate	abricate 1.0.1	84.89			1	966					+		100.0									ARO:3006987	ARO:0000020	ARO:3000007
 GMGC10.013_931_986.BLA	GMGC10.95nr_block_0023	blaSGM-1_1	blaSGM-1	resfinder	2021-Mar-27	AAQG01000013	abricate	abricate 1.0.1	81.11			14	963					+		98.34									ARO:3006987	ARO:0000020	ARO:3000007
