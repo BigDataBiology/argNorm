@@ -49,8 +49,8 @@ def get_deeparg_db():
     return download_file(url, 'dbs/deeparg.faa')
 
 def get_argannot_db():
-    url = 'https://raw.githubusercontent.com/tseemann/abricate/master/db/argannot/sequences'
-    return download_file(url, 'dbs/argannot.fna')
+    url = 'https://www.mediterranee-infection.com/wp-content/uploads/2019/09/ARG-ANNOT_AA_V6_July2019.txt'
+    return download_file(url, 'dbs/argannot.faa')
 
 def get_megares_db():
     url = 'https://www.meglab.org/downloads/megares_v3.00/megares_database_v3.00.fasta'
@@ -72,7 +72,7 @@ def fix_ncbi(ncbi_amr_faa):
 
 @TaskGenerator
 def run_rgi(fa):
-    from .get_mapping_table import get_aro_for_hits
+    from get_mapping_table import get_aro_for_hits
 
     db_name = path.basename(fa).split('.')[0]
 

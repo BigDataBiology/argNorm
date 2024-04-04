@@ -201,17 +201,6 @@ class AbricateNormalizer(BaseNormalizer):
         )
         self._input_gene_col = gene_col_by_db[self.database]
 
-    def preprocess_input_genes(self, input_genes):
-        process_funcs_by_db = dict(
-            ncbi=lambda x: x,
-            deeparg=lambda x: x,
-            resfinder=lambda x: x,
-            sarg=lambda x: x,
-            megares=lambda x: x,
-            argannot=lambda x: x
-        )
-        return input_genes.apply(process_funcs_by_db[self.database])
-
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
             ncbi=lambda x: x.split('|')[5],
@@ -219,6 +208,6 @@ class AbricateNormalizer(BaseNormalizer):
             resfinder=lambda x: '_'.join(x.split('_')[:-1]),
             sarg=lambda x: x,
             megares=lambda x: x.split('|')[0],
-            argannot=lambda x: x.split('~~~')[-1]
+            argannot=lambda x: ':'.join(x.split(':')[1:-1])
         )
         return ref_genes.apply(process_funcs_by_db[self.database])
