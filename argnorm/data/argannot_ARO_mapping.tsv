@@ -1,41 +1,39 @@
 Original ID	Gene Name in CARD	ARO	Database
 argannot~~~(AGly)AAC(6')-Isa~~~NG_047311:101-574	AAC(6')-Isa	3002563	argannot
-argannot~~~(AGly)aac~~~AJ628983:1985-2539	AAC(6')-IIa	3002594	argannot
 argannot~~~(AGly)aac(2')-IIa_Bg~~~NG_047225:101-883	AAC(2')-IIa	3004628	argannot
 argannot~~~(AGly)aac(2')-IIb~~~NG_055672:1-723	AAC(2')-IIb	3003988	argannot
 argannot~~~(AGly)aac(2')-Id~~~U72743:386-1018	AAC(2')-Id	3002526	argannot
 argannot~~~(AGly)aac(3)-IIIb~~~L06160:984-1721	AAC(3)-IIIb	3002537	argannot
 argannot~~~(AGly)aac(3)-IIIc~~~L06161:106-945	AAC(3)-IIIc	3002538	argannot
-argannot~~~(AGly)aac(6')~~~NG_052413:101-583	AAC(6')-Isa	3002563	argannot
-argannot~~~(AGly)aac(6')-Ia~~~NG_052294:101-703	AAC(6')-Iq	3002560	argannot
 argannot~~~(AGly)aac(6')-Iae~~~AB104852:1935-2486	AAC(6')-Iae	3002573	argannot
 argannot~~~(AGly)aac(6')-Ian~~~NG_052170:101-673	AAC(6')-Ian	3003200	argannot
+argannot~~~(AGly)aac(6')-Ia~~~NG_052294:101-703	AAC(6')-Iq	3002560	argannot
 argannot~~~(AGly)aac(6')-Iz~~~NG_052343:1-462	AAC(6')-Iz	3002570	argannot
+argannot~~~(AGly)aac(6')~~~NG_052413:101-583	AAC(6')-Isa	3002563	argannot
 argannot~~~(AGly)aac-IIIa~~~X55652:1124-1939	AAC(3)-IIIa	3002536	argannot
 argannot~~~(AGly)aac-IVa~~~X01385:244-1029	AAC(3)-IVa	3002539	argannot
 argannot~~~(AGly)aac2-Ia~~~L06156:264-800	AAC(2')-Ia	3002523	argannot
 argannot~~~(AGly)aac2-Ib~~~U41471:266-822	AAC(2')-Ib	3002524	argannot
 argannot~~~(AGly)aac2-Ic~~~U72714:373-918	AAC(2')-Ic	3002525	argannot
 argannot~~~(AGly)aac2-Ie~~~NC_011896:3039059-3039607	AAC(2')-Ie	3002527	argannot
-argannot~~~(AGly)aac3-I~~~X15852:1250-1783	AAC(3)-Ia	3002528	argannot
 argannot~~~(AGly)aac3-IIa~~~X51534:91-951	AAC(3)-IIe	3004621	argannot
 argannot~~~(AGly)aac3-IIc~~~X54723:819-1679	AAC(3)-IIc	3002535	argannot
 argannot~~~(AGly)aac3-IId~~~EU022314:1-861	AAC(3)-IId	3004623	argannot
 argannot~~~(AGly)aac3-IIe~~~EU022315:1-861	AAC(3)-IIe	3004621	argannot
 argannot~~~(AGly)aac3-IXa~~~M55427:274-1119	AAC(3)-IXa	3002543	argannot
-argannot~~~(AGly)aac3-Ib~~~L06157:555-1085	AAC(3)-Ib	3002530	argannot
 argannot~~~(AGly)aac3-Ib-Aac6-Ib~~~AF355189:1435-2439	AAC(3)-Ib/AAC(6')-Ib3 bifunctional protein	3002600	argannot
+argannot~~~(AGly)aac3-Ib~~~L06157:555-1085	AAC(3)-Ib	3002530	argannot
 argannot~~~(AGly)aac3-Ic~~~AJ511268:1295-1765	AAC(3)-Ic	3002531	argannot
 argannot~~~(AGly)aac3-Id~~~AB114632:104-580	AAC(3)-Id	3002529	argannot
 argannot~~~(AGly)aac3-If~~~AY884051:61-525	AAC(3)-Ib	3002530	argannot
 argannot~~~(AGly)aac3-Ig~~~CP000282:2333620-2334096	AAC(3)-Id	3002529	argannot
 argannot~~~(AGly)aac3-Ih~~~CP000490:509912-510370	AAC(3)-Id	3002529	argannot
 argannot~~~(AGly)aac3-Ii~~~CP000356:638262-638720	AAC(3)-Ib	3002530	argannot
+argannot~~~(AGly)aac3-I~~~X15852:1250-1783	AAC(3)-Ia	3002528	argannot
 argannot~~~(AGly)aac3-VII~~~M22999:493-1359	AAC(3)-VIIa	3002541	argannot
 argannot~~~(AGly)aac3-VIa~~~M88012:193-1092	AAC(3)-VIa	3002540	argannot
 argannot~~~(AGly)aac3-Vb~~~M97172:656-1465	AAC(3)-IIb	3002534	argannot
 argannot~~~(AGly)aac3-Xa~~~AB028210:2711-3565	AAC(3)-Xa	3002544	argannot
-argannot~~~(AGly)aac6~~~DQ302723:81-482	AAC(6')-29b	3002584	argannot
 argannot~~~(AGly)aac6-31~~~AJ640197:2474-2992	AAC(6')-31	3002585	argannot
 argannot~~~(AGly)aac6-32~~~EF614235:2247-2801	AAC(6')-32	3002586	argannot
 argannot~~~(AGly)aac6-33~~~GQ337064:1203-1757	AAC(6')-I33	3002587	argannot
@@ -45,11 +43,11 @@ argannot~~~(AGly)aac6-IIa~~~M29695:707-1261	AAC(6')-IIa	3002594	argannot
 argannot~~~(AGly)aac6-IIb~~~L06163:532-1074	AAC(6')-IIb	3002595	argannot
 argannot~~~(AGly)aac6-IIc~~~AF162771:62-643	AAC(6')-IIc	3002596	argannot
 argannot~~~(AGly)aac6-IL~~~Z54241:530-1051	AAC(6')-Ip	3002559	argannot
-argannot~~~(AGly)aac6-Ia~~~M18967:757-1314	AAC(6')-Ia	3002545	argannot
 argannot~~~(AGly)aac6-Iaa~~~NC_003197:1707358-1707795	AAC(6')-Iaa	3002571	argannot
 argannot~~~(AGly)aac6-Iad~~~AB119105:1-435	AAC(6')-Iad	3002572	argannot
 argannot~~~(AGly)aac6-Iaf~~~AB462903:1200-1751	AAC(6')-Iaf	3002574	argannot
 argannot~~~(AGly)aac6-Iai~~~EU886977:544-1110	AAC(6')-Iai	3002575	argannot
+argannot~~~(AGly)aac6-Ia~~~M18967:757-1314	AAC(6')-Ia	3002545	argannot
 argannot~~~(AGly)aac6-Ib~~~M21682:380-985	AAC(6')-Ib10	3002581	argannot
 argannot~~~(AGly)aac6-Ic~~~M94066:1554-1994	AAC(6')-Ic	3002549	argannot
 argannot~~~(AGly)aac6-Id~~~X12618:905-1354	AAC(6')-I-48	3004638	argannot
@@ -69,12 +67,13 @@ argannot~~~(AGly)aac6-Iv~~~AF031330:1-441	AAC(6')-Iv	3002566	argannot
 argannot~~~(AGly)aac6-Iw~~~AF031331:1-441	AAC(6')-Iw	3002567	argannot
 argannot~~~(AGly)aac6-Iy~~~AF144880:3452-3979	AAC(6')-Iy	3002569	argannot
 argannot~~~(AGly)aac6-Iz~~~AF140221:390-851	AAC(6')-Iz	3002570	argannot
+argannot~~~(AGly)aac6~~~DQ302723:81-482	AAC(6')-29b	3002584	argannot
 argannot~~~(AGly)aac8~~~M55426:466-1326	AAC(3)-VIIIa	3002542	argannot
 argannot~~~(AGly)aacA29b~~~AY139599:768-1148	AAC(6')-29b	3002584	argannot
-argannot~~~(AGly)aacA4~~~AF416297:2738-3304	AAC(6')-Ib8	3002579	argannot
 argannot~~~(AGly)aacA43~~~HQ247816:639-1202	AAC(6')-I-43	3004641	argannot
+argannot~~~(AGly)aacA4~~~AF416297:2738-3304	AAC(6')-Ib8	3002579	argannot
+argannot~~~(AGly)aac~~~AJ628983:1985-2539	AAC(6')-IIa	3002594	argannot
 argannot~~~(AGly)aad9~~~M69221:271-1038	ANT(9)-Ib	3007401	argannot
-argannot~~~(AGly)aadA1~~~M95287:3320-4111	ANT(3'')-IIa	3004089	argannot
 argannot~~~(AGly)aadA1-pm~~~JQ690540:7968-8798	aadA	3002601	argannot
 argannot~~~(AGly)aadA10~~~U37105:2807-3640	aadA10	3004692	argannot
 argannot~~~(AGly)aadA11~~~AJ567827:1-792	aadA8	3002608	argannot
@@ -84,19 +83,20 @@ argannot~~~(AGly)aadA14~~~AJ884726:540-1325	aadA14	3002614	argannot
 argannot~~~(AGly)aadA15~~~DQ393783:1800-2591	aadA15	3002615	argannot
 argannot~~~(AGly)aadA16~~~EU675686:3197-4042	aadA16	3002616	argannot
 argannot~~~(AGly)aadA17~~~FJ460181:774-1565	aadA17	3002617	argannot
-argannot~~~(AGly)aadA2~~~X68227:66-945	aadA2	3002602	argannot
+argannot~~~(AGly)aadA1~~~M95287:3320-4111	ANT(3'')-IIa	3004089	argannot
 argannot~~~(AGly)aadA21~~~AY171244:47-838	aadA21	3002618	argannot
 argannot~~~(AGly)aadA22~~~AM261837:74-865	aadA22	3002619	argannot
 argannot~~~(AGly)aadA23~~~AJ809407:119-898	aadA22	3002619	argannot
 argannot~~~(AGly)aadA24~~~HQ123586:88-768	ANT(3'')-IIa	3004089	argannot
 argannot~~~(AGly)aadA27~~~NG_054660:101-889	aadA27	3004682	argannot
+argannot~~~(AGly)aadA2~~~X68227:66-945	aadA2	3002602	argannot
 argannot~~~(AGly)aadA3~~~AF047479:1296-2087	aadA3	3002603	argannot
 argannot~~~(AGly)aadA4~~~AY138986:1-798	aadA4	3002604	argannot
 argannot~~~(AGly)aadA5~~~AF137361:64-852	aadA5	3002605	argannot
 argannot~~~(AGly)aadA6~~~AF140629:61-906	aadA6	3002606	argannot
 argannot~~~(AGly)aadA7~~~AF224733:32-829	aadA7	3002607	argannot
-argannot~~~(AGly)aadA8~~~AF326210:1-792	aadA8	3002608	argannot
 argannot~~~(AGly)aadA8b~~~AM040708:1174-1965	aadA8b	3004704	argannot
+argannot~~~(AGly)aadA8~~~AF326210:1-792	aadA8	3002608	argannot
 argannot~~~(AGly)aadA9~~~AJ420072:26773-27609	aadA9	3002609	argannot
 argannot~~~(AGly)aadB~~~JQ690540:4275-4808	ANT(2'')-Ia	3000230	argannot
 argannot~~~(AGly)aadC~~~V01282:225-701	CRP	3000518	argannot
@@ -126,8 +126,8 @@ argannot~~~(AGly)aph(2'')-Ig~~~NG_047407:101-1021	APH(2'')-Ig	3002669	argannot
 argannot~~~(AGly)aph(2'')-Ih~~~NG_047408:1-894	APH(2'')-If	3004191	argannot
 argannot~~~(AGly)aph(3'')-III~~~V01547:535-1329	APH(3')-IIIa	3002647	argannot
 argannot~~~(AGly)aph(3'')-IIb~~~X90856:388-1194	APH(3')-IIb	3002645	argannot
-argannot~~~(AGly)aph(3'')-Ia~~~FJ172370:38668-39483	APH(3')-Ia	3002641	argannot
 argannot~~~(AGly)aph(3'')-Ia1~~~AP009493:267117-267935	APH(3'')-Ia	3002638	argannot
+argannot~~~(AGly)aph(3'')-Ia~~~FJ172370:38668-39483	APH(3')-Ia	3002641	argannot
 argannot~~~(AGly)aph(3'')-Ic~~~DQ336355:603-1367	APH(3'')-Ic	3002640	argannot
 argannot~~~(AGly)aph(3')-IX~~~NG_055648:101	APH(3')-IXa	3004087	argannot
 argannot~~~(AGly)aph(3')-Ic~~~KP119857:914-1729	APH(3')-Ia	3002641	argannot
@@ -154,23 +154,23 @@ argannot~~~(AGly)aphA15~~~Y18050:4758-5552	aphA15	3004675	argannot
 argannot~~~(AGly)aphA16~~~NG_051908:101-889	APH(3')-IIIa	3002647	argannot
 argannot~~~(AGly)aphA2~~~X57709:1-795	APH(3')-IIa	3002644	argannot
 argannot~~~(AGly)aphA6~~~JF949760:695-1474	APH(3')-VIa	3002652	argannot
-argannot~~~(AGly)aphEI~~~M37378:298-1116	APH(3'')-Ia	3002638	argannot
 argannot~~~(AGly)aphEII~~~X53527:1-819	APH(3'')-Ia	3002638	argannot
+argannot~~~(AGly)aphEI~~~M37378:298-1116	APH(3'')-Ia	3002638	argannot
 argannot~~~(AGly)apmA~~~FN806789:2858-3682	apmA	3003918	argannot
 argannot~~~(AGly)armA~~~AY220558:1978-2751	armA	3000858	argannot
 argannot~~~(AGly)grm~~~NG_047907:101-925	sgm	3000862	argannot
 argannot~~~(AGly)kamB~~~NG_050562:101-748	kamB	3004102	argannot
 argannot~~~(AGly)npmA~~~AB261016:3069-3728	npmA	3002665	argannot
 argannot~~~(AGly)rmtA~~~AB120321:6677-7432	rmtA	3000859	argannot
-argannot~~~(AGly)rmtB~~~AB103506:1410-2165	rmtB	3000860	argannot
 argannot~~~(AGly)rmtB2~~~JN968578:1-756	rmtB	3000860	argannot
 argannot~~~(AGly)rmtB3~~~NG_051535:1-756	rmtB	3000860	argannot
 argannot~~~(AGly)rmtB4~~~NG_051536:1-756	rmtB	3000860	argannot
+argannot~~~(AGly)rmtB~~~AB103506:1410-2165	rmtB	3000860	argannot
 argannot~~~(AGly)rmtC~~~AB194779:6903-7748	rmtC	3000861	argannot
-argannot~~~(AGly)rmtD~~~DQ914960:9632-8889	rmtD	3002667	argannot
 argannot~~~(AGly)rmtD2~~~HQ401565:14882-14139	rmtD2	3004677	argannot
-argannot~~~(AGly)rmtE~~~GU201947:55-876	rmtE	3004678	argannot
+argannot~~~(AGly)rmtD~~~DQ914960:9632-8889	rmtD	3002667	argannot
 argannot~~~(AGly)rmtE2~~~NG_050559:101-922	rmtE2	3004679	argannot
+argannot~~~(AGly)rmtE~~~GU201947:55-876	rmtE	3004678	argannot
 argannot~~~(AGly)rmtF~~~JQ808129:55-876	rmtF	3002666	argannot
 argannot~~~(AGly)rmtG~~~JX486113:1-795	rmtG	3002668	argannot
 argannot~~~(AGly)rmtH~~~KC544262:666-1424	rmtH	3003198	argannot
@@ -179,16 +179,15 @@ argannot~~~(AGly)sat3~~~Z48231:221-763	SAT-3	3002898	argannot
 argannot~~~(AGly)sat4A~~~X92945:38870-39412	SAT-4	3002897	argannot
 argannot~~~(AGly)satA~~~NG_064662:101_622	SAT-4	3002897	argannot
 argannot~~~(AGly)spc~~~X02588:331-1113	ANT(9)-Ia	3002630	argannot
-argannot~~~(AGly)sph~~~AY037297:2706-3548	APH(6)-Ic	3002659	argannot
 argannot~~~(AGly)sph-I~~~HQ424461:18-830	APH(6)-Ic	3002659	argannot
+argannot~~~(AGly)sph~~~AY037297:2706-3548	APH(6)-Ic	3002659	argannot
 argannot~~~(AGly)spw~~~NG_048075:101-910	ANT(9)-Ia	3002630	argannot
 argannot~~~(AGly)sta~~~NG_048077:101-670	sta	3004699	argannot
-argannot~~~(AGly)str~~~X92946:18908-18060	aadK	3002627	argannot
 argannot~~~(AGly)strA~~~AB366441:22458-23261	APH(3'')-Ib	3002639	argannot
 argannot~~~(AGly)strB~~~FJ474091:264-1100	APH(6)-Id	3002660	argannot
+argannot~~~(AGly)str~~~X92946:18908-18060	aadK	3002627	argannot
 argannot~~~(AGly)vph~~~NG_048566:101-982	vph	3003061	argannot
 argannot~~~(AGly_Flqn)aac(6')-Ib-cr~~~EF636461:1124-1642	AAC(6')-Ib-cr4	3005114	argannot
-argannot~~~(Bla)~~~AB916359:794-1708	CTX-M-151	3002008	argannot
 argannot~~~(Bla)AmpC1_Ecoli~~~FN649414:2765051-2766355	PDC-347	3006716	argannot
 argannot~~~(Bla)AmpC2_Ecoli~~~CP002970:332756-333889	Escherichia coli ampC beta-lactamase	3004290	argannot
 argannot~~~(Bla)BJP-1~~~NG_048709:101-985	BJP-1	3000856	argannot
@@ -196,19 +195,19 @@ argannot~~~(Bla)BLA-1~~~AY453161:501-1430	Bla1	3000090	argannot
 argannot~~~(Bla)BSU-1~~~NG_050942:101-904	BSU-1	3006902	argannot
 argannot~~~(Bla)BlaA1~~~NC_010410:1803480-1804499	AIM-1	3000853	argannot
 argannot~~~(Bla)BlaA2~~~NC_010410:2507740-2509014	CblA-1	3002999	argannot
-argannot~~~(Bla)CARB-1~~~D86225:232-1098	CARB-12	3002250	argannot
 argannot~~~(Bla)CARB-10~~~EU850412:2270-3166	CARB-10	3002249	argannot
 argannot~~~(Bla)CARB-11~~~AY008290:1-867	CARB-11	3005559	argannot
 argannot~~~(Bla)CARB-14/blaRTG~~~NG_048717:101-997	CARB-14	3002252	argannot
+argannot~~~(Bla)CARB-1~~~D86225:232-1098	CARB-12	3002250	argannot
 argannot~~~(Bla)CARB-2~~~HQ157204:747-1613	CARB-53	3005587	argannot
 argannot~~~(Bla)CARB-3~~~S46063:122-1036	CARB-3	3002242	argannot
-argannot~~~(Bla)CARB-4~~~AY913772:1600-2466	CARB-4	3002243	argannot
 argannot~~~(Bla)CARB-49~~~NG_051466:1-897	CARB-49	3005583	argannot
+argannot~~~(Bla)CARB-4~~~AY913772:1600-2466	CARB-4	3002243	argannot
 argannot~~~(Bla)CARB-5~~~AF135373:12-908	CARB-5	3002244	argannot
 argannot~~~(Bla)CARB-6~~~AF030945:96-962	CARB-6	3002245	argannot
 argannot~~~(Bla)CARB-7~~~AF409092:888-1754	CARB-7	3002246	argannot
-argannot~~~(Bla)CARB-8~~~NG_035647:3623-4489	CARB-12	3002250	argannot
 argannot~~~(Bla)CARB-8_OU~~~AY178993:575-1471	CARB-8	3002247	argannot
+argannot~~~(Bla)CARB-8~~~NG_035647:3623-4489	CARB-12	3002250	argannot
 argannot~~~(Bla)CARB-9~~~AY248038:2073-2939	CARB-9	3002248	argannot
 argannot~~~(Bla)CfiA1~~~AB087225:1-750	CfiA2	3006912	argannot
 argannot~~~(Bla)Mbl~~~NC_010410:c1997136-1996441	CAR-1	3006903	argannot
@@ -220,34 +219,32 @@ argannot~~~(Bla)VEB-14~~~NG_050322:1-897	VEB-14	3006211	argannot
 argannot~~~(Bla)VEB-15~~~NG_050323:1-900	VEB-15	3006212	argannot
 argannot~~~(Bla)Zn-dependent_hydrolase~~~NC_010410:882015-882977	LRA-9	3002488	argannot
 argannot~~~(Bla)aci1~~~AJ007350:240-1094	ACI-1	3004359	argannot
-argannot~~~(Bla)ampH~~~CP003785:4208384-4209544	DHA-18	3002149	argannot
 argannot~~~(Bla)ampH_Ecoli~~~AP012030:395554-396711	CMY-83	3002096	argannot
+argannot~~~(Bla)ampH~~~CP003785:4208384-4209544	DHA-18	3002149	argannot
 argannot~~~(Bla)ampS~~~NC_014932:210005-211252	PST-1	3006976	argannot
 argannot~~~(Bla)beta-lactamase_class-C~~~NC_010410:1184557-1185747	ADC-11	3004615	argannot
-argannot~~~(Bla)bla2~~~NG_047224:101-874	BcII	3002878	argannot
 argannot~~~(Bla)bla2a~~~M28303:243-1187	EXO-1	3003564	argannot
-argannot~~~(Bla)blaA~~~CP003048:1-885	FTU-1	3004801	argannot
+argannot~~~(Bla)bla2~~~NG_047224:101-874	BcII	3002878	argannot
 argannot~~~(Bla)blaACC-1~~~AJ133121:650-1810	ACC-1	3001815	argannot
 argannot~~~(Bla)blaACC-2~~~AF180952:1565-2737	ACC-2	3001816	argannot
 argannot~~~(Bla)blaACC-3~~~AF180957:1-1131	ACC-3	3001817	argannot
 argannot~~~(Bla)blaACC-4~~~EF504260:1995-3155	ACC-4	3001818	argannot
 argannot~~~(Bla)blaACC-5~~~HE819401:1-1161	ACC-5	3001819	argannot
-argannot~~~(Bla)blaACT-1~~~U58495:28-1173	ACT-1	3001821	argannot
 argannot~~~(Bla)blaACT-10~~~JN848330:1-1146	ACT-10	3001832	argannot
 argannot~~~(Bla)blaACT-12~~~JX440355:752-1897	ACT-12	3001834	argannot
 argannot~~~(Bla)blaACT-14~~~JX440354:757-1902	ACT-14	3001836	argannot
 argannot~~~(Bla)blaACT-15~~~JX440356:755-1900	ACT-15	3001837	argannot
 argannot~~~(Bla)blaACT-16~~~:NG_050702	ACT-69	3006264	argannot
+argannot~~~(Bla)blaACT-1~~~U58495:28-1173	ACT-1	3001821	argannot
 argannot~~~(Bla)blaACT-2~~~AM076977:1-1146	ACT-2	3001822	argannot
-argannot~~~(Bla)blaACT-3~~~EU427302:1476-2618	ACT-4	3001829	argannot
 argannot~~~(Bla)blaACT-38~~~KP836350:1-1146	ACT-38	3003655	argannot
+argannot~~~(Bla)blaACT-3~~~EU427302:1476-2618	ACT-4	3001829	argannot
 argannot~~~(Bla)blaACT-4~~~AJ311172:12-1157	ACT-4	3001829	argannot
 argannot~~~(Bla)blaACT-5~~~FJ237369:1-1146	ACT-5	3001824	argannot
 argannot~~~(Bla)blaACT-6~~~FJ237366:41-1186	ACT-6	3001825	argannot
 argannot~~~(Bla)blaACT-7~~~FJ237368:1-1146	ACT-7	3001830	argannot
 argannot~~~(Bla)blaACT-8~~~FN645445:1-1146	ACT-8	3001831	argannot
 argannot~~~(Bla)blaACT-9~~~HQ693810:1009-2151	ACT-9	3001826	argannot
-argannot~~~(Bla)blaADC-1~~~NG_048633:1-1152	ADC-1	3003847	argannot
 argannot~~~(Bla)blaADC-10~~~NG_048634:1-1167	ADC-10	3003855	argannot
 argannot~~~(Bla)blaADC-11~~~NG_048635:1-1152	ADC-11	3004615	argannot
 argannot~~~(Bla)blaADC-12~~~NG_048636:1-1152	ADC-12	3003856	argannot
@@ -258,12 +255,13 @@ argannot~~~(Bla)blaADC-16~~~NG_048640:1-1152	ADC-16	3003860	argannot
 argannot~~~(Bla)blaADC-17~~~NG_048641:1-1152	ADC-17	3003861	argannot
 argannot~~~(Bla)blaADC-18~~~NG_048642:1-1152	ADC-18	3003862	argannot
 argannot~~~(Bla)blaADC-19~~~NG_048643:1--1152	ADC-19	3003863	argannot
-argannot~~~(Bla)blaADC-2~~~NG_048644:101-1252	ADC-2	3003848	argannot
+argannot~~~(Bla)blaADC-1~~~NG_048633:1-1152	ADC-1	3003847	argannot
 argannot~~~(Bla)blaADC-20~~~NG_048645:1-1152	ADC-20	3003864	argannot
 argannot~~~(Bla)blaADC-21~~~NG_048646:1-1152	ADC-21	3003865	argannot
 argannot~~~(Bla)blaADC-22~~~NG_048647:1-1132	ADC-22	3003866	argannot
 argannot~~~(Bla)blaADC-23~~~NG_048648:1-1152	ADC-23	3003867	argannot
 argannot~~~(Bla)blaADC-25~~~EF016355:1-1152	ADC-25	3003868	argannot
+argannot~~~(Bla)blaADC-2~~~NG_048644:101-1252	ADC-2	3003848	argannot
 argannot~~~(Bla)blaADC-30~~~JF265068:955-2106	ADC-30	3004617	argannot
 argannot~~~(Bla)blaADC-56~~~JF265067:955-2106	ADC-56	3003878	argannot
 argannot~~~(Bla)blaADC-58~~~JQ319653:1-1152	ADC-58	3004618	argannot
@@ -294,12 +292,13 @@ argannot~~~(Bla)blaARL-5~~~NG_054951:101-949	ARL-5	3004738	argannot
 argannot~~~(Bla)blaARL-6~~~NG_054952:101-949	ARL-6	3004739	argannot
 argannot~~~(Bla)blaAST-1~~~AF279904:160-1092	AST-1	3004740	argannot
 argannot~~~(Bla)blaAZECL-25~~~KJ949106:1-1146	MIR-23	3004745	argannot
-argannot~~~(Bla)blaB-1~~~AF189298:1-750	BlaB-1	3005522	argannot
+argannot~~~(Bla)blaA~~~CP003048:1-885	FTU-1	3004801	argannot
 argannot~~~(Bla)blaB-10~~~AY348325:1-747	BlaB-10	3005523	argannot
 argannot~~~(Bla)blaB-11~~~AY348326:1-750	BlaB-11	3005524	argannot
 argannot~~~(Bla)blaB-12~~~EF595958:1-750	BlaB-12	3005525	argannot
 argannot~~~(Bla)blaB-13~~~EF595959:1-750	BlaB-13	3005526	argannot
 argannot~~~(Bla)blaB-14~~~JN635697:973-1719	BlaB-14	3005527	argannot
+argannot~~~(Bla)blaB-1~~~AF189298:1-750	BlaB-1	3005522	argannot
 argannot~~~(Bla)blaB-2~~~AF189300:1-750	BlaB-2	3005533	argannot
 argannot~~~(Bla)blaB-3~~~AF162284:1-750	BlaB-3	3005543	argannot
 argannot~~~(Bla)blaB-4~~~NG_055992:101-730	PLN-1	3006972	argannot
@@ -363,13 +362,11 @@ argannot~~~(Bla)blaCMA-2~~~NG_062212:101	CMA-2	3006923	argannot
 argannot~~~(Bla)blaCME-1~~~AJ006275:72-959	CME-1	3004775	argannot
 argannot~~~(Bla)blaCMG~~~AY265892:1-1054	ACT-62	3006257	argannot
 argannot~~~(Bla)blaCMH-1~~~JQ673557:1-1146	CMH-1	3004777	argannot
-argannot~~~(Bla)blaCMY-1~~~X92508:1-1149	CMY-1	3002012	argannot
-argannot~~~(Bla)blaCMY-10~~~AF373217:1-1149	CMY-10	3002021	argannot
 argannot~~~(Bla)blaCMY-104~~~KF150216:1-1146	CMY-104	3002116	argannot
 argannot~~~(Bla)blaCMY-105~~~KJ207205:1040-2145	CMY-105	3002117	argannot
 argannot~~~(Bla)blaCMY-106~~~KM983294:1051-2196	CMY-106	3002118	argannot
 argannot~~~(Bla)blaCMY-108~~~KF564648:1-1146	CMY-108	3002120	argannot
-argannot~~~(Bla)blaCMY-11~~~AF381626:254-1402	CMY-11	3002022	argannot
+argannot~~~(Bla)blaCMY-10~~~AF373217:1-1149	CMY-10	3002021	argannot
 argannot~~~(Bla)blaCMY-110~~~AB872957:1-1146	CMY-110	3002071	argannot
 argannot~~~(Bla)blaCMY-111~~~KJ155695:1-1146	CMY-111	3002122	argannot
 argannot~~~(Bla)blaCMY-112~~~KM087837:1-1146	CMY-112	3002123	argannot
@@ -380,19 +377,20 @@ argannot~~~(Bla)blaCMY-116~~~KM087840:1-1146	CMY-116	3002127	argannot
 argannot~~~(Bla)blaCMY-117~~~KM087844:1-1146	CMY-117	3002128	argannot
 argannot~~~(Bla)blaCMY-118~~~KM087838:1-1146	CMY-118	3002129	argannot
 argannot~~~(Bla)blaCMY-119~~~KM087845:1-1146	CMY-119	3002130	argannot
+argannot~~~(Bla)blaCMY-11~~~AF381626:254-1402	CMY-11	3002022	argannot
 argannot~~~(Bla)blaCMY-12~~~FR716828:847-1992	CMY-12	3002023	argannot
-argannot~~~(Bla)blaCMY-13~~~AY339625:3641-4786	CMY-13	3002024	argannot
 argannot~~~(Bla)blaCMY-131~~~KP281294:1-1146	CMY-131	3003170	argannot
 argannot~~~(Bla)blaCMY-132~~~KP862820:1-1146	CMY-132	3003652	argannot
 argannot~~~(Bla)blaCMY-133~~~KP862819:1-1146	CMY-133	3003653	argannot
 argannot~~~(Bla)blaCMY-135~~~KP981366:1-1146	CMY-135	3004778	argannot
+argannot~~~(Bla)blaCMY-13~~~AY339625:3641-4786	CMY-13	3002024	argannot
 argannot~~~(Bla)blaCMY-14~~~EU600193:1702-2847	CMY-14	3002025	argannot
 argannot~~~(Bla)blaCMY-15~~~AJ555823:1-1146	CMY-15	3002026	argannot
 argannot~~~(Bla)blaCMY-16~~~FM995219:3672-4817	CMY-16	3002027	argannot
 argannot~~~(Bla)blaCMY-17~~~AY513266:165-1310	CMY-17	3002028	argannot
 argannot~~~(Bla)blaCMY-18~~~AY743434:47-1198	CMY-18	3002029	argannot
 argannot~~~(Bla)blaCMY-19~~~AB194410:1-1146	CMY-19	3002030	argannot
-argannot~~~(Bla)blaCMY-2~~~AM779746:1-1149	CMY-2	3002013	argannot
+argannot~~~(Bla)blaCMY-1~~~X92508:1-1149	CMY-1	3002012	argannot
 argannot~~~(Bla)blaCMY-20~~~AY960293:1-1143	CMY-20	3002031	argannot
 argannot~~~(Bla)blaCMY-21~~~DQ139328:1-1146	CMY-21	3002032	argannot
 argannot~~~(Bla)blaCMY-22~~~DQ256079:1-1146	CMY-22	3002033	argannot
@@ -403,6 +401,7 @@ argannot~~~(Bla)blaCMY-26~~~AB300358:1-1146	CMY-26	3002037	argannot
 argannot~~~(Bla)blaCMY-27~~~EU515250:1-1146	CMY-27	3002038	argannot
 argannot~~~(Bla)blaCMY-28~~~EF561644:1-1146	CMY-28	3002039	argannot
 argannot~~~(Bla)blaCMY-29~~~EF685371:1-1143	CMY-29	3002040	argannot
+argannot~~~(Bla)blaCMY-2~~~AM779746:1-1149	CMY-2	3002013	argannot
 argannot~~~(Bla)blaCMY-30~~~EF685372:1-1143	CMY-30	3002041	argannot
 argannot~~~(Bla)blaCMY-31~~~EF622224:1-1146	CMY-31	3002042	argannot
 argannot~~~(Bla)blaCMY-32~~~EU496815:1-1146	CMY-32	3002043	argannot
@@ -413,7 +412,6 @@ argannot~~~(Bla)blaCMY-36~~~EU331426:2375-3520	CMY-36	3002047	argannot
 argannot~~~(Bla)blaCMY-37~~~AB280919:1-1146	CMY-37	3002048	argannot
 argannot~~~(Bla)blaCMY-38~~~AM931008:1-1146	CMY-38	3002049	argannot
 argannot~~~(Bla)blaCMY-39~~~AB372224:1-1146	CMY-39	3002050	argannot
-argannot~~~(Bla)blaCMY-4~~~AF420597:1-1146	CMY-4	3002015	argannot
 argannot~~~(Bla)blaCMY-40~~~EU515251:1-1146	CMY-40	3002051	argannot
 argannot~~~(Bla)blaCMY-41~~~AB429270:15-1160	CMY-41	3002052	argannot
 argannot~~~(Bla)blaCMY-42~~~HM146927:1-1146	CMY-42	3002053	argannot
@@ -424,7 +422,7 @@ argannot~~~(Bla)blaCMY-46~~~FN556186:1-1146	CMY-46	3002057	argannot
 argannot~~~(Bla)blaCMY-47~~~HM046998:1040-2185	CMY-47	3002058	argannot
 argannot~~~(Bla)blaCMY-48~~~HM569226:1040-2185	CMY-48	3002059	argannot
 argannot~~~(Bla)blaCMY-49~~~GQ402541:1-1146	CMY-49	3002060	argannot
-argannot~~~(Bla)blaCMY-5~~~Y17716:2374-3519	CMY-5	3002016	argannot
+argannot~~~(Bla)blaCMY-4~~~AF420597:1-1146	CMY-4	3002015	argannot
 argannot~~~(Bla)blaCMY-50~~~FN645444:1-1146	CMY-50	3002061	argannot
 argannot~~~(Bla)blaCMY-51~~~JQ733571:1028-2173	CMY-51	3002062	argannot
 argannot~~~(Bla)blaCMY-53~~~HQ336940:1-1146	CMY-53	3002064	argannot
@@ -433,7 +431,7 @@ argannot~~~(Bla)blaCMY-55~~~HM544040:1-1146	CMY-55	3002066	argannot
 argannot~~~(Bla)blaCMY-56~~~HQ322613:1-1146	CMY-56	3002067	argannot
 argannot~~~(Bla)blaCMY-57~~~HQ285243:1-1146	CMY-57	3002068	argannot
 argannot~~~(Bla)blaCMY-58~~~HQ185697:1268-2413	CMY-58	3002072	argannot
-argannot~~~(Bla)blaCMY-6~~~AJ011293:1-1146	CMY-6	3002017	argannot
+argannot~~~(Bla)blaCMY-5~~~Y17716:2374-3519	CMY-5	3002016	argannot
 argannot~~~(Bla)blaCMY-60~~~JF460794:1-1146	CMY-60	3002073	argannot
 argannot~~~(Bla)blaCMY-61~~~JF460795:1-1143	CMY-61	3002074	argannot
 argannot~~~(Bla)blaCMY-62~~~JF460796:1-1146	CMY-62	3002075	argannot
@@ -444,7 +442,7 @@ argannot~~~(Bla)blaCMY-66~~~JN714478:1035-2180	CMY-66	3002079	argannot
 argannot~~~(Bla)blaCMY-67~~~JQ711185:1028-2173	CMY-67	3002080	argannot
 argannot~~~(Bla)blaCMY-68~~~JN714480:1040-2185	CMY-68	3002081	argannot
 argannot~~~(Bla)blaCMY-69~~~JX049132:1-1146	CMY-69	3002082	argannot
-argannot~~~(Bla)blaCMY-7~~~AJ011291:1-1146	CMY-7	3002018	argannot
+argannot~~~(Bla)blaCMY-6~~~AJ011293:1-1146	CMY-6	3002017	argannot
 argannot~~~(Bla)blaCMY-70~~~JX440350:1027-2172	CMY-70	3002083	argannot
 argannot~~~(Bla)blaCMY-71~~~JQ711184:1027-2172	CMY-71	3002084	argannot
 argannot~~~(Bla)blaCMY-72~~~JX440352:1028-2173	CMY-72	3002085	argannot
@@ -455,20 +453,19 @@ argannot~~~(Bla)blaCMY-76~~~JQ733573:1028-2173	CMY-76	3002089	argannot
 argannot~~~(Bla)blaCMY-77~~~JX440353:1027-2172	CMY-77	3002090	argannot
 argannot~~~(Bla)blaCMY-78~~~JQ733575:1028-2173	CMY-78	3002091	argannot
 argannot~~~(Bla)blaCMY-79~~~JQ733576:1028-2173	CMY-79	3002092	argannot
-argannot~~~(Bla)blaCMY-8~~~AF167990:613-1761	CMY-8	3002019	argannot
+argannot~~~(Bla)blaCMY-7~~~AJ011291:1-1146	CMY-7	3002018	argannot
 argannot~~~(Bla)blaCMY-80~~~JQ733577:1027-2172	CMY-80	3002093	argannot
 argannot~~~(Bla)blaCMY-81~~~JQ733578:1008-2153	CMY-81	3002094	argannot
 argannot~~~(Bla)blaCMY-83~~~JX440351:1027-2172	CMY-83	3002096	argannot
 argannot~~~(Bla)blaCMY-84~~~JQ733579:1028-2173	CMY-84	3002097	argannot
 argannot~~~(Bla)blaCMY-87~~~AB699171:1-1143	CMY-87	3002100	argannot
-argannot~~~(Bla)blaCMY-9~~~AB061794:6018-7166	CMY-9	3002020	argannot
+argannot~~~(Bla)blaCMY-8~~~AF167990:613-1761	CMY-8	3002019	argannot
 argannot~~~(Bla)blaCMY-94~~~JX514368:272-1417	CMY-94	3002107	argannot
 argannot~~~(Bla)blaCMY-95~~~JX514369:297-1483	CMY-95	3002108	argannot
+argannot~~~(Bla)blaCMY-9~~~AB061794:6018-7166	CMY-9	3002020	argannot
 argannot~~~(Bla)blaCRD3-1~~~NG_062235:1-912	CRD3-1	3006864	argannot
 argannot~~~(Bla)blaCSA-1~~~NG_062223:101-1228	CSA-1	3006869	argannot
 argannot~~~(Bla)blaCSA-2~~~NG_062211:101-1228	CSA-2	3006870	argannot
-argannot~~~(Bla)blaCTX-M-1~~~X92506:63-938	CTX-M-1	3001864	argannot
-argannot~~~(Bla)blaCTX-M-10~~~AF255298:1-873	CTX-M-10	3001873	argannot
 argannot~~~(Bla)blaCTX-M-100~~~FR682582:1-876	CTX-M-100	3001959	argannot
 argannot~~~(Bla)blaCTX-M-101~~~HQ398214:250-1125	CTX-M-101	3001960	argannot
 argannot~~~(Bla)blaCTX-M-102~~~HQ398215:245-1120	CTX-M-102	3001961	argannot
@@ -478,7 +475,7 @@ argannot~~~(Bla)blaCTX-M-106~~~HQ913565:1-870	CTX-M-106	3001966	argannot
 argannot~~~(Bla)blaCTX-M-107~~~JF274244:1-864	CTX-M-107	3001967	argannot
 argannot~~~(Bla)blaCTX-M-108~~~JF274245:1-864	CTX-M-108	3001968	argannot
 argannot~~~(Bla)blaCTX-M-109~~~JF274248:1-865	CTX-M-109	3001969	argannot
-argannot~~~(Bla)blaCTX-M-11~~~AY005110:254-1402	CTX-M-11	3001874	argannot
+argannot~~~(Bla)blaCTX-M-10~~~AF255298:1-873	CTX-M-10	3001873	argannot
 argannot~~~(Bla)blaCTX-M-110~~~JF274242:1-877	CTX-M-110	3001970	argannot
 argannot~~~(Bla)blaCTX-M-111~~~JF274243:1-876	CTX-M-111	3001971	argannot
 argannot~~~(Bla)blaCTX-M-112~~~JF274246:1-876	CTX-M-112	3001972	argannot
@@ -486,7 +483,7 @@ argannot~~~(Bla)blaCTX-M-113~~~JF274247:1-876	CTX-M-113	3001973	argannot
 argannot~~~(Bla)blaCTX-M-114~~~GQ351346:1-876	CTX-M-114	3001974	argannot
 argannot~~~(Bla)blaCTX-M-116~~~JF966749:158-1033	CTX-M-116	3001976	argannot
 argannot~~~(Bla)blaCTX-M-117~~~JN227085:1-876	CTX-M-117	3001977	argannot
-argannot~~~(Bla)blaCTX-M-12~~~AY293073:1-876	CTX-M-12	3001875	argannot
+argannot~~~(Bla)blaCTX-M-11~~~AY005110:254-1402	CTX-M-11	3001874	argannot
 argannot~~~(Bla)blaCTX-M-121~~~JN790862:245-1120	CTX-M-121	3001980	argannot
 argannot~~~(Bla)blaCTX-M-122~~~JN790863:233-1108	CTX-M-122	3001981	argannot
 argannot~~~(Bla)blaCTX-M-123~~~JN790864:239-1114	CTX-M-123	3001982	argannot
@@ -494,6 +491,7 @@ argannot~~~(Bla)blaCTX-M-124~~~JQ429324:1-876	CTX-M-124	3001983	argannot
 argannot~~~(Bla)blaCTX-M-125~~~JQ724542:175-1050	CTX-M-125	3001984	argannot
 argannot~~~(Bla)blaCTX-M-126~~~AB703103:1-876	CTX-M-126	3001985	argannot
 argannot~~~(Bla)blaCTX-M-129~~~JX017364:239-1114	CTX-M-129	3001988	argannot
+argannot~~~(Bla)blaCTX-M-12~~~AY293073:1-876	CTX-M-12	3001875	argannot
 argannot~~~(Bla)blaCTX-M-130~~~JX017365:245-1120	CTX-M-130	3001989	argannot
 argannot~~~(Bla)blaCTX-M-131~~~JN969893:1-873	CTX-M-131	3001990	argannot
 argannot~~~(Bla)blaCTX-M-132~~~JX313020:1-876	CTX-M-132	3001991	argannot
@@ -505,7 +503,7 @@ argannot~~~(Bla)blaCTX-M-15~~~JQ686199:261-1136	CTX-M-15	3001878	argannot
 argannot~~~(Bla)blaCTX-M-16~~~AY029068:1-876	CTX-M-16	3001879	argannot
 argannot~~~(Bla)blaCTX-M-17~~~AY033516:2826-3711	CTX-M-17	3001880	argannot
 argannot~~~(Bla)blaCTX-M-19~~~AF325134:1-876	CTX-M-19	3001881	argannot
-argannot~~~(Bla)blaCTX-M-2~~~EF592570:5803-6678	CTX-M-2	3001865	argannot
+argannot~~~(Bla)blaCTX-M-1~~~X92506:63-938	CTX-M-1	3001864	argannot
 argannot~~~(Bla)blaCTX-M-20~~~AJ416344:304-1179	CTX-M-20	3001882	argannot
 argannot~~~(Bla)blaCTX-M-21~~~AJ416346:557-1432	CTX-M-21	3001883	argannot
 argannot~~~(Bla)blaCTX-M-22~~~AY080894:4-879	CTX-M-22	3001884	argannot
@@ -516,7 +514,7 @@ argannot~~~(Bla)blaCTX-M-26~~~AY157676:1-876	CTX-M-26	3001888	argannot
 argannot~~~(Bla)blaCTX-M-27~~~AY156923:1-876	CTX-M-27	3001889	argannot
 argannot~~~(Bla)blaCTX-M-28~~~AJ549244:1-876	CTX-M-28	3001890	argannot
 argannot~~~(Bla)blaCTX-M-29~~~AY267213:1-876	CTX-M-29	3001891	argannot
-argannot~~~(Bla)blaCTX-M-3~~~Y10278:1-876	CTX-M-3	3001866	argannot
+argannot~~~(Bla)blaCTX-M-2~~~EF592570:5803-6678	CTX-M-2	3001865	argannot
 argannot~~~(Bla)blaCTX-M-30~~~AY292654:1-876	CTX-M-30	3001892	argannot
 argannot~~~(Bla)blaCTX-M-31~~~AJ567482:1-876	CTX-M-31	3001893	argannot
 argannot~~~(Bla)blaCTX-M-32~~~AJ557142:1-876	CTX-M-32	3001894	argannot
@@ -526,7 +524,7 @@ argannot~~~(Bla)blaCTX-M-35~~~AB176534:1-876	CTX-M-35	3001897	argannot
 argannot~~~(Bla)blaCTX-M-36~~~AB177384:1-876	CTX-M-36	3001898	argannot
 argannot~~~(Bla)blaCTX-M-37~~~AY649755:18-893	CTX-M-37	3001899	argannot
 argannot~~~(Bla)blaCTX-M-39~~~AY954516:1-876	CTX-M-39	3001901	argannot
-argannot~~~(Bla)blaCTX-M-4~~~Y14156:1-876	CTX-M-4	3001867	argannot
+argannot~~~(Bla)blaCTX-M-3~~~Y10278:1-876	CTX-M-3	3001866	argannot
 argannot~~~(Bla)blaCTX-M-40~~~AY750914:207-1079	CTX-M-40	3001902	argannot
 argannot~~~(Bla)blaCTX-M-41~~~DQ023162:1-876	CTX-M-41	3001903	argannot
 argannot~~~(Bla)blaCTX-M-42~~~DQ061159:347-1222	CTX-M-42	3001904	argannot
@@ -537,7 +535,7 @@ argannot~~~(Bla)blaCTX-M-46~~~AY847147:82-957	CTX-M-46	3001908	argannot
 argannot~~~(Bla)blaCTX-M-47~~~AY847143:83-958	CTX-M-47	3001909	argannot
 argannot~~~(Bla)blaCTX-M-48~~~AY847144:82-957	CTX-M-48	3001910	argannot
 argannot~~~(Bla)blaCTX-M-49~~~AY847145:82-957	CTX-M-49	3001911	argannot
-argannot~~~(Bla)blaCTX-M-5~~~JN003855:131-1007	CTX-M-5	3001868	argannot
+argannot~~~(Bla)blaCTX-M-4~~~Y14156:1-876	CTX-M-4	3001867	argannot
 argannot~~~(Bla)blaCTX-M-50~~~AY847146:83-958	CTX-M-50	3001912	argannot
 argannot~~~(Bla)blaCTX-M-51~~~DQ211987:1-876	CTX-M-51	3001913	argannot
 argannot~~~(Bla)blaCTX-M-52~~~GU125667:1-876	CTX-M-52	3001914	argannot
@@ -547,7 +545,7 @@ argannot~~~(Bla)blaCTX-M-55~~~HM748991:321-1196	CTX-M-55	3001917	argannot
 argannot~~~(Bla)blaCTX-M-56~~~EF374097:1-876	CTX-M-56	3001918	argannot
 argannot~~~(Bla)blaCTX-M-58~~~HQ734707:1-876	CTX-M-58	3001919	argannot
 argannot~~~(Bla)blaCTX-M-59~~~EU622856:6869-7744	CTX-M-59	3001920	argannot
-argannot~~~(Bla)blaCTX-M-6~~~AJ005044:1-876	CTX-M-6	3001869	argannot
+argannot~~~(Bla)blaCTX-M-5~~~JN003855:131-1007	CTX-M-5	3001868	argannot
 argannot~~~(Bla)blaCTX-M-60~~~AM411407:1-876	CTX-M-60	3001921	argannot
 argannot~~~(Bla)blaCTX-M-61~~~GU125683:1-876	CTX-M-61	3001922	argannot
 argannot~~~(Bla)blaCTX-M-62~~~GU125669:1-876	CTX-M-62	3001923	argannot
@@ -558,7 +556,7 @@ argannot~~~(Bla)blaCTX-M-66~~~EF576988:1-876	CTX-M-66	3001927	argannot
 argannot~~~(Bla)blaCTX-M-67~~~EF581888:1-876	CTX-M-67	3001928	argannot
 argannot~~~(Bla)blaCTX-M-68~~~EU177100:5-880	CTX-M-68	3001929	argannot
 argannot~~~(Bla)blaCTX-M-69~~~EU402393:1-876	CTX-M-69	3001930	argannot
-argannot~~~(Bla)blaCTX-M-7~~~AJ005045:1-876	CTX-M-7	3001870	argannot
+argannot~~~(Bla)blaCTX-M-6~~~AJ005044:1-876	CTX-M-6	3001869	argannot
 argannot~~~(Bla)blaCTX-M-71~~~FJ815436:196-1071	CTX-M-71	3001932	argannot
 argannot~~~(Bla)blaCTX-M-72~~~AY847148:9-884	CTX-M-72	3001933	argannot
 argannot~~~(Bla)blaCTX-M-74~~~GQ149243:1-873	CTX-M-74	3001935	argannot
@@ -567,7 +565,7 @@ argannot~~~(Bla)blaCTX-M-76~~~AM982520:5549-6424	CTX-M-76	3001937	argannot
 argannot~~~(Bla)blaCTX-M-77~~~AM982521:1912-2787	CTX-M-77	3001938	argannot
 argannot~~~(Bla)blaCTX-M-78~~~AM982522:1-876	CTX-M-78	3001939	argannot
 argannot~~~(Bla)blaCTX-M-79~~~GU125702:1-876	CTX-M-79	3001940	argannot
-argannot~~~(Bla)blaCTX-M-8~~~AF189721:274-1119	CTX-M-8	3001871	argannot
+argannot~~~(Bla)blaCTX-M-7~~~AJ005045:1-876	CTX-M-7	3001870	argannot
 argannot~~~(Bla)blaCTX-M-80~~~EU202673:1-876	CTX-M-80	3001941	argannot
 argannot~~~(Bla)blaCTX-M-81~~~EU136031:1-876	CTX-M-81	3001942	argannot
 argannot~~~(Bla)blaCTX-M-82~~~EU545409:81-956	CTX-M-87	3001947	argannot
@@ -577,7 +575,7 @@ argannot~~~(Bla)blaCTX-M-85~~~FJ214368:1-876	CTX-M-85	3002495	argannot
 argannot~~~(Bla)blaCTX-M-86~~~FJ214369:1-876	CTX-M-86	3001946	argannot
 argannot~~~(Bla)blaCTX-M-88~~~FJ873739:1-876	CTX-M-88	3001948	argannot
 argannot~~~(Bla)blaCTX-M-89~~~FJ971899:1-876	CTX-M-89	3001949	argannot
-argannot~~~(Bla)blaCTX-M-9~~~AF174129:1-876	CTX-M-9	3001872	argannot
+argannot~~~(Bla)blaCTX-M-8~~~AF189721:274-1119	CTX-M-8	3001871	argannot
 argannot~~~(Bla)blaCTX-M-90~~~FJ907381:1-876	CTX-M-90	3001950	argannot
 argannot~~~(Bla)blaCTX-M-91~~~GQ870432:31-906	CTX-M-91	3001951	argannot
 argannot~~~(Bla)blaCTX-M-92~~~GU127598:1-876	CTX-M-92	3001952	argannot
@@ -588,6 +586,7 @@ argannot~~~(Bla)blaCTX-M-96~~~AJ704396:1-876	CTX-M-96	3001956	argannot
 argannot~~~(Bla)blaCTX-M-97~~~HM776707:1-876	CTX-M-97	3005667	argannot
 argannot~~~(Bla)blaCTX-M-98~~~HQ637575:1-876	CTX-M-98	3001957	argannot
 argannot~~~(Bla)blaCTX-M-99~~~HM803271:1-876	CTX-M-99	3001958	argannot
+argannot~~~(Bla)blaCTX-M-9~~~AF174129:1-876	CTX-M-9	3001872	argannot
 argannot~~~(Bla)blaDES-1~~~AF426161:119-1093	DES-1	3004780	argannot
 argannot~~~(Bla)blaDHA-1~~~HM193083:987-2126	DHA-1	3002132	argannot
 argannot~~~(Bla)blaDHA-2~~~AF259520:1513-2652	DHA-2	3002133	argannot
@@ -614,8 +613,8 @@ argannot~~~(Bla)blaFONA-3~~~AJ251241:1054-1941	FONA-3	3004790	argannot
 argannot~~~(Bla)blaFONA-4~~~AJ251242:1054-1941	FONA-4	3004791	argannot
 argannot~~~(Bla)blaFONA-5~~~AJ251243:1054-1941	FONA-5	3004792	argannot
 argannot~~~(Bla)blaFONA-6~~~AJ251244:1054-1941	FONA-6	3004793	argannot
-argannot~~~(Bla)blaFOX-1~~~X77455:701-1849	FOX-1	3002155	argannot
 argannot~~~(Bla)blaFOX-10~~~JX049131:1-1149	FOX-10	3002162	argannot
+argannot~~~(Bla)blaFOX-1~~~X77455:701-1849	FOX-1	3002155	argannot
 argannot~~~(Bla)blaFOX-2~~~Y10282:19-1167	FOX-2	3002156	argannot
 argannot~~~(Bla)blaFOX-3~~~Y11068:17-1165	FOX-3	3002157	argannot
 argannot~~~(Bla)blaFOX-4~~~AJ277535:1-1149	FOX-4	3002158	argannot
@@ -628,7 +627,6 @@ argannot~~~(Bla)blaFRI-1~~~KT192551:3492-4376	FRI-1	3004797	argannot
 argannot~~~(Bla)blaFRI-2~~~LC178555:1-885	FRI-4	3005027	argannot
 argannot~~~(Bla)blaFRI-3~~~KY524440:1-885	FRI-3	3004799	argannot
 argannot~~~(Bla)blaFTU-1~~~NG_049110:101-964	FTU-1	3004801	argannot
-argannot~~~(Bla)blaGES-1~~~HM370522:1-864	GES-1	3002330	argannot
 argannot~~~(Bla)blaGES-10~~~FJ820124:1124-1987	GES-10	3002339	argannot
 argannot~~~(Bla)blaGES-11~~~JN253503:37-900	GES-11	3002340	argannot
 argannot~~~(Bla)blaGES-12~~~FN554543:1-864	GES-12	3002341	argannot
@@ -639,20 +637,20 @@ argannot~~~(Bla)blaGES-16~~~HM173356:512-1375	GES-16	3002345	argannot
 argannot~~~(Bla)blaGES-17~~~HQ874631:1-864	GES-17	3002346	argannot
 argannot~~~(Bla)blaGES-18~~~JQ028729:1-864	GES-18	3002347	argannot
 argannot~~~(Bla)blaGES-19~~~JN596280:1919-2782	GES-19	3002348	argannot
-argannot~~~(Bla)blaGES-2~~~AF326355:1-864	GES-2	3002331	argannot
+argannot~~~(Bla)blaGES-1~~~HM370522:1-864	GES-1	3002330	argannot
 argannot~~~(Bla)blaGES-20~~~JN596280:2848-3711	GES-20	3002349	argannot
 argannot~~~(Bla)blaGES-21~~~JQ772478:141-1004	GES-21	3002350	argannot
 argannot~~~(Bla)blaGES-22~~~JX023441:38-901	GES-22	3002351	argannot
 argannot~~~(Bla)blaGES-23~~~KF179354:1-861	GES-23	3002352	argannot
 argannot~~~(Bla)blaGES-24~~~AB901141:1-864	GES-24	3002353	argannot
 argannot~~~(Bla)blaGES-26~~~KP096411:1-864	GES-26	3003181	argannot
+argannot~~~(Bla)blaGES-2~~~AF326355:1-864	GES-2	3002331	argannot
 argannot~~~(Bla)blaGES-3~~~AY494717:1-864	GES-5	3002334	argannot
 argannot~~~(Bla)blaGES-4~~~AB116260:1330-2193	GES-4	3002333	argannot
 argannot~~~(Bla)blaGES-6~~~AY494718:1-864	GES-6	3002335	argannot
 argannot~~~(Bla)blaGES-9~~~AY920928:2690-3553	GES-9	3002338	argannot
 argannot~~~(Bla)blaGIM-1~~~JF414726:394-1146	GIM-1	3000845	argannot
 argannot~~~(Bla)blaGIM-2~~~KM659858:402-1154	GIM-2	3003194	argannot
-argannot~~~(Bla)blaGOB-1~~~AF090141:243-1115	GOB-1	3000850	argannot
 argannot~~~(Bla)blaGOB-10~~~AY647247:1-873	GOB-10	3004802	argannot
 argannot~~~(Bla)blaGOB-11~~~AY647248:1-879	GOB-11	3004803	argannot
 argannot~~~(Bla)blaGOB-12~~~AY647249:1-873	GOB-12	3004804	argannot
@@ -661,6 +659,7 @@ argannot~~~(Bla)blaGOB-14~~~AY647252:1-879	GOB-14	3004806	argannot
 argannot~~~(Bla)blaGOB-15~~~AY775547:1-879	GOB-15	3004807	argannot
 argannot~~~(Bla)blaGOB-16~~~GU188443:1-873	GOB-16	3004808	argannot
 argannot~~~(Bla)blaGOB-18~~~DQ004496:1-873	GOB-18	3004213	argannot
+argannot~~~(Bla)blaGOB-1~~~AF090141:243-1115	GOB-1	3000850	argannot
 argannot~~~(Bla)blaGOB-2~~~AF189296:1-756	GOB-2	3004809	argannot
 argannot~~~(Bla)blaGOB-3~~~AF189291:1-756	GOB-3	3004810	argannot
 argannot~~~(Bla)blaGOB-4~~~AF189293:1-756	GOB-4	3004811	argannot
@@ -678,7 +677,6 @@ argannot~~~(Bla)blaHERA-4~~~AJ536088:1-873	HERA-4	3004819	argannot
 argannot~~~(Bla)blaHERA-5~~~AJ536089:1-873	HERA-5	3004820	argannot
 argannot~~~(Bla)blaHERA-6~~~AJ536090:1-873	HERA-6	3004821	argannot
 argannot~~~(Bla)blaHERA-8~~~AJ536092:1-873	HERA-8	3004822	argannot
-argannot~~~(Bla)blaI~~~NG_047499:101-481	mecI	3000124	argannot
 argannot~~~(Bla)blaIBC-2~~~AF329699:373-1236	GES-8	3002337	argannot
 argannot~~~(Bla)blaIMI-1~~~ECU50278:1264-2142	IMI-1	3001858	argannot
 argannot~~~(Bla)blaIMI-2~~~JN412066:2891-3769	IMI-2	3001859	argannot
@@ -686,7 +684,6 @@ argannot~~~(Bla)blaIMI-3~~~GU015024:1-879	IMI-3	3001860	argannot
 argannot~~~(Bla)blaIMI-4~~~KF958750:1-879	IMI-4	3001861	argannot
 argannot~~~(Bla)blaIMI-7~~~KM103296:1-879	IMI-7	3003177	argannot
 argannot~~~(Bla)blaIMI-8~~~KP081315:1-879	IMI-8	3003142	argannot
-argannot~~~(Bla)blaIMP-1~~~HM036079:114-854	IMP-14	3002205	argannot
 argannot~~~(Bla)blaIMP-10~~~AB074433:156-896	IMP-12	3002203	argannot
 argannot~~~(Bla)blaIMP-11~~~AB074436:17-754	IMP-11	3002202	argannot
 argannot~~~(Bla)blaIMP-13~~~JN091097:261-1001	IMP-13	3002204	argannot
@@ -694,7 +691,7 @@ argannot~~~(Bla)blaIMP-15~~~AY553333:114-854	IMP-15	3002206	argannot
 argannot~~~(Bla)blaIMP-16~~~AJ584652:1044-1784	IMP-16	3002207	argannot
 argannot~~~(Bla)blaIMP-18~~~AB587676:1366-2106	IMP-18	3002209	argannot
 argannot~~~(Bla)blaIMP-19~~~AB201265:1-741	IMP-19	3002210	argannot
-argannot~~~(Bla)blaIMP-2~~~AB182996:1-741	IMP-2	3002193	argannot
+argannot~~~(Bla)blaIMP-1~~~HM036079:114-854	IMP-14	3002205	argannot
 argannot~~~(Bla)blaIMP-20~~~AB196988:1-741	IMP-20	3002211	argannot
 argannot~~~(Bla)blaIMP-21~~~AB204557:1-738	IMP-21	3002212	argannot
 argannot~~~(Bla)blaIMP-22~~~FM876313:116-856	IMP-22	3002213	argannot
@@ -703,7 +700,7 @@ argannot~~~(Bla)blaIMP-25~~~EU352796:1-738	IMP-45	3002236	argannot
 argannot~~~(Bla)blaIMP-27~~~JF894248:1-741	IMP-27	3002218	argannot
 argannot~~~(Bla)blaIMP-28~~~HQ263342:1-741	IMP-28	3002219	argannot
 argannot~~~(Bla)blaIMP-29~~~HQ438058:1-741	IMP-29	3002220	argannot
-argannot~~~(Bla)blaIMP-3~~~AB010417:1-741	IMP-3	3002194	argannot
+argannot~~~(Bla)blaIMP-2~~~AB182996:1-741	IMP-2	3002193	argannot
 argannot~~~(Bla)blaIMP-30~~~HQ875573:1-741	IMP-38	3002229	argannot
 argannot~~~(Bla)blaIMP-32~~~JQ002629:114-854	IMP-32	3002223	argannot
 argannot~~~(Bla)blaIMP-33~~~JN848782:1-741	IMP-33	3002224	argannot
@@ -711,27 +708,28 @@ argannot~~~(Bla)blaIMP-34~~~AB715422:1696-2436	IMP-34	3002225	argannot
 argannot~~~(Bla)blaIMP-35~~~JF816544:1-741	IMP-35	3002226	argannot
 argannot~~~(Bla)blaIMP-37~~~JX131372:97-843	IMP-37	3002228	argannot
 argannot~~~(Bla)blaIMP-39~~~D50438:1195-1935	IMP-1	3002192	argannot
-argannot~~~(Bla)blaIMP-4~~~AF244145:1-741	IMP-4	3002195	argannot
+argannot~~~(Bla)blaIMP-3~~~AB010417:1-741	IMP-3	3002194	argannot
 argannot~~~(Bla)blaIMP-40~~~AB753457:1-741	IMP-40	3002231	argannot
 argannot~~~(Bla)blaIMP-41~~~AB753458:1-738	IMP-41	3002232	argannot
 argannot~~~(Bla)blaIMP-42~~~AB753456:1-741	IMP-42	3002233	argannot
 argannot~~~(Bla)blaIMP-43~~~AB777500:2035-2775	IMP-43	3002234	argannot
 argannot~~~(Bla)blaIMP-44~~~AB777501:1399-2136	IMP-44	3002235	argannot
 argannot~~~(Bla)blaIMP-49~~~KP681694:1-741	IMP-49	3003657	argannot
-argannot~~~(Bla)blaIMP-5~~~AF290912:1-741	IMP-5	3002196	argannot
+argannot~~~(Bla)blaIMP-4~~~AF244145:1-741	IMP-4	3002195	argannot
 argannot~~~(Bla)blaIMP-51~~~LC031883:5072-5812	IMP-51	3003659	argannot
 argannot~~~(Bla)blaIMP-52~~~LC055762:566-1306	IMP-52	3004823	argannot
+argannot~~~(Bla)blaIMP-5~~~AF290912:1-741	IMP-5	3002196	argannot
 argannot~~~(Bla)blaIMP-6~~~AB616660:1813-2553	IMP-6	3002197	argannot
 argannot~~~(Bla)blaIMP-7~~~AY625685:1-741	IMP-7	3002198	argannot
 argannot~~~(Bla)blaIMP-8~~~HQ651093:3019-3759	IMP-8	3002199	argannot
 argannot~~~(Bla)blaIMP-9~~~HM106459:3-740	IMP-9	3002200	argannot
-argannot~~~(Bla)blaIND-1~~~EF394436:1-720	IND-7	3002263	argannot
 argannot~~~(Bla)blaIND-10~~~GU206353:19-738	IND-10	3002266	argannot
 argannot~~~(Bla)blaIND-11~~~HM245379:57-788	IND-11	3002267	argannot
 argannot~~~(Bla)blaIND-12~~~HM245380:28-759	IND-12	3002268	argannot
 argannot~~~(Bla)blaIND-13~~~HM245381:57-788	IND-2a	3002258	argannot
 argannot~~~(Bla)blaIND-14~~~HM367709:8-728	IND-14	3002269	argannot
 argannot~~~(Bla)blaIND-15~~~AB563173:33-764	IND-15	3002270	argannot
+argannot~~~(Bla)blaIND-1~~~EF394436:1-720	IND-7	3002263	argannot
 argannot~~~(Bla)blaIND-2~~~EF394439:1-732	IND-2	3002257	argannot
 argannot~~~(Bla)blaIND-3~~~AF219133:1-720	IND-3	3002259	argannot
 argannot~~~(Bla)blaIND-4~~~AF219135:1-729	IND-4	3002260	argannot
@@ -740,6 +738,7 @@ argannot~~~(Bla)blaIND-6~~~AM087455:229-1011	IND-6	3002262	argannot
 argannot~~~(Bla)blaIND-7~~~AB529520:1-720	IND-7	3002263	argannot
 argannot~~~(Bla)blaIND-8~~~GU186044:40-759	IND-8	3002264	argannot
 argannot~~~(Bla)blaIND-9~~~GU186045:35-754	IND-9	3002265	argannot
+argannot~~~(Bla)blaI~~~NG_047499:101-481	mecI	3000124	argannot
 argannot~~~(Bla)blaJOHN-1~~~AY02846:443-1189	JOHN-1	3000840	argannot
 argannot~~~(Bla)blaKHM-1~~~AB364006:62-787	KHM-1	3000847	argannot
 argannot~~~(Bla)blaKLUC-1~~~NG_049241:101	KLUC-1	3006927	argannot
@@ -747,7 +746,6 @@ argannot~~~(Bla)blaKLUC-2~~~NG_049242:101	KLUC-2	3006928	argannot
 argannot~~~(Bla)blaKLUC-3~~~NG_062209:1	KLUC-3	3006929	argannot
 argannot~~~(Bla)blaKLUC-4~~~NG_062210:1	KLUC-4	3006930	argannot
 argannot~~~(Bla)blaKLUC-5~~~NG_062249:101-976	KLUC-5	3006931	argannot
-argannot~~~(Bla)blaKPC-1~~~AF297554:131-1012	KPC-2	3002312	argannot
 argannot~~~(Bla)blaKPC-10~~~GQ140348:1-882	KPC-10	3002320	argannot
 argannot~~~(Bla)blaKPC-11~~~HM066995:1-882	KPC-11	3002321	argannot
 argannot~~~(Bla)blaKPC-12~~~HQ342889:1-882	KPC-13	3002323	argannot
@@ -757,9 +755,10 @@ argannot~~~(Bla)blaKPC-15~~~KC433553:1-882	KPC-15	3002325	argannot
 argannot~~~(Bla)blaKPC-16~~~KC465199:1-882	KPC-16	3002326	argannot
 argannot~~~(Bla)blaKPC-17~~~KC465200:1-882	KPC-17	3002327	argannot
 argannot~~~(Bla)blaKPC-19~~~KJ775801:1-882	KPC-19	3002329	argannot
-argannot~~~(Bla)blaKPC-2~~~JN048642:127-1008	KPC-2	3002312	argannot
+argannot~~~(Bla)blaKPC-1~~~AF297554:131-1012	KPC-2	3002312	argannot
 argannot~~~(Bla)blaKPC-22~~~KM379100:1-882	KPC-22	3003180	argannot
 argannot~~~(Bla)blaKPC-24~~~KR052099:5212-6093	KPC-24	3004496	argannot
+argannot~~~(Bla)blaKPC-2~~~JN048642:127-1008	KPC-2	3002312	argannot
 argannot~~~(Bla)blaKPC-3~~~JN255861:139-1020	KPC-3	3002313	argannot
 argannot~~~(Bla)blaKPC-4~~~FJ473382:364-1245	KPC-4	3002314	argannot
 argannot~~~(Bla)blaKPC-5~~~EU400222:2160-3041	KPC-5	3002315	argannot
@@ -774,7 +773,6 @@ argannot~~~(Bla)blaLAP-1~~~EF026092:1-858	LAP-1	3004825	argannot
 argannot~~~(Bla)blaLAP-2~~~EU159120:1-858	LAP-2	3004826	argannot
 argannot~~~(Bla)blaLAT-1~~~X78117:122-1287	LAT-1	3001857	argannot
 argannot~~~(Bla)blaLCR-1~~~X56809:112-894	LCR-1	3002997	argannot
-argannot~~~(Bla)blaLEN-1~~~X04515:286-1125	LEN-1	3002454	argannot
 argannot~~~(Bla)blaLEN-10~~~AJ635419:1-789	LEN-10	3002460	argannot
 argannot~~~(Bla)blaLEN-11~~~AJ635417:1-789	LEN-11	3002461	argannot
 argannot~~~(Bla)blaLEN-12~~~AJ635406:1-789	LEN-12	3002462	argannot
@@ -784,7 +782,7 @@ argannot~~~(Bla)blaLEN-16~~~AY743416:68-928	LEN-16	3002464	argannot
 argannot~~~(Bla)blaLEN-17~~~DQ149134:1-861	LEN-17	3002473	argannot
 argannot~~~(Bla)blaLEN-18~~~AM850908:1-861	LEN-18	3002465	argannot
 argannot~~~(Bla)blaLEN-19~~~AM850909:1-861	LEN-19	3002466	argannot
-argannot~~~(Bla)blaLEN-2~~~AY037780:89-949	LEN-2	3002455	argannot
+argannot~~~(Bla)blaLEN-1~~~X04515:286-1125	LEN-1	3002454	argannot
 argannot~~~(Bla)blaLEN-20~~~AM850910:1-861	LEN-20	3002467	argannot
 argannot~~~(Bla)blaLEN-21~~~AM850911:1-861	LEN-21	3002468	argannot
 argannot~~~(Bla)blaLEN-22~~~AM850912:1-861	LEN-22	3002469	argannot
@@ -792,10 +790,11 @@ argannot~~~(Bla)blaLEN-23~~~AM850913:1-861	LEN-23	3002470	argannot
 argannot~~~(Bla)blaLEN-24~~~AM850914:31-891	LEN-24	3002471	argannot
 argannot~~~(Bla)blaLEN-25~~~HQ709169:1-861	LEN-25	3002479	argannot
 argannot~~~(Bla)blaLEN-26~~~JX124390:1-861	LEN-26	3002474	argannot
-argannot~~~(Bla)blaLEN-3~~~AY130286:1-823	LEN-3	3002475	argannot
+argannot~~~(Bla)blaLEN-2~~~AY037780:89-949	LEN-2	3002455	argannot
 argannot~~~(Bla)blaLEN-35~~~KR738737:1-861	LEN-35	3004827	argannot
 argannot~~~(Bla)blaLEN-36~~~KR738738:1-861	LEN-36	3004828	argannot
 argannot~~~(Bla)blaLEN-37~~~KR738739:1-861	LEN-37	3004829	argannot
+argannot~~~(Bla)blaLEN-3~~~AY130286:1-823	LEN-3	3002475	argannot
 argannot~~~(Bla)blaLEN-4~~~AY130287:1-823	LEN-4	3002472	argannot
 argannot~~~(Bla)blaLEN-5~~~AY633109:1-861	LEN-5	3002456	argannot
 argannot~~~(Bla)blaLEN-6~~~AY265890:1-472	LEN-6	3002476	argannot
@@ -810,13 +809,13 @@ argannot~~~(Bla)blaLHK-5~~~NG_056486:1-1173	LHK-5	3006939	argannot
 argannot~~~(Bla)blaLHK-6~~~NG_056487:1-1173	LHK-6	3006940	argannot
 argannot~~~(Bla)blaLHK-7~~~NG_056488:1..1173	Laribacter hongkongensis ampC beta-lactamase	3004292	argannot
 argannot~~~(Bla)blaLMB-1~~~KU646836:1-915	LMB-1	3005018	argannot
-argannot~~~(Bla)blaLRA-1~~~NG_047484:101-988	LRA-1	3002482	argannot
 argannot~~~(Bla)blaLRA-10~~~NG_055767:101-1228	LRA-10	3002489	argannot
 argannot~~~(Bla)blaLRA-12~~~NG_047523:101_982	LRA-12	3002511	argannot
 argannot~~~(Bla)blaLRA-13~~~NG_047216:101-1930	LRA-13	3002484	argannot
 argannot~~~(Bla)blaLRA-17~~~NG_047524:101-985	LRA-17	3002512	argannot
 argannot~~~(Bla)blaLRA-18~~~NG_055765:101-1261	LRA-18	3002492	argannot
 argannot~~~(Bla)blaLRA-19~~~NG_047525:101-1003	LRA-19	3002513	argannot
+argannot~~~(Bla)blaLRA-1~~~NG_047484:101-988	LRA-1	3002482	argannot
 argannot~~~(Bla)blaLRA-2~~~NG_047519:101-1009	LRA-2	3002485	argannot
 argannot~~~(Bla)blaLRA-3~~~NG_047520:101-1009	LRA-3	3002510	argannot
 argannot~~~(Bla)blaLRA-5~~~NG_047485:101-1081	LRA-5	3002483	argannot
@@ -844,7 +843,6 @@ argannot~~~(Bla)blaMOX-7~~~GQ152602:1-1152	MOX-7	3002189	argannot
 argannot~~~(Bla)blaMOX-8~~~JX173956:1-1152	MOX-8	3002190	argannot
 argannot~~~(Bla)blaMSI-1~~~NG_049323:101-970	MSI-1	3003718	argannot
 argannot~~~(Bla)blaMUS-1~~~AF441286:225-965	MUS-1	3000843	argannot
-argannot~~~(Bla)blaNDM-1~~~JQ080305:1-813	NDM-1	3000589	argannot
 argannot~~~(Bla)blaNDM-10~~~KF361506:1-813	NDM-10	3002360	argannot
 argannot~~~(Bla)blaNDM-11~~~MK348670:1-813	NDM-11	3002361	argannot
 argannot~~~(Bla)blaNDM-12~~~AB926431:511-1323	NDM-12	3002362	argannot
@@ -855,7 +853,7 @@ argannot~~~(Bla)blaNDM-16~~~KP862821:1-813	NDM-16a	3003664	argannot
 argannot~~~(Bla)blaNDM-17~~~KX812714:1-813	NDM-17	3004093	argannot
 argannot~~~(Bla)blaNDM-18~~~KY503030:1-828	NDM-18	3004861	argannot
 argannot~~~(Bla)blaNDM-19~~~MF370080:1-813	NDM-19	3004862	argannot
-argannot~~~(Bla)blaNDM-2~~~JN112341:1-813	NDM-2	3000590	argannot
+argannot~~~(Bla)blaNDM-1~~~JQ080305:1-813	NDM-1	3000589	argannot
 argannot~~~(Bla)blaNDM-20~~~MF458176:9953-10765	NDM-20	3004863	argannot
 argannot~~~(Bla)blaNDM-21~~~MG183694:1-813	NDM-21	3004864	argannot
 argannot~~~(Bla)blaNDM-22~~~MH243357:1-813	NDM-22	3004865	argannot
@@ -863,6 +861,7 @@ argannot~~~(Bla)blaNDM-23~~~NG_060570:1-813	NDM-23	3004866	argannot
 argannot~~~(Bla)blaNDM-24~~~MH991819:218-1030	NDM-24	3004867	argannot
 argannot~~~(Bla)blaNDM-27~~~MK105832:1-813	NDM-27	3004870	argannot
 argannot~~~(Bla)blaNDM-28~~~MK425035:1-813	NDM-28	3004871	argannot
+argannot~~~(Bla)blaNDM-2~~~JN112341:1-813	NDM-2	3000590	argannot
 argannot~~~(Bla)blaNDM-3~~~JQ734687:1-813	NDM-3	3002354	argannot
 argannot~~~(Bla)blaNDM-4~~~JQ348841:1-813	NDM-4	3002355	argannot
 argannot~~~(Bla)blaNDM-5~~~JN104597:1-813	NDM-5	3000467	argannot
@@ -879,7 +878,6 @@ argannot~~~(Bla)blaOCH-5~~~AJ295343:1-1173	OCH-5	3002518	argannot
 argannot~~~(Bla)blaOCH-6~~~AJ295344:1-1173	OCH-6	3002519	argannot
 argannot~~~(Bla)blaOCH-7~~~AJ295345:1-1173	OCH-7	3002520	argannot
 argannot~~~(Bla)blaOCH-8~~~DQ489307:1071-2243	OCH-8	3002521	argannot
-argannot~~~(Bla)blaOKP-A-1~~~AJ635401:1-861	OKP-A-1	3002418	argannot
 argannot~~~(Bla)blaOKP-A-10~~~AM051149:1-861	OKP-A-10	3002427	argannot
 argannot~~~(Bla)blaOKP-A-11~~~AM850915:20-880	OKP-A-11	3002428	argannot
 argannot~~~(Bla)blaOKP-A-12~~~AM950916:19-879	OKP-A-12	3002429	argannot
@@ -887,6 +885,7 @@ argannot~~~(Bla)blaOKP-A-13~~~FJ534513:1-861	OKP-A-13	3002430	argannot
 argannot~~~(Bla)blaOKP-A-14~~~FJ534512:1-861	OKP-A-14	3002431	argannot
 argannot~~~(Bla)blaOKP-A-15~~~FJ755841:1-861	OKP-A-15	3002432	argannot
 argannot~~~(Bla)blaOKP-A-16~~~FJ755840:1-861	OKP-A-16	3002433	argannot
+argannot~~~(Bla)blaOKP-A-1~~~AJ635401:1-861	OKP-A-1	3002418	argannot
 argannot~~~(Bla)blaOKP-A-2~~~AJ635404:1-861	OKP-A-2	3002419	argannot
 argannot~~~(Bla)blaOKP-A-3~~~AM051140:1-861	OKP-A-3	3002420	argannot
 argannot~~~(Bla)blaOKP-A-4~~~AM051142:1-861	OKP-A-4	3002421	argannot
@@ -895,7 +894,6 @@ argannot~~~(Bla)blaOKP-A-6~~~AM051144:1-861	OKP-A-6	3002423	argannot
 argannot~~~(Bla)blaOKP-A-7~~~AM051145:1-861	OKP-A-7	3002424	argannot
 argannot~~~(Bla)blaOKP-A-8~~~AM051147:1-861	OKP-A-8	3002425	argannot
 argannot~~~(Bla)blaOKP-A-9~~~AM051148:1-861	OKP-A-9	3002426	argannot
-argannot~~~(Bla)blaOKP-B-1~~~AJ635402:1-861	OKP-B-1	3002434	argannot
 argannot~~~(Bla)blaOKP-B-10~~~AM051160:1-861	OKP-B-10	3002443	argannot
 argannot~~~(Bla)blaOKP-B-11~~~AM051161:1-861	OKP-B-11	3002444	argannot
 argannot~~~(Bla)blaOKP-B-12~~~AJ635420:1-861	OKP-B-12	3002445	argannot
@@ -904,8 +902,9 @@ argannot~~~(Bla)blaOKP-B-14~~~DQ149136:47-907	OKP-B-21	3006143	argannot
 argannot~~~(Bla)blaOKP-B-17~~~AM850919:25-885	OKP-B-17	3002450	argannot
 argannot~~~(Bla)blaOKP-B-18~~~AM850920:41-901	OKP-B-18	3002451	argannot
 argannot~~~(Bla)blaOKP-B-19~~~AM850921:25-885	OKP-B-19	3002452	argannot
-argannot~~~(Bla)blaOKP-B-2~~~AM051151:1-861	OKP-B-2	3002435	argannot
+argannot~~~(Bla)blaOKP-B-1~~~AJ635402:1-861	OKP-B-1	3002434	argannot
 argannot~~~(Bla)blaOKP-B-20~~~AM850922:25-885	OKP-B-20	3002453	argannot
+argannot~~~(Bla)blaOKP-B-2~~~AM051151:1-861	OKP-B-2	3002435	argannot
 argannot~~~(Bla)blaOKP-B-3~~~AM051152:1-861	OKP-B-3	3002436	argannot
 argannot~~~(Bla)blaOKP-B-4~~~AM051153:1-861	OKP-B-4	3002437	argannot
 argannot~~~(Bla)blaOKP-B-5~~~AY512506:68-928	OKP-B-5	3002438	argannot
@@ -915,8 +914,6 @@ argannot~~~(Bla)blaOKP-B-8~~~AM051157:1-861	OKP-B-8	3002441	argannot
 argannot~~~(Bla)blaOKP-B-9~~~AM051159:1-861	OKP-B-9	3002442	argannot
 argannot~~~(Bla)blaORN1a~~~AY307386:209-1084	ORN-1	3006957	argannot
 argannot~~~(Bla)blaORN1b~~~AY307387:170-1045	ORN-1	3006957	argannot
-argannot~~~(Bla)blaOXA-1~~~JQ682867:1-831	OXA-1	3001396	argannot
-argannot~~~(Bla)blaOXA-10~~~HQ386834:1465-2265	OXA-10	3001405	argannot
 argannot~~~(Bla)blaOXA-100~~~AM231720:1-825	OXA-100	3001438	argannot
 argannot~~~(Bla)blaOXA-101~~~AM412777:118-918	OXA-101	3001439	argannot
 argannot~~~(Bla)blaOXA-104~~~EF581285:1-822	OXA-104	3001636	argannot
@@ -924,7 +921,7 @@ argannot~~~(Bla)blaOXA-106~~~EF650032:1-825	OXA-106	3001637	argannot
 argannot~~~(Bla)blaOXA-107~~~EF650033:1-825	OXA-107	3001638	argannot
 argannot~~~(Bla)blaOXA-108~~~EF650034:1-825	OXA-108	3001639	argannot
 argannot~~~(Bla)blaOXA-109~~~FJ157357:1-825	OXA-109	3001640	argannot
-argannot~~~(Bla)blaOXA-11~~~Z22590:155-955	OXA-11	3001406	argannot
+argannot~~~(Bla)blaOXA-10~~~HQ386834:1465-2265	OXA-10	3001405	argannot
 argannot~~~(Bla)blaOXA-110~~~EF650036:1-825	OXA-110	3001641	argannot
 argannot~~~(Bla)blaOXA-111~~~EF650037:1-825	OXA-111	3001642	argannot
 argannot~~~(Bla)blaOXA-112~~~EF650038:1-825	OXA-112	3001643	argannot
@@ -935,11 +932,11 @@ argannot~~~(Bla)blaOXA-116~~~EU220744:1-786	OXA-116	3001441	argannot
 argannot~~~(Bla)blaOXA-117~~~GQ423625:1-825	OXA-117	3001442	argannot
 argannot~~~(Bla)blaOXA-118~~~AF371964:119-919	OXA-118	3001768	argannot
 argannot~~~(Bla)blaOXA-119~~~AY139598:1422-2222	OXA-119	3001775	argannot
-argannot~~~(Bla)blaOXA-12~~~U10251:181-975	OXA-12	3001407	argannot
+argannot~~~(Bla)blaOXA-11~~~Z22590:155-955	OXA-11	3001406	argannot
 argannot~~~(Bla)blaOXA-120~~~HE963768:1-825	OXA-120	3001672	argannot
 argannot~~~(Bla)blaOXA-128~~~EU375515:1-825	OXA-128	3001648	argannot
 argannot~~~(Bla)blaOXA-129~~~AM932669:699-1502	OXA-129	3001811	argannot
-argannot~~~(Bla)blaOXA-13~~~U59183:940-1740	OXA-13	3001408	argannot
+argannot~~~(Bla)blaOXA-12~~~U10251:181-975	OXA-12	3001407	argannot
 argannot~~~(Bla)blaOXA-130~~~EU547445:1-825	OXA-130	3001651	argannot
 argannot~~~(Bla)blaOXA-131~~~EU547446:1-825	OXA-131	3001652	argannot
 argannot~~~(Bla)blaOXA-132~~~EU547447:1-825	OXA-132	3001653	argannot
@@ -949,7 +946,7 @@ argannot~~~(Bla)blaOXA-136~~~EU086830:89-898	OXA-136	3001765	argannot
 argannot~~~(Bla)blaOXA-137~~~EU086835:89-898	OXA-137	3001767	argannot
 argannot~~~(Bla)blaOXA-138~~~EU670845:1-828	OXA-138	3001655	argannot
 argannot~~~(Bla)blaOXA-139~~~AM991978:1-828	OXA-139	3001451	argannot
-argannot~~~(Bla)blaOXA-14~~~L38523:1-775	OXA-14	3001409	argannot
+argannot~~~(Bla)blaOXA-13~~~U59183:940-1740	OXA-13	3001408	argannot
 argannot~~~(Bla)blaOXA-141~~~EF552405:13-840	OXA-141	3001802	argannot
 argannot~~~(Bla)blaOXA-142~~~EU358785:721-1521	OXA-142	3001803	argannot
 argannot~~~(Bla)blaOXA-143~~~GQ861437:2914-3741	OXA-143	3001654	argannot
@@ -959,9 +956,9 @@ argannot~~~(Bla)blaOXA-146~~~FJ194460:174-998	OXA-146	3001779	argannot
 argannot~~~(Bla)blaOXA-147~~~FJ848783:1271-2071	OXA-147	3001801	argannot
 argannot~~~(Bla)blaOXA-148~~~GQ853679:1-825	OXA-148	3001453	argannot
 argannot~~~(Bla)blaOXA-149~~~GQ853680:1-825	OXA-149	3001454	argannot
-argannot~~~(Bla)blaOXA-15~~~U63835:128-955	OXA-15	3001410	argannot
+argannot~~~(Bla)blaOXA-14~~~L38523:1-775	OXA-14	3001409	argannot
 argannot~~~(Bla)blaOXA-150~~~GQ853681:1-825	OXA-150	3001455	argannot
-argannot~~~(Bla)blaOXA-16~~~AF043100:1-775	OXA-16	3001411	argannot
+argannot~~~(Bla)blaOXA-15~~~U63835:128-955	OXA-15	3001410	argannot
 argannot~~~(Bla)blaOXA-160~~~GU199038:1196-2023	OXA-160	3001663	argannot
 argannot~~~(Bla)blaOXA-161~~~GQ202693:1172-1999	OXA-161	3001799	argannot
 argannot~~~(Bla)blaOXA-162~~~GU197550:1-798	OXA-162	3001776	argannot
@@ -972,7 +969,7 @@ argannot~~~(Bla)blaOXA-166~~~HM488987:1-822	OXA-166	3001466	argannot
 argannot~~~(Bla)blaOXA-167~~~HM488988:1-822	OXA-167	3001467	argannot
 argannot~~~(Bla)blaOXA-168~~~HM488989:1-822	OXA-168	3001468	argannot
 argannot~~~(Bla)blaOXA-169~~~HM488990:1-822	OXA-169	3001469	argannot
-argannot~~~(Bla)blaOXA-17~~~DQ902344:2717-3517	OXA-17	3001412	argannot
+argannot~~~(Bla)blaOXA-16~~~AF043100:1-775	OXA-16	3001411	argannot
 argannot~~~(Bla)blaOXA-170~~~HM488991:1-822	OXA-170	3001470	argannot
 argannot~~~(Bla)blaOXA-171~~~HM488992:1-822	OXA-171	3001471	argannot
 argannot~~~(Bla)blaOXA-172~~~HM113558:1-825	OXA-172	3001656	argannot
@@ -983,12 +980,12 @@ argannot~~~(Bla)blaOXA-176~~~HM113562:1-825	OXA-176	3001660	argannot
 argannot~~~(Bla)blaOXA-177~~~HM113563:1-825	OXA-177	3001661	argannot
 argannot~~~(Bla)blaOXA-178~~~HM113564:1-825	OXA-178	3001472	argannot
 argannot~~~(Bla)blaOXA-179~~~HM570035:1-825	OXA-179	3001473	argannot
-argannot~~~(Bla)blaOXA-18~~~EU503121:2921-3748	OXA-18	3001413	argannot
+argannot~~~(Bla)blaOXA-17~~~DQ902344:2717-3517	OXA-17	3001412	argannot
 argannot~~~(Bla)blaOXA-180~~~HM570036:1-825	OXA-180	3001474	argannot
 argannot~~~(Bla)blaOXA-181~~~HM992946:1-798	OXA-181	3001784	argannot
 argannot~~~(Bla)blaOXA-182~~~HM640278:1-828	OXA-182	3001709	argannot
 argannot~~~(Bla)blaOXA-183~~~HQ111474:1057-1857	OXA-183	3001475	argannot
-argannot~~~(Bla)blaOXA-19~~~FJ906752:1219-2019	OXA-19	3001414	argannot
+argannot~~~(Bla)blaOXA-18~~~EU503121:2921-3748	OXA-18	3001413	argannot
 argannot~~~(Bla)blaOXA-192~~~JF273470:1-810	OXA-192	3001766	argannot
 argannot~~~(Bla)blaOXA-194~~~HQ425492:1-822	OXA-194	3001479	argannot
 argannot~~~(Bla)blaOXA-195~~~HQ425493:1-822	OXA-195	3001480	argannot
@@ -996,8 +993,8 @@ argannot~~~(Bla)blaOXA-196~~~HQ425494:1-822	OXA-196	3001481	argannot
 argannot~~~(Bla)blaOXA-197~~~HQ425495:1-822	OXA-197	3001482	argannot
 argannot~~~(Bla)blaOXA-198~~~HQ634775:3013-3801	OXA-198	3001805	argannot
 argannot~~~(Bla)blaOXA-199~~~HQ637466:1233-2057	OXA-109	3001640	argannot
-argannot~~~(Bla)blaOXA-2~~~HM131431:1-828	OXA-2	3001397	argannot
-argannot~~~(Bla)blaOXA-20~~~AF024602:1238-2038	OXA-20	3001415	argannot
+argannot~~~(Bla)blaOXA-19~~~FJ906752:1219-2019	OXA-19	3001414	argannot
+argannot~~~(Bla)blaOXA-1~~~JQ682867:1-831	OXA-1	3001396	argannot
 argannot~~~(Bla)blaOXA-200~~~HQ734811:1-825	OXA-200	3001665	argannot
 argannot~~~(Bla)blaOXA-201~~~HQ734812:1-825	OXA-201	3001666	argannot
 argannot~~~(Bla)blaOXA-202~~~HQ734813:1-825	OXA-202	3001667	argannot
@@ -1008,7 +1005,7 @@ argannot~~~(Bla)blaOXA-206~~~AB634250:1-825	OXA-206	3001484	argannot
 argannot~~~(Bla)blaOXA-207~~~JQ838185:1-828	OXA-207	3001485	argannot
 argannot~~~(Bla)blaOXA-208~~~FR853176:1-825	OXA-208	3001486	argannot
 argannot~~~(Bla)blaOXA-209~~~JF268688:5408-6232	OXA-209	3001809	argannot
-argannot~~~(Bla)blaOXA-21~~~DQ522237:3974-4801	OXA-21	3001416	argannot
+argannot~~~(Bla)blaOXA-20~~~AF024602:1238-2038	OXA-20	3001415	argannot
 argannot~~~(Bla)blaOXA-210~~~JF795487:1-828	OXA-210	3001487	argannot
 argannot~~~(Bla)blaOXA-211~~~JN861779:1-825	OXA-211	3001710	argannot
 argannot~~~(Bla)blaOXA-212~~~JN861780:1-825	OXA-212	3001711	argannot
@@ -1018,20 +1015,20 @@ argannot~~~(Bla)blaOXA-215~~~JN861783:1-828	OXA-215	3001714	argannot
 argannot~~~(Bla)blaOXA-216~~~FR865168:1-825	OXA-216	3001488	argannot
 argannot~~~(Bla)blaOXA-217~~~JN603240:1-825	OXA-217	3001489	argannot
 argannot~~~(Bla)blaOXA-219~~~JN215211:1-825	OXA-219	3001668	argannot
-argannot~~~(Bla)blaOXA-22~~~AF064820:952-1776	OXA-22	3001417	argannot
+argannot~~~(Bla)blaOXA-21~~~DQ522237:3974-4801	OXA-21	3001416	argannot
 argannot~~~(Bla)blaOXA-223~~~JN248564:1-825	OXA-223	3001669	argannot
 argannot~~~(Bla)blaOXA-224~~~JN596991:2281-3111	OXA-224	3001806	argannot
 argannot~~~(Bla)blaOXA-225~~~JN638887:1-822	OXA-225	3001493	argannot
 argannot~~~(Bla)blaOXA-228~~~JQ422053:100-930	OXA-228	3001691	argannot
 argannot~~~(Bla)blaOXA-229~~~JQ422052:1100-1930	OXA-229	3001692	argannot
-argannot~~~(Bla)blaOXA-23~~~EF120622:1499-2320	OXA-23	3001418	argannot
+argannot~~~(Bla)blaOXA-22~~~AF064820:952-1776	OXA-22	3001417	argannot
 argannot~~~(Bla)blaOXA-230~~~JQ422054:101-931	OXA-230	3001693	argannot
 argannot~~~(Bla)blaOXA-231~~~JQ326200:1-828	OXA-231	3001670	argannot
 argannot~~~(Bla)blaOXA-235~~~JQ820240:591-1421	OXA-235	3001676	argannot
 argannot~~~(Bla)blaOXA-236~~~JQ820242:1-831	OXA-236	3001677	argannot
 argannot~~~(Bla)blaOXA-237~~~JQ820241:1-831	OXA-237	3001678	argannot
 argannot~~~(Bla)blaOXA-239~~~JQ837239:1-822	OXA-239	3001498	argannot
-argannot~~~(Bla)blaOXA-24~~~AJ239129:1-828	OXA-24	3001419	argannot
+argannot~~~(Bla)blaOXA-23~~~EF120622:1499-2320	OXA-23	3001418	argannot
 argannot~~~(Bla)blaOXA-240~~~JX089628:1-801	OXA-240	3001499	argannot
 argannot~~~(Bla)blaOXA-241~~~JX025021:1-825	OXA-241	3001679	argannot
 argannot~~~(Bla)blaOXA-242~~~JX025022:1-825	OXA-242	3001680	argannot
@@ -1041,70 +1038,71 @@ argannot~~~(Bla)blaOXA-245~~~JX438001:1-798	OXA-245	3001787	argannot
 argannot~~~(Bla)blaOXA-247~~~JX893517:1-786	OXA-247	3001791	argannot
 argannot~~~(Bla)blaOXA-248~~~HE963769:1-825	OXA-248	3001673	argannot
 argannot~~~(Bla)blaOXA-249~~~HE963770:1-825	OXA-249	3001674	argannot
-argannot~~~(Bla)blaOXA-25~~~AF201826:22-849	OXA-25	3001420	argannot
+argannot~~~(Bla)blaOXA-24~~~AJ239129:1-828	OXA-24	3001419	argannot
 argannot~~~(Bla)blaOXA-250~~~HE963771:1-825	OXA-250	3001675	argannot
 argannot~~~(Bla)blaOXA-251~~~JN118546:1762-2562	OXA-251	3001500	argannot
 argannot~~~(Bla)blaOXA-253~~~MH347317:1035-1862	OXA-253	3001689	argannot
 argannot~~~(Bla)blaOXA-255~~~KC479325:669-1496	OXA-255	3001690	argannot
 argannot~~~(Bla)blaOXA-256~~~HE616889:1827-2627	OXA-256	3001502	argannot
 argannot~~~(Bla)blaOXA-258~~~HE614014:1-825	OXA-258	3001503	argannot
+argannot~~~(Bla)blaOXA-25~~~AF201826:22-849	OXA-25	3001420	argannot
 argannot~~~(Bla)blaOXA-26~~~AF201827:22-849	OXA-26	3001421	argannot
-argannot~~~(Bla)blaOXA-27~~~AF201828:116-937	OXA-27	3001422	argannot
 argannot~~~(Bla)blaOXA-278~~~KC771279:1-831	OXA-278	3001681	argannot
+argannot~~~(Bla)blaOXA-27~~~AF201828:116-937	OXA-27	3001422	argannot
 argannot~~~(Bla)blaOXA-28~~~FJ374756:1337-2137	OXA-28	3001423	argannot
-argannot~~~(Bla)blaOXA-29~~~AJ400619:34-834	OXA-29	3001424	argannot
 argannot~~~(Bla)blaOXA-296~~~NG_049591:101-955	OXA-296	3001751	argannot
-argannot~~~(Bla)blaOXA-3~~~L07945:61-888	OXA-3	3001398	argannot
+argannot~~~(Bla)blaOXA-29~~~AJ400619:34-834	OXA-29	3001424	argannot
+argannot~~~(Bla)blaOXA-2~~~HM131431:1-828	OXA-2	3001397	argannot
 argannot~~~(Bla)blaOXA-309~~~HF947514:1-825	OXA-309	3001504	argannot
 argannot~~~(Bla)blaOXA-31~~~AF294653:754-1581	OXA-31	3001425	argannot
-argannot~~~(Bla)blaOXA-32~~~AF315351:673-1500	OXA-32	3001426	argannot
 argannot~~~(Bla)blaOXA-320~~~KF151169:1-831	OXA-320	3001793	argannot
-argannot~~~(Bla)blaOXA-34~~~AF350424:1-771	OXA-34	3001428	argannot
+argannot~~~(Bla)blaOXA-32~~~AF315351:673-1500	OXA-32	3001426	argannot
 argannot~~~(Bla)blaOXA-347~~~JN086160:1583-2407	OXA-347	3001777	argannot
+argannot~~~(Bla)blaOXA-34~~~AF350424:1-771	OXA-34	3001428	argannot
 argannot~~~(Bla)blaOXA-35~~~FJ957893:1271-2071	OXA-35	3001429	argannot
 argannot~~~(Bla)blaOXA-36~~~AF300985:1-739	OXA-36	3001430	argannot
-argannot~~~(Bla)blaOXA-37~~~AY007784:1123-1923	OXA-37	3001431	argannot
 argannot~~~(Bla)blaOXA-372~~~KJ746496:1-774	OXA-372	3001558	argannot
+argannot~~~(Bla)blaOXA-37~~~AY007784:1123-1923	OXA-37	3001431	argannot
 argannot~~~(Bla)blaOXA-392~~~NG_064747:101-931	OXA-392	3001578	argannot
-argannot~~~(Bla)blaOXA-4~~~JN129451:1037-1867	OXA-4	3001399	argannot
+argannot~~~(Bla)blaOXA-3~~~L07945:61-888	OXA-3	3001398	argannot
 argannot~~~(Bla)blaOXA-42~~~AJ488302:1-810	OXA-42	3001769	argannot
-argannot~~~(Bla)blaOXA-43~~~AJ488303:1-810	OXA-43	3001770	argannot
 argannot~~~(Bla)blaOXA-436~~~KY863418:140926-141723	OXA-436	3003128	argannot
+argannot~~~(Bla)blaOXA-43~~~AJ488303:1-810	OXA-43	3001770	argannot
 argannot~~~(Bla)blaOXA-45~~~AM849110:2553-3347	OXA-45	3001794	argannot
 argannot~~~(Bla)blaOXA-46~~~AF317511:2371-3171	OXA-46	3001797	argannot
 argannot~~~(Bla)blaOXA-47~~~AY237830:1-831	OXA-47	3001781	argannot
 argannot~~~(Bla)blaOXA-48~~~AY236073:2188-2985	OXA-48	3001782	argannot
-argannot~~~(Bla)blaOXA-49~~~AY288523:1-825	OXA-49	3001671	argannot
 argannot~~~(Bla)blaOXA-499~~~KX828713:1-828	OXA-499	3005343	argannot
-argannot~~~(Bla)blaOXA-5~~~X58272:80-883	OXA-5	3001400	argannot
+argannot~~~(Bla)blaOXA-49~~~AY288523:1-825	OXA-49	3001671	argannot
+argannot~~~(Bla)blaOXA-4~~~JN129451:1037-1867	OXA-4	3001399	argannot
 argannot~~~(Bla)blaOXA-50~~~AM117128:1-789	OXA-494	3005727	argannot
 argannot~~~(Bla)blaOXA-51~~~DQ385606:669-1493	OXA-51	3001612	argannot
 argannot~~~(Bla)blaOXA-53~~~AY289608:617-1444	OXA-53	3001810	argannot
-argannot~~~(Bla)blaOXA-54~~~AY500137:1-798	OXA-54	3001812	argannot
 argannot~~~(Bla)blaOXA-542~~~KY646155:1-828	OXA-542	3005768	argannot
 argannot~~~(Bla)blaOXA-549~~~KY682751:1-873	OXA-549	3005773	argannot
-argannot~~~(Bla)blaOXA-55~~~AY343493:77-946	OXA-55	3001813	argannot
+argannot~~~(Bla)blaOXA-54~~~AY500137:1-798	OXA-54	3001812	argannot
 argannot~~~(Bla)blaOXA-550~~~KY682752:1-873	OXA-550	3005774	argannot
 argannot~~~(Bla)blaOXA-551~~~KY682753:1-888	OXA-551	3005775	argannot
 argannot~~~(Bla)blaOXA-552~~~KY682754:1-873	OXA-552	3005776	argannot
 argannot~~~(Bla)blaOXA-553~~~KY682755:1-888	OXA-553	3005777	argannot
+argannot~~~(Bla)blaOXA-55~~~AY343493:77-946	OXA-55	3001813	argannot
 argannot~~~(Bla)blaOXA-56~~~AY445080:1-801	OXA-56	3001795	argannot
 argannot~~~(Bla)blaOXA-57~~~AJ631966:1-810	OXA-57	3001771	argannot
 argannot~~~(Bla)blaOXA-58~~~AY665723:3301-4143	OXA-58	3001611	argannot
 argannot~~~(Bla)blaOXA-59~~~AJ632249:1-810	OXA-59	3001772	argannot
+argannot~~~(Bla)blaOXA-5~~~X58272:80-883	OXA-5	3001400	argannot
 argannot~~~(Bla)blaOXA-60~~~AY664505:1-816	OXA-571	3005326	argannot
 argannot~~~(Bla)blaOXA-61~~~AY587956:123-896	OXA-61	3001773	argannot
 argannot~~~(Bla)blaOXA-62~~~AY423074:1-858	OXA-62	3001792	argannot
 argannot~~~(Bla)blaOXA-63~~~AY619003:704-1510	OXA-63	3001764	argannot
-argannot~~~(Bla)blaOXA-64~~~AY750907:1-825	OXA-64	3001613	argannot
 argannot~~~(Bla)blaOXA-649~~~MH211242:1-828	OXA-649	3005340	argannot
+argannot~~~(Bla)blaOXA-64~~~AY750907:1-825	OXA-64	3001613	argannot
 argannot~~~(Bla)blaOXA-65~~~AY750908:1-825	OXA-65	3001614	argannot
-argannot~~~(Bla)blaOXA-66~~~EF051061:485-1309	OXA-66	3001615	argannot
 argannot~~~(Bla)blaOXA-666~~~BK010552:1-855	OXA-666	3005878	argannot
+argannot~~~(Bla)blaOXA-66~~~EF051061:485-1309	OXA-66	3001615	argannot
 argannot~~~(Bla)blaOXA-67~~~DQ491200:1-825	OXA-67	3001437	argannot
 argannot~~~(Bla)blaOXA-68~~~AY750910:1-825	OXA-68	3001616	argannot
 argannot~~~(Bla)blaOXA-69~~~AY750911:1-825	OXA-69	3001617	argannot
-argannot~~~(Bla)blaOXA-7~~~X75562:135-935	OXA-7	3001402	argannot
 argannot~~~(Bla)blaOXA-70~~~AY750912:1-825	OXA-70	3001618	argannot
 argannot~~~(Bla)blaOXA-71~~~AY750913:1-825	OXA-71	3001619	argannot
 argannot~~~(Bla)blaOXA-72~~~AY739646:1-828	OXA-72	3001705	argannot
@@ -1113,11 +1111,10 @@ argannot~~~(Bla)blaOXA-74~~~AJ854182:1-801	OXA-74	3001798	argannot
 argannot~~~(Bla)blaOXA-75~~~AY859529:1-825	OXA-75	3001620	argannot
 argannot~~~(Bla)blaOXA-76~~~AY949203:1-825	OXA-76	3001621	argannot
 argannot~~~(Bla)blaOXA-77~~~AY949202:1-825	OXA-77	3001622	argannot
-argannot~~~(Bla)blaOXA-78~~~AY862132:1-825	OXA-78	3001645	argannot
 argannot~~~(Bla)blaOXA-787~~~NG_064748:1-828	OXA-787	3005990	argannot
 argannot~~~(Bla)blaOXA-788~~~NG_064749:1-786	OXA-788	3005991	argannot
 argannot~~~(Bla)blaOXA-789~~~NG_064750:1-828	OXA-789	3005992	argannot
-argannot~~~(Bla)blaOXA-79~~~EU019534:1-825	OXA-79	3001633	argannot
+argannot~~~(Bla)blaOXA-78~~~AY862132:1-825	OXA-78	3001645	argannot
 argannot~~~(Bla)blaOXA-792~~~NG_064751:1-792	OXA-793	3005993	argannot
 argannot~~~(Bla)blaOXA-794~~~NG_064752:1-801	OXA-794	3005994	argannot
 argannot~~~(Bla)blaOXA-795~~~NG_064753:1-795	OXA-795	3005995	argannot
@@ -1125,7 +1122,8 @@ argannot~~~(Bla)blaOXA-796~~~NG_064754:101-931	OXA-796	3005996	argannot
 argannot~~~(Bla)blaOXA-797~~~NG_064755:1-825	OXA-797	3005997	argannot
 argannot~~~(Bla)blaOXA-798~~~NG_064756:1-825	OXA-798	3005998	argannot
 argannot~~~(Bla)blaOXA-799~~~NG_064757:1-825	OXA-799	3005999	argannot
-argannot~~~(Bla)blaOXA-80~~~HQ637467:1233-2057	OXA-80	3001634	argannot
+argannot~~~(Bla)blaOXA-79~~~EU019534:1-825	OXA-79	3001633	argannot
+argannot~~~(Bla)blaOXA-7~~~X75562:135-935	OXA-7	3001402	argannot
 argannot~~~(Bla)blaOXA-800~~~NG_064758:1-825	OXA-800	3006000	argannot
 argannot~~~(Bla)blaOXA-801~~~NG_064759:1-822	OXA-801	3006001	argannot
 argannot~~~(Bla)blaOXA-802~~~NG_064760:1-822	OXA-802	3006002	argannot
@@ -1136,6 +1134,7 @@ argannot~~~(Bla)blaOXA-806~~~NG_064764:1	OXA-806	3006006	argannot
 argannot~~~(Bla)blaOXA-807~~~NG_064765:1-822	OXA-807	3006007	argannot
 argannot~~~(Bla)blaOXA-808~~~NG_064766:1-822	OXA-808	3006008	argannot
 argannot~~~(Bla)blaOXA-809~~~NG_064767:1-822	OXA-809	3006009	argannot
+argannot~~~(Bla)blaOXA-80~~~HQ637467:1233-2057	OXA-80	3001634	argannot
 argannot~~~(Bla)blaOXA-810~~~NG_064768:1-822	OXA-810	3006010	argannot
 argannot~~~(Bla)blaOXA-811~~~NG_064769:1-822	OXA-811	3006011	argannot
 argannot~~~(Bla)blaOXA-812~~~NG_064770:1-822	OXA-812	3005160	argannot
@@ -1145,12 +1144,12 @@ argannot~~~(Bla)blaOXA-816~~~NG_064774:1-822	OXA-816	3006015	argannot
 argannot~~~(Bla)blaOXA-817~~~NG_064775:1-822	OXA-817	3006016	argannot
 argannot~~~(Bla)blaOXA-818~~~NG_064776:1-822	OXA-818	3005159	argannot
 argannot~~~(Bla)blaOXA-819~~~NG_064777:1-822	OXA-819	3006017	argannot
-argannot~~~(Bla)blaOXA-82~~~GQ352402:8775-9599	OXA-82	3001635	argannot
 argannot~~~(Bla)blaOXA-820~~~NG_064778:1-822	OXA-820	3006018	argannot
 argannot~~~(Bla)blaOXA-821~~~NG_064779:1-822	OXA-821	3006019	argannot
 argannot~~~(Bla)blaOXA-823~~~NG_064780:1-801	OXA-823	3006021	argannot
 argannot~~~(Bla)blaOXA-824~~~NG_064781:1-801	OXA-824	3006022	argannot
 argannot~~~(Bla)blaOXA-825~~~MK807021:1-828	OXA-825	3005344	argannot
+argannot~~~(Bla)blaOXA-82~~~GQ352402:8775-9599	OXA-82	3001635	argannot
 argannot~~~(Bla)blaOXA-83~~~DQ309277:1-825	OXA-83	3001623	argannot
 argannot~~~(Bla)blaOXA-84~~~DQ309276:1-825	OXA-84	3001624	argannot
 argannot~~~(Bla)blaOXA-85~~~AY227054:1-765	OXA-85	3001780	argannot
@@ -1158,7 +1157,6 @@ argannot~~~(Bla)blaOXA-86~~~DQ149247:1-825	OXA-86	3001703	argannot
 argannot~~~(Bla)blaOXA-87~~~DQ348075:1-825	OXA-87	3001704	argannot
 argannot~~~(Bla)blaOXA-88~~~DQ392963:9-833	OXA-88	3001626	argannot
 argannot~~~(Bla)blaOXA-89~~~DQ445683:1-825	OXA-89	3001625	argannot
-argannot~~~(Bla)blaOXA-9~~~NC_015515:451-1290	OXA-9	3001404	argannot
 argannot~~~(Bla)blaOXA-90~~~EU547443:1-825	OXA-90	3001650	argannot
 argannot~~~(Bla)blaOXA-91~~~DQ519086:1199-2023	OXA-91	3001627	argannot
 argannot~~~(Bla)blaOXA-92~~~DQ335566:1-825	OXA-92	3001632	argannot
@@ -1169,13 +1167,14 @@ argannot~~~(Bla)blaOXA-96~~~DQ519090:63-905	OXA-96	3001631	argannot
 argannot~~~(Bla)blaOXA-97~~~EF102240:11723-12565	OXA-97	3001647	argannot
 argannot~~~(Bla)blaOXA-98~~~AM279652:1-825	OXA-98	3001646	argannot
 argannot~~~(Bla)blaOXA-99~~~DQ888718:1-825	OXA-99	3001649	argannot
+argannot~~~(Bla)blaOXA-9~~~NC_015515:451-1290	OXA-9	3001404	argannot
 argannot~~~(Bla)blaOXY1-1~~~Z30177:349-1224	OXY-1-1	3002389	argannot
 argannot~~~(Bla)blaOXY1-2~~~AJ871865:1-876	OXY-1-2	3002390	argannot
 argannot~~~(Bla)blaOXY1-3~~~AY077482:162-1037	OXY-1-3	3002391	argannot
 argannot~~~(Bla)blaOXY1-4~~~AY077483:183-1055	OXY-1-4	3002392	argannot
 argannot~~~(Bla)blaOXY1a~~~Y17715:147-1022	OXY-1-6	3002394	argannot
-argannot~~~(Bla)blaOXY2-1~~~AJ871866:1-873	OXY-2-1	3002396	argannot
 argannot~~~(Bla)blaOXY2-10~~~FJ785626:132-1004	OXY-2-10	3002405	argannot
+argannot~~~(Bla)blaOXY2-1~~~AJ871866:1-873	OXY-2-1	3002396	argannot
 argannot~~~(Bla)blaOXY2-2~~~AJ871867:1-873	OXY-2-2	3002397	argannot
 argannot~~~(Bla)blaOXY2-3~~~AY077488:162-1031	OXY-2-3	3002398	argannot
 argannot~~~(Bla)blaOXY2-4~~~AY17714:147-1016	OXY-2-4	3002399	argannot
@@ -1224,8 +1223,8 @@ argannot~~~(Bla)blaPME-1~~~HQ541434:3071-4000	PME-1	3006973	argannot
 argannot~~~(Bla)blaPOM-1~~~EU315252:972-1832	POM-1	3006974	argannot
 argannot~~~(Bla)blaPSE-4~~~AF313471:1422-2288	CARB-1	3002240	argannot
 argannot~~~(Bla)blaPSV-1~~~NG_052626:101-988	PSV-1	3006978	argannot
-argannot~~~(Bla)blaR1~~~NG_047540:1_1782	mecR1	3000215	argannot
 argannot~~~(Bla)blaR1_Bacilli~~~NG_047539:1-1758	mecR1	3000215	argannot
+argannot~~~(Bla)blaR1~~~NG_047540:1_1782	mecR1	3000215	argannot
 argannot~~~(Bla)blaRAHN-1~~~AF338038:4685-5572	RAHN-1	3006979	argannot
 argannot~~~(Bla)blaRAHN-2~~~HM114350:377-1264	RAHN-2	3006980	argannot
 argannot~~~(Bla)blaROB-1~~~AF022114:303-1220	ROB-1	3002995	argannot
@@ -1242,7 +1241,6 @@ argannot~~~(Bla)blaSGM-4~~~NG_049986:101-1030	SGM-4	3006990	argannot
 argannot~~~(Bla)blaSGM-5~~~NG_049987:101-1081	SGM-5	3006991	argannot
 argannot~~~(Bla)blaSGM-6~~~NG_049988:101-1081	SGM-6	3006992	argannot
 argannot~~~(Bla)blaSGM-7~~~NG_050614:101-1081	SGM-7	3006993	argannot
-argannot~~~(Bla)blaSHV-1~~~AF148850:6-866	SHV-1	3001059	argannot
 argannot~~~(Bla)blaSHV-100~~~AM922306:1-900	SHV-100	3001338	argannot
 argannot~~~(Bla)blaSHV-101~~~EU155018:1-861	SHV-101	3001150	argannot
 argannot~~~(Bla)blaSHV-102~~~EU024485:1-861	SHV-102	3001151	argannot
@@ -1253,20 +1251,19 @@ argannot~~~(Bla)blaSHV-106~~~AM941847:1-861	SHV-106	3001155	argannot
 argannot~~~(Bla)blaSHV-107~~~AM941848:1-861	SHV-107	3001156	argannot
 argannot~~~(Bla)blaSHV-108~~~AM941849:1-861	SHV-108	3001157	argannot
 argannot~~~(Bla)blaSHV-109~~~EU418913:17-877	SHV-109	3001158	argannot
-argannot~~~(Bla)blaSHV-11~~~HM751098:1-861	SHV-11	3001070	argannot
 argannot~~~(Bla)blaSHV-110~~~HQ877614:1-861	SHV-110	3001159	argannot
-argannot~~~(Bla)blaSHV-12~~~FJ685654:24-860	SHV-12	3001071	argannot
+argannot~~~(Bla)blaSHV-11~~~HM751098:1-861	SHV-11	3001070	argannot
 argannot~~~(Bla)blaSHV-120~~~JF812965:1-861	SHV-120	3001167	argannot
 argannot~~~(Bla)blaSHV-121~~~AB538449:1-861	SHV-121	3001168	argannot
 argannot~~~(Bla)blaSHV-122~~~GQ290211:1-515	SHV-125	3001172	argannot
 argannot~~~(Bla)blaSHV-128~~~GU932590:1-861	SHV-128	3001175	argannot
-argannot~~~(Bla)blaSHV-13~~~AF164577:1-861	SHV-13	3001072	argannot
+argannot~~~(Bla)blaSHV-12~~~FJ685654:24-860	SHV-12	3001071	argannot
 argannot~~~(Bla)blaSHV-132~~~GU981741:794-1654	SHV-132	3001341	argannot
 argannot~~~(Bla)blaSHV-133~~~AB551737:15-875	SHV-133	3001177	argannot
 argannot~~~(Bla)blaSHV-134~~~HM559945:1-861	SHV-134	3001178	argannot
 argannot~~~(Bla)blaSHV-135~~~HQ637576:1-861	SHV-135	3001179	argannot
 argannot~~~(Bla)blaSHV-137~~~HQ661363:72-932	SHV-137	3001181	argannot
-argannot~~~(Bla)blaSHV-14~~~AF226622:55-915	SHV-14	3001073	argannot
+argannot~~~(Bla)blaSHV-13~~~AF164577:1-861	SHV-13	3001072	argannot
 argannot~~~(Bla)blaSHV-140~~~JN051143:1-861	SHV-140	3001182	argannot
 argannot~~~(Bla)blaSHV-141~~~JQ388884:1-861	SHV-141	3001183	argannot
 argannot~~~(Bla)blaSHV-142~~~JQ029959:29-899	SHV-142	3001184	argannot
@@ -1276,7 +1273,7 @@ argannot~~~(Bla)blaSHV-145~~~JX013655:1-861	SHV-145	3001185	argannot
 argannot~~~(Bla)blaSHV-147~~~JX121114:1-858	SHV-147	3001186	argannot
 argannot~~~(Bla)blaSHV-148~~~JX121115:1-858	SHV-148	3001187	argannot
 argannot~~~(Bla)blaSHV-149~~~JX121116:1-858	SHV-149	3001188	argannot
-argannot~~~(Bla)blaSHV-15~~~AJ011428:1-861	SHV-15	3001074	argannot
+argannot~~~(Bla)blaSHV-14~~~AF226622:55-915	SHV-14	3001073	argannot
 argannot~~~(Bla)blaSHV-150~~~JX121117:1-858	SHV-150	3001189	argannot
 argannot~~~(Bla)blaSHV-151~~~JX121118:1-858	SHV-151	3001190	argannot
 argannot~~~(Bla)blaSHV-152~~~JX121119:1-858	SHV-152	3001191	argannot
@@ -1287,7 +1284,7 @@ argannot~~~(Bla)blaSHV-156~~~JX121123:1-861	SHV-156	3001195	argannot
 argannot~~~(Bla)blaSHV-157~~~JX121124:1-861	SHV-157	3001196	argannot
 argannot~~~(Bla)blaSHV-158~~~JX121125:1-858	SHV-158	3001197	argannot
 argannot~~~(Bla)blaSHV-159~~~JX121126:1-858	SHV-159	3001198	argannot
-argannot~~~(Bla)blaSHV-16~~~AF072684:118-993	SHV-16	3001075	argannot
+argannot~~~(Bla)blaSHV-15~~~AJ011428:1-861	SHV-15	3001074	argannot
 argannot~~~(Bla)blaSHV-160~~~JX121127:1-861	SHV-160	3001199	argannot
 argannot~~~(Bla)blaSHV-161~~~JX121128:1-861	SHV-161	3001200	argannot
 argannot~~~(Bla)blaSHV-162~~~JX121129:1-858	SHV-162	3001201	argannot
@@ -1295,11 +1292,11 @@ argannot~~~(Bla)blaSHV-163~~~JX121130:1-858	SHV-163	3001202	argannot
 argannot~~~(Bla)blaSHV-165~~~JX121131:1-858	SHV-165	3001203	argannot
 argannot~~~(Bla)blaSHV-167~~~AB733453:4-849	SHV-167	3001204	argannot
 argannot~~~(Bla)blaSHV-168~~~JX870080:1-861	SHV-168	3001352	argannot
+argannot~~~(Bla)blaSHV-16~~~AF072684:118-993	SHV-16	3001075	argannot
 argannot~~~(Bla)blaSHV-172~~~KF513177:1-861	SHV-172	3001356	argannot
 argannot~~~(Bla)blaSHV-173~~~KF513178:1-861	SHV-173	3001357	argannot
 argannot~~~(Bla)blaSHV-178~~~KF705209:1-861	SHV-178	3001361	argannot
 argannot~~~(Bla)blaSHV-179~~~KF705208:1-861	SHV-179	3001362	argannot
-argannot~~~(Bla)blaSHV-18~~~EU684753:1-861	SHV-18	3001076	argannot
 argannot~~~(Bla)blaSHV-181~~~KP050488:1-861	SHV-180	3001350	argannot
 argannot~~~(Bla)blaSHV-182~~~KP050489:1-861	SHV-182	3001364	argannot
 argannot~~~(Bla)blaSHV-183~~~HG934764:1-864	SHV-183	3001351	argannot
@@ -1308,10 +1305,11 @@ argannot~~~(Bla)blaSHV-186~~~KM233165:1-861	SHV-186	3003153	argannot
 argannot~~~(Bla)blaSHV-187~~~LN515533:1-867	SHV-187	3003154	argannot
 argannot~~~(Bla)blaSHV-188~~~LN515534:1-873	SHV-188	3003155	argannot
 argannot~~~(Bla)blaSHV-189~~~KP050494:1-861	SHV-189	3003156	argannot
+argannot~~~(Bla)blaSHV-18~~~EU684753:1-861	SHV-18	3001076	argannot
 argannot~~~(Bla)blaSHV-190~~~KP868753:1-861	SHV-190	3003590	argannot
 argannot~~~(Bla)blaSHV-191~~~KP868754:1-861	SHV-191	3003591	argannot
 argannot~~~(Bla)blaSHV-193~~~KR347170:1-861	SHV-193	3005239	argannot
-argannot~~~(Bla)blaSHV-2~~~AF148851:6-866	SHV-2	3001060	argannot
+argannot~~~(Bla)blaSHV-1~~~AF148850:6-866	SHV-1	3001059	argannot
 argannot~~~(Bla)blaSHV-24~~~AB023477:1-861	SHV-24	3001082	argannot
 argannot~~~(Bla)blaSHV-25~~~AF208796:1-861	SHV-25	3001083	argannot
 argannot~~~(Bla)blaSHV-26~~~AF227204:74-934	SHV-26	3001084	argannot
@@ -1319,6 +1317,7 @@ argannot~~~(Bla)blaSHV-27~~~FJ685656:1-861	SHV-27	3001085	argannot
 argannot~~~(Bla)blaSHV-28~~~EU441172:57-917	SHV-28	3001086	argannot
 argannot~~~(Bla)blaSHV-29~~~AF301532:8-868	SHV-29	3001087	argannot
 argannot~~~(Bla)blaSHV-2a~~~X98102:72-934	SHV-2A	3001061	argannot
+argannot~~~(Bla)blaSHV-2~~~AF148851:6-866	SHV-2	3001060	argannot
 argannot~~~(Bla)blaSHV-30~~~AY661885:49-909	SHV-30	3001088	argannot
 argannot~~~(Bla)blaSHV-31~~~GU064396:1-861	SHV-31	3001089	argannot
 argannot~~~(Bla)blaSHV-32~~~AY037778:92-952	SHV-32	3001090	argannot
@@ -1338,7 +1337,6 @@ argannot~~~(Bla)blaSHV-45~~~HQ877612:1-715	SHV-53	3001110	argannot
 argannot~~~(Bla)blaSHV-46~~~AY210887:112-972	SHV-46	3001104	argannot
 argannot~~~(Bla)blaSHV-48~~~AY263404:1-861	SHV-48	3001105	argannot
 argannot~~~(Bla)blaSHV-49~~~AY528718:414-1274	SHV-49	3001106	argannot
-argannot~~~(Bla)blaSHV-5~~~X55640:112-972	SHV-5	3001064	argannot
 argannot~~~(Bla)blaSHV-50~~~AY288915:1-861	SHV-50	3001107	argannot
 argannot~~~(Bla)blaSHV-51~~~AY289548:1-861	SHV-51	3001108	argannot
 argannot~~~(Bla)blaSHV-52~~~HQ845196:1-861	SHV-52	3001109	argannot
@@ -1347,7 +1345,7 @@ argannot~~~(Bla)blaSHV-55~~~HQ877613:1-715	SHV-53	3001110	argannot
 argannot~~~(Bla)blaSHV-56~~~AY352599:1-861	SHV-12	3001071	argannot
 argannot~~~(Bla)blaSHV-57~~~AY223863:171-1031	SHV-57	3001113	argannot
 argannot~~~(Bla)blaSHV-59~~~AY790341:1-861	SHV-59	3001114	argannot
-argannot~~~(Bla)blaSHV-6~~~Y11069:1-780	SHV-6	3001065	argannot
+argannot~~~(Bla)blaSHV-5~~~X55640:112-972	SHV-5	3001064	argannot
 argannot~~~(Bla)blaSHV-60~~~AJ866283:1-861	SHV-60	3001115	argannot
 argannot~~~(Bla)blaSHV-61~~~AJ866284:1-861	SHV-61	3001116	argannot
 argannot~~~(Bla)blaSHV-62~~~AJ866285:1-832	SHV-62	3001117	argannot
@@ -1357,7 +1355,7 @@ argannot~~~(Bla)blaSHV-65~~~DQ174305:5-865	SHV-65	3001120	argannot
 argannot~~~(Bla)blaSHV-66~~~DQ174306:5-865	SHV-66	3001121	argannot
 argannot~~~(Bla)blaSHV-67~~~DQ174307:5-865	SHV-67	3001122	argannot
 argannot~~~(Bla)blaSHV-69~~~DQ174308:5-865	SHV-69	3001123	argannot
-argannot~~~(Bla)blaSHV-7~~~U20270:125-985	SHV-7	3001066	argannot
+argannot~~~(Bla)blaSHV-6~~~Y11069:1-780	SHV-6	3001065	argannot
 argannot~~~(Bla)blaSHV-70~~~DQ013287:1-861	SHV-70	3001124	argannot
 argannot~~~(Bla)blaSHV-71~~~AM176546:1-861	SHV-71	3001125	argannot
 argannot~~~(Bla)blaSHV-72~~~AM176547:31-891	SHV-72	3001126	argannot
@@ -1368,7 +1366,7 @@ argannot~~~(Bla)blaSHV-76~~~AM176551:31-891	SHV-76	3001130	argannot
 argannot~~~(Bla)blaSHV-77~~~AM176552:31-891	SHV-77	3001131	argannot
 argannot~~~(Bla)blaSHV-78~~~FJ685658:1-861	SHV-78	3001132	argannot
 argannot~~~(Bla)blaSHV-79~~~AM176554:31-891	SHV-79	3001133	argannot
-argannot~~~(Bla)blaSHV-8~~~U92041:1-861	SHV-8	3001067	argannot
+argannot~~~(Bla)blaSHV-7~~~U20270:125-985	SHV-7	3001066	argannot
 argannot~~~(Bla)blaSHV-80~~~AM176555:1-861	SHV-80	3001134	argannot
 argannot~~~(Bla)blaSHV-81~~~AM176556:26-886	SHV-81	3001135	argannot
 argannot~~~(Bla)blaSHV-82~~~AM176557:1-861	SHV-82	3001136	argannot
@@ -1376,6 +1374,7 @@ argannot~~~(Bla)blaSHV-84~~~AM087453:26-856	SHV-84	3001138	argannot
 argannot~~~(Bla)blaSHV-85~~~DQ322460:16-876	SHV-85	3001139	argannot
 argannot~~~(Bla)blaSHV-86~~~DQ328802:1-861	SHV-86	3001140	argannot
 argannot~~~(Bla)blaSHV-89~~~DQ193536:1-861	SHV-89	3001141	argannot
+argannot~~~(Bla)blaSHV-8~~~U92041:1-861	SHV-8	3001067	argannot
 argannot~~~(Bla)blaSHV-92~~~DQ836922:1-861	SHV-92	3001144	argannot
 argannot~~~(Bla)blaSHV-93~~~EF373969:1-861	SHV-93	3001145	argannot
 argannot~~~(Bla)blaSHV-94~~~EF373970:1-861	SHV-94	3001146	argannot
@@ -1399,8 +1398,6 @@ argannot~~~(Bla)blaSPR-1~~~NG_052102:101-997	SPR-1	3006996	argannot
 argannot~~~(Bla)blaSPU-1~~~GQ919044:1-882	SPU-1	3006998	argannot
 argannot~~~(Bla)blaSRT-1~~~AB008454:154-1290	SRT-1	3002493	argannot
 argannot~~~(Bla)blaSST-1~~~AB008455:152-1288	SST-1	3006999	argannot
-argannot~~~(Bla)blaTEM-1~~~JQ735917:1-861	TEM-234	3005265	argannot
-argannot~~~(Bla)blaTEM-10~~~U09188:198-1005	TEM-10	3000882	argannot
 argannot~~~(Bla)blaTEM-101~~~AF495873:1-861	TEM-101	3000964	argannot
 argannot~~~(Bla)blaTEM-102~~~AY029354:3-833	TEM-98	3006139	argannot
 argannot~~~(Bla)blaTEM-104~~~AF516719:215-1075	TEM-104	3000967	argannot
@@ -1409,7 +1406,7 @@ argannot~~~(Bla)blaTEM-106~~~AY101578:215-1075	TEM-106	3000969	argannot
 argannot~~~(Bla)blaTEM-107~~~AY101764:207-1067	TEM-107	3000970	argannot
 argannot~~~(Bla)blaTEM-108~~~AF506748:39-899	TEM-108	3000971	argannot
 argannot~~~(Bla)blaTEM-109~~~AY628175:211-1071	TEM-109	3000972	argannot
-argannot~~~(Bla)blaTEM-11~~~AY874537:178-1038	TEM-11	3000883	argannot
+argannot~~~(Bla)blaTEM-10~~~U09188:198-1005	TEM-10	3000882	argannot
 argannot~~~(Bla)blaTEM-110~~~AY130283:1-785	TEM-110	3000973	argannot
 argannot~~~(Bla)blaTEM-111~~~AF468003:1-861	TEM-111	3000974	argannot
 argannot~~~(Bla)blaTEM-112~~~AY589493:167-1027	TEM-112	3000975	argannot
@@ -1419,7 +1416,7 @@ argannot~~~(Bla)blaTEM-115~~~AF535127:209-1069	TEM-115	3000978	argannot
 argannot~~~(Bla)blaTEM-116~~~AY425988:6-866	TEM-116	3000979	argannot
 argannot~~~(Bla)blaTEM-117~~~AY130282:1-764	TEM-117	3000980	argannot
 argannot~~~(Bla)blaTEM-118~~~AY130285:1-785	TEM-118	3000981	argannot
-argannot~~~(Bla)blaTEM-12~~~M88143:368-1228	TEM-12	3000884	argannot
+argannot~~~(Bla)blaTEM-11~~~AY874537:178-1038	TEM-11	3000883	argannot
 argannot~~~(Bla)blaTEM-120~~~AY243512:209-1069	TEM-120	3000982	argannot
 argannot~~~(Bla)blaTEM-121~~~AY307374:1-861	TEM-121	3000983	argannot
 argannot~~~(Bla)blaTEM-122~~~AY307100:1-861	TEM-122	3000984	argannot
@@ -1430,6 +1427,7 @@ argannot~~~(Bla)blaTEM-126~~~AY628199:204-1064	TEM-126	3000988	argannot
 argannot~~~(Bla)blaTEM-127~~~AY368236:1-861	TEM-127	3000989	argannot
 argannot~~~(Bla)blaTEM-128~~~AY359287:186-1046	TEM-1	3000873	argannot
 argannot~~~(Bla)blaTEM-129~~~AY452662:184-1044	TEM-1	3000873	argannot
+argannot~~~(Bla)blaTEM-12~~~M88143:368-1228	TEM-12	3000884	argannot
 argannot~~~(Bla)blaTEM-130~~~AJ866988:1-861	TEM-130	3000994	argannot
 argannot~~~(Bla)blaTEM-131~~~AY436361:132-992	TEM-131	3000995	argannot
 argannot~~~(Bla)blaTEM-132~~~AY491682:1-861	TEM-132	3000996	argannot
@@ -1449,7 +1447,6 @@ argannot~~~(Bla)blaTEM-146~~~DQ105529:1-861	TEM-146	3001013	argannot
 argannot~~~(Bla)blaTEM-147~~~DQ279850:1-861	TEM-147	3001014	argannot
 argannot~~~(Bla)blaTEM-148~~~AM087454:209-1069	TEM-148	3001015	argannot
 argannot~~~(Bla)blaTEM-149~~~DQ369751:1-861	TEM-149	3001016	argannot
-argannot~~~(Bla)blaTEM-15~~~AM849805:263-1123	TEM-15	3000886	argannot
 argannot~~~(Bla)blaTEM-150~~~AM183304:209-1069	TEM-150	3001017	argannot
 argannot~~~(Bla)blaTEM-151~~~DQ834729:206-1066	TEM-151	3001018	argannot
 argannot~~~(Bla)blaTEM-152~~~DQ834728:206-1066	TEM-152	3001019	argannot
@@ -1460,7 +1457,7 @@ argannot~~~(Bla)blaTEM-156~~~AM115459:209-1069	TEM-156	3001022	argannot
 argannot~~~(Bla)blaTEM-157~~~DQ909059:1-861	TEM-157	3001023	argannot
 argannot~~~(Bla)blaTEM-158~~~EF534736:214-1074	TEM-158	3001024	argannot
 argannot~~~(Bla)blaTEM-159~~~EF136376:1-861	TEM-159	3001025	argannot
-argannot~~~(Bla)blaTEM-16~~~X65254:176-1036	TEM-16	3000887	argannot
+argannot~~~(Bla)blaTEM-15~~~AM849805:263-1123	TEM-15	3000886	argannot
 argannot~~~(Bla)blaTEM-160~~~EF136377:1-861	TEM-160	3001026	argannot
 argannot~~~(Bla)blaTEM-162~~~EF468463:67-927	TEM-162	3001028	argannot
 argannot~~~(Bla)blaTEM-163~~~EU815939:1-861	TEM-163	3001029	argannot
@@ -1469,11 +1466,12 @@ argannot~~~(Bla)blaTEM-166~~~FJ197316:1-861	TEM-166	3001032	argannot
 argannot~~~(Bla)blaTEM-167~~~FJ360884:214-1074	TEM-167	3001033	argannot
 argannot~~~(Bla)blaTEM-168~~~FJ919776:209-1069	TEM-168	3001034	argannot
 argannot~~~(Bla)blaTEM-169~~~FJ873740:1-858	TEM-169	3001035	argannot
-argannot~~~(Bla)blaTEM-17~~~Y14574:1-861	TEM-17	3000888	argannot
+argannot~~~(Bla)blaTEM-16~~~X65254:176-1036	TEM-16	3000887	argannot
 argannot~~~(Bla)blaTEM-171~~~GQ149347:5270-6030	TEM-171	3001037	argannot
 argannot~~~(Bla)blaTEM-176~~~GU550123:145-1005	TEM-176	3001041	argannot
 argannot~~~(Bla)blaTEM-177~~~FN652295:1-861	TEM-177	3001042	argannot
 argannot~~~(Bla)blaTEM-178~~~X97254:154-1011	TEM-178	3001043	argannot
+argannot~~~(Bla)blaTEM-17~~~Y14574:1-861	TEM-17	3000888	argannot
 argannot~~~(Bla)blaTEM-182~~~HQ317449:1-861	TEM-182	3001373	argannot
 argannot~~~(Bla)blaTEM-183~~~HQ529916:111-971	TEM-183	3001045	argannot
 argannot~~~(Bla)blaTEM-185~~~JF795538:1-861	TEM-185	3001374	argannot
@@ -1491,15 +1489,14 @@ argannot~~~(Bla)blaTEM-197~~~HQ877606:1-861	TEM-197	3001056	argannot
 argannot~~~(Bla)blaTEM-198~~~AB700703:162-1022	TEM-198	3001057	argannot
 argannot~~~(Bla)blaTEM-199~~~JX050178:1-853	TEM-199	3001058	argannot
 argannot~~~(Bla)blaTEM-1D~~~AF188200:215-1075	TEM-1	3000873	argannot
-argannot~~~(Bla)blaTEM-2~~~AY529705:167-1027	TEM-2	3000874	argannot
-argannot~~~(Bla)blaTEM-20~~~EU527189:4132-4992	TEM-20	3000891	argannot
+argannot~~~(Bla)blaTEM-1~~~JQ735917:1-861	TEM-234	3005265	argannot
 argannot~~~(Bla)blaTEM-201~~~JX310327:1-861	TEM-201	3001378	argannot
 argannot~~~(Bla)blaTEM-205~~~KC900516:1-858	TEM-205	3001382	argannot
 argannot~~~(Bla)blaTEM-206~~~KC783461:1-861	TEM-206	3001383	argannot
 argannot~~~(Bla)blaTEM-207~~~KC818234:1-861	TEM-207	3001384	argannot
 argannot~~~(Bla)blaTEM-208~~~KC865667:184-1044	TEM-208	3001385	argannot
 argannot~~~(Bla)blaTEM-209~~~KF240808:1-861	TEM-209	3001386	argannot
-argannot~~~(Bla)blaTEM-21~~~AF466526:1346-2206	TEM-21	3000892	argannot
+argannot~~~(Bla)blaTEM-20~~~EU527189:4132-4992	TEM-20	3000891	argannot
 argannot~~~(Bla)blaTEM-211~~~KF513179:1-861	TEM-211	3001388	argannot
 argannot~~~(Bla)blaTEM-213~~~KF663615:1-858	TEM-213	3001390	argannot
 argannot~~~(Bla)blaTEM-214~~~KP050491:1-861	TEM-214	3001391	argannot
@@ -1507,16 +1504,18 @@ argannot~~~(Bla)blaTEM-215~~~KP050492:1-861	TEM-215	3001392	argannot
 argannot~~~(Bla)blaTEM-216~~~KF944358:1-861	TEM-216	3001393	argannot
 argannot~~~(Bla)blaTEM-217~~~HG934763:1-861	TEM-217	3001394	argannot
 argannot~~~(Bla)blaTEM-219~~~KM114268:1-861	TEM-219	3003157	argannot
-argannot~~~(Bla)blaTEM-22~~~Y17583:214-1071	TEM-22	3000893	argannot
+argannot~~~(Bla)blaTEM-21~~~AF466526:1346-2206	TEM-21	3000892	argannot
 argannot~~~(Bla)blaTEM-220~~~KM998962:1-861	TEM-220	3003158	argannot
+argannot~~~(Bla)blaTEM-22~~~Y17583:214-1071	TEM-22	3000893	argannot
 argannot~~~(Bla)blaTEM-24~~~GQ293500:4033-4893	TEM-24	3000894	argannot
 argannot~~~(Bla)blaTEM-26B~~~L19940:198-1006	TEM-26	3000896	argannot
 argannot~~~(Bla)blaTEM-28~~~ECU37195:76-936	TEM-28	3000898	argannot
 argannot~~~(Bla)blaTEM-29~~~AJ277416:1-861	TEM-29	3000899	argannot
-argannot~~~(Bla)blaTEM-3~~~X64523:477-1337	TEM-3	3000875	argannot
+argannot~~~(Bla)blaTEM-2~~~AY529705:167-1027	TEM-2	3000874	argannot
 argannot~~~(Bla)blaTEM-30~~~AJ437107:209-1069	TEM-30	3000900	argannot
 argannot~~~(Bla)blaTEM-33~~~GU371926:50305-51165	TEM-33	3000903	argannot
 argannot~~~(Bla)blaTEM-34~~~KC292503:4335-5195	TEM-34	3000904	argannot
+argannot~~~(Bla)blaTEM-3~~~X64523:477-1337	TEM-3	3000875	argannot
 argannot~~~(Bla)blaTEM-42~~~X98047:1-844	TEM-42	3000911	argannot
 argannot~~~(Bla)blaTEM-43~~~U95363:1-861	TEM-43	3000912	argannot
 argannot~~~(Bla)blaTEM-47~~~Y10279:1-861	TEM-47	3000916	argannot
@@ -1528,12 +1527,11 @@ argannot~~~(Bla)blaTEM-54~~~AF104442:194-1054	TEM-54	3000923	argannot
 argannot~~~(Bla)blaTEM-55~~~DQ286729:1-861	TEM-55	3000924	argannot
 argannot~~~(Bla)blaTEM-57~~~FJ405211:1-861	TEM-57	3000926	argannot
 argannot~~~(Bla)blaTEM-59~~~AF062386:31-862	TEM-59	3000928	argannot
-argannot~~~(Bla)blaTEM-6~~~X57972:340-1200	TEM-6	3000878	argannot
 argannot~~~(Bla)blaTEM-60~~~AF047171:136-996	TEM-60	3000929	argannot
 argannot~~~(Bla)blaTEM-63~~~AF332513:104-964	TEM-63	3000931	argannot
 argannot~~~(Bla)blaTEM-67~~~AF091113:451-1311	TEM-67	3000934	argannot
 argannot~~~(Bla)blaTEM-68~~~AJ239002:1-861	TEM-68	3000935	argannot
-argannot~~~(Bla)blaTEM-7~~~AF527798:1-785	TEM-7	3000879	argannot
+argannot~~~(Bla)blaTEM-6~~~X57972:340-1200	TEM-6	3000878	argannot
 argannot~~~(Bla)blaTEM-70~~~AF188199:215-1075	TEM-70	3000936	argannot
 argannot~~~(Bla)blaTEM-71~~~AF203816:211-1071	TEM-71	3000937	argannot
 argannot~~~(Bla)blaTEM-72~~~AF157553:148-1008	TEM-72	3000938	argannot
@@ -1542,7 +1540,7 @@ argannot~~~(Bla)blaTEM-76~~~AF190694:209-1069	TEM-76	3000942	argannot
 argannot~~~(Bla)blaTEM-77~~~AF190695:209-1069	TEM-73	3000939	argannot
 argannot~~~(Bla)blaTEM-78~~~AF190693:209-1069	TEM-78	3000944	argannot
 argannot~~~(Bla)blaTEM-79~~~AF190692:209-1069	TEM-79	3000946	argannot
-argannot~~~(Bla)blaTEM-8~~~X65252:176-1036	TEM-8	3000880	argannot
+argannot~~~(Bla)blaTEM-7~~~AF527798:1-785	TEM-7	3000879	argannot
 argannot~~~(Bla)blaTEM-80~~~AF347054:209-1069	TEM-80	3000947	argannot
 argannot~~~(Bla)blaTEM-81~~~AF427127:209-1069	TEM-81	3000948	argannot
 argannot~~~(Bla)blaTEM-82~~~AF427128:209-1069	TEM-82	3000949	argannot
@@ -1553,6 +1551,7 @@ argannot~~~(Bla)blaTEM-86~~~AJ277415:1-861	TEM-86	3000953	argannot
 argannot~~~(Bla)blaTEM-87~~~AF250872:1-861	TEM-87	3000954	argannot
 argannot~~~(Bla)blaTEM-88~~~AY027590:113-973	TEM-88	3000955	argannot
 argannot~~~(Bla)blaTEM-89~~~AY039040:189-1022	TEM-89	3000956	argannot
+argannot~~~(Bla)blaTEM-8~~~X65252:176-1036	TEM-8	3000880	argannot
 argannot~~~(Bla)blaTEM-90~~~AF351241:90-950	TEM-90	3000957	argannot
 argannot~~~(Bla)blaTEM-91~~~AB049569:1-861	TEM-91	3000958	argannot
 argannot~~~(Bla)blaTEM-92~~~AF143804:1-861	TEM-92	3000959	argannot
@@ -1570,11 +1569,11 @@ argannot~~~(Bla)blaTMB-2~~~AB758278:99-836	TMB-2	3004106	argannot
 argannot~~~(Bla)blaTRU-1~~~EU046614:1-1149	TRU-1	3004450	argannot
 argannot~~~(Bla)blaTUS-1~~~AF441287:261-1007	TUS-1	3000844	argannot
 argannot~~~(Bla)blaVCC-1~~~NG_050316:101-955	VCC-1	3003713	argannot
-argannot~~~(Bla)blaVEB-1~~~DQ393569:1955-2854	VEB-1	3002370	argannot
 argannot~~~(Bla)blaVEB-11~~~KP681692:1-900	VEB-11	3006208	argannot
 argannot~~~(Bla)blaVEB-12~~~KP681693:1-900	VEB-12	3006209	argannot
 argannot~~~(Bla)blaVEB-1a~~~AF324833:1-900	VEB-9	3002378	argannot
 argannot~~~(Bla)blaVEB-1b~~~AF324834:1-900	VEB-1b	3003712	argannot
+argannot~~~(Bla)blaVEB-1~~~DQ393569:1955-2854	VEB-1	3002370	argannot
 argannot~~~(Bla)blaVEB-2~~~AY027870:47-946	VEB-2	3002371	argannot
 argannot~~~(Bla)blaVEB-3~~~AY536519:38-937	VEB-3	3002372	argannot
 argannot~~~(Bla)blaVEB-4~~~EF136375:1-900	VEB-4	3002373	argannot
@@ -1584,7 +1583,6 @@ argannot~~~(Bla)blaVEB-7~~~FJ825622:1-900	VEB-7	3002376	argannot
 argannot~~~(Bla)blaVEB-8~~~JX679208:1-900	VEB-8	3002377	argannot
 argannot~~~(Bla)blaVHH-1~~~AF217649:134-985	VHH-1	3007003	argannot
 argannot~~~(Bla)blaVHW-1~~~AF217648:133-1005	VHW-1	3007004	argannot
-argannot~~~(Bla)blaVIM-1~~~GU724868:1023-1823	VIM-1	3002271	argannot
 argannot~~~(Bla)blaVIM-10~~~AY524989:1-801	VIM-10	3002280	argannot
 argannot~~~(Bla)blaVIM-11~~~EF116550:128-928	VIM-11	3002281	argannot
 argannot~~~(Bla)blaVIM-12~~~DQ143913:1775-2575	VIM-12	3002282	argannot
@@ -1595,7 +1593,7 @@ argannot~~~(Bla)blaVIM-16~~~EU419746:1-801	VIM-16	3002286	argannot
 argannot~~~(Bla)blaVIM-17~~~EU118148:1011-1811	VIM-17	3002287	argannot
 argannot~~~(Bla)blaVIM-18~~~AM778091:27-815	VIM-18	3002288	argannot
 argannot~~~(Bla)blaVIM-19~~~FJ915116:1-801	VIM-19	3002289	argannot
-argannot~~~(Bla)blaVIM-2~~~AY884050:551-1351	VIM-2	3002272	argannot
+argannot~~~(Bla)blaVIM-1~~~GU724868:1023-1823	VIM-1	3002271	argannot
 argannot~~~(Bla)blaVIM-20~~~GQ414736:1-801	VIM-20	3002290	argannot
 argannot~~~(Bla)blaVIM-23~~~GQ242167:1-801	VIM-23	3002293	argannot
 argannot~~~(Bla)blaVIM-24~~~HM855205:1-801	VIM-24	3002294	argannot
@@ -1604,7 +1602,7 @@ argannot~~~(Bla)blaVIM-26~~~FR748153:260-1060	VIM-26	3002296	argannot
 argannot~~~(Bla)blaVIM-27~~~HQ858608:1-801	VIM-27	3002297	argannot
 argannot~~~(Bla)blaVIM-28~~~JF900599:1-801	VIM-28	3002298	argannot
 argannot~~~(Bla)blaVIM-29~~~JX311308:1-801	VIM-29	3002299	argannot
-argannot~~~(Bla)blaVIM-3~~~GU966683:80-880	VIM-3	3002273	argannot
+argannot~~~(Bla)blaVIM-2~~~AY884050:551-1351	VIM-2	3002272	argannot
 argannot~~~(Bla)blaVIM-30~~~JN129451:88-888	VIM-30	3002300	argannot
 argannot~~~(Bla)blaVIM-31~~~JN982330:246-1046	VIM-31	3002301	argannot
 argannot~~~(Bla)blaVIM-32~~~JN676230:1550-2350	VIM-32	3002302	argannot
@@ -1615,39 +1613,39 @@ argannot~~~(Bla)blaVIM-36~~~JX982635:1-801	VIM-36	3002306	argannot
 argannot~~~(Bla)blaVIM-37~~~JX982636:1-801	VIM-37	3002307	argannot
 argannot~~~(Bla)blaVIM-38~~~KC469971:1-801	VIM-38	3002308	argannot
 argannot~~~(Bla)blaVIM-39~~~KF131539:1-801	VIM-39	3002309	argannot
-argannot~~~(Bla)blaVIM-4~~~JF905459:707-1507	VIM-4	3002274	argannot
+argannot~~~(Bla)blaVIM-3~~~GU966683:80-880	VIM-3	3002273	argannot
 argannot~~~(Bla)blaVIM-42~~~KP071470:1-801	VIM-42	3003178	argannot
 argannot~~~(Bla)blaVIM-43~~~KP096412:1-801	VIM-43	3003179	argannot
 argannot~~~(Bla)blaVIM-44~~~KP681696:1-801	VIM-44	3003660	argannot
 argannot~~~(Bla)blaVIM-45~~~KP681695:1-801	VIM-45	3003661	argannot
 argannot~~~(Bla)blaVIM-46~~~KP749829:1-801	VIM-46	3003662	argannot
+argannot~~~(Bla)blaVIM-4~~~JF905459:707-1507	VIM-4	3002274	argannot
 argannot~~~(Bla)blaVIM-5~~~DQ023222:1316-2116	VIM-5	3002275	argannot
 argannot~~~(Bla)blaVIM-6~~~AY165025:1-801	VIM-6	3002276	argannot
 argannot~~~(Bla)blaVIM-7~~~AJ536835:150-946	VIM-7	3002277	argannot
 argannot~~~(Bla)blaVIM-8~~~AY524987:1-801	VIM-8	3002278	argannot
 argannot~~~(Bla)blaVIM-9~~~AY524988:1-801	VIM-9	3002279	argannot
-argannot~~~(Bla)blaZ~~~AB245469:2235-3080	PC1 beta-lactamase (blaZ)	3000621	argannot
 argannot~~~(Bla)blaZEG-1~~~AY265891:1-1013	ACT-8	3001831	argannot
+argannot~~~(Bla)blaZ~~~AB245469:2235-3080	PC1 beta-lactamase (blaZ)	3000621	argannot
 argannot~~~(Bla)car-1~~~NG_048712:101-1129	CAR-1	3006903	argannot
 argannot~~~(Bla)cblA~~~NG_047624:101-991	CblA-1	3002999	argannot
-argannot~~~(Bla)cepA~~~FR688019:1-903	CepA-44	3006225	argannot
 argannot~~~(Bla)cepA-29~~~U05884:556-1458	CepA-29	3006224	argannot
 argannot~~~(Bla)cepA-44~~~U05885:556-1458	CepA-44	3006225	argannot
 argannot~~~(Bla)cepA-49~~~U05886:404-1306	CepA-49	3006226	argannot
-argannot~~~(Bla)cepH~~~AJ276030:2638-3816	TRU-1	3004450	argannot
+argannot~~~(Bla)cepA~~~FR688019:1-903	CepA-44	3006225	argannot
 argannot~~~(Bla)cepH-A3~~~AY112998:197-961	cphA3	3003093	argannot
+argannot~~~(Bla)cepH~~~AJ276030:2638-3816	TRU-1	3004450	argannot
 argannot~~~(Bla)cfiA10~~~AB087227:1-750	CfiA10	3006906	argannot
 argannot~~~(Bla)cfiA13~~~FM200787:3-752	CcrA	3000578	argannot
 argannot~~~(Bla)cfiA14~~~FM200789:162-911	CfiA14	3006908	argannot
 argannot~~~(Bla)cfiA4~~~AB087229:1-750	CfiA4	3006919	argannot
 argannot~~~(Bla)cfiA8~~~AB087233:1-750	CfiA8	3006920	argannot
 argannot~~~(Bla)cfiA9~~~AB087234:1-750	CfiA9	3006921	argannot
-argannot~~~(Bla)cfxA~~~U38243:150-1115	CfxA	3003001	argannot
 argannot~~~(Bla)cfxA2~~~AF504910:1-966	CfxA2	3003002	argannot
 argannot~~~(Bla)cfxA4~~~AY769933:1-966	CfxA4	3003005	argannot
 argannot~~~(Bla)cfxA5~~~AY769934:28-993	CfxA5	3003096	argannot
 argannot~~~(Bla)cfxA6~~~GQ342996:798-1793	CfxA6	3003097	argannot
-argannot~~~(Bla)cphA~~~AY261378:1-765	cphA3	3003093	argannot
+argannot~~~(Bla)cfxA~~~U38243:150-1115	CfxA	3003001	argannot
 argannot~~~(Bla)cphA1~~~NC_000918:1269541-1270521	TUS-1	3000844	argannot
 argannot~~~(Bla)cphA2~~~NC_000918:673738-674661	SPM-1	3003793	argannot
 argannot~~~(Bla)cphA4~~~AY227050:131-895	cphA4	3003100	argannot
@@ -1655,16 +1653,17 @@ argannot~~~(Bla)cphA5~~~AY227051:1-765	cphA5	3003101	argannot
 argannot~~~(Bla)cphA6~~~AY227052:1-765	cphA6	3003102	argannot
 argannot~~~(Bla)cphA7~~~AY227053:1-765	cphA7	3003103	argannot
 argannot~~~(Bla)cphA8~~~AY261375:1-765	cphA8	3003104	argannot
+argannot~~~(Bla)cphA~~~AY261378:1-765	cphA3	3003093	argannot
 argannot~~~(Bla)hugA~~~AF324468:221-2117	FONA-2	3004789	argannot
 argannot~~~(Bla)imiH~~~AJ548797:924-1688	imiH	3003094	argannot
 argannot~~~(Bla)imiS~~~Y10415:126-893	imiS	3003095	argannot
-argannot~~~(Bla)mecA~~~AB221124:91-2097	mecA	3000617	argannot
 argannot~~~(Bla)mecA1~~~NG_047950:20-2017	mecA	3000617	argannot
 argannot~~~(Bla)mecA2~~~NG_047952:101-2107	mecA	3000617	argannot
+argannot~~~(Bla)mecA~~~AB221124:91-2097	mecA	3000617	argannot
 argannot~~~(Bla)mecC~~~HG515014:42996-44993	mecC	3001209	argannot
 argannot~~~(Bla)mecI~~~NG_047956:101-472	mecI	3000124	argannot
 argannot~~~(Bla)penA~~~AB511945:1298-3049	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	argannot
-argannot~~~(Col)mcr-1.1~~~KP347127:22413-24038	MCR-1.1	3003689	argannot
+argannot~~~(Bla)~~~AB916359:794-1708	CTX-M-151	3002008	argannot
 argannot~~~(Col)mcr-1.10~~~NG_055583:1-1626	MCR-1.10	3004506	argannot
 argannot~~~(Col)mcr-1.11~~~KY853650:51584-53212	MCR-1.11	3004688	argannot
 argannot~~~(Col)mcr-1.12~~~LC337668:1-1626	MCR-1.12	3004689	argannot
@@ -1674,6 +1673,7 @@ argannot~~~(Col)mcr-1.15~~~NG_061610:101-1723	MCR-1.15	3007279	argannot
 argannot~~~(Col)mcr-1.16~~~NG_064787:1-1626	MCR-1.16	3007238	argannot
 argannot~~~(Col)mcr-1.17~~~NG_064788:1-1626	MCR-1.17	3007244	argannot
 argannot~~~(Col)mcr-1.18~~~NG_064789:101-1726	MCR-1.18	3007233	argannot
+argannot~~~(Col)mcr-1.1~~~KP347127:22413-24038	MCR-1.1	3003689	argannot
 argannot~~~(Col)mcr-1.2~~~KX236309:3137-4762	MCR-1.2	3004194	argannot
 argannot~~~(Col)mcr-1.3~~~KU934208:18648-20273	MCR-1.3	3004514	argannot
 argannot~~~(Col)mcr-1.4~~~KY041856:1-1626	MCR-1.4	3004515	argannot
@@ -1683,7 +1683,6 @@ argannot~~~(Col)mcr-1.7~~~KY829117:12188-13813	MCR-1.7	3004686	argannot
 argannot~~~(Col)mcr-1.8~~~KY683842:1-1626	MCR-1.8	3004687	argannot
 argannot~~~(Col)mcr-1.9~~~KY964067:27184-28809	MCR-1.9	3004507	argannot
 argannot~~~(Col)mcr-2.1~~~LT598652:26779-28395	MCR-2.1	3004110	argannot
-argannot~~~(Col)mcr-3.1~~~KY924928:161134-162759	MCR-3.1	3004139	argannot
 argannot~~~(Col)mcr-3.10~~~MG214533:76-1701	MCR-3.10	3004504	argannot
 argannot~~~(Col)mcr-3.11~~~MG489958:1-1626	MCR-3.11	3004500	argannot
 argannot~~~(Col)mcr-3.12~~~MG564491:1-1626	MCR-3.12	3004693	argannot
@@ -1693,9 +1692,9 @@ argannot~~~(Col)mcr-3.15~~~NG_060516:1-1623	MCR-3.15	3007252	argannot
 argannot~~~(Col)mcr-3.16~~~NG_060517:1-1623	MCR-3.16	3007260	argannot
 argannot~~~(Col)mcr-3.17~~~NG_060518:1-1623	MCR-3.17	3007278	argannot
 argannot~~~(Col)mcr-3.18~~~NG_060519:1-1623	MCR-3.18	3007263	argannot
-argannot~~~(Col)mcr-3.19~~~NG_055497:101-1726	MCR-3.29	3007272	argannot
 argannot~~~(Col)mcr-3.19~~~NG_055497:101-1726	MCR-3.23	3007256	argannot
-argannot~~~(Col)mcr-3.2~~~NG_055523:101-1726	MCR-3.2	3004511	argannot
+argannot~~~(Col)mcr-3.19~~~NG_055497:101-1726	MCR-3.29	3007272	argannot
+argannot~~~(Col)mcr-3.1~~~KY924928:161134-162759	MCR-3.1	3004139	argannot
 argannot~~~(Col)mcr-3.20~~~NG_055493:101-1726	MCR-3.20	3007266	argannot
 argannot~~~(Col)mcr-3.21~~~NG_060582:101-1726	MCR-3.21	3007262	argannot
 argannot~~~(Col)mcr-3.22~~~NG_060581:101-1726	MCR-3.22	3007259	argannot
@@ -1704,6 +1703,7 @@ argannot~~~(Col)mcr-3.24~~~NG_060580:101-1726	MCR-3.24	3007265	argannot
 argannot~~~(Col)mcr-3.25~~~NG_060585:101-1723	MCR-3.25	3007258	argannot
 argannot~~~(Col)mcr-3.27~~~NG_064790:1-1623	MCR-3.27	3007253	argannot
 argannot~~~(Col)mcr-3.29~~~NG_064791:1-1626	MCR-3.29	3007272	argannot
+argannot~~~(Col)mcr-3.2~~~NG_055523:101-1726	MCR-3.2	3004511	argannot
 argannot~~~(Col)mcr-3.3~~~NG_055783:101-1723	MCR-3.3	3004662	argannot
 argannot~~~(Col)mcr-3.4~~~NG_055492:101-1726	MCR-3.4	3004691	argannot
 argannot~~~(Col)mcr-3.5~~~MF463699:1-1626	MCR-3.5	3004505	argannot
@@ -1733,25 +1733,25 @@ argannot~~~(Fcd)fusF~~~NG_047903:101-745	FusF	3004663	argannot
 argannot~~~(Fcyn)FomA~~~NG_047879:101-901	FomA	3000423	argannot
 argannot~~~(Fcyn)FomB~~~AB016934:7389-8381	FomB	3000449	argannot
 argannot~~~(Fcyn)FomC~~~AB016934:10868-11656	tcr3	3002893	argannot
-argannot~~~(Fcyn)FosA~~~JQ343850:4619-5035	FosA3	3002872	argannot
 argannot~~~(Fcyn)FosA2~~~EU487198:217-642	FosA2	3002804	argannot
 argannot~~~(Fcyn)FosA4~~~AB908992:1-417	FosA4	3003210	argannot
 argannot~~~(Fcyn)FosA5~~~KP143090:1200-1619	fosA5	3003209	argannot
 argannot~~~(Fcyn)FosA6~~~KU254579:59422-59841	FosA6	3004111	argannot
 argannot~~~(Fcyn)FosA7~~~LAPJ01000014:36823-37245	FosA7	3004113	argannot
-argannot~~~(Fcyn)FosB~~~AHLO01000073:63139-63558	Staphylococcus aureus FosB	3004661	argannot
+argannot~~~(Fcyn)FosA~~~JQ343850:4619-5035	FosA3	3002872	argannot
 argannot~~~(Fcyn)FosB1~~~AP006717.1:122-541	FosB1	3004670	argannot
 argannot~~~(Fcyn)FosB2~~~NC_012581.1:459871-460290	FosB2	3005100	argannot
 argannot~~~(Fcyn)FosB3~~~HQ219726:386-805	FosB3	3002873	argannot
 argannot~~~(Fcyn)FosB4~~~KR870311:99-518	FosB4	3004671	argannot
 argannot~~~(Fcyn)FosB5~~~KT032253:2340-2759	FosB5	3004672	argannot
 argannot~~~(Fcyn)FosB6~~~KR870314:1-420	FosB6	3004673	argannot
-argannot~~~(Fcyn)FosC~~~Z33413:387-935	FosC	3000380	argannot
+argannot~~~(Fcyn)FosB~~~AHLO01000073:63139-63558	Staphylococcus aureus FosB	3004661	argannot
 argannot~~~(Fcyn)FosC2~~~AB522969:1-399	FosC2	3002874	argannot
+argannot~~~(Fcyn)FosC~~~Z33413:387-935	FosC	3000380	argannot
 argannot~~~(Fcyn)FosD~~~AB304512:17043-17462	FosD	3004674	argannot
 argannot~~~(Fcyn)FosK~~~AB917040:737-1135	FosK	3003207	argannot
-argannot~~~(Fcyn)FosX~~~AP010904:1708924-1709388	FosI	3007370	argannot
 argannot~~~(Fcyn)FosX_CC~~~CP014206:371999-372415	FosXCC	3003208	argannot
+argannot~~~(Fcyn)FosX~~~AP010904:1708924-1709388	FosI	3007370	argannot
 argannot~~~(Fcyn)fosBx1~~~NG_050591:101-517	FosBx1	3007372	argannot
 argannot~~~(Fcyn)fosE~~~NG_051850:101-457	FosI	3007370	argannot
 argannot~~~(Fcyn)fosF~~~NG_047894:101-499	FosK	3003207	argannot
@@ -1762,8 +1762,8 @@ argannot~~~(Flq)OqxA~~~EU370913:46652-47827	oqxA	3003922	argannot
 argannot~~~(Flq)OqxBgb~~~EU370913:47851-51003	oqxB	3003923	argannot
 argannot~~~(Flq)crpP~~~NG_062203:101-298	cmrA	3002702	argannot
 argannot~~~(Flq)norA~~~D90119:478-1644	Staphylococcus aureus norA	3004667	argannot
-argannot~~~(Flq)qepA~~~AB263754:7052-8587	QepA2	3004103	argannot
 argannot~~~(Flq)qepA2~~~EU847537:1672-3107	QepA2	3004103	argannot
+argannot~~~(Flq)qepA~~~AB263754:7052-8587	QepA2	3004103	argannot
 argannot~~~(Flq)qnr-A1~~~AY070235:303-959	QnrA1	3002707	argannot
 argannot~~~(Flq)qnr-A2~~~AY675584:1-657	QnrA2	3002708	argannot
 argannot~~~(Flq)qnr-AS~~~FM178379:1699484-1700140	QnrAS	3004668	argannot
@@ -1774,7 +1774,6 @@ argannot~~~(Flq)qnrA4~~~DQ058662:1-657	QnrA4	3002710	argannot
 argannot~~~(Flq)qnrA5~~~DQ058663:1-657	QnrA5	3002711	argannot
 argannot~~~(Flq)qnrA6~~~DQ151889:1-657	QnrA6	3002712	argannot
 argannot~~~(Flq)qnrA7~~~GQ463707:1-657	QnrA7	3002713	argannot
-argannot~~~(Flq)qnrB1~~~DQ351241:1-681	QnrB1	3002714	argannot
 argannot~~~(Flq)qnrB10~~~DQ631414:1-681	QnrB10	3002724	argannot
 argannot~~~(Flq)qnrB12~~~AM774474:2435-3079	QnrB12	3002726	argannot
 argannot~~~(Flq)qnrB13~~~EU273756:1-681	QnrB13	3002727	argannot
@@ -1783,7 +1782,7 @@ argannot~~~(Flq)qnrB15~~~EU302865:1-681	QnrB15	3002730	argannot
 argannot~~~(Flq)qnrB17~~~AM919398:1-681	QnrB17	3002732	argannot
 argannot~~~(Flq)qnrB18~~~AM919399:1-681	QnrB18	3002733	argannot
 argannot~~~(Flq)qnrB19~~~EU432277:1-645	QnrB19	3002734	argannot
-argannot~~~(Flq)qnrB2~~~DQ351242:1-645	QnrB20	3002735	argannot
+argannot~~~(Flq)qnrB1~~~DQ351241:1-681	QnrB1	3002714	argannot
 argannot~~~(Flq)qnrB20~~~AB379831:1-681	QnrB20	3002735	argannot
 argannot~~~(Flq)qnrB21~~~FJ611948:1-645	QnrB21	3002736	argannot
 argannot~~~(Flq)qnrB22~~~FJ981621:37-681	QnrB22	3002737	argannot
@@ -1794,7 +1793,7 @@ argannot~~~(Flq)qnrB26~~~HQ386846:1-681	QnrB26	3002741	argannot
 argannot~~~(Flq)qnrB27~~~HM439641:1-645	QnrB27	3002742	argannot
 argannot~~~(Flq)qnrB28~~~HM439643:1-645	QnrB28	3002743	argannot
 argannot~~~(Flq)qnrB29~~~HM439649:1-681	QnrB29	3002744	argannot
-argannot~~~(Flq)qnrB3~~~DQ303920:1-681	QnrB3	3002716	argannot
+argannot~~~(Flq)qnrB2~~~DQ351242:1-645	QnrB20	3002735	argannot
 argannot~~~(Flq)qnrB30~~~HM439650:1-681	QnrB30	3002745	argannot
 argannot~~~(Flq)qnrB31~~~HQ418999:1-681	QnrB31	3002746	argannot
 argannot~~~(Flq)qnrB32~~~JN173054:1-681	QnrB32	3002747	argannot
@@ -1804,7 +1803,7 @@ argannot~~~(Flq)qnrB35~~~JN173057:2307-2951	QnrB35	3002750	argannot
 argannot~~~(Flq)qnrB36~~~JN173058:37-681	QnrB36	3002751	argannot
 argannot~~~(Flq)qnrB37~~~JN173059:36-680	QnrB37	3002752	argannot
 argannot~~~(Flq)qnrB38~~~JN173060:2307-2951	QnrB38	3002753	argannot
-argannot~~~(Flq)qnrB4~~~DQ303921:4-648	QnrB4	3002718	argannot
+argannot~~~(Flq)qnrB3~~~DQ303920:1-681	QnrB3	3002716	argannot
 argannot~~~(Flq)qnrB40~~~JN166689:1-660	QnrB40	3002755	argannot
 argannot~~~(Flq)qnrB41~~~JN166690:1-681	QnrB41	3002756	argannot
 argannot~~~(Flq)qnrB42~~~JN680743:1-645	QnrB42	3002757	argannot
@@ -1815,18 +1814,19 @@ argannot~~~(Flq)qnrB46~~~JQ349154:1-680	QnrB62	3002775	argannot
 argannot~~~(Flq)qnrB47~~~JQ349155:1-680	QnrB62	3002775	argannot
 argannot~~~(Flq)qnrB48~~~JQ762640:37-681	QnrB48	3002763	argannot
 argannot~~~(Flq)qnrB49~~~JQ582718:1-681	QnrB49	3002764	argannot
-argannot~~~(Flq)qnrB5~~~DQ303919:1-681	QnrB5	3002719	argannot
+argannot~~~(Flq)qnrB4~~~DQ303921:4-648	QnrB4	3002718	argannot
 argannot~~~(Flq)qnrB53~~~HQ704413:1-681	QnrB46	3002761	argannot
+argannot~~~(Flq)qnrB5~~~DQ303919:1-681	QnrB5	3002719	argannot
 argannot~~~(Flq)qnrB6~~~EF520349:1-681	QnrB6	3002720	argannot
-argannot~~~(Flq)qnrB7~~~EU043311:1-645	QnrB7	3002721	argannot
 argannot~~~(Flq)qnrB72~~~KC741443:1-645	QnrB72	3002784	argannot
+argannot~~~(Flq)qnrB7~~~EU043311:1-645	QnrB7	3002721	argannot
 argannot~~~(Flq)qnrB8~~~EU043312:1-645	QnrB8	3002722	argannot
 argannot~~~(Flq)qnrB9~~~EF653270:1-648	QnrB11	3002725	argannot
 argannot~~~(Flq)qnrC~~~EU917444:1717-2382	QnrC	3002787	argannot
 argannot~~~(Flq)qnrD~~~FJ228229:554-1198	QnrD1	3002788	argannot
-argannot~~~(Flq)qnrS~~~FJ418153:1-657	QnrS4	3002793	argannot
 argannot~~~(Flq)qnrS2~~~DQ485530:1-657	QnrS2	3002791	argannot
 argannot~~~(Flq)qnrS3~~~EU077611:1-657	QnrS3	3002792	argannot
+argannot~~~(Flq)qnrS~~~FJ418153:1-657	QnrS4	3002793	argannot
 argannot~~~(Flq)qnrVC1~~~JX861889:3123-3779	QnrVC1	3002799	argannot
 argannot~~~(Flq)qnrVC4~~~JX173954:1366-2022	QnrVC4	3002801	argannot
 argannot~~~(Flq)qnrVC5~~~NC_021292:1176-1832	QnrVC5	3002802	argannot
@@ -1836,8 +1836,8 @@ argannot~~~(Fus)fusH~~~NG_047906:101-1630	fusH	3003026	argannot
 argannot~~~(Gly)VanS_Re~~~NG_051735:101-1201	vanS gene in vanO cluster	3002941	argannot
 argannot~~~(Gly)VanU~~~NG_048466:101-328	vanU gene in vanG cluster	3004253	argannot
 argannot~~~(Gly)VanY_Ng~~~NG_048515:101-691	vanY gene in vanB cluster	3002956	argannot
-argannot~~~(Gly)vanA-A~~~M97297:6979-8010	vanA	3000010	argannot
 argannot~~~(Gly)vanA-Ao2~~~HQ679900:1034-2080	vanO	3002913	argannot
+argannot~~~(Gly)vanA-A~~~M97297:6979-8010	vanA	3000010	argannot
 argannot~~~(Gly)vanA-B~~~AF192329:28835-29863	vanB	3000013	argannot
 argannot~~~(Gly)vanA-D~~~AY082011:5901-6932	vanD	3000005	argannot
 argannot~~~(Gly)vanA-G~~~AY271782:157-606	salE	3007029	argannot
@@ -1845,25 +1845,25 @@ argannot~~~(Gly)vanA-M~~~FJ349556:4857-5888	vanM	3002911	argannot
 argannot~~~(Gly)vanAE-Pp~~~AF155139:5940-6971	vanF	3002908	argannot
 argannot~~~(Gly)vanB~~~AY655710:1-1029	vanB	3000013	argannot
 argannot~~~(Gly)vanB~~~AY655711:1-1029	vanB	3000013	argannot
-argannot~~~(Gly)vanC~~~AF162694:1411-2442	vanC	3000368	argannot
 argannot~~~(Gly)vanC1~~~EU151769:31-1062	vanC	3000368	argannot
-argannot~~~(Gly)vanC2~~~L29638:33-1085	vanC	3000368	argannot
 argannot~~~(Gly)vanC2/3~~~EU151755:29-1081	vanC	3000368	argannot
+argannot~~~(Gly)vanC2~~~L29638:33-1085	vanC	3000368	argannot
 argannot~~~(Gly)vanC3~~~AY033764:26-1078	vanC	3000368	argannot
 argannot~~~(Gly)vanC4~~~EU151752:29-1081	vanC	3000368	argannot
+argannot~~~(Gly)vanC~~~AF162694:1411-2442	vanC	3000368	argannot
 argannot~~~(Gly)vanE~~~FJ872411:39736-40794	vanE	3002907	argannot
-argannot~~~(Gly)vanH~~~DQ246438:124-1179	vanH gene in vanO cluster	3002948	argannot
-argannot~~~(Gly)vanH-A~~~FJ866609:3762-4730	vanH gene in vanA cluster	3002942	argannot
 argannot~~~(Gly)vanH-Ac2~~~AY618461:1-714	vanH gene in vanO cluster	3002948	argannot
 argannot~~~(Gly)vanH-Ao1~~~AF060799:534-1580	vanH gene in vanO cluster	3002948	argannot
 argannot~~~(Gly)vanH-Ao2~~~HQ679900:1-1032	vanH gene in vanO cluster	3002948	argannot
+argannot~~~(Gly)vanH-A~~~FJ866609:3762-4730	vanH gene in vanA cluster	3002942	argannot
 argannot~~~(Gly)vanH-B~~~AF192329:27871-28842	vanH gene in vanB cluster	3002943	argannot
 argannot~~~(Gly)vanH-D~~~AY082011:4937-5908	vanH gene in vanD cluster	3002944	argannot
 argannot~~~(Gly)vanH-E~~~AF155139:4979-5947	vanH gene in vanF cluster	3002945	argannot
 argannot~~~(Gly)vanH-M~~~FJ349556:3884-4864	vanH gene in vanM cluster	3002947	argannot
-argannot~~~(Gly)vanH-Pt~~~DQ018710:5109-6077	vanH gene in vanA cluster	3002942	argannot
 argannot~~~(Gly)vanH-Pt2~~~AY926880:2771-3739	vanH gene in vanA cluster	3002942	argannot
+argannot~~~(Gly)vanH-Pt~~~DQ018710:5109-6077	vanH gene in vanA cluster	3002942	argannot
 argannot~~~(Gly)vanHA-Bc~~~Y15704:23-1054	vanA	3000010	argannot
+argannot~~~(Gly)vanH~~~DQ246438:124-1179	vanH gene in vanO cluster	3002948	argannot
 argannot~~~(Gly)vanL~~~EU250284:955-2004	vanL	3002910	argannot
 argannot~~~(Gly)vanR-A~~~M97297:3976-4671	vanR gene in vanA cluster	3002919	argannot
 argannot~~~(Gly)vanR-B~~~AY655721:69-728	vanR gene in vanB cluster	3002921	argannot
@@ -1882,27 +1882,27 @@ argannot~~~(Gly)vanS-D~~~AB242319:689-1834	vanS gene in vanD cluster	3002934	arg
 argannot~~~(Gly)vanS-F~~~AF155139:2200-3297	vanS gene in vanF cluster	3002936	argannot
 argannot~~~(Gly)vanS-L~~~EU250284:5416-6510	vanS gene in vanL cluster	3002938	argannot
 argannot~~~(Gly)vanS-M~~~FJ349556:1673-2785	vanS gene in vanM cluster	3002939	argannot
-argannot~~~(Gly)vanS-Pt~~~AY926880:1391-2551	vanS gene in vanA cluster	3002931	argannot
 argannot~~~(Gly)vanS-Pt2~~~DQ018710:3721-4881	vanS gene in vanA cluster	3002931	argannot
+argannot~~~(Gly)vanS-Pt~~~AY926880:1391-2551	vanS gene in vanA cluster	3002931	argannot
 argannot~~~(Gly)vanSc3~~~AY033764:4604-5662	vanS gene in vanC cluster	3002933	argannot
 argannot~~~(Gly)vanSc4~~~EU151753:4599-5663	vanS gene in vanC cluster	3002933	argannot
-argannot~~~(Gly)vanT~~~AF162694:3008-5104	vanT gene in vanC cluster	3002970	argannot
-argannot~~~(Gly)vanTc~~~DQ022190:1802-3898	vanT gene in vanC cluster	3002970	argannot
 argannot~~~(Gly)vanTc3~~~AY033764:1644-3746	vanT gene in vanC cluster	3002970	argannot
 argannot~~~(Gly)vanTc4~~~EU151753:1647-3749	vanT gene in vanC cluster	3002970	argannot
+argannot~~~(Gly)vanTc~~~DQ022190:1802-3898	vanT gene in vanC cluster	3002970	argannot
 argannot~~~(Gly)vanTm-L~~~EU250284:2575-3564	vanTm gene in vanL cluster	3002973	argannot
 argannot~~~(Gly)vanTr-L~~~EU250284:3558-4658	vanTr gene in vanL cluster	3002974	argannot
+argannot~~~(Gly)vanT~~~AF162694:3008-5104	vanT gene in vanC cluster	3002970	argannot
 argannot~~~(Gly)vanW-B~~~AY655721:3069-3896	vanW gene in vanB cluster	3002964	argannot
-argannot~~~(Gly)vanX-A~~~M97297:8016-8624	vanX gene in vanA cluster	3002949	argannot
 argannot~~~(Gly)vanX-Ac1~~~DQ246438:2221-2835	vanX gene in vanO cluster	3002954	argannot
 argannot~~~(Gly)vanX-Ac2~~~AY618461:1756-2316	vanX gene in vanO cluster	3002954	argannot
 argannot~~~(Gly)vanX-Ao1~~~AF060799:2604-3212	vanX gene in vanI cluster	3003725	argannot
 argannot~~~(Gly)vanX-Ao2~~~HQ679900:2070-2678	vanX gene in vanI cluster	3003725	argannot
+argannot~~~(Gly)vanX-A~~~M97297:8016-8624	vanX gene in vanA cluster	3002949	argannot
 argannot~~~(Gly)vanX-B~~~AY655721:5891-6499	vanX gene in vanB cluster	3002950	argannot
 argannot~~~(Gly)vanX-D~~~AB242319:5046-5654	vanX gene in vanD cluster	3003070	argannot
 argannot~~~(Gly)vanX-M~~~FJ349556:5894-6502	vanX gene in vanM cluster	3002953	argannot
-argannot~~~(Gly)vanX-Pt~~~DQ018710:7107-7715	vanX gene in vanA cluster	3002949	argannot
 argannot~~~(Gly)vanX-Pt2~~~AY926880:4769-5377	vanX gene in vanA cluster	3002949	argannot
+argannot~~~(Gly)vanX-Pt~~~DQ018710:7107-7715	vanX gene in vanA cluster	3002949	argannot
 argannot~~~(Gly)vanX-Sc~~~AL939117:55404-56012	vanX gene in vanI cluster	3003725	argannot
 argannot~~~(Gly)vanX-Yc~~~DQ022190:1233-1805	vanXY gene in vanC cluster	3002966	argannot
 argannot~~~(Gly)vanXE-Pp~~~AF155139:6977-7648	vanX gene in vanF cluster	3002952	argannot
@@ -1914,8 +1914,8 @@ argannot~~~(Gly)vanY-A~~~M97297:9052-9963	vanY gene in vanA cluster	3002955	arga
 argannot~~~(Gly)vanY-B~~~AY655721:2245-3051	vanY gene in vanB cluster	3002956	argannot
 argannot~~~(Gly)vanY-D~~~AB242319:1958-3025	vanY gene in vanD cluster	3002957	argannot
 argannot~~~(Gly)vanY-M~~~FJ349556:3057-3758	vanY gene in vanM cluster	3002961	argannot
-argannot~~~(Gly)vanY-Pt~~~AY926880.2|:5831-6721	vanY gene in vanA cluster	3002955	argannot
 argannot~~~(Gly)vanY-Pt2~~~DQ018711:6234-7133	vanY gene in vanA cluster	3002955	argannot
+argannot~~~(Gly)vanY-Pt~~~AY926880.2|:5831-6721	vanY gene in vanA cluster	3002955	argannot
 argannot~~~(Gly)vanYF-Pp~~~AF155139:3397-4278	vanY gene in vanF cluster	3002958	argannot
 argannot~~~(Gly)vanZ-A~~~M97297:10116-10601	vanZ gene in vanA cluster	3002962	argannot
 argannot~~~(Gly)vanZ-Pa~~~DQ018711:2047-2862	vanW gene in vanB cluster	3002964	argannot
@@ -1960,8 +1960,8 @@ argannot~~~(MLS)erm(E)~~~M11200:284-1396	ErmE	3000326	argannot
 argannot~~~(MLS)erm(F)~~~M14730:241-1041	ErmF	3000498	argannot
 argannot~~~(MLS)erm(G)~~~M15332:672-1406	ErmG	3000522	argannot
 argannot~~~(MLS)erm(H)~~~M16503:244-1143	ErmH	3002823	argannot
-argannot~~~(MLS)erm(K)~~~NG_047831:101-955	almG	3004364	argannot
 argannot~~~(MLS)erm(K)~~~NG_047831:101-955	Erm(K)	3004643	argannot
+argannot~~~(MLS)erm(K)~~~NG_047831:101-955	almG	3004364	argannot
 argannot~~~(MLS)erm(N)~~~X97721:160-1035	ErmN	3000592	argannot
 argannot~~~(MLS)erm(O)~~~M74717:40-822	Erm(O)-lrm	3004652	argannot
 argannot~~~(MLS)erm(Q)~~~L22689:262-1035	ErmQ	3000593	argannot
@@ -1970,16 +1970,16 @@ argannot~~~(MLS)erm(S)~~~M19269:460-1419	ErmS	3001304	argannot
 argannot~~~(MLS)erm(T)~~~M64090:168-902	ErmT	3000595	argannot
 argannot~~~(MLS)erm(V)~~~U59450:397-1176	ErmV	3002824	argannot
 argannot~~~(MLS)erm(W)~~~D14532:1039-1974	ErmW	3001306	argannot
-argannot~~~(MLS)erm(X)~~~M36726:296-1150	tetA(58)	3003980	argannot
 argannot~~~(MLS)erm(X)~~~M36726:296-1150	DES-1	3004780	argannot
+argannot~~~(MLS)erm(X)~~~M36726:296-1150	tetA(58)	3003980	argannot
 argannot~~~(MLS)erm(Y)~~~AB014481:556-1290	ErmY	3002825	argannot
 argannot~~~(MLS)erm(Z)~~~AM709783:2817-3665	ermZ	3004605	argannot
-argannot~~~(MLS)lin~~~NG_050599:101-1672	lin	3004651	argannot
 argannot~~~(MLS)lin(A)~~~M14039:413-898	lnuA	3002835	argannot
 argannot~~~(MLS)lin(B)~~~AJ238249:127-930	lnuB	3002836	argannot
+argannot~~~(MLS)lin~~~NG_050599:101-1672	lin	3004651	argannot
 argannot~~~(MLS)lmr(A)~~~X59926:318-1763	efpA	3003955	argannot
-argannot~~~(MLS)lmr(B)~~~X79146:27840-28679	ErmU	3001305	argannot
 argannot~~~(MLS)lmr(B)~~~X62867:361-1197	ErmU	3001305	argannot
+argannot~~~(MLS)lmr(B)~~~X79146:27840-28679	ErmU	3001305	argannot
 argannot~~~(MLS)lnu((B)~~~KC688833:1-804	lnuB	3002836	argannot
 argannot~~~(MLS)lnu(C)~~~AY928180:1150-1644	lnuC	3002837	argannot
 argannot~~~(MLS)lnu(D)~~~EF452177:19-513	lnuD	3002838	argannot
@@ -2015,8 +2015,8 @@ argannot~~~(MLS)vat(C)~~~AF015628:1307-1945	vatC	3002842	argannot
 argannot~~~(MLS)vat(D)~~~L12033:162-791	vatD	3002843	argannot
 argannot~~~(MLS)vat(E)~~~AF139725:63-707	vatE	3002844	argannot
 argannot~~~(MLS)vat(F)~~~AF170730:70-735	vatF	3003744	argannot
-argannot~~~(MLS)vga(A)~~~M90056:909-2477	vgaA	3002829	argannot
 argannot~~~(MLS)vga(A)-LC~~~DQ823382:1-1569	vgaALC	3002830	argannot
+argannot~~~(MLS)vga(A)~~~M90056:909-2477	vgaA	3002829	argannot
 argannot~~~(MLS)vga(B)~~~U82085:629-2287	vgaB	3000118	argannot
 argannot~~~(MLS)vga(D)~~~GQ205627:1394-2971	vgaD	3002832	argannot
 argannot~~~(MLS)vga(E)~~~FR772051:8741-10315	vgaE	3002833	argannot
@@ -2030,7 +2030,6 @@ argannot~~~(Ntmdz)nimD_Nitroimidazole_Gene~~~NG_048014:101-595	nimD	3007106	arga
 argannot~~~(Ntmdz)nimE_Nitroimidazole_Gene~~~NG_048015:101-613	nimE	3007107	argannot
 argannot~~~(Ntmdz)nimI_Nitroimidazole_Gene~~~NG_048016:101-619	nimI	3007111	argannot
 argannot~~~(Ntmdz)nimj_Nitroimidazole_Gene~~~KJ816753.1:19295-19792	nimJ	3007112	argannot
-argannot~~~(Oxzln)OptrA~~~KP399637:31477-33444	optrA	3003746	argannot
 argannot~~~(Oxzln)OptrA_10~~~KT601170:57297-59264	optrA	3003746	argannot
 argannot~~~(Oxzln)OptrA_11~~~KX620934:1-1968	optrA	3003746	argannot
 argannot~~~(Oxzln)OptrA_12~~~KX620936:1-1968	optrA	3003746	argannot
@@ -2047,26 +2046,25 @@ argannot~~~(Oxzln)OptrA_6~~~KY056650:9092-11059	optrA	3003746	argannot
 argannot~~~(Oxzln)OptrA_7~~~MF443388:7831-9798	optrA	3003746	argannot
 argannot~~~(Oxzln)OptrA_8~~~KU354267:3790-5757	optrA	3003746	argannot
 argannot~~~(Oxzln)OptrA_9~~~KT892063:105-2072	optrA	3003746	argannot
+argannot~~~(Oxzln)OptrA~~~KP399637:31477-33444	optrA	3003746	argannot
 argannot~~~(Oxzln)poxtA~~~MF095097:1856-3484	poxtA	3004470	argannot
 argannot~~~(Phe)bcr1~~~NG_055652:101-1309	bcr-1	3003801	argannot
-argannot~~~(Phe)cat~~~AY238971:1055-1741	Alkalihalobacillus clausii chloramphenicol acetyltransferase	3004452	argannot
 argannot~~~(Phe)cat-86~~~K00544:145-807	Bacillus pumilus cat86	3002672	argannot
 argannot~~~(Phe)cat-pC221~~~X02529:2267-2914	Staphylococcus intermedius chloramphenicol acetyltransferase	3004457	argannot
 argannot~~~(Phe)cat-pC223~~~AY355285:1000-1647	Enterococcus faecium chloramphenicol acetyltransferase	3004456	argannot
 argannot~~~(Phe)catA-St~~~NG_047581:101-763	Vibrio anguillarum chloramphenicol acetyltransferase	3004460	argannot
-argannot~~~(Phe)catA1~~~V00622:244-903	catI	3002683	argannot
 argannot~~~(Phe)catA13~~~NG_047588:101-724	Campylobacter coli chloramphenicol acetyltransferase	3004454	argannot
 argannot~~~(Phe)catA14~~~NG_047573:101-751	Vibrio anguillarum chloramphenicol acetyltransferase	3004460	argannot
+argannot~~~(Phe)catA1~~~V00622:244-903	catI	3002683	argannot
 argannot~~~(Phe)catA2~~~X53796:187-903	catII from Escherichia coli K-12	3004656	argannot
 argannot~~~(Phe)catA3~~~X07848:272-913	catIII	3002685	argannot
 argannot~~~(Phe)catA4~~~NG_047569:101-754	catA4	3004657	argannot
 argannot~~~(Phe)catA7~~~M64281:208-855	Staphylococcus intermedius chloramphenicol acetyltransferase	3004457	argannot
 argannot~~~(Phe)catA8~~~NC_009751:21916-22563	catA8	3004658	argannot
 argannot~~~(Phe)catA9~~~K01998:288-938	Streptococcus suis chloramphenicol acetyltransferase	3004455	argannot
-argannot~~~(Phe)catB~~~M93113:145-804	Clostridium butyricum catB	3002674	argannot
-argannot~~~(Phe)catB1~~~M58472:148-777	Agrobacterium fabrum chloramphenicol acetyltransferase	3004451	argannot
 argannot~~~(Phe)catB10~~~AJ878850:1197-1829	catB10	3003110	argannot
 argannot~~~(Phe)catB11~~~NG_050948:101-733	catB11	3004660	argannot
+argannot~~~(Phe)catB1~~~M58472:148-777	Agrobacterium fabrum chloramphenicol acetyltransferase	3004451	argannot
 argannot~~~(Phe)catB2~~~AF047479:5957-6589	catB2	3002675	argannot
 argannot~~~(Phe)catB3~~~AJ009818:883-1515	catB3	3002676	argannot
 argannot~~~(Phe)catB4~~~EU935739:59054-59602	catB3	3002676	argannot
@@ -2076,15 +2074,16 @@ argannot~~~(Phe)catB7~~~AF036933:177-815	Pseudomonas aeruginosa catB7	3002679	ar
 argannot~~~(Phe)catB8~~~AF227506:253-885	catB8	3002680	argannot
 argannot~~~(Phe)catB9~~~AF462019:27-656	catB9	3002681	argannot
 argannot~~~(Phe)catB_variant1~~~CP036328:71370-72002	Agrobacterium fabrum chloramphenicol acetyltransferase	3004451	argannot
+argannot~~~(Phe)catB~~~M93113:145-804	Clostridium butyricum catB	3002674	argannot
 argannot~~~(Phe)catD~~~X15100:91-729	catP	3002686	argannot
 argannot~~~(Phe)catP~~~U15027:2953-3576	catP	3002686	argannot
 argannot~~~(Phe)catQ~~~M55620:459-1118	catQ	3002687	argannot
 argannot~~~(Phe)catS~~~X74948:1-492	catS	3002688	argannot
 argannot~~~(Phe)catU~~~NG_055655:1-654	CatU	3003983	argannot
 argannot~~~(Phe)catV~~~KY753886:1-660	catV	3004357	argannot
-argannot~~~(Phe)cml~~~X59968:508-1686	Streptomyces lividans cmlR	3002690	argannot
-argannot~~~(Phe)cmlA1~~~M64556:601-1860	cmlA1	3002693	argannot
+argannot~~~(Phe)cat~~~AY238971:1055-1741	Alkalihalobacillus clausii chloramphenicol acetyltransferase	3004452	argannot
 argannot~~~(Phe)cmlA10~~~NG_047649:1-1260	cmlA4	3002694	argannot
+argannot~~~(Phe)cmlA1~~~M64556:601-1860	cmlA1	3002693	argannot
 argannot~~~(Phe)cmlA4~~~NG_047652:101-1360	cmlA4	3002694	argannot
 argannot~~~(Phe)cmlA5~~~HQ141279:907-2166	cmlA5	3002695	argannot
 argannot~~~(Phe)cmlA6~~~NG_047655:101-1360	cmlA6	3002696	argannot
@@ -2092,8 +2091,9 @@ argannot~~~(Phe)cmlA8~~~NG_051879:101-1360	cmlA8	3004665	argannot
 argannot~~~(Phe)cmlB1~~~NG_036292:776-2041	cmlB1	3002699	argannot
 argannot~~~(Phe)cmlB_variant1~~~AF034958:2642-3871	cmlB	3002698	argannot
 argannot~~~(Phe)cmlV~~~U09991:28-1338	cmlv	3002700	argannot
-argannot~~~(Phe)cmr~~~U85507:3518-4693	cmx	3002703	argannot
+argannot~~~(Phe)cml~~~X59968:508-1686	Streptomyces lividans cmlR	3002690	argannot
 argannot~~~(Phe)cmrA~~~Z12001:993-2168	Rhodococcus fascians cmr	3002701	argannot
+argannot~~~(Phe)cmr~~~U85507:3518-4693	cmx	3002703	argannot
 argannot~~~(Phe)cmxA~~~AF024666:15877-17052	cmx	3002703	argannot
 argannot~~~(Phe)cpt~~~NG_051909:101-631	lsaB	3003111	argannot
 argannot~~~(Phe)dha1~~~BA000018:2517801-2518988	cmx	3002703	argannot
@@ -2107,8 +2107,8 @@ argannot~~~(Rif)arr5~~~EF660563:393-845	arr-5	3002850	argannot
 argannot~~~(Rif)arr7~~~FN397623:1189-1641	arr-7	3002852	argannot
 argannot~~~(Rif)iri~~~U56415:280-1719	iri	3002884	argannot
 argannot~~~(Rif)rif~~~EF541029:530-2170	kdpD	3004047	argannot
-argannot~~~(Rif)rph~~~NG_048066:101-2698	rphA	3000444	argannot
 argannot~~~(Rif)rphD~~~NG_063826:1-2619	rphB	3003992	argannot
+argannot~~~(Rif)rph~~~NG_048066:101-2698	rphA	3000444	argannot
 argannot~~~(Sul)sul1~~~AF071413:6700-7539	sul1	3000410	argannot
 argannot~~~(Sul)sul2~~~EU360945:1617-2432	sul2	3000412	argannot
 argannot~~~(Sul)sul3~~~HQ875016:7396-8187	sul3	3000413	argannot
@@ -2148,10 +2148,10 @@ argannot~~~(Tet)tet(43)~~~GQ244501:60-1619	tet(43)	3000573	argannot
 argannot~~~(Tet)tet(44)~~~FN594949:25245-27167	tet(44)	3000556	argannot
 argannot~~~(Tet)tet(45)~~~NG_048147:1-1377	tet(45)	3003196	argannot
 argannot~~~(Tet)tet(H)~~~NG_048195:101-1303	tet(H)	3000175	argannot
-argannot~~~(Tet)tetA~~~JX424423:94438-95712	tet(A)	3000165	argannot
 argannot~~~(Tet)tetA-P~~~L20800:1063-2325	tetA(P)	3000180	argannot
-argannot~~~(Tet)tetB~~~AB089594:1-1206	tet(B)	3000166	argannot
+argannot~~~(Tet)tetA~~~JX424423:94438-95712	tet(A)	3000165	argannot
 argannot~~~(Tet)tetB-P~~~L20800:2309-4267	tetB(P)	3000195	argannot
+argannot~~~(Tet)tetB~~~AB089594:1-1206	tet(B)	3000166	argannot
 argannot~~~(Tet)tetC~~~EU751612:1-1191	tet(C)	3000167	argannot
 argannot~~~(Tet)tetD~~~AB089602:1521-2705	tet(D)	3000168	argannot
 argannot~~~(Tet)tetE~~~DQ366299:36-1253	tet(E)	3000173	argannot
@@ -2163,8 +2163,8 @@ argannot~~~(Tet)tetL~~~FN435329:1-1377	tet(L)	3000179	argannot
 argannot~~~(Tet)tetM~~~DQ534550:1451-3370	tet(M)	3000186	argannot
 argannot~~~(Tet)tetO~~~M18896:207-2126	tet(O)	3000190	argannot
 argannot~~~(Tet)tetQ~~~Z21523:362-2287	tet(Q)	3000191	argannot
-argannot~~~(Tet)tetR~~~HF545434:53576-54226	tetR	3003479	argannot
 argannot~~~(Tet)tetR(G)~~~S52438:113-745	tetR	3003479	argannot
+argannot~~~(Tet)tetR~~~HF545434:53576-54226	tetR	3003479	argannot
 argannot~~~(Tet)tetS~~~L09756:447-2372	tet(S)	3000192	argannot
 argannot~~~(Tet)tetT~~~L42544:478-2433	tet(T)	3000193	argannot
 argannot~~~(Tet)tetU~~~U01917:413-730	tet(U)	3004650	argannot
@@ -2180,15 +2180,15 @@ argannot~~~(Tmt)dfr22~~~AJ628423:325-822	dfr22	3005354	argannot
 argannot~~~(Tmt)dfr23~~~AJ746361:6743-7403	dfrA23	3003019	argannot
 argannot~~~(Tmt)dfr24~~~AJ972619:83-640	dfrA24	3002856	argannot
 argannot~~~(Tmt)dfr32~~~GU067642:535-1008	dfrA32	3004555	argannot
-argannot~~~(Tmt)dfrA1~~~JQ794607:474	dfrA1	3002854	argannot
 argannot~~~(Tmt)dfrA10~~~L06418:5494-6057	dfrA10	3003011	argannot
 argannot~~~(Tmt)dfrA12~~~Z21672:310-807	dfrA12	3002858	argannot
 argannot~~~(Tmt)dfrA13~~~Z50802:718-1215	dfrA13	3003012	argannot
 argannot~~~(Tmt)dfrA14~~~GU726917:72-545	dfrA14	3002859	argannot
-argannot~~~(Tmt)dfrA15~~~JN108895:93-551	dfrA15	3003013	argannot
 argannot~~~(Tmt)dfrA15b~~~AJ867237:177-650	dfrA15b	3004640	argannot
+argannot~~~(Tmt)dfrA15~~~JN108895:93-551	dfrA15	3003013	argannot
 argannot~~~(Tmt)dfrA17~~~AB126604:98-571	dfrA17	3002860	argannot
 argannot~~~(Tmt)dfrA19~~~AJ310778:7004-7573	dfrA19	3003015	argannot
+argannot~~~(Tmt)dfrA1~~~JQ794607:474	dfrA1	3002854	argannot
 argannot~~~(Tmt)dfrA20~~~AJ605332:1304-1813	dfrA20	3003016	argannot
 argannot~~~(Tmt)dfrA21~~~AY552589:1-498	dfrA21	3003017	argannot
 argannot~~~(Tmt)dfrA25~~~DQ267940:54-512	dfrA25	3003020	argannot
@@ -2196,11 +2196,11 @@ argannot~~~(Tmt)dfrA26~~~AM403715:303-854	dfrA26	3002857	argannot
 argannot~~~(Tmt)dfrA27~~~EU675686:2543-3016	dfrA27	3004550	argannot
 argannot~~~(Tmt)dfrA28~~~FM877476:116-589	dfrA28	3004551	argannot
 argannot~~~(Tmt)dfrA29~~~AM237806:615-1086	dfrA7	3002862	argannot
-argannot~~~(Tmt)dfrA3~~~J03306:103-591	dfrA3	3003105	argannot
 argannot~~~(Tmt)dfrA30~~~AM997279:705-1178	dfrA30	3004552	argannot
 argannot~~~(Tmt)dfrA31~~~AB200915:1832-2305	dfrA31	3005084	argannot
 argannot~~~(Tmt)dfrA33~~~FM957884:88-585	dfr22	3005354	argannot
 argannot~~~(Tmt)dfrA3b~~~AY162283:5616-6095	dfrA3b	3004642	argannot
+argannot~~~(Tmt)dfrA3~~~J03306:103-591	dfrA3	3003105	argannot
 argannot~~~(Tmt)dfrA5~~~X12868:1306-1779	dfrA5	3002861	argannot
 argannot~~~(Tmt)dfrA6~~~Z86002:336-809	dfrA6 from Proteus mirabilis	3004644	argannot
 argannot~~~(Tmt)dfrA8~~~U10186:711-1220	dfrA8	3002863	argannot
