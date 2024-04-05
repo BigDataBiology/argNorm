@@ -32,8 +32,8 @@ for folder in ['hamronized', 'raw']:
     run_cli_test('resfinder', 'resfinder.resfinder.reads.tsv', folder)
     run_cli_test('resfinder', 'resfinder.resfinder.orfs.tsv', folder)
 
-for db in ['argannot', 'megares', 'ncbi', 'resfinder']:
+for db in ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
     file = f'abricate.{db}.tsv'
     run_cli_test('abricate', file, 'hamronized', db=db)
-    if db != 'resfinder':
+    if not 'resfinder' in db:
         run_cli_test('abricate', file, 'raw', db=db)

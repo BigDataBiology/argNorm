@@ -34,7 +34,8 @@ def test_deeparg_normalizer(hamronized):
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder'])
+
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg'])
 def test_abricate_normalizer_hamronized(database):
     normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=True)
     input_path = f'./examples/hamronized/abricate.{database}.tsv'
@@ -58,7 +59,7 @@ def test_abricate_validation_hamronized():
     with pytest.raises(Exception):
         normalizer = argnorm.AbricateNormalizer(database='random_db', is_hamronized=True)
 
-@pytest.mark.parametrize('database', ['random_db', 'sarg'])
+@pytest.mark.parametrize('database', ['random_db', 'sarg', 'resfinderfg'])
 def test_abricate_validation_raw(database):
     with pytest.raises(Exception):
         normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=False)
