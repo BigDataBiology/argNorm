@@ -13,7 +13,7 @@ def main():
                         choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus'],
                         help='The tool you used to do ARG annotation.')
     parser.add_argument('--db', type=str,
-                        choices=['sarg', 'ncbi', 'resfinder', 'deeparg', 'megares', 'argannot'],
+                        choices=['sarg', 'ncbi', 'resfinder', 'deeparg', 'megares', 'argannot', 'resfinderfg'],
                         help='The database you used to do ARG annotation.')
     parser.add_argument('--hamronized', action='store_true', help='Use this if the input is hamronized (processed using the hAMRonization tool)')
     parser.add_argument('-i', '--input', type=str, help='The annotation result you have')

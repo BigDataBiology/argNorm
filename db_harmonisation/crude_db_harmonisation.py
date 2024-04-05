@@ -21,7 +21,7 @@ def download_file(url, ofile):
 
 def get_resfinderfg_db():
     url = 'https://raw.githubusercontent.com/RemiGSC/ResFinder_FG_Construction/606b4768433079d55f5b179219e080a45bf59dfc/output/RFG_db/ResFinder_FG.faa'
-    return download_file(url, 'dbs/resfinder_fg.faa')
+    return download_file(url, 'dbs/resfinderfg.faa')
 
 def get_ncbi_db():
     ofile = 'dbs/ncbi_amr_raw.faa'
