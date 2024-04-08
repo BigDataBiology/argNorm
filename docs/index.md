@@ -3,13 +3,13 @@
 [![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
 [![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
 ![](https://img.shields.io/badge/status-alpha-red?style=flat)
-
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/argnorm/README.html)
+[![Anaconda-Server Badge](https://anaconda.org/bioconda/argnorm/badges/platforms.svg)](https://anaconda.org/bioconda/argnorm)
+[![Anaconda-Server Badge](https://anaconda.org/bioconda/argnorm/badges/license.svg)](https://anaconda.org/bioconda/argnorm)
 
 ## What is argNorm?
 argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the
-[antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) from [CARD](https://card.mcmaster.ca/).
-
-It also enhances tables of antibiotic resistance genes by annotating with the antibiotic they target (as provided by ARO).
+[antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD. It also provides drug categorization of drugs that antibiotic resistance genes confer resistance to.
 
 ![argNorm Workflow](./images/argnorm_workflow.svg)
 
@@ -36,6 +36,11 @@ Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all
 argNorm can be installed using pip:
 ```bash
 pip install argnorm
+```
+
+argNorm can also be installed through conda:
+```
+conda install bioconda::argnorm
 ```
 
 ## Supported tools
@@ -93,7 +98,7 @@ options:
                         The file to save normalization results
 ```
 
-Here is a basic outline of calling argNorm:
+Here is a basic outline of calling argNorm.
 
 ```bash
 argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
