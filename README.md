@@ -3,7 +3,9 @@
 [![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
 [![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
 ![](https://img.shields.io/badge/status-alpha-red?style=flat)
-
+[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io/recipes/argnorm/README.html)
+[![Anaconda-Server Badge](https://anaconda.org/bioconda/argnorm/badges/platforms.svg)](https://anaconda.org/bioconda/argnorm)
+[![Anaconda-Server Badge](https://anaconda.org/bioconda/argnorm/badges/license.svg)](https://anaconda.org/bioconda/argnorm)
 
 ## What is argNorm?
 argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the
@@ -34,6 +36,11 @@ Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all
 argNorm can be installed using pip as shown.
 ```bash
 pip install argnorm
+```
+
+argNorm can also be installed through conda.
+```
+conda install bioconda::argnorm
 ```
 
 ## Supported tools
