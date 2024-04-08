@@ -33,12 +33,12 @@ Thus, `argNorm` normalizes the _output vocabulary_ of these tools by mapping all
 [![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
 
 ## Installation
-argNorm can be installed using pip as shown.
+argNorm can be installed using pip:
 ```bash
 pip install argnorm
 ```
 
-argNorm can also be installed through conda.
+argNorm can also be installed through conda:
 ```
 conda install bioconda::argnorm
 ```
@@ -98,7 +98,7 @@ options:
                         The file to save normalization results
 ```
 
-Here is a basic outline of a command using argNorm.
+Here is a basic outline of calling argNorm.
 
 ```bash
 argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
@@ -123,6 +123,8 @@ argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o outputs/hamro
 ```
 
 ### ABRicate
+
+When using abricate, it is necessary to specify the database used:
 
 #### Hamronized
 ```bash
