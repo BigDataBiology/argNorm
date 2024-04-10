@@ -1,7 +1,8 @@
 import os
 import pandas as pd
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
-from .lib import *
+from .lib import get_aro_mapping_table
+from .lib import ORIGINAL_ID_COL, MAPPING_TABLE_ARO_COL, TARGET_ARO_COL
 
 # Column headings for drug categorization output
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
