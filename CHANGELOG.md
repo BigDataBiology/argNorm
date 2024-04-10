@@ -32,3 +32,11 @@
 - Initial source code started
 - Normalizers: added BaseNormalizer, ARGSOAPNormalizer, DeepARGNormalizer, AbricateNormalizer
 - Testing: added basic ARO column test
+
+## Unreleased
+
+### argnorm.lib: Making argNorm more usable as a library 
+- A file called `lib.py` will be introduced so that users can use argNorm as a library more easily.
+- Users can import the `map_to_aro` function using `from argnorm.lib import map_to_aro`. The function takes a gene name as input, maps the gene to the ARO and returns a pronto term object with the ARO mapping.
+- The `get_aro_mapping_table` function, previously within the BaseNormalizer class, has also been moved to `lib.py` to give users the ability to access the mapping tables being used for normalization.
+- With the introduction of `lib.py`, users will be able to access core mapping utilities through `argnorm.lib`, drug categorization through `argnorm.drug_categorization`, and the traditional normalizers through `argnorm.normalizers`.
