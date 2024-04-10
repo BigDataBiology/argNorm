@@ -7,6 +7,154 @@ Original ID	Gene Name in CARD	ARO	Database
 0|MBO4175406.1|1|1|mcr-9.2|mcr-9||1|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-9.2	MCR-9.1	3004684	ncbi
 0|MBY0597968.1|1|1|entFM|entFM||1|||enterotoxin_EntFM	vanH gene in vanO cluster	3002948	ncbi
 0|NDR16746.1|1|1|sel27|sel27||1|||staphylococcal_enterotoxin_type_27	fusC	3003733	ncbi
+0|WP_000064875.1|1|1|lpxA|lpxA|mutation|2|||acyl-ACP--UDP-N-acetylglucosamine_O-acyltransferase_LpxA	catB2	3002675	ncbi
+0|WP_000159119.1|1|1|cdsA|cdsA|mutation|2|||phosphatidate_cytidylyltransferase_CdsA	MexF	3000804	ncbi
+0|WP_000161505.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	arlR	3000838	ncbi
+0|WP_000167936.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase	sul4	3004361	ncbi
+0|WP_000240700.1|1|1|lpxC|lpxC|mutation|2|||UDP-3-O-acyl-N-acetylglucosamine_deacetylase_LpxC	VAM-1	3007062	ncbi
+0|WP_000331899.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
+0|WP_000351450.1|1|1|nfsB|nfsB|mutation|2|||oxygen-insensitive_NAD(P)H_nitroreductase_NfsB	Helicobacter pylori rdxA mutation conferring resistance to metronidazole	3007055	ncbi
+0|WP_000559382.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
+0|WP_000642196.1:336:ftsI_I336IKYRI|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_000642196.1:336:ftsI_I336IPYRI|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_000642196.1:337:ftsI_N337NYRIN|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_000642196.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_000680577.1|1|1|baeR|baeR|mutation|2|||response_regulator_BaeR	smeR	3003066	ncbi
+0|WP_000697899.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	vanR gene in vanA cluster	3002919	ncbi
+0|WP_000865568.1|1|1|ompC|ompC|mutation|2|||outer_membrane_porin_C_OmpC	Klebsiella pneumoniae OmpK37	3004122	ncbi
+0|WP_000872264.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X59	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872267.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X2	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872270.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X4	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872271.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X0	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872273.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X10	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872275.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X3	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872277.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X6	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000872282.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X5	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_000888203.1|1|1|oqxR|oqxR|mutation|2|||Rrf2_family_transcriptional_regulator_OqxR	aadA3	3002603	ncbi
+0|WP_000948731.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin	3003901	ncbi
+0|WP_000977920.1|1|1|ompF|ompF|mutation|2|||outer_membrane_protein_F_OmpF	Klebsiella pneumoniae OmpK37	3004122	ncbi
+0|WP_001010111.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	norC	3007010	ncbi
+0|WP_001039998.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A1	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001040004.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A3	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001040010.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A2	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001040013.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A0	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_001118667.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	hmrM	3003953	ncbi
+0|WP_001157751.1|1|1|ompR|ompR|mutation|2|||two-component_system_response_regulator_OmpR	vanR gene in vanI cluster	3003728	ncbi
+0|WP_001181005.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	OXA-33	3001427	ncbi
+0|WP_001212189.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
+0|WP_001224867.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B0	mecA	3000617	ncbi
+0|WP_001224871.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B3	mecA	3000617	ncbi
+0|WP_001224884.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B2	mecA	3000617	ncbi
+0|WP_001224885.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B6	mecA	3000617	ncbi
+0|WP_001224886.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B4	mecA	3000617	ncbi
+0|WP_001281183.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_001281271.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_001960919.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	AAC(2')-Ia	3002523	ncbi
+0|WP_002000718.1|1|1|adeL|adeL|mutation|2|||multidrug_efflux_transcriptional_repressor_AdeL	adeL	3000620	ncbi
+0|WP_002215394.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	SHV-182	3001364	ncbi
+0|WP_002215424.1:83:rplV_K83KKGPSLK|1|1|rplV|rplV|mutation|2|||50S_ribosomal_protein_L22	mexN	3003705	ncbi
+0|WP_002215424.1:90:rplV_K90KARAK|1|1|rplV|rplV|mutation|2|||50S_ribosomal_protein_L22	mexN	3003705	ncbi
+0|WP_002215424.1|1|1|rplV|rplV|mutation|2|||50S_ribosomal_protein_L22	mexN	3003705	ncbi
+0|WP_002215445.1|1|1|rpsE|rpsE|mutation|2|||30S_ribosomal_protein_S5	CME-2	3006155	ncbi
+0|WP_002225943.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
+0|WP_002240607.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_002296175.1|1|1|eat(A)|eat(A)|mutation|2|||ABC-F_type_ribosomal_protection_protein_Eat(A)	lsaA	3000300	ncbi
+0|WP_002884747.1|1|1|lamB|lamB|mutation|2|||maltoporin_LamB	acrD	3000491	ncbi
+0|WP_002892080.1|1|1|acrR|acrR|mutation|2|||transcriptional_regulator_AcrR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
+0|WP_002912926.1:253:cirA_Y253CfsTer5ins7|1|1|cirA|cirA|mutation|2|||catecholate_siderophore_receptor_CirA	GOB-42	3005691	ncbi
+0|WP_002913005.1|1|1|ompK36|ompK36|mutation|2|||outer_membrane_porin_OmpK36	Klebsiella pneumoniae OmpK37	3004122	ncbi
+0|WP_003027598.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_003082436.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	arlR	3000838	ncbi
+0|WP_003082438.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	smeS	3003067	ncbi
+0|WP_003088626.1|1|1|mexZ|mexZ|mutation|2|||TetR_family_transcriptional_regulator_MexZ	MexZ	3003709	ncbi
+0|WP_003088694.1|1|1|cmrA|cmrA|mutation|2|||AraC_family_transcriptional_regulator_CmrA	ramA	3000823	ncbi
+0|WP_003091272.1|1|1|dacB|dacB|mutation|2|||D-alanyl-D-alanine_carboxypeptidase/D-alanyl-D-alanine-endopeptidase_DacB	OXA-288	3001743	ncbi
+0|WP_003091448.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_003092152.1|1|1|nalD|nalD|mutation|2|||efflux_system_transcriptional_repressor_NalD	nalD	3000819	ncbi
+0|WP_003093741.1|1|1|fusA1|fusA1|mutation|2|||elongation_factor_G	Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid	3003735	ncbi
+0|WP_003094037.1|1|1|colS|colS|mutation|2|||HAMP_domain-containing_sensor_histidine_kinase_colS	cprS	3005064	ncbi
+0|WP_003094039.1|1|1|colR|colR|mutation|2|||response_regulator_transcription_factor_ColR	cprR	3005063	ncbi
+0|WP_003094139.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_003094842.1|1|1|nfxB|nfxB|mutation|2|||efflux_pump_transcriptional_repressor_NfxB	Type B NfxB	3004060	ncbi
+0|WP_003095687.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	rpoB2	3000501	ncbi
+0|WP_003096258.1|1|1|amgS|amgS|mutation|2|||two-component_system_sensor_histidine_kinase_AmgS	vanS gene in vanE cluster	3002935	ncbi
+0|WP_003096330.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	Acinetobacter baumannii AbaQ	3004574	ncbi
+0|WP_003097268.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
+0|WP_003098126.1|1|1|parR|parR|mutation|2|||two-component_response_regulator_ParR	ParR	3005068	ncbi
+0|WP_003102062.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
+0|WP_003102236.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	arlR	3000838	ncbi
+0|WP_003105000.1|1|1|cprS|cprS|mutation|2|||cationic_peptide_sensor_histidine_kinase_CprS	cprS	3005064	ncbi
+0|WP_003107312.1|1|1|mexB|mexB|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_MexB	MexB	3000378	ncbi
+0|WP_003112576.1|1|1|oprD|oprD|mutation|2|||outer_membrane_porin_OprD	BES-1	3004751	ncbi
+0|WP_003112801.1|1|1|mexD|mexD|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_MexD	MexD	3000801	ncbi
+0|WP_003112844.1|1|1|ampD|ampD|mutation|2|||beta-lactamase_expression_regulator_AmpD	mtrD	3000811	ncbi
+0|WP_003112923.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
+0|WP_003113318.1|1|1|czcS|czcS|mutation|2|||sensor_histidine_kinase_czcS	basS	3003583	ncbi
+0|WP_003113589.1|1|1|parS|parS|mutation|2|||sensor_histidine_kinase_ParS	ParS	3005067	ncbi
+0|WP_003113837.1|1|1|nalC|nalC|mutation|2|||efflux_system_transcriptional_repressor_NalC	nalC	3000818	ncbi
+0|WP_003114897.1|1|1|mexR|mexR|mutation|2|||MarR_family_transcriptional_repressor_MexR	MexR	3000506	ncbi
+0|WP_003137572.1|1|1|ampR|ampR|mutation|2|||transcriptional_regulator_AmpR	NmcR	3003665	ncbi
+0|WP_003429305.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Salmonella enterica gyrA conferring resistance to fluoroquinolones	3003926	ncbi
+0|WP_003429485.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	cfrC	3004146	ncbi
+0|WP_003434229.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
+0|WP_003436174.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Staphylococcus aureus rpoB mutants conferring resistance to rifampicin	3003285	ncbi
+0|WP_003436401.1|1|1|vanR-Cd|vanR-Cd|mutation|2|||vancomycin_resistance_response_regulator_transcription_factor_VanR-G-Cd	vanR gene in vanG cluster	3002926	ncbi
+0|WP_003687357.1|1|1|ponA|ponA|mutation|2|||penicillin-binding_protein_1_PonA	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	ncbi
+0|WP_003688264.1|1|1|rpoD|rpoD|mutation|2|||RNA_polymerase_sigma_factor_RpoD	Burkholderia pseudomallei Omp38	3004123	ncbi
+0|WP_003688895.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_003690088.1|1|1|rplD|rplD|mutation|2|||50S_ribosomal_protein_L4	Erm(K)	3004643	ncbi
+0|WP_003690105.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
+0|WP_003691666.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
+0|WP_003693546.1|1|1|penA|penA|mutation|2|||penicillin-binding_protein_2_PenA	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_003702942.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	sul3	3000413	ncbi
+0|WP_003703066.1|1|1|pbp2|pbp2|susceptible|2|||penicillin-binding_protein_PBP2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_004103997.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_004105833.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
+0|WP_004140292.1|1|1|lapB|lapB|mutation|2|||lipopolysaccharide_assembly_protein_LapB	BJP-1	3000856	ncbi
+0|WP_004141771.1|1|1|ompK35|ompK35|mutation|2|||outer_membrane_porin_OmpK35	Klebsiella pneumoniae OmpK37	3004122	ncbi
+0|WP_004176968.1|1|1|ramR|ramR|mutation|2|||TetR/AcrR_family_transcriptional_regulator_RamR	AcrS	3000656	ncbi
+0|WP_004186718.1|1|1|dut|dut|mutation|2|||dUTP_diphosphatase_Dut	tet(41)	3000569	ncbi
+0|WP_004193008.1:107:yciV_DALAALG107del|1|1|yciV|yciV|mutation|2|||PHP_domain-containing_protein_YciV	MCR-10.5	3007274	ncbi
+0|WP_004193008.1|1|1|yciV|yciV|mutation|2|||PHP_domain-containing_protein_YciV	MCR-10.5	3007274	ncbi
+0|WP_004193055.1|1|1|amrR|amrR|mutation|2|||TetR_family_transcriptional_regulator_AmrR	MexZ	3003709	ncbi
+0|WP_004526226.1|1|1|bpeR|bpeR|mutation|2|||TetR_family_transcriptional_regulator_BpeR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
+0|WP_004527513.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_005119692.1|1|1|baeS|baeS|mutation|2|||two-component_system_sensor_histidine_kinase_BaeS	smeS	3003067	ncbi
+0|WP_005482017.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	AAC(2')-Ia	3002523	ncbi
+0|WP_005494728.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_006490721.1|1|1|ampD|ampD|mutation|2|||1,6-anhydro-N-acetylmuramyl-L-alanine_amidase_AmpD	vanS gene in vanP cluster	3007192	ncbi
+0|WP_006764872.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_010445819.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Escherichia coli parE conferring resistance to fluoroquinolones	3003316	ncbi
+0|WP_010895622.1|1|1|mexT|mexT|mutation|2|||LysR_substrate-binding_domain-containing_protein_MexT	MexT	3000814	ncbi
+0|WP_010951227.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	ncbi
+0|WP_011078689.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	AAC(2')-Ia	3002523	ncbi
+0|WP_011861625.1|1|1|murG|murG|mutation|2|||undecaprenyldiphospho-muramoylpentapeptide_beta-N-acetylglucosaminyltransferase_MurG	mgtA	3000462	ncbi
+0|WP_013097903.1|1|1|baeS|baeS|mutation|2|||two-component_system_sensor_histidine_kinase_BaeS	baeS	3000829	ncbi
+0|WP_013098009.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_013098723.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
+0|WP_014614750.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
+0|WP_016532398.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
+0|WP_016729515.1|1|1|mreE|mreE|mutation|2|||penicillin-binding_protein_MreE	mecB	3003440	ncbi
+0|WP_019167736.1|1|1|grlA|grlA|mutation|2|||DNA_topoisomerase_GrlA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_023312417.1|1|1|baeS|baeS|mutation|2|||two-component_system_sensor_histidine_kinase_BaeS	baeS	3000829	ncbi
+0|WP_028127742.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_031946942.1|1|1|pmrC|pmrC|mutation|2|||phosphoethanolamine--lipid_A_transferase_PmrC	eptA	3003576	ncbi
+0|WP_033707918.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X23	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_039540073.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_047924300.1|1|1|mtrR|mtrR|mutation|2|||multidrug_efflux_system_transcriptional_repressor_MtrR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
+0|WP_050078510.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A11	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_050171206.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Morganella morganii gyrB conferring resistance to fluoroquinolones	3003306	ncbi
+0|WP_050208712.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A12	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_050293540.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X27	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_054364452.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X12	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_054370471.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A9	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
+0|WP_061634854.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B5	mecA	3000617	ncbi
+0|WP_061745305.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X17	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
+0|WP_070676928.1|1|1|pbp5|pbp5|mutation|2|||penicillin-binding_protein_5	mecA	3000617	ncbi
+0|WP_077233793.1|1|1|amrR|amrR|mutation|2|||TetR_family_transcriptional_regulator_AmrR	MexZ	3003709	ncbi
+0|WP_089631889.1|1|1|nfsA|nfsA|mutation|2|||nitroreductase_NfsA	MCR-6.1	3004501	ncbi
+0|WP_103263503.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+0|WP_106333382.1|1|1|porB1b|porB1b|mutation|2|||major_outer_membrane_protein_porin_P.IB	Burkholderia pseudomallei Omp38	3004123	ncbi
 1000903631|WP_061154665.1|1|1|blaLEN-42|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-42	LEN-42	3004845	ncbi
 1000909371|WP_061158039.1|1|1|blaTEM-156|blaTEM|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_TEM-156	TEM-156	3001022	ncbi
 1001043515|WP_061189306.1|1|1|blaPDC-114|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-114	PDC-114	3006492	ncbi
@@ -23,6 +171,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1005295249|WP_061586512.1|1|1|qnrE1|qnrE||2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrE1	qnrE1	3004636	ncbi
 1005563843|WP_061659705.1|1|1|blaTEM-95|blaTEM|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_TEM-95	TEM-95	3000962	ncbi
 1005757004|WP_061710074.1|1|1|blaRAA-1|blaRAA|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_beta-lactamase_RAA-1	CGA-1	3004766	ncbi
+1011600567|WP_002389492.1|1|1|gshF|gshF|mutation|2|||bifunctional_glutamate--cysteine_ligase/glutathione_synthetase_GshF	vanG	3002909	ncbi
 1011934720|WP_062743204.1|1|1|blaERP-1|blaERP|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_ERP-1	ERP-1	3004782	ncbi
 1011965783|WP_062771895.1|1|1|blaDHA-22|blaDHA|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_DHA-22	DHA-22	3002153	ncbi
 1014394093|KYU89760.1|1|1|subB|subB||1|||subtilase_AB5_cytotoxin_subunit_B	OXA-280	3001735	ncbi
@@ -2515,6 +2664,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1189821114|WP_085844237.1|1|1|aac(6')-Ib-W104R|aac(6')-Ib-W104R|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib-cr5	3005115	ncbi
 119376664|ABL71428.1|1|1|aac(3)-Ih|aac(3)-Ih|acetyltransferase|1|GENTAMICIN|AMINOGLYCOSIDE|aminoglycoside_N-acetyltransferase_AAC(3)-Ih	AAC(3)-Id	3002529	ncbi
 1196706|AAA88371.1|1|1|merE|merE||1|MERCURY|MERCURY|broad-spectrum_mercury_transporter_MerE	cmrA	3002702	ncbi
+1196722489|WP_086259262.1|1|1|acrB|acrB|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_AcrB	acrB	3000216	ncbi
 1196803955|WP_086261538.1|1|1|blaOXA-939|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-939	OXA-939	3006119	ncbi
 1196805405|WP_086262823.1|1|1|blaADC-237|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-237	ADC-237	3006406	ncbi
 1196806141|WP_086263559.1|1|1|blaOXA-938|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-938	OXA-938	3006118	ncbi
@@ -2670,6 +2820,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1236136932|WP_094935119.1|1|1|blaACT-57|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-57	ACT-57	3006252	ncbi
 1236159821|WP_094954583.1|1|1|blaPDC-457|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-457	PDC-457	3006824	ncbi
 1236170439|WP_094963248.1|1|1|aadA31|aadA31|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA31	aadA14	3002614	ncbi
+1236597042|WP_094970923.1|1|1|basR|basR|mutation|2|||two-component_system_response_regulator_BasR	arlR	3000838	ncbi
 1237115|AAA93060.1|1|1|arsD|arsD||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD	ANT(3'')-IIb	3004090	ncbi
 12407853|AAG53662.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
 124106613|BAF45432.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
@@ -2780,6 +2931,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1325763172|WP_101663562.1|1|1|blaOXA-1224|blaOXA-213_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-213_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1224	OXA-943	3006123	ncbi
 13259568|AAK16940.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA	IND-5	3002261	ncbi
 13272483|AAK17180.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE	APH(3'')-Ib	3002639	ncbi
+1327477942|WP_101982161.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
 1330019300|WP_102272729.1|1|1|fosM1|fosM1|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_protein_FosM1	FosM1	3007097	ncbi
 13310620|AAK18444.1|1|1|ipaD|ipaD||1|||type_III_secretion_system_needle_tip_complex_protein_IpaD	PEDO-3	3003715	ncbi
 1331531441|WP_102607451.1|1|1|blaCTX-M-191|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-191	CTX-M-191	3005614	ncbi
@@ -3087,6 +3239,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1408841641|WP_111672914.1|1|1|blaVIM-57|blaVIM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_VIM-57	VIM-57	3005505	ncbi
 1409027050|WP_111690897.1|1|1|cfr(B)|cfr(B)|target_modification|2|CHLORAMPHENICOL/CLINDAMYCIN/LINEZOLID/RETAPAMULIN/STREPTOGRAMIN_B/VIRGINIAMYCIN|PHENICOL/LINCOSAMIDE/OXAZOLIDINONE/PLEUROMUTILIN/STREPTOGRAMIN|23S_rRNA_(adenine(2503)-C(8))-methyltransferase_Cfr(B)	clcD	3004599	ncbi
 1409027051|WP_111690898.1|1|1|cfr(C)|cfr(C)|target_modification|2|CHLORAMPHENICOL/CLINDAMYCIN/FLORFENICOL/LINEZOLID/STREPTOGRAMIN/TIAMULIN|PHENICOL/LINCOSAMIDE/OXAZOLIDINONE/PLEUROMUTILIN/STREPTOGRAMIN|23S_rRNA_(adenine(2503)-C(8))-methyltransferase_Cfr(C)	cfrE	3005023	ncbi
+1409065054|WP_111724484.1|1|1|mprF|mprF|mutation|2|||bifunctional_lysylphosphatidylglycerol_flippase/synthetase	Bacillus subtilis mprF	3003324	ncbi
 1409436280|WP_111772163.1|1|1|blaVIM-58|blaVIM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_VIM-58	VIM-58	3005506	ncbi
 14209682|AAK56853.1|1|1|chrR_I|chrR_I||1|CHROMATE|CHROMATE|class_I_chromate_reductase_ChrR	SPS-1	3006997	ncbi
 1422049129|AXB64454.1|1|1|vanR-Cd|vanR-Cd|re-structuring_of_the_cell_wall|1|VANCOMYCIN|GLYCOPEPTIDE|vancomycin_resistance_response_regulator_transcription_factor_VanR-G-Cd	vanR gene in vanG cluster	3002926	ncbi
@@ -3114,6 +3267,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1433356710|WP_114259520.1|1|1|blaADC-258|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-258	ADC-96	3006453	ncbi
 1433370827|WP_114268491.1|1|1|blaOXA-926|blaOXA-PR|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_D_beta-lactamase_OXA-926	OXA-926	3005323	ncbi
 1433373424|WP_114270086.1|1|1|blaADC-289|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-289	ADC-131	3006306	ncbi
+1433476833|RCV70079.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi
 1433905230|WP_114272532.1|1|1|blaOXA-727|blaOXA-727_fam|hydrolase|2|||OXA-727_family_class_D_beta-lactamase_OXA-727	OXA-727	3005932	ncbi
 1434725489|WP_114429521.1|1|1|mcr-1.37|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.37	MCR-1.1	3003689	ncbi
 1434819014|WP_114473955.1|1|1|fosA9|fosA5_fam|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosA9	fosA5	3003209	ncbi
@@ -3141,6 +3295,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1440786796|WP_114699284.1|1|1|blaCTX-M-221|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-221	CTX-M-221	3005644	ncbi
 1442358727|WP_114999921.1|1|1|blaEBR-4|blaEBR|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_EBR-4	EBR-4	3005462	ncbi
 1442602489|WP_115196748.1|1|1|blaSHV-210|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_SHV-210	SHV-210	3005225	ncbi
+1442954517|WP_115256011.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 1443839733|WP_115421099.1|1|1|cml_Ensi|cml_Ensi|efflux|2|CHLORAMPHENICOL|PHENICOL|Cml_family_chloramphenicol_efflux_MFS_transporter	cmlA9	3005043	ncbi
 1444191666|WP_115434994.1|1|1|blaADC-284|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-284	ADC-156	3006330	ncbi
 1444647619|WP_115470049.1|1|1|blaKPC-40|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|inhibitor-resistant_carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-40	KPC-40	3005372	ncbi
@@ -3173,6 +3328,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1463920497|WP_116786839.1|1|1|blaIMP-79|blaIMP|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_IMP-79	IMP-79	3005484	ncbi
 146519|AAA24032.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
 146525|AAA24035.1|1|1|faeG|faeG||1|||F4_(K88)_fimbria_major_subunit/adhesin_FaeG	CTX-M-34	3001896	ncbi
+1467848013|WP_117036963.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 1467867599|WP_117044474.1|1|1|aac(6')-Ib-G|aac(6')-Ib-G|acetyltransferase|2|GENTAMICIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib4	3002577	ncbi
 1467873767|WP_117046752.1|1|1|aac(6')-Ib-W104R|aac(6')-Ib-W104R|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib-cr5	3005115	ncbi
 1467917460|WP_117062210.1|1|1|blaSHV-116|blaSHV|hydrolase|2|||class_A_beta-lactamase_SHV-116	SHV-116	3001165	ncbi
@@ -3343,6 +3499,7 @@ Original ID	Gene Name in CARD	ARO	Database
 151181|AAA25803.1|1|1|copR|copR||1|COPPER|COPPER|heavy_metal_response_regulator_transcription_factor_CopR	arlR	3000838	ncbi
 151182|AAA25804.1|1|1|copS|copS||1|COPPER|COPPER|copper_resistance_membrane_spanning_protein_CopS	baeS	3000829	ncbi
 1511855320|WP_123085936.1|1|1|aac(6')-Ib-AKT|aac(6')-Ib-AKT|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ib_family_aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ib3	3002576	ncbi
+1511861430|WP_123090655.1|1|1|pbp4|pbp4|mutation|2|||D-alanyl-D-alanine_carboxypeptidase	ARL-5	3004738	ncbi
 151188|AAA25806.1|1|1|multi_CopA|multi_CopA||1|COPPER|COPPER|laccase-like_oxidase_CopA	LRA-19	3002513	ncbi
 151189|AAA25807.1|1|1|bind_CopB|bind_CopB||1|COPPER|COPPER|copper-binding_protein_CopB	MexF	3000804	ncbi
 151190|AAA25808.1|1|1|copC_Psyr|copC_Psyr||1|COPPER|COPPER|copper_homeostasis_periplasmic_binding_protein_CopC	CBP-1	3004764	ncbi
@@ -3500,6 +3657,9 @@ Original ID	Gene Name in CARD	ARO	Database
 1604908335|WP_134696937.1|1|1|blaOXA-1153|blaOXA-PR|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_D_beta-lactamase_OXA-1153	OXA-12	3001407	ncbi
 1609427440|WP_135350920.1|1|1|blaGES-41|blaGES|hydrolase|2|||carbapenem-hydrolyzing_class_A_beta-lactamase_GES-41	GES-41	3006170	ncbi
 16118479|AAL14441.1|1|1|adeC|adeC|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_AdeABC_outer_membrane_channel_subunit_AdeC	adeC	3003811	ncbi
+16128448|WP_000101737.1|1|1|acrR|acrR|mutation|2|||transcriptional_regulator_AcrR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
+16131218|WP_000031783.1|1|1|tufA|tufA|mutation|2|||translation_elongation_factor_EF-Tu_1	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin	3003369	ncbi
+16131888|WP_000019358.1|1|1|soxS|soxS|mutation|2|||regulatory_protein_SoxS	Escherichia coli soxS with mutation conferring antibiotic resistance	3003511	ncbi
 161511882|CAP17609.1|1|1|stxA2l|stxA2l||1|STX2L|STX2|Shiga_toxin_Stx2l_subunit_A	msrE	3003109	ncbi
 161511883|CAP17610.1|1|1|stxB2l|stxB2l||1|STX2L|STX2|Shiga_toxin_Stx2l_subunit_B	IMP-41	3002232	ncbi
 1620969597|WP_136026639.1|1|1|blaLEN-39|blaLEN|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_LEN-39	LEN-39	3004842	ncbi
@@ -3570,6 +3730,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1625655435|WP_136512112.1|1|1|mcr-3.29|mcr-3||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-3.29	MCR-3.29	3007272	ncbi
 1632730106|WP_136828312.1|1|1|blaPDC-528|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-528	PDC-223	3006603	ncbi
 1635420641|WP_137138291.1|1|1|blaKBL-1|blaKBL|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_KBL-1	KBL-1	3007206	ncbi
+1635689237|WP_137277832.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 16418852|AAL19305.1|1|1|mdsB|mdsB|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_permease_subunit_MdsB	mdsB	3000790	ncbi
 16418853|AAL19306.1|1|1|mdsA|mdsA|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_MdsA	mdsA	3000789	ncbi
 16418854|AAL19307.1|1|1|golT|golT||1|COPPER/GOLD|COPPER/GOLD|gold/copper-translocating_P-type_ATPase_GolT	CfxA6	3003097	ncbi
@@ -3581,6 +3742,7 @@ Original ID	Gene Name in CARD	ARO	Database
 164457616|BAF96525.1|1|1|espJ|espJ||1|||type_III_secretion_system_effector_ADP-ribosyltransferase_EspJ	TEM-184	3001375	ncbi
 164457631|BAF96538.1|1|1|nleB2|nleB2||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB2	vanH gene in vanO cluster	3002948	ncbi
 16502954|CAD02120.1|1|1|cdtB_Salmo|cdtB_Salmo||1|||cytolethal_distending_toxin_S-CDT	ICR-Mo	3004569	ncbi
+16505254|WP_000412686.1|1|1|soxR|soxR|mutation|2|||redox-sensitive_transcriptional_activator_SoxR	Escherichia coli soxR with mutation conferring antibiotic resistance	3003381	ncbi
 1653494|BAA18407.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase	FosC2	3002874	ncbi
 16565696|AAL26283.1|1|1|saa|saa||1|||autoagglutinating_adhesin_Saa	FIA-1	3006887	ncbi
 1657263|CAA65654.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	tet(36)	3000197	ncbi
@@ -3589,6 +3751,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1669863|AAC45964.1|1|1|stxA2e|stxA2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_A	msrE	3003109	ncbi
 1669864|AAC45965.1|1|1|stxB2e|stxB2e||1|STX2E|STX2|Shiga_toxin_Stx2e_subunit_B	ADC-99	3006456	ncbi
 1674381287|WP_138403314.1|1|1|blaPDC-322|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_class_C_beta-lactamase_PDC-322	PDC-322	3006693	ncbi
+16767515|WP_000019483.1|1|1|soxS|soxS|mutation|2|||regulatory_protein_SoxS	Escherichia coli soxS with mutation conferring antibiotic resistance	3003511	ncbi
 168831012|ACA34793.1|1|1|tsh|tsh||1|||temperature-sensitive_protease_autotransporter_hemagglutinin_Tsh	Staphylococcus aureus mupB conferring resistance to mupirocin	3000510	ncbi
 168986458|BAG11995.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
 168986462|BAG11997.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
@@ -3888,8 +4051,10 @@ Original ID	Gene Name in CARD	ARO	Database
 1788757044|QHA94809.1|1|1|narB|narB||1|MADURAMICIN/NARASIN/SALINOMYCIN|IONOPHORE|ionophore_ABC_transporter_permease_subunit_NarB	OXA-627	3005848	ncbi
 1789117579|WP_158208806.1|1|1|blaKPC-52|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-52	KPC-52	3005381	ncbi
 1789119030|WP_158208923.1|1|1|blaKPC-51|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-51	KPC-51	3005380	ncbi
+1789396|WP_001281881.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
 1789666|AAC76298.1|1|1|acrF|acrF|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_permease_subunit_AcrF	AcrF	3000502	ncbi
 1789970593|WP_158386862.1|1|1|blaCAE-1|blaCAE|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_CAE-1	PAU-1	3006964	ncbi
+1790498|WP_000412428.1|1|1|soxR|soxR|mutation|2|||redox-sensitive_transcriptional_activator_SoxR	Escherichia coli soxR with mutation conferring antibiotic resistance	3003381	ncbi
 1790593|AAC77110.1|1|1|blaEC|blaEC|hydrolase|1|BETA-LACTAM|BETA-LACTAM|BlaEC_family_class_C_beta-lactamase	Escherichia coli ampC beta-lactamase	3004290	ncbi
 1790794|AAC77293.1|1|1|mdtM|mdtM||1|EFFLUX|EFFLUX|multidrug_efflux_MFS_transporter_MdtM	mdtM	3001214	ncbi
 1797117818|WP_159108984.1|1|1|blaGOB-52|blaGOB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_GOB-52	GOB-21	3005670	ncbi
@@ -4201,6 +4366,7 @@ Original ID	Gene Name in CARD	ARO	Database
 1963021720|WP_202089433.1|1|1|blaPER-16|blaPER|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_PER-16	PER-16	3006137	ncbi
 1966320739|WP_202272142.1|1|1|blaCHM-1|blaCHM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_CHM-1	MYO-1	3006954	ncbi
 1969375088|WP_202781289.1|1|1|blaKPC-82|blaKPC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_KPC-82	KPC-82	3006207	ncbi
+197212833|WP_000113609.1|1|1|ramR|ramR|mutation|2|||TetR/AcrR_family_transcriptional_regulator_RamR	MexL	3003710	ncbi
 1988761213|WP_204313008.1|1|1|tet(O/W)|tet(O/W)||2|TETRACYCLINE|TETRACYCLINE|tetracycline_resistance_ribosomal_protection_mosaic_protein_Tet(O/W)	tet(O/W)	3007121	ncbi
 1988761216|WP_204313011.1|1|1|tet(W/32/O)|tet(W/32/O)||2|TETRACYCLINE|TETRACYCLINE|tetracycline_resistance_ribosomal_protection_mosaic_protein_Tet(W/32/O)	tet(O/W/32/O)	3007122	ncbi
 1992386351|WP_204376219.1|1|1|dfrA25|dfrA25|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA25	dfrA29	3004554	ncbi
@@ -4473,6 +4639,8 @@ Original ID	Gene Name in CARD	ARO	Database
 218363970|CAR01635.1|1|1|vac_auto|vac_auto||1|||vacuolating_autotransporter_toxin_Vat	rmtC	3000861	ncbi
 218428771|CAR09712.2|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	tva(A)	3004730	ncbi
 218431740|CAR12622.1|1|1|iss|iss||1|||increased_serum_survival_lipoprotein_Iss	tet(E)	3000173	ncbi
+218562643|WP_002857904.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+218563288|WP_002851214.1|1|1|50S_L22|50S_L22|mutation|2|||50S_ribosomal_protein_L22	ANA-1	3006896	ncbi
 218921798|CAW30799.1|1|1|afaC|afaC||1|||AfaC-I/III_family_usher_protein	CARB-49	3005583	ncbi
 218921813|CAW30811.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE	APH(3'')-Ib	3002639	ncbi
 218921818|CAW30815.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE	APH(3'')-Ib	3002639	ncbi
@@ -4872,6 +5040,7 @@ Original ID	Gene Name in CARD	ARO	Database
 2457337591|WP_275573817.1|1|1|blaOXA-1215|blaOXA-286_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-286_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-1215	OXA-286	3001741	ncbi
 2460903379|WP_275802705.1|1|1|blaPDC-547|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-547	PDC-16	3006538	ncbi
 2465782|AAC45719.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	VIM-57	3005505	ncbi
+2465785|AAC45722.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 2487040336|WP_279240765.1|1|1|blaACT-113|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-113	ACT-70	3006265	ncbi
 2487040366|WP_279240766.1|1|1|blaACT-117|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-117	ACT-54	3006249	ncbi
 2487040369|WP_279240767.1|1|1|blaACT-118|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-118	ACT-29	3001849	ncbi
@@ -4960,6 +5129,7 @@ Original ID	Gene Name in CARD	ARO	Database
 2533492874|WP_290468365.1|1|1|blaPSZ-1|blaPSZ|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_C_beta-lactamase_PSZ-1	Escherichia coli ampC beta-lactamase	3004290	ncbi
 2533492875|WP_290468366.1|1|1|mcr-1.35|mcr-1||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-1.35	MCR-1.1	3003689	ncbi
 253721159|ACT33468.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	MCR-4.5	3004697	ncbi
+253721162|ACT33471.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 254593030|ACT72391.1|1|1|tccP|tccP||1|||Tir-cytoskeleton_coupling_protein_TccP	mtrC	3000810	ncbi
 254692351|CAR47993.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA	ErmG	3000522	ncbi
 254692367|CAR48009.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB	CTX-M-114	3001974	ncbi
@@ -5129,6 +5299,7 @@ Original ID	Gene Name in CARD	ARO	Database
 2665524|AAB88410.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	ACT-53	3006248	ncbi
 2696712|BAA24008.1|1|1|lukF-PV|lukF-PV||1|||Panton-Valentine_bi-component_leukocidin_subunit_F	KHM-1	3000847	ncbi
 27549252|AAO17297.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA	rphB	3003992	ncbi
+2765303|CAA73667.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi
 2808454|CAA50789.1|1|1|cshE|cshE||1|||CS13_fimbrial_major_subunit_CshE	ACT-9	3001826	ncbi
 281600803|ADA73787.1|1|1|ipaH3|ipaH3||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH3	QnrB1	3002714	ncbi
 281601418|ADA74402.1|1|1|ipaH4|ipaH4||1|||T3SS_effector_E3_ubiquitin-protein_ligase_IpaH4/H7	CfxA5	3003096	ncbi
@@ -5157,6 +5328,7 @@ Original ID	Gene Name in CARD	ARO	Database
 2879919|BAA24822.1|1|1|arsA|arsA||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_ATPase_subunit_ArsA	APH(3')-IIa	3002644	ncbi
 2879921|BAA24824.1|1|1|arsC_gluta|arsC_gluta||1|ARSENATE|ARSENIC|glutaredoxin-dependent_arsenate_reductase	Bifidobacterium bifidum ileS conferring resistance to mupirocin	3003730	ncbi
 290422|AAA20885.1|1|1|astA|astA||1|||heat-stable_enterotoxin_EAST1	OXA-198	3001805	ncbi
+290430|AAA23736.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 290760718|ADD54679.1|1|1|espX1|espX1||1|||type_III_secretion_system_effector_EspX1	QnrC	3002787	ncbi
 290764911|ADD58872.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF	AQU-2	3004647	ncbi
 290764920|ADD58881.1|1|1|gamma-1|gamma-1||1|GAMMA|INTIMIN|intimin_type_gamma	PST-2	3006977	ncbi
@@ -5167,6 +5339,9 @@ Original ID	Gene Name in CARD	ARO	Database
 29293006|AAO73846.1|1|1|fotA|fotA||1|||CS18_fimbrial_major_subunit_FotA	MexJ	3003692	ncbi
 293329995|BAJ04486.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
 293330000|BAJ04488.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
+29342129|WP_002356022.1|1|1|yybT|yybT|mutation|2|||cyclic_dinucleotide_phosphodiesterase_YybT	SAT-3	3002898	ncbi
+29344842|WP_002355137.1|1|1|liaR|liaR|mutation|2|||response_regulator_transcription_factor_LiaR	evgA	3000832	ncbi
+29344843|WP_002365182.1|1|1|liaS|liaS|mutation|2|||sensor_histidine_kinase_LiaS	basS	3003583	ncbi
 2944141|AAC38219.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP	sul4	3004361	ncbi
 2944142|AAC38220.1|1|1|merA|merA||1|MERCURY|MERCURY|mercury(II)_reductase	blaF	3003562	ncbi
 2944143|AAC38221.1|1|1|merD|merD||1|MERCURY|MERCURY|mercury_resistance_co-regulator_MerD	Pseudomonas aeruginosa soxR	3004107	ncbi
@@ -5239,6 +5414,7 @@ Original ID	Gene Name in CARD	ARO	Database
 325667861|ADZ44504.1|1|1|arsR_pYV|arsR_pYV||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR	tet(43)	3000573	ncbi
 325699397|ADZ45128.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA	vanX gene in vanM cluster	3002953	ncbi
 326941472|AEA17368.1|1|1|plcA|plcA||1|||phosphatidylinositol_diacylglycerol-lyase	tet(32)	3000196	ncbi
+327534217|WP_002413481.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	OpmD	3000809	ncbi
 32815823|AAP88295.1|1|1|multi_CopA|multi_CopA||1|COPPER|COPPER|laccase-like_oxidase_CopA	PEDO-2	3003714	ncbi
 328886076|CCA59315.1|1|1|helR|helR||1|RIFAMYCIN|RIFAMYCIN|RNA_polymerase_recycling_motor_ATPase_HelR	HelR	3007208	ncbi
 330847159|AEC46567.1|1|1|multi_CopA|multi_CopA||1|COPPER|COPPER|laccase-like_oxidase_CopA	AER-1	3002481	ncbi
@@ -5303,6 +5479,8 @@ Original ID	Gene Name in CARD	ARO	Database
 38636519|CAD87835.1|1|1|stb|stb||1|||heat-stable_enterotoxin_ST-II	OXA-542	3005768	ncbi
 3868983|BAA34299.1|1|1|mexX|mexX|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_MexX	mexX	3003034	ncbi
 388383013|EIL44824.1|1|1|sfaF|sfaF||1|||S/F1C_fimbrial_biogenesis_usher_protein_SfaF/FocD	msbA	3003950	ncbi
+388533369|WP_002289154.1|1|1|liaS|liaS|mutation|2|||sensor_histidine_kinase_LiaS	evgS	3000833	ncbi
+388533370|WP_002289153.1|1|1|liaR|liaR|mutation|2|||response_regulator_transcription_factor_LiaR	evgA	3000832	ncbi
 392336447|AFM70729.1|1|1|copA_Ehir|copA_Ehir||1|COPPER|COPPER|copper-translocating_P-type_ATPase_CopA	mdtF	3000796	ncbi
 392336448|AFM70730.1|1|1|copB_Ehir|copB_Ehir||1|COPPER/SILVER|COPPER/SILVER|copper/silver-translocating_P-type_ATPase_CopB	tetR	3003479	ncbi
 3941400|AAC82360.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	VAM-1	3007062	ncbi
@@ -5324,6 +5502,7 @@ Original ID	Gene Name in CARD	ARO	Database
 410825131|AFV91339.1|1|1|bont_E9|bont_E9||1|||botulinum_neurotoxin_subtype_E9	ErmB	3000375	ncbi
 4115576|BAA36431.1|1|1|merR_Ps|merR_Ps||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR	golS	3000504	ncbi
 4115578|BAA36433.1|1|1|merD|merD||1|MERCURY|MERCURY|mercury_resistance_co-regulator_MerD	golS	3000504	ncbi
+41157|CAA34816.1|1|1|cstB|cstB||1|||CS3_fimbrial_usher_protein_CstB	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	ncbi
 41176|CAA40744.1|1|1|mchF|mchF||1|||microcin_H47_export_transporter_peptidase/ATP-binding_subunit_MchF	novA	3002522	ncbi
 41179|CAA40746.1|1|1|cvaC|cvaC||1|||colicin_V	Klebsiella pneumoniae KpnE	3004580	ncbi
 41453|CAA32535.1|1|1|fim41a|fim41a||1|||fimbrial_adhesin_F41_protein_Fim41a	smeB	3003052	ncbi
@@ -5364,6 +5543,7 @@ Original ID	Gene Name in CARD	ARO	Database
 4335904|AAD17509.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	3004480	ncbi
 4335906|AAD17510.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	APH(3')-IXa	3004087	ncbi
 4335908|AAD17511.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin	CIA-1	3004768	ncbi
+4335916|AAD17515.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 436946|AAA18786.1|1|1|cdtB_II|cdtB_II||1|||cytolethal_distending_toxin_type_II_nuclease_subunit_CdtB	AAC(6')-Iaf	3002574	ncbi
 43715|CAA77320.1|1|1|merR_Ps|merR_Ps||1|MERCURY|MERCURY|mercury_resistance_transcriptional_regulator_MerR	golS	3000504	ncbi
 43719|CAA77324.1|1|1|merD|merD||1|MERCURY|MERCURY|mercury_resistance_co-regulator_MerD	Pseudomonas aeruginosa soxR	3004107	ncbi
@@ -5389,38 +5569,49 @@ Original ID	Gene Name in CARD	ARO	Database
 445974657|WP_000052512.1|1|1|msr(E)|msr(E)|target_protection|2|AZITHROMYCIN/ERYTHROMYCIN/STREPTOGRAMIN|MACROLIDE/STREPTOGRAMIN|ABC-F_type_ribosomal_protection_protein_Msr(E)	msrE	3003109	ncbi
 445976889|WP_000054744.1|1|1|satA_Bant|satA_Bant|acetyltransferase|2|STREPTOTHRICIN|STREPTOTHRICIN|streptothricin_N-acetyltransferase_SatA	SatA	3005045	ncbi
 445989413|WP_000067268.1|1|1|ant(9)-Ia|ant(9)-Ia|nucleotidyltransferase|2|SPECTINOMYCIN|AMINOGLYCOSIDE|aminoglycoside_nucleotidyltransferase_ANT(9)-Ia	ANT(9)-Ia	3002630	ncbi
+445994192|WP_000072047.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
+446012460|WP_000090315.1|1|1|fusA|fusA|mutation|2|||elongation_factor_G	tet(T)	3000193	ncbi
 446017870|WP_000095725.1|1|1|cmlA1|cmlA1|efflux|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_efflux_MFS_transporter_CmlA1	cmlA1	3002693	ncbi
+446038595|WP_000116450.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 446039051|WP_000116906.1|1|1|aph(6)-Ic|aph(6)-Ic|phosphotransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-phosphotransferase_APH(6)-Ic	APH(6)-Ic	3002659	ncbi
 446043279|WP_000121134.1|1|1|qacH_Lis|qacH_Lis|efflux|2|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|quaternary_ammonium_compound_efflux_SMR_transporter_QacH	qacG	3007015	ncbi
 446054031|WP_000131886.1|1|1|aac(3)-VIa|aac(3)-VIa|acetyltransferase|2|GENTAMICIN|AMINOGLYCOSIDE|aminoglycoside_N-acetyltransferase_AAC(3)-VIa	AAC(3)-VIa	3002540	ncbi
 446054080|WP_000131935.1|1|1|ble_Tn5|ble_Tn5|sequestration|2|BLEOMYCIN|BLEOMYCIN|bleomycin_binding_protein_BLMT	BLMT	3005036	ncbi
+446060493|WP_000138348.1|1|1|pbp2|pbp2|mutation|2|||penicillin-binding_protein	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
 446065831|WP_000143686.1|1|1|catA8|catA8|acetyltransferase|2|CHLORAMPHENICOL|PHENICOL|type_A-8_chloramphenicol_O-acetyltransferase	Enterococcus faecium chloramphenicol acetyltransferase	3004456	ncbi
 446077237|WP_000155092.1|1|1|mph(E)|mph(E)|phosphotransferase|2|ERYTHROMYCIN|MACROLIDE|Mph(E)_family_macrolide_2'-phosphotransferase	mphE	3003741	ncbi
 446085580|WP_000163435.1|1|1|mupA|mupA|insensitivity|2|MUPIROCIN|MUPIROCIN|mupirocin-resistant_isoleucine--tRNA_ligase_MupA	Staphylococcus aureus mupA conferring resistance to mupirocin	3000521	ncbi
 446097880|WP_000175735.1|1|1|dfrS1|dfrC|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrS1	dfrC	3002865	ncbi
+446097897|WP_000175752.1|1|1|dfrB|dfrB|mutation|2|||dihydrofolate_reductase	dfrC	3002865	ncbi
 446108382|WP_000186237.1|1|1|catB3|catB3|acetyltransferase|2|CHLORAMPHENICOL|PHENICOL|type_B-3_chloramphenicol_O-acetyltransferase_CatB3	catB3	3002676	ncbi
+446117463|WP_000195318.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
 446118531|WP_000196386.1|1|1|mecI_of_mecC|mecI_of_mecC||2|METHICILLIN|BETA-LACTAM|mecC-type_methicillin_resistance_repressor_MecI	MecC-type methicillin resistance repressor MecI	3005046	ncbi
 446118842|WP_000196697.1|1|1|mph(C)|mph(C)|phosphotransferase|2|ERYTHROMYCIN/SPIRAMYCIN/TELITHROMYCIN|MACROLIDE|Mph(C)_family_macrolide_2'-phosphotransferase	mphC	3000319	ncbi
+446124404|WP_000202259.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	ncbi
 446136264|WP_000214119.1|1|1|floR|floR|efflux|2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol/florfenicol_efflux_MFS_transporter_FloR	floR	3002705	ncbi
 446136266|WP_000214121.1|1|1|floR|floR|efflux|2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol/florfenicol_efflux_MFS_transporter_FloR	floR	3002705	ncbi
 446136267|WP_000214122.1|1|1|floR|floR|efflux|2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol/florfenicol_efflux_MFS_transporter_FloR	floR	3002705	ncbi
 446136268|WP_000214123.1|1|1|floR|floR|efflux|2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol/florfenicol_efflux_MFS_transporter_FloR	floR	3002705	ncbi
 446136270|WP_000214125.1|1|1|floR2|floR2|efflux|2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol/florfenicol_efflux_MFS_transporter_FloR2	cmlA9	3005043	ncbi
 446141536|WP_000219391.1|1|1|mph(A)|mph(A)|phosphotransferase|2|AZITHROMYCIN/ERYTHROMYCIN/SPIRAMYCIN/TELITHROMYCIN|MACROLIDE|Mph(A)_family_macrolide_2'-phosphotransferase	mphA	3000316	ncbi
+446150081|WP_000227936.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
 446159961|WP_000237816.1|1|1|arr-2|arr|ADP-ribosyltransferase|2|RIFAMYCIN|RIFAMYCIN|NAD(+)--rifampin_ADP-ribosyltransferase_Arr-2	arr-2	3002847	ncbi
 446161735|WP_000239590.1|1|1|blaCTX-M-15|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-15	CTX-M-15	3001878	ncbi
 446161736|WP_000239591.1|1|1|blaCTX-M-32|blaCTX-M|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_CTX-M-32	CTX-M-32	3001894	ncbi
 446181163|WP_000259018.1|1|1|sul1|sul1|insensitivity|2|SULFONAMIDE|SULFONAMIDE|sulfonamide-resistant_dihydropteroate_synthase_Sul1	sul1	3000410	ncbi
 446181176|WP_000259031.1|1|1|sul1|sul1|insensitivity|2|SULFONAMIDE|SULFONAMIDE|sulfonamide-resistant_dihydropteroate_synthase_Sul1	sul1	3000410	ncbi
 446181177|WP_000259032.1|1|1|sul1|sul1|insensitivity|2|SULFONAMIDE|SULFONAMIDE|sulfonamide-resistant_dihydropteroate_synthase_Sul1	sul1	3000410	ncbi
+446185243|WP_000263098.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
 446270079|WP_000347934.1|1|1|oqxB|oqxB|efflux|2|PHENICOL/QUINOLONE|PHENICOL/QUINOLONE|multidrug_efflux_RND_transporter_permease_subunit_OqxB	oqxB	3003923	ncbi
 446282131|WP_000359986.1|1|1|armA|armA|target_modification|2|GENTAMICIN|AMINOGLYCOSIDE|16S_rRNA_(guanine(1405)-N(7))-methyltransferase_ArmA	armA	3000858	ncbi
 446283849|WP_000361704.1|1|1|qnrVC4|qnrVC|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrVC4	QnrVC4	3002801	ncbi
 446283850|WP_000361705.1|1|1|qnrVC5|qnrVC|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrVC5	QnrVC5	3002802	ncbi
 446291359|WP_000369214.1|1|1|mecI_of_mecA|mecI_of_mecA||2|METHICILLIN|BETA-LACTAM|mecA-type_methicillin_resistance_repressor_MecI	mecI	3000124	ncbi
 446291361|WP_000369216.1|1|1|mecI_of_mecA|mecI_of_mecA||2|METHICILLIN|BETA-LACTAM|mecA-type_methicillin_resistance_repressor_MecI	mecI	3000124	ncbi
+446300587|WP_000378442.1|1|1|emrR|emrR|mutation|2|||multidrug_efflux_transporter_EmrAB_transcriptional_repressor_EmrR	emrR	3000516	ncbi
 446303947|WP_000381802.1|1|1|ant(2'')-Ia|ant(2'')-Ia|nucleotidyltransferase|2|GENTAMICIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_nucleotidyltransferase_ANT(2'')-Ia	ANT(2'')-Ia	3000230	ncbi
 446303948|WP_000381803.1|1|1|ant(2'')-Ia|ant(2'')-Ia|nucleotidyltransferase|2|GENTAMICIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_nucleotidyltransferase_ANT(2'')-Ia	ANT(2'')-Ia	3000230	ncbi
+446306851|WP_000384706.1|1|1|ileS|ileS|mutation|2|||isoleucine--tRNA_ligase	Staphylococcus aureus mupB conferring resistance to mupirocin	3000510	ncbi
 446324492|WP_000402347.1|1|1|vanX-A|vanX-A|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-Ala-D-Ala_dipeptidase_VanX-A	vanX gene in vanA cluster	3002949	ncbi
 446324493|WP_000402348.1|1|1|vanX-A|vanX-A|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-Ala-D-Ala_dipeptidase_VanX-A	vanX gene in vanA cluster	3002949	ncbi
 446327897|WP_000405752.1|1|1|aac(6')_E606|aac(6')_E606|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase_AAC(6')-E606	AAC(6')-Iad	3002572	ncbi
@@ -5483,6 +5674,7 @@ Original ID	Gene Name in CARD	ARO	Database
 446655943|WP_000733289.1|1|1|blaZ|blaZ|hydrolase|2|BETA-LACTAM|BETA-LACTAM|penicillin-hydrolyzing_class_A_beta-lactamase_BlaZ	PC1 beta-lactamase (blaZ)	3000621	ncbi
 446656056|WP_000733402.1|1|1|blaZ-mecC|blaZ-mecC|hydrolase|2|BETA-LACTAM|BETA-LACTAM|mecC-type_penicillin-hydrolyzing_class_A_beta-lactamase_BlaZ	mecC-type BlaZ	3005097	ncbi
 446665468|WP_000742814.1|1|1|aph(4)-Ia|aph(4)-Ia|phosphotransferase|2|HYGROMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-phosphotransferase_APH(4)-Ia	APH(4)-Ia	3002655	ncbi
+446687385|WP_000764731.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	sul4	3004361	ncbi
 446699855|WP_000777201.1|1|1|fosLL|fosLL|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosLL	FosA8	3007371	ncbi
 446700208|WP_000777554.1|1|1|dfrA1|dfrA1|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA1	dfrA1	3002854	ncbi
 446700209|WP_000777555.1|1|1|dfrA1|dfrA1|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA1	dfrA1	3002854	ncbi
@@ -5496,6 +5688,7 @@ Original ID	Gene Name in CARD	ARO	Database
 446726751|WP_000804064.1|1|1|tet(A)|tet(A)|efflux|2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_MFS_transporter_Tet(A)	tet(A)	3000165	ncbi
 446728929|WP_000806242.1|1|1|almF|almF||2|COLISTIN|COLISTIN|lipid_A_modification_system_glycine_carrier_protein_AlmF	almF	3007431	ncbi
 446733577|WP_000810833.1|1|1|erm(A)|erm(A)|target_modification|2|AZITHROMYCIN/CLARITHROMYCIN/CLINDAMYCIN/ERYTHROMYCIN/TELITHROMYCIN|LINCOSAMIDE/MACROLIDE|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(A)	23S rRNA (adenine(2058)-N(6))-methyltransferase Erm(A)	3005099	ncbi
+446741828|WP_000819084.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 446764190|WP_000841446.1|1|1|tet(C)|tet(C)|efflux|2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_MFS_transporter_Tet(C)	tet(C)	3000167	ncbi
 446764192|WP_000841448.1|1|1|tet(C)|tet(C)|efflux|2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_MFS_transporter_Tet(C)	tet(C)	3000167	ncbi
 446769134|WP_000846390.1|1|1|blaOXA-10|blaOXA-10_fam|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-10	OXA-10	3001405	ncbi
@@ -5590,6 +5783,7 @@ Original ID	Gene Name in CARD	ARO	Database
 447023497|WP_001100753.1|1|1|blaPER-1|blaPER|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|inhibitor-resistant_extended-spectrum_class_A_beta-lactamase_PER-1	PER-1	3002363	ncbi
 447032388|WP_001109644.1|1|1|aacA16|aac(6')_Ia_fam|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|AAC(6')-Ia_family_aminoglycoside_6'-N-acetyltransferase_AacA16	AAC(6')-Iaf	3002574	ncbi
 447035368|WP_001112624.1|1|1|ant(3'')-IIa|ant(3'')-IIa|nucleotidyltransferase|2|SPECTINOMYCIN/STREPTOMYCIN|AMINOGLYCOSIDE|aminoglycoside_nucleotidyltransferase_ANT(3'')-IIa	ANT(3'')-IIc	3004091	ncbi
+447055251|WP_001132507.1|1|1|acrB|acrB|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_AcrB	acrB	3000216	ncbi
 447066194|WP_001143450.1|1|1|dfrA23|dfrA23|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA23	dfrA23	3003019	ncbi
 447069133|WP_001146389.1|1|1|qacC|qacC|efflux|2|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|quaternary_ammonium_compound_efflux_SMR_transporter_QacC	qacJ	3007014	ncbi
 447082504|WP_001159760.1|1|1|blaADC-79|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-79	ADC-79	3003885	ncbi
@@ -5644,6 +5838,8 @@ Original ID	Gene Name in CARD	ARO	Database
 447201812|WP_001279068.1|1|1|ant(3'')-IIa|ant(3'')-IIa|nucleotidyltransferase|2|SPECTINOMYCIN/STREPTOMYCIN|AMINOGLYCOSIDE|aminoglycoside_nucleotidyltransferase_ANT(3'')-IIa	ANT(3'')-IIc	3004091	ncbi
 447201817|WP_001279073.1|1|1|ant(3'')-IIa|ant(3'')-IIa|nucleotidyltransferase|2|SPECTINOMYCIN/STREPTOMYCIN|AMINOGLYCOSIDE|aminoglycoside_nucleotidyltransferase_ANT(3'')-IIa	ANT(3'')-IIc	3004091	ncbi
 447203525|WP_001280781.1|1|1|vanR-A|vanR-A|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|vancomycin_resistance_response_regulator_transcription_factor_VanR-A	vanR gene in vanA cluster	3002919	ncbi
+447203987|WP_001281243.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+447204654|WP_001281910.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
 447207400|WP_001284656.1|1|1|blaI_of_Z|blaI_of_Z|regulation|2|BETA-LACTAM|BETA-LACTAM|penicillinase_repressor_BlaI	mecI	3000124	ncbi
 44982387|AAS50165.1|1|1|mchF|mchF||1|||microcin_H47_export_transporter_peptidase/ATP-binding_subunit_MchF	novA	3002522	ncbi
 45124783|CAF33353.1|1|1|sph|sph||1|||sphingomyelinase_C	Pseudomonas aeruginosa CpxR	3004054	ncbi
@@ -5667,8 +5863,11 @@ Original ID	Gene Name in CARD	ARO	Database
 47600660|CAE55782.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha	tva(A)	3004730	ncbi
 47606661|AAT36311.1|1|1|rpeA|rpeA||1|||serine_protease_autotransporter_colonization_factor_RpeA	AAC(6')-31	3002585	ncbi
 476720331|ENA25238.1|1|1|papA|papA||1|||P_fimbria_major_subunit_PapA	MCR-3.15	3007252	ncbi
+481023861|WP_001295325.1|1|1|lon|lon|mutation|2|||Lon_protease	lsaD	3005121	ncbi
 4836791|AAD30557.1|1|1|cseA|cseA||1|||C22_fimbrial_major_subunit_CseA	OXA-157	3001462	ncbi
 485651500|WP_001297013.1|1|1|tet(C)|tet(C)|efflux|2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_MFS_transporter_Tet(C)	tet(C)	3000167	ncbi
+485656629|WP_001300761.1:6:pmrB_RPISLR6del|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
+485656629|WP_001300761.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
 485682847|WP_001317507.1|1|1|dfrA5|dfrA5|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA5	dfrA5	3002861	ncbi
 485701606|WP_001334766.1|1|1|blaOXA-1|blaOXA-1_fam|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-1	OXA-1	3001396	ncbi
 485727602|WP_001355915.1|1|1|dfrA15|dfrA15|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA15	dfrA15	3003013	ncbi
@@ -5683,6 +5882,7 @@ Original ID	Gene Name in CARD	ARO	Database
 487395|AAA18472.1|1|1|ystA|ystA||1|||ST-I_family_heat-stable_enterotoxin_YstA	CMY-138	3005220	ncbi
 487415002|WP_001682441.1|1|1|aadA1|aadA1|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA1	ANT(3'')-IIa	3004089	ncbi
 487467289|WP_001694495.1|1|1|floR|floR|efflux|2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol/florfenicol_efflux_MFS_transporter_FloR	floR	3002705	ncbi
+487566233|WP_001718014.1|1|1|fabG|fabG|mutation|2|||beta-ketoacyl-ACP_reductase_FabG	ECV-1	3006883	ncbi
 487652940|WP_001747811.1|1|1|floR|floR|efflux|2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol/florfenicol_efflux_MFS_transporter_FloR	floR	3002705	ncbi
 487657632|WP_001749984.1|1|1|aadA16|aadA16|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA16	aadA16	3002616	ncbi
 487657633|WP_001749985.1|1|1|dfrA27|dfrA27|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA27	dfrA27	3004550	ncbi
@@ -5695,6 +5895,8 @@ Original ID	Gene Name in CARD	ARO	Database
 4877350|BAA77751.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A	msrE	3003109	ncbi
 487747767|WP_001829870.1|1|1|lnu(A)|lnu(A)|nucleotidyltransferase|2|LINCOSAMIDE|LINCOSAMIDE|lincosamide_nucleotidyltransferase_Lnu(A)	lnuA	3002835	ncbi
 487748123|WP_001830196.1|1|1|dfrA15|dfrA15|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA15	dfrA15b	3004640	ncbi
+487755227|WP_001836116.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
+487756832|WP_001837315.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
 487807899|WP_001881365.1|1|1|almG|almG||2|COLISTIN|COLISTIN|glycine--lipid_A_transferase_AlmG	almG	3004364	ncbi
 487837357|WP_001910823.1|1|1|aadA1|aadA1|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA1	ANT(3'')-IIa	3004089	ncbi
 487858008|WP_001931474.1|1|1|blaCARB-2|blaPSE|hydrolase|2|BETA-LACTAM|BETA-LACTAM|PSE_family_carbenicillin-hydrolyzing_class_A_beta-lactamase_CARB-2	CARB-53	3005587	ncbi
@@ -5749,6 +5951,7 @@ Original ID	Gene Name in CARD	ARO	Database
 488297487|WP_002368695.1|1|1|vanY-B|vanY-B|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-Ala-D-Ala_carboxypeptidase_VanY-B	vanY gene in vanB cluster	3002956	ncbi
 488297488|WP_002368696.1|1|1|vanS-B|vanS-B|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|vancomycin_resistance_histidine_kinase_VanS-B	vanS gene in vanB cluster	3002932	ncbi
 488297489|WP_002368697.1|1|1|vanR-B|vanR-B|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|vancomycin_resistance_response_regulator_transcription_factor_VanR-B	vanR gene in vanB cluster	3002921	ncbi
+488300672|WP_002371880.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 488302933|WP_002373947.1|1|1|aacA-ENT1|aacA-ENT1|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ii	3002556	ncbi
 488313482|WP_002382867.1|1|1|vanS-B|vanS-B|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|vancomycin_resistance_histidine_kinase_VanS-B	vanS gene in vanB cluster	3002932	ncbi
 488313489|WP_002382874.1|1|1|vanH-B|vanH-B|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-lactate_dehydrogenase_VanH-B	vanH gene in vanB cluster	3002943	ncbi
@@ -5786,14 +5989,18 @@ Original ID	Gene Name in CARD	ARO	Database
 488901283|WP_002812372.1|1|1|blaOXA-578|blaOXA-61_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-61_family_class_D_beta-lactamase_OXA-578	OXA-578	3005799	ncbi
 488913604|WP_002824679.1|1|1|blaOXA-595|blaOXA-61_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-61_family_class_D_beta-lactamase_OXA-595	OXA-595	3005816	ncbi
 488926694|WP_002837769.1|1|1|blaOXA-579|blaOXA-61_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-61_family_class_D_beta-lactamase_OXA-579	OXA-579	3005800	ncbi
+488932020|WP_002843095.1|1|1|cmeR|cmeR|mutation|2|||multidrug_efflux_system_transcriptional_regulator_CmeR	cmeR	3000526	ncbi
 488946471|WP_002857546.1|1|1|blaOXA-592|blaOXA-61_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-61_family_class_D_beta-lactamase_OXA-592	OXA-592	3005813	ncbi
 488961012|WP_002872036.1|1|1|blaOXA-61|blaOXA-61_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_D_beta-lactamase_OXA-61	OXA-61	3001773	ncbi
 488961139|WP_002872163.1|1|1|tet(O/M/O)|tet(O/M/O)||2|TETRACYCLINE|TETRACYCLINE|tetracycline_resistance_ribosomal_protection_mosaic_protein_Tet(O/M/O)	tet(O/M/O)	3007120	ncbi
 488961381|WP_002872405.1|1|1|blaOXA-184|blaOXA-184_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-184_family_class_D_beta-lactamase_OXA-184	OXA-184	3001476	ncbi
 488978855|WP_002889704.1|1|1|blaOXA-591|blaOXA-61_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-61_family_class_D_beta-lactamase_OXA-591	OXA-591	3005812	ncbi
 488982543|WP_002893358.1|1|1|blaOXA-449|blaOXA-184_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-184_family_class_D_beta-lactamase_OXA-449	OXA-449	3003605	ncbi
+488984872|WP_002895659.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	cprR	3005063	ncbi
 488993270|WP_002904004.1|1|1|blaSHV-12|blaSHV|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_SHV-12	SHV-12	3001071	ncbi
 488999204|WP_002909882.1|1|1|tet(O)|tet(O)|target_protection|2|TETRACYCLINE|TETRACYCLINE|tetracycline_resistance_ribosomal_protection_protein_Tet(O)	tet(O)	3000190	ncbi
+489000713|WP_002911375.1:47:mgrB_W47R|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	mdtC	3000794	ncbi
+489000713|WP_002911375.1|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	mdtC	3000794	ncbi
 489003568|WP_002914189.1|1|1|oqxA|oqxA|efflux|2|PHENICOL/QUINOLONE|PHENICOL/QUINOLONE|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_OqxA	oqxA	3003922	ncbi
 489023614|WP_002934081.1|1|1|blaOXA-447|blaOXA-184_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-184_family_class_D_beta-lactamase_OXA-447	OXA-447	3003603	ncbi
 489026470|WP_002936877.1|1|1|blaOXA-623|blaOXA-184_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-184_family_class_D_beta-lactamase_OXA-623	OXA-623	3005844	ncbi
@@ -5876,13 +6083,18 @@ Original ID	Gene Name in CARD	ARO	Database
 490239566|WP_004137840.1|1|1|blaOXY-6-4|blaOXY-6|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_OXY-6-4	OXY-6-4	3002416	ncbi
 490245401|WP_004143591.1|1|1|blaSHV-206|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_SHV-206	SHV-206	3005227	ncbi
 490247986|WP_004146118.1|1|1|fosA5_fam|fosA5_fam|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|FosA5_family_fosfomycin_resistance_glutathione_transferase	FosA6	3004111	ncbi
+490249900|WP_004147969.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	baeS	3000829	ncbi
 490251352|WP_004149398.1|1|1|oqxA10|oqxA|efflux|2|PHENICOL/QUINOLONE|PHENICOL/QUINOLONE|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_OqxA10	oqxA	3003922	ncbi
 490251353|WP_004149399.1|1|1|oqxB19|oqxB|efflux|2|PHENICOL/QUINOLONE|PHENICOL/QUINOLONE|multidrug_efflux_RND_transporter_permease_subunit_OqxB19	oqxB	3003923	ncbi
+490252783|WP_004150807.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	kdpE	3003841	ncbi
 490254416|WP_004152396.1|1|1|blaKPC-3|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-3	KPC-3	3002313	ncbi
 490278840|WP_004174783.1|1|1|oqxB5|oqxB|efflux|2|PHENICOL/QUINOLONE|PHENICOL/QUINOLONE|multidrug_efflux_RND_transporter_permease_subunit_OqxB5	oqxB	3003923	ncbi
 490280343|WP_004176269.1|1|1|blaSHV-11|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_SHV-11	SHV-11	3001070	ncbi
+490283234|WP_004179093.1:129:pmrB_ALNQLV129del|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
+490283234|WP_004179093.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
 490283911|WP_004179754.1|1|1|blaSHV-28|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_SHV-28	SHV-28	3001086	ncbi
 490288323|WP_004183952.1|1|1|blaSHV-60|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_SHV-60	SHV-60	3001115	ncbi
+490288705|WP_004184324.1|1|1|crrB|crrB|mutation|2|||HAMP_domain-containing_histidine_kinase_CrrB	adeS	3000549	ncbi
 490291935|WP_004187529.1|1|1|dfrA21|dfrA21|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA21	dfrA21	3003017	ncbi
 490302154|WP_004197546.1|1|1|blaSCO-1|blaSCO|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_SCO-1	SCO-1	3004856	ncbi
 490303915|WP_004199234.1|1|1|blaKPC-2|blaKPC|hydrolase|2|CARBAPENEM|BETA-LACTAM|carbapenem-hydrolyzing_class_A_beta-lactamase_KPC-2	KPC-2	3002312	ncbi
@@ -6046,6 +6258,11 @@ Original ID	Gene Name in CARD	ARO	Database
 492364765|WP_005821510.1|1|1|cfiA4|cfiA_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_CfiA4	CfiA4	3006919	ncbi
 492379426|WP_005826111.1|1|1|catA3|catA3|acetyltransferase|2|CHLORAMPHENICOL|PHENICOL|type_A-3_chloramphenicol_O-acetyltransferase_CatIII	catIII	3002685	ncbi
 492386200|WP_005827792.1|1|1|cblA|cblA|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|CblA_family_class_A_beta-lactamase	CblA-1	3002999	ncbi
+49240387|WP_010956585.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
+49240401|WP_000871610.1|1|1|walK|walK|mutation|2|||cell_wall_metabolism_sensor_histidine_kinase_WalK	arlS	3000839	ncbi
+49240583|WP_001008722.1|1|1|uhpT|uhpT|mutation|2|||hexose_phosphate_transporter_UhpT	emeA	3003551	ncbi
+49240901|WP_000918664.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
+49240902|WP_000567963.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	optrA	3003746	ncbi
 492543859|WP_005880220.1|1|1|aac(6')-Iih|aac(6')_Entco|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_N-acetyltransferase_AAC(6')-Iih	AAC(6')-Iih	3002590	ncbi
 49282|CAA77936.1|1|1|SMR_efflux_emrE|SMR_efflux_emrE|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_SMR_transporter_EmrE	Escherichia coli emrE	3004039	ncbi
 492896975|WP_006027381.1|1|1|blaPEN-M|blaPEN-M|hydrolase|2|BETA-LACTAM|BETA-LACTAM|PEN-M_family_class_A_beta-lactamase	LRA-1	3002482	ncbi
@@ -6162,6 +6379,7 @@ Original ID	Gene Name in CARD	ARO	Database
 499301595|WP_010992371.1|1|1|cepA|cepA|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|CepA_family_extended-spectrum_class_A_beta-lactamase	CepA-44	3006225	ncbi
 499320621|WP_011011113.1|1|1|sul2|sul2|insensitivity|2|SULFONAMIDE|SULFONAMIDE|sulfonamide-resistant_dihydropteroate_synthase_Sul2	sul2	3000412	ncbi
 499322789|WP_011013281.1|1|1|blaNPS-1|blaNPS|hydrolase|2|BETA-LACTAM|BETA-LACTAM|oxacillin-hydrolyzing_class_D_beta-lactamase_NPS-1	NPS-1	3004239	ncbi
+499327248|WP_011017740.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	sul4	3004361	ncbi
 499327877|WP_011018369.1|1|1|erm(B)|erm(B)|target_modification|2|CLINDAMYCIN/ERYTHROMYCIN/STREPTOGRAMIN_B|LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(B)	ErmB	3000375	ncbi
 499339397|WP_011029105.1|1|1|vanR-Sc|vanR-Sc|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|vancomycin_resistance_response_regulator_transcription_factor_VanR-Sc	vanR gene in vanO cluster	3002930	ncbi
 499339399|WP_011029107.1|1|1|vanJ|vanJ|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|teicoplanin_resistance_protein_VanJ	vanJ	3002914	ncbi
@@ -6375,6 +6593,7 @@ Original ID	Gene Name in CARD	ARO	Database
 504652878|WP_014839980.1|1|1|fosA3|fos_A3_A4|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosA3	FosA3	3002872	ncbi
 504657974|WP_014845076.1|1|1|blaOXA-29|blaOXA-PR|hydrolase|2|BETA-LACTAM|BETA-LACTAM|oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-29	OXA-29	3001424	ncbi
 504695109|WP_014882211.1|1|1|blaACT-52|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-52	ACT-52	3006247	ncbi
+504719719|WP_014906821.1|1|1|arnC|arnC|mutation|2|||undecaprenyl-phosphate_4-deoxy-4-formamido-L-arabinose_transferase_ArnC	PmrF	3003578	ncbi
 504745043|WP_014932145.1|1|1|blaOXA-137|blaOXA-63_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-63_family_oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-137	OXA-137	3001767	ncbi
 504749254|WP_014936356.1|1|1|tva(B)|tva(B)|target_protection|2|TIAMULIN|PLEUROMUTILIN|ABC-F_type_ribosomal_protection_protein_Tva(B)	tva(A)	3004730	ncbi
 504749771|WP_014936873.1|1|1|blaOXA-1099|blaOXA-63_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-63_family_oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-1099	OXA-136	3001765	ncbi
@@ -6487,6 +6706,7 @@ Original ID	Gene Name in CARD	ARO	Database
 515956215|WP_017386798.1|1|1|blaOXA-421|blaOXA-213_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-213_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-421	OXA-421	3003117	ncbi
 515965189|WP_017395772.1|1|1|aacA-ACI1|aacA-ACI1|acetyltransferase|2|AMIKACIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|AAC(6')-Ighjkrstuvwx_family_aminoglycoside_N-acetyltransferase	AAC(6')-Ig	3002554	ncbi
 516050127|WP_017480710.1|1|1|blaADC-70|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-70	ADC-70	3006439	ncbi
+516243141|WP_017647104.1|1|1|pbp2x|pbp2x|mutation|2|||penicillin-binding_protein_2X	Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin	3003043	ncbi
 516291376|WP_017694683.1|1|1|blaACT-17|blaACT|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_ACT-17	ACT-17	3001838	ncbi
 516334765|WP_017725267.1|1|1|blaADC-6|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-6	ADC-6	3003852	ncbi
 516389086|WP_017778762.1|1|1|mcr-3.27|mcr-3||2|COLISTIN|COLISTIN|phosphoethanolamine--lipid_A_transferase_MCR-3.27	MCR-3.27	3007253	ncbi
@@ -6638,6 +6858,10 @@ Original ID	Gene Name in CARD	ARO	Database
 556493810|WP_023341517.1|1|1|blaSHV-211|blaSHV|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_SHV-211	SHV-211	3005230	ncbi
 556494927|WP_023342632.1|1|1|oqxB32|oqxB|efflux|2|PHENICOL/QUINOLONE|PHENICOL/QUINOLONE|multidrug_efflux_RND_transporter_permease_subunit_OqxB32	oqxB	3003923	ncbi
 556497609|WP_023345296.1|1|1|blaMIR-17|blaMIR|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_MIR-17	MIR-17	3003173	ncbi
+557272689|WP_000623140.1|1|1|ptsI|ptsI|mutation|2|||phosphoenolpyruvate--protein_phosphotransferase_PtsI	rphB	3003992	ncbi
+557273012|WP_000281668.1|1|1|cyaA|cyaA|mutation|2|||adenylate_cyclase_CyaA	MexJ	3003692	ncbi
+557273135|WP_000633668.1|1|1|uhpA|uhpA|mutation|2|||DNA-binding_response_regulator_UhpA	evgA	3000832	ncbi
+557273138|WP_000879194.1|1|1|uhpT|uhpT|mutation|2|||hexose_phosphate_transporter_UhpT	rosA	3003048	ncbi
 557392992|WP_023408309.1|1|1|blaNDM-5|blaNDM|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B1_metallo-beta-lactamase_NDM-5	NDM-5	3000467	ncbi
 557415130|WP_023417224.1|1|1|aacA-STR-13|aacA-STR-13|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Isa	3002563	ncbi
 557680565|WP_023434793.1|1|1|rmtF2|rmtF|target_modification|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|16S_rRNA_(guanine(1405)-N(7))-methyltransferase_RmtF2	rmtF	3002666	ncbi
@@ -6657,6 +6881,7 @@ Original ID	Gene Name in CARD	ARO	Database
 571061347|WP_024127776.1|1|1|mphN|mphN|phosphotransferase|2|ERYTHROMYCIN|MACROLIDE|macrolide_2'-phosphotransferase_MphN	mphN	3004542	ncbi
 571061400|WP_024127829.1|1|1|mef(A)|mef(A)|efflux|2|AZITHROMYCIN/ERYTHROMYCIN|MACROLIDE|macrolide_efflux_MFS_transporter_Mef(A)	mel	3000616	ncbi
 57284345|AAW36439.1|1|1|sek|sek||1|||staphylococcal_enterotoxin_type_K	OXA-296	3001751	ncbi
+57284959|WP_000358006.1|1|1|murA|murA|mutation|2|||UDP-N-acetylglucosamine_1-carboxyvinyltransferase_MurA	Chlamydia trachomatis intrinsic murA conferring resistance to fosfomycin	3003785	ncbi
 57286370|AAW38464.1|1|1|lmrS|lmrS||1|CHLORAMPHENICOL/ERYTHROMYCIN|MACROLIDE/PHENICOL|multidrug_efflux_MFS_transporter_LmrS	Staphylococcus aureus LmrS	3004572	ncbi
 57434401|CAI43818.1|1|1|efa1|efa1||1|||lymphostatin_Efa1/LifA	tetB(P)	3000195	ncbi
 57434443|CAI43860.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB	VAM-1	3007062	ncbi
@@ -6803,6 +7028,8 @@ Original ID	Gene Name in CARD	ARO	Database
 665890453|WP_031257659.1|1|1|blaGOB-39|blaGOB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_GOB-39	GOB-39	3005688	ncbi
 665915229|WP_031281281.1|1|1|catB|catB|acetyltransferase|2|CHLORAMPHENICOL|PHENICOL|type_B_chloramphenicol_O-acetyltransferase	Agrobacterium fabrum chloramphenicol acetyltransferase	3004451	ncbi
 665940458|WP_031306504.1|1|1|aadA12|aadA12|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA12	aadA12	3002612	ncbi
+667758283|WP_031379793.1|1|1|adeS|adeS|mutation|2|||two-component_sensor_histidine_kinase_AdeS	adeS	3000549	ncbi
+667758284|WP_031379794.1|1|1|adeR|adeR|mutation|2|||efflux_system_response_regulator_transcription_factor_AdeR	adeR	3000553	ncbi
 667758639|WP_031380135.1|1|1|blaADC-315|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-315	ADC-52	3006432	ncbi
 667759344|WP_031380727.1|1|1|dfrA44|dfrA44|insensitivity|2|TRIMETHOPRIM|TRIMETHOPRIM|trimethoprim-resistant_dihydrofolate_reductase_DfrA44	dfrG	3002868	ncbi
 6683770|AAF23359.1|1|1|epsilon-1|epsilon-1||1|EPSILON|INTIMIN|intimin_type_epsilon	LEN-39	3004842	ncbi
@@ -6813,7 +7040,9 @@ Original ID	Gene Name in CARD	ARO	Database
 671722471|AII82289.1|1|1|bont_E11|bont_E11||1|||botulinum_neurotoxin_subtype_E11	MCR-10.2	3007277	ncbi
 671722553|AII82330.1|1|1|bont_E10|bont_E10||1|||botulinum_neurotoxin_subtype_E10	ErmB	3000375	ncbi
 674138353|AIK83625.1|1|1|rmpC|rmpC||1|||mucoid_phenotype_regulator_RmpC	evgA	3000832	ncbi
+674300809|WP_000357259.1|1|1|murA|murA|mutation|2|||UDP-N-acetylglucosamine_1-carboxyvinyltransferase_MurA	Staphylococcus aureus murA with mutation conferring resistance to fosfomycin	3003776	ncbi
 68343009|AAY90615.1|1|1|emhC|emhC||1|EFFLUX|EFFLUX|efflux_RND_transporter_outer_membrane_subunit_EmhC	OprM	3000379	ncbi
+685632466|WP_001289586.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 685889027|WP_031630420.1|1|1|blaPDC-71|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-71	PDC-71	3006846	ncbi
 685897950|WP_031638595.1|1|1|blaPDC-361|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-361	PDC-361	3006731	ncbi
 685979280|WP_031687354.1|1|1|blaPDC-117|blaPDC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_PDC-117	PDC-117	3005303	ncbi
@@ -6889,6 +7118,7 @@ Original ID	Gene Name in CARD	ARO	Database
 694063726|WP_032410229.1|1|1|blaOXA-663|blaOXA-10_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-10_family_class_D_beta-lactamase_OXA-663	OXA-663	3004489	ncbi
 694110401|WP_032452758.1|1|1|blaOKP-A-2|blaOKP-A|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_OKP-A-2	OKP-A-2	3002419	ncbi
 694114072|WP_032456002.1|1|1|blaOKP-B-1|blaOKP-B|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_OKP-B-1	OKP-B-1	3002434	ncbi
+694121701|WP_032462817.1|1|1|pbp2x|pbp2x|mutation|2|||penicillin-binding_protein_2X	Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin	3003043	ncbi
 695257003|WP_032488330.1|1|1|ant(4')-Ia|ant(4')-Ia|nucleotidyltransferase|2|KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-nucleotidyltransferase_ANT(4')-Ia	ANT(4')-Ia	3002623	ncbi
 695257004|WP_032488331.1|1|1|erm(X)|erm(X)|target_modification|2|AZITHROMYCIN/CLINDAMYCIN/ERYTHROMYCIN/LINCOMYCIN/STREPTOGRAMIN_B/TYLOSIN|LINCOSAMIDE/MACROLIDE/STREPTOGRAMIN|23S_rRNA_(adenine(2058)-N(6))-methyltransferase_Erm(X)	ErmX	3000596	ncbi
 695257016|WP_032488343.1|1|1|ere(B)|ere(B)|esterase|2|AZITHROMYCIN/ERYTHROMYCIN|MACROLIDE|EreB_family_erythromycin_esterase	EreB	3000363	ncbi
@@ -7176,6 +7406,7 @@ Original ID	Gene Name in CARD	ARO	Database
 721887147|KHA45933.1|1|1|hasA|hasA||1|||hyaluronan_synthase_HasA	PmrF	3003578	ncbi
 7225540|AAF40764.1|1|1|farB|farB||1|EFFLUX|EFFLUX|fatty_acid_resistance_MFS_efflux_transporter_permease_subunit_FarB	farB	3003962	ncbi
 7226971|AAF42063.1|1|1|mtrC|mtrC|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit_MtrC	mtrC	3000810	ncbi
+723059797|WP_033554192.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
 723116331|WP_033560332.1|1|1|blaTEM-19|blaTEM|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_TEM-19	TEM-19	3000890	ncbi
 7239821|AAB26855.2|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE	APH(3'')-Ib	3002639	ncbi
 727159600|WP_033632034.1|1|1|aac(6')_Serra|aac(6')_Serra|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ic	3002549	ncbi
@@ -7186,6 +7417,7 @@ Original ID	Gene Name in CARD	ARO	Database
 727187183|WP_033649026.1|1|1|aac(6')-Ic|aac(6')_Serra|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_N-acetyltransferase_AAC(6')-Ic	AAC(6')-Ic	3002549	ncbi
 727189478|WP_033651281.1|1|1|aac(6')_Serra|aac(6')_Serra|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ic	3002549	ncbi
 727193031|WP_033654785.1|1|1|aac(6')_Serra|aac(6')_Serra|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ic	3002549	ncbi
+727330535|WP_033785346.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 727719308|WP_033841866.1|1|1|blaOXA-254|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-254	OXA-254	3001682	ncbi
 727731285|WP_033851992.1|1|1|blaADC-159|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-159	ADC-159	3005037	ncbi
 727798181|WP_033887259.1|1|1|blaOXA-1034|blaOXA-50_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-50_family_oxacillin-hydrolyzing_class_D_beta-lactamase_OXA-1034	OXA-50	3001796	ncbi
@@ -7420,6 +7652,7 @@ Original ID	Gene Name in CARD	ARO	Database
 765465338|WP_044718369.1|1|1|blaADC-147|blaADC|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_C_beta-lactamase_ADC-147	ADC-147	3006321	ncbi
 765522999|WP_044735234.1|1|1|qnrA10|qnrA|target_protection|2|QUINOLONE|QUINOLONE|quinolone_resistance_pentapeptide_repeat_protein_QnrA10	QnrA3	3002709	ncbi
 766599280|WP_044779552.1|1|1|blaOXA-638|blaOXA-184_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-184_family_class_D_beta-lactamase_OXA-638	OXA-638	3005859	ncbi
+769549125|WP_002779062.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
 771538891|WP_045183849.1|1|1|blaGOB-49|blaGOB|hydrolase|2|CARBAPENEM|BETA-LACTAM|subclass_B3_metallo-beta-lactamase_GOB-49	GOB-49	3005697	ncbi
 771608095|WP_045219048.1|1|1|blaOXA-443|blaOXA-22_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-22_family_class_D_beta-lactamase_OXA-443	OXA-443	3003599	ncbi
 771608516|WP_045219469.1|1|1|blaOXA-444|blaOXA-60_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-60_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-444	OXA-444	3003600	ncbi
@@ -7526,14 +7759,18 @@ Original ID	Gene Name in CARD	ARO	Database
 852302126|WP_048334865.1|1|1|blaOKP-A-8|blaOKP-A|hydrolase|2|BETA-LACTAM|BETA-LACTAM|broad-spectrum_class_A_beta-lactamase_OKP-A-8	OKP-A-8	3002425	ncbi
 85675040|BAA15331.2|1|1|asr|asr||1|||acid_resistance_repetitive_basic_protein_Asr	amrB	3002983	ncbi
 85676145|BAE77395.1|1|1|fieF|fieF||1|||CDF_family_cation-efflux_transporter_FieF	OXA-205	3001483	ncbi
+85676345|WP_000072067.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
 85676370|BAE77620.1|1|1|emrD|emrD|efflux|1|EFFLUX|EFFLUX|multidrug_efflux_MFS_transporter_EmrD	bcr-1	3003801	ncbi
 8671435|BAA96815.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir	BIL-1	3004755	ncbi
 86753170|ABD14712.1|1|1|cesB|cesB||1|||cereulide_non-ribosomal_peptide_synthetase_CesB	almE	3007433	ncbi
 86753171|ABD14713.1|1|1|cesC|cesC||1|||cereulide_export_ABC_transporter_permease_ATP-binding_protein_CesC	bcrA	3002987	ncbi
+87081927|WP_000843414.1|1|1|marR|marR|mutation|2|||transcriptional_regulator_MarR	Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline	3003378	ncbi
+871816|AAA69514.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
 871999085|CRY27194.1|1|1|yadA|yadA||1|||trimeric_autotransporter_adhesin_YadA	ugd	3003577	ncbi
 87203189|ABD30999.1|1|1|splE|splE||1|||serine_protease_SplE	Bifidobacterium adolescentis rpoB mutants conferring resistance to rifampicin	3004480	ncbi
 87203193|ABD31003.1|1|1|splB|splB||1|||serine_protease_SplB	IMP-41	3002232	ncbi
 87203194|ABD31004.1|1|1|splA|splA||1|||serine_protease_SplA	bcrA	3002987	ncbi
+87203547|WP_000571549.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	Enterococcus faecium cls conferring resistance to daptomycin	3003092	ncbi
 872669217|WP_048540464.1|1|1|mecA1|mecA1|insensitivity|2|METHICILLIN|BETA-LACTAM|PBP2a_family_beta-lactam-resistant_peptidoglycan_transpeptidase_MecA1	mecA	3000617	ncbi
 873897426|WP_048603867.1|1|1|aac(6')_Entco|aac(6')_Entco|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Iih	3002590	ncbi
 873902146|WP_048608579.1|1|1|aadA11|aadA11|nucleotidyltransferase|2|STREPTOMYCIN|AMINOGLYCOSIDE|ANT(3'')-Ia_family_aminoglycoside_nucleotidyltransferase_AadA11	aadA11	3002611	ncbi
@@ -7671,6 +7908,7 @@ Original ID	Gene Name in CARD	ARO	Database
 939335755|WP_054882068.1|1|1|fosE|fosE|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_hydrolase_FosE	FosI	3007370	ncbi
 939344942|WP_054890630.1|1|1|fosK|fosK|thiol_transferase|2|FOSFOMYCIN|FOSFOMYCIN|fosfomycin_resistance_glutathione_transferase_FosK	FosK	3003207	ncbi
 939369456|WP_054914207.1|1|1|aac(6')-31|aac(6')-31|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_N-acetyltransferase_AAC(6')-31	AAC(6')-31	3002585	ncbi
+941950587|WP_002289473.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	acrD	3000491	ncbi
 942448435|WP_055314004.1|1|1|blaTEM-63|blaTEM|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|extended-spectrum_class_A_beta-lactamase_TEM-63	TEM-63	3000931	ncbi
 942450625|WP_055314508.1|1|1|blaTEM-213|blaTEM|hydrolase|2|BETA-LACTAM|BETA-LACTAM|class_A_beta-lactamase_TEM-213	TEM-213	3001390	ncbi
 942467534|WP_055321263.1|1|1|blaMIR-5|blaMIR|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|cephalosporin-hydrolyzing_class_C_beta-lactamase_MIR-5	MIR-5	3002170	ncbi
@@ -7685,6 +7923,7 @@ Original ID	Gene Name in CARD	ARO	Database
 949616509|WP_057036510.1|1|1|blaOXA-629|blaOXA-184_fam|hydrolase|2|BETA-LACTAM|BETA-LACTAM|OXA-184_family_class_D_beta-lactamase_OXA-629	OXA-629	3005850	ncbi
 949621775|WP_057038954.1|1|1|aph(2'')-IIa|aph(2'')-IIa|phosphotransferase|2|AMIKACIN/GENTAMICIN/KANAMYCIN/TOBRAMYCIN|AMINOGLYCOSIDE|aminoglycoside_O-phosphotransferase_APH(2'')-IIa	APH(2'')-IIa	3002635	ncbi
 949621776|WP_057038955.1|1|1|aac(6')-Im|aac(6')-Im|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_N-acetyltransferase_AAC(6')-Im	AAC(6')-Im	3004629	ncbi
+949628753|WP_057042458.1|1|1|rpsL|rpsL|mutation|2|||30S_ribosomal_protein_S12_RpsL	APH(2'')-Ig	3002669	ncbi
 949644380|WP_057046497.1|1|1|blaOXA-83|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-83	OXA-83	3001623	ncbi
 949688834|WP_057053864.1|1|1|blaOXA-340|blaOXA-51_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-51_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-340	OXA-340	3001528	ncbi
 949717113|WP_057061999.1|1|1|blaOXA-821|blaOXA-213_fam|hydrolase|2|CARBAPENEM|BETA-LACTAM|OXA-213_family_carbapenem-hydrolyzing_class_D_beta-lactamase_OXA-821	OXA-821	3006019	ncbi
@@ -7784,6 +8023,7 @@ Original ID	Gene Name in CARD	ARO	Database
 983531215|WP_060682854.1|1|1|blaCMY-49|blaCMY|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_CMY-49	CMY-49	3002060	ncbi
 983555919|WP_060706838.1|1|1|aac(6')_Serra|aac(6')_Serra|acetyltransferase|2|AMINOGLYCOSIDE|AMINOGLYCOSIDE|aminoglycoside_6'-N-acetyltransferase	AAC(6')-Ic	3002549	ncbi
 984659310|WP_060763488.1|1|1|vanB|vanB|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-alanine--(R)-lactate_ligase_VanB	vanB	3000013	ncbi
+985479976|WP_002295408.1|1|1|liaF|liaF|mutation|2|||three-component_signaling_pathway_regulator_LiaF	vanT gene in vanN cluster	3002975	ncbi
 985494878|WP_060792851.1|1|1|vanC2/3|vanC2/3|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-alanine--D-serine_ligase_VanC2/3	vanC	3000368	ncbi
 985494879|WP_060792852.1|1|1|vanXY-c2/3|vanXY-c2/3|re-structuring_of_the_cell_wall|2|VANCOMYCIN|GLYCOPEPTIDE|D-Ala-D-Ala_dipeptidase/D-Ala-D-Ala_carboxypeptidase_VanXY-C	vanXY gene in vanC cluster	3002966	ncbi
 985629314|WP_060855400.1|1|1|blaCMY-180|blaCMY|hydrolase|2|CEPHALOSPORIN|BETA-LACTAM|class_C_beta-lactamase_CMY-180	CMY-152	3005216	ncbi
@@ -7796,243 +8036,3 @@ Original ID	Gene Name in CARD	ARO	Database
 9948545|AAG05881.1|1|1|mexE|mexE|efflux|1|EFFLUX|EFFLUX|MexE_family_multidrug_efflux_RND_transporter_periplasmic_adaptor_subunit	MexE	3000803	ncbi
 9988580|AAG10695.1|1|1|perA|perA||1|||BFP_system_transcriptional_regulator_PerA	gadW	3003838	ncbi
 999916810|KXI80363.1|1|1|cesA|cesA||1|||cereulide_non-ribosomal_peptide_synthetase_CesA	almE	3007433	ncbi
-0|WP_000064875.1|1|1|lpxA|lpxA|mutation|2|||acyl-ACP--UDP-N-acetylglucosamine_O-acyltransferase_LpxA	catB2	3002675	ncbi
-0|WP_000159119.1|1|1|cdsA|cdsA|mutation|2|||phosphatidate_cytidylyltransferase_CdsA	MexF	3000804	ncbi
-0|WP_000161505.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	arlR	3000838	ncbi
-0|WP_000167936.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase	sul4	3004361	ncbi
-0|WP_000240700.1|1|1|lpxC|lpxC|mutation|2|||UDP-3-O-acyl-N-acetylglucosamine_deacetylase_LpxC	VAM-1	3007062	ncbi
-0|WP_000331899.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
-0|WP_000559382.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
-0|WP_000642196.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_000680577.1|1|1|baeR|baeR|mutation|2|||response_regulator_BaeR	smeR	3003066	ncbi
-0|WP_000697899.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	vanR gene in vanA cluster	3002919	ncbi
-0|WP_000865568.1|1|1|ompC|ompC|mutation|2|||outer_membrane_porin_C_OmpC	Klebsiella pneumoniae OmpK37	3004122	ncbi
-0|WP_000888203.1|1|1|oqxR|oqxR|mutation|2|||Rrf2_family_transcriptional_regulator_OqxR	aadA3	3002603	ncbi
-0|WP_000948731.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	Staphylococcus aureus GlpT with mutation conferring resistance to fosfomycin	3003901	ncbi
-0|WP_000977920.1|1|1|ompF|ompF|mutation|2|||outer_membrane_protein_F_OmpF	Klebsiella pneumoniae OmpK37	3004122	ncbi
-0|WP_001010111.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	norC	3007010	ncbi
-0|WP_001118667.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	hmrM	3003953	ncbi
-0|WP_001157751.1|1|1|ompR|ompR|mutation|2|||two-component_system_response_regulator_OmpR	vanR gene in vanI cluster	3003728	ncbi
-0|WP_001181005.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	OXA-33	3001427	ncbi
-0|WP_001212189.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
-0|WP_001281271.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_001960919.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	AAC(2')-Ia	3002523	ncbi
-0|WP_002000718.1|1|1|adeL|adeL|mutation|2|||multidrug_efflux_transcriptional_repressor_AdeL	adeL	3000620	ncbi
-0|WP_002215394.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	SHV-182	3001364	ncbi
-0|WP_002215424.1|1|1|rplV|rplV|mutation|2|||50S_ribosomal_protein_L22	mexN	3003705	ncbi
-0|WP_002215445.1|1|1|rpsE|rpsE|mutation|2|||30S_ribosomal_protein_S5	CME-2	3006155	ncbi
-0|WP_002225943.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
-0|WP_002240607.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_002296175.1|1|1|eat(A)|eat(A)|mutation|2|||ABC-F_type_ribosomal_protection_protein_Eat(A)	lsaA	3000300	ncbi
-0|WP_002884747.1|1|1|lamB|lamB|mutation|2|||maltoporin_LamB	acrD	3000491	ncbi
-0|WP_002892080.1|1|1|acrR|acrR|mutation|2|||transcriptional_regulator_AcrR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
-0|WP_002913005.1|1|1|ompK36|ompK36|mutation|2|||outer_membrane_porin_OmpK36	Klebsiella pneumoniae OmpK37	3004122	ncbi
-0|WP_003027598.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_003082436.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	arlR	3000838	ncbi
-0|WP_003082438.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	smeS	3003067	ncbi
-0|WP_003088626.1|1|1|mexZ|mexZ|mutation|2|||TetR_family_transcriptional_regulator_MexZ	MexZ	3003709	ncbi
-0|WP_003088694.1|1|1|cmrA|cmrA|mutation|2|||AraC_family_transcriptional_regulator_CmrA	ramA	3000823	ncbi
-0|WP_003091272.1|1|1|dacB|dacB|mutation|2|||D-alanyl-D-alanine_carboxypeptidase/D-alanyl-D-alanine-endopeptidase_DacB	OXA-288	3001743	ncbi
-0|WP_003091448.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_003092152.1|1|1|nalD|nalD|mutation|2|||efflux_system_transcriptional_repressor_NalD	nalD	3000819	ncbi
-0|WP_003093741.1|1|1|fusA1|fusA1|mutation|2|||elongation_factor_G	Staphylococcus aureus fusA with mutation conferring resistance to fusidic acid	3003735	ncbi
-0|WP_003094037.1|1|1|colS|colS|mutation|2|||HAMP_domain-containing_sensor_histidine_kinase_colS	cprS	3005064	ncbi
-0|WP_003094039.1|1|1|colR|colR|mutation|2|||response_regulator_transcription_factor_ColR	cprR	3005063	ncbi
-0|WP_003094139.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_003094842.1|1|1|nfxB|nfxB|mutation|2|||efflux_pump_transcriptional_repressor_NfxB	Type B NfxB	3004060	ncbi
-0|WP_003095687.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	rpoB2	3000501	ncbi
-0|WP_003096258.1|1|1|amgS|amgS|mutation|2|||two-component_system_sensor_histidine_kinase_AmgS	vanS gene in vanE cluster	3002935	ncbi
-0|WP_003096330.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	Acinetobacter baumannii AbaQ	3004574	ncbi
-0|WP_003097268.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-0|WP_003098126.1|1|1|parR|parR|mutation|2|||two-component_response_regulator_ParR	ParR	3005068	ncbi
-0|WP_003102062.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-0|WP_003102236.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	arlR	3000838	ncbi
-0|WP_003105000.1|1|1|cprS|cprS|mutation|2|||cationic_peptide_sensor_histidine_kinase_CprS	cprS	3005064	ncbi
-0|WP_003107312.1|1|1|mexB|mexB|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_MexB	MexB	3000378	ncbi
-0|WP_003112576.1|1|1|oprD|oprD|mutation|2|||outer_membrane_porin_OprD	BES-1	3004751	ncbi
-0|WP_003112801.1|1|1|mexD|mexD|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_MexD	MexD	3000801	ncbi
-0|WP_003112844.1|1|1|ampD|ampD|mutation|2|||beta-lactamase_expression_regulator_AmpD	mtrD	3000811	ncbi
-0|WP_003112923.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
-0|WP_003113318.1|1|1|czcS|czcS|mutation|2|||sensor_histidine_kinase_czcS	basS	3003583	ncbi
-0|WP_003113589.1|1|1|parS|parS|mutation|2|||sensor_histidine_kinase_ParS	ParS	3005067	ncbi
-0|WP_003113837.1|1|1|nalC|nalC|mutation|2|||efflux_system_transcriptional_repressor_NalC	nalC	3000818	ncbi
-0|WP_003114897.1|1|1|mexR|mexR|mutation|2|||MarR_family_transcriptional_repressor_MexR	MexR	3000506	ncbi
-0|WP_003137572.1|1|1|ampR|ampR|mutation|2|||transcriptional_regulator_AmpR	NmcR	3003665	ncbi
-0|WP_003429305.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Salmonella enterica gyrA conferring resistance to fluoroquinolones	3003926	ncbi
-0|WP_003429485.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	cfrC	3004146	ncbi
-0|WP_003434229.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-0|WP_003436174.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Staphylococcus aureus rpoB mutants conferring resistance to rifampicin	3003285	ncbi
-0|WP_003436401.1|1|1|vanR-Cd|vanR-Cd|mutation|2|||vancomycin_resistance_response_regulator_transcription_factor_VanR-G-Cd	vanR gene in vanG cluster	3002926	ncbi
-0|WP_003687357.1|1|1|ponA|ponA|mutation|2|||penicillin-binding_protein_1_PonA	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	ncbi
-0|WP_003688264.1|1|1|rpoD|rpoD|mutation|2|||RNA_polymerase_sigma_factor_RpoD	Burkholderia pseudomallei Omp38	3004123	ncbi
-0|WP_003688895.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_003690088.1|1|1|rplD|rplD|mutation|2|||50S_ribosomal_protein_L4	Erm(K)	3004643	ncbi
-0|WP_003690105.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
-0|WP_003691666.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-0|WP_003693546.1|1|1|penA|penA|mutation|2|||penicillin-binding_protein_2_PenA	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_003702942.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	sul3	3000413	ncbi
-0|WP_004103997.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_004105833.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
-0|WP_004140292.1|1|1|lapB|lapB|mutation|2|||lipopolysaccharide_assembly_protein_LapB	BJP-1	3000856	ncbi
-0|WP_004141771.1|1|1|ompK35|ompK35|mutation|2|||outer_membrane_porin_OmpK35	Klebsiella pneumoniae OmpK37	3004122	ncbi
-0|WP_004176968.1|1|1|ramR|ramR|mutation|2|||TetR/AcrR_family_transcriptional_regulator_RamR	AcrS	3000656	ncbi
-0|WP_004186718.1|1|1|dut|dut|mutation|2|||dUTP_diphosphatase_Dut	tet(41)	3000569	ncbi
-0|WP_004193008.1|1|1|yciV|yciV|mutation|2|||PHP_domain-containing_protein_YciV	MCR-10.5	3007274	ncbi
-0|WP_004193055.1|1|1|amrR|amrR|mutation|2|||TetR_family_transcriptional_regulator_AmrR	MexZ	3003709	ncbi
-0|WP_004526226.1|1|1|bpeR|bpeR|mutation|2|||TetR_family_transcriptional_regulator_BpeR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
-0|WP_004527513.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_005119692.1|1|1|baeS|baeS|mutation|2|||two-component_system_sensor_histidine_kinase_BaeS	smeS	3003067	ncbi
-0|WP_005482017.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	AAC(2')-Ia	3002523	ncbi
-0|WP_006490721.1|1|1|ampD|ampD|mutation|2|||1,6-anhydro-N-acetylmuramyl-L-alanine_amidase_AmpD	vanS gene in vanP cluster	3007192	ncbi
-0|WP_006764872.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_010445819.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Escherichia coli parE conferring resistance to fluoroquinolones	3003316	ncbi
-0|WP_010895622.1|1|1|mexT|mexT|mutation|2|||LysR_substrate-binding_domain-containing_protein_MexT	MexT	3000814	ncbi
-0|WP_010951227.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	ncbi
-0|WP_011078689.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	AAC(2')-Ia	3002523	ncbi
-0|WP_011861625.1|1|1|murG|murG|mutation|2|||undecaprenyldiphospho-muramoylpentapeptide_beta-N-acetylglucosaminyltransferase_MurG	mgtA	3000462	ncbi
-0|WP_013097903.1|1|1|baeS|baeS|mutation|2|||two-component_system_sensor_histidine_kinase_BaeS	baeS	3000829	ncbi
-0|WP_013098009.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_013098723.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
-0|WP_014614750.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
-0|WP_016532398.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_016729515.1|1|1|mreE|mreE|mutation|2|||penicillin-binding_protein_MreE	mecB	3003440	ncbi
-0|WP_019167736.1|1|1|grlA|grlA|mutation|2|||DNA_topoisomerase_GrlA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_023312417.1|1|1|baeS|baeS|mutation|2|||two-component_system_sensor_histidine_kinase_BaeS	baeS	3000829	ncbi
-0|WP_028127742.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_031946942.1|1|1|pmrC|pmrC|mutation|2|||phosphoethanolamine--lipid_A_transferase_PmrC	eptA	3003576	ncbi
-0|WP_047924300.1|1|1|mtrR|mtrR|mutation|2|||multidrug_efflux_system_transcriptional_repressor_MtrR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
-0|WP_050171206.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Morganella morganii gyrB conferring resistance to fluoroquinolones	3003306	ncbi
-0|WP_070676928.1|1|1|pbp5|pbp5|mutation|2|||penicillin-binding_protein_5	mecA	3000617	ncbi
-0|WP_077233793.1|1|1|amrR|amrR|mutation|2|||TetR_family_transcriptional_regulator_AmrR	MexZ	3003709	ncbi
-0|WP_089631889.1|1|1|nfsA|nfsA|mutation|2|||nitroreductase_NfsA	MCR-6.1	3004501	ncbi
-0|WP_103263503.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_106333382.1|1|1|porB1b|porB1b|mutation|2|||major_outer_membrane_protein_porin_P.IB	Burkholderia pseudomallei Omp38	3004123	ncbi
-1011600567|WP_002389492.1|1|1|gshF|gshF|mutation|2|||bifunctional_glutamate--cysteine_ligase/glutathione_synthetase_GshF	vanG	3002909	ncbi
-1196722489|WP_086259262.1|1|1|acrB|acrB|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_AcrB	acrB	3000216	ncbi
-1236597042|WP_094970923.1|1|1|basR|basR|mutation|2|||two-component_system_response_regulator_BasR	arlR	3000838	ncbi
-1327477942|WP_101982161.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
-1409065054|WP_111724484.1|1|1|mprF|mprF|mutation|2|||bifunctional_lysylphosphatidylglycerol_flippase/synthetase	Bacillus subtilis mprF	3003324	ncbi
-1467848013|WP_117036963.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-1511861430|WP_123090655.1|1|1|pbp4|pbp4|mutation|2|||D-alanyl-D-alanine_carboxypeptidase	ARL-5	3004738	ncbi
-16128448|WP_000101737.1|1|1|acrR|acrR|mutation|2|||transcriptional_regulator_AcrR	Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime	3003807	ncbi
-16131218|WP_000031783.1|1|1|tufA|tufA|mutation|2|||translation_elongation_factor_EF-Tu_1	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin	3003369	ncbi
-16131888|WP_000019358.1|1|1|soxS|soxS|mutation|2|||regulatory_protein_SoxS	Escherichia coli soxS with mutation conferring antibiotic resistance	3003511	ncbi
-1635689237|WP_137277832.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-16505254|WP_000412686.1|1|1|soxR|soxR|mutation|2|||redox-sensitive_transcriptional_activator_SoxR	Escherichia coli soxR with mutation conferring antibiotic resistance	3003381	ncbi
-16767515|WP_000019483.1|1|1|soxS|soxS|mutation|2|||regulatory_protein_SoxS	Escherichia coli soxS with mutation conferring antibiotic resistance	3003511	ncbi
-1789396|WP_001281881.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
-1790498|WP_000412428.1|1|1|soxR|soxR|mutation|2|||redox-sensitive_transcriptional_activator_SoxR	Escherichia coli soxR with mutation conferring antibiotic resistance	3003381	ncbi
-197212833|WP_000113609.1|1|1|ramR|ramR|mutation|2|||TetR/AcrR_family_transcriptional_regulator_RamR	MexL	3003710	ncbi
-218562643|WP_002857904.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-218563288|WP_002851214.1|1|1|50S_L22|50S_L22|mutation|2|||50S_ribosomal_protein_L22	ANA-1	3006896	ncbi
-29342129|WP_002356022.1|1|1|yybT|yybT|mutation|2|||cyclic_dinucleotide_phosphodiesterase_YybT	SAT-3	3002898	ncbi
-29344842|WP_002355137.1|1|1|liaR|liaR|mutation|2|||response_regulator_transcription_factor_LiaR	evgA	3000832	ncbi
-29344843|WP_002365182.1|1|1|liaS|liaS|mutation|2|||sensor_histidine_kinase_LiaS	basS	3003583	ncbi
-327534217|WP_002413481.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	OpmD	3000809	ncbi
-388533369|WP_002289154.1|1|1|liaS|liaS|mutation|2|||sensor_histidine_kinase_LiaS	evgS	3000833	ncbi
-388533370|WP_002289153.1|1|1|liaR|liaR|mutation|2|||response_regulator_transcription_factor_LiaR	evgA	3000832	ncbi
-446012460|WP_000090315.1|1|1|fusA|fusA|mutation|2|||elongation_factor_G	tet(T)	3000193	ncbi
-446038595|WP_000116450.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-446060493|WP_000138348.1|1|1|pbp2|pbp2|mutation|2|||penicillin-binding_protein	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-446097897|WP_000175752.1|1|1|dfrB|dfrB|mutation|2|||dihydrofolate_reductase	dfrC	3002865	ncbi
-446117463|WP_000195318.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-446124404|WP_000202259.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Acinetobacter baumannii parC conferring resistance to fluoroquinolones	3003818	ncbi
-446150081|WP_000227936.1|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-446185243|WP_000263098.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
-446300587|WP_000378442.1|1|1|emrR|emrR|mutation|2|||multidrug_efflux_transporter_EmrAB_transcriptional_repressor_EmrR	emrR	3000516	ncbi
-446306851|WP_000384706.1|1|1|ileS|ileS|mutation|2|||isoleucine--tRNA_ligase	Staphylococcus aureus mupB conferring resistance to mupirocin	3000510	ncbi
-446687385|WP_000764731.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	sul4	3004361	ncbi
-446741828|WP_000819084.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-447055251|WP_001132507.1|1|1|acrB|acrB|mutation|2|||multidrug_efflux_RND_transporter_permease_subunit_AcrB	acrB	3000216	ncbi
-447203987|WP_001281243.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-447204654|WP_001281910.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	BcIII	3007101	ncbi
-481023861|WP_001295325.1|1|1|lon|lon|mutation|2|||Lon_protease	lsaD	3005121	ncbi
-485656629|WP_001300761.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
-487566233|WP_001718014.1|1|1|fabG|fabG|mutation|2|||beta-ketoacyl-ACP_reductase_FabG	ECV-1	3006883	ncbi
-487755227|WP_001836116.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-488300672|WP_002371880.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-488932020|WP_002843095.1|1|1|cmeR|cmeR|mutation|2|||multidrug_efflux_system_transcriptional_regulator_CmeR	cmeR	3000526	ncbi
-488984872|WP_002895659.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	cprR	3005063	ncbi
-489000713|WP_002911375.1|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	mdtC	3000794	ncbi
-490249900|WP_004147969.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	baeS	3000829	ncbi
-490252783|WP_004150807.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	kdpE	3003841	ncbi
-490283234|WP_004179093.1|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
-490288705|WP_004184324.1|1|1|crrB|crrB|mutation|2|||HAMP_domain-containing_histidine_kinase_CrrB	adeS	3000549	ncbi
-49240387|WP_010956585.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-49240401|WP_000871610.1|1|1|walK|walK|mutation|2|||cell_wall_metabolism_sensor_histidine_kinase_WalK	arlS	3000839	ncbi
-49240583|WP_001008722.1|1|1|uhpT|uhpT|mutation|2|||hexose_phosphate_transporter_UhpT	emeA	3003551	ncbi
-49240901|WP_000918664.1|1|1|rpoB|rpoB|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoB	Mycobacterium tuberculosis rpoB mutants conferring resistance to rifampicin	3003283	ncbi
-49240902|WP_000567963.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	optrA	3003746	ncbi
-499327248|WP_011017740.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	sul4	3004361	ncbi
-504719719|WP_014906821.1|1|1|arnC|arnC|mutation|2|||undecaprenyl-phosphate_4-deoxy-4-formamido-L-arabinose_transferase_ArnC	PmrF	3003578	ncbi
-516243141|WP_017647104.1|1|1|pbp2x|pbp2x|mutation|2|||penicillin-binding_protein_2X	Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin	3003043	ncbi
-557272689|WP_000623140.1|1|1|ptsI|ptsI|mutation|2|||phosphoenolpyruvate--protein_phosphotransferase_PtsI	rphB	3003992	ncbi
-557273012|WP_000281668.1|1|1|cyaA|cyaA|mutation|2|||adenylate_cyclase_CyaA	MexJ	3003692	ncbi
-557273135|WP_000633668.1|1|1|uhpA|uhpA|mutation|2|||DNA-binding_response_regulator_UhpA	evgA	3000832	ncbi
-557273138|WP_000879194.1|1|1|uhpT|uhpT|mutation|2|||hexose_phosphate_transporter_UhpT	rosA	3003048	ncbi
-57284959|WP_000358006.1|1|1|murA|murA|mutation|2|||UDP-N-acetylglucosamine_1-carboxyvinyltransferase_MurA	Chlamydia trachomatis intrinsic murA conferring resistance to fosfomycin	3003785	ncbi
-667758283|WP_031379793.1|1|1|adeS|adeS|mutation|2|||two-component_sensor_histidine_kinase_AdeS	adeS	3000549	ncbi
-667758284|WP_031379794.1|1|1|adeR|adeR|mutation|2|||efflux_system_response_regulator_transcription_factor_AdeR	adeR	3000553	ncbi
-674300809|WP_000357259.1|1|1|murA|murA|mutation|2|||UDP-N-acetylglucosamine_1-carboxyvinyltransferase_MurA	Staphylococcus aureus murA with mutation conferring resistance to fosfomycin	3003776	ncbi
-685632466|WP_001289586.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-694121701|WP_032462817.1|1|1|pbp2x|pbp2x|mutation|2|||penicillin-binding_protein_2X	Streptococcus pneumoniae PBP2x conferring resistance to amoxicillin	3003043	ncbi
-723059797|WP_033554192.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-769549125|WP_002779062.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-85676345|WP_000072067.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-87081927|WP_000843414.1|1|1|marR|marR|mutation|2|||transcriptional_regulator_MarR	Escherichia coli AcrAB-TolC with MarR mutations conferring resistance to ciprofloxacin and tetracycline	3003378	ncbi
-87203547|WP_000571549.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	Enterococcus faecium cls conferring resistance to daptomycin	3003092	ncbi
-941950587|WP_002289473.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	acrD	3000491	ncbi
-949628753|WP_057042458.1|1|1|rpsL|rpsL|mutation|2|||30S_ribosomal_protein_S12_RpsL	APH(2'')-Ig	3002669	ncbi
-985479976|WP_002295408.1|1|1|liaF|liaF|mutation|2|||three-component_signaling_pathway_regulator_LiaF	vanT gene in vanN cluster	3002975	ncbi
-0|WP_000872264.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X59	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872267.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X2	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872270.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X4	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872271.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X0	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872273.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X10	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872275.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X3	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872277.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X6	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_000872282.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X5	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_001039998.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A1	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001040004.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A3	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001040010.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A2	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001040013.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A0	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_001224867.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B0	mecA	3000617	ncbi
-0|WP_001224871.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B3	mecA	3000617	ncbi
-0|WP_001224884.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B2	mecA	3000617	ncbi
-0|WP_001224885.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B6	mecA	3000617	ncbi
-0|WP_001224886.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B4	mecA	3000617	ncbi
-0|WP_003703066.1|1|1|pbp2|pbp2|susceptible|2|||penicillin-binding_protein_PBP2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_033707918.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X23	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_050078510.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A11	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_050208712.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A12	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_050293540.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X27	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_054364452.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X12	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_054370471.1|1|1|pbp1a|pbp1a|susceptible|2|||penicillin-binding_protein_PBP1A9	Helicobacter pylori pbp1 mutants conferring resistance to amoxicillin	3007060	ncbi
-0|WP_061634854.1|1|1|pbp2b|pbp2b|susceptible|2|||penicillin-binding_protein_PBP2B5	mecA	3000617	ncbi
-0|WP_061745305.1|1|1|pbp2x|pbp2x|susceptible|2|||penicillin-binding_protein_PBP2X17	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	ncbi
-0|WP_002912926.1:253:cirA_Y253CfsTer5ins7|1|1|cirA|cirA|mutation|2|||catecholate_siderophore_receptor_CirA	GOB-42	3005691	ncbi
-0|WP_000642196.1:336:ftsI_I336IKYRI|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_000642196.1:336:ftsI_I336IPYRI|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-0|WP_000642196.1:337:ftsI_N337NYRIN|1|1|ftsI|ftsI|mutation|2|||penicillin-binding_protein_PBP3_FtsI	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	ncbi
-485656629|WP_001300761.1:6:pmrB_RPISLR6del|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
-0|WP_002215424.1:83:rplV_K83KKGPSLK|1|1|rplV|rplV|mutation|2|||50S_ribosomal_protein_L22	mexN	3003705	ncbi
-0|WP_002215424.1:90:rplV_K90KARAK|1|1|rplV|rplV|mutation|2|||50S_ribosomal_protein_L22	mexN	3003705	ncbi
-489000713|WP_002911375.1:47:mgrB_W47R|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	mdtC	3000794	ncbi
-490283234|WP_004179093.1:129:pmrB_ALNQLV129del|1|1|pmrB|pmrB|mutation|2|||two-component_system_sensor_histidine_kinase_PmrB	basS	3003583	ncbi
-0|WP_004193008.1:107:yciV_DALAALG107del|1|1|yciV|yciV|mutation|2|||PHP_domain-containing_protein_YciV	MCR-10.5	3007274	ncbi
-2465785|AAC45722.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
-253721162|ACT33471.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
-290430|AAA23736.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
-41157|CAA34816.1|1|1|cstB|cstB||1|||CS3_fimbrial_usher_protein_CstB	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	ncbi
-4335916|AAD17515.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
-871816|AAA69514.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin	Klebsiella pneumoniae lamB with mutations conferring resistance to ceftazidime-avibactam	3007420	ncbi
-0|WP_000351450.1|1|1|nfsB|nfsB|mutation|2|||oxygen-insensitive_NAD(P)H_nitroreductase_NfsB	Helicobacter pylori rdxA mutation conferring resistance to metronidazole	3007055	ncbi
-0|WP_001281183.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_005494728.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-0|WP_039540073.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-1442954517|WP_115256011.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-445994192|WP_000072047.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-487756832|WP_001837315.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	Clostridioides difficile gyrB conferring resistance to fluoroquinolones	3004562	ncbi
-727330535|WP_033785346.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	Clostridioides difficile gyrA conferring resistance to fluoroquinolones	3003995	ncbi
-1433476833|RCV70079.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi
-2765303|CAA73667.1|1|1|lukE|lukE||1|||bi-component_leukocidin_LukED_subunit_E	tetR	3003479	ncbi

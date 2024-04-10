@@ -139,11 +139,11 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
-        if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
+        if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot', 'resfinderfg']:
             raise Exception(f'{database} is not a supported database.')
         
-        if not is_hamronized and database == 'sarg':
-            raise Exception(f'sarg is not a supported database for raw files.')
+        if not is_hamronized and database in ['sarg', 'resfinderfg']:
+            raise Exception(f'{database} is not a supported database for raw files.')
 
         super().__init__(database, is_hamronized)
         self.tool = 'abricate'
@@ -156,7 +156,8 @@ class AbricateNormalizer(BaseNormalizer):
             resfinder='gene_symbol',
             sarg='gene_symbol',
             megares='reference_accession',
-            argannot='reference_accession'
+            argannot='reference_accession',
+            resfinderfg='gene_name'
         )
         else:
             gene_col_by_db = dict(
@@ -168,6 +169,19 @@ class AbricateNormalizer(BaseNormalizer):
         )
         self._input_gene_col = gene_col_by_db[self.database]
 
+
+    def preprocess_input_genes(self, input_genes):
+        process_funcs_by_db = dict(
+            ncbi=lambda x: x,
+            deeparg=lambda x: x,
+            resfinder=lambda x: x,
+            sarg=lambda x: x,
+            megares=lambda x: x,
+            argannot=lambda x: x,
+            resfinderfg=lambda x: x.split('|')[1]
+        )
+        return input_genes.apply(process_funcs_by_db[self.database])
+
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
             ncbi=lambda x: x.split('|')[5],
@@ -175,6 +189,7 @@ class AbricateNormalizer(BaseNormalizer):
             resfinder=lambda x: '_'.join(x.split('_')[:-1]),
             sarg=lambda x: x,
             megares=lambda x: x.split('|')[0],
-            argannot=lambda x: x.split('~~~')[-1]
+            argannot=lambda x: x.split('~~~')[-1],
+            resfinderfg=lambda x: x.split('|')[1]
         )
         return ref_genes.apply(process_funcs_by_db[self.database])

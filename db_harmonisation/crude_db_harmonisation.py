@@ -21,30 +21,17 @@ def download_file(url, ofile):
 
 def get_resfinderfg_db():
     url = 'https://raw.githubusercontent.com/RemiGSC/ResFinder_FG_Construction/606b4768433079d55f5b179219e080a45bf59dfc/output/RFG_db/ResFinder_FG.faa'
-    return download_file(url, 'dbs/resfinder_fg.faa')
+    return download_file(url, 'dbs/resfinderfg.faa')
 
 def get_ncbi_db():
     ofile = 'dbs/ncbi_amr_raw.faa'
     url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt'
     return download_file(url, ofile)
 
-@TaskGenerator
 def get_resfinder_db():
-    from glob import glob
-    with tempfile.TemporaryDirectory() as tmpdir:
-        clonedir = f'{tmpdir}/resfinder_db'
-        subprocess.check_call(
-            ['git', 'clone', 'https://bitbucket.org/genomicepidemiology/resfinder_db', clonedir])
-
-        fsa_files = glob(f'{clonedir}/*.fsa')
-        assert len(fsa_files) > 0, "No fsa files found"
-
-        with open('dbs/resfinder.fna', 'w') as f:
-            for file in fsa_files:
-                with open(file) as f2:
-                    f.write(f2.read())
-
-    return 'dbs/resfinder.fna'
+    ofile = 'dbs/resfinder.fna'
+    url = 'https://bitbucket.org/genomicepidemiology/resfinder_db/raw/8aad1d20603fbec937cdae55024568de6dbd609f/all.fsa'
+    return download_file(url, ofile)
 
 @TaskGenerator
 def get_sarg_db():
@@ -85,7 +72,7 @@ def fix_ncbi(ncbi_amr_faa):
 
 @TaskGenerator
 def run_rgi(fa):
-    from get_mapping_table import get_aro_for_hits
+    from .get_mapping_table import get_aro_for_hits
 
     db_name = path.basename(fa).split('.')[0]
 
