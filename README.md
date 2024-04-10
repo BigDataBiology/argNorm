@@ -40,7 +40,7 @@ pip install argnorm
 
 argNorm can also be installed through conda:
 ```
-conda install bioconda::argnorm
+conda install -c bioconda -c conda-forge argnorm
 ```
 
 ## Supported tools
