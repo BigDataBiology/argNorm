@@ -213,6 +213,13 @@ class AbricateNormalizer(BaseNormalizer):
             resfinderfg=lambda x: x.split('|')[1]
         )
         return input_genes.apply(process_funcs_by_db[self.database])
+    
+    def preprocess_argannot_ref_genes(self, ref_gene):
+        split_str = ref_gene.split(':')
+        if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
+            return ':'.join([split_str[1], split_str[3]])
+        
+        return ':'.join(ref_gene.split(':')[1:3])
 
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
@@ -221,7 +228,7 @@ class AbricateNormalizer(BaseNormalizer):
             resfinder=lambda x: '_'.join(x.split('_')[:-1]),
             sarg=lambda x: x,
             megares=lambda x: x.split('|')[0],
-            argannot=lambda x: x.split('~~~')[-1],
+            argannot=self.preprocess_argannot_ref_genes,
             resfinderfg=lambda x: x.split('|')[1]
         )
         return ref_genes.apply(process_funcs_by_db[self.database])
