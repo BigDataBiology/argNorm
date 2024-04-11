@@ -36,7 +36,7 @@ def get_aro_for_hits(fa, rgi_output, database):
     elif database == 'resfinder_fg':
         rgi_hits['Original ID'] = rgi_hits['ORF_ID']
     elif database == 'argannot':
-        rgi_hits['Original ID'] = rgi_hits['Contig'].apply(lambda x: '_'.join(x.split('_')[:-1]))
+        rgi_hits['Original ID'] = rgi_hits['ORF_ID']
     elif database == 'megares':
         rgi_hits['Original ID'] = rgi_hits['Contig'].apply(lambda x: '_'.join(x.split('_')[:-1]))
     else:
