@@ -32,3 +32,10 @@
 - Initial source code started
 - Normalizers: added BaseNormalizer, ARGSOAPNormalizer, DeepARGNormalizer, AbricateNormalizer
 - Testing: added basic ARO column test
+
+## Unreleased
+
+### Using amino acid file for argannot rather than nucleotide file
+- ARG-ANNOT is comprised of coding sequences. The data wasn't being handled properly before as contig mode was used when passing coding sequences to RGI. Now, the amino acid version of ARG-ANNOT is used with protein mode when running the database in RGI.
+- One to many ARO mapping such as NG_047831:101-955 to Erm(K) and almG eliminated as protein mode used
+- A total of 10 ARO mappings changed
