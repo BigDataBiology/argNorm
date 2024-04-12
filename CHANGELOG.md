@@ -35,6 +35,10 @@
 
 ## Unreleased
 
+### Using amino acid file for argannot rather than nucleotide file
+- ARG-ANNOT is comprised of coding sequences. The data wasn't being handled properly before as contig mode was used when passing coding sequences to RGI. Now, the amino acid version of ARG-ANNOT is used with protein mode when running the database in RGI.
+- One to many ARO mapping such as NG_047831:101-955 to Erm(K) and almG eliminated as protein mode used
+- A total of 10 ARO mappings changed
 ### argnorm.lib: Making argNorm more usable as a library 
 - A file called `lib.py` will be introduced so that users can use argNorm as a library more easily.
 - Users can import the `map_to_aro` function using `from argnorm.lib import map_to_aro`. The function takes a gene name as input, maps the gene to the ARO and returns a pronto term object with the ARO mapping.
