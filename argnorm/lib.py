@@ -16,12 +16,6 @@ def is_number(num):
 
     return True
 
-def get_data_path(path, getting_manual_curation):
-    if getting_manual_curation:
-        return os.path.join(_ROOT, 'data/manual_curation', path)
-
-    return os.path.join(_ROOT, 'data', path)
-
 def get_aro_mapping_table(database):
     df = pd.read_csv(os.path.join(_ROOT, 'data', f'{database}_ARO_mapping.tsv'), sep='\t')
 
