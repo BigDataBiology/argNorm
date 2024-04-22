@@ -5,6 +5,8 @@ import requests
 import os
 from os import path
 import tempfile
+from Bio import SeqIO
+from Bio.Seq import translate, Seq
 
 @TaskGenerator
 def create_out_dirs():
@@ -58,15 +60,22 @@ def get_megares_db():
 
 @TaskGenerator
 def fix_ncbi(ncbi_amr_faa):
-    from Bio import SeqIO
-    from Bio.Seq import Seq
-
     ofile = './dbs/ncbi.faa'
     with open(ncbi_amr_faa) as original, \
             open(ofile, 'w') as corrected:
         for record in SeqIO.parse(ncbi_amr_faa, 'fasta'):
             record.seq = Seq(str(record.seq).replace("*", ""))
             SeqIO.write(record, corrected, 'fasta')
+
+    return ofile
+
+@TaskGenerator
+def fna_to_faa(ifile):
+    ofile = f'./dbs/resfinder.faa'
+    with open(ifile) as original, open(ofile, 'w') as output:
+        for record in SeqIO.parse(original, 'fasta'):
+            record.seq = Seq(str(translate(record.seq)).replace('*', ''))
+            SeqIO.write(record, output, 'fasta')
 
     return ofile
 
@@ -88,7 +97,7 @@ def run_rgi(fa):
 
     subprocess.check_call(
         [
-            'rgi', 
+            'rgi',
             'main',
             '-i', fa,
             '-o', rgi_ofile,
@@ -109,7 +118,7 @@ def move_mappings_to_argnorm(aro_mapping):
 create_out_dirs()
 barrier()
 for db in [
-        get_resfinder_db(),
+        fna_to_faa(get_resfinder_db()),
         fix_ncbi(get_ncbi_db()),
         get_sarg_db(),
         get_resfinderfg_db(),

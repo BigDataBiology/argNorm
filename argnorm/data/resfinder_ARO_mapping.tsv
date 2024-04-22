@@ -22,94 +22,43 @@ TOprJ2_1_MN175502	OprJ	3000802	resfinder
 TOprJ3_1_LC633285	OprJ	3000802	resfinder
 TOprJ4_1_CP091084	OprJ	3000802	resfinder
 VanA_bc_1_Y15704	vanA	3000010	resfinder
-VanC1XY_1_AF162694	vanXY gene in vanC cluster	3002966	resfinder
 VanC1XY_1_AF162694	vanC	3000368	resfinder
 VanC1XY_2_DQ022190	vanC	3000368	resfinder
-VanC1XY_2_DQ022190	vanXY gene in vanC cluster	3002966	resfinder
-VanC2XY_1_EU151754	vanXY gene in vanC cluster	3002966	resfinder
 VanC2XY_1_EU151754	vanC	3000368	resfinder
-VanC2XY_2_EU151755	vanXY gene in vanC cluster	3002966	resfinder
 VanC2XY_2_EU151755	vanC	3000368	resfinder
-VanC2XY_3_EU151757	vanXY gene in vanC cluster	3002966	resfinder
 VanC2XY_3_EU151757	vanC	3000368	resfinder
 VanC2XY_4_EU151758	vanC	3000368	resfinder
-VanC2XY_4_EU151758	vanXY gene in vanC cluster	3002966	resfinder
 VanC2XY_5_EU151760	vanC	3000368	resfinder
-VanC2XY_5_EU151760	vanXY gene in vanC cluster	3002966	resfinder
 VanC2_1_L29638	vanC	3000368	resfinder
-VanC3XY_1_AY033764	vanXY gene in vanC cluster	3002966	resfinder
 VanC3XY_1_AY033764	vanC	3000368	resfinder
-VanC3XY_2_EU151759	vanXY gene in vanC cluster	3002966	resfinder
 VanC3XY_2_EU151759	vanC	3000368	resfinder
-VanC4XY_1_EU151752	vanXY gene in vanC cluster	3002966	resfinder
 VanC4XY_1_EU151752	vanC	3000368	resfinder
-VanC4XY_2_EU151753	vanXY gene in vanC cluster	3002966	resfinder
 VanC4XY_2_EU151753	vanC	3000368	resfinder
 VanC4XY_3_EU151756	vanC	3000368	resfinder
-VanC4XY_3_EU151756	vanXY gene in vanC cluster	3002966	resfinder
 VanEXY_1_FJ872411	vanE	3002907	resfinder
-VanEXY_1_FJ872411	vanXY gene in vanE cluster	3002967	resfinder
 VanE_1_AF136925	vanE	3002907	resfinder
 VanG2XY_1_FJ872410	vanG	3002909	resfinder
-VanG2XY_1_FJ872410	vanXY gene in vanG cluster	3003069	resfinder
 VanGXY_1_AY271782	vanG	3002909	resfinder
-VanGXY_1_AY271782	vanXY gene in vanG cluster	3003069	resfinder
 VanHAX_1_FJ866609	vanH gene in vanA cluster	3002942	resfinder
-VanHAX_1_FJ866609	vanA	3000010	resfinder
-VanHAX_1_FJ866609	vanX gene in vanA cluster	3002949	resfinder
 VanHAX_2_M97297	vanH gene in vanA cluster	3002942	resfinder
-VanHAX_2_M97297	vanA	3000010	resfinder
-VanHAX_2_M97297	vanX gene in vanA cluster	3002949	resfinder
-VanHAX_PA_1_DQ018711	vanX gene in vanA cluster	3002949	resfinder
-VanHAX_PA_1_DQ018711	vanA	3000010	resfinder
 VanHAX_PA_1_DQ018711	vanH gene in vanF cluster	3002945	resfinder
-VanHAX_PT_1_DQ018710	vanA	3000010	resfinder
-VanHAX_PT_1_DQ018710	vanX gene in vanA cluster	3002949	resfinder
 VanHAX_PT_1_DQ018710	vanH gene in vanA cluster	3002942	resfinder
 VanHAX_PT_2_AY926880	vanH gene in vanA cluster	3002942	resfinder
-VanHAX_PT_2_AY926880	vanA	3000010	resfinder
-VanHAX_PT_2_AY926880	vanX gene in vanA cluster	3002949	resfinder
-VanHBX_1_AF192329	vanX gene in vanB cluster	3002950	resfinder
 VanHBX_1_AF192329	vanH gene in vanB cluster	3002943	resfinder
-VanHBX_1_AF192329	vanB	3000013	resfinder
-VanHBX_2_U35369	vanX gene in vanB cluster	3002950	resfinder
-VanHBX_2_U35369	vanB	3000013	resfinder
 VanHBX_2_U35369	vanH gene in vanB cluster	3002943	resfinder
-VanHDX_1_AF130997	vanD	3000005	resfinder
 VanHDX_1_AF130997	vanH gene in vanD cluster	3002944	resfinder
-VanHDX_1_AF130997	vanX gene in vanD cluster	3003070	resfinder
-VanHDX_2_EU999036	vanX gene in vanD cluster	3003070	resfinder
-VanHDX_2_EU999036	vanD	3000005	resfinder
 VanHDX_2_EU999036	vanH gene in vanD cluster	3002944	resfinder
 VanHDX_3_AF175293	vanH gene in vanD cluster	3002944	resfinder
-VanHDX_3_AF175293	vanD	3000005	resfinder
-VanHDX_3_AF175293	vanX gene in vanD cluster	3003070	resfinder
-VanHDX_4_AY082011	vanX gene in vanD cluster	3003070	resfinder
-VanHDX_4_AY082011	vanD	3000005	resfinder
 VanHDX_4_AY082011	vanH gene in vanD cluster	3002944	resfinder
-VanHDX_5_AY489045	vanX gene in vanD cluster	3003070	resfinder
-VanHDX_5_AY489045	vanD	3000005	resfinder
 VanHDX_5_AY489045	vanH gene in vanD cluster	3002944	resfinder
 VanHDX_6_DQ172830	vanH gene in vanD cluster	3002944	resfinder
-VanHDX_6_DQ172830	vanD	3000005	resfinder
-VanHDX_6_DQ172830	vanX gene in vanD cluster	3003070	resfinder
-VanHDX_7_AB242319	vanX gene in vanD cluster	3003070	resfinder
-VanHDX_7_AB242319	vanD	3000005	resfinder
 VanHDX_7_AB242319	vanH gene in vanD cluster	3002944	resfinder
-VanHFX_1_AF155139	vanF	3002908	resfinder
-VanHFX_1_AF155139	vanX gene in vanF cluster	3002952	resfinder
 VanHFX_1_AF155139	vanH gene in vanF cluster	3002945	resfinder
-VanHMX_1_FJ349556	vanM	3002911	resfinder
-VanHMX_1_FJ349556	vanX gene in vanM cluster	3002953	resfinder
 VanHMX_1_FJ349556	vanH gene in vanM cluster	3002947	resfinder
 VanHOX_1_KF478993	vanH gene in vanO cluster	3002948	resfinder
-VanHOX_1_KF478993	vanO	3002913	resfinder
-VanHOX_1_KF478993	vanX gene in vanO cluster	3002954	resfinder
 VanH_bc_1_Y15705	vanH gene in vanA cluster	3002942	resfinder
 VanLXY_1_EU250284	vanL	3002910	resfinder
-VanLXY_1_EU250284	vanXY gene in vanL cluster	3002968	resfinder
 VanNXY_1_JF802084	vanN	3002912	resfinder
-VanNXY_1_JF802084	vanXY gene in vanN cluster	3002969	resfinder
 VanXY_C2_1_AY033089	vanXY gene in vanC cluster	3002966	resfinder
 VanX_bc_1_Y15708	vanX gene in vanA cluster	3002949	resfinder
 aac(2')-IIa_1_AB669090	AAC(2')-IIa	3004628	resfinder
@@ -152,9 +101,9 @@ aac(3)-VIIa_1_M22999	AAC(3)-VIIa	3002541	resfinder
 aac(3)-VIa_1_M88012	AAC(3)-VIa	3002540	resfinder
 aac(3)-VIa_2_NC_009838	AAC(3)-VIa	3002540	resfinder
 aac(3)-XI_1_CTEG01000046	AAC(6')-Iap	3007204	resfinder
-aac(3)-Xa_1_AB028210	AAC(3)-Xa	3002544	resfinder
-aac(6')-29a_1_AF263519	mdtN	3003548	resfinder
-aac(6')-29b_1_AF263519	mdtN	3003548	resfinder
+aac(3)-Xa_1_AB028210	gimA	3000463	resfinder
+aac(6')-29a_1_AF263519	AAC(6')-29a	3002583	resfinder
+aac(6')-29b_1_AF263519	AAC(6')-29a	3002583	resfinder
 aac(6')-30-aac(6')-Ib'_1_AJ584652	AAC(6')-30/AAC(6')-Ib' bifunctional protein	3002599	resfinder
 aac(6')-31_1_AM283489	AAC(6')-31	3002585	resfinder
 aac(6')-32_1_EF614235	AAC(6')-32	3002586	resfinder
@@ -268,7 +217,7 @@ ant(2'')-Ia_6_AJ871915	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_7_DQ018384	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_8_AY920928	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_9_HM367610	ANT(2'')-Ia	3000230	resfinder
-ant(3'')-Ia_1_X02340	aadA	3002601	resfinder
+ant(3'')-Ia_1_X02340	ANT(3'')-IIa	3004089	resfinder
 ant(3'')-Ii-aac(6')-IId_1_AF453998	ANT(3'')-II-AAC(6')-IId bifunctional protein	3002598	resfinder
 ant(4')-IIa_1_M98270	ANT(4')-IIa	3002624	resfinder
 ant(4')-IIb_1_AY114142	ANT(4')-IIb	3002625	resfinder
@@ -355,7 +304,7 @@ aph(9)-Ia_2_CR628337	APH(9)-Ia	3002662	resfinder
 aph(9)-Ib_1_U70376	APH(9)-Ib	3002663	resfinder
 armA_1_AY220558	armA	3000858	resfinder
 blaACC-1_1_AJ133121	ACC-1	3001815	resfinder
-blaACC-1_2_HG530658	ACC-1	3001815	resfinder
+blaACC-1_2_HG530658	ACC-1a	3006228	resfinder
 blaACC-1a_1_AF180953	ACC-1a	3006228	resfinder
 blaACC-1b_1_AF180955	ACC-1b	3006229	resfinder
 blaACC-1c_1_AF180959	ACC-1c	3006230	resfinder
@@ -363,7 +312,7 @@ blaACC-1d_1_ADCU02000001	ACC-1d	3006231	resfinder
 blaACC-2_1_AF180952	ACC-2	3001816	resfinder
 blaACC-3_1_AF180958	ACC-3	3001817	resfinder
 blaACC-4_1_GU256641	ACC-4	3001818	resfinder
-blaACC-4_1_KM087831	ACC-4	3001818	resfinder
+blaACC-4_1_KM087831	ACC-1a	3006228	resfinder
 blaACC-5_1_HE819401	ACC-5	3001819	resfinder
 blaACC-7_1_MG028657	ACC-7	3006232	resfinder
 blaACI-1_1_AJ007350	ACI-1	3004359	resfinder
@@ -406,8 +355,7 @@ blaBES-1_1_AF234999	BES-1	3004751	resfinder
 blaBIC-1_1_GQ260093	BIC-1	3004753	resfinder
 blaBIC-2_1_OR143113	BIC-1	3004753	resfinder
 blaBIL-1_1_X74512	BIL-1	3004755	resfinder
-blaBIM-1_1_CP016446	SIM-2	3005494	resfinder
-blaBKC-1_1_KP689347	BKC-1	3004757	resfinder
+blaBKC-1_1_KP689347	APH(4)-Ia	3002655	resfinder
 blaBKC_1_KP689347	BKC-1	3004757	resfinder
 blaBRO-1_1_Z54180	BRO-1	3004761	resfinder
 blaBRO-2_1_Z54181	BRO-2	3004762	resfinder
@@ -1074,8 +1022,8 @@ blaLMB-1_1_MH475146	LMB-1	3005018	resfinder
 blaLUT-1_1_AY695112	LUT-1	3006943	resfinder
 blaL_1_NG050597	Bla1	3000090	resfinder
 blaL_2_NG050596	Bla1	3000090	resfinder
-blaMAL-1_1_AJ277209	CKO-1	3004773	resfinder
-blaMAL-1_2_AJ609506	CKO-1	3004773	resfinder
+blaMAL-1_1_AJ277209	MAL-1	3006949	resfinder
+blaMAL-1_2_AJ609506	MAL-1	3006949	resfinder
 blaMIR-1_1_M37839	MIR-1	3002166	resfinder
 blaMIR-2_1_AY227752	MIR-2	3002168	resfinder
 blaMIR-3_1_AY743435	MIR-3	3002169	resfinder
@@ -1904,7 +1852,6 @@ blaSMB-1_1_AB636283	SMB-1	3000854	resfinder
 blaSME-1_1_Z28968	SME-1	3002379	resfinder
 blaSME-2_1_AF275256	SME-2	3002380	resfinder
 blaSME-3_1_AY584237	SME-3	3002381	resfinder
-blaSPG-1_1_KP109680	SPG-1	3003720	resfinder
 blaSPM-1_1_AY341249	SPM-1	3003793	resfinder
 blaSPU-1_1_GQ919044	SPU-1	3006998	resfinder
 blaSRT-1_1_AB008454	SRT-1	3002493	resfinder
@@ -2308,7 +2255,7 @@ blaZ_99_LTNH01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
 blaZ_9_DQ269019	PC1 beta-lactamase (blaZ)	3000621	resfinder
 bleO_1_AF051917	BLMT	3005036	resfinder
 car(A)_1_M80346	carA	3002817	resfinder
-cat(pC194)_1_NC_002013	Streptococcus suis chloramphenicol acetyltransferase	3004455	resfinder
+cat(pC194)_1_NC_002013	Limosilactobacillus reuteri cat-TC	3002671	resfinder
 cat(pC221)_1_X02529	Staphylococcus intermedius chloramphenicol acetyltransferase	3004457	resfinder
 cat(pC233)_1_AY355285	Enterococcus faecium chloramphenicol acetyltransferase	3004456	resfinder
 cat86_1_K00544	Bacillus pumilus cat86	3002672	resfinder
@@ -2492,8 +2439,6 @@ dfrK_1_FN377602	dfrK	3002869	resfinder
 dfrK_2_FN677369	dfrK	3002869	resfinder
 dfrK_3_FN812951	dfrK	3002869	resfinder
 dldHA2X_1_AL939117	vanH gene in vanO cluster	3002948	resfinder
-dldHA2X_1_AL939117	vanI	3003723	resfinder
-dldHA2X_1_AL939117	vanX gene in vanI cluster	3003725	resfinder
 ere(A)_1_AY183453	EreA	3000361	resfinder
 ere(A)_2_AF099140	EreA2	3002826	resfinder
 ere(A)_3_AF326209	EreA2	3002826	resfinder
@@ -2579,8 +2524,7 @@ erm(T)_4_AJ488494	ErmT	3000595	resfinder
 erm(U)_1_NG_047843	ErmU	3001305	resfinder
 erm(V)_1_U59450	ErmV	3002824	resfinder
 erm(W)_1_D14532	ErmW	3001306	resfinder
-erm(X)_1_M36726	DES-1	3004780	resfinder
-erm(X)_1_M36726	tetA(58)	3003980	resfinder
+erm(X)_1_M36726	ErmX	3000596	resfinder
 erm(X)_2_X51472	ErmX	3000596	resfinder
 erm(X)_3_U21300	ErmX	3000596	resfinder
 erm(X)_4_NC_005206	ErmX	3000596	resfinder
@@ -2637,7 +2581,6 @@ fos_2_FN543093	FosA8	3007371	resfinder
 fusB_1_AY373761	fusB	3003552	resfinder
 fusB_2_JF777505	fusB	3003552	resfinder
 fusC_1_KF527883	fusC	3003733	resfinder
-grdA_1_QJX10702	efrB	3003949	resfinder
 grmA_1_M55520	sgm	3000862	resfinder
 grmB_1_M55521	sgm	3000862	resfinder
 grmO_1_AY524043	sgm	3000862	resfinder
@@ -2749,7 +2692,7 @@ mef(A)_3_AF227520	mel	3000616	resfinder
 mef(A)_4_HG423652	mel	3000616	resfinder
 mef(B)_1_FJ196385	mef(B)	3003107	resfinder
 mef(C)_1_AB571865	mefC	3003745	resfinder
-mph(A)_1_D16251	mphA	3000316	resfinder
+mph(A)_1_D16251	ADC-132	3006307	resfinder
 mph(A)_2_U36578	mphA	3000316	resfinder
 mph(B)_1_D85892	mphB	3000318	resfinder
 mph(C)_1_AB013298	mphC	3000319	resfinder
@@ -2821,7 +2764,7 @@ penA_1_AF515059	Neisseria meningititis PBP2 conferring resistance to beta-lactam
 pexA_1_HM537013	pexA	3004666	resfinder
 poxtA-Ef_1_WP094899500.1	poxtA	3004470	resfinder
 poxtA_1_MF095097	poxtA	3004470	resfinder
-qepA1_1_AB263754	QepA2	3004103	resfinder
+qepA1_1_AB263754	AAC(2')-Id	3002526	resfinder
 qepA2_1_EU847537	QepA2	3004103	resfinder
 qepA3_1_JQ064560	QepA1	3000448	resfinder
 qepA4_1_KX580704	QepA4	3004379	resfinder
@@ -3031,7 +2974,7 @@ tet(40)_1_FJ158002	tet(40)	3000567	resfinder
 tet(40)_2_AM419751	tet(40)	3000567	resfinder
 tet(41)_1_AY264780	tet(41)	3000569	resfinder
 tet(42)_1_EU523697	tet(42)	3000572	resfinder
-tet(43)_1_GQ244501	tet(43)	3000573	resfinder
+tet(43)_1_GQ244501	acrB	3000216	resfinder
 tet(44)_1_NZ_ABDU01000081	tet(44)	3000556	resfinder
 tet(44)_2_FN594949	tet(44)	3000556	resfinder
 tet(45)_1_JF837331	tet(45)	3003196	resfinder
@@ -3170,25 +3113,10 @@ tmexD2_1_MN175502	MexD	3000801	resfinder
 tmexD3_1_LC633285	MexD	3000801	resfinder
 tmexD4_1_CP091084	MexD	3000801	resfinder
 tva(A)_1_ENA_SOX29786	tva(A)	3004730	resfinder
-vanM_1_FJ349556	vanS gene in vanM cluster	3002939	resfinder
 vanM_1_FJ349556	vanR gene in vanM cluster	3002928	resfinder
-vanM_1_FJ349556	rphA	3000444	resfinder
-vanM_1_FJ349556	vanH gene in vanM cluster	3002947	resfinder
-vanM_1_FJ349556	vanM	3002911	resfinder
-vanM_1_FJ349556	vanY gene in vanM cluster	3002961	resfinder
-vanM_1_FJ349556	vanX gene in vanM cluster	3002953	resfinder
 vanXmurFvanKWI_1_NZAGAF01000127	vanX gene in vanI cluster	3003725	resfinder
-vanXmurFvanKWI_1_NZAGAF01000127	vanK gene in vanI cluster	3003727	resfinder
-vanXmurFvanKWI_1_NZAGAF01000127	vanW gene in vanG cluster	3002965	resfinder
-vanXmurFvanKWI_1_NZAGAF01000127	vanI	3003723	resfinder
-vanXmurFvanKWI_2_AP008230	vanW gene in vanG cluster	3002965	resfinder
 vanXmurFvanKWI_2_AP008230	vanK gene in vanI cluster	3003727	resfinder
-vanXmurFvanKWI_2_AP008230	vanX gene in vanI cluster	3003725	resfinder
-vanXmurFvanKWI_2_AP008230	vanI	3003723	resfinder
 vanXmurFvanWI_1_CP001336	vanX gene in vanI cluster	3003725	resfinder
-vanXmurFvanWI_1_CP001336	vanW gene in vanB cluster	3002964	resfinder
-vanXmurFvanWI_1_CP001336	vanI	3003723	resfinder
-vanXmurFvanWI_1_CP001336	cfr(D)	3005021	resfinder
 vat(A)_1_L07778	vatA	3002840	resfinder
 vat(B)_1_U19459	vatB	3002841	resfinder
 vat(C)_1_AF015628	vatC	3002842	resfinder

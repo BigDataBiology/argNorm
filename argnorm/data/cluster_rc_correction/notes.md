@@ -10,11 +10,11 @@
 2) blaSPG-1_1_KP109680
 3) grdA_1_QJX10702
 4) tet(43)_1_GQ244501
+5) aac(3)-Xa_1_AB028210
+6) blaBKC-1_1_KP689347
+7) mph(A)_1_D16251
+8) qepA1_1_AB263754
+9) aac(3)-I_1_AJ877225
 
-
-- 4 genes in reverse complement form also present.
-- blaBIM-1_1_CP016446 and mph(D)_1_AB048591 were not found in CARD and were given parent ARO mappings.
-- RGI correctly assigned ARO numbers to other two.
-
-# erm(X)_1_M36726
-- Had one to many ARO mapping due to include loose. Included correct ARO number for it.
+- 9 genes in reverse complement form also present.
+- RC genes were manually curated
