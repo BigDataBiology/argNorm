@@ -7,7 +7,6 @@ VanC1XY_1_AF162694	glycopeptide resistance gene cluster VanC	3000246	https://www
 VanC1XY_2_DQ022190	glycopeptide resistance gene cluster VanC	3000246	https://www.ncbi.nlm.nih.gov/nuccore/DQ022190.1?report=fasta	205-1805	Part of VanC cluster (ARO:3000246).
 VanC2XY_1_EU151754	glycopeptide resistance gene cluster VanC	3000246	https://www.ncbi.nlm.nih.gov/nuccore/EU151754.1?report=fasta	29-1650	Part of VanC cluster (ARO:3000246)
 VanHAX_PT_1_DQ018710	glycopeptide resistance gene cluster VanA	3000236	https://www.ncbi.nlm.nih.gov/nuccore/DQ018710.1	5109-7715	Part of VanA cluster (ARO:3000236)
-grdA_1_QJX10702			https://www.ncbi.nlm.nih.gov/nuccore/MT246861.1?report=fasta	3023-3529	Part of plasmid. No ARO found. Nucleotides in reverse complement form in resfinder db.
 VanHAX_PA_1_DQ018711	glycopeptide resistance gene cluster VanA	3000236	https://www.ncbi.nlm.nih.gov/nuccore/DQ018711.1?report=fasta	3168-5750	Part of VanA cluster (ARO:3000236)
 VanHAX_PT_2_AY926880	glycopeptide resistance gene cluster VanA	3000236	https://www.ncbi.nlm.nih.gov/nuccore/AY926880.2?report=fasta	2771-5377	Part of VanA cluster (ARO:3000236)
 dldHA2X_1_AL939117			https://www.ncbi.nlm.nih.gov/nuccore/AL939117.1	53343-56013	Gene not in CARD
@@ -21,13 +20,13 @@ VanC2XY_3_EU151757	glycopeptide resistance gene cluster VanC	3000246	https://www
 VanC2XY_4_EU151758	glycopeptide resistance gene cluster VanC	3000246	https://www.ncbi.nlm.nih.gov/nuccore/EU151758.1?report=fasta	29-1650	Part of VanC cluster (ARO:3000246)
 VanC3XY_2_EU151759	glycopeptide resistance gene cluster VanC	3000246	https://www.ncbi.nlm.nih.gov/nuccore/EU151759.1?report=fasta	29-1650	Part of VanC cluster (ARO:3000246)
 VanC2XY_5_EU151760	glycopeptide resistance gene cluster VanC	3000246	https://www.ncbi.nlm.nih.gov/nuccore/EU151760.1?report=fasta	29-1650	Part of VanC cluster (ARO:3000246)
-VanHDX_6_DQ172830	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/DQ172830.1?report=fasta	3019-5628	Part of VanD cluster (ARO:3000253) 
-VanHDX_7_AB242319	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AB242319.1?report=fasta	3045-5654	Part of VanD cluster (ARO:3000253) 
-VanHDX_3_AF175293	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AF175293.1?report=fasta	3115-5724	Part of VanD cluster (ARO:3000253) 
+VanHDX_6_DQ172830	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/DQ172830.1?report=fasta	3019-5628	Part of VanD cluster (ARO:3000253)
+VanHDX_7_AB242319	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AB242319.1?report=fasta	3045-5654	Part of VanD cluster (ARO:3000253)
+VanHDX_3_AF175293	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AF175293.1?report=fasta	3115-5724	Part of VanD cluster (ARO:3000253)
 VanHDX_4_AY082011	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AY082011.1?report=fasta	4937-7546	"Part of VanD cluster (ARO:3000253). Contains ARO:3002944, ARO:3000005, ARO:3003070"
 VanHDX_5_AY489045	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AY489045.1?report=fasta	3046-5655	Part of VanD cluster (ARO:3000253)
-VanHDX_1_AF130997	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AF130997.1?report=fasta	3122-5728	Part of VanD cluster (ARO:3000253) 
-VanHDX_2_EU999036	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/EU999036.1?report=fasta	3044-5653	Part of VanD cluster (ARO:3000253) 
+VanHDX_1_AF130997	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/AF130997.1?report=fasta	3122-5728	Part of VanD cluster (ARO:3000253)
+VanHDX_2_EU999036	glycopeptide resistance gene cluster VanD	3000253	https://www.ncbi.nlm.nih.gov/nuccore/EU999036.1?report=fasta	3044-5653	Part of VanD cluster (ARO:3000253)
 VanHFX_1_AF155139	glycopeptide resistance gene cluster VanF	3000255	https://www.ncbi.nlm.nih.gov/nuccore/AF155139.2?report=fasta	4979-7648	"Part of VanF cluster (ARO:3000255). Contains ARO:3002945, ARO:3002908, ARO:3002952"
 VanEXY_1_FJ872411	glycopeptide resistance gene cluster VanE	3000259	https://www.ncbi.nlm.nih.gov/nuccore/FJ872411.1?report=fasta	39736-41347	"Part of VanE cluster (ARO:3000259). Contains ARO:3002907, ARO:3002967"
 VanGXY_1_AY271782	glycopeptide resistance gene cluster VanG	3000257	https://www.ncbi.nlm.nih.gov/nuccore/AY271782.1?report=fasta	21049-22859	"Part of VanG cluster (ARO:3000257). Contains ARO:3002909, ARO:3003069"
@@ -41,4 +40,8 @@ vanXmurFvanKWI_2_AP008230	glycopeptide resistance gene cluster VanI	3003722	http
 blaBIM-1_1_CP016446	BlaB	3004201	https://www.ncbi.nlm.nih.gov/nuccore/CP016446.1?report=fasta		Gene not in CARD. Reverse complement in resfinder db. Parent ARO used
 blaSPG-1_1_KP109680	SPG-1	3003720	https://www.ncbi.nlm.nih.gov/nuccore/KP109680.1?report=fasta	1255-2112	Reverse complement in resfinder db and origin.
 mph(D)_1_AB048591	macrolide phosphotransferase (MPH)	3000333	https://www.ncbi.nlm.nih.gov/nuccore/AB048591.1?report=fasta	4-840	Gene not in CARD. Parent ARO used.
-erm(X)_1_M36726	ErmX	3000596			
+aac(3)-Xa_1_AB028210	AAC(3)-Xa	3002544			Reverse complement in resfinder db.
+blaBKC-1_1_KP689347	BKC-1	3004757			Reverse complement in resfinder db.
+mph(A)_1_D16251	mphA	3000316			Reverse complement in resfinder db.
+qepA1_1_AB263754	QepA2	3004103			Reverse complement in resfinder db.
+tet(43)_1_GQ244501	tet(43)	3000573			Reverse complement in resfinder db.
