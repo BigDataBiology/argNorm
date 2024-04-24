@@ -19,19 +19,22 @@ def is_number(num):
 def get_aro_mapping_table(database):
     df = pd.read_csv(os.path.join(_ROOT, 'data', f'{database}_ARO_mapping.tsv'), sep='\t')
 
-    missing_from_rgi = pd.read_csv(os.path.join(_ROOT, 'data/manual_curation', f'{database}_curation.tsv'), sep='\t')
-    missing_from_rgi['Database'] = df['Database']
+    manual_curation = pd.read_csv(os.path.join(_ROOT, 'data/manual_curation', f'{database}_curation.tsv'), sep='\t')
+    manual_curation['Database'] = df['Database']
+    aro_mapping_table = df
 
-    aro_mapping_table = pd.concat([df, missing_from_rgi])
+    if database != 'resfinder':
+        aro_mapping_table = pd.concat([df, manual_curation])
+    else:
+        # Handle gene clusters and reverse complements
+        aro_mapping_table = aro_mapping_table.drop_duplicates(subset=['Original ID'], ignore_index=True).set_index('Original ID')
 
-    # Handle gene clusters and reverse complements
-    if database == 'resfinder':
-        aro_mapping_table = aro_mapping_table.drop_duplicates(subset=['Original ID']).set_index('Original ID')
-        cluster_rc_correction = pd.read_csv(os.path.join(_ROOT, 'data/cluster_rc_correction', f'{database}_cluster_rc_correction.tsv'), sep='\t')
-
-        for i in cluster_rc_correction['Original ID']:
-            aro_mapping_table.loc[i, 'ARO'] = cluster_rc_correction.set_index('Original ID').loc[i, 'ARO']
-            aro_mapping_table.loc[i, 'Gene Name in CARD'] = cluster_rc_correction.set_index('Original ID').loc[i, 'Gene Name in CARD']
+        for i in manual_curation['Original ID']:
+            if i in aro_mapping_table.index:
+                aro_mapping_table.loc[i, 'ARO'] = manual_curation.set_index('Original ID').loc[i, 'ARO']
+                aro_mapping_table.loc[i, 'Gene Name in CARD'] = manual_curation.set_index('Original ID').loc[i, 'Gene Name in CARD']
+            else:
+                aro_mapping_table.loc[i] = manual_curation.set_index('Original ID').loc[i]
 
     aro_mapping_table[TARGET_ARO_COL] = aro_mapping_table[TARGET_ARO_COL].map(lambda a: f'ARO:{int(a)}' if is_number(a) else a)
     return aro_mapping_table.reset_index()
