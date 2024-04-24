@@ -71,7 +71,7 @@ def fix_ncbi(ncbi_amr_faa):
 
 @TaskGenerator
 def fna_to_faa(ifile):
-    ofile = f'./dbs/resfinder.faa'
+    ofile = ifile.replace('.fna', '.faa')
     with open(ifile) as original, open(ofile, 'w') as output:
         for record in SeqIO.parse(original, 'fasta'):
             record.seq = Seq(str(translate(record.seq)).replace('*', ''))
