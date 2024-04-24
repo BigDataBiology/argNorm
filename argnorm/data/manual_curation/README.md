@@ -4,7 +4,6 @@
 
 - Resfinder has gene clusters (nucleotide sequence with multiple CDSs present) which can't be passed through RGI using 'contig' mode.
 - Gene clusters were identified and were manually assigned ARO numbers.
-- A seperate file with manual curation for gene clusters and RCs was created, and their AROs were updated after concatenating RGI results and genes not in RGI results.
 - 40 gene clusters present.
 
 ## Reverse Complement
