@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 from .lib import get_aro_mapping_table
-from .lib import ORIGINAL_ID_COL, MAPPING_TABLE_ARO_COL, TARGET_ARO_COL
+from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL
 
 # Column headings for drug categorization output
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
@@ -29,7 +29,7 @@ class BaseNormalizer:
         )
         aro_table = get_aro_mapping_table(self.database)
         aro_table.set_index(self.preprocess_ref_genes(
-            aro_table[ORIGINAL_ID_COL].str.lower()
+            aro_table.index.str.lower()
         ), inplace=True)
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
@@ -113,9 +113,9 @@ class ResFinderNormalizer(BaseNormalizer):
 
     def preprocess_ref_genes(self, ref_genes):
         if self.is_hamronized:
-            return ref_genes.apply(lambda x: x.split('_')[0])
+            return ref_genes.str.split('_').str[0]
         else:
-            return ref_genes.apply(lambda x: x.split('_')[-1])
+            return ref_genes.str.split('_').str[-1]
 
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
@@ -131,10 +131,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
             self._input_gene_col = 'Accession of closest sequence'
 
     def preprocess_ref_genes(self, ref_genes):
-        if self.is_hamronized:
-            return ref_genes.apply(lambda x: x.split('|')[5])
-        else:
-            return ref_genes.apply(lambda x: x.split('|')[1])
+        return ref_genes.str.split('|').str[5 if self.is_hamronized else 1]
 
 
 class AbricateNormalizer(BaseNormalizer):
@@ -186,7 +183,6 @@ class AbricateNormalizer(BaseNormalizer):
         split_str = ref_gene.split(':')
         if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
             return ':'.join([split_str[1], split_str[3]])
-        
         return ':'.join(ref_gene.split(':')[1:3])
 
     def preprocess_ref_genes(self, ref_genes):
@@ -199,4 +195,5 @@ class AbricateNormalizer(BaseNormalizer):
             argannot=self.preprocess_argannot_ref_genes,
             resfinderfg=lambda x: x.split('|')[1]
         )
-        return ref_genes.apply(process_funcs_by_db[self.database])
+        return ref_genes.map(process_funcs_by_db[self.database])
+

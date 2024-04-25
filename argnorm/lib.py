@@ -23,13 +23,13 @@ def get_aro_mapping_table(database):
     aro_mapping_table = pd.concat([aro_mapping_table, manual_curation])
 
     aro_mapping_table['ARO'] = aro_mapping_table['ARO'].map(lambda a: f'ARO:{int(a)}', na_action='ignore')
-    return aro_mapping_table.reset_index()
+    return aro_mapping_table
 
 def map_to_aro(gene, database):
     if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
         raise Exception(f'{database} is not a supported database.')
 
-    mapping_table = get_aro_mapping_table(database).set_index('Original ID')
+    mapping_table = get_aro_mapping_table(database)
 
     try:
         result = mapping_table.loc[gene, 'ARO']
