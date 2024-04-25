@@ -10,11 +10,10 @@ RESISTANCE_TO_DRUG_CLASSES_COL = 'resistance_to_drug_classes'
 
 class BaseNormalizer:
     """
-    Inherit this class and customize subclass methods to implement the normalization of tools.
+    Inherit this class and customize subclass methods to implement the normalization of new databases/formats.
     """
 
     def __init__(self, database=None, is_hamronized=False) -> None:
-        self.tool = ''
         self.database = database
         self.is_hamronized = is_hamronized
         self._set_input_gene_col()
@@ -70,7 +69,6 @@ class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
         database = 'sarg'
         super().__init__(database, is_hamronized)
-        self.tool = 'argsoap'
 
 
     def _set_input_gene_col(self):
@@ -90,7 +88,6 @@ class DeepARGNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
         database = 'deeparg'
         super().__init__(database, is_hamronized)
-        self.tool = 'deeparg'
 
     def _set_input_gene_col(self):
         if self.is_hamronized:
@@ -103,7 +100,6 @@ class ResFinderNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
         database = 'resfinder'
         super().__init__(database, is_hamronized)
-        self.tool = 'resfinder'
 
     def _set_input_gene_col(self):
         if self.is_hamronized:
@@ -122,7 +118,6 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
         database = 'ncbi'
         super().__init__(database, is_hamronized)
-        self.tool = 'amrfinderplus'
 
     def _set_input_gene_col(self):
         if self.is_hamronized:
@@ -143,7 +138,6 @@ class AbricateNormalizer(BaseNormalizer):
             raise Exception(f'{database} is not a supported database for raw files.')
 
         super().__init__(database, is_hamronized)
-        self.tool = 'abricate'
 
     def _set_input_gene_col(self):
         if self.is_hamronized:
