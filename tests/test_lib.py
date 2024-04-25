@@ -1,4 +1,5 @@
-from argnorm.lib import map_to_aro
+import pytest
+from argnorm.lib import map_to_aro, get_aro_mapping_table
 import pronto
 
 def test_map_to_aro():
@@ -19,3 +20,9 @@ def test_map_to_aro():
 
     for t, e in zip(test_cases, expected_output):
         assert map_to_aro(t[0], t[1]) == e
+
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg'])
+def test_get_aro_mapping_table_smoke(database):
+    df = get_aro_mapping_table(database)
+    assert len(df) > 0
+
