@@ -58,6 +58,7 @@ def get_megares_db():
     url = 'https://www.meglab.org/downloads/megares_v3.00/megares_database_v3.00.fasta'
     return download_file(url, 'dbs/megares.fna')
 
+# NCBI db has '*' at end of each protein sequence. RGI can't handle that, so '*' is removed
 @TaskGenerator
 def fix_ncbi(ncbi_amr_faa):
     ofile = './dbs/ncbi.faa'
@@ -69,6 +70,7 @@ def fix_ncbi(ncbi_amr_faa):
 
     return ofile
 
+# Needed when nucleotide database (eg. resfinder) needs to be run through RGI with protein mode
 @TaskGenerator
 def fna_to_faa(ifile):
     ofile = ifile.replace('.fna', '.faa')
@@ -111,10 +113,12 @@ def run_rgi(fa):
     get_aro_for_hits(fa, rgi_ofile + '.txt', db_name).to_csv(ofile, sep='\t', index=False)
     return ofile
 
+# Moving ARO mapping tables over to argnorm/data
 @TaskGenerator
 def move_mappings_to_argnorm(aro_mapping):
     shutil.copy(aro_mapping, '../argnorm/data')
 
+# Calling tasks
 create_out_dirs()
 barrier()
 for db in [

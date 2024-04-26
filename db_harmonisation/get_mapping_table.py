@@ -15,6 +15,9 @@ def check_file(path):
         raise argparse.ArgumentTypeError(f"{path} can't be read")
 
 def get_aro_for_hits(fa, rgi_output, database):
+    """
+    Generates ARO mapping tables by copying Best_Hit_ARO, ARO and ORF_ID/Contig columns from RGI output
+    """
     database_entries = []
     for record in SeqIO.parse(str(fa), 'fasta'):
         if 'mutation' not in record.id:

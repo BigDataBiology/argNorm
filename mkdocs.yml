@@ -10,4 +10,4 @@ theme:
 
 nav:
         - 'argNorm': index.md
-
+        - "What's New": whatsnew.md
