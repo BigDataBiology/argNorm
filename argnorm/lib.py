@@ -9,6 +9,16 @@ TARGET_ARO_COL = 'ARO'
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 
 def get_aro_mapping_table(database):
+    """
+    Description: Returns the ARO mapping table for a specific supported databases.
+
+    Parameters:
+        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg and sarg
+
+    Returns:
+        aro_mapping_table (DataFrame): A pandas dataframe with ARGs mapped to AROs.
+    """
+
     aro_mapping_table = pd.read_csv(
             os.path.join(_ROOT, 'data', f'{database}_ARO_mapping.tsv'),
             sep='\t')
@@ -26,6 +36,17 @@ def get_aro_mapping_table(database):
     return aro_mapping_table
 
 def map_to_aro(gene, database):
+    """
+    Description: Gets ARO mapping for a specific gene in a database.
+
+    Parameters:
+        gene (str): The original ID of the gene as mentioned in source database.
+        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg and sarg
+
+    Returns:
+        ARO[result] (pronto.term.Term): A pronto term with the ARO number of input gene. ARO number can be accessed using 'id' attribute and gene name can be accessed using 'name' attribute.
+    """
+
     if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
         raise Exception(f'{database} is not a supported database.')
 
