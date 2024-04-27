@@ -1,5 +1,17 @@
 ## What's New
 
+## 0.3.0 - 27 April 2024
+
+### User-facing changes
+- Improved Resfinder mappings (40 gene clusters and 9 reverse complements were manually curated)
+- Updated ARG-ANNOT mappings (a total of 10 mappings changed)
+- argNorm is now more usable as a library
+- Remove warnings
+
+### Internal changes
+- Code has been refactored to be simpler
+
+
 ## 0.2.0 - 26 March 2024
 
 #### ARO Mapping & Normalization
