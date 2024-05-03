@@ -14,26 +14,26 @@ def confers_resistance_to(aro_num: str) -> List[str]:
         aro_num (str): ARO number. Needs to be in the form 'ARO:number'.
 
     Returns:
-        drugs_list (list[str]):
+        target (list[str]):
             A list with ARO number of the drugs/antibiotics to which the input gene confers resistance to.
     '''
 
-    if aro_num not in ARO.terms():
+    if aro_num not in ARO:
         return []
 
-    drugs_list = []
+    target = set()
 
     for term in ARO[aro_num].superclasses():
         for drug in term.relationships.get(confers_resistance_to_drug_class_rel, []):
-            drugs_list.append(drug.id)
+            target.add(drug.id)
 
         for drug in term.relationships.get(confers_resistance_to_antibiotic_rel, []):
-            drugs_list.append(drug.id)
+            target.add(drug.id)
 
-        if drugs_list:
+        if target:
             break
 
-    return sorted(set(drugs_list))
+    return sorted(target)
 
 def drugs_to_drug_classes(drugs_list: List[str]) -> List[str]:
     '''
