@@ -1,5 +1,9 @@
 import os
 import pandas as pd
+try:
+    pd.options.mode.copy_on_write = True
+except pd.errors.OptionError:
+    pass
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 from .lib import get_aro_mapping_table
 from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL
