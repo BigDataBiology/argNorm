@@ -62,10 +62,10 @@ def map_to_aro(gene, database):
     except KeyError:
         raise Exception(f'{gene} is not in {database} database')
     else:
-        # Dealing with duplicated genes in ARO mapping table.
-        # Getting only one ARO number
         ARO = pronto.Ontology.from_obo_library('aro.obo')
-        if type(result) != str:
-            return ARO[list(set(result))[0]]
-        else:
+
+        if result in ARO:
             return ARO[result]
+        else:
+            return []
+            raise Warning('The gene does not have an ARO mapping')

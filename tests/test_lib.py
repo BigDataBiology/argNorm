@@ -7,7 +7,8 @@ def test_map_to_aro():
         ["(AGly)AAC(6')-Isa:NG_047311:101-574:474", 'argannot'],
         ["MEG_21|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3", 'megares'],
         ["1028085756|WP_063844287.1|1|1|cpt|cpt|phosphotransferase|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_phosphotransferase_CPT", 'ncbi'],
-        ["gb|AAG57600.1|ARO:3000318|mphB", "sarg"]
+        ["gb|AAG57600.1|ARO:3000318|mphB", "sarg"],
+        ["(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537", "argannot"]
     ]
 
     ARO = pronto.Ontology.from_obo_library('aro.obo')
@@ -15,7 +16,8 @@ def test_map_to_aro():
         ARO.get_term('ARO:3002563'),
         ARO.get_term('ARO:3004623'),
         ARO.get_term('ARO:3000249'),
-        ARO.get_term('ARO:3000318')
+        ARO.get_term('ARO:3000318'),
+        []
     ]
 
     for t, e in zip(test_cases, expected_output):
