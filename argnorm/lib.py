@@ -51,7 +51,7 @@ def map_to_aro(gene, database):
     Returns:
         ARO[result] (pronto.term.Term): A pronto term with the ARO number of input gene. ARO number can be accessed using 'id' attribute and gene name can be accessed using 'name' attribute.
 
-        If ARO mapping is invalid or doesn't exist, None is returned.
+        If ARO mapping is doesn't exist, None is returned.
     """
 
     if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
@@ -64,9 +64,8 @@ def map_to_aro(gene, database):
     except KeyError:
         raise Exception(f'{gene} is not in {database} database')
     else:
-        ARO = pronto.Ontology.from_obo_library('aro.obo')
-
-        if result in ARO:
-            return ARO[result]
-        else:
+        if pd.isna(result):
             return None
+
+        ARO = pronto.Ontology.from_obo_library('aro.obo')
+        return ARO.get(result)
