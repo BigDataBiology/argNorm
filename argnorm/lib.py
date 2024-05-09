@@ -51,7 +51,7 @@ def map_to_aro(gene, database):
     Returns:
         ARO[result] (pronto.term.Term): A pronto term with the ARO number of input gene. ARO number can be accessed using 'id' attribute and gene name can be accessed using 'name' attribute.
 
-        If ARO mapping is invalid or doesn't exist, an empty list [] is returned.
+        If ARO mapping is invalid or doesn't exist, None is returned.
     """
 
     if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
