@@ -21,7 +21,7 @@ def test_map_to_aro():
     for t, e in zip(test_cases, expected_output):
         assert map_to_aro(t[0], t[1]) == e
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg'])
+@pytest.mark.parametrize('database', ['argannot', 'ARGAnnot', 'megares', 'ncbi', 'NCBI', 'resfinder', 'resfinderfg'])
 def test_get_aro_mapping_table_smoke(database):
     df = get_aro_mapping_table(database)
     assert len(df) > 0
