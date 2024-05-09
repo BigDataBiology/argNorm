@@ -18,9 +18,6 @@ def confers_resistance_to(aro_num: str) -> List[str]:
             A list with ARO number of the drugs/antibiotics to which the input gene confers resistance to.
     '''
 
-    if aro_num not in ARO:
-        return []
-
     target = set()
 
     for term in ARO[aro_num].superclasses():

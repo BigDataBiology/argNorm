@@ -38,8 +38,12 @@ class BaseNormalizer:
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
 
         # Drug categorization
-        original_annot[CONFERS_RESISTANCE_TO_COL] = original_annot[TARGET_ARO_COL].map(lambda a: ','.join(confers_resistance_to(a)))
-        original_annot[RESISTANCE_TO_DRUG_CLASSES_COL] = original_annot[TARGET_ARO_COL].map(lambda a: ','.join(drugs_to_drug_classes(confers_resistance_to(a))))
+        original_annot[CONFERS_RESISTANCE_TO_COL] = original_annot[TARGET_ARO_COL].map(
+                lambda a: ','.join(confers_resistance_to(a)),
+                na_action='ignore')
+        original_annot[RESISTANCE_TO_DRUG_CLASSES_COL] = original_annot[TARGET_ARO_COL].map(
+                lambda a: ','.join(drugs_to_drug_classes(confers_resistance_to(a))),
+                na_action='ignore')
 
         return original_annot
 
