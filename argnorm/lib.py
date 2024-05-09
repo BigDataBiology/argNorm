@@ -69,4 +69,4 @@ def map_to_aro(gene, database):
         if result in ARO:
             return ARO[result]
         else:
-            return []
+            return None

@@ -17,7 +17,7 @@ def test_map_to_aro():
         ARO.get_term('ARO:3004623'),
         ARO.get_term('ARO:3000249'),
         ARO.get_term('ARO:3000318'),
-        []
+        None
     ]
 
     for t, e in zip(test_cases, expected_output):
