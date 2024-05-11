@@ -9,15 +9,18 @@ def main():
                      'different tools and databases to the same ontology, '
                      'namely ARO (Antibiotic Resistance Ontology).'),
         formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('tool', type=str,
+    parser.add_argument('tool', type=str.lower,
                         choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus'],
                         help='The tool you used to do ARG annotation.')
-    parser.add_argument('--db', type=str,
+    parser.add_argument('--db', type=str.lower,
                         choices=['sarg', 'ncbi', 'resfinder', 'deeparg', 'megares', 'argannot', 'resfinderfg'],
                         help='The database you used to do ARG annotation.')
-    parser.add_argument('--hamronized', action='store_true', help='Use this if the input is hamronized (processed using the hAMRonization tool)')
-    parser.add_argument('-i', '--input', type=str, help='The annotation result you have')
-    parser.add_argument('-o', '--output', type=str, help='The file to save normalization results')
+    parser.add_argument('--hamronized', action='store_true',
+                        help='Use this if the input is hamronized (processed using the hAMRonization tool)')
+    parser.add_argument('-i', '--input', type=str,
+                        help='The annotation result you have')
+    parser.add_argument('-o', '--output', type=str,
+                        help='The file to save normalization results')
     args = parser.parse_args()
 
     # We only import the normalize function when the user actually wants to run the program
