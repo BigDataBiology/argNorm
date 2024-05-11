@@ -20,19 +20,17 @@ class BaseNormalizer:
     def __init__(self, database=None, is_hamronized=False) -> None:
         self.database = database
         self.is_hamronized = is_hamronized
-        self._set_input_gene_col()
 
     def run(self, input_file : str):
         """
         Main normalization pipeline.
         """
         original_annot = self.load_input(input_file)
-        input_genes = self.preprocess_input_genes(
-            original_annot[self._input_gene_col].str.lower()
-        )
+        input_genes = self.get_input_ids(original_annot)
+
         aro_table = get_aro_mapping_table(self.database)
         aro_table.set_index(self.preprocess_ref_genes(
-            aro_table.index.str.lower()
+            aro_table.index
         ), inplace=True)
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
@@ -53,18 +51,6 @@ class BaseNormalizer:
         """
         return ref_genes
 
-    def preprocess_input_genes(self, input_genes):
-        """
-        Customize this when ref gene and input gene can not exactly match.
-        """
-        return input_genes
-
-
-    def _set_input_gene_col(self):
-        """
-        Always adapt this method to the input data format.
-        """
-        self._input_gene_col = ''
 
     def load_input(self, input_file):
         """
@@ -79,11 +65,8 @@ class ARGSOAPNormalizer(BaseNormalizer):
         super().__init__(database, is_hamronized)
 
 
-    def _set_input_gene_col(self):
-        if self.is_hamronized:
-            self._input_gene_col = 'reference_accession'
-        else:
-            self._input_gene_col = 1
+    def get_input_ids(self, itable):
+        return itable['reference_accession' if self.is_hamronized else 1]
 
     def load_input(self, input_file):
         if self.is_hamronized:
@@ -97,29 +80,19 @@ class DeepARGNormalizer(BaseNormalizer):
         database = 'deeparg'
         super().__init__(database, is_hamronized)
 
-    def _set_input_gene_col(self):
-        if self.is_hamronized:
-            self._input_gene_col = 'gene_name'
-        else:
-            self._input_gene_col = 'best-hit'
-
+    def get_input_ids(self, itable):
+        return itable['gene_name' if self.is_hamronized else 'best-hit']
 
 class ResFinderNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
         database = 'resfinder'
         super().__init__(database, is_hamronized)
 
-    def _set_input_gene_col(self):
-        if self.is_hamronized:
-            self._input_gene_col = 'gene_symbol'
-        else:
-            self._input_gene_col = 'Accession no.'
+    def get_input_ids(self, itable):
+        return itable['gene_symbol' if self.is_hamronized else 'Accession no.']
 
     def preprocess_ref_genes(self, ref_genes):
-        if self.is_hamronized:
-            return ref_genes.str.split('_').str[0]
-        else:
-            return ref_genes.str.split('_').str[-1]
+        return ref_genes.str.split('_').str[0 if self.is_hamronized else -1]
 
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
@@ -127,11 +100,8 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         database = 'ncbi'
         super().__init__(database, is_hamronized)
 
-    def _set_input_gene_col(self):
-        if self.is_hamronized:
-            self._input_gene_col = 'gene_symbol'
-        else:
-            self._input_gene_col = 'Accession of closest sequence'
+    def get_input_ids(self, itable):
+        return itable['gene_symbol' if self.is_hamronized else 'Accession of closest sequence']
 
     def preprocess_ref_genes(self, ref_genes):
         return ref_genes.str.split('|').str[5 if self.is_hamronized else 1]
@@ -141,46 +111,35 @@ class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
         if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot', 'resfinderfg']:
             raise Exception(f'{database} is not a supported database.')
-        
         if not is_hamronized and database in ['sarg', 'resfinderfg']:
             raise Exception(f'{database} is not a supported database for raw files.')
 
         super().__init__(database, is_hamronized)
 
-    def _set_input_gene_col(self):
+    def get_input_ids(self, itable):
         if self.is_hamronized:
-            gene_col_by_db = dict(
-            ncbi='gene_symbol',
-            deeparg='gene_name',
-            resfinder='gene_symbol',
-            sarg='gene_symbol',
-            megares='reference_accession',
-            argannot='reference_accession',
-            resfinderfg='gene_name'
-        )
+            col = dict(
+                ncbi='gene_symbol',
+                deeparg='gene_name',
+                resfinder='gene_symbol',
+                sarg='gene_symbol',
+                megares='reference_accession',
+                argannot='reference_accession',
+                resfinderfg='gene_name'
+            )[self.database]
         else:
-            gene_col_by_db = dict(
-            ncbi='GENE',
-            deeparg='best-hit',
-            resfinder='GENE',
-            megares='ACCESSION',
-            argannot='ACCESSION'
-        )
-        self._input_gene_col = gene_col_by_db[self.database]
+            col = dict(
+                ncbi='GENE',
+                deeparg='best-hit',
+                resfinder='GENE',
+                megares='ACCESSION',
+                argannot='ACCESSION'
+            )[self.database]
+        if self.database == 'resfinderfg':
+            return itable[col].str.split('|').str[1]
+        return itable[col]
 
 
-    def preprocess_input_genes(self, input_genes):
-        process_funcs_by_db = dict(
-            ncbi=lambda x: x,
-            deeparg=lambda x: x,
-            resfinder=lambda x: x,
-            sarg=lambda x: x,
-            megares=lambda x: x,
-            argannot=lambda x: x,
-            resfinderfg=lambda x: x.split('|')[1]
-        )
-        return input_genes.apply(process_funcs_by_db[self.database])
-    
     def preprocess_argannot_ref_genes(self, ref_gene):
         split_str = ref_gene.split(':')
         if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
