@@ -26,13 +26,15 @@ def run_cli_test(tool, file, folder, db=None):
     pd.testing.assert_frame_equal(output, golden_file)
 
 for folder in ['hamronized', 'raw']:
+    run_cli_test('ARGSOAP', 'args-oap.sarg.reads.tsv', folder)
     run_cli_test('argsoap', 'args-oap.sarg.reads.tsv', folder)
+    run_cli_test('DEEParg', 'deeparg.deeparg.orfs.tsv', folder)
     run_cli_test('deeparg', 'deeparg.deeparg.orfs.tsv', folder)
     run_cli_test('amrfinderplus', 'amrfinderplus.ncbi.orfs.tsv', folder)
     run_cli_test('resfinder', 'resfinder.resfinder.reads.tsv', folder)
     run_cli_test('resfinder', 'resfinder.resfinder.orfs.tsv', folder)
 
-for db in ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
+for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
     file = f'abricate.{db}.tsv'
     run_cli_test('abricate', file, 'hamronized', db=db)
     if not 'resfinder' in db:
