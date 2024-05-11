@@ -17,9 +17,9 @@ def main():
                         help='The database you used to do ARG annotation.')
     parser.add_argument('--hamronized', action='store_true',
                         help='Use this if the input is hamronized (processed using the hAMRonization tool)')
-    parser.add_argument('-i', '--input', type=str.lower,
+    parser.add_argument('-i', '--input', type=str,
                         help='The annotation result you have')
-    parser.add_argument('-o', '--output', type=str.lower,
+    parser.add_argument('-o', '--output', type=str,
                         help='The file to save normalization results')
     args = parser.parse_args()
 
