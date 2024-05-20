@@ -7,6 +7,7 @@ from os import path
 import tempfile
 from Bio import SeqIO
 from Bio.Seq import translate, Seq
+from construct_megares_mapping import construct_megares
 
 @TaskGenerator
 def create_out_dirs():
@@ -131,3 +132,4 @@ for db in [
         get_argannot_db()
     ]:
     move_mappings_to_argnorm(run_rgi(db))
+construct_megares()
