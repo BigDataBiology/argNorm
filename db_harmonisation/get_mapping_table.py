@@ -28,23 +28,10 @@ def get_aro_for_hits(fa, rgi_output, database):
 
     rgi_hits = pd.read_csv(rgi_output, sep='\t')
 
-    if database == 'resfinder':
-        rgi_hits['Original ID'] = rgi_hits['ORF_ID']
-    elif database == 'ncbi':
-        rgi_hits['Original ID'] = rgi_hits['ORF_ID']
-    elif database == 'sarg':
+    if database == 'sarg':
         rgi_hits['Original ID'] = rgi_hits['ORF_ID'].apply(lambda x: x.split()[0])
-    elif database == 'deeparg':
-        rgi_hits['Original ID'] = rgi_hits['ORF_ID']
-    elif database == 'resfinder_fg':
-        rgi_hits['Original ID'] = rgi_hits['ORF_ID']
-    elif database == 'argannot':
-        rgi_hits['Original ID'] = rgi_hits['ORF_ID']
-    elif database == 'megares':
-        rgi_hits['Original ID'] = rgi_hits['Contig'].apply(lambda x: '_'.join(x.split('_')[:-1]))
     else:
-        raise ValueError(f"Unknown database {database}")
-
+        rgi_hits['Original ID'] = rgi_hits['ORF_ID']
 
     mapping = rgi_hits[['Original ID', "Best_Hit_ARO", 'ARO']]
     mapping = mapping.astype({'ARO': 'str'})
