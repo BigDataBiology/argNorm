@@ -201,10 +201,7 @@ def get_megares_manual_curation(megares_mappings):
 
 def construct_megares():
     fasta_files = setup_for_rgi()
-    barrier()
     cds_mapping = get_cds_rgi_output(fasta_files[0])
     contig_mapping = get_contig_rgi_output(fasta_files[1])
-    barrier()
     megares_mapping = merge_megares_mappings(cds_mapping, contig_mapping)
-    barrier()
     get_megares_manual_curation(megares_mapping)
