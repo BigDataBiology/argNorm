@@ -1,6 +1,6 @@
 import pytest
+from argnorm import lib
 from argnorm.lib import map_to_aro, get_aro_mapping_table
-import pronto
 
 def test_map_to_aro():
     test_cases = [
@@ -11,7 +11,7 @@ def test_map_to_aro():
         ["(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537", "argannot"]
     ]
 
-    ARO = pronto.Ontology.from_obo_library('aro.obo')
+    ARO = lib.get_aro_ontology()
     expected_output = [
         ARO.get_term('ARO:3002563'),
         ARO.get_term('ARO:3004623'),

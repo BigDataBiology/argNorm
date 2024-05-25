@@ -1,8 +1,7 @@
-import pronto
 from typing import List
+from . import lib
 
-# Load the ARO ontology from internet
-ARO = pronto.Ontology.from_obo_library('aro.obo')
+ARO = lib.get_aro_ontology()
 confers_resistance_to_drug_class_rel = ARO.get_relationship('confers_resistance_to_drug_class')
 confers_resistance_to_antibiotic_rel = ARO.get_relationship('confers_resistance_to_antibiotic')
 

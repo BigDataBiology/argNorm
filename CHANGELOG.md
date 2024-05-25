@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+
+- Bundle a specific version of ARO with the package instead of downloading it from the internet (ensures reproducibility)
 
 ## 0.3.0 - 27 April 2024
 

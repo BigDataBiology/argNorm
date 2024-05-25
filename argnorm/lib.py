@@ -5,13 +5,27 @@ try:
     pd.options.mode.copy_on_write = True
 except pd.errors.OptionError:
     pass
-import pronto
 
 ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
+_ARO = None
+
+def get_aro_ontology():
+    """
+    The ARO ontology used by (bundled with) argNorm
+
+    Returns:
+        ARO (pronto.Ontology): A pronto ontology object with ARO terms.
+    """
+    import pronto
+    import importlib.resources
+    global _ARO
+    if _ARO is None:
+        _ARO = pronto.Ontology(os.path.join(_ROOT, 'data/aro.obo'))
+    return _ARO
 
 def get_aro_mapping_table(database):
     """
@@ -66,6 +80,5 @@ def map_to_aro(gene, database):
     else:
         if pd.isna(result):
             return None
-
-        ARO = pronto.Ontology.from_obo_library('aro.obo')
+        ARO = get_aro_ontology()
         return ARO.get(result)
