@@ -161,16 +161,11 @@ def merge_megares_mappings(cds_mapping, contig_mapping):
     cds_mapping = pd.read_csv(cds_mapping, sep='\t')
     contig_mapping = pd.read_csv(contig_mapping, sep='\t')
 
-    print(cds_mapping)
-    print(contig_mapping)
-
     cds_mapping['Original ID'] = cds_mapping['ORF_ID']
     contig_mapping['Original ID'] = contig_mapping['Contig'].apply(lambda x: '_'.join(x.split('_')[:-1]))
 
     cds_mapping = cds_mapping[['Original ID', 'ARO']]
     contig_mapping = contig_mapping[['Original ID', 'ARO']]
-
-    print(megares_mappings)
 
     megares_mappings.set_index('Original ID').drop(index=set(cds_mapping['Original ID']) & set(megares_mappings.index), inplace=True)
     megares_mappings.set_index('Original ID').drop(index=set(contig_mapping['Original ID']) & set(megares_mappings.index), inplace=True)
