@@ -28,7 +28,7 @@ def get_resfinderfg_db():
 
 def get_ncbi_db():
     ofile = 'dbs/ncbi_amr_raw.faa'
-    url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt'
+    url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/3.12/2024-01-31.1/AMRProt'
     return download_file(url, ofile)
 
 def get_resfinder_db():
@@ -54,10 +54,6 @@ def get_deeparg_db():
 def get_argannot_db():
     url = 'https://www.mediterranee-infection.com/wp-content/uploads/2019/06/ARG_ANNOT_V5_AA_JUNE2019.txt'
     return download_file(url, 'dbs/argannot.faa')
-
-def get_megares_db():
-    url = 'https://www.meglab.org/downloads/megares_v3.00/megares_database_v3.00.fasta'
-    return download_file(url, 'dbs/megares.fna')
 
 # NCBI db has '*' at end of each protein sequence. RGI can't handle that, so '*' is removed
 @TaskGenerator
@@ -128,7 +124,6 @@ for db in [
         get_sarg_db(),
         get_resfinderfg_db(),
         get_deeparg_db(),
-        get_megares_db(),
         get_argannot_db()
     ]:
     move_mappings_to_argnorm(run_rgi(db))
