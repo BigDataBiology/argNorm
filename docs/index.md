@@ -188,6 +188,8 @@ argnorm resfinder -i ./resfinder.resfinder.orfs.tsv -o ./resfinder.resfinder.orf
 
 The argNorm result will be stored in the file `resfinder.resfinder.orf.normed.tsv`.
 
+For more examples of using argNorm as a command line tool, click [here](cli.md).
+
 ## Quick Example 2: argNorm as a Python library
 
 ### Code

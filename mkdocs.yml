@@ -10,4 +10,5 @@ theme:
 
 nav:
         - 'argNorm': index.md
+        - 'CLI Reference': cli.md
         - "What's New": whatsnew.md
