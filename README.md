@@ -30,13 +30,13 @@ The `confers_resistance_to` column will contain ARO numbers of all the drug clas
 
 The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
 
-## argNorm Workflow
+## argNorm workflow
 
 *Schematic illustration of argNorm workflow through a Resfinder output example: mapping gene names in the ARG annotation outputs to gene names from the ARO mapped ARG databases and adding corresponding drug categorization, namely “confers resistance to immediate drug class” and “overall category of drug class”, from the ARO ontology file.*
 
 ![argNorm Workflow](./docs/images/argnorm_workflow.svg)
 
-## Supported Tools
+## Supported tools
 
 - [DeepARG](https://bench.cs.vt.edu/deeparg) (v1.0.2)
 - [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v3)
@@ -55,11 +55,11 @@ argNorm can also be installed through conda:
 conda install bioconda::argnorm
 ```
 
-## Tutorial Video
+## Tutorial video
 
 [![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
 
-## Basic Usage
+## Basic usage
 
 The only positional argument required is `tool` which can be:
 - `deeparg`
@@ -110,7 +110,7 @@ Here is a basic outline of calling argNorm.
 argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
 ```
 
-## Quick Example 1: argNorm as a command line tool
+## Example 1: argNorm as a command line tool
 
 Here is a quick demo of running argNorm on the command line.
 
@@ -188,7 +188,7 @@ argnorm resfinder -i ./resfinder.resfinder.orfs.tsv -o ./resfinder.resfinder.orf
 
 The argNorm result will be stored in the file `resfinder.resfinder.orf.normed.tsv`.
 
-## Quick Example 2: argNorm as a Python library
+## Example 2: argNorm as a Python library
 
 ### Code
 
