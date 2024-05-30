@@ -1,6 +1,6 @@
 # Using argNorm as a command line tool
 
-## Quick Example
+## Quick example
 
 Here is a quick demo of running argNorm on the command line.
 
@@ -78,7 +78,7 @@ argnorm resfinder -i ./resfinder.resfinder.orfs.tsv -o ./resfinder.resfinder.orf
 
 The argNorm result will be stored in the file `resfinder.resfinder.orf.normed.tsv`.
 
-## Examples For Each Tool
+## Examples for each tool
 
 Create a folder called `argnorm_cli_tutorial` and download the [sample data](https://github.com/BigDataBiology/argNorm/tree/main/examples) inside it.
 
