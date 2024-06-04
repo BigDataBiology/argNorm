@@ -19,3 +19,7 @@
 
 - 9 genes in reverse complement form also present.
 - RC genes were manually curated
+
+# NCBI Notes
+
+NCBI also has stress response genes and virulence genes not covered by CARD. This is the reason for the missing mappings in NCBI curation. 
