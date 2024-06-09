@@ -8,7 +8,8 @@ def test_map_to_aro():
         ["MEG_21|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3", 'megares'],
         ["1028085756|WP_063844287.1|1|1|cpt|cpt|phosphotransferase|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_phosphotransferase_CPT", 'ncbi'],
         ["gb|AAG57600.1|ARO:3000318|mphB", "sarg"],
-        ["(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537", "argannot"]
+        ["(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537", "argannot"],
+        ["MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA", "megares"]
     ]
 
     ARO = lib.get_aro_ontology()
@@ -17,6 +18,7 @@ def test_map_to_aro():
         ARO.get_term('ARO:3004623'),
         ARO.get_term('ARO:3000249'),
         ARO.get_term('ARO:3000318'),
+        ARO.get_term('ARO:3000249'),
         None
     ]
 
