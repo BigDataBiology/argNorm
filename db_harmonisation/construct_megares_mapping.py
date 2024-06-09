@@ -175,7 +175,6 @@ def merge_megares_mappings(cds_mapping, contig_mapping):
     megares_mappings['ARO'] = megares_mappings['ARO'].apply(lambda x: str(x).replace('.0', ''))
     megares_mappings['Database'] = 'megares'
     megares_mappings.to_csv('./mapping/megares_ARO_mapping.tsv', sep='\t', index=False)
-    shutil.copy('./mapping/megares_ARO_mapping.tsv', '../argnorm/data/megares_ARO_mapping.tsv')
     return megares_mappings
 
 @TaskGenerator
@@ -200,3 +199,9 @@ def construct_megares():
     contig_mapping = get_contig_rgi_output(fasta_files[1])
     megares_mapping = merge_megares_mappings(cds_mapping, contig_mapping)
     get_megares_manual_curation(megares_mapping)
+    barrier()
+    megares_mapping = pd.read_csv('./mapping/megares_ARO_mapping.tsv', sep='\t')
+    megares_mapping.drop_duplicates(subset=['Original ID'], inplace=True)
+    megares_mapping = megares_mapping.sort_values(by=['Original ID'])
+    megares_mapping.to_csv('./mapping/megares_ARO_mapping.tsv', sep='\t', index=None)
+    shutil.copy('./mapping/megares_ARO_mapping.tsv', '../argnorm/data/megares_ARO_mapping.tsv')
