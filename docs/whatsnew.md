@@ -1,4 +1,4 @@
-## What's New
+# What's New
 
 ## 0.4.0 - 10 June
 
