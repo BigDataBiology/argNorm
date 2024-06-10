@@ -1,9 +1,9 @@
 # Changelog
 
-## Unreleased
+## 0.4.0 - 10 June
 
 - Bundle a specific version of ARO with the package instead of downloading it from the internet (ensures reproducibility)
-- Add ADD missing ARO mappings to manual curation. A few ARO mappings were missing in the manual curation and they have been added.
+- Add missing ARO mappings to manual curation.
 
     Additions:
     - argannot_curation: (Phe)cpt_strepv:U09991:AAB36569:1412-1948:537 -> ARO: 3000249
@@ -11,7 +11,9 @@
     - sarg_curation: AM180355.1.gene2260.p01 -> ARO: 3000250
     - resfinder_curation: dldHA2X_1_AL939117 -> ARO:3003970, grdA_1_QJX10702 -> ARO:3007382, EstDL136_1_JN242251 -> ARO:3000387
     - resfinderfg_curation: UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629588.1|pediatric_fecal_sample|CYC -> ARO:3003970
-- Accept inputs in case-independent way on command-line (by @sebastianLedzianowski)
+- Command line tool accept database/tool names in case-independent way (by @sebastianLedzianowski)
+- `lib.map_to_aro` returns `None` if there is no mapping (raises an exception if the name is missing)
+
 
 ## 0.3.0 - 27 April 2024
 

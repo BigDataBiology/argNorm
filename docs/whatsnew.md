@@ -1,5 +1,16 @@
 ## What's New
 
+## 0.4.0 - 10 June
+
+### User-facing changes
+- Command line tool accept database/tool names in case-independent way (by @sebastianLedzianowski)
+- A few ARO mappings were missing in the manual curation and they have been added. See the [CHANGELOG](https://github.com/BigDataBiology/argNorm/blob/main/CHANGELOG.md) for more details.
+- `lib.map_to_aro` returns `None` if there is no mapping (raises an exception if the name is missing)
+
+### Internal changes
+
+- Bundle a specific version of ARO with the package instead of downloading it from the internet (ensures reproducibility)
+
 ## 0.3.0 - 27 April 2024
 
 ### User-facing changes
