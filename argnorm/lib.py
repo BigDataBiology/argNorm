@@ -10,6 +10,8 @@ ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
+DATABASES = ['argannot', 'deeparg', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'sarg']
+
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 _ARO = None
 

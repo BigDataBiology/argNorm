@@ -1,6 +1,10 @@
 # argNorm API
 
-## argnorm.lib: core normalization functions
+## argnorm.lib: core normalization functionality
+
+### argnorm.lib.DATABASES
+
+A list of supported databases.
 
 ### argnorm.lib.map_to_aro(): maps a given gene in a specific database to an ARO term.
 
