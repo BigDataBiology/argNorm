@@ -6,12 +6,11 @@ ARO = lib.get_aro_ontology()
 confers_resistance_to_drug_class_rel = ARO.get_relationship('confers_resistance_to_drug_class')
 confers_resistance_to_antibiotic_rel = ARO.get_relationship('confers_resistance_to_antibiotic')
 has_part_rel = ARO.get_relationship('has_part')
-is_small_inhibitor_molecule_rel = ARO.get_relationship('is_small_molecule_inhibitor')
 
-def navigate_superclasses(super_classes_list: List[str]) -> List[str]:
+def _get_drug_classes(super_classes_list: List[str]) -> List[str]:
     """
-    - Helper function to traverse up and record superclasses in ARO
-    - Traverses up ARO until 'antibiotic molecule' class reached and 'antibiotic mixture' class not reached
+    - Helper function to traverse up and record immediate child of 'antibiotic molecule' in ARO
+    - Traverses up ARO until immediate child of 'antibiotic molecule' class reached and 'antibiotic mixture' class not reached
     - antibiotic molecule -> ARO:1000003
     - antibiotic mixture -> ARO:3000707
     """
@@ -57,10 +56,10 @@ def confers_resistance_to(aro_num: str) -> List[str]:
             else:
                 target.add(drug.id)
 
-    if target == set():
+    if not target:
         target.update(backup_drugs)
 
-    return sorted(list(target))
+    return sorted(target)
 
 def drugs_to_drug_classes(drugs_list: List[str]) -> List[str]:
     '''
@@ -77,25 +76,25 @@ def drugs_to_drug_classes(drugs_list: List[str]) -> List[str]:
             to the function in the drugs_list.
     '''
     drug_classes = []
+    temp_drug_classes = []
 
     for drug in drugs_list:
         drug_instance = ARO[drug]
         drug_instance_superclasses = list(drug_instance.superclasses())
-        drug_classes += navigate_superclasses(drug_instance_superclasses)
+        temp_drug_classes += _get_drug_classes(drug_instance_superclasses)
 
         has_part_nodes = drug_instance.relationships.get(has_part_rel, [])
-        if has_part_nodes:
-            for hast_part_node in has_part_nodes:
-                hast_part_node_superclasses = list(hast_part_node.superclasses())[1:]
+        for has_part_node in has_part_nodes:
+            has_part_node_superclasses = list(has_part_node.superclasses())[1:]
 
-                for super_class in hast_part_node_superclasses:
-                    super_class_categories = list(super_class.superclasses())
-                    drug_classes += navigate_superclasses(super_class_categories)
+            for super_class in has_part_node_superclasses:
+                super_class_categories = list(super_class.superclasses())
+                temp_drug_classes += _get_drug_classes(super_class_categories)
 
-                if hast_part_node.relationships.get(is_small_inhibitor_molecule_rel, []):
-                    drug_classes.append('ARO:3000707')
+        if temp_drug_classes == []:
+            temp_drug_classes.append(drug_instance.id)
 
-        if drug_classes == []:
-            drug_classes.append(drug_instance.id)
+        drug_classes += list(set(temp_drug_classes))
+        temp_drug_classes = []
 
     return sorted(drug_classes)
