@@ -2,10 +2,10 @@ import pytest
 from argnorm import lib
 from argnorm import drug_categorization
 
+ARO = lib.get_aro_ontology()
+
 @pytest.mark.parametrize('database', lib.DATABASES)
 def test_database(database):
-    ARO = lib.get_aro_ontology()
-
     determinant_of_ab_resistance = ARO['ARO:3000000']
     antibiotic_molecule = ARO['ARO:1000003']
     assert determinant_of_ab_resistance.name == 'determinant of antibiotic resistance'
@@ -23,3 +23,5 @@ def test_database(database):
                 assert dc in ARO, f'ARO not found in the ontology: {dc}'
                 assert antibiotic_molecule in  ARO[dc].superclasses(1), f'ARO term not an immediate child of antibiotic molecule: {dc}'
 
+def test_misannotated_genes():
+    assert lib.map_to_aro('(Tet)tetH:EF460464:6286-7839:1554', 'argannot') == ARO['ARO:3000175']

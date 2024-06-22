@@ -1,2 +1,3 @@
 Original ID	ARO	Gene Name in CARD	Description
 (Phe)cpt_strepv:U09991:AAB36569:1412-1948:537	3000249	chloramphenicol phosphotransferase	Parent ARO mapping
+(Tet)tetH:EF460464:6286-7839:1554	3000175	tet(H)	Loose RGI mapping. Mapped incorrectly to ARO:3004797.

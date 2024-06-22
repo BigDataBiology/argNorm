@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+### Manual curation
+- argannot_curation: (Tet)tetH:EF460464:6286-7839:1554 was incorrectly annotated as ARO:3004797 which is a beta-lactamase due to a loose RGI hit. This was manually curated to ARO:3000175.
+
 ## 0.4.0 - 10 June
 
 - Bundle a specific version of ARO with the package instead of downloading it from the internet (ensures reproducibility)
