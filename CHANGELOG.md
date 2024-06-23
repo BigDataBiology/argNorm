@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+### Update drug categorization
+- confers_resistance_to() now gets drugs for the whole AMR gene family. For example, OXA-19 previously only returned cephalosporin and penam, but now will also return oxacillin (from AMR gene family).
+
 ### Manual curation
 - argannot_curation: (Tet)tetH:EF460464:6286-7839:1554 was incorrectly annotated as ARO:3004797 which is a beta-lactamase due to a loose RGI hit. This was manually curated to ARO:3000175.
 

@@ -7,27 +7,36 @@ confers_resistance_to_antibiotic_rel = ARO.get_relationship('confers_resistance_
 
 def confers_resistance_to(aro_num: str) -> List[str]:
     '''
-    Description: Returns a list of the drugs/antibiotics to which a gene confers resistance to.
+    Description: Returns a list of the drugs/antibiotics to which a gene and its parents confers resistance to.
 
     Parameters:
         aro_num (str): ARO number. Needs to be in the form 'ARO:number'.
 
     Returns:
         target (list[str]):
-            A list with ARO number of the drugs/antibiotics to which the input gene confers resistance to.
+            A list with ARO number of the drugs/antibiotics to which the input gene and its parents confers resistance to.
     '''
-
+    antibiotic_molecule_node = [ARO['ARO:1000003'], ARO['ARO:1000001']]
+    # some gene superclasses can map to drugs which are immediate children of 'antibiotic molecule'
+    # only use these if no other drugs can be found, as this information will be present in
+    # drugs to drug classes
+    backup_drugs = []
     target = set()
-
     for term in ARO[aro_num].superclasses():
         for drug in term.relationships.get(confers_resistance_to_drug_class_rel, []):
-            target.add(drug.id)
+            if list(ARO[drug.id].superclasses())[1:] == antibiotic_molecule_node:
+                backup_drugs.append(drug.id)
+            else:
+                target.add(drug.id)
 
         for drug in term.relationships.get(confers_resistance_to_antibiotic_rel, []):
-            target.add(drug.id)
+            if list(ARO[drug.id].superclasses())[1:] == antibiotic_molecule_node:
+                backup_drugs.append(drug.id)
+            else:
+                target.add(drug.id)
 
-        if target:
-            break
+    if not target:
+        target.update(backup_drugs)
 
     return sorted(target)
 
