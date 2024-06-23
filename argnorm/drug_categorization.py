@@ -7,14 +7,14 @@ confers_resistance_to_antibiotic_rel = ARO.get_relationship('confers_resistance_
 
 def confers_resistance_to(aro_num: str) -> List[str]:
     '''
-    Description: Returns a list of the drugs/antibiotics to which a gene and its parents confers resistance to.
+    Description: Returns a list of the drugs/antibiotics to which a gene confers resistance to.
 
     Parameters:
         aro_num (str): ARO number. Needs to be in the form 'ARO:number'.
 
     Returns:
         target (list[str]):
-            A list with ARO number of the drugs/antibiotics to which the input gene and its parents confers resistance to.
+            A list with ARO number of the drugs/antibiotics to which the input gene confers resistance to.
     '''
     antibiotic_molecule_node = [ARO['ARO:1000003'], ARO['ARO:1000001']]
     # some gene superclasses can map to drugs which are immediate children of 'antibiotic molecule'
