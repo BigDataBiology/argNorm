@@ -96,7 +96,8 @@ def test_betalactams():
         _assert_aro_name('ARO:3007040', 'cefotaxime-ceftiofur-tazobactam-clavulanate')
     ]
 
-    assert set(drugs_to_drug_classes(test_cases)) == set(['ARO:3000007'])
+    beta_lactam_antibiotic = _assert_aro_name('ARO:3000007', 'beta-lactam antibiotic')
+    assert set(drugs_to_drug_classes(test_cases)) == set([beta_lactam_antibiotic])
 
 def test_peptide_antibiotics():
     test_cases = [
@@ -106,7 +107,8 @@ def test_peptide_antibiotics():
         _assert_aro_name('ARO:3000199', 'gramicidin D')
     ]
 
-    assert set(drugs_to_drug_classes(test_cases)) == set(['ARO:3000053'])
+    peptide_antibiotic = _assert_aro_name('ARO:3000053', 'peptide antibiotic')
+    assert set(drugs_to_drug_classes(test_cases)) == set([peptide_antibiotic])
 
 def test_aminoglycosides():
     test_cases = [
@@ -117,8 +119,11 @@ def test_aminoglycosides():
         _assert_aro_name('ARO:0000049', 'kanamycin A')
     ]
 
-    assert set(drugs_to_drug_classes(test_cases)) == set(['ARO:0000016'])
+    aminoglycoside_antibiotic = _assert_aro_name('ARO:0000016', 'aminoglycoside antibiotic')
+    assert set(drugs_to_drug_classes(test_cases)) == set([aminoglycoside_antibiotic])
 
 def test_streptogramin_mixture():
     quinupristin_dalfopristin = _assert_aro_name('ARO:3004022', 'quinupristin-dalfopristin')
-    assert drugs_to_drug_classes([quinupristin_dalfopristin]) == ['ARO:0000026']
+
+    streptogramin_antibiotic = _assert_aro_name('ARO:0000026', 'streptogramin antibiotic')
+    assert drugs_to_drug_classes([quinupristin_dalfopristin]) == [streptogramin_antibiotic]
