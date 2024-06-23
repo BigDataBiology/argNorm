@@ -60,14 +60,65 @@ def test_drug_to_drug_classes():
         ["ARO:3000157"],
         ["ARO:0000030"],
         ["ARO:0000036"],
-        ["ARO:3000081"]
+        ["ARO:3000081"],
+        ["ARO:3007382"],
+        ["ARO:3004022"],
+        ["ARO:3000199"],
+        ["ARO:3003998"],
+        ["ARO:3007382", "ARO:0000052", "ARO:0000007", "ARO:0000035", "ARO:0000049"],
+        ['ARO:3007145']
     ]
+
     expected_output = [
         ["ARO:3000007"],
         ["ARO:3000157"],
         ["ARO:3000050"],
         ["ARO:0000001"],
-        ["ARO:3000081"]
+        ["ARO:3000081"],
+        ["ARO:0000016"],
+        ["ARO:0000026"],
+        ["ARO:3000053"],
+        ["ARO:3000007"],
+        ["ARO:0000016", "ARO:0000016", "ARO:0000016", "ARO:0000016", "ARO:0000016"],
+        ["ARO:3000007"]
     ]
+
     for t, e in zip(test_cases, expected_output):
         assert drugs_to_drug_classes(t) == e
+
+def test_betalactams():
+    test_cases = [
+        _assert_aro_name('ARO:0000004', 'monobactam'),
+        _assert_aro_name('ARO:0000032', 'cephalosporin'),
+        _assert_aro_name('ARO:3007145', 'imipenem-cilastatin-relebactam'),
+        _assert_aro_name('ARO:3003998', 'ampicillin-sulbactam'),
+        _assert_aro_name('ARO:3004705', 'ceftazidime-clavulanic acid'),
+        _assert_aro_name('ARO:3007040', 'cefotaxime-ceftiofur-tazobactam-clavulanate')
+    ]
+
+    assert set(drugs_to_drug_classes(test_cases)) == set(['ARO:3000007'])
+
+def test_peptide_antibiotics():
+    test_cases = [
+        _assert_aro_name('ARO:3000123', 'gramicidin'),
+        _assert_aro_name('ARO:3000119', 'edeine'),
+        _assert_aro_name('ARO:0000041', 'bacitracin'),
+        _assert_aro_name('ARO:3000199', 'gramicidin D')
+    ]
+
+    assert set(drugs_to_drug_classes(test_cases)) == set(['ARO:3000053'])
+
+def test_aminoglycosides():
+    test_cases = [
+        _assert_aro_name('ARO:3007382', 'gentamicin'),
+        _assert_aro_name('ARO:0000052', 'tobramycin'),
+        _assert_aro_name('ARO:0000007', 'dibekacin'),
+        _assert_aro_name('ARO:0000035', 'sisomicin'),
+        _assert_aro_name('ARO:0000049', 'kanamycin A')
+    ]
+
+    assert set(drugs_to_drug_classes(test_cases)) == set(['ARO:0000016'])
+
+def test_streptogramin_mixture():
+    quinupristin_dalfopristin = _assert_aro_name('ARO:3004022', 'quinupristin-dalfopristin')
+    assert drugs_to_drug_classes([quinupristin_dalfopristin]) == ['ARO:0000026']

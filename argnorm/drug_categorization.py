@@ -4,6 +4,26 @@ from . import lib
 ARO = lib.get_aro_ontology()
 confers_resistance_to_drug_class_rel = ARO.get_relationship('confers_resistance_to_drug_class')
 confers_resistance_to_antibiotic_rel = ARO.get_relationship('confers_resistance_to_antibiotic')
+has_part_rel = ARO.get_relationship('has_part')
+
+def _get_drug_classes(super_classes_list: List[str]) -> List[str]:
+    """
+    - Helper function to traverse up and record immediate child of 'antibiotic molecule' in ARO
+    - Traverses up ARO until immediate child of 'antibiotic molecule' class reached and 'antibiotic mixture' class not reached
+    - antibiotic molecule -> ARO:1000003
+    - antibiotic mixture -> ARO:3000707
+    """
+    output = []
+
+    for super_class in super_classes_list:
+        super_class_classes = list(super_class.superclasses(1))
+        antibiotic_molecule_node = [ARO['ARO:1000003']]
+
+        # checking if immediate child of 'antibiotic molecule' is reached & it is not 'antibiotic mixture'
+        if super_class_classes[1:] == antibiotic_molecule_node and super_class.id != 'ARO:3000707':
+            output.append(super_class.id)
+
+    return output
 
 def confers_resistance_to(aro_num: str) -> List[str]:
     '''
@@ -55,15 +75,25 @@ def drugs_to_drug_classes(drugs_list: List[str]) -> List[str]:
             to the function in the drugs_list.
     '''
     drug_classes = []
+    temp_drug_classes = []
 
     for drug in drugs_list:
         drug_instance = ARO[drug]
         drug_instance_superclasses = list(drug_instance.superclasses())
-        superclasses_len = len(drug_instance_superclasses)
+        temp_drug_classes += _get_drug_classes(drug_instance_superclasses)
 
-        if superclasses_len >= 3:
-            drug_classes.append(drug_instance_superclasses[superclasses_len - 3].id)
-        else:
-            drug_classes.append(drug_instance_superclasses[0].id)
+        has_part_nodes = drug_instance.relationships.get(has_part_rel, [])
+        for has_part_node in has_part_nodes:
+            has_part_node_superclasses = list(has_part_node.superclasses())[1:]
+
+            for super_class in has_part_node_superclasses:
+                super_class_categories = list(super_class.superclasses())
+                temp_drug_classes += _get_drug_classes(super_class_categories)
+
+        if temp_drug_classes == []:
+            temp_drug_classes.append(drug_instance.id)
+
+        drug_classes += list(set(temp_drug_classes))
+        temp_drug_classes = []
 
     return sorted(drug_classes)
