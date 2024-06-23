@@ -25,6 +25,29 @@ def test_confers_resistance_to():
     for t,e in zip(test_cases, expected_output):
         assert sorted(confers_resistance_to(t)) == sorted(e)
 
+def test_oxa19_drugs():
+    oxa_19 = 'ARO:3001414'
+    cephalosporin = 'ARO:0000032'
+    penam = 'ARO:3000008'
+    oxacillin = 'ARO:0000056'
+
+    assert sorted(confers_resistance_to(oxa_19)) == sorted([cephalosporin, penam, oxacillin])
+
+def test_aadb_drugs():
+    aadb = 'ARO:3000230'
+    gentamicin = 'ARO:3007382'
+    tobramycin = 'ARO:0000052'
+    dibekacin = 'ARO:0000007'
+    sisomicin = 'ARO:0000035'
+    kanamycin_a = 'ARO:0000049'
+
+    assert sorted(confers_resistance_to(aadb)) == sorted([
+        gentamicin,
+        tobramycin,
+        dibekacin,
+        sisomicin,
+        kanamycin_a
+    ])
 
 def test_drug_to_drug_classes():
     test_cases = [
