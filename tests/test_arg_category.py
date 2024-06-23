@@ -2,6 +2,12 @@ from argnorm.drug_categorization import (
     confers_resistance_to,
     drugs_to_drug_classes
 )
+from argnorm.lib import get_aro_ontology
+
+def _assert_aro_name(aro_id, name):
+    ARO = get_aro_ontology()
+    assert ARO[aro_id].name == name
+    return aro_id
 
 def test_confers_resistance_to():
     test_cases = [
@@ -26,21 +32,20 @@ def test_confers_resistance_to():
         assert sorted(confers_resistance_to(t)) == sorted(e)
 
 def test_oxa19_drugs():
-    oxa_19 = 'ARO:3001414'
-    cephalosporin = 'ARO:0000032'
-    penam = 'ARO:3000008'
-    oxacillin = 'ARO:0000056'
-
+    oxa_19 = _assert_aro_name('ARO:3001414', 'OXA-19')
+    cephalosporin = _assert_aro_name('ARO:0000032', 'cephalosporin')
+    penam = _assert_aro_name('ARO:3000008', 'penam')
+    oxacillin = _assert_aro_name('ARO:0000056', 'oxacillin')
     assert sorted(confers_resistance_to(oxa_19)) == sorted([cephalosporin, penam, oxacillin])
 
 def test_aadb_drugs():
-    aadb = 'ARO:3000230'
-    gentamicin = 'ARO:3007382'
-    tobramycin = 'ARO:0000052'
-    dibekacin = 'ARO:0000007'
-    sisomicin = 'ARO:0000035'
-    kanamycin_a = 'ARO:0000049'
-
+    # aadb is a synonym for ANT(2'')-Ia
+    aadb = _assert_aro_name('ARO:3000230', "ANT(2'')-Ia")
+    gentamicin = _assert_aro_name('ARO:3007382', 'gentamicin')
+    tobramycin = _assert_aro_name('ARO:0000052', 'tobramycin')
+    dibekacin = _assert_aro_name('ARO:0000007', 'dibekacin')
+    sisomicin = _assert_aro_name('ARO:0000035', 'sisomicin')
+    kanamycin_a = _assert_aro_name('ARO:0000049', 'kanamycin A')
     assert sorted(confers_resistance_to(aadb)) == sorted([
         gentamicin,
         tobramycin,
