@@ -10,6 +10,12 @@
 
 ### Manual curation
 - argannot_curation: (Tet)tetH:EF460464:6286-7839:1554 was incorrectly annotated as ARO:3004797 which is a beta-lactamase due to a loose RGI hit. This was manually curated to ARO:3000175.
+- deeparg, megares, resfinderfg & sarg curation: ARO:3004445 -> ARO:3005440, this was due to a change in the ARO and the ARO number for the RSA2 gene changing. **db_harmonisation must change to take this into account**
+
+#### Incorrectly curated genes.
+- Previously, these were directly mapped to drug classes. Correct parent ARO term has now been given.
+- resfinder_curation: grdA_1_QJX10702 -> 3007380 & EstDL136_1_JN242251 -> 3000557
+- megares_curation: MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD -> 3000557
 
 ## 0.4.0 - 10 June
 
