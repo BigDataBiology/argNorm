@@ -127,3 +127,10 @@ def test_streptogramin_mixture():
 
     streptogramin_antibiotic = _assert_aro_name('ARO:0000026', 'streptogramin antibiotic')
     assert drugs_to_drug_classes([quinupristin_dalfopristin]) == [streptogramin_antibiotic]
+
+
+def test_multiple_parents():
+    # ARO:3000130 has multiple parents
+    edeine_A = _assert_aro_name('ARO:3000130', 'edeine A')
+    assert drugs_to_drug_classes([edeine_A]) == [_assert_aro_name('ARO:3000053', 'peptide antibiotic')]
+
