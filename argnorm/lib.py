@@ -42,18 +42,18 @@ def get_aro_mapping_table(database):
 
     aro_mapping_table = pd.read_csv(
             os.path.join(_ROOT, 'data', f'{database}_ARO_mapping.tsv'),
-            sep='\t')
+            sep='\t', dtype={'ARO': str})
     aro_mapping_table.drop_duplicates(subset=['Original ID'], inplace=True)
     aro_mapping_table.set_index('Original ID', inplace=True)
 
     manual_curation = pd.read_csv(
                     os.path.join(_ROOT, 'data/manual_curation', f'{database}_curation.tsv'),
-                    sep='\t', index_col=0)
+                    sep='\t', index_col=0, dtype={'ARO': str})
     manual_curation['Database'] = aro_mapping_table['Database'].iloc[0]
     aro_mapping_table.drop(index=set(manual_curation.index) & set(aro_mapping_table.index), inplace=True)
     aro_mapping_table = pd.concat([aro_mapping_table, manual_curation])
 
-    aro_mapping_table['ARO'] = aro_mapping_table['ARO'].map(lambda a: f'ARO:{int(a)}', na_action='ignore')
+    aro_mapping_table['ARO'] = aro_mapping_table['ARO'].map(lambda a: f'ARO:{a}', na_action='ignore')
     return aro_mapping_table
 
 def map_to_aro(gene, database):
