@@ -17,6 +17,9 @@
 - resfinder_curation: grdA_1_QJX10702 -> 3007380 & EstDL136_1_JN242251 -> 3000557
 - megares_curation: MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD -> 3000557
 
+### Handle AROs as string rather than int in get_aro_mapping_table()
+AROs were previously handled as 'int' in the get_aro_mapping_table() function and this posed challenges when ARO numbers such as 'ARO:0010004' (leading zeros are cut). To fix this, AROs are now treated as strings so leading zeros can be maintained.
+
 ## 0.4.0 - 10 June
 
 - Bundle a specific version of ARO with the package instead of downloading it from the internet (ensures reproducibility)
