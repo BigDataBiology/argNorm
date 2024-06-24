@@ -4,6 +4,9 @@
 
 ### Update drug categorization
 - confers_resistance_to() now gets drugs for the whole AMR gene family. For example, OXA-19 previously only returned cephalosporin and penam, but now will also return oxacillin (from AMR gene family).
+- Implementation of drugs_to_drug_classes() has also been fixed. Previously, the drug class was obtained from the superclasses of the drugs list passed without a thorough check if the drug class was the immediate child of 'antibiotic molecule'. These checks have now been put in place.
+- drugs_to_drug_classes() also uses the 'has_part' ARO relationship now to get drug classes for antibiotic mixtures. In case of antibiotic mixtures, the drug classes of the drugs associated with 'has_part' are returned rather than 'antibiotic mixture' (ARO:3000707).
+- 'antibiotic mixture' will not be reported as a drug class, rather the individual antibiotic classes making up the antibiotic mixture will be reported.
 
 ### Manual curation
 - argannot_curation: (Tet)tetH:EF460464:6286-7839:1554 was incorrectly annotated as ARO:3004797 which is a beta-lactamase due to a loose RGI hit. This was manually curated to ARO:3000175.
