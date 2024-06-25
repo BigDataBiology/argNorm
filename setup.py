@@ -7,7 +7,7 @@ Normalize antibiotic resistance genes (ARGs) results by using the ARO ontology (
 
 setup(
     name='argnorm',
-    version="0.4.0",
+    version="0.5.0",
     author='ArgNorm Developers',
     author_email='luispedro@big-data-biology.org',
     url="https://github.com/BigDataBiology/argNorm",
