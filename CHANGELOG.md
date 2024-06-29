@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### New Features
+
+- `__version__` attribute added to the package (accessible as `argnorm.__version__` or `argnorm.lib.__version__`)
+
 ## 0.5.0 - 26 June 2024
 
 ### Update drug categorization

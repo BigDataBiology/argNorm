@@ -6,6 +6,8 @@ try:
 except pd.errors.OptionError:
     pass
 
+from .argnorm_version import __version__
+
 ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'

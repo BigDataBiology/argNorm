@@ -2,12 +2,14 @@ from setuptools import setup
 
 DESCRIPTION = """
 Normalize antibiotic resistance genes (ARGs) results by using the ARO ontology (developed by CARD).
-"""
+""".strip()
 
+exec(compile(open('argnorm/argnorm_version.py').read(),
+             'argnorm/argnorm_version.py', 'exec'))
 
 setup(
     name='argnorm',
-    version="0.5.0",
+    version=__version__,  # noqa: F821
     author='ArgNorm Developers',
     author_email='luispedro@big-data-biology.org',
     url="https://github.com/BigDataBiology/argNorm",
