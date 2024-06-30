@@ -6,6 +6,15 @@
 
 - `__version__` attribute added to the package (accessible as `argnorm.__version__` or `argnorm.lib.__version__`)
 
+### ARO mapping
+
+> The CARD database version was not specified for RGI before. Now, RGI is always loaded with CARD v3.2.9. The CARD database is bundled with `db_harmonisation`
+
+- megares mappings: 
+    - MEG_2865, MEG_7344, and MEG_8140 are now automatically mapped to ARO:3000557, ARO:3003970, and ARO:3007380 respectively. 
+    - MEG_258 -> ARO:3002570, MEG_262 -> ARO:3002570, MEG_1563 -> ARO:3004455, MEG_8441 -> 3001744
+- cat(pC194)_1_NC_002013 -> ARO:3004455
+
 ## 0.5.0 - 26 June 2024
 
 ### Update drug categorization
