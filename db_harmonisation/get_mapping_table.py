@@ -45,7 +45,10 @@ def get_aro_for_hits(fa, rgi_output, database):
 
     database_entries = pd.Series(list(database_entries))
     database_entries.name = "Original ID"
-
+    
+    if database == 'resfinderfg':
+        database = 'resfinder_fg'
+    
     mapping['Database'] = database
     mapping = mapping.sort_values(by=['Original ID'])
 

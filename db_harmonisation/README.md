@@ -8,9 +8,14 @@ Applicable to all databases except MEGARes
 
 ## Setting up conda environment
 
+> CARD v3.2.9 is used
+
+Navigate to the `db_harmonisation` directory and run the following commands:
 ```bash
 conda create --name rgi --channel conda-forge --channel bioconda --channel defaults rgi
 conda activate rgi
+rgi clean --local
+rgi load --card_json ./card.json --local
 conda install jug
 ```
 

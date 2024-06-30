@@ -154,6 +154,7 @@ MEG_2613|Drugs|betalactams|Class_C_betalactamases|DHA	3002145	megares
 MEG_2806|Drugs|MLS|23S_rRNA_methyltransferases|ERMB	3000375	megares
 MEG_2807|Drugs|MLS|23S_rRNA_methyltransferases|ERMB	3000375	megares
 MEG_2853|Drugs|MLS|23S_rRNA_methyltransferases|ERMV	3002824	megares
+MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	3000557	megares
 MEG_2906|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|FEXB	3007019	megares
 MEG_2932|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|FMRO	3000858	megares
 MEG_2975|Drugs|Fosfomycin|Fosfomycin_phosphorylation|FOMB	3000449	megares
@@ -258,6 +259,7 @@ MEG_7234|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_protei
 MEG_7235|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	megares
 MEG_7236|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	megares
 MEG_7237|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	megares
+MEG_7344|Drugs|Glycopeptides|VanA-type_resistance_protein|VANA	3003970	megares
 MEG_7371|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	megares
 MEG_7372|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	megares
 MEG_7373|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	megares
@@ -302,6 +304,7 @@ MEG_7687|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|VGA	3002829	meg
 MEG_7769|Drugs|betalactams|Class_B_betalactamases|VIM	3002272	megares
 MEG_7869|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3004621	megares
 MEG_8014|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATT	3004657	megares
+MEG_8140|Drugs|Aminoglycosides|Gentamicin-resistant_ATP-binding_protein|GRDA	3007380	megares
 MEG_8237|Drugs|Lipopeptides|Colistin_phosphoethanolamine_transferase|MCR	3007232	megares
 MEG_8238|Drugs|Lipopeptides|Colistin_phosphoethanolamine_transferase|MCR	3007137	megares
 MEG_8639|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|POXT	3004470	megares
@@ -693,11 +696,11 @@ MEG_254|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	300
 MEG_255|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002563	megares
 MEG_256|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3007204	megares
 MEG_257|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002570	megares
-MEG_258|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3007204	megares
+MEG_258|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002570	megares
 MEG_259|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002570	megares
 MEG_260|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3007204	megares
 MEG_261|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002570	megares
-MEG_262|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3007204	megares
+MEG_262|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002570	megares
 MEG_263|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002563	megares
 MEG_264|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002593	megares
 MEG_265|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002574	megares
@@ -1642,7 +1645,7 @@ MEG_1559|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CAT	3002671	megares
 MEG_1560|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3004452	megares
 MEG_1561|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3002687	megares
 MEG_1562|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3002685	megares
-MEG_1563|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3002671	megares
+MEG_1563|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3004455	megares
 MEG_1564|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3002671	megares
 MEG_1565|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3004455	megares
 MEG_1566|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3002684	megares
@@ -7058,7 +7061,7 @@ MEG_8422|Drugs|betalactams|Class_D_betalactamases|OXA	3005323	megares
 MEG_8005|Drugs|betalactams|Class_B_betalactamases|BLAB	3005527	megares
 MEG_7870|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3-PRIME	3002530	megares
 MEG_8006|Drugs|betalactams|Class_B_betalactamases|BLAB	3005557	megares
-MEG_8441|Drugs|betalactams|Class_D_betalactamases|OXA	3001745	megares
+MEG_8441|Drugs|betalactams|Class_D_betalactamases|OXA	3001744	megares
 MEG_8721|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_pumps|TOPR	3000802	megares
 MEG_8260|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|MSRG	3007042	megares
 MEG_8245|Drugs|MLS|MLS_resistance_MFS_efflux_pumps|MEFF	3007044	megares
