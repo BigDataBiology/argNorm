@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- argNorm has been included as an nf-core module: https://nf-co.re/modules/argnorm/
+
 ### New Features
 
 - `__version__` attribute added to the package (accessible as `argnorm.__version__` or `argnorm.lib.__version__`)

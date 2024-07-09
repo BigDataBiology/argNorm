@@ -55,6 +55,11 @@ argNorm can also be installed through conda:
 conda install bioconda::argnorm
 ```
 
+argNorm is also available as an [nf-core module](https://nf-co.re/modules/argnorm/). If using an nf-core pipeline, argNorm can be installed using:
+```
+nf-core modules install argnorm
+```
+
 ## Tutorial video
 
 [![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
