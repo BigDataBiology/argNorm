@@ -3,6 +3,7 @@
 ## Unreleased
 
 - argNorm has been included as an nf-core module: https://nf-co.re/modules/argnorm/
+- Use atomic writing for outputs
 
 ### New Features
 

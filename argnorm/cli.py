@@ -1,4 +1,5 @@
 import argparse
+from .atomicwrite import atomic_write
 
 def main():
     """
@@ -34,4 +35,5 @@ def main():
 
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
     print(f'{args.output}:', f'{round(1 - prop_unmapped, 3):.2%} ARGs mapped.')
-    result.to_csv(args.output, sep='\t', index=False)
+    with atomic_write(args.output, mode='w', overwrite=True) as out:
+        result.to_csv(out, sep='\t', index=False)
