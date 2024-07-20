@@ -10,7 +10,8 @@ def test_map_to_aro():
         ["gb|AAG57600.1|ARO:3000318|mphB", "sarg"],
         ["(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537", "argannot"],
         ["MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA", "megares"],
-        ["gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase", "deeparg"]
+        ["gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase", "deeparg"],
+        ['cat(pC194)_1_NC_002013', 'resfinder']
     ]
 
     ARO = lib.get_aro_ontology()
@@ -21,7 +22,8 @@ def test_map_to_aro():
         ARO.get_term('ARO:3000318'),
         ARO.get_term('ARO:3000249'),
         None,
-        ARO.get_term('ARO:0010004')
+        ARO.get_term('ARO:0010004'),
+        ARO.get_term('ARO:3004455')
     ]
 
     for t, e in zip(test_cases, expected_output):

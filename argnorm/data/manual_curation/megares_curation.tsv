@@ -1,7 +1,6 @@
 Original ID	ARO	Description
 MEG_8443|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|P23S|RequiresSNPConfirmation	3005083	
 MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA		Metal resistance. No mapping
-MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	3000557	
 MEG_1732|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	3003092	
 MEG_2933|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|FOLC|RequiresSNPConfirmation	3004157	
 MEG_8700|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|SITABCD		Metal + Biocide resistance. No mapping
@@ -12,7 +11,6 @@ MEG_3987|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfi
 MEG_6055|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|RIBD|RequiresSNPConfirmation	3004184	
 MEG_6144|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSL|RequiresSNPConfirmation	3003395	
 MEG_3745|Multi-compound|Drug_and_biocide_and_metal_resistance|Drug_and_biocide_and_metal_RND_efflux_pumps|MDTA		Metal + Biocide resistance. No mapping
-MEG_8140|Drugs|Aminoglycosides|Gentamicin-resistant_ATP-binding_protein|GRDA	3003949	
 MEG_5285|Drugs|betalactams|Class_A_betalactamases|OXY	3002390	
 MEG_8643|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
 MEG_8644|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
@@ -30,7 +28,6 @@ MEG_8087|Biocides|Aldehyde_resistance|Aldehyde_degradation|FORMA		Biocide resist
 MEG_2114|Drugs|Phenicol|Chloramphenicol_phosphotransferase|CPT	3000249	
 MEG_8651|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping
 MEG_5337|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
-MEG_7344|Drugs|Glycopeptides|VanA-type_resistance_protein|VANA	3000010	
 MEG_5780|Drugs|Lipopeptides|Daptomycin-resistant_mutant|PGSA|RequiresSNPConfirmation	3003323	
 MEG_8647|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
 MEG_4033|Drugs|MLS|Macrolide_phosphotransferases|MPHB	3000318	
