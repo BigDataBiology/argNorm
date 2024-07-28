@@ -1,7 +1,7 @@
 import pandas as pd
 from argnorm.lib import get_aro_mapping_table
 from Bio import SeqIO
-from Bio.Seq import translate
+from Bio.Seq import translate, reverse_complement, Seq
 import subprocess
 import requests
 import os
@@ -9,6 +9,7 @@ import os
 def download_file(url, ofile):
     os.makedirs('dbs', exist_ok=True)
     os.makedirs('mapping', exist_ok=True)
+    os.makedirs('manual_curation', exist_ok=True)
 
     with open(ofile, 'wb') as f:
         r = requests.get(url, stream=True)
@@ -46,7 +47,7 @@ with open('./dbs/argannot_groot_db.faa', 'r') as ifile, open('./groot_missing.fa
             
         if id in default_argannot_mappings:
             groot_argannot_genes.append(record.id)
-            groot_argannot_accessions.append(str(argannot_aro_mapping_table.loc[id, 'ARO']).removeprefix('ARO:'))
+            groot_argannot_accessions.append(str(argannot_aro_mapping_table.loc[id, 'ARO']).replace('ARO:', ''))
         else:
             # Run this through RGI
             SeqIO.write(record, ofile, 'fasta')
@@ -64,12 +65,16 @@ with open('./resfinder-refs.fna', 'r') as ifile, open('./groot_missing.fasta', '
     for record in SeqIO.parse(ifile, 'fasta'):
         if str(record.id) in list(resfinder_aro_mapping_table.index):
             groot_resfinder_genes.append(record.id)
-            groot_resfinder_accessions.append(str(resfinder_aro_mapping_table.loc[record.id, 'ARO']).removeprefix('ARO:'))
-        else:
-            record.seq = translate(record.seq).removesuffix('*')
-            print(record)
-            SeqIO.write(record, ofile, 'fasta')
-            
+            groot_resfinder_accessions.append(str(resfinder_aro_mapping_table.loc[record.id, 'ARO']).replace('ARO:', ''))
+        else:                
+            if record.seq.reverse_complement().translate().endswith('*')\
+                and record.seq.reverse_complement().translate().count('*') == 1:
+                record.seq = Seq(str(reverse_complement(translate(record.seq))).replace('*', ''))
+                SeqIO.write(record, ofile, 'fasta')
+            else:
+                record.seq = Seq(str(translate(record.seq)).replace('*', ''))
+                SeqIO.write(record, ofile, 'fasta')     
+
 resfinder_groot_mapping = pd.DataFrame(groot_resfinder_genes, columns=['Original ID'])
 resfinder_groot_mapping['ARO'] = groot_resfinder_accessions
 
@@ -78,21 +83,26 @@ card_accessions = []
 with open('./card-refs.fna', 'r') as ifile:
     for record in SeqIO.parse(ifile, 'fasta'):
         card_genes.append(str(record.id).split('|')[-1])
-        card_accessions.append(str(record.id).split('|')[-2].removeprefix('ARO:'))
+        card_accessions.append(str(record.id).split('|')[-2].replace('ARO:', ''))
         
 card_groot_mapping = pd.DataFrame(card_genes, columns=['Original ID'])
 card_groot_mapping['ARO'] = card_accessions
 
-# subprocess.check_call([
-#     'rgi',
-#     'main',
-#     '-i', './groot_missing.fasta',
-#     '-o', './mapping/groot_missing_mapping',
-#     '-t', 'protein',
-#     '-a', 'BLAST',
-#     '--clean',
-#     '--include_loose'
-# ])
+groot_missing_genes = []
+with open('./groot_missing.fasta', 'r') as ifile:
+    for record in SeqIO.parse(ifile, 'fasta'):
+        groot_missing_genes.append(record.id)
+
+subprocess.check_call([
+    'rgi',
+    'main',
+    '-i', './groot_missing.fasta',
+    '-o', './mapping/groot_missing_mapping',
+    '-t', 'protein',
+    '-a', 'BLAST',
+    '--clean',
+    '--include_loose'
+])
 
 missing_groot_mappings = pd.read_csv('./mapping/groot_missing_mapping.txt', sep='\t')
 missing_groot_mappings['Original ID'] = missing_groot_mappings['ORF_ID']
@@ -100,3 +110,6 @@ missing_groot_mappings_trim = missing_groot_mappings[['Original ID', 'ARO']]
 
 comb_groot_mapping = pd.concat([argannot_groot_mapping, resfinder_groot_mapping, card_groot_mapping, missing_groot_mappings_trim])
 comb_groot_mapping.to_csv('./mapping/groot_ARO_mapping.tsv', sep='\t', index=False)
+
+groot_manual_curation = pd.DataFrame(list(set(groot_missing_genes) - set(comb_groot_mapping['Original ID'])), columns=['Original ID'])
+groot_manual_curation.to_csv('./manual_curation/groot_curation.tsv', sep='\t', index=False)
