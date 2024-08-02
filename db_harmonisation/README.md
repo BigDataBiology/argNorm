@@ -76,6 +76,13 @@ The RGI outputs of CDSs & contigs are combined with resfinder & argannot mapping
 
 > Note: as BacMet is now ignored, there will be less megares mappings (compared to when all of megares was run through RGI using `contig` mode) as loose hits from RGI won't be associated with BacMet entries.
 
+# Groot Databases
+
+Groot uses `resfinder`, `CARD`, and `argannot`. However, the versions of `argannot` and `resfinder` used are much older than the default `argannot` and `resfinder`. `CARD` always points to the latest version.
+
+`argannot`: https://www.mediterranee-infection.com/wp-content/uploads/2019/03/argannot-aa-v3-march2017.txt
+`resfinder`: https://bitbucket.org/genomicepidemiology/resfinder_db/src/dc33e2f9ec2c420f99f77c5c33ae3faa79c999f2/
+
 # Notes on the general approach
 
 Genes from ARG annotation outputs are mapped to ARO accessions using ARO annotation tables. ARO annotation tables are constructed using the RGI (Alcock et al., 2023) and manual curation. All databases except MEGARes v3.0 are handled as amino acid files, where all ARG sequences (coding sequences) in the databases are translated to amino acid form using BioPython (Cock et al., 2009). The amino acid files are processed by RGI using the ‘protein’ mode to map genes to the ARO. The ‘Original ID’ (gene name in ARG annotation database), ‘Best_Hit_ARO’ (gene name in CARD) and ‘ARO’ (ARO accession) columns from the RGI output are specifically chosen from the RGI output, with the ‘Best_Hit_ARO’ column renamed to ‘Gene Name in CARD’ , to form the automated annotation tables. Genes which were not given an ARO mapping by RGI are manually assigned an ARO accession. The manual curation and automated annotation tables are combined to produce ARO annotation tables.
