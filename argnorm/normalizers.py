@@ -161,8 +161,8 @@ class GrootNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
         if database not in ['groot-argannot', 'groot-resfinder', 'groot-db', 'groot-core-db', 'groot-card']:
             raise Exception(f'{database} is not a supported database for groot.')
-        else:
-            super().__init__(database, is_hamronized)
+
+        super().__init__(database, is_hamronized)
             
     def load_input(self, input_file):
         if self.is_hamronized:

@@ -78,10 +78,10 @@ The RGI outputs of CDSs & contigs are combined with resfinder & argannot mapping
 
 # Groot Databases
 
-Groot uses `resfinder`, `CARD`, and `argannot`. However, the versions of `argannot` and `resfinder` used are much older than the default `argannot` and `resfinder`. `CARD` always points to the latest version.
+Groot uses `resfinder`, `CARD`, and `argannot`. However, the versions of `argannot` and `resfinder` used are much older than the default `argannot` and `resfinder` supported by argNorm. The groot database always uses the latest `CARD` database (see [here](https://raw.githubusercontent.com/will-rowe/groot/master/db/groot-database/make-groot-dbs.sh) for how groot creates its database)
 
-`argannot`: https://www.mediterranee-infection.com/wp-content/uploads/2019/03/argannot-aa-v3-march2017.txt
-`resfinder`: https://bitbucket.org/genomicepidemiology/resfinder_db/src/dc33e2f9ec2c420f99f77c5c33ae3faa79c999f2/
+- `argannot` db that groot uses: https://www.mediterranee-infection.com/wp-content/uploads/2019/03/argannot-aa-v3-march2017.txt
+- `resfinder` db that groot uses: https://bitbucket.org/genomicepidemiology/resfinder_db/src/dc33e2f9ec2c420f99f77c5c33ae3faa79c999f2/
 
 # Notes on the general approach
 
