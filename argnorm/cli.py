@@ -11,10 +11,22 @@ def main():
                      'namely ARO (Antibiotic Resistance Ontology).'),
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('tool', type=str.lower,
-                        choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus'],
+                        choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus', 'groot'],
                         help='The tool you used to do ARG annotation.')
     parser.add_argument('--db', type=str.lower,
-                        choices=['sarg', 'ncbi', 'resfinder', 'deeparg', 'megares', 'argannot', 'resfinderfg'],
+                        choices=['sarg', 
+                                 'ncbi', 
+                                 'resfinder', 
+                                 'deeparg', 
+                                 'megares', 
+                                 'argannot', 
+                                 'resfinderfg', 
+                                 'groot-argannot', 
+                                 'groot-resfinder', 
+                                 'groot-db', 
+                                 'groot-core-db', 
+                                 'groot-card'
+                                ],
                         help='The database you used to do ARG annotation.')
     parser.add_argument('--hamronized', action='store_true',
                         help='Use this if the input is hamronized (processed using the hAMRonization tool)')

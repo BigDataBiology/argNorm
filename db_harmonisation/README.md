@@ -76,6 +76,105 @@ The RGI outputs of CDSs & contigs are combined with resfinder & argannot mapping
 
 > Note: as BacMet is now ignored, there will be less megares mappings (compared to when all of megares was run through RGI using `contig` mode) as loose hits from RGI won't be associated with BacMet entries.
 
+# Groot Databases
+
+Groot uses `resfinder`, `CARD`, and `argannot`. 
+While the [groot documentation](https://groot-documentation.readthedocs.io/en/latest/groot-databases.html) says that the latest versions of card, argannot, and resfinder are used to create the groot db, only the latest version of the CARD database is downloaded, and older versions of resfinder and argannot (v3) are used - these were the latest versions of resfinder and argannot when the groot documentation was written.
+
+- `argannot` db that groot uses: https://www.mediterranee-infection.com/wp-content/uploads/2019/03/argannot-aa-v3-march2017.txt
+- `resfinder` db that groot uses: https://bitbucket.org/genomicepidemiology/resfinder_db/src/dc33e2f9ec2c420f99f77c5c33ae3faa79c999f2/
+
+<details>
+<summary>Here is the bash script that groot uses to create its database. You can view the code online <a href="https://raw.githubusercontent.com/will-rowe/groot/master/db/groot-database/make-groot-dbs.sh">here</a></summary>
+
+```
+#!/bin/env bash
+#
+# This script generates the groot-core-db and the groot-db
+#
+# It downloads the latest versions of the following databases:
+#
+#   - argannot
+#   - resfinder
+#   - card
+#   - megares
+#
+# It then either:
+#   1. groot-db:  merge the databases, remove duplicates and then cluster
+#   or
+#   2. groot-core-db: extract common ARGs from all databases and then cluster these common ARGs
+#
+# REQUIRES: Vsearch, SeqKit
+#
+
+echo "making the groot and groot-core databases..."
+mkdir tmp && cd $_
+
+# Download the latest CARD database
+mkdir card && cd $_
+wget --no-check-certificate -qO- https://card.mcmaster.ca/download | grep -Eo "download/0/broadstreet[a-zA-Z0-9./?=_-]*" | sort | uniq | tail -n 1 > card-db-version
+cardLink=$(sed  's/^/https:\/\/card.mcmaster.ca\//g' card-db-version)
+wget --no-check-certificate -O card-db.tar.gz $cardLink
+tar -xvf card-db.*
+awk '/>/{sub(">",">groot-db_CARD__")}1' nucleotide_fasta_protein_homolog_model.fasta > ../card-refs.fna
+cd .. && rm -r card
+
+# Download the latest ARG-annot database (V3)
+wget http://en.mediterranee-infection.com/arkotheque/client/ihumed/_depot_arko/articles/1424/arg-annot-nt-v3-march2017_doc.fasta -O argannot-refs.fna
+awk '/>/{sub(">",">groot-db_ARGANNOT__")}1' argannot-refs.fna > tmp && mv tmp argannot-refs.fna
+
+# Download the latest ResFinder database
+mkdir resfinder && cd $_
+wget https://bitbucket.org/genomicepidemiology/resfinder_db/get/dc33e2f9ec2c.zip -O resfinder.zip
+unzip resfinder.zip
+awk 'FNR==1{print ""}1' genomic*/*.fsa > resfinder-refs.fna
+awk '/>/{sub(">",">groot-db_RESFINDER__")}1' resfinder-refs.fna > ../resfinder-refs.fna
+cd .. && rm -r resfinder
+
+# Download the latest megres database
+#mkdir megares && cd $_
+#wget --no-check-certificate -qO- https://megares.meglab.org/download/index.php | grep -Eo "megares_v.*/megares_database.*[0-9].fasta" | sort | uniq | tail -n 1 > megres-db-version
+#megaresLink=$(sed  's/^/https:\/\/megares.meglab.org\/download\//g' megres-db-version)
+#wget --no-check-certificate -O ../megares-refs.fna $megaresLink
+#cd .. && rm -r megares
+
+# Create a reference file for the complete database
+cat *.fna > all-args.fasta
+seqkit rmdup --by-seq --ignore-case -j 8 -o all-args.dedup.fasta < all-args.fasta
+
+# Cluster total set and create groot-db
+mkdir groot-db.90 && cd $_
+vsearch --cluster_size ../all-args.dedup.fasta --id 0.90 --msaout MSA.tmp
+awk '!a[$0]++ {of="./cluster-" ++fc ".msa"; print $0 >> of ; close(of)}' RS= ORS="\n\n" MSA.tmp && rm MSA.tmp
+date +%x_%H:%M:%S:%N | sed 's/\(:[0-9][0-9]\)[0-9]*$/\1/' > timestamp.txt
+cd ..
+
+# Create the groot-core-db
+mkdir groot-core-db.90 && cd $_
+cat ../*.fna > all-args.fasta
+vsearch --cluster_size ../all-args.fasta --id 0.99 --msaout MSA.tmp
+awk '!a[$0]++ {of="./cluster-" ++fc ".msa"; print $0 >> of ; close(of)}' RS= ORS="\n\n" MSA.tmp && rm MSA.tmp
+for i in *.msa
+do
+    seqNum=$(grep '>' ${i} | wc -l)
+    if [[ ${seqNum} > 3 ]]; then
+        grep '>' -m 1 ${i} | sed 's/>\*//' >> core-seqs.txt
+    fi
+    rm ${i}
+done
+cat all-args.fasta | seqkit grep -f core-seqs.txt > core-seqs.fna
+vsearch --cluster_size core-seqs.fna --id 0.90 --msaout MSA.tmp
+awk '!a[$0]++ {of="./cluster-" ++fc ".msa"; print $0 >> of ; close(of)}' RS= ORS="\n\n" MSA.tmp && rm MSA.tmp
+date +%x_%H:%M:%S:%N | sed 's/\(:[0-9][0-9]\)[0-9]*$/\1/' > timestamp.txt
+rm core-seq* all-arg*
+cd ..
+
+# Finish up
+mv groot* ..
+cd .. && rm -r tmp
+```
+</details>
+
 # Notes on the general approach
 
 Genes from ARG annotation outputs are mapped to ARO accessions using ARO annotation tables. ARO annotation tables are constructed using the RGI (Alcock et al., 2023) and manual curation. All databases except MEGARes v3.0 are handled as amino acid files, where all ARG sequences (coding sequences) in the databases are translated to amino acid form using BioPython (Cock et al., 2009). The amino acid files are processed by RGI using the ‘protein’ mode to map genes to the ARO. The ‘Original ID’ (gene name in ARG annotation database), ‘Best_Hit_ARO’ (gene name in CARD) and ‘ARO’ (ARO accession) columns from the RGI output are specifically chosen from the RGI output, with the ‘Best_Hit_ARO’ column renamed to ‘Gene Name in CARD’ , to form the automated annotation tables. Genes which were not given an ARO mapping by RGI are manually assigned an ARO accession. The manual curation and automated annotation tables are combined to produce ARO annotation tables.

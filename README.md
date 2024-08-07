@@ -43,6 +43,7 @@ The `resistance_to_drug_classes` column will contain ARO numbers of the broader 
 - [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5), ResFinderFG (v2)
 - [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) (v4.0)
 - [AMRFinderPlus](https://github.com/ncbi/amr) (v3.10.30)
+- [GROOT](https://github.com/will-rowe/groot) (v1.1.2)
 
 ## Installation
 argNorm can be installed using pip:
@@ -72,6 +73,7 @@ The only positional argument required is `tool` which can be:
 - `abricate`
 - `resfinder`
 - `amrfinderplus`
+- `groot`
 
 The available options are:
 - `-h` or `--help`: shows available options and exits.
@@ -82,6 +84,7 @@ The available options are:
     - DeepARG (`deeparg`)
     - MEGARes (`megares`)
     - ARG-ANNOT (`argannot`)
+    - `groot-core-db`, `groot-db`, `groot-resfinder`, `groot-argannot`, `groot-card`
 - `--hamronized`: use this if the input is hamronized by [hAMRonization](https://github.com/pha4ge/hAMRonization)
 - `-i` or `--input`: path to the annotation result
 - `-o` or `--output`: the file to save normalization results
@@ -90,17 +93,20 @@ Use `argnorm -h` or `argnorm --help` to see available options.
 
 ```bash
 >argnorm -h
-usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot}] [--hamronized] [-i INPUT] [-o OUTPUT] {argsoap,abricate,deeparg,resfinder,amrfinderplus}
+usage: argnorm [-h]
+               [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}]
+               [--hamronized] [-i INPUT] [-o OUTPUT]
+               {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
-  {argsoap,abricate,deeparg,resfinder,amrfinderplus}
+  {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot}
                         The tool you used to do ARG annotation.
 
-options:
+optional arguments:
   -h, --help            show this help message and exit
-  --db {sarg,ncbi,resfinder,deeparg,megares,argannot}
+  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}
                         The database you used to do ARG annotation.
   --hamronized          Use this if the input is hamronized (processed using the hAMRonization tool)
   -i INPUT, --input INPUT

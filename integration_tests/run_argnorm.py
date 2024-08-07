@@ -16,7 +16,7 @@ def run_cli_test(tool, file, folder, db=None):
     if folder == 'hamronized':
         command.append('--hamronized')
 
-    if tool == 'abricate':
+    if tool in  ['abricate', 'groot']:
         command += ['--db', db]
 
     subprocess.check_call(command)
@@ -33,6 +33,11 @@ for folder in ['hamronized', 'raw']:
     run_cli_test('amrfinderplus', 'amrfinderplus.ncbi.orfs.tsv', folder)
     run_cli_test('resfinder', 'resfinder.resfinder.reads.tsv', folder)
     run_cli_test('resfinder', 'resfinder.resfinder.orfs.tsv', folder)
+    for db in ['argannot', 'card', 'groot-core-db', 'groot-db', 'resfinder']:
+        database = db
+        if not 'groot' in db:
+            database = f'groot-{db}'
+        run_cli_test('groot', f'groot.{db}.tsv', folder, database)
 
 for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
     file  = f'abricate.{db.lower()}.tsv'

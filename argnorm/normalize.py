@@ -1,5 +1,5 @@
 from .normalizers import ARGSOAPNormalizer, \
-    DeepARGNormalizer, AbricateNormalizer, ResFinderNormalizer, AMRFinderPlusNormalizer
+    DeepARGNormalizer, AbricateNormalizer, ResFinderNormalizer, AMRFinderPlusNormalizer, GrootNormalizer
 
 def normalize(ifile, tool : str, database : str, is_hamronized : bool):
     '''Normalize ARG tables
@@ -20,6 +20,7 @@ def normalize(ifile, tool : str, database : str, is_hamronized : bool):
         'argsoap': ARGSOAPNormalizer,
         'deeparg': DeepARGNormalizer,
         'resfinder': ResFinderNormalizer,
+        'groot': GrootNormalizer
     }.get(tool)
 
     if normalizer is None:

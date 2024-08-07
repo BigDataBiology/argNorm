@@ -12,7 +12,24 @@ ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
-DATABASES = ['argannot', 'deeparg', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'sarg']
+DATABASES = [
+    'argannot', 
+    'deeparg', 
+    'megares', 
+    'ncbi', 
+    'resfinder', 
+    'resfinderfg', 
+    'sarg',
+    'groot',
+]
+
+groot_ref_databases = [
+    'groot-db',
+    'groot-core-db',
+    'groot-argannot',
+    'groot-resfinder',
+    'groot-card',
+] 
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 _ARO = None
@@ -41,6 +58,9 @@ def get_aro_mapping_table(database):
     Returns:
         aro_mapping_table (DataFrame): A pandas dataframe with ARGs mapped to AROs.
     """
+    
+    if 'groot' in database:
+        database = 'groot'
 
     aro_mapping_table = pd.read_csv(
             os.path.join(_ROOT, 'data', f'{database}_ARO_mapping.tsv'),
@@ -51,20 +71,22 @@ def get_aro_mapping_table(database):
     manual_curation = pd.read_csv(
                     os.path.join(_ROOT, 'data/manual_curation', f'{database}_curation.tsv'),
                     sep='\t', index_col=0, dtype={'ARO': str})
-    manual_curation['Database'] = aro_mapping_table['Database'].iloc[0]
+    if database != 'groot':
+        manual_curation['Database'] = aro_mapping_table['Database'].iloc[0]
     aro_mapping_table.drop(index=set(manual_curation.index) & set(aro_mapping_table.index), inplace=True)
     aro_mapping_table = pd.concat([aro_mapping_table, manual_curation])
 
     aro_mapping_table['ARO'] = aro_mapping_table['ARO'].map(lambda a: f'ARO:{a}', na_action='ignore')
     return aro_mapping_table
 
-def map_to_aro(gene, database):
+def map_to_aro(gene, database, groot_ref_db=None):
     """
     Description: Gets ARO mapping for a specific gene in a database.
 
     Parameters:
         gene (str): The original ID of the gene as mentioned in source database.
-        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg and sarg
+        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg, and groot
+        groot_ref_db (str, optional): name of reference db used by groot. Can be groot-argannot, groot-resfinder, groot-card, groot-core-db, or groot-db
 
     Returns:
         ARO[result] (pronto.term.Term): A pronto term with the ARO number of input gene. ARO number can be accessed using 'id' attribute and gene name can be accessed using 'name' attribute.
@@ -72,10 +94,25 @@ def map_to_aro(gene, database):
         If ARO mapping is doesn't exist, None is returned.
     """
 
-    if database not in ['ncbi', 'deeparg', 'resfinder', 'sarg', 'megares', 'argannot']:
+    if database not in DATABASES:
         raise Exception(f'{database} is not a supported database.')
+    if 'groot' in database and not groot_ref_db in groot_ref_databases:
+        raise Exception(f'{groot_ref_db} is not a valid groot reference database')
 
     mapping_table = get_aro_mapping_table(database)
+    
+    # Preprocess input gene & mapping table original ids if groot is being used
+    if 'groot' in database:
+        if groot_ref_db == 'groot-argannot':
+            gene = gene.split('~~~')[-1]
+            mapping_table.index = mapping_table.index.map(lambda x: ':'.join(str(x).split(':')[1:3]))
+        if groot_ref_db == 'groot-card':
+            gene = gene.split('.')[0]
+        if groot_ref_db in ['groot-db', 'groot-core-db']:
+            if 'card' in gene.lower():
+                gene = gene.split('|')[-1]
+            else:
+                gene = gene.split('__')[1]
 
     try:
         result = mapping_table.loc[gene, 'ARO']
