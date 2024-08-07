@@ -4,6 +4,7 @@
 
 - argNorm has been included as an nf-core module: https://nf-co.re/modules/argnorm/
 - Use atomic writing for outputs
+- Support GROOT v1.1.2
 
 ### New Features
 

@@ -182,13 +182,13 @@ class GrootNormalizer(BaseNormalizer):
             col = 0
 
         if self.database == 'groot-argannot':
-            return itable[col].map(lambda x: x.split('~~~')[-1])
-        if self.database == 'groot-resfinder':
-            return itable[col]
+            return itable[col].map(lambda x: x.split('~~~')[-1])            
         if self.database == 'groot-card':
             return itable[col].map(lambda x: x.split('.')[0])
-        if self.database == 'groot-db' or self.database == 'groot-core-db':
+        if self.database in ['groot-db', 'groot-core-db']:
             return itable[col].map(self.preprocess_groot_db_inputs)
+
+        return itable[col]
             
     def preprocess_ref_genes(self, ref_genes):
         if self.database == 'groot-argannot':

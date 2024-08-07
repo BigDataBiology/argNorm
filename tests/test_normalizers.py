@@ -86,3 +86,28 @@ def test_amrfinderplus_normalizer(hamronized):
     golden_file = pd.read_csv(os.path.join('./outputs/', folder, f'amrfinderplus.ncbi.orfs.tsv'), sep='\t')
 
     pd.testing.assert_frame_equal(normed, golden_file)
+
+@pytest.mark.parametrize('database', ['argannot', 'resfinder', 'card', 'groot-db', 'groot-core-db'])
+def test_groot_normalizer_raw(database):
+    if 'groot' not in database:
+        normalizer = argnorm.GrootNormalizer(database=f'groot-{database}', is_hamronized=False)
+    else:
+        normalizer = argnorm.GrootNormalizer(database=f'groot-db', is_hamronized=False)
+        
+    input_path = f'./examples/raw/groot.{database}.tsv'
+    normed = get_normed(normalizer, input_path)
+    normed.columns = normed.columns.astype(str)
+    golden_file = pd.read_csv(os.path.join('./outputs/', 'raw', f'groot.{database}.tsv'), sep='\t')
+    pd.testing.assert_frame_equal(normed, golden_file)
+
+@pytest.mark.parametrize('database', ['argannot', 'resfinder', 'card', 'groot-db', 'groot-core-db'])
+def test_groot_normalizer_raw(database):
+    if 'groot' not in database:
+        normalizer = argnorm.GrootNormalizer(database=f'groot-{database}', is_hamronized=True)
+    else:
+        normalizer = argnorm.GrootNormalizer(database=f'groot-db', is_hamronized=True)
+    input_path = f'./examples/hamronized/groot.{database}.tsv'
+    normed = get_normed(normalizer, input_path)
+    normed.columns = normed.columns.astype(str)
+    golden_file = pd.read_csv(os.path.join('./outputs/', 'hamronized', f'groot.{database}.tsv'), sep='\t')
+    pd.testing.assert_frame_equal(normed, golden_file)
