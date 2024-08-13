@@ -11,9 +11,9 @@ def test_map_to_aro():
         ["(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537", "argannot"],
         ["MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA", "megares"],
         ["gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase", "deeparg"],
-        ["argannot~~~(Bla)cfxA4~~~AY769933:1-966", 'groot', 'groot-argannot'],
-        ["ErmF.3000498.M17124.1181-1982.593", 'groot', 'groot-card'],
-        ["groot-db_RESFINDER__tet(W)_1_DQ060146", 'groot', 'groot-db']
+        ["argannot~~~(Bla)cfxA4~~~AY769933:1-966", 'groot-argannot'],
+        ["ErmF.3000498.M17124.1181-1982.593", 'groot-card'],
+        ["groot-db_RESFINDER__tet(W)_1_DQ060146", 'groot-db']
     ]
 
     ARO = lib.get_aro_ontology()
@@ -36,7 +36,7 @@ def test_map_to_aro():
         else:
             assert map_to_aro(t[0], t[1]) == e
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'groot'])
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'groot', 'groot-argannot'])
 def test_get_aro_mapping_table_smoke(database):
     df = get_aro_mapping_table(database)
     assert len(df) > 0

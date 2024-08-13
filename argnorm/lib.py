@@ -20,10 +20,6 @@ DATABASES = [
     'resfinder', 
     'resfinderfg', 
     'sarg',
-    'groot',
-]
-
-groot_ref_databases = [
     'groot-db',
     'groot-core-db',
     'groot-argannot',
@@ -79,14 +75,13 @@ def get_aro_mapping_table(database):
     aro_mapping_table['ARO'] = aro_mapping_table['ARO'].map(lambda a: f'ARO:{a}', na_action='ignore')
     return aro_mapping_table
 
-def map_to_aro(gene, database, groot_ref_db=None):
+def map_to_aro(gene, database):
     """
     Description: Gets ARO mapping for a specific gene in a database.
 
     Parameters:
         gene (str): The original ID of the gene as mentioned in source database.
-        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg, and groot
-        groot_ref_db (str, optional): name of reference db used by groot. Can be groot-argannot, groot-resfinder, groot-card, groot-core-db, or groot-db
+        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg, groot-db, groot-core-db, groot-argannot, groot-resfinder, groot-card
 
     Returns:
         ARO[result] (pronto.term.Term): A pronto term with the ARO number of input gene. ARO number can be accessed using 'id' attribute and gene name can be accessed using 'name' attribute.
@@ -96,23 +91,20 @@ def map_to_aro(gene, database, groot_ref_db=None):
 
     if database not in DATABASES:
         raise Exception(f'{database} is not a supported database.')
-    if 'groot' in database and not groot_ref_db in groot_ref_databases:
-        raise Exception(f'{groot_ref_db} is not a valid groot reference database')
 
     mapping_table = get_aro_mapping_table(database)
     
     # Preprocess input gene & mapping table original ids if groot is being used
-    if 'groot' in database:
-        if groot_ref_db == 'groot-argannot':
-            gene = gene.split('~~~')[-1]
-            mapping_table.index = mapping_table.index.map(lambda x: ':'.join(str(x).split(':')[1:3]))
-        if groot_ref_db == 'groot-card':
-            gene = gene.split('.')[0]
-        if groot_ref_db in ['groot-db', 'groot-core-db']:
-            if 'card' in gene.lower():
-                gene = gene.split('|')[-1]
-            else:
-                gene = gene.split('__')[1]
+    if database == 'groot-argannot':
+        gene = gene.split('~~~')[-1]
+        mapping_table.index = mapping_table.index.map(lambda x: ':'.join(str(x).split(':')[1:3]))
+    if database == 'groot-card':
+        gene = gene.split('.')[0]
+    if database in ['groot-db', 'groot-core-db']:
+        if 'card' in gene.lower():
+            gene = gene.split('|')[-1]
+        else:
+            gene = gene.split('__')[1]
 
     try:
         result = mapping_table.loc[gene, 'ARO']
