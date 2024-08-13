@@ -1,4 +1,3 @@
-import os
 import pandas as pd
 try:
     pd.options.mode.copy_on_write = True
@@ -158,3 +157,40 @@ class AbricateNormalizer(BaseNormalizer):
         )
         return ref_genes.map(process_funcs_by_db[self.database])
 
+class GrootNormalizer(BaseNormalizer):
+    def __init__(self, database=None, is_hamronized=False) -> None:
+        if database not in ['groot-argannot', 'groot-resfinder', 'groot-db', 'groot-core-db', 'groot-card']:
+            raise Exception(f'{database} is not a supported database for groot.')
+
+        super().__init__(database, is_hamronized)
+            
+    def load_input(self, input_file):
+        if self.is_hamronized:
+            return pd.read_csv(input_file, sep='\t')
+        return pd.read_csv(input_file, sep='\t', header=None)
+    
+    def preprocess_groot_db_inputs(self, gene_name):
+        processed_gene_name = str(gene_name).split('__')[1]
+        if 'card' in  str(gene_name).split('__')[0].lower():
+            processed_gene_name = processed_gene_name.split('|')[-1]
+        return processed_gene_name
+    
+    def get_input_ids(self, itable):
+        if self.is_hamronized:
+            col = 'gene_name'
+        else:
+            col = 0
+
+        if self.database == 'groot-argannot':
+            return itable[col].map(lambda x: x.split('~~~')[-1])            
+        if self.database == 'groot-card':
+            return itable[col].map(lambda x: x.split('.')[0])
+        if self.database in ['groot-db', 'groot-core-db']:
+            return itable[col].map(self.preprocess_groot_db_inputs)
+
+        return itable[col]
+            
+    def preprocess_ref_genes(self, ref_genes):
+        if self.database == 'groot-argannot':
+            return ref_genes.map(lambda x: ':'.join(str(x).split(':')[1:3]))
+        return ref_genes

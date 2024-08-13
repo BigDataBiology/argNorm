@@ -148,3 +148,18 @@ argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw
 
 argnorm amrfinderplus -i examples/hamronized/amrfinderplus.ncbi.orfs.tsv -o outputs/hamronized/amrfinderplus.ncbi.orfs.tsv
 ```
+
+### GROOT
+```bash
+argnorm groot -i examples/raw/groot.argannot.tsv -o outputs/raw/groot.argannot.tsv --db groot-argannot
+argnorm groot -i examples/raw/groot.resfinder.tsv -o outputs/raw/groot.resfinder.tsv --db groot-resfinder
+argnorm groot -i examples/raw/groot.card.tsv -o outputs/raw/groot.card.tsv --db groot-card
+argnorm groot -i examples/raw/groot.groot-db.tsv -o outputs/raw/groot.groot-db.tsv --db groot-db
+argnorm groot -i examples/raw/groot.groot-core-db.tsv -o ouptuts/raw/groot.groot-core-db.tsv --db groot-core-db
+
+argnorm groot -i examples/hamronized/groot.argannot.tsv -o outputs/hamronized/groot.argannot.tsv --db groot-argannot --hamronized
+argnorm groot -i examples/hamronized/groot.resfinder.tsv -o outputs/hamronized/groot.resfinder.tsv --db groot-resfinder --hamronized
+argnorm groot -i examples/hamronized/groot.card.tsv -o outputs/hamronized/groot.card.tsv --db groot-card --hamronized
+argnorm groot -i examples/hamronized/groot.groot-db.tsv -o outputs/hamronized/groot.groot-db.tsv --db groot-db --hamronized
+argnorm groot -i examples/hamronized/groot.groot-core-db.tsv -o outputs/hamronized/groot.groot-core-db.tsv --db groot-core-db --hamronized
+```

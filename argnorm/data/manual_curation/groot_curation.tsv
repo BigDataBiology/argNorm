@@ -1,0 +1,3 @@
+Original ID	ARO	Description
+blaOXA-14_1_L38523	3001409	The starting of the CDS ('ATGAAAACATTTGCCGCATATGTAAT') was missing, so RGI couldn't find the corresponding ARG
+blaTEM-199_1_JX050178	3001058	RGI couldn't detect the ARG as there was a 'T' added to the beginning of the nucleotide sequence which did not translate to the correct amino acid sequence.

@@ -10,7 +10,10 @@ def test_map_to_aro():
         ["gb|AAG57600.1|ARO:3000318|mphB", "sarg"],
         ["(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537", "argannot"],
         ["MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA", "megares"],
-        ["gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase", "deeparg"]
+        ["gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase", "deeparg"],
+        ["argannot~~~(Bla)cfxA4~~~AY769933:1-966", 'groot', 'groot-argannot'],
+        ["ErmF.3000498.M17124.1181-1982.593", 'groot', 'groot-card'],
+        ["groot-db_RESFINDER__tet(W)_1_DQ060146", 'groot', 'groot-db']
     ]
 
     ARO = lib.get_aro_ontology()
@@ -21,13 +24,19 @@ def test_map_to_aro():
         ARO.get_term('ARO:3000318'),
         ARO.get_term('ARO:3000249'),
         None,
-        ARO.get_term('ARO:0010004')
+        ARO.get_term('ARO:0010004'),
+        ARO.get_term('ARO:3003005'),
+        ARO.get_term('ARO:3000498'),
+        ARO.get_term('ARO:3000194')
     ]
 
     for t, e in zip(test_cases, expected_output):
-        assert map_to_aro(t[0], t[1]) == e
+        if t[1] == 'groot':
+            assert map_to_aro(t[0], t[1], t[2]) == e
+        else:
+            assert map_to_aro(t[0], t[1]) == e
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg'])
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'groot'])
 def test_get_aro_mapping_table_smoke(database):
     df = get_aro_mapping_table(database)
     assert len(df) > 0

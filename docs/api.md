@@ -11,6 +11,7 @@ A list of supported databases.
 #### Parameters
 * gene (str): The original ID of the gene as mentioned in source database.
 * database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg and sarg
+* groot_ref_db (str, optional): name of reference database used by groot. Can be: groot-argannot, groot-resfinder, groot-card, groot-db, or groot-core-db
 
 #### Returns
 * pronto.term.Term: A pronto term with the ARO number of input gene. ARO number can be accessed using 'id' attribute and gene name can be accessed using 'name' attribute. 
@@ -20,15 +21,19 @@ A list of supported databases.
 #### Example
 
 ```
-# Mapping the `ARR-2_1_HQ141279` gene from the `resfinder` database to the ARO
 from argnorm.lib import map_to_aro
+
+# Mapping the `ARR-2_1_HQ141279` gene from the `resfinder` database to the ARO
 print(map_to_aro('ARR-2_1_HQ141279', 'resfinder'))
+
+# Mapping the `argannot~~~(Bla)cfxA4~~~AY769933:1-966` gene in `groot` using the `groot-argannot` reference database
+print(map_to_aro('argannot~~~(Bla)cfxA4~~~AY769933:1-966', 'groot', 'groot-argannot'))
 ```
 
 ### argnorm.lib.get_aro_mapping_table(): gets ARO mapping table for a specific database
 
 #### Parameters 
-* database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg and sarg
+* database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg or groot
 
 #### Returns
 * pandas.DataFrame: A pandas dataframe with ARGs mapped to AROs.
@@ -81,10 +86,10 @@ print(drugs_to_drug_classes(['ARO:0000030', 'ARO:0000051', 'ARO:0000069', 'ARO:3
 Normalizers classes for specific tools which normalize ARG annotation outputs. Same functionality as CLI.
 
 All normalizers have 2 parameters:
-* database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg and sarg.
+* database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg, groot-db, groot-core-db, groot-card, groot-argannot, and groot-resfinder.
 * is_hamronized (bool, False by default): whether or not the ARG annotation output has been processed by the hamronization package.
 
-> Note: the database parameter only needs to be specified for AbricateNormalizer. ncbi, deeparg, resfinder, sarg, megares, argannot, resfinderfg are the supported databases.
+> Note: the database parameter only needs to be specified for AbricateNormalizer and GrootNormalizer. ncbi, deeparg, resfinder, sarg, megares, argannot, resfinderfg are the supported databases for AbricateNormalizer and groot-db, groot-core-db, groot-argannot, groot-resfinder, and groot-card are the supported databases for GrootNormalizer.
 
 Available normalizers:
 * argnorm.normalizers.ARGSOAPNormalizer
@@ -92,6 +97,7 @@ Available normalizers:
 * argnorm.normalizers.ResFinderNormalizer
 * argnorm.normalizers.AMRFinderPlusNormalizer
 * argnorm.normalizers.AbricateNormalizer
+* argnorm.normalizers.GrootNormalizer
 
 ### Methods
 
