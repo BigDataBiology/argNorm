@@ -37,16 +37,9 @@ def get_resfinder_db():
     url = 'https://bitbucket.org/genomicepidemiology/resfinder_db/raw/8aad1d20603fbec937cdae55024568de6dbd609f/all.fsa'
     return download_file(url, ofile)
 
-@TaskGenerator
 def get_sarg_db():
-    with tempfile.TemporaryDirectory() as tmpdir:
-        tmp_zip = f'{tmpdir}/Short_subdatabase_V3.2.1.zip'
-        download_file.f('https://smile.hku.hk/ARGs/dataset/indexingdownload/Short_subdatabase_V3.2.1.zip', tmp_zip)
-        subprocess.check_call(
-            ['unzip', tmp_zip, '-d', tmpdir])
-        shutil.copy(f'{tmpdir}/Short_subdatabase/4.SARG_v3.2_20220917_Short_subdatabase.fasta', 'dbs/sarg.faa')
-
-    return 'dbs/sarg.faa'
+    url = 'https://raw.githubusercontent.com/xinehc/args_oap/a3e5cff4a6c09f81e4834cfd9a31e6ce7d678d71/src/args_oap/db/sarg.fasta'
+    return download_file(url, 'dbs/sarg.faa')
 
 def get_deeparg_db():
     url = 'https://bitbucket.org/gusphdproj/deeparg-largerepo/raw/5683ea1c075dad3a68e0e236c98e2a98d564f560/database/v2/features.fasta'
