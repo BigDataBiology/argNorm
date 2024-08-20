@@ -109,6 +109,18 @@ def run_rgi(fa):
 def move_mappings_to_argnorm(aro_mapping):
     shutil.copy(aro_mapping, '../argnorm/data')
 
+@TaskGenerator
+def get_rgi_hit_counts():
+    import pandas as pd
+
+    dfs = []
+    for dir in os.listdir('./mapping'):
+        if 'rgi.txt' in dir or 'rgi_output.txt' in dir:
+            dfs.append(pd.read_csv(f'./mapping/{dir}', sep='\t'))
+            
+    comb_df = pd.concat(dfs)
+    comb_df.to_csv('./mapping/combined_ARO_mapping.tsv', sep='\t')
+
 # Calling tasks
 create_out_dirs()
 barrier()
@@ -123,3 +135,5 @@ for db in [
     move_mappings_to_argnorm(run_rgi(db))
 construct_megares()
 get_groot_aro_mapping()
+barrier()
+get_rgi_hit_counts()

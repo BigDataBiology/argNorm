@@ -93,8 +93,8 @@ def generate_missing_mappings_fasta(missing_mappings, megares_fasta):
     """
     Get protein file for missing CDSs to pass to RGI and nucleotide file for missing contigs to pass to RGI
     """
-    ofile1 = './megares_cds.fasta'
-    ofile2 = './megares_contigs.fasta'
+    ofile1 = './dbs/megares_cds.fasta'
+    ofile2 = './dbs/megares_contigs.fasta'
     with open(megares_fasta) as ifile, open(ofile1, 'w') as megares_cds, open(ofile2, 'w') as megares_contigs:
         for record in SeqIO.parse(ifile, 'fasta'):
             if record.id not in missing_mappings:
@@ -127,7 +127,7 @@ def setup_for_rgi():
 
 @TaskGenerator
 def get_cds_rgi_output(cds_fasta):
-    ofile = './megares_cds_rgi_output'
+    ofile = './mapping/megares_cds_rgi_output'
     subprocess.check_call([
         'rgi',
         'main',
@@ -142,7 +142,7 @@ def get_cds_rgi_output(cds_fasta):
 
 @TaskGenerator
 def get_contig_rgi_output(contig_fasta):
-    ofile = './megares_contigs_rgi_output'
+    ofile = './mapping/megares_contigs_rgi_output'
     subprocess.check_call([
         'rgi',
         'main',
