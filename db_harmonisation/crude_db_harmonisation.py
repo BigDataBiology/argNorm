@@ -9,7 +9,6 @@ from Bio import SeqIO
 from Bio.Seq import translate, Seq
 from construct_megares_mapping import construct_megares
 from construct_groot_mappings import get_groot_aro_mapping
-import pandas as pd
 
 @TaskGenerator
 def create_out_dirs():
@@ -119,17 +118,15 @@ def move_mappings_to_argnorm(aro_mapping):
 
 @TaskGenerator
 def get_rgi_hit_counts():
-    dfs = []
+    import pandas as pd
 
+    dfs = []
     for dir in os.listdir('./mapping'):
         if 'rgi.txt' in dir or 'rgi_output.txt' in dir:
             dfs.append(pd.read_csv(f'./mapping/{dir}', sep='\t'))
             
     comb_df = pd.concat(dfs)
     comb_df.to_csv('./mapping/combined_ARO_mapping.tsv', sep='\t')
-
-    for i in set(comb_df['Cut_Off']):
-        print(f"{i} hits: {list(comb_df['Cut_Off']).count(i) / len(list(comb_df['Cut_Off'])) * 100}% ({list(comb_df['Cut_Off']).count(i)})")
 
 # Calling tasks
 create_out_dirs()
