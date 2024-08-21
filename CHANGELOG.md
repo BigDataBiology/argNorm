@@ -2,13 +2,24 @@
 
 ## Unreleased
 
-- argNorm has been included as an nf-core module: https://nf-co.re/modules/argnorm/
-- Use atomic writing for outputs
-- Support GROOT v1.1.2
-
 ### New Features
 
+#### GROOT support
+- argNorm supports the GROOT v1.1.2 ARG annotation tool: https://github.com/will-rowe/groot
+- GROOT support is via the `GrootNormalizer` (for use in python scripts) and the `groot` tool parameter with the `groot-db`, `groot-core-db`, `groot-argannot`, `groot-card`, and `groot-resfinder` `db` parameters in the CLI.
+
+#### Other
 - `__version__` attribute added to the package (accessible as `argnorm.__version__` or `argnorm.lib.__version__`)
+- Use atomic writing for outputs (https://github.com/untitaker/python-atomicwrites/tree/master)
+
+
+### funcscan integration
+- argNorm has been included as an nf-core module: https://nf-co.re/modules/argnorm/
+- argNorm will also be available on the funcscan pipeline: https://github.com/nf-core/funcscan/pull/410
+
+### DB harmonisation
+- SARG db link was changed in `crude_db_harmonisation` to https://raw.githubusercontent.com/xinehc/args_oap/a3e5cff4a6c09f81e4834cfd9a31e6ce7d678d71/src/args_oap/db/sarg.fasta as old link (Galaxy instance, http://smile.hku.hk/SARGs) is down
+- RGI outputs in `crude_db_harmonisation` are concatenated so frequencies of `perfect`, `strict`, and `loose` hits can be calculated from concatenated file 
 
 ## 0.5.0 - 26 June 2024
 
