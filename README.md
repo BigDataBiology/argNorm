@@ -30,6 +30,12 @@ The `confers_resistance_to` column will contain ARO numbers of all the drug clas
 
 The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
 
+### argNorm Overview
+![argNorm Overview](./docs/images/argnorm_overview.svg)
+
+*General overview of argNorm. (a) Genomes and metagenomes can be annotated using ARG annotation tools. argNorm accepts the outputs of these ARG annotation tools directly or after the outputs are processed by hAMRonization to perform ARO normalization and drug categorization. (b) The argNorm workflow includes: mapping gene names in the ARG annotation outputs to ARO accessions from ARO annotation tables constructed using RGI and manual curation; and mapping gene ARO accessions to drugs and drugs classes. (c) In categorizing drugs, agrNorm reports the immediate child of the ‘antibiotic molecule’ node in the ARO*
+
+
 ## argNorm workflow
 
 *Schematic illustration of argNorm workflow through a Resfinder output example: mapping gene names in the ARG annotation outputs to gene names from the ARO mapped ARG databases and adding corresponding drug categorization, namely “confers resistance to immediate drug class” and “overall category of drug class”, from the ARO ontology file.*
