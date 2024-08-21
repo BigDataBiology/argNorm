@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-### New Features
+## 0.6.0 - 21 August 2024
 
 #### GROOT support
 - argNorm supports the GROOT v1.1.2 ARG annotation tool: https://github.com/will-rowe/groot
