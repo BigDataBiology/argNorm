@@ -62,10 +62,13 @@ argNorm can also be installed through conda:
 conda install bioconda::argnorm
 ```
 
+## Nextflow and funcscan
 argNorm is also available as an [nf-core module](https://nf-co.re/modules/argnorm/). If using an nf-core pipeline, argNorm can be installed using:
 ```
 nf-core modules install argnorm
 ```
+
+argNorm is readily available in the funcscan pipeline which can be accessed (here)[https://github.com/nf-core/funcscan]
 
 ## Tutorial video
 
