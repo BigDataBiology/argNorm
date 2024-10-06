@@ -6,6 +6,7 @@ except pd.errors.OptionError:
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 from .lib import get_aro_mapping_table
 from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL
+from .argnorm_version import __version__
 
 # Column headings for drug categorization output
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
@@ -41,6 +42,7 @@ class BaseNormalizer:
         original_annot[RESISTANCE_TO_DRUG_CLASSES_COL] = original_annot[TARGET_ARO_COL].map(
                 lambda a: ','.join(drugs_to_drug_classes(confers_resistance_to(a))),
                 na_action='ignore')
+        original_annot['argNorm_version'] = __version__
 
         return original_annot
 
