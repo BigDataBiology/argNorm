@@ -9,7 +9,10 @@ def get_normed(normalizer, input_path):
     normed = normalizer.run(input_path)
     normed = normed.apply(lambda x: x.str.strip() if isinstance(x, str) else x).replace('', np.nan)
     return normed
- 
+
+def get_golden_file(path):
+    return pd.read_csv(path, sep='\t', skiprows=1)
+
 @pytest.mark.parametrize('hamronized', [True, False])
 def test_argsoap_normalizer(hamronized):
     folder = 'hamronized' if hamronized else 'raw'
@@ -17,7 +20,7 @@ def test_argsoap_normalizer(hamronized):
     input_path = f'./examples/{folder}/args-oap.sarg.reads.tsv'
 
     normed = get_normed(normalizer, input_path)
-    golden_file = pd.read_csv(os.path.join('./outputs/', folder, 'args-oap.sarg.reads.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', folder, 'args-oap.sarg.reads.tsv'))
     # The numbers in the heading of the raw normed df have the type int, while numbers in heading of golden file have type str
     normed.columns = golden_file.columns
 
@@ -30,7 +33,7 @@ def test_deeparg_normalizer(hamronized):
     input_path = f'./examples/{folder}/deeparg.deeparg.orfs.tsv'
 
     normed = get_normed(normalizer, input_path)
-    golden_file = pd.read_csv(os.path.join('./outputs/', folder, 'deeparg.deeparg.orfs.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', folder, 'deeparg.deeparg.orfs.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
@@ -41,7 +44,7 @@ def test_abricate_normalizer_hamronized(database):
     input_path = f'./examples/hamronized/abricate.{database}.tsv'
 
     normed = get_normed(normalizer, input_path)
-    golden_file = pd.read_csv(os.path.join('./outputs/', 'hamronized', f'abricate.{database}.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', 'hamronized', f'abricate.{database}.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
@@ -51,7 +54,7 @@ def test_abricate_normalizer_raw(database):
     input_path = f'./examples/raw/abricate.{database}.tsv'
 
     normed = get_normed(normalizer, input_path)
-    golden_file = pd.read_csv(os.path.join('./outputs/', 'raw', f'abricate.{database}.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', f'abricate.{database}.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
@@ -72,7 +75,7 @@ def test_resfinder_normalizer(hamronized, mode):
     input_path = f'./examples/{folder}/resfinder.resfinder.{mode}.tsv'
     
     normed = get_normed(normalizer, input_path)
-    golden_file = pd.read_csv(os.path.join('./outputs/', folder, f'resfinder.resfinder.{mode}.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', folder, f'resfinder.resfinder.{mode}.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
@@ -83,7 +86,7 @@ def test_amrfinderplus_normalizer(hamronized):
     input_file = f'./examples/{folder}/amrfinderplus.ncbi.orfs.tsv'
     
     normed = get_normed(normalizer, input_file)
-    golden_file = pd.read_csv(os.path.join('./outputs/', folder, f'amrfinderplus.ncbi.orfs.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', folder, f'amrfinderplus.ncbi.orfs.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
@@ -97,7 +100,7 @@ def test_groot_normalizer_raw(database):
     input_path = f'./examples/raw/groot.{database}.tsv'
     normed = get_normed(normalizer, input_path)
     normed.columns = normed.columns.astype(str)
-    golden_file = pd.read_csv(os.path.join('./outputs/', 'raw', f'groot.{database}.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', f'groot.{database}.tsv'))
     pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('database', ['argannot', 'resfinder', 'card', 'groot-db', 'groot-core-db'])
@@ -109,5 +112,5 @@ def test_groot_normalizer_raw(database):
     input_path = f'./examples/hamronized/groot.{database}.tsv'
     normed = get_normed(normalizer, input_path)
     normed.columns = normed.columns.astype(str)
-    golden_file = pd.read_csv(os.path.join('./outputs/', 'hamronized', f'groot.{database}.tsv'), sep='\t')
+    golden_file = get_golden_file(os.path.join('./outputs/', 'hamronized', f'groot.{database}.tsv'))
     pd.testing.assert_frame_equal(normed, golden_file)
