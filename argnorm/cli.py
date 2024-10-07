@@ -1,4 +1,5 @@
 import argparse
+from .argnorm_version import __version__
 from .atomicwrite import atomic_write
 
 def main():
@@ -48,4 +49,5 @@ def main():
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
     print(f'{args.output}:', f'{round(1 - prop_unmapped, 3):.2%} ARGs mapped.')
     with atomic_write(args.output, mode='w', overwrite=True) as out:
+        out.write(f'# argNorm version: {__version__}\n')
         result.to_csv(out, sep='\t', index=False)
