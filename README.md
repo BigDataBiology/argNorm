@@ -130,6 +130,16 @@ Here is a basic outline of calling argNorm.
 argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
 ```
 
+## Outputs
+The following columns are added to the tsv outputs of ARG annotation tools:
+| Table column                 | Description                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------- |
+| `ARO`                        | ARO accessions of ARG                                                            |
+| `confers_resistance_to`      | ARO accessions of drugs to which ARGs confer resistance to                       |
+| `resistance_to_drug_classes` | ARO accessions of drugs classes to which drugs in `confers_resistance_to` belong |
+
+A comment is added to the very top of the ARG annotation tool outputs specifying the argNorm version used. For example: '# argNorm version: 0.6.0'
+
 ## Example 1: argNorm as a command line tool
 
 Here is a quick demo of running argNorm on the command line.
