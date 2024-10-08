@@ -2,6 +2,25 @@
 
 ## Unreleased
 
+#### argNorm version in outputs from CLI
+The version of argNorm used for normalization is now added to the top of argNorm tsv outputs when generated using the CLI.  For example, 
+
+~~~
+# argNorm version: 0.6.0
+input_sequence_id	input_file_name	gene_symbol	gene_name	reference_database_id ...
+. REST OF ARG ANNOTATION OUTPUT TSV TABLE
+.
+.
+~~~
+
+> **NOTE: This is only if argNorm is used on the CLI, if you used argNorm's normalizers there will be no comment with the argNorm version**
+ 
+> **NOTE: THIS WILL BREAK ANY PREVIOUS SCRIPTS ANALYZING ARGNORM CLI OUTPUTS BEFORE THIS UPDATE! PLEASE USE THE `skiprows=1` ARGUMENT WHEN LOADING ARGNORM OUTPUT DATAFRAMES TO IGNORE THE COMMENT WITH THE ARGNORM VERSION AS SHOWN BELOW:**
+> ```
+> import pandas as pd
+> df = pd.read_csv(<PATH TO ARGNORM OUTPUT>, sep='\t', skiprows=1)
+> ```
+
 ## 0.6.0 - 21 August 2024
 
 #### GROOT support
