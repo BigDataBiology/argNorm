@@ -100,7 +100,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         super().__init__(database, is_hamronized)
 
     def get_input_ids(self, itable):
-        return itable['gene_symbol' if self.is_hamronized else 'Accession of closest sequence']
+        return itable['gene_symbol' if self.is_hamronized else 'Closest reference accession']
 
     def preprocess_ref_genes(self, ref_genes):
         return ref_genes.str.split('|').str[5 if self.is_hamronized else 1]
