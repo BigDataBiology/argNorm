@@ -47,14 +47,21 @@ If you use argNorm in a publication, please cite the preprint:
 
 ![argNorm Workflow](./images/argnorm_workflow.svg)
 
-## Supported tools
+## Supported tools and databases
 
-- [DeepARG](https://bench.cs.vt.edu/deeparg) (v1.0.2)
-- [ARGs-OAP](https://galaxyproject.org/use/args-oap/) (v3)
-- [ABRicate](https://github.com/tseemann/abricate) (v1.0.1) with NCBI (v3.6), ResFinder (v4.1.11), MEGARes (v2.0), ARG-ANNOT (v5), ResFinderFG (v2)
-- [ResFinder](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) (v4.0)
-- [AMRFinderPlus](https://github.com/ncbi/amr) (v3.10.30)
-- [GROOT](https://github.com/will-rowe/groot) (v1.1.2)
+| ARG database                       | Tool for ARG annotation                                 |
+| ---------------------------------- | ------------------------------------------------------- |
+| ARG-ANNOT v5.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate) |
+| DeepARG v2                         | [DeepARG v1.0.2](https://bench.cs.vt.edu/deeparg)       |
+| Groot v1.1.2                       | [GROOT v1.1.2](https://github.com/will-rowe/groot)      |
+| MEGARes v3.0                       | [ABRicate v1.0.1](https://github.com/tseemann/abricate) |
+| NCBI Reference Gene Database v3.12 | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [AMRFinderPlus v3.10.30](https://github.com/ncbi/amr) |
+| ResFinder v4.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [ResFinder v4.0](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) |
+| ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) |
+| SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/)  |
+
+- Note: ARG database and ARG annotation tool versions can change. argNorm is only intended for supported versions listed above.
+- Note: the argNorm tool will be periodically updated to support the latest versions of databases and annotation tools if they undergo significant changes.
 
 ## Installation
 argNorm can be installed using pip:
