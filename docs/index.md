@@ -29,7 +29,7 @@ Right now, many tools exist for annotation ARGs in genomes and metagenomes. Howe
 
 The [hAMRonization package](https://github.com/pha4ge/hAMRonization) can normalize file formats, but each tool will use different names/identifiers (_e.g._, `TetA` or `TETA` or `tet(A)` or `tet-A` are all different ways to spell the same gene name).
 
-For a small number of isolate genomes, a human user can manually evaluate the outputs. However, in metagnomics, especially for large-scale projects, this becomes infeasible. Thus argNorm normalizers the output vocabulary of ARG annotation tools by mapping them to the same ontology (ARO).
+For a small number of isolate genomes, a human user can manually evaluate the outputs. However, in metagnomics, especially for large-scale projects, this becomes infeasible. Thus argNorm normalizes the output vocabulary of ARG annotation tools by mapping them to the same ontology (ARO).
 
 Besides performing normalization, argNorm also provides categorization of drugs that antibiotic resistance genes confer resistance to. 
 
