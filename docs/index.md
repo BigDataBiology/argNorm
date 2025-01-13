@@ -7,6 +7,17 @@
 [![Anaconda-Server Badge](https://anaconda.org/bioconda/argnorm/badges/platforms.svg)](https://anaconda.org/bioconda/argnorm)
 [![Anaconda-Server Badge](https://anaconda.org/bioconda/argnorm/badges/license.svg)](https://anaconda.org/bioconda/argnorm)
 
+## argNorm Overview
+![argNorm Overview](./images//argnorm_overview.svg)
+
+*General overview of argNorm. (a) Genomes and metagenomes can be annotated using ARG annotation tools. argNorm accepts the outputs of these ARG annotation tools directly or after the outputs are processed by hAMRonization to perform ARO normalization and drug categorization. (b) The argNorm workflow includes: mapping gene names in the ARG annotation outputs to ARO accessions from ARO annotation tables constructed using RGI and manual curation; and mapping gene ARO accessions to drugs and drugs classes. In categorizing drugs, argNorm reports the immediate child of the ‘antibiotic molecule’ node. Tobramycin is an example of a drug to which the ANT(2'')-Ia gene confers resistance to and tobramycin can be categorized as an aminoglycoside antibiotic. The ‘confers_resistance_to_antibiotic’ and is_a relationships are used to navigate the ARO.*
+
+## argNorm workflow
+
+![argNorm Workflow](./images/argnorm_workflow.svg)
+
+*Schematic illustration of argNorm workflow through a Resfinder output example: mapping gene names in the ARG annotation outputs to gene names from the ARO mapped ARG databases and adding corresponding drug categorization, namely “confers resistance to immediate drug class” and “overall category of drug class”, from the ARO ontology file.*
+
 ## What is argNorm?
 argNorm is a tool to normalize antibiotic resistance genes (ARGs) by mapping them to the [antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) created by the [CARD database](https://card.mcmaster.ca/).
 
@@ -35,17 +46,6 @@ The `resistance_to_drug_classes` column will contain ARO numbers of the broader 
 
 If you use argNorm in a publication, please cite the preprint:
 > Ugarcina Perovic S, Ramji V et al. argNorm: Normalization of Antibiotic Resistance Gene Annotations to the Antibiotic Resistance Ontology (ARO). Queensland University of Technology ePrints, 2024. DOI: https://doi.org/10.5204/rep.eprints.252448 [Preprint] (Under review).
-
-### argNorm Overview
-![argNorm Overview](./images//argnorm_overview.svg)
-
-*General overview of argNorm. (a) Genomes and metagenomes can be annotated using ARG annotation tools. argNorm accepts the outputs of these ARG annotation tools directly or after the outputs are processed by hAMRonization to perform ARO normalization and drug categorization. (b) The argNorm workflow includes: mapping gene names in the ARG annotation outputs to ARO accessions from ARO annotation tables constructed using RGI and manual curation; and mapping gene ARO accessions to drugs and drugs classes. In categorizing drugs, argNorm reports the immediate child of the ‘antibiotic molecule’ node. Tobramycin is an example of a drug to which the ANT(2'')-Ia gene confers resistance to and tobramycin can be categorized as an aminoglycoside antibiotic. The ‘confers_resistance_to_antibiotic’ and is_a relationships are used to navigate the ARO.*
-
-## argNorm workflow
-
-*Schematic illustration of argNorm workflow through a Resfinder output example: mapping gene names in the ARG annotation outputs to gene names from the ARO mapped ARG databases and adding corresponding drug categorization, namely “confers resistance to immediate drug class” and “overall category of drug class”, from the ARO ontology file.*
-
-![argNorm Workflow](./images/argnorm_workflow.svg)
 
 ## Supported tools and databases
 
