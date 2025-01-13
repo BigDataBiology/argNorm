@@ -12,6 +12,10 @@
 
 *General overview of argNorm. (a) Genomes and metagenomes can be annotated using ARG annotation tools. argNorm accepts the outputs of these ARG annotation tools directly or after the outputs are processed by hAMRonization to perform ARO normalization and drug categorization. (b) The argNorm workflow includes: mapping gene names in the ARG annotation outputs to ARO accessions from ARO annotation tables constructed using RGI and manual curation; and mapping gene ARO accessions to drugs and drugs classes. In categorizing drugs, argNorm reports the immediate child of the ‘antibiotic molecule’ node. Tobramycin is an example of a drug to which the ANT(2'')-Ia gene confers resistance to and tobramycin can be categorized as an aminoglycoside antibiotic. The ‘confers_resistance_to_antibiotic’ and is_a relationships are used to navigate the ARO.*
 
+[![argNorm Presentation at MVIF.34](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FSnDy-to5iok)](https://youtu.be/SnDy-to5iok)
+
+*argNorm presented at the Microbiome Virtual International Forum*
+
 ## argNorm workflow
 
 ![argNorm Workflow](./docs/images/argnorm_workflow.svg)
