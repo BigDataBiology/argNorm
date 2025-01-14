@@ -90,9 +90,18 @@ argNorm is readily available in the funcscan pipeline which can be accessed (her
 
 [![argNorm Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2Fvx8MCQ7gDLs)](https://youtu.be/vx8MCQ7gDLs)
 
-## Basic usage
+## CLI Usage
 
-The only positional argument required is `tool` which can be:
+> For detailed examples of running the argNorm CLI see [here](./cli.md)
+
+Here is a basic outline of calling argNorm.
+
+```bash
+argnorm [tool] [--db] -i [path to original_annotation.tsv] -o [path to annotation_result_with_aro.tsv] [--hamronized (if hAMRonization used)]
+```
+
+### `tool` (required)
+The most important ***required positional*** argument is `tool` (see [here](#supported-tools-and-databases) for the specific versions of supported tools):
 - `deeparg`
 - `argsoap`
 - `abricate`
@@ -100,20 +109,36 @@ The only positional argument required is `tool` which can be:
 - `amrfinderplus`
 - `groot`
 
-The available options are:
-- `-h` or `--help`: shows available options and exits.
-- `--db`: database used to perform ARG annotation. Supported databases are:
-    - SARG (`sarg`)
-    - NCBI (`ncbi`)
-    - ResFinder (`resfinder`)
-    - DeepARG (`deeparg`)
-    - MEGARes (`megares`)
-    - ARG-ANNOT (`argannot`)
-    - `groot-core-db`, `groot-db`, `groot-resfinder`, `groot-argannot`, `groot-card`
-- `--hamronized`: use this if the input is hamronized by [hAMRonization](https://github.com/pha4ge/hAMRonization)
+### I/O (required)
 - `-i` or `--input`: path to the annotation result
 - `-o` or `--output`: the file to save normalization results
 
+### `--db` (optional*)
+This is the ARG database used to perform annotation:
+- `sarg`
+- `ncbi`
+- `resfinder`
+- `deeparg`
+- `megares`
+- `argannot`
+- `groot-core-db`, `groot-db`, `groot-resfinder`, `groot-argannot`, `groot-card`
+
+#### **`--db` vs `tool`**
+ARG annotation tools can use several ARG databases for annotation. Hence, the `tool` is a required argument while `--db` is mostly optional. For some tools, however, specifiying `--db` is **required**, see below:
+
+| `tool`          | `--db`       |
+| --------------- | ------------ |
+| `deeparg`       | Not required |
+| `argsoap`       | Not required |
+| `abricate`      | Any from `ncbi`, `deeparg`, `resfinder`, `sarg`, `megares`, `argannot`, or `resfinderfg` |
+| `resfinder`     | Not required |
+| `amrfinderplus` | Not required |
+| `groot`         | Any from `groot-argannot`, `groot-resfinder`, `groot-db`, `groot-core-db`, or `groot-card` |
+
+### `--hamronized` (optional)
+Use this if the input is hamronized by [hAMRonization](https://github.com/pha4ge/hAMRonization)
+
+### `-h` or `--help`
 Use `argnorm -h` or `argnorm --help` to see available options.
 
 ```bash
@@ -138,12 +163,6 @@ optional arguments:
                         The annotation result you have
   -o OUTPUT, --output OUTPUT
                         The file to save normalization results
-```
-
-Here is a basic outline of calling argNorm.
-
-```bash
-argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
 ```
 
 ## Outputs
