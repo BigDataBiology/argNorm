@@ -66,6 +66,7 @@ If you use argNorm in a publication, please cite the preprint:
 
 - Note: ARG database and ARG annotation tool versions can change. argNorm is only intended for supported versions listed above.
 - Note: the argNorm tool will be periodically updated to support the latest versions of databases and annotation tools if they undergo significant changes.
+> hAMRonization: argNorm does not support ALL hAMRonized results. **argNorm only supports hAMRonization outputs that were obtained by passing the outputs of the supported ARG annotation tools listed above into hAMRonization**
 
 ## Installation
 argNorm can be installed using pip:
