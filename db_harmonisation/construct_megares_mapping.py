@@ -136,7 +136,8 @@ def get_cds_rgi_output(cds_fasta):
         '-t', 'protein',
         '-a', 'BLAST',
         '--clean',
-        '--include_loose'
+        '--include_loose',
+        '--local'
     ])
     return f'{ofile}.txt'
 
@@ -151,7 +152,8 @@ def get_contig_rgi_output(contig_fasta):
         '-t', 'contig',
         '-a', 'BLAST',
         '--clean',
-        '--include_loose'
+        '--include_loose',
+        '--local'
     ])
     return f'{ofile}.txt'
 
