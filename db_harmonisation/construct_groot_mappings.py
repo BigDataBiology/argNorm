@@ -133,7 +133,8 @@ def get_groot_missing():
         '-t', 'protein',
         '-a', 'BLAST',
         '--clean',
-        '--include_loose'
+        '--include_loose',
+        '--local'
     ])
     
     missing_groot_mappings = pd.read_csv('./mapping/groot_missing_mapping.txt', sep='\t')

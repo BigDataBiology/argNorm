@@ -23,9 +23,16 @@ def download_file(url, ofile):
             f.write(chunk)
     return ofile
 
+@TaskGenerator
+def load_rgi():
+    subprocess.check_call(['rgi', 'clean', '--local'])
+    subprocess.check_call(['wget', 'https://card.mcmaster.ca/latest/data'])
+    subprocess.check_call(['tar', '-xvf', 'data', './card.json'])
+    subprocess.check_call(['rgi', 'load', '--card_json', 'card.json', '--local'])
+
 def get_resfinderfg_db():
     url = 'https://raw.githubusercontent.com/RemiGSC/ResFinder_FG_Construction/606b4768433079d55f5b179219e080a45bf59dfc/output/RFG_db/ResFinder_FG.faa'
-    return download_file(url, 'dbs/resfinderfg.faa')
+    return download_file(url, 'dbs/resfinder_fg.faa')
 
 def get_ncbi_db():
     ofile = 'dbs/ncbi_amr_raw.faa'
@@ -97,7 +104,8 @@ def run_rgi(fa):
             '-t', mode,
             '-a', 'BLAST',
             '--clean',
-            '--include_loose'
+            '--include_loose',
+            '--local'
         ]
     )
 
@@ -123,6 +131,7 @@ def get_rgi_hit_counts():
 
 # Calling tasks
 create_out_dirs()
+load_rgi()
 barrier()
 for db in [
         fna_to_faa(get_resfinder_db()),
