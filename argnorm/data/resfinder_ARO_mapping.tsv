@@ -13,7 +13,6 @@ Cfr(D)_1_NG_067192	cfr(D)	3005021	resfinder
 Cfr(E)_1_NG_070225	cfrE	3005023	resfinder
 Gar_1_NG_070891	AAC(6')-Isa	3002563	resfinder
 NarA_1_MN590304	tetA(58)	3003980	resfinder
-NarB_1_MN590304	OXA-627	3005848	resfinder
 OqxA_1_EU370913	oqxA	3003922	resfinder
 OqxB_1_EU370913	oqxB	3003923	resfinder
 POM-1_1_GU002295	POM-1	3006974	resfinder
@@ -124,8 +123,8 @@ aac(6')-Iaj_1_AB709942	AAC(6')-Iaj	3003677	resfinder
 aac(6')-Iak_1_AB894482	AAC(6')-Iak	3003199	resfinder
 aac(6')-Ian_1_AP014611	AAC(6')-Ian	3003200	resfinder
 aac(6')-Ib-Hangzhou_1_FJ503047	AAC(6')-Ib-Hangzhou	3002592	resfinder
-aac(6')-Ib-cr_1_DQ303918	AAC(6')-Ib-cr6	3005116	resfinder
-aac(6')-Ib-cr_2_EF636461	AAC(6')-Ib-cr4	3005114	resfinder
+aac(6')-Ib-cr_1_DQ303918	AAC(6')-Ib10	3002581	resfinder
+aac(6')-Ib-cr_2_EF636461	AAC(6')-Ib-cr5	3005115	resfinder
 aac(6')-Ib11_1_AY136758	AAC(6')-Ib11	3002582	resfinder
 aac(6')-Ib3_1_X60321	AAC(6')-Ib10	3002581	resfinder
 aac(6')-Ib_1_M21682	AAC(6')-Ib10	3002581	resfinder
@@ -170,13 +169,13 @@ aadA16_1_EU675686	aadA16	3002616	resfinder
 aadA17_1_FJ460181	aadA17	3002617	resfinder
 aadA1_2_FJ591054	aadA22	3002619	resfinder
 aadA1_3_JQ414041	aadA	3002601	resfinder
-aadA1_4_JQ480156	ANT(3'')-IIa	3004089	resfinder
-aadA1_5_JX185132	ANT(3'')-IIa	3004089	resfinder
-aadA1b_1_M95287	ANT(3'')-IIa	3004089	resfinder
+aadA1_4_JQ480156	aadA	3002601	resfinder
+aadA1_5_JX185132	aadA	3002601	resfinder
+aadA1b_1_M95287	aadA	3002601	resfinder
 aadA21_1_AY171244	aadA21	3002618	resfinder
 aadA22_1_AM261837	aadA22	3002619	resfinder
 aadA23_1_AJ809407	aadA22	3002619	resfinder
-aadA24_1_AM711129	ANT(3'')-IIa	3004089	resfinder
+aadA24_1_AM711129	aadA	3002601	resfinder
 aadA24_1_DQ677333	aadA24	3002621	resfinder
 aadA2_1_NC_010870	aadA2	3002602	resfinder
 aadA2_2_JQ364967	aadA2	3002602	resfinder
@@ -196,8 +195,8 @@ aadD_2_M19465	ANT(4')-Ia	3002623	resfinder
 aadE-Cc_1_CP013733	aadK	3002627	resfinder
 aadK_1_M26879	aadK	3002627	resfinder
 ampH_1_AJ276031	OXA-724	3004837	resfinder
-ampH_2_HQ586946	OXA-726	3005931	resfinder
-ampS_1_X80276	OXA-726	3005931	resfinder
+ampH_2_HQ586946	OXA-950	3008727	resfinder
+ampS_1_X80276	OXA-725	3008720	resfinder
 ant(2'')-Ia_10_HM367617	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_11_HM367620	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_12_HQ880250	ANT(2'')-Ia	3000230	resfinder
@@ -217,7 +216,7 @@ ant(2'')-Ia_6_AJ871915	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_7_DQ018384	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_8_AY920928	ANT(2'')-Ia	3000230	resfinder
 ant(2'')-Ia_9_HM367610	ANT(2'')-Ia	3000230	resfinder
-ant(3'')-Ia_1_X02340	ANT(3'')-IIa	3004089	resfinder
+ant(3'')-Ia_1_X02340	aadA	3002601	resfinder
 ant(3'')-Ii-aac(6')-IId_1_AF453998	ANT(3'')-II-AAC(6')-IId bifunctional protein	3002598	resfinder
 ant(4')-IIa_1_M98270	ANT(4')-IIa	3002624	resfinder
 ant(4')-IIb_1_AY114142	ANT(4')-IIb	3002625	resfinder
@@ -320,7 +319,7 @@ blaACT-10_1_JN848330	ACT-10	3001832	resfinder
 blaACT-12_1_JX440355	ACT-12	3001834	resfinder
 blaACT-14_1_JX440354	ACT-14	3001836	resfinder
 blaACT-15_1_JX440356	ACT-15	3001837	resfinder
-blaACT-16_1_AB737978	ACT-69	3006264	resfinder
+blaACT-16_1_AB737978	ACT-157	3007922	resfinder
 blaACT-1_1_U58495	ACT-1	3001821	resfinder
 blaACT-2_1_AM076977	ACT-2	3001822	resfinder
 blaACT-3_1_EF125013	ACT-3	3001823	resfinder
@@ -353,9 +352,8 @@ blaBEL-3_1_GQ202694	BEL-3	3002387	resfinder
 blaBEL4_1_KX388629	BEL-4	3006154	resfinder
 blaBES-1_1_AF234999	BES-1	3004751	resfinder
 blaBIC-1_1_GQ260093	BIC-1	3004753	resfinder
-blaBIC-2_1_OR143113	BIC-1	3004753	resfinder
+blaBIC-2_1_OR143113	BIC-2	3008080	resfinder
 blaBIL-1_1_X74512	BIL-1	3004755	resfinder
-blaBKC-1_1_KP689347	APH(4)-Ia	3002655	resfinder
 blaBKC_1_KP689347	BKC-1	3004757	resfinder
 blaBRO-1_1_Z54180	BRO-1	3004761	resfinder
 blaBRO-2_1_Z54181	BRO-2	3004762	resfinder
@@ -378,7 +376,7 @@ blaCARB-26_1_BK008904	CARB-26	3005562	resfinder
 blaCARB-27_1_NG_048730	CARB-27	3005563	resfinder
 blaCARB-28_1_BK008906	CARB-28	3005564	resfinder
 blaCARB-29_1_BK008905	CARB-29	3005565	resfinder
-blaCARB-2_1_M69058	CARB-53	3005587	resfinder
+blaCARB-2_1_M69058	CARB-2	3002241	resfinder
 blaCARB-30_1_NG_048734	CARB-30	3005566	resfinder
 blaCARB-31_1_NG_048735	CARB-31	3005567	resfinder
 blaCARB-32_1_NG_048736	CARB-32	3005568	resfinder
@@ -410,7 +408,7 @@ blaCFE-1_1_AB107899	CFE-1	3001856	resfinder
 blaCGB-1_1_EF672680	CGB-1	3000841	resfinder
 blaCKO-1_1_AF477396	CKO-1	3004773	resfinder
 blaCME-1_1_AJ006275	CME-1	3004775	resfinder
-blaCMG_1_AY265892	ACT-62	3006257	resfinder
+blaCMG_1_AY265892	ACT-111	3007894	resfinder
 blaCMH-3_1_KX192165	CMH-3	3006855	resfinder
 blaCMY-100_1_KF526113	CMY-100	3002112	resfinder
 blaCMY-101_1_KF526114	CMY-101	3002113	resfinder
@@ -835,9 +833,9 @@ blaGOB-12_1_AY647249	GOB-12	3004804	resfinder
 blaGOB-13_1_AY647251	GOB-13	3004805	resfinder
 blaGOB-14_1_AY647252	GOB-14	3004806	resfinder
 blaGOB-15_1_AY775547	GOB-15	3004807	resfinder
-blaGOB-16_1_GU188443	GOB-16	3004808	resfinder
+blaGOB-16_1_GU188443	GOB-17	3008195	resfinder
 blaGOB-16_2_AY899331	GOB-16	3004808	resfinder
-blaGOB-17_1_AY899332	GOB-16	3004808	resfinder
+blaGOB-17_1_AY899332	GOB-17	3008195	resfinder
 blaGOB-18_1_DQ004496	GOB-18	3004213	resfinder
 blaGOB-1_1_EF394442	GOB-48	3005696	resfinder
 blaGOB-1_2_AF090141	GOB-1	3000850	resfinder
@@ -849,13 +847,13 @@ blaGOB-6_1_AF189292	GOB-21	3005670	resfinder
 blaGOB-7_1_AF189297	GOB-48	3005696	resfinder
 blaGOB-8_1_AY348327	GOB-8	3004815	resfinder
 blaGOB-9_1_AY647246	GOB-9	3004816	resfinder
-blaHERA-1_1_AF311385	HERA-1	3004448	resfinder
-blaHERA-2_1_AF398334	HERA-2	3004817	resfinder
-blaHERA-3_1_AF398335	HERA-3	3004818	resfinder
-blaHERA-4_1_AJ536088	HERA-4	3004819	resfinder
-blaHERA-5_1_AJ536089	HERA-5	3004820	resfinder
-blaHERA-6_1_AJ536090	HERA-6	3004821	resfinder
-blaHERA-8_1_AJ536092	HERA-8	3004822	resfinder
+blaHERA-1_1_AF311385	HER-1	3008200	resfinder
+blaHERA-2_1_AF398334	HER-2	3008201	resfinder
+blaHERA-3_1_AF398335	HER-3	3008202	resfinder
+blaHERA-4_1_AJ536088	HER-4	3008203	resfinder
+blaHERA-5_1_AJ536089	HER-5	3008204	resfinder
+blaHERA-6_1_AJ536090	HER-6	3008205	resfinder
+blaHERA-8_1_AJ536092	HER-8	3008206	resfinder
 blaIMI-1_1_U50278	IMI-1	3001858	resfinder
 blaIMI-2_1_DQ173429	IMI-2	3001859	resfinder
 blaIMI-3_1_GU015024	IMI-3	3001860	resfinder
@@ -1391,7 +1389,7 @@ blaOXA-364_1_JX306689	OXA-364	3001551	resfinder
 blaOXA-365_1_KF885217	OXA-365	3001552	resfinder
 blaOXA-366_1_KP050485	OXA-366	3001553	resfinder
 blaOXA-368_1_KT736121	OXA-368	3001555	resfinder
-blaOXA-36_1_AF300985	OXA-2	3001397	resfinder
+blaOXA-36_1_AF300985	OXA-1049	3008468	resfinder
 blaOXA-370_1_KJ488943	OXA-370	3001774	resfinder
 blaOXA-371_1_AB871653	OXA-371	3001557	resfinder
 blaOXA-372_1_KJ746496	OXA-372	3001558	resfinder
@@ -1431,7 +1429,7 @@ blaOXA-406_1_KJ584915	OXA-406	3001597	resfinder
 blaOXA-407_1_KJ584916	OXA-407	3001598	resfinder
 blaOXA-408_1_KJ584917	OXA-408	3001599	resfinder
 blaOXA-409_1_KJ584918	OXA-409	3001600	resfinder
-blaOXA-410_1_KJ584919	OXA-91	3001627	resfinder
+blaOXA-410_1_KJ584919	OXA-410	3001601	resfinder
 blaOXA-411_1_KJ584920	OXA-411	3001602	resfinder
 blaOXA-412_1_KJ584921	OXA-412	3001603	resfinder
 blaOXA-413_1_KJ584922	OXA-413	3001604	resfinder
@@ -1675,8 +1673,8 @@ blaPER-5_1_FJ627180	PER-5	3002367	resfinder
 blaPER-6_1_GQ396303	PER-6	3002368	resfinder
 blaPER-7_1_HQ713678	PER-7	3002369	resfinder
 blaPLA-3A_1_AY507663	PLA-3	3006970	resfinder
-blaPLA-4A_1_AY507664	PLA-2a	3006969	resfinder
-blaPLA-5A_1_DQ249871	PLA-2a	3006969	resfinder
+blaPLA-4A_1_AY507664	PLA-4	3009030	resfinder
+blaPLA-5A_1_DQ249871	PLA-5	3009031	resfinder
 blaPLA-6A_1_DQ251478	PLA-6	3006971	resfinder
 blaPLA1a_1_AY302757	PLA-1	3006968	resfinder
 blaPLA2a_1_AY307385	PLA-2a	3006969	resfinder
@@ -1687,7 +1685,7 @@ blaRAHN-2_2_HM114350	RAHN-2	3006980	resfinder
 blaROB-1_1_DQ840517	ROB-1	3002995	resfinder
 blaROB-1_2_AF022114	ROB-1	3002995	resfinder
 blaSCO-1_1_EF063111	SCO-1	3004856	resfinder
-blaSED1_1_AF321608	Sed-1	3003561	resfinder
+blaSED1_1_AF321608	SED-1	3003561	resfinder
 blaSFC-1_1_AY354402	SFC-1	3006985	resfinder
 blaSFO-1_1_AB003148	SFO-1	3006986	resfinder
 blaSGM-1_1_AAQG01000013	SGM-1	3006987	resfinder
@@ -2050,7 +2048,7 @@ blaTUS-1_1_AF441287	TUS-1	3000844	resfinder
 blaVCC-1_1_KT818596	VCC-1	3003713	resfinder
 blaVEB-1_1_HM370393	VEB-9	3002378	resfinder
 blaVEB-1_3_DQ393569	VEB-1	3002370	resfinder
-blaVEB-1_4_AF324834	VEB-1b	3003712	resfinder
+blaVEB-1_4_AF324834	VEB-16	3003712	resfinder
 blaVEB-2_1_AY027870	VEB-2	3002371	resfinder
 blaVEB-3_1_AY536519	VEB-3	3002372	resfinder
 blaVEB-4_1_EF136375	VEB-4	3002373	resfinder
@@ -2115,151 +2113,151 @@ blaVIM-8_1_AY524987	VIM-8	3002278	resfinder
 blaVIM-9_1_AY524988	VIM-9	3002279	resfinder
 blaVMB-1_1_MN719868	VMB-1	3005015	resfinder
 blaVMB-2_1_MN865127	VAM-1	3007062	resfinder
-blaZEG-1_1_AY265891	ACT-78	3006272	resfinder
-blaZ_100_LTMH01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_101_LTLP01000099	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_102_MLQA01000023	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_103_FQSJ01000009	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_104_FQHI01000006	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_105_FQJS01000007	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_106_FQHX01000011	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_107_FQDM01000011	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_108_FQPO01000005	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_109_AOAS01000022	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZEG-1_1_AY265891	ACT-121	3007903	resfinder
+blaZ_100_LTMH01000008	PC1	3008823	resfinder
+blaZ_101_LTLP01000099	PC1	3008823	resfinder
+blaZ_102_MLQA01000023	PC1	3008823	resfinder
+blaZ_103_FQSJ01000009	PC1	3008823	resfinder
+blaZ_104_FQHI01000006	PC1	3008823	resfinder
+blaZ_105_FQJS01000007	PC1	3008823	resfinder
+blaZ_106_FQHX01000011	PC1	3008823	resfinder
+blaZ_107_FQDM01000011	PC1	3008823	resfinder
+blaZ_108_FQPO01000005	PC1	3008823	resfinder
+blaZ_109_AOAS01000022	PC1	3008823	resfinder
 blaZ_10_FR823292	mecC-type BlaZ	3005097	resfinder
-blaZ_110_AJCZ01000013	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_111_AJCN01000010	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_112_AKGL01000044	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_113_AHVS01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_114_NC_013379	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_115_FN433596	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_110_AJCZ01000013	PC1	3008823	resfinder
+blaZ_111_AJCN01000010	PC1	3008823	resfinder
+blaZ_112_AKGL01000044	PC1	3008823	resfinder
+blaZ_113_AHVS01000008	PC1	3008823	resfinder
+blaZ_114_NC_013379	PC1	3008823	resfinder
+blaZ_115_FN433596	PC1	3008823	resfinder
 blaZ_116_NC_013348	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_117_ACHE01000004	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_118_NC_004461	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_119_NZ_CANQ01000029	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_11_AJ400722	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_120_NZ_ALWG01000005	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_121_AIWM01000014	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_122_NZ_AJGE01000057	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_123_NC_013653	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_124_NC_013944	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_125_CP003194	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_126_NC_013374	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_127_ACFR01000018	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_128_GQ900471	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_117_ACHE01000004	PC1	3008823	resfinder
+blaZ_118_NC_004461	PC1	3008823	resfinder
+blaZ_119_NZ_CANQ01000029	PC1	3008823	resfinder
+blaZ_11_AJ400722	PC1	3008823	resfinder
+blaZ_120_NZ_ALWG01000005	PC1	3008823	resfinder
+blaZ_121_AIWM01000014	PC1	3008823	resfinder
+blaZ_122_NZ_AJGE01000057	PC1	3008823	resfinder
+blaZ_123_NC_013653	PC1	3008823	resfinder
+blaZ_124_NC_013944	PC1	3008823	resfinder
+blaZ_125_CP003194	PC1	3008823	resfinder
+blaZ_126_NC_013374	PC1	3008823	resfinder
+blaZ_127_ACFR01000018	PC1	3008823	resfinder
+blaZ_128_GQ900471	PC1	3008823	resfinder
 blaZ_12_M15195	BcIII	3007101	resfinder
-blaZ_130_AHKZ01000073	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_131_GQ900485	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_132_AHVO01000010	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_133_AIDT01000014	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_134_NZ_AJGE01000047	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_135_AB811795	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_136_NZ_ALWE01000009	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_137_GQ915265	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_138_CP003979	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_13_KF471116	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_14_JBAG01000015	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_15_JAZQ01000018	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_16_JBTH01000015	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_17_JDDF01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_18_JBQW01000016	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_19_JBMK01000007	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_1_CP000704	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_20_JBVX01000014	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_21_JGQH01000014	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_22_JCHI01000035	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_23_JBND01000015	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_24_JBLQ01000018	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_25_JBKK01000017	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_26_JBJP01000007	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_27_JDGZ01000043	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_28_JDYO01000009	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_29_JDXN01000019	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_2_CP000731	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_30_JGUQ01000012	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_31_JIFU01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_130_AHKZ01000073	PC1	3008823	resfinder
+blaZ_131_GQ900485	PC1	3008823	resfinder
+blaZ_132_AHVO01000010	PC1	3008823	resfinder
+blaZ_133_AIDT01000014	PC1	3008823	resfinder
+blaZ_134_NZ_AJGE01000047	PC1	3008823	resfinder
+blaZ_135_AB811795	PC1	3008823	resfinder
+blaZ_136_NZ_ALWE01000009	PC1	3008823	resfinder
+blaZ_137_GQ915265	PC1	3008823	resfinder
+blaZ_138_CP003979	PC1	3008823	resfinder
+blaZ_13_KF471116	PC1	3008823	resfinder
+blaZ_14_JBAG01000015	PC1	3008823	resfinder
+blaZ_15_JAZQ01000018	PC1	3008823	resfinder
+blaZ_16_JBTH01000015	PC1	3008823	resfinder
+blaZ_17_JDDF01000008	PC1	3008823	resfinder
+blaZ_18_JBQW01000016	PC1	3008823	resfinder
+blaZ_19_JBMK01000007	PC1	3008823	resfinder
+blaZ_1_CP000704	PC1	3008823	resfinder
+blaZ_20_JBVX01000014	PC1	3008823	resfinder
+blaZ_21_JGQH01000014	PC1	3008823	resfinder
+blaZ_22_JCHI01000035	PC1	3008823	resfinder
+blaZ_23_JBND01000015	PC1	3008823	resfinder
+blaZ_24_JBLQ01000018	PC1	3008823	resfinder
+blaZ_25_JBKK01000017	PC1	3008823	resfinder
+blaZ_26_JBJP01000007	PC1	3008823	resfinder
+blaZ_27_JDGZ01000043	PC1	3008823	resfinder
+blaZ_28_JDYO01000009	PC1	3008823	resfinder
+blaZ_29_JDXN01000019	PC1	3008823	resfinder
+blaZ_2_CP000731	PC1	3008823	resfinder
+blaZ_30_JGUQ01000012	PC1	3008823	resfinder
+blaZ_31_JIFU01000008	PC1	3008823	resfinder
 blaZ_32_JINH01000005	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_33_JIXQ01000012	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_34_JJAO01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_35_JIVZ01000012	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_36_JITV01000006	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_37_JIFD01000012	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_38_NZ_JEMM01000040	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_39_JHTU01000073	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_33_JIXQ01000012	PC1	3008823	resfinder
+blaZ_34_JJAO01000008	PC1	3008823	resfinder
+blaZ_35_JIVZ01000012	PC1	3008823	resfinder
+blaZ_36_JITV01000006	PC1	3008823	resfinder
+blaZ_37_JIFD01000012	PC1	3008823	resfinder
+blaZ_38_NZ_JEMM01000040	PC1	3008823	resfinder
+blaZ_39_JHTU01000073	PC1	3008823	resfinder
 blaZ_3_CP000732	PC1 beta-lactamase (blaZ)	3000621	resfinder
 blaZ_40_NZ_AZBT01000050	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_41_AENR01000015	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_42_CCEE01000006	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_43_NZ_CAVU010000015	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_44_NZ_JWJJ01000015	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_45_CP010941	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_41_AENR01000015	PC1	3008823	resfinder
+blaZ_42_CCEE01000006	PC1	3008823	resfinder
+blaZ_43_NZ_CAVU010000015	PC1	3008823	resfinder
+blaZ_44_NZ_JWJJ01000015	PC1	3008823	resfinder
+blaZ_45_CP010941	PC1	3008823	resfinder
 blaZ_46_CP010944	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_47_NZ_JYGF01000020	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_48_CFPA01000022	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_49_CVLS01000543	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_4_X04121	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_50_KR230047	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_47_NZ_JYGF01000020	PC1	3008823	resfinder
+blaZ_48_CFPA01000022	PC1	3008823	resfinder
+blaZ_49_CVLS01000543	PC1	3008823	resfinder
+blaZ_4_X04121	PC1	3008823	resfinder
+blaZ_50_KR230047	PC1	3008823	resfinder
 blaZ_51_NZ_JVWO01000108	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_52_NZ_JVWM01000127	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_53_NZ_JUXQ01000001	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_54_NZ_JVRB01000003	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_55_NZ_JVLY01000044	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_56_NZ_JUMU01000089	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_57_NZ_JURP01000126	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_58_NZ_JUUA01000057	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_59_NZ_JVBT01000063	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_5_AJ302698	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_60_NZ_JVML01000111	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_61_NZ_JVAT01000021	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_52_NZ_JVWM01000127	PC1	3008823	resfinder
+blaZ_53_NZ_JUXQ01000001	PC1	3008823	resfinder
+blaZ_54_NZ_JVRB01000003	PC1	3008823	resfinder
+blaZ_55_NZ_JVLY01000044	PC1	3008823	resfinder
+blaZ_56_NZ_JUMU01000089	PC1	3008823	resfinder
+blaZ_57_NZ_JURP01000126	PC1	3008823	resfinder
+blaZ_58_NZ_JUUA01000057	PC1	3008823	resfinder
+blaZ_59_NZ_JVBT01000063	PC1	3008823	resfinder
+blaZ_5_AJ302698	PC1	3008823	resfinder
+blaZ_60_NZ_JVML01000111	PC1	3008823	resfinder
+blaZ_61_NZ_JVAT01000021	PC1	3008823	resfinder
 blaZ_62_NZ_JVOH01000023	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_63_NZ_JUMX01000103	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_64_CSJB01000017	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_65_CSEV01000005	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_66_CSGM01000014	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_67_NZ_CTTL01000039	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_68_NZ_CUHK01000055	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_69_NZ_CUHB01000033	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_6_AP003139	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_70_NZ_CUEK01000047	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_71_NZ_CUGR01000082	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_72_NZ_CUHG01000035	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_73_CYNA01000004	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_74_CZWI01000159	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_75_LNTF01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_76_FFOR01000002	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_77_FGNH01000009	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_78_KU607301	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_79_KU607584	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_7_AP004832	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_80_KU607855	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_81_FGJZ01000020	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_82_FGSJ01000003	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_83_FGWO01000019	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_84_FHDH01000010	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_85_NZ_FHDT01000016	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_86_AIZE01000023	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_87_NZ_LRNC01000042	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_88_FKTX01000011	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_89_FKPS01000007	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_63_NZ_JUMX01000103	PC1	3008823	resfinder
+blaZ_64_CSJB01000017	PC1	3008823	resfinder
+blaZ_65_CSEV01000005	PC1	3008823	resfinder
+blaZ_66_CSGM01000014	PC1	3008823	resfinder
+blaZ_67_NZ_CTTL01000039	PC1	3008823	resfinder
+blaZ_68_NZ_CUHK01000055	PC1	3008823	resfinder
+blaZ_69_NZ_CUHB01000033	PC1	3008823	resfinder
+blaZ_6_AP003139	PC1	3008823	resfinder
+blaZ_70_NZ_CUEK01000047	PC1	3008823	resfinder
+blaZ_71_NZ_CUGR01000082	PC1	3008823	resfinder
+blaZ_72_NZ_CUHG01000035	PC1	3008823	resfinder
+blaZ_73_CYNA01000004	PC1	3008823	resfinder
+blaZ_74_CZWI01000159	PC1	3008823	resfinder
+blaZ_75_LNTF01000008	PC1	3008823	resfinder
+blaZ_76_FFOR01000002	PC1	3008823	resfinder
+blaZ_77_FGNH01000009	PC1	3008823	resfinder
+blaZ_78_KU607301	PC1	3008823	resfinder
+blaZ_79_KU607584	PC1	3008823	resfinder
+blaZ_7_AP004832	PC1	3008823	resfinder
+blaZ_80_KU607855	PC1	3008823	resfinder
+blaZ_81_FGJZ01000020	PC1	3008823	resfinder
+blaZ_82_FGSJ01000003	PC1	3008823	resfinder
+blaZ_83_FGWO01000019	PC1	3008823	resfinder
+blaZ_84_FHDH01000010	PC1	3008823	resfinder
+blaZ_85_NZ_FHDT01000016	PC1	3008823	resfinder
+blaZ_86_AIZE01000023	PC1	3008823	resfinder
+blaZ_87_NZ_LRNC01000042	PC1	3008823	resfinder
+blaZ_88_FKTX01000011	PC1	3008823	resfinder
+blaZ_89_FKPS01000007	PC1	3008823	resfinder
 blaZ_8_HE993884	mecC-type BlaZ	3005097	resfinder
-blaZ_90_FKVU01000010	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_91_FKQH01000022	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_92_FKWG01000001	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_93_FKQA01000038	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_94_LYRW01000005	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_95_MAJJ01000071	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_96_LNDI01000019	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_97_FMOK01000003	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_98_LTEF01000041	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_99_LTNH01000008	PC1 beta-lactamase (blaZ)	3000621	resfinder
-blaZ_9_DQ269019	PC1 beta-lactamase (blaZ)	3000621	resfinder
+blaZ_90_FKVU01000010	PC1	3008823	resfinder
+blaZ_91_FKQH01000022	PC1	3008823	resfinder
+blaZ_92_FKWG01000001	PC1	3008823	resfinder
+blaZ_93_FKQA01000038	PC1	3008823	resfinder
+blaZ_94_LYRW01000005	PC1	3008823	resfinder
+blaZ_95_MAJJ01000071	PC1	3008823	resfinder
+blaZ_96_LNDI01000019	PC1	3008823	resfinder
+blaZ_97_FMOK01000003	PC1	3008823	resfinder
+blaZ_98_LTEF01000041	PC1	3008823	resfinder
+blaZ_99_LTNH01000008	PC1	3008823	resfinder
+blaZ_9_DQ269019	PC1	3008823	resfinder
 bleO_1_AF051917	BLMT	3005036	resfinder
 car(A)_1_M80346	carA	3002817	resfinder
-cat(pC194)_1_NC_002013	Limosilactobacillus reuteri cat-TC	3002671	resfinder
+cat(pC194)_1_NC_002013	Streptococcus suis chloramphenicol acetyltransferase	3004455	resfinder
 cat(pC221)_1_X02529	Staphylococcus intermedius chloramphenicol acetyltransferase	3004457	resfinder
 cat(pC233)_1_AY355285	Enterococcus faecium chloramphenicol acetyltransferase	3004456	resfinder
 cat86_1_K00544	Bacillus pumilus cat86	3002672	resfinder
-catA1_1_V00622	catI	3002683	resfinder
+catA1_1_V00622	catA1	3002683	resfinder
 catA2_1_X53796	catII from Escherichia coli K-12	3004656	resfinder
 catA3_1_X07848	catIII	3002685	resfinder
 catB10_1_AJ878850	catB10	3003110	resfinder
@@ -2315,7 +2313,7 @@ cmlB1_1_AM296481	cmlB1	3002699	resfinder
 cmlV_1_U09991	cmlv	3002700	resfinder
 cml_1_M22614	cmlA1	3002693	resfinder
 cmrA_1_Z12001	Rhodococcus fascians cmr	3002701	resfinder
-cmr_1_U43535	mel	3000616	resfinder
+cmr_1_U43535	tet(65)	3007838	resfinder
 cmx_1_U85507	cmx	3002703	resfinder
 cphA1_1_AY261379	imiH	3003094	resfinder
 cphA1_2_AY261377	cphA6	3003102	resfinder
@@ -2328,7 +2326,7 @@ cphA5_1_AY227051	cphA5	3003101	resfinder
 cphA6_1_AY227052	cphA6	3003102	resfinder
 cphA7_1_AY227053	cphA7	3003103	resfinder
 cphA8_1_AY261375	cphA8	3003104	resfinder
-crpP_1_HM560971	cmrA	3002702	resfinder
+crpP_1_HM560971	OXA-1172	3008590	resfinder
 dfrA10_1_L06418	dfrA10	3003011	resfinder
 dfrA12_10_FM877486	dfrA12	3002858	resfinder
 dfrA12_1_FJ763641	dfrA12	3002858	resfinder
@@ -2584,7 +2582,7 @@ fusC_1_KF527883	fusC	3003733	resfinder
 grmA_1_M55520	sgm	3000862	resfinder
 grmB_1_M55521	sgm	3000862	resfinder
 grmO_1_AY524043	sgm	3000862	resfinder
-hugA_1_AF324468	FONA-2	3004789	resfinder
+hugA_1_AF324468	OXY-10-1	3008784	resfinder
 imiH_1_AJ548797	imiH	3003094	resfinder
 imiS_1_Y10415	imiS	3003095	resfinder
 kamB_1_AJ629123	kamB	3004102	resfinder
@@ -2637,7 +2635,7 @@ mcr-3.17_1_MH332767	MCR-3.17	3007278	resfinder
 mcr-3.18_1_MH332768	MCR-3.18	3007263	resfinder
 mcr-3.19_1_NG055497	MCR-3.19	3007273	resfinder
 mcr-3.1_1_KY924928	MCR-3.1	3004139	resfinder
-mcr-3.20_1_NG055493	MCR-3.20	3007266	resfinder
+mcr-3.20_1_NG055493	MCR-3.1	3004139	resfinder
 mcr-3.21_1_NG060582	MCR-3.21	3007262	resfinder
 mcr-3.22_1_NG060581	MCR-3.22	3007259	resfinder
 mcr-3.23_1_NG060583	MCR-3.23	3007256	resfinder
@@ -2691,8 +2689,8 @@ mef(A)_2_U83667	mel	3000616	resfinder
 mef(A)_3_AF227520	mel	3000616	resfinder
 mef(A)_4_HG423652	mel	3000616	resfinder
 mef(B)_1_FJ196385	mef(B)	3003107	resfinder
-mef(C)_1_AB571865	mefC	3003745	resfinder
-mph(A)_1_D16251	ADC-132	3006307	resfinder
+mef(C)_1_AB571865	mef(C)	3003745	resfinder
+mph(A)_1_D16251	ADC-357	3008067	resfinder
 mph(A)_2_U36578	mphA	3000316	resfinder
 mph(B)_1_D85892	mphB	3000318	resfinder
 mph(C)_1_AB013298	mphC	3000319	resfinder
@@ -2760,7 +2758,7 @@ optrA_9_KT892063	optrA	3003746	resfinder
 otr(A)_1_X53401	Streptomyces rimosus otr(A)	3002891	resfinder
 otr(B)_1_AF079900	otr(B)	3002892	resfinder
 otr(C)_1_AY509111	otr(C)	3002894	resfinder
-penA_1_AF515059	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder
+penA_1_AF515059	mecD	3004185	resfinder
 pexA_1_HM537013	pexA	3004666	resfinder
 poxtA-Ef_1_WP094899500.1	poxtA	3004470	resfinder
 poxtA_1_MF095097	poxtA	3004470	resfinder
@@ -2965,7 +2963,7 @@ tet(32)_1_EU722333	tet(32)	3000196	resfinder
 tet(32)_2_EF626943	tet(32)	3000196	resfinder
 tet(33)_1_AY255627	tet(33)	3000478	resfinder
 tet(33)_2_DQ390458	tet(33)	3000478	resfinder
-tet(34)_1_AB061440	ErmU	3001305	resfinder
+tet(34)_1_AB061440	CIM-1	3007840	resfinder
 tet(35)_1_AF353562	tet(35)	3000481	resfinder
 tet(36)_1_AJ514254	tet(36)	3000197	resfinder
 tet(37)_1_AF540889	tet(37)	3002871	resfinder
@@ -2974,7 +2972,6 @@ tet(40)_1_FJ158002	tet(40)	3000567	resfinder
 tet(40)_2_AM419751	tet(40)	3000567	resfinder
 tet(41)_1_AY264780	tet(41)	3000569	resfinder
 tet(42)_1_EU523697	tet(42)	3000572	resfinder
-tet(43)_1_GQ244501	acrB	3000216	resfinder
 tet(44)_1_NZ_ABDU01000081	tet(44)	3000556	resfinder
 tet(44)_2_FN594949	tet(44)	3000556	resfinder
 tet(45)_1_JF837331	tet(45)	3003196	resfinder

@@ -12,3 +12,5 @@ NP_253005.1|FEATURES|MvaT|multidrug|MvaT	3004069	MvaT
 NP_417544.5|FEATURES|patA|fluoroquinolone|patA	3000024	patA	
 NP_416340.1|FEATURES|mgrB|multidrug|mgrB	3003820	mgrB	
 AUW34359.1|FEATURES|RSA-2|beta-lactam|RSA-2	3005440	RSA2 beta-lactamase	ARO number of RSA2 had been changed.
+NP_310518|FEATURES|Escherichia_coli_mipA|multidrug|Escherichia_coli_mipA	3004127	Escherichia coli mipA	
+YP_248152|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001	beta-lactamase	
