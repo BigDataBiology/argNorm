@@ -63,11 +63,11 @@ Aminoglycoside 3'-phosphotransferase|AY566825.1|human_saliva|KAN	APH(3')-IIc	300
 Aminoglycoside 3'-phosphotransferase|KJ512974.1|manure|KAN	APH(3')-VIIa	3002654	resfinder_fg
 Aminoglycoside 3'-phosphotransferase|KY705354.1|agricultural soil|KAN	APH(3')-Ia	3002641	resfinder_fg
 Aminoglycoside 6-adenylyltransferase|JX875573.1|soil|STR	aadS	3004683	resfinder_fg
-Aminoglycoside N(6')-acetyltransferase type 1|GQ342986.1|human fecal matter|AMK	AAC(6')-Ib-cr6	3005116	resfinder_fg
+Aminoglycoside N(6')-acetyltransferase type 1|GQ342986.1|human fecal matter|AMK	AAC(6')-Ib10	3002581	resfinder_fg
 Aminoglycoside N(6')-acetyltransferase type 1|GQ343178.1|human fecal matter|SIS	AAC(6')-Iad	3002572	resfinder_fg
 Aminoglycoside N(6')-acetyltransferase type 1|GQ343181.1|human fecal matter|SIS	AAC(6')-Iad	3002572	resfinder_fg
 Aminoglycoside N(6')-acetyltransferase type 1|GQ343186.1|human saliva|SIS	AAC(6')-Iad	3002572	resfinder_fg
-Aminoglycoside N(6')-acetyltransferase type 1|JF924866.1|soil|KAN	AAC(6')-Ib-cr3	3005112	resfinder_fg
+Aminoglycoside N(6')-acetyltransferase type 1|JF924866.1|soil|KAN	aac(6')-Ib-cr11	3007771	resfinder_fg
 Aminoglycoside N(6')-acetyltransferase type 1|JF924867.1|soil|KAN	AAC(6')-Ib-SK	3002593	resfinder_fg
 Aminoglycoside N(6')-acetyltransferase type 1|JX875571.1|soil|KAN	AAC(6')-IIb	3002595	resfinder_fg
 Aminoglycoside N(6')-acetyltransferase type 1|KC520487.1|Active layer soil from the Arctic|SIS	AAC(6')-Iz	3002570	resfinder_fg
@@ -115,28 +115,28 @@ Beta-lactamase CARB-6|KU544754.1|sewage|PIP	AER-1	3002481	resfinder_fg
 Beta-lactamase CARB-6|MN340013.1|wastewater+triclosan|CAR	AER-1	3002481	resfinder_fg
 Beta-lactamase CTX-M-1|GQ343005.1|human fecal matter|AMX	CTX-M-15	3001878	resfinder_fg
 Beta-lactamase CTX-M-1|KF791056.1|retail host|AMP	ERP-1	3004782	resfinder_fg
-Beta-lactamase CTX-M-1|MK831000.1|plant-associated metagenome (Alpine|AMP	BKC-1	3004757	resfinder_fg
+Beta-lactamase CTX-M-1|MK831000.1|plant-associated metagenome (Alpine|AMP	PAD-1	3008821	resfinder_fg
 Beta-lactamase CTX-M-97|EU885954.1|larval midguts|CAR	LRG-1	3006941	resfinder_fg
 Beta-lactamase CTX-M-97|KU544013.1|sewage|ATM	CTX-M-14	3001877	resfinder_fg
-Beta-lactamase OXA-10|GQ244495.1|soil|CAR	OXA-151	3001456	resfinder_fg
+Beta-lactamase OXA-10|GQ244495.1|soil|CAR	OXA-1089	3008507	resfinder_fg
 Beta-lactamase OXA-10|JN086160.1|human fecal matter|AMX	OXA-347	3001777	resfinder_fg
-Beta-lactamase OXA-10|KJ691924.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-Beta-lactamase OXA-10|KJ691929.1|grassland soil|PEN	OXA-156	3001461	resfinder_fg
-Beta-lactamase OXA-10|KJ691965.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-Beta-lactamase OXA-10|KJ691997.1|grassland soil|PEN	OXA-729	3005934	resfinder_fg
+Beta-lactamase OXA-10|KJ691924.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+Beta-lactamase OXA-10|KJ691929.1|grassland soil|PEN	OXA-1089	3008507	resfinder_fg
+Beta-lactamase OXA-10|KJ691965.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+Beta-lactamase OXA-10|KJ691997.1|grassland soil|PEN	OXA-1089	3008507	resfinder_fg
 Beta-lactamase OXA-10|KJ692254.1|grassland soil|PEN	OXA-535	3004362	resfinder_fg
-Beta-lactamase OXA-10|KJ692348.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
+Beta-lactamase OXA-10|KJ692348.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
 Beta-lactamase OXA-10|KJ692398.1|grassland soil|PEN	OXA-60	3001808	resfinder_fg
-Beta-lactamase OXA-10|KJ692938.1|grassland soil|PEN	OXA-729	3005934	resfinder_fg
-Beta-lactamase OXA-10|KJ693790.1|grassland soil|PEN	OXA-900	3006088	resfinder_fg
-Beta-lactamase OXA-10|KJ693799.1|grassland soil|PIP	OXA-151	3001456	resfinder_fg
-Beta-lactamase OXA-10|KJ693820.1|grassland soil|PEN	OXA-5	3001400	resfinder_fg
+Beta-lactamase OXA-10|KJ692938.1|grassland soil|PEN	OXA-1089	3008507	resfinder_fg
+Beta-lactamase OXA-10|KJ693790.1|grassland soil|PEN	OXA-1089	3008507	resfinder_fg
+Beta-lactamase OXA-10|KJ693799.1|grassland soil|PIP	OXA-957	3008734	resfinder_fg
+Beta-lactamase OXA-10|KJ693820.1|grassland soil|PEN	OXA-1089	3008507	resfinder_fg
 Beta-lactamase OXA-10|KJ694116.1|grassland soil|PEN	OXA-129	3001811	resfinder_fg
 Beta-lactamase OXA-10|KJ694319.1|grassland soil|PIP	OXA-129	3001811	resfinder_fg
-Beta-lactamase OXA-10|KJ694530.1|grassland soil|PEN	OXA-847	3006040	resfinder_fg
+Beta-lactamase OXA-10|KJ694530.1|grassland soil|PEN	OXA-1025	3008446	resfinder_fg
 Beta-lactamase OXA-10|KJ694629.1|grassland soil|PEN	OXA-60	3001808	resfinder_fg
 Beta-lactamase OXA-10|KJ695365.1|Agricultural soil|PEN	OXA-907	3006094	resfinder_fg
-Beta-lactamase OXA-10|KT387165.1|wastewater treatment plant|AMX	OXA-641	3005333	resfinder_fg
+Beta-lactamase OXA-10|KT387165.1|wastewater treatment plant|AMX	OXA-957	3008734	resfinder_fg
 Beta-lactamase OXA-10|KU543923.1|sewage|AMX	OXA-10	3001405	resfinder_fg
 Beta-lactamase OXA-10|KU544353.1|sewage|PEN	OXA-824	3006022	resfinder_fg
 Beta-lactamase OXA-10|KU544365.1|sewage|TZP	OXA-10	3001405	resfinder_fg
@@ -146,15 +146,15 @@ Beta-lactamase OXA-10|KU544744.1|sewage|PIP	OXA-10	3001405	resfinder_fg
 Beta-lactamase OXA-10|KU546638.1|feces|AMX	OXA-85	3001780	resfinder_fg
 Beta-lactamase OXA-10|KU548046.1|latrine|TZP	OXA-129	3001811	resfinder_fg
 Beta-lactamase OXA-10|MG586023.1|stream_sediment|AMP	OXA-10	3001405	resfinder_fg
-Beta-lactamase OXA-10|MK935997.1|Human_feces|AMX	OXA-641	3005333	resfinder_fg
-Beta-lactamase OXA-133|KU543958.1|sewage|AMX	OXA-644	3005864	resfinder_fg
-Beta-lactamase OXA-133|KU544388.1|sewage|PIP	OXA-417	3001608	resfinder_fg
-Beta-lactamase OXA-133|KU544423.1|sewage|PIP	OXA-417	3001608	resfinder_fg
+Beta-lactamase OXA-10|MK935997.1|Human_feces|AMX	OXA-957	3008734	resfinder_fg
+Beta-lactamase OXA-133|KU543958.1|sewage|AMX	OXA-1044	3008463	resfinder_fg
+Beta-lactamase OXA-133|KU544388.1|sewage|PIP	OXA-1165	3008583	resfinder_fg
+Beta-lactamase OXA-133|KU544423.1|sewage|PIP	OXA-1165	3008583	resfinder_fg
 Beta-lactamase OXA-133|KU544735.1|sewage|PEN	OXA-209	3001809	resfinder_fg
-Beta-lactamase OXA-133|KU547038.1|latrine|AMX	OXA-395	3001581	resfinder_fg
-Beta-lactamase OXA-133|KU547076.1|latrine|PEN	OXA-395	3001581	resfinder_fg
-Beta-lactamase OXA-133|KU547735.1|latrine|PEN	OXA-913	3006100	resfinder_fg
-Beta-lactamase OXA-133|KU548588.1|soil|PEN	OXA-274	3001730	resfinder_fg
+Beta-lactamase OXA-133|KU547038.1|latrine|AMX	OXA-1282	3008692	resfinder_fg
+Beta-lactamase OXA-133|KU547076.1|latrine|PEN	OXA-1282	3008692	resfinder_fg
+Beta-lactamase OXA-133|KU547735.1|latrine|PEN	OXA-1294	3008704	resfinder_fg
+Beta-lactamase OXA-133|KU548588.1|soil|PEN	OXA-1036	3008457	resfinder_fg
 Beta-lactamase OXA-133|MK935996.1|Gorilla_feces|AMP	OXA-727	3005932	resfinder_fg
 Beta-lactamase OXA-133|MK935998.1|Gorilla_feces|CST	OXA-727	3005932	resfinder_fg
 Beta-lactamase OXA-15|KT387161.1|wastewater treatment plant|AMX	OXA-53	3001810	resfinder_fg
@@ -166,18 +166,18 @@ Beta-lactamase OXA-18|KJ694262.1|grassland soil|PIP	OXA-18	3001413	resfinder_fg
 Beta-lactamase OXA-18|KJ694760.1|grassland soil|CAZ	OXA-18	3001413	resfinder_fg
 Beta-lactamase OXA-18|KJ695367.1|Agricultural soil|ATM	LRA-13	3002484	resfinder_fg
 Beta-lactamase OXA-18|KJ696147.1|Agricultural soil|PIP	OXA-29	3001424	resfinder_fg
-Beta-lactamase OXA-18|KU543963.1|sewage|AMX	OXA-504	3005734	resfinder_fg
-Beta-lactamase OXA-18|KU544403.1|sewage|PIP	OXA-504	3005734	resfinder_fg
-Beta-lactamase OXA-18|KU544742.1|sewage|PIP	OXA-912	3006099	resfinder_fg
-Beta-lactamase OXA-1|KJ695702.1|Agricultural soil|PIP	OXA-796	3005996	resfinder_fg
-Beta-lactamase OXA-1|KU544700.1|sewage|CAZ	RSA-2	3004445	resfinder_fg
+Beta-lactamase OXA-18|KU543963.1|sewage|AMX	OXA-1163	3008581	resfinder_fg
+Beta-lactamase OXA-18|KU544403.1|sewage|PIP	OXA-1158	3008576	resfinder_fg
+Beta-lactamase OXA-18|KU544742.1|sewage|PIP	OXA-1162	3008580	resfinder_fg
+Beta-lactamase OXA-1|KJ695702.1|Agricultural soil|PIP	OXA-1042	3008461	resfinder_fg
+Beta-lactamase OXA-1|KU544700.1|sewage|CAZ	OXA-31	3001425	resfinder_fg
 Beta-lactamase OXA-1|KU544757.1|sewage|PIP	OXA-4	3001399	resfinder_fg
 Beta-lactamase OXA-1|KU548485.1|soil|PIP	OXA-392	3001578	resfinder_fg
 Beta-lactamase OXA-1|MG586043.1|antibiotics_polluted_stream_sediment|AMP	OXA-4	3001399	resfinder_fg
-Beta-lactamase OXA-1|MG739504.1|river|AMP	RSA-2	3004445	resfinder_fg
+Beta-lactamase OXA-1|MG739504.1|river|AMP	OXA-675	3005883	resfinder_fg
 Beta-lactamase OXA-1|MN340011.1|wastewater+triclosan|CAR	OXA-1	3001396	resfinder_fg
-Beta-lactamase OXA-2|KJ691944.1|grassland soil|PEN	OXA-198	3001805	resfinder_fg
-Beta-lactamase OXA-2|KJ691985.1|grassland soil|PEN	OXA-729	3005934	resfinder_fg
+Beta-lactamase OXA-2|KJ691944.1|grassland soil|PEN	OXA-957	3008734	resfinder_fg
+Beta-lactamase OXA-2|KJ691985.1|grassland soil|PEN	OXA-957	3008734	resfinder_fg
 Beta-lactamase OXA-2|KJ693824.1|grassland soil|PEN	OXA-151	3001456	resfinder_fg
 Beta-lactamase OXA-2|KJ695496.1|Agricultural soil|PIP	OXA-20	3001415	resfinder_fg
 Beta-lactamase OXA-2|KJ695672.1|Agricultural soil|PEN	OXA-20	3001415	resfinder_fg
@@ -192,23 +192,23 @@ Beta-lactamase OXA-2|KU544477.1|sewage|AMX	LCR-1	3002997	resfinder_fg
 Beta-lactamase OXA-2|KU544483.1|sewage|AMX	OXA-2	3001397	resfinder_fg
 Beta-lactamase OXA-2|KU544746.1|sewage|PIP	OXA-2	3001397	resfinder_fg
 Beta-lactamase OXA-2|KU544768.1|sewage|PIP	OXA-2	3001397	resfinder_fg
-Beta-lactamase OXA-2|KU547078.1|latrine|PEN	OXA-540	3005314	resfinder_fg
+Beta-lactamase OXA-2|KU547078.1|latrine|PEN	OXA-1083	3008501	resfinder_fg
 Beta-lactamase OXA-2|KU547858.1|latrine|AMX	OXA-2	3001397	resfinder_fg
 Beta-lactamase OXA-2|KU548071.1|latrine|PIP	OXA-2	3001397	resfinder_fg
 Beta-lactamase OXA-2|KU548387.1|soil|AMX	OXA-2	3001397	resfinder_fg
 Beta-lactamase OXA-2|KU548547.1|soil|AMX	OXA-2	3001397	resfinder_fg
 Beta-lactamase OXA-2|KU548658.1|soil|PIP	OXA-2	3001397	resfinder_fg
-Beta-lactamase OXY-1|KJ696258.1|Agricultural soil|PEN	OXY-4-1	3002410	resfinder_fg
+Beta-lactamase OXY-1|KJ696258.1|Agricultural soil|PEN	OXY-7-1	3008816	resfinder_fg
 Beta-lactamase OXY-1|KU548037.1|latrine|PEN	OXY-1-1	3002389	resfinder_fg
 Beta-lactamase OXY-1|KU606211.1|Preterm_infant_stool|PIP	OXY-6-4	3002416	resfinder_fg
 Beta-lactamase OXY-1|KU606908.1|Preterm_infant_stool|PIP	OXY-1-2	3002390	resfinder_fg
 Beta-lactamase OXY-1|KU607107.1|Preterm_infant_stool|ATM	OXY-1-3	3002391	resfinder_fg
-Beta-lactamase OXY-1|KU607236.1|Preterm_infant_stool|AMP	OXY-1-1	3002389	resfinder_fg
+Beta-lactamase OXY-1|KU607236.1|Preterm_infant_stool|AMP	OXY-1-18	3008782	resfinder_fg
 Beta-lactamase OXY-1|KX125365.1|newborn_gut|PIP	OXY-1-1	3002389	resfinder_fg
 Beta-lactamase OXY-1|KX126942.1|newborn_gut|PEN	OXY-6-1	3002413	resfinder_fg
 Beta-lactamase OXY-2|KU545193.1|feces|AMX	OXY-2-7	3002402	resfinder_fg
 Beta-lactamase OXY-2|KU606242.1|Preterm_infant_stool|AMP	OXY-2-4	3002399	resfinder_fg
-Beta-lactamase PSE-1|JX009211.1|soil|AMX	CARB-3	3002242	resfinder_fg
+Beta-lactamase PSE-1|JX009211.1|soil|AMX	CARB-58	3007837	resfinder_fg
 Beta-lactamase PSE-1|KU544763.1|sewage|PIP	AER-1	3002481	resfinder_fg
 Beta-lactamase PSE-4|JX009326.1|soil|PIP	CARB-22	3003151	resfinder_fg
 Beta-lactamase PSE-4|KU548669.1|soil|AMX	CARB-9	3002248	resfinder_fg
@@ -258,15 +258,15 @@ Beta-lactamase TEM|MK935892.1|Human_feces|PEN	TEM-1	3000873	resfinder_fg
 Beta-lactamase TEM|MK935898.1|Human_feces|AMP	TEM-1	3000873	resfinder_fg
 Beta-lactamase TEM|MK935900.1|Human_feces|PEN	TEM-1	3000873	resfinder_fg
 Beta-lactamase TEM|MK935905.1|Human_feces|PEN	TEM-1	3000873	resfinder_fg
-Beta-lactamase Toho-1|JX009205.1|soil|AMX	RAHN-2	3006980	resfinder_fg
+Beta-lactamase Toho-1|JX009205.1|soil|AMX	RAHN-3	3009036	resfinder_fg
 Beta-lactamase Toho-1|KF630271.1|pediatric_fecal_sample|PIP	CTX-M-95	3001955	resfinder_fg
-Beta-lactamase Toho-1|KJ691941.1|grassland soil|PEN	CTX-M-86	3001946	resfinder_fg
+Beta-lactamase Toho-1|KJ691941.1|grassland soil|PEN	CAE-1	3007635	resfinder_fg
 Beta-lactamase Toho-1|KJ695175.1|Agricultural soil|PEN	LUT-5	3006947	resfinder_fg
-Beta-lactamase Toho-1|KT387152.1|wastewater treatment plant|CAR	LRG-1	3006941	resfinder_fg
+Beta-lactamase Toho-1|KT387152.1|wastewater treatment plant|CAR	PEN-A29	3009007	resfinder_fg
 Beta-lactamase Toho-1|KU546296.1|feces|CAZ	CTX-M-65	3001926	resfinder_fg
-Beta-lactamase Toho-1|MG739510.1|river|AMP	RSA-1	3004444	resfinder_fg
-Beta-lactamase|FN640467.1|loamy soil collected from the Zaidin|AMP	OCH-2	3002515	resfinder_fg
-Beta-lactamase|GQ244493.1|soil|CAZ	PDC-33	3006699	resfinder_fg
+Beta-lactamase Toho-1|MG739510.1|river|AMP	RSA1-1	3004444	resfinder_fg
+Beta-lactamase|FN640467.1|loamy soil collected from the Zaidin|AMP	AMZ-1	3007694	resfinder_fg
+Beta-lactamase|GQ244493.1|soil|CAZ	RSC1-1	3009041	resfinder_fg
 Beta-lactamase|GQ244494.1|soil|PIP	AQU-1	3002993	resfinder_fg
 Beta-lactamase|GQ343009.1|human fecal matter|AMX	CMY-48	3002059	resfinder_fg
 Beta-lactamase|GQ343015.1|human fecal matter|AMX	EC-5	3006880	resfinder_fg
@@ -279,29 +279,29 @@ Beta-lactamase|JM427352.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
 Beta-lactamase|JM427353.1|gull_gut|PEN	EC-8	3006881	resfinder_fg
 Beta-lactamase|JM427368.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
 Beta-lactamase|JM427375.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
-Beta-lactamase|JM427612.1|gull_gut|PEN	ACT-52	3006247	resfinder_fg
+Beta-lactamase|JM427612.1|gull_gut|PEN	ACT-110	3007893	resfinder_fg
 Beta-lactamase|JM427660.1|gull_gut|PEN	EC-15	3006876	resfinder_fg
 Beta-lactamase|JM427694.1|gull_gut|PEN	EC-14	3006875	resfinder_fg
-Beta-lactamase|JX009203.1|soil|AMX	OCH-1	3002514	resfinder_fg
-Beta-lactamase|JX009204.1|soil|AMX	SRT-3	3006853	resfinder_fg
-Beta-lactamase|JX009206.1|soil|AMX	SRT-3	3006853	resfinder_fg
-Beta-lactamase|JX009207.1|soil|AMX	PDC-33	3006699	resfinder_fg
-Beta-lactamase|JX009209.1|soil|AMX	SRT-3	3006853	resfinder_fg
-Beta-lactamase|JX009212.1|soil|AMX	SRT-2	3002494	resfinder_fg
-Beta-lactamase|JX009229.1|soil|CAR	PDC-343	3006713	resfinder_fg
-Beta-lactamase|JX009231.1|soil|CAR	PDC-48	3005148	resfinder_fg
-Beta-lactamase|JX009235.1|soil|CAR	SRT-3	3006853	resfinder_fg
-Beta-lactamase|JX009294.1|soil|PEN	SRT-3	3006853	resfinder_fg
-Beta-lactamase|JX009295.1|soil|PEN	OCH-1	3002514	resfinder_fg
-Beta-lactamase|JX009300.1|soil|PEN	EC-16	3006877	resfinder_fg
-Beta-lactamase|JX009301.1|soil|PEN	ACT-38	3003655	resfinder_fg
+Beta-lactamase|JX009203.1|soil|AMX	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|JX009204.1|soil|AMX	SRT-4	3009065	resfinder_fg
+Beta-lactamase|JX009206.1|soil|AMX	SRT-4	3009065	resfinder_fg
+Beta-lactamase|JX009207.1|soil|AMX	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|JX009209.1|soil|AMX	SRT-4	3009065	resfinder_fg
+Beta-lactamase|JX009212.1|soil|AMX	SRT-4	3009065	resfinder_fg
+Beta-lactamase|JX009229.1|soil|CAR	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|JX009231.1|soil|CAR	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|JX009235.1|soil|CAR	SRT-4	3009065	resfinder_fg
+Beta-lactamase|JX009294.1|soil|PEN	SRT-4	3009065	resfinder_fg
+Beta-lactamase|JX009295.1|soil|PEN	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|JX009300.1|soil|PEN	PSZ-1	3007648	resfinder_fg
+Beta-lactamase|JX009301.1|soil|PEN	YOC-1	3009096	resfinder_fg
 Beta-lactamase|JX009322.1|soil|PIP	PDC-161	3006540	resfinder_fg
-Beta-lactamase|JX009323.1|soil|PIP	SRT-3	3006853	resfinder_fg
-Beta-lactamase|JX009324.1|soil|PIP	PDC-241	3006619	resfinder_fg
-Beta-lactamase|JX009328.1|soil|PIP	SRT-3	3006853	resfinder_fg
-Beta-lactamase|KC520483.1|Active layer soil from the Arctic|PEN	PDC-343	3006713	resfinder_fg
+Beta-lactamase|JX009323.1|soil|PIP	SRT-4	3009065	resfinder_fg
+Beta-lactamase|JX009324.1|soil|PIP	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|JX009328.1|soil|PIP	SRT-4	3009065	resfinder_fg
+Beta-lactamase|KC520483.1|Active layer soil from the Arctic|PEN	RSC1-1	3009041	resfinder_fg
 Beta-lactamase|KC520484.1|Active layer soil from the Arctic|PEN	LRA-1	3002482	resfinder_fg
-Beta-lactamase|KF033132.1|river water|AMP	FONA-6	3004793	resfinder_fg
+Beta-lactamase|KF033132.1|river water|AMP	PEN-A29	3009007	resfinder_fg
 Beta-lactamase|KF626746.1|pediatric_fecal_sample|PEN	EC-5	3006880	resfinder_fg
 Beta-lactamase|KF626778.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
 Beta-lactamase|KF626926.1|pediatric_fecal_sample|ATM	EC-5	3006880	resfinder_fg
@@ -320,26 +320,26 @@ Beta-lactamase|KF630242.1|pediatric_fecal_sample|PIP	EC-5	3006880	resfinder_fg
 Beta-lactamase|KJ512902.1|manure|CAR	ACI-1	3004359	resfinder_fg
 Beta-lactamase|KJ512941.1|manure|CAZ	BcI	3002877	resfinder_fg
 Beta-lactamase|KJ692539.1|grassland soil|PIP	LRA-10	3002489	resfinder_fg
-Beta-lactamase|KJ692663.1|grassland soil|PEN	OCH-7	3002520	resfinder_fg
+Beta-lactamase|KJ692663.1|grassland soil|PEN	PNC-1	3009032	resfinder_fg
 Beta-lactamase|KJ692935.1|grassland soil|PEN	LRA-10	3002489	resfinder_fg
 Beta-lactamase|KJ692949.1|grassland soil|CTX	LRA-10	3002489	resfinder_fg
-Beta-lactamase|KJ693015.1|grassland soil|PIP	LRA-13	3002484	resfinder_fg
+Beta-lactamase|KJ693015.1|grassland soil|PIP	PNC-2	3009033	resfinder_fg
 Beta-lactamase|KJ693194.1|grassland soil|PEN	CMY-108	3002120	resfinder_fg
 Beta-lactamase|KJ693456.1|grassland soil|PIP	CMY-108	3002120	resfinder_fg
-Beta-lactamase|KJ694078.1|grassland soil|PEN	LUT-4	3006946	resfinder_fg
+Beta-lactamase|KJ694078.1|grassland soil|PEN	PEN-A1	3008997	resfinder_fg
 Beta-lactamase|KJ694108.1|grassland soil|PEN	SCO-1	3004856	resfinder_fg
-Beta-lactamase|KJ694180.1|grassland soil|PIP	LRA-13	3002484	resfinder_fg
+Beta-lactamase|KJ694180.1|grassland soil|PIP	RSC1-1	3009041	resfinder_fg
 Beta-lactamase|KJ694385.1|grassland soil|PIP	SCO-1	3004856	resfinder_fg
-Beta-lactamase|KJ694531.1|grassland soil|PEN	LRA-10	3002489	resfinder_fg
+Beta-lactamase|KJ694531.1|grassland soil|PEN	PNC-1	3009032	resfinder_fg
 Beta-lactamase|KJ694733.1|grassland soil|PEN	KLUC-5	3006931	resfinder_fg
-Beta-lactamase|KJ695330.1|Agricultural soil|PEN	OCH-8	3002521	resfinder_fg
-Beta-lactamase|KJ695366.1|Agricultural soil|ATM	LRA-1	3002482	resfinder_fg
-Beta-lactamase|KJ695458.1|Agricultural soil|PEN	LRA-13	3002484	resfinder_fg
-Beta-lactamase|KJ695915.1|Agricultural soil|PEN	OCH-8	3002521	resfinder_fg
-Beta-lactamase|KJ696348.1|Agricultural soil|PIP	PDC-466	3006832	resfinder_fg
+Beta-lactamase|KJ695330.1|Agricultural soil|PEN	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|KJ695366.1|Agricultural soil|ATM	BOR-1	3008082	resfinder_fg
+Beta-lactamase|KJ695458.1|Agricultural soil|PEN	PNC-3	3009034	resfinder_fg
+Beta-lactamase|KJ695915.1|Agricultural soil|PEN	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|KJ696348.1|Agricultural soil|PIP	PDC-488	3008835	resfinder_fg
 Beta-lactamase|KJ910910.1|feces|CAZ	EC-14	3006875	resfinder_fg
 Beta-lactamase|KJ910913.1|feces|PEN	EC-15	3006876	resfinder_fg
-Beta-lactamase|KJ910914.1|feces|TZP	CMY-132	3003652	resfinder_fg
+Beta-lactamase|KJ910914.1|feces|TZP	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KJ910915.1|feces|PIP	EC-14	3006875	resfinder_fg
 Beta-lactamase|KJ910932.1|feces|CAZ	EC-14	3006875	resfinder_fg
 Beta-lactamase|KJ910933.1|feces|PEN	EC-18	3006878	resfinder_fg
@@ -348,9 +348,9 @@ Beta-lactamase|KJ910936.1|feces|PIP	EC-18	3006878	resfinder_fg
 Beta-lactamase|KJ910983.1|feces|CAZ	ROB-1	3002995	resfinder_fg
 Beta-lactamase|KJ910989.1|feces|PEN	ROB-6	3005076	resfinder_fg
 Beta-lactamase|KM113767.1|cow manure|CEF	ACI-1	3004359	resfinder_fg
-Beta-lactamase|KM113770.1|soil|CEF	PDC-241	3006619	resfinder_fg
+Beta-lactamase|KM113770.1|soil|CEF	RSC1-1	3009041	resfinder_fg
 Beta-lactamase|KM113771.1|soil|CEF	LRA-10	3002489	resfinder_fg
-Beta-lactamase|KU543700.1|feces|CTX	CMY-132	3003652	resfinder_fg
+Beta-lactamase|KU543700.1|feces|CTX	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KU543705.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
 Beta-lactamase|KU543918.1|sewage|AMX	AER-1	3002481	resfinder_fg
 Beta-lactamase|KU543933.1|sewage|AMX	SCO-1	3004856	resfinder_fg
@@ -360,14 +360,14 @@ Beta-lactamase|KU544155.1|sewage|CTX	PAC-1	3005150	resfinder_fg
 Beta-lactamase|KU544162.1|sewage|CTX	GES-1	3002330	resfinder_fg
 Beta-lactamase|KU544179.1|sewage|FOX	ADC-221	3006390	resfinder_fg
 Beta-lactamase|KU544194.1|sewage|FOX	ADC-84	3006441	resfinder_fg
-Beta-lactamase|KU544207.1|sewage|FOX	ADC-84	3006441	resfinder_fg
+Beta-lactamase|KU544207.1|sewage|FOX	ADC-295	3008011	resfinder_fg
 Beta-lactamase|KU544208.1|sewage|FOX	OCH-8	3002521	resfinder_fg
-Beta-lactamase|KU544223.1|sewage|FOX	ACT-29	3001849	resfinder_fg
+Beta-lactamase|KU544223.1|sewage|FOX	ACT-118	3007900	resfinder_fg
 Beta-lactamase|KU544243.1|sewage|FOX	CMY-83	3002096	resfinder_fg
 Beta-lactamase|KU544379.1|sewage|PIP	GES-5	3002334	resfinder_fg
 Beta-lactamase|KU544399.1|sewage|PIP	CARB-16	3002255	resfinder_fg
 Beta-lactamase|KU544432.1|sewage|PIP	GES-1	3002330	resfinder_fg
-Beta-lactamase|KU544701.1|sewage|CAZ	LRA-13	3002484	resfinder_fg
+Beta-lactamase|KU544701.1|sewage|CAZ	PNC-3	3009034	resfinder_fg
 Beta-lactamase|KU544747.1|sewage|PIP	AER-1	3002481	resfinder_fg
 Beta-lactamase|KU544751.1|sewage|PIP	AER-1	3002481	resfinder_fg
 Beta-lactamase|KU544752.1|sewage|PIP	AER-1	3002481	resfinder_fg
@@ -395,12 +395,12 @@ Beta-lactamase|KU545330.1|feces|AMX	EC-8	3006881	resfinder_fg
 Beta-lactamase|KU545376.1|feces|PEN	EC-8	3006881	resfinder_fg
 Beta-lactamase|KU545493.1|feces|AMX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU545536.1|feces|PEN	EC-5	3006880	resfinder_fg
-Beta-lactamase|KU545603.1|feces|PEN	CMY-136	3004854	resfinder_fg
+Beta-lactamase|KU545603.1|feces|PEN	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KU545645.1|feces|AMX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU545809.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
 Beta-lactamase|KU546021.1|feces|PEN	EC-8	3006881	resfinder_fg
 Beta-lactamase|KU546206.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-Beta-lactamase|KU546390.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
+Beta-lactamase|KU546390.1|feces|AMX	CMY-180	3008117	resfinder_fg
 Beta-lactamase|KU546517.1|feces|AMX	EC-8	3006881	resfinder_fg
 Beta-lactamase|KU546538.1|feces|AMX	EC-14	3006875	resfinder_fg
 Beta-lactamase|KU546585.1|feces|PEN	EC-15	3006876	resfinder_fg
@@ -416,12 +416,12 @@ Beta-lactamase|KU547042.1|latrine|AMX	CARB-49	3005583	resfinder_fg
 Beta-lactamase|KU547074.1|latrine|PEN	CARB-49	3005583	resfinder_fg
 Beta-lactamase|KU547080.1|latrine|PEN	CARB-8	3002247	resfinder_fg
 Beta-lactamase|KU547084.1|latrine|PEN	CARB-5	3002244	resfinder_fg
-Beta-lactamase|KU547136.1|latrine|AMX	GPC-1	3005096	resfinder_fg
+Beta-lactamase|KU547136.1|latrine|AMX	PAD-1	3008821	resfinder_fg
 Beta-lactamase|KU547158.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-Beta-lactamase|KU547163.1|latrine|PEN	GPC-1	3005096	resfinder_fg
+Beta-lactamase|KU547163.1|latrine|PEN	PAD-1	3008821	resfinder_fg
 Beta-lactamase|KU547192.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
 Beta-lactamase|KU547195.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
-Beta-lactamase|KU547393.1|feces|AMX	CMY-136	3004854	resfinder_fg
+Beta-lactamase|KU547393.1|feces|AMX	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KU547455.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
 Beta-lactamase|KU547469.1|feces|PEN	EC-14	3006875	resfinder_fg
 Beta-lactamase|KU547525.1|feces|AMX	EC-5	3006880	resfinder_fg
@@ -453,21 +453,21 @@ Beta-lactamase|KU548185.1|latrine|TZP	CARB-49	3005583	resfinder_fg
 Beta-lactamase|KU548288.1|latrine|AMX	CARB-49	3005583	resfinder_fg
 Beta-lactamase|KU548300.1|latrine|AMX	CARB-49	3005583	resfinder_fg
 Beta-lactamase|KU548341.1|latrine|PEN	CARB-49	3005583	resfinder_fg
-Beta-lactamase|KU548492.1|soil|PIP	AXC-2	3006898	resfinder_fg
-Beta-lactamase|KU548550.1|soil|AMX	ACT-77	3006271	resfinder_fg
-Beta-lactamase|KU548562.1|soil|PEN	ACT-77	3006271	resfinder_fg
+Beta-lactamase|KU548492.1|soil|PIP	AXC-8	3008077	resfinder_fg
+Beta-lactamase|KU548550.1|soil|AMX	ACT-172	3007935	resfinder_fg
+Beta-lactamase|KU548562.1|soil|PEN	ACT-172	3007935	resfinder_fg
 Beta-lactamase|KU548577.1|soil|PIP	RCP-1	3003563	resfinder_fg
-Beta-lactamase|KU548678.1|soil|CTX	ACT-78	3006272	resfinder_fg
+Beta-lactamase|KU548678.1|soil|CTX	ACT-156	3007921	resfinder_fg
 Beta-lactamase|KU548878.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
 Beta-lactamase|KU548903.1|feces|CTX	CMY-157	3005198	resfinder_fg
 Beta-lactamase|KU548922.1|feces|PEN	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
 Beta-lactamase|KU548998.1|feces|CTX	CMY-66	3002079	resfinder_fg
-Beta-lactamase|KU549001.1|feces|PEN	EC-14	3006875	resfinder_fg
+Beta-lactamase|KU549001.1|feces|PEN	CMY-180	3008117	resfinder_fg
 Beta-lactamase|KU549021.1|feces|AMX	Escherichia coli ampC beta-lactamase	3004290	resfinder_fg
 Beta-lactamase|KU605821.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU605824.1|Preterm_infant_stool|AMX	MIR-10	3002175	resfinder_fg
 Beta-lactamase|KU605837.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
-Beta-lactamase|KU605848.1|Preterm_infant_stool|AMC	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
+Beta-lactamase|KU605848.1|Preterm_infant_stool|AMC	PC1	3008823	resfinder_fg
 Beta-lactamase|KU605898.1|Preterm_infant_stool|CAZ	MIR-9	3002174	resfinder_fg
 Beta-lactamase|KU605899.1|Preterm_infant_stool|CAZ	CMY-101	3002113	resfinder_fg
 Beta-lactamase|KU606004.1|Preterm_infant_stool|AMP	ACT-56	3006251	resfinder_fg
@@ -475,21 +475,21 @@ Beta-lactamase|KU606014.1|Preterm_infant_stool|AMP	LRG-1	3006941	resfinder_fg
 Beta-lactamase|KU606030.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU606042.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU606044.1|Preterm_infant_stool|AMC	ACT-56	3006251	resfinder_fg
-Beta-lactamase|KU606067.1|Preterm_infant_stool|FOX	CMY-136	3004854	resfinder_fg
-Beta-lactamase|KU606072.1|Preterm_infant_stool|CAZ	ACT-74	3006268	resfinder_fg
+Beta-lactamase|KU606067.1|Preterm_infant_stool|FOX	CMY-181	3008118	resfinder_fg
+Beta-lactamase|KU606072.1|Preterm_infant_stool|CAZ	ACT-189	3007952	resfinder_fg
 Beta-lactamase|KU606096.1|Preterm_infant_stool|PEN	ACT-18	3001839	resfinder_fg
 Beta-lactamase|KU606100.1|Preterm_infant_stool|PEN	CMY-51	3002062	resfinder_fg
 Beta-lactamase|KU606101.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-Beta-lactamase|KU606137.1|Preterm_infant_stool|PIP	EC-5	3006880	resfinder_fg
+Beta-lactamase|KU606137.1|Preterm_infant_stool|PIP	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KU606249.1|Preterm_infant_stool|AMC	CMY-66	3002079	resfinder_fg
 Beta-lactamase|KU606321.1|Preterm_infant_stool|AMP	ACT-56	3006251	resfinder_fg
 Beta-lactamase|KU606395.1|Preterm_infant_stool|PIP	ACT-32	3001852	resfinder_fg
 Beta-lactamase|KU606485.1|Preterm_infant_stool|AMP	ACT-50	3006245	resfinder_fg
 Beta-lactamase|KU606494.1|Preterm_infant_stool|AMC	ACT-50	3006245	resfinder_fg
-Beta-lactamase|KU606499.1|Preterm_infant_stool|AMC	MOX-13	3006478	resfinder_fg
+Beta-lactamase|KU606499.1|Preterm_infant_stool|AMC	MOX-15	3008383	resfinder_fg
 Beta-lactamase|KU606500.1|Preterm_infant_stool|ATM	ACT-50	3006245	resfinder_fg
 Beta-lactamase|KU606526.1|Preterm_infant_stool|FOX	ACT-50	3006245	resfinder_fg
-Beta-lactamase|KU606564.1|Preterm_infant_stool|AMP	CMY-136	3004854	resfinder_fg
+Beta-lactamase|KU606564.1|Preterm_infant_stool|AMP	CMY-189	3008124	resfinder_fg
 Beta-lactamase|KU606570.1|Preterm_infant_stool|AMX	EC-8	3006881	resfinder_fg
 Beta-lactamase|KU606585.1|Preterm_infant_stool|AMC	EC-8	3006881	resfinder_fg
 Beta-lactamase|KU606643.1|Preterm_infant_stool|PEN	EC-8	3006881	resfinder_fg
@@ -497,28 +497,28 @@ Beta-lactamase|KU606773.1|Preterm_infant_stool|AMP	ACI-1	3004359	resfinder_fg
 Beta-lactamase|KU606824.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU606870.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU606879.1|Preterm_infant_stool|FOX	EC-5	3006880	resfinder_fg
-Beta-lactamase|KU606886.1|Preterm_infant_stool|CAZ	CMY-136	3004854	resfinder_fg
+Beta-lactamase|KU606886.1|Preterm_infant_stool|CAZ	CMY-189	3008124	resfinder_fg
 Beta-lactamase|KU606896.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607059.1|Preterm_infant_stool|AMP	ACT-67	3006262	resfinder_fg
 Beta-lactamase|KU607062.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607092.1|Preterm_infant_stool|AMX	ACT-67	3006262	resfinder_fg
-Beta-lactamase|KU607100.1|Preterm_infant_stool|AMC	ACT-8	3001831	resfinder_fg
+Beta-lactamase|KU607100.1|Preterm_infant_stool|AMC	ACT-184	3007947	resfinder_fg
 Beta-lactamase|KU607105.1|Preterm_infant_stool|ATM	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607160.1|Preterm_infant_stool|FOX	ACT-67	3006262	resfinder_fg
-Beta-lactamase|KU607182.1|Preterm_infant_stool|CAZ	ACT-67	3006262	resfinder_fg
-Beta-lactamase|KU607207.1|Preterm_infant_stool|PIP	CMY-136	3004854	resfinder_fg
+Beta-lactamase|KU607182.1|Preterm_infant_stool|CAZ	ACT-151	3007917	resfinder_fg
+Beta-lactamase|KU607207.1|Preterm_infant_stool|PIP	CMY-189	3008124	resfinder_fg
 Beta-lactamase|KU607238.1|Preterm_infant_stool|AMP	CMY-85	3002098	resfinder_fg
-Beta-lactamase|KU607257.1|Preterm_infant_stool|PIP	ACT-74	3006268	resfinder_fg
-Beta-lactamase|KU607281.1|Preterm_infant_stool|PIP	ACT-38	3003655	resfinder_fg
+Beta-lactamase|KU607257.1|Preterm_infant_stool|PIP	ACT-189	3007952	resfinder_fg
+Beta-lactamase|KU607281.1|Preterm_infant_stool|PIP	MIR-28	3008376	resfinder_fg
 Beta-lactamase|KU607300.1|Preterm_infant_stool|PIP	EC-8	3006881	resfinder_fg
-Beta-lactamase|KU607301.1|Preterm_infant_stool|PIP	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
+Beta-lactamase|KU607301.1|Preterm_infant_stool|PIP	PC1	3008823	resfinder_fg
 Beta-lactamase|KU607363.1|Preterm_infant_stool|CAZ	ACC-1a	3006228	resfinder_fg
 Beta-lactamase|KU607474.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607514.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607561.1|Preterm_infant_stool|FOX	ACT-32	3001852	resfinder_fg
 Beta-lactamase|KU607568.1|Preterm_infant_stool|FOX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607578.1|Preterm_infant_stool|CAZ	EC-5	3006880	resfinder_fg
-Beta-lactamase|KU607584.1|Preterm_infant_stool|PEN	PC1 beta-lactamase (blaZ)	3000621	resfinder_fg
+Beta-lactamase|KU607584.1|Preterm_infant_stool|PEN	PC1	3008823	resfinder_fg
 Beta-lactamase|KU607588.1|Preterm_infant_stool|PEN	MIR-9	3002174	resfinder_fg
 Beta-lactamase|KU607633.1|Preterm_infant_stool|AMX	MIR-12	3002177	resfinder_fg
 Beta-lactamase|KU607672.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
@@ -532,29 +532,29 @@ Beta-lactamase|KU607803.1|Preterm_infant_stool|PEN	CMY-87	3002100	resfinder_fg
 Beta-lactamase|KU607810.1|Preterm_infant_stool|PEN	ACT-56	3006251	resfinder_fg
 Beta-lactamase|KU607811.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607814.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-Beta-lactamase|KU607829.1|Preterm_infant_stool|PIP	ACT-8	3001831	resfinder_fg
+Beta-lactamase|KU607829.1|Preterm_infant_stool|PIP	ACT-183	3007946	resfinder_fg
 Beta-lactamase|KU607869.1|Preterm_infant_stool|AMP	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607878.1|Preterm_infant_stool|AMX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607886.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU607954.1|Preterm_infant_stool|PEN	EC-5	3006880	resfinder_fg
-Beta-lactamase|KU608079.1|Preterm_infant_stool|AMP	CMY-136	3004854	resfinder_fg
+Beta-lactamase|KU608079.1|Preterm_infant_stool|AMP	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KU608085.1|Preterm_infant_stool|AMX	ACT-56	3006251	resfinder_fg
 Beta-lactamase|KU608094.1|Preterm_infant_stool|AMC	EC-5	3006880	resfinder_fg
 Beta-lactamase|KU608095.1|Preterm_infant_stool|AMC	ACT-18	3001839	resfinder_fg
 Beta-lactamase|KU608123.1|Preterm_infant_stool|PEN	ACT-56	3006251	resfinder_fg
 Beta-lactamase|KU608132.1|Preterm_infant_stool|PIP	ACT-56	3006251	resfinder_fg
 Beta-lactamase|KU608201.1|Preterm_infant_stool|AMC	CMY-159	3006458	resfinder_fg
-Beta-lactamase|KU608215.1|Preterm_infant_stool|AMC	ACT-74	3006268	resfinder_fg
-Beta-lactamase|KX125271.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX125309.1|newborn_gut|TZP	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX125358.1|newborn_gut|PIP	CMY-132	3003652	resfinder_fg
+Beta-lactamase|KU608215.1|Preterm_infant_stool|AMC	ACT-189	3007952	resfinder_fg
+Beta-lactamase|KX125271.1|newborn_gut|ATM	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX125309.1|newborn_gut|TZP	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX125358.1|newborn_gut|PIP	CMY-190	3008125	resfinder_fg
 Beta-lactamase|KX125444.1|newborn_gut|PEN	EC-8	3006881	resfinder_fg
-Beta-lactamase|KX125511.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX125523.1|newborn_gut|CTX	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX125529.1|newborn_gut|FOX	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX125570.1|newborn_gut|CAZ	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX125579.1|newborn_gut|PIP	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX125600.1|newborn_gut|TZB	CMY-132	3003652	resfinder_fg
+Beta-lactamase|KX125511.1|newborn_gut|ATM	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX125523.1|newborn_gut|CTX	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX125529.1|newborn_gut|FOX	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX125570.1|newborn_gut|CAZ	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX125579.1|newborn_gut|PIP	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX125600.1|newborn_gut|TZB	CMY-190	3008125	resfinder_fg
 Beta-lactamase|KX125631.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
 Beta-lactamase|KX125879.1|human_gut|PEN	EC-5	3006880	resfinder_fg
 Beta-lactamase|KX125963.1|newborn_gut|CTX	EC-15	3006876	resfinder_fg
@@ -566,23 +566,23 @@ Beta-lactamase|KX126654.1|newborn_gut|PIP	EC-15	3006876	resfinder_fg
 Beta-lactamase|KX126940.1|newborn_gut|CTX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KX126946.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
 Beta-lactamase|KX126958.1|newborn_gut|PIP	EC-5	3006880	resfinder_fg
-Beta-lactamase|KX127043.1|newborn_gut|CTX	CMY-132	3003652	resfinder_fg
+Beta-lactamase|KX127043.1|newborn_gut|CTX	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KX127051.1|newborn_gut|PEN	EC-5	3006880	resfinder_fg
 Beta-lactamase|KX127579.1|human_gut|PEN	EC-5	3006880	resfinder_fg
-Beta-lactamase|KX127696.1|newborn_gut|ATM	CMY-132	3003652	resfinder_fg
-Beta-lactamase|KX127900.1|newborn_gut|CAZ	CMY-132	3003652	resfinder_fg
+Beta-lactamase|KX127696.1|newborn_gut|ATM	CMY-190	3008125	resfinder_fg
+Beta-lactamase|KX127900.1|newborn_gut|CAZ	CMY-190	3008125	resfinder_fg
 Beta-lactamase|KX128077.1|newborn_gut|PEN	EC-15	3006876	resfinder_fg
 Beta-lactamase|KX128184.1|newborn_gut|ATM	ACI-1	3004359	resfinder_fg
 Beta-lactamase|KX128289.1|newborn_gut|PEN	EC-13	3006874	resfinder_fg
-Beta-lactamase|KX128530.1|newborn_gut|ATM	Sed-1	3003561	resfinder_fg
+Beta-lactamase|KX128530.1|newborn_gut|ATM	SED-2	3009044	resfinder_fg
 Beta-lactamase|KX128596.1|newborn_gut|FOX	EC-5	3006880	resfinder_fg
 Beta-lactamase|KX128617.1|newborn_gut|CAZ	EC-5	3006880	resfinder_fg
-Beta-lactamase|KX128677.1|newborn_gut|PEN	CMY-132	3003652	resfinder_fg
+Beta-lactamase|KX128677.1|newborn_gut|PEN	CMY-181	3008118	resfinder_fg
 Beta-lactamase|KX128686.1|newborn_gut|PIP	EC-5	3006880	resfinder_fg
-Beta-lactamase|KX128852.1|newborn_gut|PEN	CMY-136	3004854	resfinder_fg
+Beta-lactamase|KX128852.1|newborn_gut|PEN	CMY-189	3008124	resfinder_fg
 Beta-lactamase|MG586034.1|antibiotics_polluted_stream_sediment|CTX	MOX-9	3002191	resfinder_fg
 Beta-lactamase|MG586041.1|antibiotics_polluted_stream_sediment|AMP	ADC-120	3006297	resfinder_fg
-Beta-lactamase|MG739508.1|river|AMP	PDC-237	3006615	resfinder_fg
+Beta-lactamase|MG739508.1|river|AMP	RSC1-1	3009041	resfinder_fg
 Beta-lactamase|MG739509.1|river|AMP	RSA2-1	3006981	resfinder_fg
 Beta-lactamase|MK935727.1|Gorilla_feces|CST	EC-5	3006880	resfinder_fg
 Beta-lactamase|MK935730.1|Human_feces|PIP	CMY-66	3002079	resfinder_fg
@@ -592,7 +592,7 @@ Beta-lactamase|MK935734.1|Human_feces|CAZ	EC-18	3006878	resfinder_fg
 Beta-lactamase|MK935735.1|Human_feces|CST	EC-5	3006880	resfinder_fg
 Beta-lactamase|MK935736.1|Human_feces|ATM	EC-19	3006879	resfinder_fg
 Beta-lactamase|MK935737.1|Human_feces|AMX	EC-18	3006878	resfinder_fg
-Beta-lactamase|MK935738.1|Human_feces|AMX	ACT-69	3006264	resfinder_fg
+Beta-lactamase|MK935738.1|Human_feces|AMX	ACT-184	3007947	resfinder_fg
 Beta-lactamase|MK935739.1|Human_feces|AMX	EC-18	3006878	resfinder_fg
 Beta-lactamase|MK935740.1|Human_feces|AMP	EC-19	3006879	resfinder_fg
 Beta-lactamase|MK935741.1|Human_feces|PEN	EC-5	3006880	resfinder_fg
@@ -621,9 +621,9 @@ Beta-lactamase|MK935776.1|Human_feces|CAZ	CMY-106	3002118	resfinder_fg
 Beta-lactamase|MK935778.1|Human_feces|CST	EC-15	3006876	resfinder_fg
 Beta-lactamase|MK935932.1|Gorilla_feces|AMP	ACI-1	3004359	resfinder_fg
 Beta-lactamase|MK935949.1|Gorilla_feces|PIP	ACI-1	3004359	resfinder_fg
-Beta-lactamase|MK935979.1|Human_feces|PEN	PDC-241	3006619	resfinder_fg
-Beta-lactamase|MK935990.1|Pan_troglodytes_feces|ATM	PDC-241	3006619	resfinder_fg
-Beta-lactamase|MK935991.1|Gorilla_feces|CAZ	PDC-241	3006619	resfinder_fg
+Beta-lactamase|MK935979.1|Human_feces|PEN	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|MK935990.1|Pan_troglodytes_feces|ATM	RSC1-1	3009041	resfinder_fg
+Beta-lactamase|MK935991.1|Gorilla_feces|CAZ	RSC1-1	3009041	resfinder_fg
 Beta-lactamase|MW234456.1|duck wastes|AMX	CARB-50	3005584	resfinder_fg
 Bifunctional AAC/APH|JN086169.1|human fecal matter|KAN	AAC(6')-Ie-APH(2'')-Ia bifunctional protein	3002597	resfinder_fg
 Bifunctional AAC/APH|KF628366.1|pediatric_fecal_sample|GEN	APH(2'')-Ie	3002634	resfinder_fg
@@ -733,7 +733,7 @@ Chloramphenicol acetyltransferase|KJ695388.1|Agricultural soil|CHL	catB3	3002676
 Chloramphenicol acetyltransferase|KJ696181.1|Agricultural soil|CHL	Clostridium butyricum catB	3002674	resfinder_fg
 Chloramphenicol acetyltransferase|KJ910965.1|feces|CHL	catQ	3002687	resfinder_fg
 Chloramphenicol acetyltransferase|KJ910967.1|feces|CHL	catP	3002686	resfinder_fg
-Chloramphenicol acetyltransferase|KT387137.1|wastewater treatment plant|CHL	catI	3002683	resfinder_fg
+Chloramphenicol acetyltransferase|KT387137.1|wastewater treatment plant|CHL	catA1	3002683	resfinder_fg
 Chloramphenicol acetyltransferase|KU543866.1|feces|CHL	catS	3002688	resfinder_fg
 Chloramphenicol acetyltransferase|KU543873.1|feces|CHL	catP	3002686	resfinder_fg
 Chloramphenicol acetyltransferase|KU544029.1|sewage|CHL	catB3	3002676	resfinder_fg
@@ -815,11 +815,11 @@ D-alanine--D-alanine ligase A|GQ343123.1|human fecal matter|CYC	vanG	3002909	res
 D-alanine--D-alanine ligase A|GQ343129.1|human saliva|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase A|JX009269.1|soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase A|KF626813.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF626861.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF626861.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF626943.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF626994.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF627073.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase A|KF627099.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF627073.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
+D-alanine--D-alanine ligase A|KF627099.1|pediatric_fecal_sample|CYC	vanB	3000013	resfinder_fg
 D-alanine--D-alanine ligase A|KF627108.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF627117.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF627139.1|pediatric_fecal_sample|CYC	vanI	3003723	resfinder_fg
@@ -830,7 +830,7 @@ D-alanine--D-alanine ligase A|KF627260.1|pediatric_fecal_sample|CYC	vanG	3002909
 D-alanine--D-alanine ligase A|KF627269.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF627297.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF627306.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF627474.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF627474.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF627478.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase A|KF627482.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF627552.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
@@ -847,32 +847,32 @@ D-alanine--D-alanine ligase A|KF627816.1|pediatric_fecal_sample|CYC	vanG	3002909
 D-alanine--D-alanine ligase A|KF627901.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628035.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628276.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF628281.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF628281.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KF628295.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628310.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628408.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628417.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF628441.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF628441.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628501.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628502.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase A|KF628525.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628791.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628818.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628859.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF628865.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF628865.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KF628906.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628936.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628961.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF628986.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629018.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629037.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF629052.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF629052.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629058.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase A|KF629067.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629079.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629099.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629112.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF629150.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF629150.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629178.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629215.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629216.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
@@ -882,72 +882,72 @@ D-alanine--D-alanine ligase A|KF629375.1|pediatric_fecal_sample|CYC	vanL	3002910
 D-alanine--D-alanine ligase A|KF629385.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase A|KF629408.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629411.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF629435.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF629435.1|pediatric_fecal_sample|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase A|KF629451.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629472.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629478.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF629547.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF629547.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase A|KF629561.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629567.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF629643.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF629643.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629671.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase A|KF629718.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629723.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629773.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629792.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF629809.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KF629836.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KF629836.1|pediatric_fecal_sample|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase A|KF629943.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KF630331.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase A|KJ692329.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ692329.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ692995.1|grassland soil|CYC	vanF	3002908	resfinder_fg
-D-alanine--D-alanine ligase A|KJ693257.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ693257.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ693376.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ693421.1|grassland soil|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase A|KJ693597.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KJ694212.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ694212.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase A|KJ694239.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KJ694613.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ694613.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase A|KJ694644.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ694739.1|grassland soil|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase A|KJ694846.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ694846.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ694849.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase A|KJ695210.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ695210.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ695425.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase A|KJ695427.1|Agricultural soil|CYC	vanD	3000005	resfinder_fg
-D-alanine--D-alanine ligase A|KJ695428.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ695428.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ695471.1|Agricultural soil|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KJ695792.1|Agricultural soil|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase A|KJ695805.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ695823.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase A|KJ695909.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KJ695980.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KJ695980.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KJ696505.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KX125120.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KX125120.1|human_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KX125145.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX125160.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX125168.1|human_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KX125420.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KX125420.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KX125551.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX125730.1|human_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KX125732.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KX125732.1|human_gut|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase A|KX125742.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX125751.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX125756.1|human_gut|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase A|KX127178.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX127203.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase A|KX127228.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KX127875.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KX127875.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KX127885.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KX127888.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KX127888.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KX128031.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase A|KX128033.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX128055.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX128220.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KX128224.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KX128224.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase A|KX128380.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX128384.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase A|KX128391.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase A|KX128391.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase A|KX128394.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase A|KX128400.1|newborn_gut|CYC	vanM	3002911	resfinder_fg
 D-alanine--D-alanine ligase A|KX128805.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
@@ -956,87 +956,87 @@ D-alanine--D-alanine ligase B|GQ343085.1|human fecal matter|CYC	vanG	3002909	res
 D-alanine--D-alanine ligase B|GQ343109.1|human fecal matter|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|GQ343119.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF626670.1|pediatric_fecal_sample|CYC	vanI	3003723	resfinder_fg
-D-alanine--D-alanine ligase B|KF626814.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF626814.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF626830.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF626911.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF626911.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF626928.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF627042.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF627079.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KF627186.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KF627188.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF627186.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase B|KF627188.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF627230.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KF627243.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF627263.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF627339.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase B|KF627473.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF627503.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF627503.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF627544.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF627655.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF627655.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF627661.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KF627760.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase B|KF627859.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF627859.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF627867.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF627881.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF627881.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF627931.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KF627957.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF627963.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF627963.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF627988.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF628000.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KF628052.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF628000.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase B|KF628052.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase B|KF628104.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF628256.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF628256.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF628325.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF628365.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KF628509.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF628509.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF628523.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF628564.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KF628594.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KF628621.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF628594.1|pediatric_fecal_sample|CYC	vanO	3002913	resfinder_fg
+D-alanine--D-alanine ligase B|KF628621.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF628637.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KF628660.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF628828.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase B|KF628834.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KF628846.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KF628853.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF628846.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase B|KF628853.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF628978.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF628990.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF628995.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF628995.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF629016.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase B|KF629028.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629028.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF629034.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KF629057.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629057.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF629086.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF629102.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF629103.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase B|KF629127.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KF629134.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase B|KF629154.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629154.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase B|KF629238.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KF629257.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KF629322.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KF629455.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629257.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase B|KF629322.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase B|KF629455.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF629524.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase B|KF629595.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629595.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF629637.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF629638.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629638.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF629641.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF629684.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629684.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF629694.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF629738.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629738.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KF629826.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KF629835.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF629923.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF629923.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF629960.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KF630018.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF630060.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF630060.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF630181.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase B|KF630321.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF630337.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KF630341.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KF630342.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KF630341.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase B|KF630342.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KF630357.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KJ691967.1|grassland soil|CYC	vanA	3000010	resfinder_fg
-D-alanine--D-alanine ligase B|KJ692090.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ692090.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KJ692093.1|grassland soil|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase B|KJ692103.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ692180.1|grassland soil|CYC	vanA	3000010	resfinder_fg
@@ -1048,27 +1048,27 @@ D-alanine--D-alanine ligase B|KJ692280.1|grassland soil|CYC	vanA	3000010	resfind
 D-alanine--D-alanine ligase B|KJ692549.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ692882.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ692884.1|grassland soil|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KJ692925.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ692925.1|grassland soil|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693281.1|grassland soil|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693285.1|grassland soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693344.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693375.1|grassland soil|CYC	vanA	3000010	resfinder_fg
-D-alanine--D-alanine ligase B|KJ693518.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ693518.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693596.1|grassland soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693608.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693643.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KJ693696.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ693696.1|grassland soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693699.1|grassland soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693714.1|grassland soil|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693720.1|grassland soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693752.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KJ693757.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KJ693793.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ693757.1|grassland soil|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase B|KJ693793.1|grassland soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KJ693949.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KJ694036.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ694036.1|grassland soil|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694183.1|grassland soil|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694193.1|grassland soil|CYC	vanA	3000010	resfinder_fg
-D-alanine--D-alanine ligase B|KJ694236.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ694236.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694252.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694257.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694264.1|grassland soil|CYC	vanE	3002907	resfinder_fg
@@ -1091,52 +1091,52 @@ D-alanine--D-alanine ligase B|KJ694691.1|grassland soil|CYC	vanA	3000010	resfind
 D-alanine--D-alanine ligase B|KJ694704.1|grassland soil|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694848.1|Agricultural soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694902.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KJ694968.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ694968.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KJ694969.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KJ695118.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ695118.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695163.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695207.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695209.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695215.1|Agricultural soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695219.1|Agricultural soil|CYC	vanA	3000010	resfinder_fg
-D-alanine--D-alanine ligase B|KJ695270.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ695270.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695319.1|Agricultural soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695334.1|Agricultural soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695336.1|Agricultural soil|CYC	vanA	3000010	resfinder_fg
-D-alanine--D-alanine ligase B|KJ695347.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ695347.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695411.1|Agricultural soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695742.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695749.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695790.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695897.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KJ695917.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ695917.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KJ695956.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KJ696029.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KJ696127.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KJ696029.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase B|KJ696127.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KJ696135.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase B|KJ696201.1|Agricultural soil|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase B|KJ696500.1|Agricultural soil|CYC	vanC	3000368	resfinder_fg
-D-alanine--D-alanine ligase B|KX125153.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KX125154.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase B|KX125161.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KX125153.1|human_gut|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase B|KX125154.1|human_gut|CYC	vanC	3000368	resfinder_fg
+D-alanine--D-alanine ligase B|KX125161.1|human_gut|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase B|KX125546.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX125609.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX125614.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KX125727.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX125733.1|human_gut|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase B|KX125750.1|human_gut|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KX125815.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KX125815.1|human_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase B|KX125821.1|human_gut|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase B|KX125822.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KX125822.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX125824.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX125835.1|human_gut|CYC	vanN	3002912	resfinder_fg
-D-alanine--D-alanine ligase B|KX125852.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KX125852.1|human_gut|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase B|KX127209.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX127549.1|human_gut|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase B|KX127560.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KX127560.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX127886.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX128042.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase B|KX128214.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase B|KX128214.1|newborn_gut|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase B|KX128227.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX128231.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase B|KX128798.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
@@ -1146,7 +1146,7 @@ D-alanine--D-alanine ligase|GQ343094.1|human fecal matter|CYC	vanG	3002909	resfi
 D-alanine--D-alanine ligase|GQ343095.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|GQ343097.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|GQ343098.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|GQ343099.1|human fecal matter|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|GQ343099.1|human fecal matter|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|GQ343100.1|human fecal matter|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|GQ343103.1|human fecal matter|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|GQ343106.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
@@ -1154,157 +1154,157 @@ D-alanine--D-alanine ligase|GQ343108.1|human fecal matter|CYC	vanE	3002907	resfi
 D-alanine--D-alanine ligase|GQ343112.1|human fecal matter|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|GQ343113.1|human fecal matter|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|GQ343117.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|GQ343118.1|human fecal matter|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|GQ343124.1|human saliva|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|GQ343126.1|human saliva|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|GQ343127.1|human saliva|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|GQ343118.1|human fecal matter|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase|GQ343124.1|human saliva|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|GQ343126.1|human saliva|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|GQ343127.1|human saliva|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|GQ343132.1|human saliva|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|GQ343133.1|human saliva|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|JN086161.1|human fecal matter|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|GQ343133.1|human saliva|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|JN086161.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|JN086162.1|human fecal matter|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|JN086164.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|JN086165.1|human fecal matter|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|JN086166.1|human fecal matter|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|JN086167.1|human fecal matter|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|JN086168.1|human fecal matter|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF626674.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF626759.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF626789.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|JN086165.1|human fecal matter|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|JN086166.1|human fecal matter|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|JN086167.1|human fecal matter|CYC	vanA	3000010	resfinder_fg
+D-alanine--D-alanine ligase|JN086168.1|human fecal matter|CYC	vanI	3003723	resfinder_fg
+D-alanine--D-alanine ligase|KF626674.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KF626759.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KF626789.1|pediatric_fecal_sample|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase|KF626795.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF626822.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF626823.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF626824.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF626867.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF626822.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF626823.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF626824.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF626867.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF626868.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF626894.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF626897.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF626938.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF626897.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
+D-alanine--D-alanine ligase|KF626938.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF626952.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF626953.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF626953.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF626959.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF626986.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF626996.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627025.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KF627077.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627077.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KF627089.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627091.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627096.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627096.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF627107.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF627127.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627127.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF627132.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627140.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627148.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627152.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627152.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627171.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627197.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627208.1|pediatric_fecal_sample|CYC	vanB	3000013	resfinder_fg
 D-alanine--D-alanine ligase|KF627212.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF627223.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF627270.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627275.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627275.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KF627294.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627313.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627324.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
-D-alanine--D-alanine ligase|KF627355.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627355.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627383.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF627398.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627399.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627398.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF627399.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627420.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627423.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KF627429.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627435.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627462.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627500.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627429.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF627435.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF627462.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF627500.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF627506.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627522.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627522.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF627523.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627525.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627565.1|pediatric_fecal_sample|CYC	vanO	3002913	resfinder_fg
-D-alanine--D-alanine ligase|KF627579.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627579.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627583.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627591.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627600.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627616.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627600.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF627616.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627643.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627646.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627677.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627701.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627677.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF627701.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627718.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627728.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627728.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF627733.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627743.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627745.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF627782.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF627797.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627797.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF627803.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF627808.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627817.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627819.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627892.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627895.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627903.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627949.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627966.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627971.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627808.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF627817.1|pediatric_fecal_sample|CYC	vanA	3000010	resfinder_fg
+D-alanine--D-alanine ligase|KF627819.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
+D-alanine--D-alanine ligase|KF627892.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KF627895.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KF627903.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase|KF627949.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF627966.1|pediatric_fecal_sample|CYC	vanO	3002913	resfinder_fg
+D-alanine--D-alanine ligase|KF627971.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF627973.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KF627979.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF627992.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628006.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF627979.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KF627992.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
+D-alanine--D-alanine ligase|KF628006.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF628008.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628026.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628088.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628097.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KF628111.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628113.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628111.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF628113.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF628114.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628260.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628260.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628277.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KF628293.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628311.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628293.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF628311.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628313.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628341.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628341.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628343.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF628350.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF628352.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628352.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628364.1|pediatric_fecal_sample|CYC	vanF	3002908	resfinder_fg
-D-alanine--D-alanine ligase|KF628367.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628367.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628370.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628378.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF628383.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KF628400.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628431.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628431.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628442.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628447.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF628449.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF628454.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628458.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KF628462.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628474.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628462.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase|KF628474.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF628478.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628500.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628500.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628503.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF628505.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628519.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628519.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF628521.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628532.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628532.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF628541.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF628545.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
-D-alanine--D-alanine ligase|KF628559.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628559.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628560.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628589.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628593.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628607.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628610.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628633.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628641.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF628648.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628593.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
+D-alanine--D-alanine ligase|KF628607.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF628610.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KF628633.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF628641.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF628648.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF628663.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628664.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628664.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF628683.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KF628712.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628712.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628730.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628738.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628759.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628759.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628771.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628789.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628814.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
@@ -1313,9 +1313,9 @@ D-alanine--D-alanine ligase|KF628833.1|pediatric_fecal_sample|CYC	vanO	3002913	r
 D-alanine--D-alanine ligase|KF628837.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF628857.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF628867.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KF628873.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628873.1|pediatric_fecal_sample|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase|KF628885.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
-D-alanine--D-alanine ligase|KF628886.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628886.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF628888.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KF628897.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF628910.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
@@ -1323,140 +1323,140 @@ D-alanine--D-alanine ligase|KF628929.1|pediatric_fecal_sample|CYC	vanE	3002907	r
 D-alanine--D-alanine ligase|KF628931.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF628958.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF628967.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF628979.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF628979.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF628984.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF628992.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629012.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF629027.1|pediatric_fecal_sample|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase|KF629040.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629043.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629045.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629043.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF629045.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629056.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629074.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629074.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629078.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629093.1|pediatric_fecal_sample|CYC	vanA	3000010	resfinder_fg
-D-alanine--D-alanine ligase|KF629105.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629105.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629109.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629132.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629161.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629132.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF629161.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629181.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
-D-alanine--D-alanine ligase|KF629182.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629194.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629182.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF629194.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629201.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF629209.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629211.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KF629235.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629245.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF629249.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629249.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629252.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF629259.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629259.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629262.1|pediatric_fecal_sample|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase|KF629263.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629266.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629269.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629272.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
-D-alanine--D-alanine ligase|KF629307.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629318.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629307.1|pediatric_fecal_sample|CYC	vanA	3000010	resfinder_fg
+D-alanine--D-alanine ligase|KF629318.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629335.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629340.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629342.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KF629353.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629354.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629353.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KF629354.1|pediatric_fecal_sample|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase|KF629386.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629389.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629396.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629401.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF629421.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629433.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629443.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629421.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KF629433.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
+D-alanine--D-alanine ligase|KF629443.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629450.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KF629461.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629467.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629470.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629492.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629461.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF629467.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF629470.1|pediatric_fecal_sample|CYC	vanA	3000010	resfinder_fg
+D-alanine--D-alanine ligase|KF629492.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629497.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629544.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629545.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629546.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629544.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF629545.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KF629546.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KF629564.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629568.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KF629592.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629592.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629599.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629614.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KF629618.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629653.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629618.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF629653.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629663.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629677.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629679.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF629713.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629722.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629713.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF629722.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KF629726.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629740.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629755.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629762.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629762.1|pediatric_fecal_sample|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KF629774.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629777.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629788.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629789.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629788.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF629789.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629802.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KF629841.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629844.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629882.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629883.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629901.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629883.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KF629901.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF629902.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629904.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF629908.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF629913.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629913.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF629939.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KF629968.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF629995.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF630016.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF630024.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF629968.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KF629995.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF630016.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KF630024.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KF630030.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF630104.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF630119.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF630104.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF630119.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KF630142.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KF630153.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF630157.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF630153.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KF630157.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KF630186.1|pediatric_fecal_sample|CYC	vanD	3000005	resfinder_fg
-D-alanine--D-alanine ligase|KF630206.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF630210.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF630217.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KF630265.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF630206.1|pediatric_fecal_sample|CYC	vanN	3002912	resfinder_fg
+D-alanine--D-alanine ligase|KF630210.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KF630217.1|pediatric_fecal_sample|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KF630265.1|pediatric_fecal_sample|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase|KF630276.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KF630322.1|pediatric_fecal_sample|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KF630327.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KF630345.1|pediatric_fecal_sample|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KF630345.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF630350.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KF630354.1|pediatric_fecal_sample|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KJ691893.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KJ691947.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ691950.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KJ692023.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ691950.1|grassland soil|CYC	vanN	3002912	resfinder_fg
+D-alanine--D-alanine ligase|KJ692023.1|grassland soil|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KJ692049.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ692050.1|grassland soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase|KJ692092.1|grassland soil|CYC	vanA	3000010	resfinder_fg
-D-alanine--D-alanine ligase|KJ692204.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KJ692275.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KJ692328.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ692204.1|grassland soil|CYC	vanI	3003723	resfinder_fg
+D-alanine--D-alanine ligase|KJ692275.1|grassland soil|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KJ692328.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ692331.1|grassland soil|CYC	vanA	3000010	resfinder_fg
 D-alanine--D-alanine ligase|KJ692407.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ692878.1|grassland soil|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KJ692880.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ692926.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ692926.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ693052.1|grassland soil|CYC	vanD	3000005	resfinder_fg
-D-alanine--D-alanine ligase|KJ693282.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ693282.1|grassland soil|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KJ693319.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ693361.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ693361.1|grassland soil|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KJ693520.1|grassland soil|CYC	vanI	3003723	resfinder_fg
-D-alanine--D-alanine ligase|KJ693523.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ693523.1|grassland soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ693570.1|grassland soil|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase|KJ693610.1|grassland soil|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KJ693611.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ693660.1|grassland soil|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KJ693715.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ693722.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ693722.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KJ693750.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KJ693751.1|grassland soil|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KJ693791.1|grassland soil|CYC	vanE	3002907	resfinder_fg
@@ -1473,19 +1473,19 @@ D-alanine--D-alanine ligase|KJ694199.1|grassland soil|CYC	vanG	3002909	resfinder
 D-alanine--D-alanine ligase|KJ694202.1|grassland soil|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase|KJ694251.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694254.1|grassland soil|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KJ694270.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ694270.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694338.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694372.1|grassland soil|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase|KJ694377.1|grassland soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ694401.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ694401.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694445.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694458.1|grassland soil|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KJ694476.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ694476.1|grassland soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KJ694576.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694580.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694594.1|grassland soil|CYC	vanN	3002912	resfinder_fg
-D-alanine--D-alanine ligase|KJ694645.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KJ694670.1|grassland soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ694645.1|grassland soil|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KJ694670.1|grassland soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694700.1|grassland soil|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase|KJ694832.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ694833.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
@@ -1493,29 +1493,29 @@ D-alanine--D-alanine ligase|KJ694850.1|Agricultural soil|CYC	vanC	3000368	resfin
 D-alanine--D-alanine ligase|KJ694863.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KJ694873.1|Agricultural soil|CYC	vanF	3002908	resfinder_fg
 D-alanine--D-alanine ligase|KJ694874.1|Agricultural soil|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KJ694883.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ694883.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ695048.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ695078.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ695119.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ695135.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ695135.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KJ695190.1|Agricultural soil|CYC	vanI	3003723	resfinder_fg
 D-alanine--D-alanine ligase|KJ695192.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ695204.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ695216.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KJ695220.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ695216.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KJ695220.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ695221.1|Agricultural soil|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KJ695263.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ695317.1|Agricultural soil|CYC	vanD	3000005	resfinder_fg
-D-alanine--D-alanine ligase|KJ695362.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ695362.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ695372.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ695414.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ695426.1|Agricultural soil|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KJ695472.1|Agricultural soil|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KJ695513.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KJ695564.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ695564.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ695585.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ695654.1|Agricultural soil|CYC	vanO	3002913	resfinder_fg
-D-alanine--D-alanine ligase|KJ695692.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ695692.1|Agricultural soil|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KJ695753.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ695770.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KJ695834.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
@@ -1523,80 +1523,80 @@ D-alanine--D-alanine ligase|KJ695864.1|Agricultural soil|CYC	vanE	3002907	resfin
 D-alanine--D-alanine ligase|KJ695898.1|Agricultural soil|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase|KJ695993.1|Agricultural soil|CYC	vanC	3000368	resfinder_fg
 D-alanine--D-alanine ligase|KJ696059.1|Agricultural soil|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KJ696061.1|Agricultural soil|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KJ696061.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ696090.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KJ696100.1|Agricultural soil|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KJ696171.1|Agricultural soil|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KU886208.1|human_saliva|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KU886209.1|human_saliva|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX125115.1|human_gut|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KX125132.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125150.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125158.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125132.1|human_gut|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KX125150.1|human_gut|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase|KX125158.1|human_gut|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KX125165.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX125417.1|newborn_gut|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KX125418.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125423.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125427.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125418.1|newborn_gut|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase|KX125423.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KX125427.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KX125432.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KX125433.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125433.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX125436.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX125493.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KX125541.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125541.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KX125567.1|newborn_gut|CYC	vanC	3000368	resfinder_fg
-D-alanine--D-alanine ligase|KX125603.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125603.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KX125736.1|human_gut|CYC	vanE	3002907	resfinder_fg
-D-alanine--D-alanine ligase|KX125737.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125744.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125747.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125737.1|human_gut|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KX125744.1|human_gut|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KX125747.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX125755.1|human_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX125759.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX125764.1|human_gut|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KX125773.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125773.1|human_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KX125774.1|human_gut|CYC	vanP	3007189	resfinder_fg
-D-alanine--D-alanine ligase|KX125783.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125795.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125796.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125783.1|human_gut|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KX125795.1|human_gut|CYC	vanN	3002912	resfinder_fg
+D-alanine--D-alanine ligase|KX125796.1|human_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX125799.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX125802.1|human_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KX125804.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125817.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125804.1|human_gut|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KX125817.1|human_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX125830.1|human_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KX125838.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125838.1|human_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX125840.1|human_gut|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KX125850.1|human_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KX125851.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX125853.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX125851.1|human_gut|CYC	vanL	3002910	resfinder_fg
+D-alanine--D-alanine ligase|KX125853.1|human_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX127173.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KX127177.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KX127184.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX127204.1|newborn_gut|CYC	vanO	3002913	resfinder_fg
 D-alanine--D-alanine ligase|KX127205.1|newborn_gut|CYC	vanN	3002912	resfinder_fg
-D-alanine--D-alanine ligase|KX127206.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX127206.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX127213.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX127216.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX127223.1|newborn_gut|CYC	vanN	3002912	resfinder_fg
 D-alanine--D-alanine ligase|KX127224.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KX127225.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KX127230.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX127230.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KX127233.1|newborn_gut|CYC	vanI	3003723	resfinder_fg
-D-alanine--D-alanine ligase|KX127558.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX127559.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX127564.1|human_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX127868.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX127870.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX127558.1|human_gut|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase|KX127559.1|human_gut|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KX127564.1|human_gut|CYC	vanG	3002909	resfinder_fg
+D-alanine--D-alanine ligase|KX127868.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
+D-alanine--D-alanine ligase|KX127870.1|newborn_gut|CYC	vanE	3002907	resfinder_fg
 D-alanine--D-alanine ligase|KX127894.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KX128034.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX128041.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX128034.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KX128041.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 D-alanine--D-alanine ligase|KX128059.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
-D-alanine--D-alanine ligase|KX128221.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX128226.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX128234.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
-D-alanine--D-alanine ligase|KX128238.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX128221.1|newborn_gut|CYC	vanP	3007189	resfinder_fg
+D-alanine--D-alanine ligase|KX128226.1|newborn_gut|CYC	vanN	3002912	resfinder_fg
+D-alanine--D-alanine ligase|KX128234.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
+D-alanine--D-alanine ligase|KX128238.1|newborn_gut|CYC	vanD	3000005	resfinder_fg
 D-alanine--D-alanine ligase|KX128242.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
 D-alanine--D-alanine ligase|KX128382.1|newborn_gut|CYC	vanP	3007189	resfinder_fg
 D-alanine--D-alanine ligase|KX128800.1|newborn_gut|CYC	vanL	3002910	resfinder_fg
-D-alanine--D-alanine ligase|KX128801.1|newborn_gut|CYC	D-Ala-D-Ala ligase	3003970	resfinder_fg
+D-alanine--D-alanine ligase|KX128801.1|newborn_gut|CYC	vanG	3002909	resfinder_fg
 Dihydrofolate reductase type 1|MG585979.1|pharmaceutical_effluent|TMP	dfrA14	3002859	resfinder_fg
 Dihydrofolate reductase type 1|MG585980.1|pharmaceutical_effluent|TMP	dfrA14	3002859	resfinder_fg
 Dihydrofolate reductase type 1|MG585981.1|pharmaceutical_effluent|TMP	dfrA14	3002859	resfinder_fg
@@ -2488,7 +2488,7 @@ Dihydrofolate reductase|KJ696394.1|Agricultural soil|TMP	dfrA20	3003016	resfinde
 Dihydrofolate reductase|KJ696397.1|Agricultural soil|TMP	dfrG	3002868	resfinder_fg
 Dihydrofolate reductase|KJ696399.1|Agricultural soil|TMP	dfrI	3004645	resfinder_fg
 Dihydrofolate reductase|KJ696416.1|Agricultural soil|TMP	dfrA26	3002857	resfinder_fg
-Dihydrofolate reductase|KJ696418.1|Agricultural soil|TMP	dfrK	3002869	resfinder_fg
+Dihydrofolate reductase|KJ696418.1|Agricultural soil|TMP	dfrA26	3002857	resfinder_fg
 Dihydrofolate reductase|KJ696431.1|Agricultural soil|TMP	dfrA26	3002857	resfinder_fg
 Dihydrofolate reductase|KJ696442.1|Agricultural soil|TMP	dfrK	3002869	resfinder_fg
 Dihydrofolate reductase|KJ696448.1|Agricultural soil|TMP	dfrA3	3003105	resfinder_fg
@@ -2663,14 +2663,14 @@ Extended-spectrum beta-lactamase PER-1|FN640464.1|rhizosphere of Mammillaria car
 Extended-spectrum beta-lactamase PER-1|GQ244488.1|soil|AMX	LUS-1	3006942	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ244489.1|soil|CAR	LUS-1	3006942	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343000.1|human fecal matter|AMX	CblA-1	3002999	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|GQ343002.1|human fecal matter|AMX	CblA-1	3002999	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|GQ343002.1|human fecal matter|AMX	MUN-1	3008394	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343003.1|human fecal matter|AMX	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343035.1|human saliva|AMX	CSP-1	3006871	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343037.1|human fecal matter|CAR	CepA-44	3006225	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343038.1|human fecal matter|CAR	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343039.1|human fecal matter|CAR	CepA-44	3006225	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343044.1|human fecal matter|CAR	CepA-44	3006225	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|GQ343153.1|human fecal matter|PEN	CblA-1	3002999	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|GQ343153.1|human fecal matter|PEN	MUN-1	3008394	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|GQ343154.1|human fecal matter|PEN	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|JN086158.1|human fecal matter|AMX	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|JX009377.1|gut|CAR	CblA-1	3002999	resfinder_fg
@@ -2686,7 +2686,7 @@ Extended-spectrum beta-lactamase PER-1|KF627557.1|pediatric_fecal_sample|CTX	Cbl
 Extended-spectrum beta-lactamase PER-1|KF627662.1|pediatric_fecal_sample|TZP	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF627841.1|pediatric_fecal_sample|PEN	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF628227.1|pediatric_fecal_sample|CAZ	CblA-1	3002999	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KF628363.1|pediatric_fecal_sample|PEN	CblA-1	3002999	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KF628363.1|pediatric_fecal_sample|PEN	MUN-1	3008394	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF628371.1|pediatric_fecal_sample|PEN	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF628375.1|pediatric_fecal_sample|PEN	TLA-3	3003204	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF628379.1|pediatric_fecal_sample|ATM	CblA-1	3002999	resfinder_fg
@@ -2701,13 +2701,13 @@ Extended-spectrum beta-lactamase PER-1|KF629325.1|pediatric_fecal_sample|PIP	Cbl
 Extended-spectrum beta-lactamase PER-1|KF629363.1|pediatric_fecal_sample|PIP	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF629667.1|pediatric_fecal_sample|PEN	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF629805.1|pediatric_fecal_sample|PEN	TLA-3	3003204	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KF629868.1|pediatric_fecal_sample|PIP	CblA-1	3002999	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KF629868.1|pediatric_fecal_sample|PIP	MUN-1	3008394	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF629876.1|pediatric_fecal_sample|PIP	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KF630019.1|pediatric_fecal_sample|ATM	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ512900.1|manure|CAR	CepA-44	3006225	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ512935.1|manure|CAZ	cepA	3003559	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ691895.1|grassland soil|ATM	SSA	3007442	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KJ691910.1|grassland soil|FEP	VEB-11	3006208	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KJ691910.1|grassland soil|FEP	VEB-32	3009084	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ692045.1|grassland soil|CAZ	LUS-1	3006942	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ692046.1|grassland soil|CAZ	LRA-5	3002483	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ692177.1|grassland soil|CAZ	LUS-1	3006942	resfinder_fg
@@ -2764,9 +2764,9 @@ Extended-spectrum beta-lactamase PER-1|KJ696314.1|Agricultural soil|PEN	SSA	3007
 Extended-spectrum beta-lactamase PER-1|KJ910942.1|feces|ATM	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ910948.1|feces|CAZ	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KJ910949.1|feces|PIP	CblA-1	3002999	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KT387146.1|wastewater treatment plant|CAR	SSA	3007442	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KT387147.1|wastewater treatment plant|CAR	VEB-15	3006212	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KT387160.1|wastewater treatment plant|AMX	VEB-15	3006212	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KT387146.1|wastewater treatment plant|CAR	ASU1-1	3008074	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KT387147.1|wastewater treatment plant|CAR	RATA-2	3007802	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KT387160.1|wastewater treatment plant|AMX	RATA-2	3007802	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KT387214.1|wastewater treatment plant|CAR	TLA-1	3003202	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU543835.1|feces|CAZ	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU543977.1|sewage|AMX	TLA-3	3003204	resfinder_fg
@@ -2780,15 +2780,15 @@ Extended-spectrum beta-lactamase PER-1|KU544356.1|sewage|PEN	TLA-3	3003204	resfi
 Extended-spectrum beta-lactamase PER-1|KU544367.1|sewage|TZP	TLA-3	3003204	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544375.1|sewage|TZP	TLA-3	3003204	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544425.1|sewage|PIP	TLA-3	3003204	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KU544709.1|sewage|CAZ	VEB-15	3006212	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KU544716.1|sewage|CAZ	VEB-15	3006212	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KU544709.1|sewage|CAZ	RATA-2	3007802	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KU544716.1|sewage|CAZ	RATA-2	3007802	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544814.1|feces|AMX	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544832.1|feces|AMX	TLA-3	3003204	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544847.1|feces|AMX	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544881.1|feces|CAZ	cepA	3003559	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544963.1|feces|AMX	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU544994.1|feces|AMX	CblA-1	3002999	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KU544999.1|feces|ATM	CblA-1	3002999	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KU544999.1|feces|ATM	MUN-1	3008394	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU545000.1|feces|ATM	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU545036.1|feces|PEN	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU545081.1|feces|ATM	CblA-1	3002999	resfinder_fg
@@ -2812,7 +2812,7 @@ Extended-spectrum beta-lactamase PER-1|KU546252.1|feces|AMX	CblA-1	3002999	resfi
 Extended-spectrum beta-lactamase PER-1|KU546292.1|feces|CAZ	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU546294.1|feces|CAZ	cepA	3003559	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU546460.1|feces|PEN	CblA-1	3002999	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KU546527.1|feces|AMX	CblA-1	3002999	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KU546527.1|feces|AMX	MUN-1	3008394	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU546631.1|feces|AMX	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU546632.1|feces|AMX	CblA-1	3002999	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU546634.1|feces|AMX	CblA-1	3002999	resfinder_fg
@@ -2837,7 +2837,7 @@ Extended-spectrum beta-lactamase PER-1|KU547618.1|feces|CAZ	CblA-1	3002999	resfi
 Extended-spectrum beta-lactamase PER-1|KU547663.1|feces|AMX	CepA-44	3006225	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU547684.1|feces|ATM	CepA-44	3006225	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU547691.1|feces|CAZ	CepA-44	3006225	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|KU547756.1|latrine|AMX	VEB-15	3006212	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|KU547756.1|latrine|AMX	RATA-2	3007802	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU548021.1|latrine|CTX	VEB-24	3006219	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU548063.1|latrine|PIP	VEB-24	3006219	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|KU548405.1|soil|ATM	VEB-24	3006219	resfinder_fg
@@ -2876,7 +2876,7 @@ Extended-spectrum beta-lactamase PER-1|MK935943.1|Human_feces|CAZ	TLA-3	3003204	
 Extended-spectrum beta-lactamase PER-1|MK935948.1|Human_feces|PEN	TLA-3	3003204	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|MK935960.1|Human_feces|ATM	LUS-1	3006942	resfinder_fg
 Extended-spectrum beta-lactamase PER-1|MK935971.1|Human_feces|CAZ	cepA	3003559	resfinder_fg
-Extended-spectrum beta-lactamase PER-1|MW234455.1|duck wastes|FOX	VEB-15	3006212	resfinder_fg
+Extended-spectrum beta-lactamase PER-1|MW234455.1|duck wastes|FOX	RATA-2	3007802	resfinder_fg
 Gentamicin 3-N-acetyltransferase|FN640465.1|rhizosphere of Mammillaria carnea|GEN	AAC(3)-Id	3002529	resfinder_fg
 Gentamicin 3-N-acetyltransferase|JF924870.1|soil|GEN	AAC(3)-Id	3002529	resfinder_fg
 Gentamicin 3-N-acetyltransferase|KJ692598.1|grassland soil|GEN	AAC(3)-Id	3002529	resfinder_fg
@@ -2960,10 +2960,10 @@ Metallo-beta-lactamase type 2|KJ692957.1|grassland soil|CAZ	SPM-1	3003793	resfin
 Metallo-beta-lactamase type 2|KJ695332.1|Agricultural soil|CAZ	GMB-1	3006889	resfinder_fg
 Metallo-beta-lactamase type 2|KJ910994.1|feces|PEN	SPM-1	3003793	resfinder_fg
 Metallo-beta-lactamase type 2|KU167036.1|agricultural soil|AMX	SPN79-1	3006995	resfinder_fg
-Metallo-beta-lactamase type 2|KU544200.1|sewage|FOX	MYO-1	3006954	resfinder_fg
+Metallo-beta-lactamase type 2|KU544200.1|sewage|FOX	BMHC-1	3008081	resfinder_fg
 Metallo-beta-lactamase type 2|KU548697.1|soil|TZP	CfiA27	3006918	resfinder_fg
 Metallo-beta-lactamase type 2|MN017285.1|hospital effluent|AMP	SPS-1	3006997	resfinder_fg
-Methicillin resistance mecR1 protein|KJ693670.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
+Methicillin resistance mecR1 protein|KJ693670.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
 Pentapeptide repeat protein|KU548326.1|latrine|CIP	QnrB10	3002724	resfinder_fg
 Ribosomal RNA small subunit methyltransferase A|KY705334.1|agricultural soil|ERY	ErmQ	3000593	resfinder_fg
 SPbeta prophage-derived aminoglycoside N(3')-acetyltransferase-like protein YokD|FN640468.1|loamy soil collected from the Zaidin|GEN	AAC(3)-IIIb	3002537	resfinder_fg
@@ -3106,7 +3106,7 @@ Tetracycline resistance protein%2C class C|KJ695395.1|Agricultural soil|TET	tet(
 Tetracycline resistance protein%2C class C|KJ695454.1|Agricultural soil|TET	tet(41)	3000569	resfinder_fg
 Tetracycline resistance protein%2C class C|KJ695600.1|Agricultural soil|TET	tet(41)	3000569	resfinder_fg
 Tetracycline resistance protein%2C class C|KJ695690.1|Agricultural soil|TET	tet(41)	3000569	resfinder_fg
-Tetracycline resistance protein%2C class C|KJ695857.1|Agricultural soil|TET	tet(G)	3000174	resfinder_fg
+Tetracycline resistance protein%2C class C|KJ695857.1|Agricultural soil|TET	tet(62)	3007492	resfinder_fg
 Tetracycline resistance protein%2C class C|KJ696141.1|Agricultural soil|TET	tet(41)	3000569	resfinder_fg
 Tetracycline resistance protein%2C class C|KJ696146.1|Agricultural soil|TET	tet(42)	3000572	resfinder_fg
 Tetracycline resistance protein%2C class C|KJ696156.1|Agricultural soil|TET	tet(C)	3000167	resfinder_fg
@@ -3160,11 +3160,10 @@ Tetracycline resistance protein%2C class C|MG586033.1|antibiotics_polluted_strea
 Tetracycline resistance protein%2C class C|MK159023.1|Soil|TET	tet(C)	3000167	resfinder_fg
 Tetracycline resistance protein%2C class C|MK159024.1|Soil|TET	tet(41)	3000569	resfinder_fg
 Tetracycline resistance protein%2C class C|MK159025.1|Soil|TET	tet(41)	3000569	resfinder_fg
-Tetracycline resistance protein%2C class C|MN340018.1|wastewater+triclosan|TET	tet(G)	3000174	resfinder_fg
+Tetracycline resistance protein%2C class C|MN340018.1|wastewater+triclosan|TET	tet(62)	3007492	resfinder_fg
 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF627869.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629229.1|pediatric_fecal_sample|CYC	Staphylococcus aureus mupA conferring resistance to mupirocin	3000521	resfinder_fg
 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF630034.1|pediatric_fecal_sample|CYC	FosA3	3002872	resfinder_fg
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KJ695568.1|Agricultural soil|CYC	AAC(6')-Ie-APH(2'')-Ia bifunctional protein	3002597	resfinder_fg
 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KX125757.1|human_gut|CYC	PST-2	3006977	resfinder_fg
 UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KX125843.1|human_gut|CYC	FPH-1	3004795	resfinder_fg
 Vancomycin B-type resistance protein VanB|KF629107.1|pediatric_fecal_sample|CYC	vanG	3002909	resfinder_fg
@@ -3197,65 +3196,65 @@ chloramphenicol efflux MFS transporter CmlB1|KU548442.1|soil|CHL	cmlB1	3002699	r
 putative beta-lactamase YbxI|KF627815.1|pediatric_fecal_sample|PIP	BSU-1	3006902	resfinder_fg
 putative beta-lactamase YbxI|KF628191.1|pediatric_fecal_sample|PEN	BPU-1	3004759	resfinder_fg
 putative beta-lactamase YbxI|KF629944.1|pediatric_fecal_sample|PIP	BPU-1	3004759	resfinder_fg
-putative beta-lactamase YbxI|KJ691939.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ691966.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ691992.1|grassland soil|PIP	OXA-729	3005934	resfinder_fg
-putative beta-lactamase YbxI|KJ692057.1|grassland soil|PIP	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ692214.1|grassland soil|PIP	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ692341.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ692342.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ692343.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ692349.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ692721.1|grassland soil|PIP	OXA-573	3005325	resfinder_fg
-putative beta-lactamase YbxI|KJ692802.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ692851.1|grassland soil|PEN	OXA-156	3001461	resfinder_fg
-putative beta-lactamase YbxI|KJ692861.1|grassland soil|ATM	OXA-920	3006106	resfinder_fg
-putative beta-lactamase YbxI|KJ692902.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ693159.1|grassland soil|ATM	OXA-464	3003620	resfinder_fg
-putative beta-lactamase YbxI|KJ693208.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ693231.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ693480.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ693487.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ693944.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ693951.1|grassland soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ694472.1|grassland soil|CTX	OXA-54	3001812	resfinder_fg
-putative beta-lactamase YbxI|KJ694914.1|Agricultural soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ694951.1|Agricultural soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ695206.1|Agricultural soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ695259.1|Agricultural soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KJ695283.1|Agricultural soil|ATM	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KT387154.1|wastewater treatment plant|PIP	BPU-1	3004759	resfinder_fg
+putative beta-lactamase YbxI|KJ691939.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ691966.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ691992.1|grassland soil|PIP	OXA-957	3008734	resfinder_fg
+putative beta-lactamase YbxI|KJ692057.1|grassland soil|PIP	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692214.1|grassland soil|PIP	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692341.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692342.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692343.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692349.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692721.1|grassland soil|PIP	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692802.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692851.1|grassland soil|PEN	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692861.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ692902.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ693159.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ693208.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ693231.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ693480.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ693487.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ693944.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ693951.1|grassland soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ694472.1|grassland soil|CTX	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ694914.1|Agricultural soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ694951.1|Agricultural soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ695206.1|Agricultural soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ695259.1|Agricultural soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KJ695283.1|Agricultural soil|ATM	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KT387154.1|wastewater treatment plant|PIP	OXA-1089	3008507	resfinder_fg
 putative beta-lactamase YbxI|KU543952.1|sewage|AMX	LCR-1	3002997	resfinder_fg
 putative beta-lactamase YbxI|KU544567.1|sewage|FEP	BAT-1	3004747	resfinder_fg
-putative beta-lactamase YbxI|KU544569.1|sewage|FEP	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KU544572.1|sewage|FEP	BSU-1	3006902	resfinder_fg
+putative beta-lactamase YbxI|KU544569.1|sewage|FEP	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KU544572.1|sewage|FEP	OXA-1089	3008507	resfinder_fg
 putative beta-lactamase YbxI|KU544705.1|sewage|CAZ	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KU544770.1|sewage|PIP	BSU-1	3006902	resfinder_fg
+putative beta-lactamase YbxI|KU544770.1|sewage|PIP	OXA-1089	3008507	resfinder_fg
 putative beta-lactamase YbxI|KU544808.1|feces|AMX	BSU-1	3006902	resfinder_fg
 putative beta-lactamase YbxI|KU545422.1|feces|AMX	BSU-1	3006902	resfinder_fg
 putative beta-lactamase YbxI|KU545640.1|feces|AMX	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|KU545724.1|feces|AMX	BSU-1	3006902	resfinder_fg
+putative beta-lactamase YbxI|KU545724.1|feces|AMX	OXA-1089	3008507	resfinder_fg
 putative beta-lactamase YbxI|KU545745.1|feces|AMX	BSU-1	3006902	resfinder_fg
 putative beta-lactamase YbxI|KU546524.1|feces|AMX	BSU-1	3006902	resfinder_fg
 putative beta-lactamase YbxI|KU546743.1|feces|AMX	BSU-1	3006902	resfinder_fg
 putative beta-lactamase YbxI|KU546892.1|feces|AMX	BPU-1	3004759	resfinder_fg
-putative beta-lactamase YbxI|KU547733.1|latrine|PEN	OXA-347	3001777	resfinder_fg
-putative beta-lactamase YbxI|KU547748.1|latrine|PIP	OXA-347	3001777	resfinder_fg
+putative beta-lactamase YbxI|KU547733.1|latrine|PEN	OXA-1089	3008507	resfinder_fg
+putative beta-lactamase YbxI|KU547748.1|latrine|PIP	OXA-1089	3008507	resfinder_fg
 putative beta-lactamase YbxI|KU577908.1|acuatic_sponge|AMP	BPU-1	3004759	resfinder_fg
 putative beta-lactamase YbxI|KX125206.1|human_gut|PEN	CDD-2	3006905	resfinder_fg
 putative beta-lactamase YbxI|KX128027.1|newborn_gut|FEP	BSU-1	3006902	resfinder_fg
 putative beta-lactamase YbxI|KX128856.1|newborn_gut|PIP	BSU-1	3006902	resfinder_fg
-putative beta-lactamase YbxI|MG586036.1|antibiotics_polluted_stream_sediment|AMP	OXA-464	3003620	resfinder_fg
-putative beta-lactamase YbxI|MG739505.1|river|AMP	OXA-209	3001809	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ694528.1|grassland soil|CAZ	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ910959.1|feces|CAZ	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ910962.1|feces|TZP	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ910969.1|feces|CAZ	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ910971.1|feces|CAZ	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ910977.1|feces|CAZ	Neisseria gonorrhoeae PBP2 conferring resistance to beta-lactam antibiotics	3004832	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ910979.1|feces|CAZ	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KJ910980.1|feces|CAZ	Neisseria meningititis PBP2 conferring resistance to beta-lactam	3003937	resfinder_fg
-putative peptidoglycan D%2CD-transpeptidase PenA|KU606462.1|Preterm_infant_stool|CAZ	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	3004446	resfinder_fg
+putative beta-lactamase YbxI|MG586036.1|antibiotics_polluted_stream_sediment|AMP	OXA-1056	3008474	resfinder_fg
+putative beta-lactamase YbxI|MG739505.1|river|AMP	RSD1-1	3009042	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ694528.1|grassland soil|CAZ	mecD	3004185	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ910959.1|feces|CAZ	mecD	3004185	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ910962.1|feces|TZP	mecD	3004185	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ910969.1|feces|CAZ	mecD	3004185	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ910971.1|feces|CAZ	mecA	3000617	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ910977.1|feces|CAZ	mecA	3000617	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ910979.1|feces|CAZ	mecD	3004185	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KJ910980.1|feces|CAZ	mecD	3004185	resfinder_fg
+putative peptidoglycan D%2CD-transpeptidase PenA|KU606462.1|Preterm_infant_stool|CAZ	mecD	3004185	resfinder_fg
 tetracycline efflux MFS transporter Tet(L)|JQ966982.1|honeybee_gut|TET	tet(45)	3003196	resfinder_fg
 tetracycline efflux MFS transporter Tet(L)|KU547126.1|latrine|TET	tet(45)	3003196	resfinder_fg
 tetracycline efflux MFS transporter Tet(L)|KU548974.1|feces|TET	tet(45)	3003196	resfinder_fg
