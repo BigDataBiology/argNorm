@@ -20,8 +20,8 @@ def test_confers_resistance_to():
     ]
 
     expected_output = [
-        ["ARO:3000008", "ARO:0000032", "ARO:0000044"],
-        ["ARO:3000008", "ARO:0000004", "ARO:3003706", "ARO:0000032", "ARO:3000637"],
+        ["ARO:3000008", "ARO:0000032"],
+        ["ARO:3000008", "ARO:0000004", "ARO:0000032", "ARO:3000637"],
         ["ARO:3000081"],
         ["ARO:3007382", "ARO:0000052", "ARO:0000007", "ARO:0000035", "ARO:0000049"],
         ["ARO:0000015", "ARO:3000008"],
@@ -34,7 +34,7 @@ def test_confers_resistance_to():
 def test_oxa19_drugs():
     oxa_19 = _assert_aro_name('ARO:3001414', 'OXA-19')
     cephalosporin = _assert_aro_name('ARO:0000032', 'cephalosporin')
-    penam = _assert_aro_name('ARO:3000008', 'penam')
+    penam = _assert_aro_name('ARO:3000008', 'penicillin beta-lactam')
     oxacillin = _assert_aro_name('ARO:0000056', 'oxacillin')
     assert sorted(confers_resistance_to(oxa_19)) == sorted([cephalosporin, penam, oxacillin])
 
