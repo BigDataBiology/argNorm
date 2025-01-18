@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+#### argNorm mappings updated for CARD and ARO v4.0.0
+On 18/12/2024, CARD and ARO were updated to v4.0.0. This brought significant changes to both CARD and the ARO, with 1200+ new beta-lactamase genes being added. argNorm's ARO mappings have now been updated to support CARD & ARO v4.0.0.
+
+> **NOTE: ARO mappings for many ARGs have changed. An ARO mapping from a previous version of argNorm might not be present in the latest ARO or can even point to a completely different gene. Please use outputs from previous versions of argNorm with caution.** 
+
 #### argNorm version in outputs from CLI
 The version of argNorm used for normalization is now added to the top of argNorm tsv outputs when generated using the CLI.  For example, 
 
