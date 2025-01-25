@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+#### Update `confers_resistance_to()` to use `regulates`, `part_of`, and `participates_in` ARO relationships
+Previously, argNorm used the `is_a` ARO relationship along with `confers_resistance_to_drug_class` and `confers_resistance_to_antibiotic` to map ARGs to the drugs they confer resistance to. While this worked well for most genes, some ARGs such as those coding for efflux pumps/proteins (e.g. `ARO:3003548`, `ARO:3000826`, `ARO:3003066`) were previously not mapped to any drugs. This is because none of their superclasses mapped to drugs/antibiotics via `confers_resistance_to_antibiotic` or `confers_resistance_to_drug_class`. However, these genes were related to other ARGs that did map to drugs via the `regulates`, `part_of`, or `participates_in` ARO relationships. argNorm now also utilizes these three relationships to ensure that even if the superclasses (derived using `is_a`) of an ARG don't map to a drug, the gene can be assigned a drug mapping.
+
 #### argNorm mappings updated for CARD and ARO v4.0.0
 On 18/12/2024, CARD and ARO were updated to v4.0.0. This brought significant changes to both CARD and the ARO, with 1200+ new beta-lactamase genes being added. argNorm's ARO mappings have now been updated to support CARD & ARO v4.0.0.
 
