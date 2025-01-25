@@ -2,9 +2,14 @@ from typing import List
 from . import lib
 
 ARO = lib.get_aro_ontology()
+antibiotic_molecule_node = [ARO['ARO:1000003'], ARO['ARO:1000001']]
+
 confers_resistance_to_drug_class_rel = ARO.get_relationship('confers_resistance_to_drug_class')
 confers_resistance_to_antibiotic_rel = ARO.get_relationship('confers_resistance_to_antibiotic')
 has_part_rel = ARO.get_relationship('has_part')
+part_of_rel = ARO.get_relationship('part_of')
+regulates_rel = ARO.get_relationship('regulates')
+participates_in_rel = ARO.get_relationship('participates_in')
 
 def _get_drug_classes(super_classes_list: List[str]) -> List[str]:
     """
@@ -36,24 +41,28 @@ def confers_resistance_to(aro_num: str) -> List[str]:
         target (list[str]):
             A list with ARO number of the drugs/antibiotics to which the input gene confers resistance to.
     '''
-    antibiotic_molecule_node = [ARO['ARO:1000003'], ARO['ARO:1000001']]
     # some gene superclasses can map to drugs which are immediate children of 'antibiotic molecule'
-    # only use these if no other drugs can be found, as this information will be present in
-    # drugs to drug classes
+    # only use these if no other drugs can be found, as this information will be present in drugs_to_drug_classes
+
     backup_drugs = []
     target = set()
-    for term in ARO[aro_num].superclasses():
-        for drug in term.relationships.get(confers_resistance_to_drug_class_rel, []):
+    
+    for superclass in ARO[aro_num].superclasses():
+        for drug in ARO[superclass.id].relationships.get(confers_resistance_to_drug_class_rel, []):
+            if list(ARO[drug.id].superclasses())[1:] == antibiotic_molecule_node:
+                backup_drugs.append(drug.id)
+            else:
+                target.add(drug.id)
+                
+        for drug in ARO[superclass.id].relationships.get(confers_resistance_to_antibiotic_rel, []):
             if list(ARO[drug.id].superclasses())[1:] == antibiotic_molecule_node:
                 backup_drugs.append(drug.id)
             else:
                 target.add(drug.id)
 
-        for drug in term.relationships.get(confers_resistance_to_antibiotic_rel, []):
-            if list(ARO[drug.id].superclasses())[1:] == antibiotic_molecule_node:
-                backup_drugs.append(drug.id)
-            else:
-                target.add(drug.id)
+        for rel in [regulates_rel, participates_in_rel, part_of_rel]:
+            for term in superclass.relationships.get(rel, []):
+                target.update(confers_resistance_to(term.id))
 
     if not target:
         target.update(backup_drugs)
