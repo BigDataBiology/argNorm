@@ -51,18 +51,18 @@ The `resistance_to_drug_classes` column will contain ARO numbers of the broader 
 If you use argNorm in a publication, please cite the preprint:
 > Ugarcina Perovic S, Ramji V et al. argNorm: Normalization of Antibiotic Resistance Gene Annotations to the Antibiotic Resistance Ontology (ARO). Queensland University of Technology ePrints, 2024. DOI: https://doi.org/10.5204/rep.eprints.252448 [Preprint] (Under review).
 
-## Supported tools and databases
+## Supported ARG annotation tools and databases
 
 | ARG database                       | Tool for ARG annotation                                 |
 | ---------------------------------- | ------------------------------------------------------- |
-| ARG-ANNOT v5.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate) |
-| DeepARG v2                         | [DeepARG v1.0.2](https://bench.cs.vt.edu/deeparg)       |
-| Groot v1.1.2                       | [GROOT v1.1.2](https://github.com/will-rowe/groot)      |
-| MEGARes v3.0                       | [ABRicate v1.0.1](https://github.com/tseemann/abricate) |
-| NCBI Reference Gene Database v3.12 | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [AMRFinderPlus v3.10.30](https://github.com/ncbi/amr) |
-| ResFinder v4.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [ResFinder v4.0](https://bitbucket.org/genomicepidemiology/resfinder/src/master/) |
-| ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) |
-| SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/)  | 
+| ARG-ANNOT v5.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
+| DeepARG v2                         | [DeepARG v1.0.2](https://bench.cs.vt.edu/deeparg) & [hAMRonization](https://github.com/pha4ge/hAMRonization)       |
+| Groot v1.1.2                       | [GROOT v1.1.2](https://github.com/will-rowe/groot) & [hAMRonization](https://github.com/pha4ge/hAMRonization)      |
+| MEGARes v3.0                       | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
+| NCBI Reference Gene Database v3.12 | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [AMRFinderPlus v3.10.30](https://github.com/ncbi/amr), & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
+| ResFinder v4.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [ResFinder v4.0](https://bitbucket.org/genomicepidemiology/resfinder/src/master/), & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
+| ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
+| SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/) & [hAMRonization](https://github.com/pha4ge/hAMRonization)  | 
 
 - Note: ARG database and ARG annotation tool versions can change. argNorm is only intended for supported versions listed above.
 - Note: the argNorm tool will be periodically updated to support the latest versions of databases and annotation tools if they undergo significant changes.
@@ -98,7 +98,7 @@ argNorm is readily available in the funcscan pipeline which can be accessed (her
 Here is a basic outline of calling argNorm.
 
 ```bash
-argnorm [tool] [--db] -i [path to original_annotation.tsv] -o [path to annotation_result_with_aro.tsv] [--hamronized (if hAMRonization used)]
+argnorm [tool] [--db] -i [path to original_annotation.tsv] -o [path to annotation_result_with_aro.tsv]
 ```
 
 ### `tool` (required)
@@ -109,6 +109,7 @@ The most important ***required positional*** argument is `tool` (see [here](#sup
 - `resfinder`
 - `amrfinderplus`
 - `groot`
+- `hamronization`
 
 ### I/O (required)
 - `-i` or `--input`: path to the annotation result
@@ -135,31 +136,26 @@ ARG annotation tools can use several ARG databases for annotation. Hence, the `t
 | `resfinder`     | Not required |
 | `amrfinderplus` | Not required |
 | `groot`         | Any from `groot-argannot`, `groot-resfinder`, `groot-db`, `groot-core-db`, or `groot-card` |
-
-### `--hamronized` (optional)
-Use this if the input is hamronized by [hAMRonization](https://github.com/pha4ge/hAMRonization)
+| `hamronization` | Not required |
 
 ### `-h` or `--help`
 Use `argnorm -h` or `argnorm --help` to see available options.
 
 ```bash
 >argnorm -h
-usage: argnorm [-h]
-               [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}]
-               [--hamronized] [-i INPUT] [-o OUTPUT]
-               {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot}
+usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}] [-i INPUT] [-o OUTPUT]
+               {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
-  {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot}
+  {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
                         The tool you used to do ARG annotation.
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
   --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}
                         The database you used to do ARG annotation.
-  --hamronized          Use this if the input is hamronized (processed using the hAMRonization tool)
   -i INPUT, --input INPUT
                         The annotation result you have
   -o OUTPUT, --output OUTPUT
@@ -209,23 +205,19 @@ argnorm -h
 
 ```
 > argnorm -h
-usage: argnorm [-h]
-               [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg}]
-               [--hamronized] [-i INPUT] [-o OUTPUT]
-               {argsoap,abricate,deeparg,resfinder,amrfinderplus}
+usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}] [-i INPUT] [-o OUTPUT]
+               {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
-  {argsoap,abricate,deeparg,resfinder,amrfinderplus}
+  {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
                         The tool you used to do ARG annotation.
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
-  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg}
+  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}
                         The database you used to do ARG annotation.
-  --hamronized          Use this if the input is hamronized (processed using
-                        the hAMRonization tool)
   -i INPUT, --input INPUT
                         The annotation result you have
   -o OUTPUT, --output OUTPUT
@@ -257,10 +249,10 @@ wget https://raw.githubusercontent.com/BigDataBiology/argNorm/main/examples/raw/
 Here is a basic outline of most argNorm commands:
 
 ```bash
-argnorm [tool] -i [original_annotation.tsv] -o [argnorm_result.tsv] [--hamronized]
+argnorm [tool] -i [original_annotation.tsv] -o [argnorm_result.tsv] [--db]
 ```
 
-Here, `tool` refers to the ARG annotation tool used (ResFinder in this case). `original_annotation.tsv` is the path to the input data and `argnorm_result.tsv` is the path to output file where the resulting table from argNorm will be stored. `--hamronized` is an option to indicate if the input data is a result of using the [hAMRonization package](https://github.com/pha4ge/hAMRonization). In our example, the input data is not a result of using the hAMRonization package, and so the `--hamronized` option can be omitted.
+Here, `tool` refers to the ARG annotation tool used (ResFinder in this case). `original_annotation.tsv` is the path to the input data and `argnorm_result.tsv` is the path to output file where the resulting table from argNorm will be stored. `--db` is the ARG databases used along with `tool` to perform annotation. ResFinder does not require a `--db` (argNorm will automatically load up the ResFinder database), however, `--db` is required for the ARG annotation tools `groot` and `abricate`.
 
 
 To run argNorm on the input data, use this command in your terminal:
