@@ -12,7 +12,7 @@ def main():
                      'namely ARO (Antibiotic Resistance Ontology).'),
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('tool', type=str.lower,
-                        choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus', 'groot'],
+                        choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus', 'groot', 'hamronization'],
                         help='The tool you used to do ARG annotation.')
     parser.add_argument('--db', type=str.lower,
                         choices=['sarg', 
@@ -29,8 +29,6 @@ def main():
                                  'groot-card'
                                 ],
                         help='The database you used to do ARG annotation.')
-    parser.add_argument('--hamronized', action='store_true',
-                        help='Use this if the input is hamronized (processed using the hAMRonization tool)')
     parser.add_argument('-i', '--input', type=str,
                         help='The annotation result you have')
     parser.add_argument('-o', '--output', type=str,
@@ -43,7 +41,6 @@ def main():
     result = normalize(args.input,
             tool=args.tool,
             database=args.db,
-            is_hamronized=args.hamronized
         )
 
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
