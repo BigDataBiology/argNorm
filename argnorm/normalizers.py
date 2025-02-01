@@ -88,11 +88,26 @@ class ResFinderNormalizer(BaseNormalizer):
         super().__init__(database, is_hamronized)
 
     def get_input_ids(self, itable):
-        return itable['gene_symbol' if self.is_hamronized else 'Accession no.']
+        if self.is_hamronized:
+            gene_identifier = 'gene_name'
+            accession = 'reference_accession'
+        else:
+            gene_identifier = 'Resistance gene'
+            accession = 'Accession no.'
+        
+        input_ids = []
+        for i in range(itable.shape[0]):
+            input_ids.append('_'.join([itable.iloc[i][gene_identifier], itable.iloc[i][accession]]))
+        
+        return pd.Series(input_ids)
 
     def preprocess_ref_genes(self, ref_genes):
-        return ref_genes.str.split('_').str[0 if self.is_hamronized else -1]
+        processed_ref_genes = []
+        for i in range(len(ref_genes)):
+            split_gene = str(ref_genes[i]).split('_')
+            processed_ref_genes.append('_'.join([split_gene[0], split_gene[-1]]))
 
+        return pd.Series(processed_ref_genes)
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
@@ -100,11 +115,28 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         super().__init__(database, is_hamronized)
 
     def get_input_ids(self, itable):
-        return itable['gene_symbol' if self.is_hamronized else 'Accession of closest sequence']
+        if self.is_hamronized:
+            gene_identifier = 'gene_name'
+            accession = 'reference_accession'
+        else:
+            gene_identifier = 'Sequence name'
+            accession = 'Accession of closest sequence'
+        
+        input_ids = []
+        for i in range(itable.shape[0]):
+            gene_name = str(itable.iloc[i][gene_identifier]).replace(' ', '_')
+            input_ids.append('|'.join([itable.iloc[i][accession], gene_name]))
+        
+        return pd.Series(input_ids)
 
     def preprocess_ref_genes(self, ref_genes):
-        return ref_genes.str.split('|').str[5 if self.is_hamronized else 1]
+        processed_ref_genes = []
 
+        for i in range(len(ref_genes)): 
+            split_gene = str(ref_genes[i]).split('|')
+            processed_ref_genes.append('|'.join([split_gene[1], split_gene[-1]]))
+
+        return pd.Series(processed_ref_genes)
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
@@ -118,9 +150,9 @@ class AbricateNormalizer(BaseNormalizer):
     def get_input_ids(self, itable):
         if self.is_hamronized:
             col = dict(
-                ncbi='gene_symbol',
+                ncbi='gene_name',
                 deeparg='gene_name',
-                resfinder='gene_symbol',
+                resfinder=dict(gene_identifier='gene_name', accession='reference_accession'),
                 sarg='gene_symbol',
                 megares='reference_accession',
                 argannot='reference_accession',
@@ -128,14 +160,30 @@ class AbricateNormalizer(BaseNormalizer):
             )[self.database]
         else:
             col = dict(
-                ncbi='GENE',
+                ncbi='PRODUCT',
                 deeparg='best-hit',
-                resfinder='GENE',
+                resfinder=dict(gene_identifier='GENE', accession='ACCESSION'),
                 megares='ACCESSION',
                 argannot='ACCESSION'
             )[self.database]
+
         if self.database == 'resfinderfg':
             return itable[col].str.split('|').str[1]
+        
+        if self.database == 'resfinder':
+            input_ids = []
+            for i in range(itable.shape[0]):
+                input_ids.append('_'.join([itable.iloc[i][col['gene_identifier']], itable.iloc[i][col['accession']]]))
+            
+            return pd.Series(input_ids)
+            
+        if self.database == 'ncbi':
+            input_ids = []
+            for i in range(itable.shape[0]):
+                input_ids.append(str(itable.iloc[i][col]).replace(' ', '_'))
+            
+            return pd.Series(input_ids)
+        
         return itable[col]
 
 
@@ -147,9 +195,9 @@ class AbricateNormalizer(BaseNormalizer):
 
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
-            ncbi=lambda x: x.split('|')[5],
+            ncbi=lambda x: x.split('|')[-1],
             deeparg=lambda x: x,
-            resfinder=lambda x: '_'.join(x.split('_')[:-1]),
+            resfinder=lambda x: '_'.join([x.split('_')[0], x.split('_')[-1]]),
             sarg=lambda x: x,
             megares=lambda x: x.split('|')[0],
             argannot=self.preprocess_argannot_ref_genes,
