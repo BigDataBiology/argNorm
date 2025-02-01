@@ -6,15 +6,15 @@ os.makedirs('integration_tests/outputs/raw', exist_ok=True)
 os.makedirs('integration_tests/outputs/hamronized', exist_ok=True)
 
 def run_cli_test(tool, file, folder, db=None):
+    if folder == 'hamronized':
+        tool = 'hamronization'
+
     command = [
         'argnorm',
         tool,
         '-i', f'examples/{folder}/{file}',
         '-o', f'integration_tests/outputs/{folder}/{file}'
     ]
-
-    if folder == 'hamronized':
-        command.append('--hamronized')
 
     if tool in  ['abricate', 'groot']:
         command += ['--db', db]
@@ -41,6 +41,8 @@ for folder in ['hamronized', 'raw']:
 
 for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
     file  = f'abricate.{db.lower()}.tsv'
-    run_cli_test('abricate', file, 'hamronized', db=db)
+    run_cli_test('hamronization', file, 'hamronized', db=db)
     if not 'resfinder' in db:
         run_cli_test('abricate', file, 'raw', db=db)
+
+run_cli_test('hamronization', 'combined_hamronization.tsv', 'hamronized')

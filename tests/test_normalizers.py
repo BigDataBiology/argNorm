@@ -13,44 +13,29 @@ def get_normed(normalizer, input_path):
 def get_golden_file(path):
     return pd.read_csv(path, sep='\t', skiprows=1)
 
-@pytest.mark.parametrize('hamronized', [True, False])
-def test_argsoap_normalizer(hamronized):
-    folder = 'hamronized' if hamronized else 'raw'
-    normalizer = argnorm.ARGSOAPNormalizer(is_hamronized=hamronized)
-    input_path = f'./examples/{folder}/args-oap.sarg.reads.tsv'
+def test_argsoap_normalizer():
+    normalizer = argnorm.ARGSOAPNormalizer()
+    input_path = './examples/raw/args-oap.sarg.reads.tsv'
 
     normed = get_normed(normalizer, input_path)
-    golden_file = get_golden_file(os.path.join('./outputs/', folder, 'args-oap.sarg.reads.tsv'))
+    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', 'args-oap.sarg.reads.tsv'))
     # The numbers in the heading of the raw normed df have the type int, while numbers in heading of golden file have type str
     normed.columns = golden_file.columns
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
-@pytest.mark.parametrize('hamronized', [True, False])
-def test_deeparg_normalizer(hamronized):
-    folder = 'hamronized' if hamronized else 'raw'
-    normalizer = argnorm.DeepARGNormalizer(is_hamronized=hamronized)
-    input_path = f'./examples/{folder}/deeparg.deeparg.orfs.tsv'
+def test_deeparg_normalizer():
+    normalizer = argnorm.DeepARGNormalizer()
+    input_path = './examples/raw/deeparg.deeparg.orfs.tsv'
 
     normed = get_normed(normalizer, input_path)
-    golden_file = get_golden_file(os.path.join('./outputs/', folder, 'deeparg.deeparg.orfs.tsv'))
-
-    pd.testing.assert_frame_equal(normed, golden_file)
-
-
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg'])
-def test_abricate_normalizer_hamronized(database):
-    normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=True)
-    input_path = f'./examples/hamronized/abricate.{database}.tsv'
-
-    normed = get_normed(normalizer, input_path)
-    golden_file = get_golden_file(os.path.join('./outputs/', 'hamronized', f'abricate.{database}.tsv'))
+    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', 'deeparg.deeparg.orfs.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi'])
-def test_abricate_normalizer_raw(database):
-    normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=False)
+def test_abricate_normalizer(database):
+    normalizer = argnorm.AbricateNormalizer(database=database)
     input_path = f'./examples/raw/abricate.{database}.tsv'
 
     normed = get_normed(normalizer, input_path)
@@ -58,44 +43,36 @@ def test_abricate_normalizer_raw(database):
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
-def test_abricate_validation_hamronized():
-    with pytest.raises(Exception):
-        normalizer = argnorm.AbricateNormalizer(database='random_db', is_hamronized=True)
-
 @pytest.mark.parametrize('database', ['random_db', 'sarg', 'resfinderfg'])
-def test_abricate_validation_raw(database):
+def test_abricate_validation(database):
     with pytest.raises(Exception):
-        normalizer = argnorm.AbricateNormalizer(database=database, is_hamronized=False)
+        normalizer = argnorm.AbricateNormalizer(database=database)
 
-@pytest.mark.parametrize('hamronized', [True, False])
 @pytest.mark.parametrize('mode', ['reads', 'orfs'])
-def test_resfinder_normalizer(hamronized, mode):
-    folder = 'hamronized' if hamronized else 'raw'
-    normalizer = argnorm.ResFinderNormalizer(is_hamronized=hamronized)
-    input_path = f'./examples/{folder}/resfinder.resfinder.{mode}.tsv'
+def test_resfinder_normalizer(mode):
+    normalizer = argnorm.ResFinderNormalizer()
+    input_path = f'./examples/raw/resfinder.resfinder.{mode}.tsv'
     
     normed = get_normed(normalizer, input_path)
-    golden_file = get_golden_file(os.path.join('./outputs/', folder, f'resfinder.resfinder.{mode}.tsv'))
+    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', f'resfinder.resfinder.{mode}.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
-@pytest.mark.parametrize('hamronized', [True, False])
-def test_amrfinderplus_normalizer(hamronized):
-    folder = 'hamronized' if hamronized else 'raw'
-    normalizer = argnorm.AMRFinderPlusNormalizer(is_hamronized=hamronized)
-    input_file = f'./examples/{folder}/amrfinderplus.ncbi.orfs.tsv'
+def test_amrfinderplus_normalizer():
+    normalizer = argnorm.AMRFinderPlusNormalizer()
+    input_file = f'./examples/raw/amrfinderplus.ncbi.orfs.tsv'
     
     normed = get_normed(normalizer, input_file)
-    golden_file = get_golden_file(os.path.join('./outputs/', folder, f'amrfinderplus.ncbi.orfs.tsv'))
+    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', f'amrfinderplus.ncbi.orfs.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
 @pytest.mark.parametrize('database', ['argannot', 'resfinder', 'card', 'groot-db', 'groot-core-db'])
-def test_groot_normalizer_raw(database):
+def test_groot_normalizer(database):
     if 'groot' not in database:
-        normalizer = argnorm.GrootNormalizer(database=f'groot-{database}', is_hamronized=False)
+        normalizer = argnorm.GrootNormalizer(database=f'groot-{database}')
     else:
-        normalizer = argnorm.GrootNormalizer(database=f'groot-db', is_hamronized=False)
+        normalizer = argnorm.GrootNormalizer(database=f'groot-db')
         
     input_path = f'./examples/raw/groot.{database}.tsv'
     normed = get_normed(normalizer, input_path)
@@ -103,14 +80,14 @@ def test_groot_normalizer_raw(database):
     golden_file = get_golden_file(os.path.join('./outputs/', 'raw', f'groot.{database}.tsv'))
     pd.testing.assert_frame_equal(normed, golden_file)
 
-@pytest.mark.parametrize('database', ['argannot', 'resfinder', 'card', 'groot-db', 'groot-core-db'])
-def test_groot_normalizer_raw(database):
-    if 'groot' not in database:
-        normalizer = argnorm.GrootNormalizer(database=f'groot-{database}', is_hamronized=True)
-    else:
-        normalizer = argnorm.GrootNormalizer(database=f'groot-db', is_hamronized=True)
-    input_path = f'./examples/hamronized/groot.{database}.tsv'
-    normed = get_normed(normalizer, input_path)
-    normed.columns = normed.columns.astype(str)
-    golden_file = get_golden_file(os.path.join('./outputs/', 'hamronized', f'groot.{database}.tsv'))
-    pd.testing.assert_frame_equal(normed, golden_file)
+def test_hamronization_normalizer():
+    normalizer = argnorm.HamronizationNormalizer()
+
+    for file in os.listdir('./examples/hamronized/'):
+        if 'abricate.card' in file or 'args-oap.sarg.orfs' in file:
+            continue
+        
+        normed = get_normed(normalizer, f'./examples/hamronized/{file}')
+        golden_file = get_golden_file(os.path.join('./outputs', 'hamronized', file))
+        
+        pd.testing.assert_frame_equal(normed, golden_file)

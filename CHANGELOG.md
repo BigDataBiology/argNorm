@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+#### Added `HamronizationNormalizer`
+- Removed the `is_hamronized` property for all normalizers and removed `--hamronized` flag for CLI.
+- All hamronized results now go through the `HamronizationNormalizer` class.
+- HamronizationNormalizer reads a hamronized file line by line, procures input genes, and loads all ARO mapping tables to support hamronized results that combine the outputs from multiple tools and databases.
+- For CLI hamronization commands will look like: 
+```bash
+argnorm hamronization -i PATH_TO_INPUT -o PATH_TO_OUTPUT
+```
+
 #### Update `confers_resistance_to()` to use `regulates`, `part_of`, and `participates_in` ARO relationships
 Previously, argNorm used the `is_a` ARO relationship along with `confers_resistance_to_drug_class` and `confers_resistance_to_antibiotic` to map ARGs to the drugs they confer resistance to. While this worked well for most genes, some ARGs such as those coding for efflux pumps/proteins (e.g. `ARO:3003548`, `ARO:3000826`, `ARO:3003066`) were previously not mapped to any drugs. This is because none of their superclasses mapped to drugs/antibiotics via `confers_resistance_to_antibiotic` or `confers_resistance_to_drug_class`. However, these genes were related to other ARGs that did map to drugs via the `regulates`, `part_of`, or `participates_in` ARO relationships. argNorm now also utilizes these three relationships to ensure that even if the superclasses (derived using `is_a`) of an ARG don't map to a drug, the gene can be assigned a drug mapping.
 

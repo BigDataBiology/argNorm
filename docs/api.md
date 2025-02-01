@@ -84,9 +84,8 @@ print(drugs_to_drug_classes(['ARO:0000030', 'ARO:0000051', 'ARO:0000069', 'ARO:3
 
 Normalizers classes for specific tools which normalize ARG annotation outputs. Same functionality as CLI.
 
-All normalizers have 2 parameters:
+All normalizers have 1 optional parameter:
 * database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg, groot-db, groot-core-db, groot-card, groot-argannot, and groot-resfinder.
-* is_hamronized (bool, False by default): whether or not the ARG annotation output has been processed by the hamronization package.
 
 > Note: the database parameter only needs to be specified for AbricateNormalizer and GrootNormalizer. ncbi, deeparg, resfinder, sarg, megares, argannot, resfinderfg are the supported databases for AbricateNormalizer and groot-db, groot-core-db, groot-argannot, groot-resfinder, and groot-card are the supported databases for GrootNormalizer.
 
@@ -97,6 +96,7 @@ Available normalizers:
 * argnorm.normalizers.AMRFinderPlusNormalizer
 * argnorm.normalizers.AbricateNormalizer
 * argnorm.normalizers.GrootNormalizer
+* argnorm.normalizers.HamronizationNormalizer
 
 ### Methods
 
@@ -128,18 +128,7 @@ resfinder_normalizer.run('./resfinder.resfinder.orfs.tsv').to_csv('./resfinder.r
 
 This will create a file called `resfinder.resfinder.orfs.normed.tsv` with ARO mappings and drug categorization.
 
-### Example 2: using AbricteNormalizer with the ResFinderFG database
-
-The database parameter needs to be specified for the AbricateNormalizer. Supported databases are:
-* `ncbi`
-* `deeparg`
-* `resfinder`
-* `sarg`
-* `megares`
-* `argannot`
-* `resfinderfg`
-
-For this example, we will run the AbricateNormalizer with the [`resfinderfg` database option](https://www.big-data-biology.org/paper/2022_resfinderfgv2/).
+### Example 2: using HamronizationNormalizer
 
 Download the sample data [here](https://raw.githubusercontent.com/BigDataBiology/argNorm/7ee9d74c9fa51956ecb7706fa979cc0696ae305d/examples/hamronized/abricate.resfinderfg.tsv), and store it in a folder called `argnorm_normalizers_tutorial`.
 
@@ -151,13 +140,11 @@ wget https://raw.githubusercontent.com/BigDataBiology/argNorm/7ee9d74c9fa51956ec
 
 Save the following piece of Python code in the `argnorm_normalizers_tutorial` folder, and run the script.
 
-> Note: the data is hamronized, and so the `is_hamronized` parameter should be set to `True`.
-
 ```
-from argnorm.normalizers import AbricateNormalizer
+from argnorm.normalizers import HamronizationNormalizer
 
-abricate_normalizer = AbricateNormalizer(database='resfinderfg', is_hamronized=True)
-abricate_normalizer.run('./abricate.resfinderfg.tsv').to_csv('./abricate.resfinderfg.normed.tsv', sep='\t')
+normalizer = HamronizationNormalizer()
+normalizer.run('./abricate.resfinderfg.tsv').to_csv('./abricate.resfinderfg.normed.tsv', sep='\t')
 ```
 
 This will create a file called `abricate.resfinderfg.normed.tsv` with ARO mappings and drug categorization.
