@@ -88,11 +88,18 @@ class ResFinderNormalizer(BaseNormalizer):
         super().__init__(database, is_hamronized)
 
     def get_input_ids(self, itable):
-        return itable['gene_symbol' if self.is_hamronized else 'Accession no.']
+        if self.is_hamronized:
+            gene_identifier = 'gene_name'
+            accession = 'reference_accession'
+        else:
+            gene_identifier = 'Resistance gene'
+            accession = 'Accession no.'
+        
+        return pd.Series(itable[gene_identifier] + '_' + itable[accession])
 
     def preprocess_ref_genes(self, ref_genes):
-        return ref_genes.str.split('_').str[0 if self.is_hamronized else -1]
-
+        split_genes = ref_genes.str.split('_')
+        return pd.Series(split_genes.str[0] + '_' + split_genes.str[-1])
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
@@ -100,11 +107,18 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         super().__init__(database, is_hamronized)
 
     def get_input_ids(self, itable):
-        return itable['gene_symbol' if self.is_hamronized else 'Accession of closest sequence']
+        if self.is_hamronized:
+            gene_identifier = 'gene_name'
+            accession = 'reference_accession'
+        else:
+            gene_identifier = 'Sequence name'
+            accession = 'Accession of closest sequence'
+
+        return pd.Series(itable[accession] + '|' + itable[gene_identifier].str.replace(' ', '_'))
 
     def preprocess_ref_genes(self, ref_genes):
-        return ref_genes.str.split('|').str[5 if self.is_hamronized else 1]
-
+        split_genes = ref_genes.str.split('|')
+        return pd.Series(split_genes.str[1] + '|' + split_genes.str[-1])
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
@@ -118,9 +132,9 @@ class AbricateNormalizer(BaseNormalizer):
     def get_input_ids(self, itable):
         if self.is_hamronized:
             col = dict(
-                ncbi='gene_symbol',
+                ncbi='gene_name',
                 deeparg='gene_name',
-                resfinder='gene_symbol',
+                resfinder=dict(gene_identifier='gene_name', accession='reference_accession'),
                 sarg='gene_symbol',
                 megares='reference_accession',
                 argannot='reference_accession',
@@ -128,14 +142,22 @@ class AbricateNormalizer(BaseNormalizer):
             )[self.database]
         else:
             col = dict(
-                ncbi='GENE',
+                ncbi='PRODUCT',
                 deeparg='best-hit',
-                resfinder='GENE',
+                resfinder=dict(gene_identifier='GENE', accession='ACCESSION'),
                 megares='ACCESSION',
                 argannot='ACCESSION'
             )[self.database]
+
         if self.database == 'resfinderfg':
             return itable[col].str.split('|').str[1]
+        
+        if self.database == 'resfinder':          
+            return pd.Series(itable[col['gene_identifier']] + '_' + itable[col['accession']])
+            
+        if self.database == 'ncbi':
+            return pd.Series(itable[col].str.replace(' ', '_'))
+        
         return itable[col]
 
 
@@ -147,9 +169,9 @@ class AbricateNormalizer(BaseNormalizer):
 
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
-            ncbi=lambda x: x.split('|')[5],
+            ncbi=lambda x: x.split('|')[-1],
             deeparg=lambda x: x,
-            resfinder=lambda x: '_'.join(x.split('_')[:-1]),
+            resfinder=lambda x: '_'.join([x.split('_')[0], x.split('_')[-1]]),
             sarg=lambda x: x,
             megares=lambda x: x.split('|')[0],
             argannot=self.preprocess_argannot_ref_genes,
