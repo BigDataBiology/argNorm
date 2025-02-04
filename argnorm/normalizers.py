@@ -95,19 +95,11 @@ class ResFinderNormalizer(BaseNormalizer):
             gene_identifier = 'Resistance gene'
             accession = 'Accession no.'
         
-        input_ids = []
-        for i in range(itable.shape[0]):
-            input_ids.append('_'.join([itable.iloc[i][gene_identifier], itable.iloc[i][accession]]))
-        
-        return pd.Series(input_ids)
+        return pd.Series(itable[gene_identifier] + '_' + itable[accession])
 
     def preprocess_ref_genes(self, ref_genes):
-        processed_ref_genes = []
-        for i in range(len(ref_genes)):
-            split_gene = str(ref_genes[i]).split('_')
-            processed_ref_genes.append('_'.join([split_gene[0], split_gene[-1]]))
-
-        return pd.Series(processed_ref_genes)
+        split_genes = ref_genes.str.split('_')
+        return pd.Series(split_genes.str[0] + '_' + split_genes.str[-1])
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
@@ -121,22 +113,12 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         else:
             gene_identifier = 'Sequence name'
             accession = 'Accession of closest sequence'
-        
-        input_ids = []
-        for i in range(itable.shape[0]):
-            gene_name = str(itable.iloc[i][gene_identifier]).replace(' ', '_')
-            input_ids.append('|'.join([itable.iloc[i][accession], gene_name]))
-        
-        return pd.Series(input_ids)
+
+        return pd.Series(itable[accession] + '|' + itable[gene_identifier].str.replace(' ', '_'))
 
     def preprocess_ref_genes(self, ref_genes):
-        processed_ref_genes = []
-
-        for i in range(len(ref_genes)): 
-            split_gene = str(ref_genes[i]).split('|')
-            processed_ref_genes.append('|'.join([split_gene[1], split_gene[-1]]))
-
-        return pd.Series(processed_ref_genes)
+        split_genes = ref_genes.str.split('|')
+        return pd.Series(split_genes.str[1] + '|' + split_genes.str[-1])
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None, is_hamronized=False) -> None:
@@ -170,19 +152,11 @@ class AbricateNormalizer(BaseNormalizer):
         if self.database == 'resfinderfg':
             return itable[col].str.split('|').str[1]
         
-        if self.database == 'resfinder':
-            input_ids = []
-            for i in range(itable.shape[0]):
-                input_ids.append('_'.join([itable.iloc[i][col['gene_identifier']], itable.iloc[i][col['accession']]]))
-            
-            return pd.Series(input_ids)
+        if self.database == 'resfinder':          
+            return pd.Series(itable[col['gene_identifier']] + '_' + itable[col['accession']])
             
         if self.database == 'ncbi':
-            input_ids = []
-            for i in range(itable.shape[0]):
-                input_ids.append(str(itable.iloc[i][col]).replace(' ', '_'))
-            
-            return pd.Series(input_ids)
+            return pd.Series(itable[col].str.replace(' ', '_'))
         
         return itable[col]
 
