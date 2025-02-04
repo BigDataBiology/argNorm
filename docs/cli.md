@@ -16,23 +16,19 @@ argnorm -h
 
 ```
 > argnorm -h
-usage: argnorm [-h]
-               [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg}]
-               [--hamronized] [-i INPUT] [-o OUTPUT]
-               {argsoap,abricate,deeparg,resfinder,amrfinderplus}
+usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}] [-i INPUT] [-o OUTPUT]
+               {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
-  {argsoap,abricate,deeparg,resfinder,amrfinderplus}
+  {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
                         The tool you used to do ARG annotation.
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
-  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg}
+  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}
                         The database you used to do ARG annotation.
-  --hamronized          Use this if the input is hamronized (processed using
-                        the hAMRonization tool)
   -i INPUT, --input INPUT
                         The annotation result you have
   -o OUTPUT, --output OUTPUT
@@ -64,10 +60,10 @@ wget https://raw.githubusercontent.com/BigDataBiology/argNorm/main/examples/raw/
 Here is a basic outline of most argNorm commands:
 
 ```bash
-argnorm [tool] -i [original_annotation.tsv] -o [argnorm_result.tsv] [--hamronized]
+argnorm [tool] -i [original_annotation.tsv] -o [argnorm_result.tsv] [--db]
 ```
 
-Here, `tool` refers to the ARG annotation tool used (ResFinder in this case). `original_annotation.tsv` is the path to the input data and `argnorm_result.tsv` is the path to output file where the resulting table from argNorm will be stored. `--hamronized` is an option to indicate if the input data is a result of using the [hAMRonization package](https://github.com/pha4ge/hAMRonization). In our example, the input data is not a result of using the hAMRonization package, and so the `--hamronized` option can be omitted.
+Here, `tool` refers to the ARG annotation tool used (ResFinder in this case). `original_annotation.tsv` is the path to the input data and `argnorm_result.tsv` is the path to output file where the resulting table from argNorm will be stored. `--db` is the ARG databases used along with `tool` to perform annotation. ResFinder does not require a `--db` (argNorm will automatically load up the ResFinder database), however, `--db` is required for the ARG annotation tools `groot` and `abricate`.
 
 
 To run argNorm on the input data, use this command in your terminal:
@@ -97,31 +93,18 @@ argnorm [tool] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
 
 ```bash
 argnorm argsoap -i examples/raw/args-oap.sarg.reads.tsv -o outputs/raw/args-oap.sarg.reads.tsv
-
-argnorm argsoap -i examples/hamronized/args-oap.sarg.reads.tsv -o outputs/hamronized/args-oap.sarg.reads.tsv --hamronized
 ```
 
 ### DeepARG
 
 ```bash
 argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o outputs/raw/deeparg.deeparg.orfs.tsv
-
-argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o outputs/hamronized/deeparg.deeparg.orfs.tsv --hamronized
 ```
 
 ### ABRicate
 
 When using abricate, it is necessary to specify the database used:
 
-#### Hamronized
-```bash
-argnorm abricate --db ncbi -i examples/hamronized/abricate.ncbi.tsv -o outputs/hamronized/abricate.ncbi.tsv --hamronized
-argnorm abricate --db megares -i examples/hamronized/abricate.megares.tsv -o outputs/hamronized/abricate.megares.tsv --hamronized
-argnorm abricate --db argannot -i examples/hamronized/abricate.argannot.tsv -o outputs/hamronized/abricate.argannot.tsv --hamronized
-argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o outputs/hamronized/abricate.resfinder.tsv --hamronized
-```
-
-#### Raw
 ```bash
 argnorm abricate --db ncbi -i examples/raw/abricate.ncbi.tsv -o outputs/raw/abricate.ncbi.tsv
 argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o outputs/raw/abricate.megarest.tsv
@@ -130,13 +113,6 @@ argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o outputs/
 
 ### ResFinder
 
-#### Hamronized
-```bash
-argnorm resfinder -i examples/hamronized/resfinder.resfinder.orfs.tsv -o outputs/hamronized/resfinder.resfinder.orfs.tsv --hamronized
-argnorm resfinder -i examples/hamronized/resfinder.resfinder.reads.tsv -o outputs/hamronized/resfinder.resfinder.reads.tsv --hamronized
-```
-
-#### Raw
 ```bash
 argnorm resfinder -i examples/raw/resfinder.resfinder.orfs.tsv -o outputs/raw/resfinder.resfinder.orfs.tsv
 argnorm resfinder -i examples/raw/resfinder.resfinder.reads.tsv -o outputs/raw/resfinder.resfinder.reads.tsv
@@ -145,8 +121,6 @@ argnorm resfinder -i examples/raw/resfinder.resfinder.reads.tsv -o outputs/raw/r
 ### AMRFinderPlus
 ```bash
 argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.tsv
-
-argnorm amrfinderplus -i examples/hamronized/amrfinderplus.ncbi.orfs.tsv -o outputs/hamronized/amrfinderplus.ncbi.orfs.tsv
 ```
 
 ### GROOT
@@ -156,10 +130,22 @@ argnorm groot -i examples/raw/groot.resfinder.tsv -o outputs/raw/groot.resfinder
 argnorm groot -i examples/raw/groot.card.tsv -o outputs/raw/groot.card.tsv --db groot-card
 argnorm groot -i examples/raw/groot.groot-db.tsv -o outputs/raw/groot.groot-db.tsv --db groot-db
 argnorm groot -i examples/raw/groot.groot-core-db.tsv -o ouptuts/raw/groot.groot-core-db.tsv --db groot-core-db
-
-argnorm groot -i examples/hamronized/groot.argannot.tsv -o outputs/hamronized/groot.argannot.tsv --db groot-argannot --hamronized
-argnorm groot -i examples/hamronized/groot.resfinder.tsv -o outputs/hamronized/groot.resfinder.tsv --db groot-resfinder --hamronized
-argnorm groot -i examples/hamronized/groot.card.tsv -o outputs/hamronized/groot.card.tsv --db groot-card --hamronized
-argnorm groot -i examples/hamronized/groot.groot-db.tsv -o outputs/hamronized/groot.groot-db.tsv --db groot-db --hamronized
-argnorm groot -i examples/hamronized/groot.groot-core-db.tsv -o outputs/hamronized/groot.groot-core-db.tsv --db groot-core-db --hamronized
 ```
+
+### Hamronization
+
+```bash
+argnorm hamronization -i examples/hamronized/args-oap.sarg.reads.tsv -o outputs/hamronized/args-oap.sarg.reads.tsv
+argnorm hamronization -i examples/hamronized/deeparg.deeparg.orfs.tsv -o outputs/hamronized/deeparg.deeparg.orfs.tsv
+argnorm hamronization -i examples/hamronized/abricate.ncbi.tsv -o outputs/hamronized/abricate.ncbi.tsv 
+argnorm hamronization -i examples/hamronized/abricate.megares.tsv -o outputs/hamronized/abricate.megares.tsv 
+argnorm hamronization -i examples/hamronized/abricate.argannot.tsv -o outputs/hamronized/abricate.argannot.tsv 
+argnorm hamronization -i examples/hamronized/abricate.resfinder.tsv -o outputs/hamronized/abricate.resfinder.tsv 
+argnorm hamronization -i examples/hamronized/resfinder.resfinder.orfs.tsv -o outputs/hamronized/resfinder.resfinder.orfs.tsv 
+argnorm hamronization -i examples/hamronized/resfinder.resfinder.reads.tsv -o outputs/hamronized/resfinder.resfinder.reads.tsv 
+argnorm hamronization -i examples/hamronized/amrfinderplus.ncbi.orfs.tsv -o outputs/hamronized/amrfinderplus.ncbi.orfs.tsv
+argnorm hamronization -i examples/hamronized/groot.argannot.tsv -o outputs/hamronized/groot.argannot.tsv 
+argnorm hamronization -i examples/hamronized/groot.resfinder.tsv -o outputs/hamronized/groot.resfinder.tsv
+argnorm hamronization -i examples/hamronized/groot.card.tsv -o outputs/hamronized/groot.card.tsv
+argnorm hamronization -i examples/hamronized/groot.groot-db.tsv -o outputs/hamronized/groot.groot-db.tsv
+argnorm hamronization -i examples/hamronized/groot.groot-core-db.tsv -o outputs/hamronized/groot.groot-core-db.tsv
