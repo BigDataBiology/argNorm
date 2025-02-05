@@ -30,7 +30,7 @@ def _get_drug_classes(super_classes_list: List[str]) -> List[str]:
 
     return output
 
-def confers_resistance_to(aro_num: str) -> List[str]:
+def _get_drugs(aro_num: str) -> List[str]:
     '''
     Description: Returns a list of the drugs/antibiotics to which a gene confers resistance to.
 
@@ -41,33 +41,44 @@ def confers_resistance_to(aro_num: str) -> List[str]:
         target (list[str]):
             A list with ARO number of the drugs/antibiotics to which the input gene confers resistance to.
     '''
-    # some gene superclasses can map to drugs which are immediate children of 'antibiotic molecule'
-    # only use these if no other drugs can be found, as this information will be present in drugs_to_drug_classes
 
-    backup_drugs = []
     target = set()
     
     for superclass in ARO[aro_num].superclasses():
         for drug in ARO[superclass.id].relationships.get(confers_resistance_to_drug_class_rel, []):
-            if list(ARO[drug.id].superclasses())[1:] == antibiotic_molecule_node:
-                backup_drugs.append(drug.id)
-            else:
-                target.add(drug.id)
+            target.add(drug.id)
                 
         for drug in ARO[superclass.id].relationships.get(confers_resistance_to_antibiotic_rel, []):
-            if list(ARO[drug.id].superclasses())[1:] == antibiotic_molecule_node:
-                backup_drugs.append(drug.id)
-            else:
-                target.add(drug.id)
+            target.add(drug.id)
 
         for rel in [regulates_rel, participates_in_rel, part_of_rel]:
             for term in superclass.relationships.get(rel, []):
-                target.update(confers_resistance_to(term.id))
-
-    if not target:
-        target.update(backup_drugs)
+                target.update(_get_drugs(term.id))
 
     return sorted(target)
+
+def confers_resistance_to(aro_num: str) -> List[str]:
+    # some gene superclasses can map to drugs which are immediate children of 'antibiotic molecule'
+    # only use these if no other drugs can be found, as this information will be present in drugs_to_drug_classes
+
+    drugs = set(_get_drugs(aro_num))
+    
+    drug_classes = set()
+    for drug in drugs:
+        if list(ARO[drug].superclasses())[1:] == antibiotic_molecule_node:
+            drug_classes.add(drug)
+
+    drugs = drugs - drug_classes
+    redundant_drug_classes = set()
+    for drug in drugs:
+        for drug_class in drug_classes:
+            if ARO[drug_class] in list(ARO[drug].superclasses())[1:]:
+                redundant_drug_classes.add(drug_class)
+                
+    drug_classes = drug_classes - redundant_drug_classes
+    drugs.update(drug_classes)
+    
+    return sorted(drugs)
 
 def drugs_to_drug_classes(drugs_list: List[str]) -> List[str]:
     '''
