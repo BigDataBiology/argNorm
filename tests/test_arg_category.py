@@ -19,7 +19,8 @@ def test_confers_resistance_to():
         "ARO:3001414",
         "ARO:3003548",
         "ARO:3000826",
-        "ARO:3003066"
+        "ARO:3003066",
+        "ARO:3003745"
     ]
 
     expected_output = [
@@ -30,8 +31,9 @@ def test_confers_resistance_to():
         ["ARO:0000015", "ARO:3000008"],
         ['ARO:0000032', 'ARO:0000056', 'ARO:3000008'],
         ['ARO:0000045', 'ARO:0000047'],
-        ['ARO:0000030', 'ARO:0000051', 'ARO:3000169', 'ARO:3000385', 'ARO:3000637', 'ARO:3000704', 'ARO:3000870'],
-        ['ARO:0000032', 'ARO:3000008']
+        ['ARO:0000001', 'ARO:0000030', 'ARO:0000051', 'ARO:3000169', 'ARO:3000385', 'ARO:3000637', 'ARO:3000704', 'ARO:3000870'],
+        ['ARO:0000016', 'ARO:0000032', 'ARO:3000008'],
+        ['ARO:0000000', 'ARO:3000668']
     ]
 
     for t,e in zip(test_cases, expected_output):
