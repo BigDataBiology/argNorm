@@ -157,7 +157,8 @@ def combine_groot_mappings(argannot_path, resfinder_path, card_path, missing_pat
         card_groot_mapping,
         missing_groot_mapping
     ]).sort_values(by=['Original ID'])
-    comb_groot_mapping.to_csv('./mapping/groot_ARO_mapping.tsv', sep='\t', index=False)
+    oname_aro = 'mapping/groot_ARO_mapping.tsv'
+    comb_groot_mapping.to_csv(oname_aro, sep='\t', index=False)
 
     groot_missing_genes = []
     with open('./manual_curation/groot_missing.fasta', 'r') as ifile:
@@ -165,13 +166,20 @@ def combine_groot_mappings(argannot_path, resfinder_path, card_path, missing_pat
             groot_missing_genes.append(record.id)
             
     groot_manual_curation = pd.DataFrame(list(set(groot_missing_genes) - set(comb_groot_mapping['Original ID'])), columns=['Original ID'])
-    groot_manual_curation.to_csv('./manual_curation/groot_curation.tsv', sep='\t', index=False)
+    oname_manual = 'manual_curation/groot_curation.tsv'
+    groot_manual_curation.to_csv(oname_manual, sep='\t', index=False)
+    return oname_aro, oname_manual
+
+@TaskGenerator
+def copy_file(oname, dest):
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    os.rename(oname, dest)
+    return dest
 
 def get_groot_aro_mapping():
     argannot_input = get_groot_argannot_db()
     resfinder_input = get_groot_resfinder_db()
     card_input = get_groot_card_db()
     missing_input = get_groot_missing()
-    combine_groot_mappings(argannot_input, resfinder_input, card_input, missing_input)
-    barrier()
-    os.rename('./mapping/groot_ARO_mapping.tsv', '../argnorm/data/groot_ARO_mapping.tsv')
+    onames = combine_groot_mappings(argannot_input, resfinder_input, card_input, missing_input)
+    copy_file(onames[0], '../argnorm/data/groot_ARO_mapping.tsv')
