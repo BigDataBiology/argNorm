@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argnorm"
+dynamic = ['version']
+description = "Normalize antibiotic resistance genes (ARGs) results by using the ARO ontology (developed by CARD)."
+readme = "README.md"
+authors = [
+    { name = "ArgNorm Developers", email = "luispedro@big-data-biology.org" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.7"
+keywords = ["bioinformatics", "antibiotic-resistance", "ontology"]
+dependencies = [
+    "pandas",
+    "pronto"
+]
+classifiers = [
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+]
+
+[project.urls]
+Homepage = "https://github.com/BigDataBiology/argNorm"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["argnorm", "argnorm.data"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"argnorm" = ["data/aro.obo", "data/*.tsv", "data/manual_curation/*.tsv"]
+
+[project.scripts]
+argnorm = "argnorm.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "argnorm.argnorm_version.__version__"}
