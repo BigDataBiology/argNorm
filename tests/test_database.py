@@ -13,7 +13,8 @@ def test_database(database):
 
     db = lib.get_aro_mapping_table(database)
     assert len(db.index) == len(set(db.index)), f'Duplicate gene names in {database}'
-    for ar in db['ARO'].dropna():
+
+    for ar in set(db['ARO'].dropna()):
         assert ar in ARO, f'ARO not found in the ontology: {ar}'
         assert determinant_of_ab_resistance in ARO[ar].superclasses(), f'ARO not a determinant of antibiotic resistance: {ar}'
         for d in drug_categorization.confers_resistance_to(ar):
