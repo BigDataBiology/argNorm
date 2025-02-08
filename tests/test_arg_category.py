@@ -142,3 +142,27 @@ def test_multiple_parents():
     edeine_A = _assert_aro_name('ARO:3000130', 'edeine A')
     assert drugs_to_drug_classes([edeine_A]) == [_assert_aro_name('ARO:3000053', 'peptide antibiotic')]
 
+
+def test_categories_all():
+    import pandas as pd
+    golden = pd.read_csv('tests/all_aros_category.tsv.gz',
+                         sep='\t',
+                         index_col=0)
+    golden = golden.T.to_dict(orient='list')
+
+    ARO = get_aro_ontology()
+
+    for ar in ARO.terms():
+        ar = ar.id
+        drugs = list(confers_resistance_to(ar))
+        # the walrus operator is only available in python 3.8+, so we have to
+        # do this in two steps
+        expected = golden.get(ar)
+        if expected:
+            cats = drugs_to_drug_classes(drugs)
+            drugs = ';'.join(drugs)
+            cats = ';'.join(cats)
+            assert [drugs, cats] == expected
+        else:
+            assert not drugs
+
