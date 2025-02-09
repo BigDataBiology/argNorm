@@ -1,6 +1,14 @@
 import pytest
 from argnorm import lib
 from argnorm.lib import map_to_aro, get_aro_mapping_table
+import shutil
+import tempfile
+import requests
+import zipfile
+import pandas as pd
+import os
+
+ARO = lib.get_aro_ontology()
 
 def test_map_to_aro():
     test_cases = [
@@ -16,7 +24,6 @@ def test_map_to_aro():
         ["groot-db_RESFINDER__tet(W)_1_DQ060146", 'groot-db']
     ]
 
-    ARO = lib.get_aro_ontology()
     expected_output = [
         ARO.get_term('ARO:3002563'),
         ARO.get_term('ARO:3004623'),
@@ -41,3 +48,63 @@ def test_get_aro_mapping_table_smoke(database):
     df = get_aro_mapping_table(database)
     assert len(df) > 0
 
+def _download_file(url, ofile):
+    os.makedirs('./tests/megares_mappings', exist_ok=True)
+    with open(ofile, 'wb') as f:
+        r = requests.get(url, stream=True)
+        for chunk in r.iter_content(chunk_size=8192):
+            f.write(chunk)
+    return ofile
+
+def _get_megares_headers():
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmp_zip = f'{tmpdir}/megares.zip'
+        _download_file('https://www.meglab.org/downloads/megares_v3.00.zip', tmp_zip)
+
+        with zipfile.ZipFile(tmp_zip, 'r') as zip_ref:
+            zip_ref.extractall(f'{tmpdir}/megares/')
+
+        shutil.copy(f'{tmpdir}/megares/megares_v3.00/megares_to_external_header_mappings_v3.00.csv', './tests/megares_mappings/megares_headers.csv')
+
+    return './tests/megares_mappings/megares_headers.csv'
+
+def _search_argnorm_mappings(mappings, db):
+    mappings.drop(columns=['UpdatedHeader', 'Database'], inplace=True)
+    aros = []
+    mapping_table = get_aro_mapping_table(db)
+    mapping_table.index = list(mapping_table.index.map(lambda x: str(x).lower()))
+
+    for header in mappings['Source_header']:
+        try:
+            aros.append(str(mapping_table.loc[header.strip().lower(), 'ARO'])[4:])
+        except KeyError:
+            aros.append(None)
+
+    mappings['ARO'] = aros
+    mappings['Database'] = db
+    mappings.rename(columns={'MEGARes_header': 'Original ID'}, inplace=True)
+    return mappings.dropna()
+
+def _get_resfinder_mappings(megares_headers):
+    mappings = _search_argnorm_mappings(megares_headers[
+        ((megares_headers.Database == 'ResFinder') | (megares_headers.Database == 'Resfinder'))\
+        & (~ megares_headers.MEGARes_header.str.contains('Multi-compound'))\
+        & (~ megares_headers.MEGARes_header.str.contains('Metals'))\
+        & (~ megares_headers.MEGARes_header.str.contains('Biocides'))], 'resfinder')
+    return mappings
+
+def _get_argannot_mappings(megares_headers):
+    mappings = _search_argnorm_mappings(megares_headers[megares_headers.Database == 'ARG-ANNOT'], 'argannot')
+    return mappings
+
+def test_megares_mappings():
+    headers_path = _get_megares_headers()
+    megares_headers = pd.read_csv(headers_path)   
+    argannot_and_resfinder_mappings = pd.concat([_get_argannot_mappings(megares_headers), _get_resfinder_mappings(megares_headers)])
+    
+    for i in range(argannot_and_resfinder_mappings.shape[0]):
+        gene = argannot_and_resfinder_mappings.iloc[i]['Original ID']
+        aro = argannot_and_resfinder_mappings.iloc[i]['ARO']
+        assert map_to_aro(gene, 'megares') == ARO.get_term(f'ARO:{aro}')
+    
+    shutil.rmtree('./tests/megares_mappings')
