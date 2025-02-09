@@ -51,6 +51,7 @@ def search_argnorm_mappings(mappings, db):
             aros.append(np.nan)
 
     mappings['ARO'] = aros
+    mappings['Database'] = db
     mappings.rename(columns={'MEGARes_header': 'Original ID'}, inplace=True)
     return mappings
 
@@ -121,8 +122,7 @@ def setup_for_rgi():
         get_argannot_mappings(megares_headers)
     ])
     missing_mappings = get_missing_mappings(resfinder_argannot_mapping, megares_headers)
-    resfinder_argannot_mapping.drop(columns=['Source_header'], inplace=True)
-    resfinder_argannot_mapping.to_csv('./mapping/megares_card_resfinder_argannot_mapping.tsv', sep='\t', index=False)
+    resfinder_argannot_mapping.to_csv('./mapping/megares_resfinder_argannot_mapping.tsv', sep='\t', index=False)
     return generate_missing_mappings_fasta(missing_mappings, './dbs/megares.fasta')
 
 @TaskGenerator
@@ -159,7 +159,8 @@ def get_contig_rgi_output(contig_fasta):
 
 @TaskGenerator
 def merge_megares_mappings(cds_mapping, contig_mapping):
-    megares_mappings = pd.read_csv('./mapping/megares_card_resfinder_argannot_mapping.tsv', sep='\t')
+    megares_mappings = pd.read_csv('./mapping/megares_resfinder_argannot_mapping.tsv', sep='\t')
+    megares_mappings.drop(columns=['Source_header', 'Database'], inplace=True)
     cds_mapping = pd.read_csv(cds_mapping, sep='\t')
     contig_mapping = pd.read_csv(contig_mapping, sep='\t')
 

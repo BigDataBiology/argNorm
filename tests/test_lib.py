@@ -1,6 +1,9 @@
 import pytest
 from argnorm import lib
 from argnorm.lib import map_to_aro, get_aro_mapping_table
+import pandas as pd
+
+ARO = lib.get_aro_ontology()
 
 def test_map_to_aro():
     test_cases = [
@@ -16,7 +19,6 @@ def test_map_to_aro():
         ["groot-db_RESFINDER__tet(W)_1_DQ060146", 'groot-db']
     ]
 
-    ARO = lib.get_aro_ontology()
     expected_output = [
         ARO.get_term('ARO:3002563'),
         ARO.get_term('ARO:3004623'),
@@ -41,3 +43,16 @@ def test_get_aro_mapping_table_smoke(database):
     df = get_aro_mapping_table(database)
     assert len(df) > 0
 
+def test_megares_mappings():
+    """
+    Megares annotations are derived from argannot and resfinder mappings (see db_hamronisation/construct_megares_mappings.py).
+    Checking to see if megares mappings taken directly from argannot and resfinder are correct/updated because they can be missed
+    when running `construct_megares_mappings.py` as it depends on existing argnorm mappings.
+    """
+    
+    # "megares_resfinder_argannot_mapping.tsv" is created in "db_harmonisation/construct_megares_mappings.py"
+    # It can be found in "db_harmonisation/mapping/" directory which is created when "crude_db_harmonisation.py" is run
+    megares_mappings = pd.read_csv('./tests/megares_mappings/megares_resfinder_argannot_mapping.tsv', sep='\t').dropna()
+    mapped_genes = list(megares_mappings['Original ID'].map(lambda x: map_to_aro(x, 'megares')))
+    mapped_aros = list(megares_mappings['ARO'].map(lambda x: ARO.get_term(f'ARO:{int(x)}')))    
+    assert mapped_genes == mapped_aros
