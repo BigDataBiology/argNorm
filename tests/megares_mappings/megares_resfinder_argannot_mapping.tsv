@@ -1,0 +1,661 @@
+Source_header	Original ID	ARO	Database
+aac(3)-VIa_2_NC_009838	MEG_65|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3002540	resfinder
+aac(3)-IIIb_1_L06160 	MEG_66|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3002537	resfinder
+aac(3)-Ia_1_X15852 	MEG_67|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3002528	resfinder
+aac(6')-Ib_2_M23634 	MEG_366|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002581	resfinder
+aac(6')-Ib_1_M21682 	MEG_367|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002581	resfinder
+blaACC-1d_1_ADCU02000001	MEG_394|Drugs|betalactams|Class_C_betalactamases|ACC	3006231	resfinder
+aadA2b_1_D43625	MEG_974|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002602	resfinder
+aadA2_1_NC_010870 	MEG_975|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002602	resfinder
+aph(3')-IIa_1_X57709 	MEG_1080|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3002644	resfinder
+aph(3')-VI_2_APPJ01000012 	MEG_1081|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3002652	resfinder
+aph(6)-Id_4_CP000971 	MEG_1097|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH6	3002660	resfinder
+blaPAM-1_1_AB858498 	MEG_1295|Drugs|betalactams|Class_A_betalactamases|BLAPAM	3007199	resfinder
+blaPLA-4A_1_AY507664 	MEG_1296|Drugs|betalactams|Class_B_betalactamases|BLAPLA	3009030	resfinder
+blaPLA-5A_1_DQ249871 	MEG_1297|Drugs|betalactams|Class_B_betalactamases|BLAPLA	3009031	resfinder
+blaSGM-2_1_AP010803 	MEG_1312|Drugs|betalactams|Class_A_betalactamases|BLASGM	3006988	resfinder
+blaZ_54_NZ_JVRB01000003	MEG_1331|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_46_CP010944	MEG_1332|Drugs|betalactams|Class_A_betalactamases|BLAZ	3000621	resfinder
+blaZ_41_AENR01000015	MEG_1333|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_51_NZ_JVWO01000108	MEG_1334|Drugs|betalactams|Class_A_betalactamases|BLAZ	3000621	resfinder
+blaZ_72_NZ_CUHG01000035	MEG_1335|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_118_NC_004461	MEG_1336|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_20_JBVX01000014	MEG_1337|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_65_CSEV01000005	MEG_1338|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_106_FQHX01000011	MEG_1339|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_61_NZ_JVAT01000021	MEG_1340|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_37_JIFD01000012	MEG_1341|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_103_FQSJ01000009	MEG_1342|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_24_JBLQ01000018	MEG_1343|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_121_AIWM01000014	MEG_1344|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_123_NC_013653	MEG_1345|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_60_NZ_JVML01000111	MEG_1346|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_74_CZWI01000159	MEG_1347|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_122_NZ_AJGE01000057	MEG_1348|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_40_NZ_AZBT01000050	MEG_1349|Drugs|betalactams|Class_A_betalactamases|BLAZ	3000621	resfinder
+blaZ_44_NZ_JWJJ01000015	MEG_1350|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_27_JDGZ01000043	MEG_1351|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_119_NZ_CANQ01000029	MEG_1352|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_125_CP003194	MEG_1353|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_82_FGSJ01000003	MEG_1354|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_120_NZ_ALWG01000005	MEG_1355|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_96_LNDI01000019	MEG_1356|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_13_KF471116	MEG_1357|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_45_CP010941	MEG_1358|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_25_JBKK01000017	MEG_1359|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_23_JBND01000015	MEG_1360|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_18_JBQW01000016	MEG_1361|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_26_JBJP01000007	MEG_1362|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_104_FQHI01000006	MEG_1363|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_33_JIXQ01000012	MEG_1364|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_105_FQJS01000007	MEG_1365|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_88_FKTX01000011	MEG_1366|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_107_FQDM01000011	MEG_1367|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_135_AB811795	MEG_1368|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_97_FMOK01000003	MEG_1369|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_43_NZ_CAVU010000015	MEG_1370|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_47_NZ_JYGF01000020	MEG_1371|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_19_JBMK01000007	MEG_1372|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_110_AJCZ01000013	MEG_1373|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_100_LTMH01000008	MEG_1374|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_116_NC_013348	MEG_1375|Drugs|betalactams|Class_A_betalactamases|BLAZ	3000621	resfinder
+blaZ_124_NC_013944	MEG_1376|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_114_NC_013379	MEG_1377|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_109_AOAS01000022	MEG_1378|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_86_AIZE01000023	MEG_1379|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_90_FKVU01000010	MEG_1380|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_28_JDYO01000009	MEG_1381|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_73_CYNA01000004	MEG_1382|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_64_CSJB01000017	MEG_1383|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_14_JBAG01000015	MEG_1384|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_48_CFPA01000022	MEG_1385|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_71_NZ_CUGR01000082	MEG_1386|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_102_MLQA01000023	MEG_1387|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_76_FFOR01000002	MEG_1388|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_115_FN433596	MEG_1389|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_32_JINH01000005	MEG_1390|Drugs|betalactams|Class_A_betalactamases|BLAZ	3000621	resfinder
+blaZ_34_JJAO01000008	MEG_1391|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_30_JGUQ01000012	MEG_1392|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_69_NZ_CUHB01000033	MEG_1393|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_113_AHVS01000008	MEG_1394|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_112_AKGL01000044	MEG_1395|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_92_FKWG01000001	MEG_1396|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_38_NZ_JEMM01000040	MEG_1397|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_70_NZ_CUEK01000047	MEG_1398|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_94_LYRW01000005	MEG_1399|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_39_JHTU01000073	MEG_1400|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_68_NZ_CUHK01000055	MEG_1401|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_21_JGQH01000014	MEG_1402|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_111_AJCN01000010	MEG_1403|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_62_NZ_JVOH01000023	MEG_1404|Drugs|betalactams|Class_A_betalactamases|BLAZ	3000621	resfinder
+blaZ_117_ACHE01000004	MEG_1405|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_35_JIVZ01000012	MEG_1406|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_133_AIDT01000014	MEG_1407|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_78_KU607301	MEG_1408|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_79_KU607584	MEG_1409|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_80_KU607855	MEG_1410|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_138_CP003979	MEG_1411|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_12_M15195	MEG_1412|Drugs|betalactams|Class_A_betalactamases|BLAZ	3007101	resfinder
+blaZ_29_JDXN01000019	MEG_1413|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_16_JBTH01000015	MEG_1414|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_85_NZ_FHDT01000016	MEG_1415|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_53_NZ_JUXQ01000001	MEG_1416|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_84_FHDH01000010	MEG_1417|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_55_NZ_JVLY01000044	MEG_1418|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_57_NZ_JURP01000126	MEG_1419|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_59_NZ_JVBT01000063	MEG_1420|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_56_NZ_JUMU01000089	MEG_1421|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_52_NZ_JVWM01000127	MEG_1422|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_132_AHVO01000010	MEG_1423|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_137_GQ915265	MEG_1424|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_108_FQPO01000005	MEG_1425|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_136_NZ_ALWE01000009	MEG_1426|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_134_NZ_AJGE01000047	MEG_1427|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_63_NZ_JUMX01000103	MEG_1428|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_87_NZ_LRNC01000042	MEG_1429|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_77_FGNH01000009	MEG_1430|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_83_FGWO01000019	MEG_1431|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_99_LTNH01000008	MEG_1432|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_67_NZ_CTTL01000039	MEG_1433|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_36_JITV01000006	MEG_1434|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_89_FKPS01000007	MEG_1435|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_95_MAJJ01000071	MEG_1436|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_31_JIFU01000008	MEG_1437|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_75_LNTF01000008	MEG_1438|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_58_NZ_JUUA01000057	MEG_1439|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_81_FGJZ01000020	MEG_1440|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_130_AHKZ01000073	MEG_1441|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_98_LTEF01000041	MEG_1442|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_101_LTLP01000099	MEG_1443|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_42_CCEE01000006	MEG_1444|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_131_GQ900485	MEG_1445|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_66_CSGM01000014	MEG_1446|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_17_JDDF01000008	MEG_1447|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_91_FKQH01000022	MEG_1448|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_15_JAZQ01000018	MEG_1449|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_22_JCHI01000035	MEG_1450|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_50_KR230047	MEG_1451|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_126_NC_013374	MEG_1452|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_127_ACFR01000018	MEG_1453|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_128_GQ900471	MEG_1454|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_93_FKQA01000038	MEG_1455|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+blaZ_49_CVLS01000543	MEG_1456|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	resfinder
+cfr(C)_2_CANB01000378 	MEG_1680|Drugs|MLS|23S_rRNA_methyltransferases|CFR	3005023	resfinder
+cml_1_M22614 	MEG_1773|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|CMLA	3002693	resfinder
+cmr_1_U43535	MEG_1779|Drugs|Multi-drug_resistance|Multi-drug_MFS_efflux_pumps|CMR	3007838	resfinder
+blaCMY-2b_1_U77414	MEG_2000|Drugs|betalactams|Class_C_betalactamases|CMY	3002013	resfinder
+blaCMY-142_1_KX881969	MEG_2001|Drugs|betalactams|Class_C_betalactamases|CMY	3005195	resfinder
+blaCTX-M-14b_1_DQ359215 	MEG_2436|Drugs|betalactams|Class_A_betalactamases|CTX	3001877	resfinder
+blaCTX-M-110_1_JF274242 	MEG_2437|Drugs|betalactams|Class_A_betalactamases|CTX	3001970	resfinder
+blaCTX-M-206_1_KJ802520	MEG_2438|Drugs|betalactams|Class_A_betalactamases|CTX	3005629	resfinder
+dfrB3_2_FM877478 	MEG_2570|Drugs|Trimethoprim|Dihydrofolate_reductase|DFRB	3003022	resfinder
+dfrB7_1_DQ993182 	MEG_2571|Drugs|Trimethoprim|Dihydrofolate_reductase|DFRB	3005350	resfinder
+blaDHA-14_1_DQ478687	MEG_2613|Drugs|betalactams|Class_C_betalactamases|DHA	3002145	resfinder
+erm(B)_26_AF080450 	MEG_2806|Drugs|MLS|23S_rRNA_methyltransferases|ERMB	3000375	resfinder
+erm(B)_22_X52632 	MEG_2807|Drugs|MLS|23S_rRNA_methyltransferases|ERMB	3000375	resfinder
+erm(V)_1_U59450 	MEG_2853|Drugs|MLS|23S_rRNA_methyltransferases|ERMV	3002824	resfinder
+EstDL136_1_JN242251 	MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	3000557	resfinder
+fexB_1_JN201336 	MEG_2906|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|FEXB	3007019	resfinder
+fmrO_1_Q08325 	MEG_2932|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|FMRO	3000858	resfinder
+fomB_1_AB016934 	MEG_2975|Drugs|Fosfomycin|Fosfomycin_phosphorylation|FOMB	3000449	resfinder
+fosA_2_AGDM01000012	MEG_2998|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA	3003209	resfinder
+fosA_5_NZ_AEXB01000013	MEG_2999|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA		resfinder
+fosA_6_NZ_DS999363	MEG_3000|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA		resfinder
+fosA_7_NZ_AFBO01000747	MEG_3001|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA		resfinder
+fosA6_1_KU254579 	MEG_3002|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA	3004111	resfinder
+fosA4_1_AB908992 	MEG_3003|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA	3003210	resfinder
+fosE_2_AY029772 	MEG_3020|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSE	3007370	resfinder
+grmA_1_M55520 	MEG_3173|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|GRM	3000862	resfinder
+grmO_1_AY524043 	MEG_3174|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|GRM	3000862	resfinder
+blaIMP-6_1_AB753460	MEG_3398|Drugs|betalactams|Class_B_betalactamases|IMP	3002197	resfinder
+blaIMP-9_1_FJ655384	MEG_3399|Drugs|betalactams|Class_B_betalactamases|IMP	3002200	resfinder
+kamB_1_AJ629123 	MEG_3444|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|KAMB	3004102	resfinder
+kgmB_1_S60108 	MEG_3450|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|KGMB	3000862	resfinder
+kmr_1_ENA_ACB88605	MEG_3459|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|KMR	3002665	resfinder
+blaKPC-25_1_KU216748	MEG_3511|Drugs|betalactams|Class_A_betalactamases|KPC	3005357	resfinder
+blaLEN10_1_AJ635419 	MEG_3579|Drugs|betalactams|Class_A_betalactamases|LEN	3002460	resfinder
+lnu(F)_1_EU118119 	MEG_3619|Drugs|MLS|Lincosamide_nucleotidyltransferases|LNUF	3002879	resfinder
+mecA_9_AB505630	MEG_3787|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecA_3_Y13095	MEG_3788|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecA_5_AB546267	MEG_3789|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecA1_1_AB547235	MEG_3790|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecA1_3_Y13094	MEG_3791|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecA1_4_AB547236	MEG_3792|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecA_7_HE861945	MEG_3793|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecA_4_AB546266	MEG_3794|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	resfinder
+mecC_3_KR732654	MEG_3799|Drugs|betalactams|Penicillin_binding_protein|MECC	3001209	resfinder
+mecC2_1_KF955540	MEG_3800|Drugs|betalactams|Penicillin_binding_protein|MECC	3001209	resfinder
+mef(A)_4_HG423652	MEG_3826|Drugs|MLS|MLS_resistance_MFS_efflux_pumps|MEFA	3000616	resfinder
+mph(C)_5_AM180067	MEG_4040|Drugs|MLS|Macrolide_phosphotransferases|MPHC	3000319	resfinder
+mph(D)_1_AB048591	MEG_4041|Drugs|MLS|Macrolide_phosphotransferases|MPHD	3000333	resfinder
+mph(N)_1_KF648874	MEG_4051|Drugs|MLS|Macrolide_phosphotransferases|MPHN	3000318	resfinder
+nimF_1_AJ515145 	MEG_4186|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMF	3007108	resfinder
+nimH_1_KX576455 	MEG_4187|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMH	3007110	resfinder
+optrA_20_ALMZ01000078 	MEG_4305|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_15_KX620942 	MEG_4306|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_4_KT862777 	MEG_4307|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_14_KX620941 	MEG_4308|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_11_KX620934 	MEG_4309|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_3_KT862780 	MEG_4310|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_18_ALMH01000001 	MEG_4311|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_12_KX620936 	MEG_4312|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_2_KT862781 	MEG_4313|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_10_KT601170 	MEG_4314|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_19_ALMN01000021 	MEG_4315|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_17_ALZI01000051 	MEG_4316|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_8_KT862782 	MEG_4317|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_7_KT862775 	MEG_4318|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_16_AMBD01000029 	MEG_4319|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_5_KT862783 	MEG_4320|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_6_KT862784 	MEG_4321|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_9_KT892063 	MEG_4322|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+optrA_13_KX620939 	MEG_4323|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|OPTRA	3003746	resfinder
+blaOXA-182_1_HM640278	MEG_5263|Drugs|betalactams|Class_D_betalactamases|OXA	3001709	resfinder
+blaOXA-193_1_CP013032	MEG_5264|Drugs|betalactams|Class_D_betalactamases|OXA	3001478	resfinder
+blaOXA-499_1_KT964029	MEG_5265|Drugs|betalactams|Class_D_betalactamases|OXA	3005343	resfinder
+blaOXA-486_1_AY597426	MEG_5266|Drugs|betalactams|Class_D_betalactamases|OXA	3003643	resfinder
+blaOXA-21_1_AB626885	MEG_5267|Drugs|betalactams|Class_D_betalactamases|OXA	3001416	resfinder
+blaOXA-16_1_AF043100 	MEG_5268|Drugs|betalactams|Class_D_betalactamases|OXA	3001409	resfinder
+blaOXA-490_1_KU721147	MEG_5269|Drugs|betalactams|Class_D_betalactamases|OXA	3003620	resfinder
+blaOXA-289_1_APRM01000005	MEG_5270|Drugs|betalactams|Class_D_betalactamases|OXA	3001744	resfinder
+blaOXA-290_1_APOK01000044	MEG_5271|Drugs|betalactams|Class_D_betalactamases|OXA	3001745	resfinder
+blaOXA-494_1_AY597430	MEG_5272|Drugs|betalactams|Class_D_betalactamases|OXA	3005727	resfinder
+blaOXA-493_1_KU739135	MEG_5273|Drugs|betalactams|Class_D_betalactamases|OXA	3005726	resfinder
+blaOXA-208_1_KF305665	MEG_5274|Drugs|betalactams|Class_D_betalactamases|OXA	3001486	resfinder
+blaOXA-410_1_KJ584919	MEG_5275|Drugs|betalactams|Class_D_betalactamases|OXA	3001601	resfinder
+blaOXA-272_1_LSAL01000001	MEG_5276|Drugs|betalactams|Class_D_betalactamases|OXA	3001728	resfinder
+blaOXA-36_1_AF300985 	MEG_5277|Drugs|betalactams|Class_D_betalactamases|OXA	3008468	resfinder
+penA_1_AF515059 	MEG_5405|Drugs|betalactams|Penicillin_binding_protein|PBP2|RequiresSNPConfirmation	3004185	resfinder
+qnrA8_1_KY554783 	MEG_5877|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRA	3002709	resfinder
+qnrB10_1_DQ631414 	MEG_6000|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002724	resfinder
+qnrB41_1_JN166690 	MEG_6001|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002756	resfinder
+qnrB47_1_JQ349155 	MEG_6002|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002762	resfinder
+qnrB46_1_JQ349154 	MEG_6003|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002762	resfinder
+qnrB45_1_JQ349152 	MEG_6004|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002760	resfinder
+qnrB76_1_KM985469 	MEG_6005|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002723	resfinder
+qnrB43_1_JQ349151 	MEG_6006|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002758	resfinder
+qnrB44_1_JQ349153 	MEG_6007|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002759	resfinder
+qnrB6_2_EF523819 	MEG_6008|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002720	resfinder
+qnrB17_2_AM919398 	MEG_6009|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002732	resfinder
+blaTEM-32_1_CXLQ01000061	MEG_6952|Drugs|betalactams|Class_A_betalactamases|TEM	3000902	resfinder
+tet(39)_1_KT346360 	MEG_6990|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TET39	3000566	resfinder
+tet(44)_1_NZ_ABDU01000081	MEG_6998|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TET44	3000556	resfinder
+tet(J)_1_ACLE01000065	MEG_7088|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETJ	3000177	resfinder
+tet(S/M)_2_AY534326 	MEG_7147|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETM	3000192	resfinder
+tet(S/M)_1_HM367711 	MEG_7148|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETM	3000186	resfinder
+tet(O/W)_5_AM889122 	MEG_7163|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007121	resfinder
+tet(O/32/O)_4_AIOQ01000025 	MEG_7164|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3000190	resfinder
+tet(O/32/O)_5_FP929050 	MEG_7165|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3000190	resfinder
+tet(O/32/O)_3_NZ_AUJS01000017 	MEG_7166|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3000190	resfinder
+tet(O/W/32/O)_1_EF065523 	MEG_7167|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007122	resfinder
+tet(O/W)-2_1_AY485122 	MEG_7168|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007121	resfinder
+tet(O/W)_3_AM889120 	MEG_7169|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007121	resfinder
+tet(O/W)_4_AM889121 	MEG_7170|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007121	resfinder
+tet(O/32/O)_1_JQ740052 	MEG_7171|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007119	resfinder
+tet(O/W/32/O)_2_FM164392 	MEG_7172|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007122	resfinder
+tet(O/W)_1_AM889118 	MEG_7173|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007121	resfinder
+tet(O/W)_2_AM889119 	MEG_7174|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007121	resfinder
+tet(O/W/O)-1_1_AY196921 	MEG_7175|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007123	resfinder
+tet(O/W)-1_1_AY485126 	MEG_7176|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007121	resfinder
+tet(O/W/32/O)_5_JQ740053 	MEG_7177|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007122	resfinder
+tet(W/32/O)_4_AM710605 	MEG_7234|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	resfinder
+tet(W/32/O)_3_AM710603 	MEG_7235|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	resfinder
+tet(W/32/O)_2_AM710602 	MEG_7236|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	resfinder
+tet(W/32/O)_1_AM710601 	MEG_7237|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	resfinder
+dldHA2X_1_AL939117	MEG_7344|Drugs|Glycopeptides|VanA-type_resistance_protein|VANA	3003970	resfinder
+VanC4XY_2_EU151753	MEG_7371|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC4XY_3_EU151756	MEG_7372|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC1XY_1_AF162694	MEG_7373|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC1XY_2_DQ022190	MEG_7374|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC2XY_2_EU151755	MEG_7375|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC2XY_1_EU151754	MEG_7376|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC4XY_1_EU151752	MEG_7377|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC2XY_3_EU151757	MEG_7378|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC3XY_1_AY033764	MEG_7379|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000368	resfinder
+VanC3XY_2_EU151759	MEG_7380|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC2XY_5_EU151760	MEG_7381|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanC2XY_4_EU151758	MEG_7382|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	resfinder
+VanEXY_1_FJ872411	MEG_7390|Drugs|Glycopeptides|VanE-type_resistance_protein|VANE	3000259	resfinder
+VanE_1_AF136925	MEG_7391|Drugs|Glycopeptides|VanE-type_resistance_protein|VANE	3002907	resfinder
+VanG2XY_1_FJ872410	MEG_7396|Drugs|Glycopeptides|VanG-type_resistance_protein|VANG	3000257	resfinder
+VanGXY_1_AY271782	MEG_7397|Drugs|Glycopeptides|VanG-type_resistance_protein|VANG	3000257	resfinder
+VanHAX_PA_1_DQ018711	MEG_7408|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	resfinder
+VanHAX_PT_1_DQ018710	MEG_7409|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	resfinder
+VanHAX_2_M97297	MEG_7410|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	resfinder
+VanHAX_1_FJ866609	MEG_7411|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	resfinder
+VanHAX_PT_2_AY926880	MEG_7412|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	resfinder
+VanHBX_1_AF192329	MEG_7417|Drugs|Glycopeptides|VanB-type_resistance_protein|VANHB	3000238	resfinder
+VanHBX_2_U35369	MEG_7418|Drugs|Glycopeptides|VanB-type_resistance_protein|VANHB	3000238	resfinder
+VanHFX_1_AF155139	MEG_7429|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000255	resfinder
+VanHDX_6_DQ172830	MEG_7430|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	resfinder
+VanHDX_5_AY489045	MEG_7431|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	resfinder
+VanHDX_4_AY082011	MEG_7432|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	resfinder
+VanHMX_1_FJ349556	MEG_7433|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000256	resfinder
+VanHDX_7_AB242319	MEG_7434|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	resfinder
+VanHDX_2_EU999036	MEG_7435|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	resfinder
+VanHDX_3_AF175293	MEG_7436|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	resfinder
+VanHDX_1_AF130997	MEG_7437|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	resfinder
+VanHOX_1_KF478993	MEG_7438|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3002918	resfinder
+VanLXY_1_EU250284	MEG_7445|Drugs|Glycopeptides|VanL-type_resistance_protein|VANL	3000260	resfinder
+VanNXY_1_JF802084	MEG_7447|Drugs|Glycopeptides|VanN-type_resistance_protein|VANN	3002917	resfinder
+VanX_bc_1_Y15708	MEG_7448|Drugs|Glycopeptides|VanN-type_resistance_protein|VANN	3002949	resfinder
+VanT-N_1_JF802084	MEG_7535|Drugs|Glycopeptides|VanN-type_resistance_protein|VANTN		resfinder
+vanXmurFvanKWI_1_NZAGAF01000127	MEG_7563|Drugs|Glycopeptides|VanB-type_resistance_protein|VANXB	3003722	resfinder
+vanXmurFvanWI_1_CP001336	MEG_7571|Drugs|Glycopeptides|VanM-type_resistance_protein|VANXM	3003722	resfinder
+vanXmurFvanKWI_2_AP008230	MEG_7572|Drugs|Glycopeptides|VanM-type_resistance_protein|VANXM	3003722	resfinder
+vga(A)LC_4_JQ312423	MEG_7686|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|VGA	3002830	resfinder
+vga(A)_3_JQ312422	MEG_7687|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|VGA	3002829	resfinder
+blaVIM-48_1_KY362199	MEG_7769|Drugs|betalactams|Class_B_betalactamases|VIM	3002272	resfinder
+aac(3)-IIa_6_CP023555	MEG_7869|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3004621	resfinder
+catT_1_MW030510	MEG_8014|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATT	3004657	resfinder
+grdA_1_QJX10702	MEG_8140|Drugs|Aminoglycosides|Gentamicin-resistant_ATP-binding_protein|GRDA	3007380	resfinder
+mcr-1.27_1_NG_068218	MEG_8237|Drugs|Lipopeptides|Colistin_phosphoethanolamine_transferase|MCR	3007232	resfinder
+mcr-10_1_MN179494	MEG_8238|Drugs|Lipopeptides|Colistin_phosphoethanolamine_transferase|MCR	3007137	resfinder
+poxtA-Ef_1_WP094899500.1	MEG_8639|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|POXT	3004470	resfinder
+qnrB90_1_MG182074	MEG_8656|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002724	resfinder
+tet(O/32/O)_6_NG_048124	MEG_8716|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETO	3007119	resfinder
+blaVMB-1_1_MN719868	MEG_8739|Drugs|betalactams|Class_B_betalactamases|VMB	3005015	resfinder
+(AGly)Aac2-Ic:U72714:373-918:546	MEG_13|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC2-PRIME	3002525	argannot
+(AGly)Aac3-I:AJ877225:5293-5757:465	MEG_43|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3002528	argannot
+(AGly)Aac3-IIa:X51534:91-951:861	MEG_44|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3004621	argannot
+(AGly)Aac3-IId:EU022314:1-861:861	MEG_45|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3004623	argannot
+(AGly)Aac3-IIe:EU022315:1-861:861	MEG_46|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3004621	argannot
+(AGly)Aac3-Ik:BX571856:765853-766296:444	MEG_47|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3		argannot
+(AGly)Aac3-If:AY884051:61-525:468	MEG_68|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3-PRIME	3002530	argannot
+(AGly)Aac:AJ628983:1985-2539:555	MEG_272|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002594	argannot
+(AGly)Aac6-IIa:M29695:707-1261:555	MEG_273|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002594	argannot
+(AGly)AacA29b:AY139599:768-1148:381	MEG_274|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002584	argannot
+(AGly)AacA4:AF416297:2738-3304:567	MEG_275|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002579	argannot
+(AGly/Flqn)Aac6Ib-cr:EF636461:1124-1642:519	MEG_276|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME		argannot
+(Bla)ACC-4:EF504260:1995-3155:1161	MEG_389|Drugs|betalactams|Class_C_betalactamases|ACC		argannot
+(Bla)ACT-4:AJ311172:12-1157:1146	MEG_445|Drugs|betalactams|Class_C_betalactamases|ACT		argannot
+(Bla)ACT-8:FN645445:1-1146:1146	MEG_446|Drugs|betalactams|Class_C_betalactamases|ACT		argannot
+(Bla)CMG:AY265892:1-1054:1054	MEG_447|Drugs|betalactams|Class_C_betalactamases|ACT		argannot
+(Bla)ZEG-1:AY265891:1-1013:1013	MEG_448|Drugs|betalactams|Class_C_betalactamases|ACT		argannot
+(Bla)beta-lactamase_class-C:NC_010410:1184557-1185747:1191	MEG_629|Drugs|betalactams|Class_C_betalactamases|ADC	3004615	argannot
+(Bla)AMPH_Ecoli:AP012030:395554-396711:1158	MEG_729|Drugs|betalactams|Penicillin_binding_protein|AMPH	3008131	argannot
+(Bla)AmpH:CP003785:4208384-4209544:1161	MEG_730|Drugs|betalactams|Penicillin_binding_protein|AMPH	3002149	argannot
+(AGly)AadA1-pm:JQ690540:7968-8798:831	MEG_915|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002601	argannot
+(AGly)AadA1:M95287:3320-4111:792;(AGly)AadA1b:JN596991:1364-2155:792	MEG_916|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME		argannot
+(AGly)AadA10:U37105:2807-3640:834	MEG_917|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3004692	argannot
+(AGly)AadA14:AJ884726:540-1325:786	MEG_918|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002614	argannot
+(AGly)AadA24:HQ123586:88-768:781	MEG_919|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002601	argannot
+(AGly)AadA4:AY138986:1-798:789	MEG_920|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002604	argannot
+(AGly)AadA7:AF224733:32-829:798	MEG_921|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002607	argannot
+(AGly)AadA8:AF326210:1-792:792	MEG_922|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002608	argannot
+(AGly)AadA8b:AM040708:1174-1965:792	MEG_923|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3004704	argannot
+(AGly)AadA9:AJ420072:26773-27609:837	MEG_924|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002609	argannot
+(AGly)Spc:X02588:331-1113:783	MEG_925|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT3-DPRIME	3002630	argannot
+(AGly)AadD:AF181950:3176-3946:771	MEG_981|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT4-PRIME	3002623	argannot
+(AGly)AadE-Pp:HE577054:1299623-1300477:855	MEG_992|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT6	3002627	argannot
+(AGly)AadK-Pm:CP002869:c4442322-4441435:888	MEG_993|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT6	3002627	argannot
+(AGly)Ant6-Ia:AF330699:22-930:909	MEG_994|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT6	3002628	argannot
+(AGly)Str:X92946:18908-18060:849	MEG_995|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT6	3002627	argannot
+(Agly)Aad9:M69221:271-1038:768	MEG_1005|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT9	3007401	argannot
+(AGly)Aph2-Ib:AF207840:272-1171:900	MEG_1011|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH2-DPRIME		argannot
+(AGly)Aph3''Ia:FJ172370:38668-39483:816	MEG_1044|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-DPRIME		argannot
+(AGly)StrA:AB366441:22458-23261:804	MEG_1045|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-DPRIME	3002639	argannot
+(AGly)APH-Stph:HE579073:1778413-1779213:801	MEG_1060|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3002663	argannot
+(AGly)Aph3-Ia:HQ840942:23569-24384:816	MEG_1061|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3002641	argannot
+(AGly)Aph3-Va:U24442:680-1456:780	MEG_1062|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3004680	argannot
+(AGly)Aph3-VIb:AJ627643:4934-5713:780	MEG_1063|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3002653	argannot
+(AGly)AphA15:Y18050:4758-5552:795	MEG_1064|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3004675	argannot
+(AGly)AphA6:JF949760:695-1474:771	MEG_1065|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME	3002652	argannot
+(AGly)AphVIII:AF182845:1-804:804	MEG_1066|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH3-PRIME		argannot
+(AGly)Aph6-Ia:AY971801:1-924:924	MEG_1088|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH6	3002657	argannot
+(AGly)Aph9-Ib:U70376:3618-4541:996	MEG_1089|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH6	3002658	argannot
+(AGly)Sph:AY037297:3548-2706:801	MEG_1090|Drugs|Aminoglycosides|Aminoglycoside_O-phosphotransferases|APH6		argannot
+(Rif)Arr6:JF922883:1-453:453	MEG_1127|Drugs|Rifampin|Rifampin_ADP-ribosyltransferase_Arr|ARR		argannot
+(Bla)BlaA:CP003048:1-885:885	MEG_1245|Drugs|betalactams|Class_A_betalactamases|BLAA	3004801	argannot
+(Bla)BlaA1:NC_010410:1803480-1804499:1020	MEG_1246|Drugs|betalactams|Class_A_betalactamases|BLAA	3000853	argannot
+(Bla)BlaA2:NC_010410:2507740-2509014:1275	MEG_1247|Drugs|betalactams|Class_A_betalactamases|BLAA	3007801	argannot
+(Bla)B-1:AF189298:1-750:750	MEG_1253|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-10:AY348325:1-747:747	MEG_1254|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-11:AY348326:1-750:750	MEG_1255|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-12:EF595958:1-750:750	MEG_1256|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-13:EF595959:1-750:750	MEG_1257|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-14:JN635697:973-1719:747	MEG_1258|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-2:AF189300:1-750:750	MEG_1259|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-3:AF162284:1-750:750	MEG_1260|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-5:AF189303:1-750:750	MEG_1261|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-6:AF189302:1-747:747	MEG_1262|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-7:AF189304:1-747:747	MEG_1263|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-8:AF189305:1-747:747	MEG_1264|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)B-9:AY348324:1-747:747	MEG_1265|Drugs|betalactams|Class_B_betalactamases|BLAB		argannot
+(Bla)BlaZ:AB245469:2235-3080:861	MEG_1321|Drugs|betalactams|Class_A_betalactamases|BLAZ	3008823	argannot
+(Bla)CARB-11:AY008290:1-867:867	MEG_1518|Drugs|betalactams|Class_A_betalactamases|CARB	3005559	argannot
+(Bla)CARB-2:HQ157204:747-1613:867;(Bla)CARB-8:GQ866976:1345-2211:867	MEG_1519|Drugs|betalactams|Class_A_betalactamases|CARB		argannot
+(Bla)CARB-6:AF030945:1-867:867	MEG_1520|Drugs|betalactams|Class_A_betalactamases|CARB		argannot
+(Phe)CatA8:NC_009751:21916-22563:648	MEG_1579|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA	3004658	argannot
+Phe|AF326777.3|gene18|Phenicol|Chloramphenicol_acetyltransferases|CATA	MEG_1580|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATA		argannot
+(Phe)CatB3:AJ009818:883-1515:633	MEG_1619|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATB|RequiresSNPConfirmation	3002676	argannot
+(Phe)CatB4:EU935739:59054-59602:549	MEG_1620|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATB|RequiresSNPConfirmation	3002676	argannot
+(Phe)CatB5:AAWG01000020:33604-34233:630	MEG_1621|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATB|RequiresSNPConfirmation	3002681	argannot
+(Bla)CEPA-29:U05884:556-1458:903	MEG_1645|Drugs|betalactams|Class_A_betalactamases|CEPA	3006224	argannot
+(Bla)CEPA-44:U05885:556-1458:903	MEG_1646|Drugs|betalactams|Class_A_betalactamases|CEPA	3006225	argannot
+(Bla)CEPA-49:U05886:404-1306:903	MEG_1647|Drugs|betalactams|Class_A_betalactamases|CEPA	3006226	argannot
+(Bla)CEPA-85:U05887:556-1458:903;(Bla)CEPA-29:FR688019:1-903:903	MEG_1648|Drugs|betalactams|Class_A_betalactamases|CEPA		argannot
+(Bla)CfiA1:AB087225:1-750:750	MEG_1666|Drugs|betalactams|Class_B_betalactamases|CFIA	3006912	argannot
+(Bla)cfiA10:AB087227:1-750:750	MEG_1667|Drugs|betalactams|Class_B_betalactamases|CFIA	3006906	argannot
+(Bla)cfiA12:FM200786:1-737:737	MEG_1668|Drugs|betalactams|Class_B_betalactamases|CFIA		argannot
+(Bla)cfiA13:FM200787:3-752:750	MEG_1669|Drugs|betalactams|Class_B_betalactamases|CFIA	3000578	argannot
+(Bla)cfiA14:FM200789:162-911:750	MEG_1670|Drugs|betalactams|Class_B_betalactamases|CFIA	3006908	argannot
+(Bla)cfiA15:AF429432:1501-2250:750	MEG_1671|Drugs|betalactams|Class_B_betalactamases|CFIA		argannot
+(Bla)cfiA2:AB087226:1-750:750	MEG_1672|Drugs|betalactams|Class_B_betalactamases|CFIA		argannot
+(Bla)cfiA3:AB087228:1-750:750	MEG_1673|Drugs|betalactams|Class_B_betalactamases|CFIA		argannot
+(Bla)cfiA4:AB087229:1-750:750;(Bla)CfiA5:AB087230:1-750:750;(Bla)cfiA7:AB087232:1-750:750;(Bla)cfiA11:FM200784:162-911:750	MEG_1674|Drugs|betalactams|Class_B_betalactamases|CFIA		argannot
+(Bla)cfiA6:AB087231:1-750:750;(Bla)CfiA16:FM200792:1845-2594:750;(Bla)cfi6A1:FM200792	MEG_1675|Drugs|betalactams|Class_B_betalactamases|CFIA		argannot
+(Bla)cfiA8:AB087233:1-750:750	MEG_1676|Drugs|betalactams|Class_B_betalactamases|CFIA	3006920	argannot
+(Bla)cfiA9:AB087234:1-750:750	MEG_1677|Drugs|betalactams|Class_B_betalactamases|CFIA	3006921	argannot
+(Bla)cfxA2:AF504910:1-966:966	MEG_1691|Drugs|betalactams|Class_A_betalactamases|CFX	3003002	argannot
+(Phe)CmlA1:M64556:601-1860:1260	MEG_1762|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|CMLA	3002693	argannot
+(Phe)Cmr:U85507:3518-4693:1172	MEG_1784|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|CMX	3002703	argannot
+(Bla)AmpC:AF211348:233-1378:1146	MEG_1834|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)CMY-12:FR716828:847-1992:1146	MEG_1835|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)CMY-13:AY339625:3641-4786:1146	MEG_1836|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)CMY-14:EU600193:1702-2847:1146	MEG_1837|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)CMY-2:AM779746:1-1149:1149	MEG_1838|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)CMY-36:EU331426:2375-3520:1146	MEG_1839|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)CMY-4:AF420597:1-1146:1146	MEG_1840|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)CMY-65:JN714479:1041-2186:1146	MEG_1841|Drugs|betalactams|Class_C_betalactamases|CMY		argannot
+(Bla)cphA:AY261378:1-765:765	MEG_2098|Drugs|betalactams|Class_B_betalactamases|CPHA	3003093	argannot
+(Bla)cphA7:AY227053:1-765:765	MEG_2099|Drugs|betalactams|Class_B_betalactamases|CPHA	3003103	argannot
+(Bla)CTX-M-109:JF274248:1-865:865	MEG_2216|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-131:JN969893:1-873:873	MEG_2217|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-133:AB185834:1-876:876	MEG_2218|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-33:AY238472:13-888:876	MEG_2219|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-37:AY649755:18-893-876	MEG_2220|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-38:AY753197:1-876:876	MEG_2221|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-43:HQ734713:1-876:876	MEG_2222|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-58:HQ734707:1-876:876	MEG_2223|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-61:GU125683:1-876:876	MEG_2224|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-62:GU125669:1-876:876	MEG_2225|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-7:AJ005045:1-876:976	MEG_2226|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-79:GU125702:1-876:876	MEG_2227|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Bla)CTX-M-97:HM776707:1-876:876	MEG_2228|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+Bla|CTX-M-107|JF274244|1-864|864|betalactams|Class_A_betalactamases|CTX	MEG_2229|Drugs|betalactams|Class_A_betalactamases|CTX		argannot
+(Tmt)DfrC:Z48233:337-822:486	MEG_2572|Drugs|Trimethoprim|Dihydrofolate_reductase|DFRC|RequiresSNPConfirmation	3002865	argannot
+(Tmt)DfrD:Z50141:94-582:489	MEG_2574|Drugs|Trimethoprim|Dihydrofolate_reductase|DFRD	3002866	argannot
+(Tmt)DfrK:FM207105:2788-3279:492	MEG_2581|Drugs|Trimethoprim|Dihydrofolate_reductase|DFRK	3002869	argannot
+(Bla)Mor-2:AY235804:110-1249:1140	MEG_2592|Drugs|betalactams|Class_C_betalactamases|DHA		argannot
+(Bla)MOR:Y10283:546-1685:1140	MEG_2593|Drugs|betalactams|Class_C_betalactamases|DHA		argannot
+(Phe)Dha1:BA000018:2517801-2518988:1188	MEG_2614|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|DHAP	3002703	argannot
+(Tmt)Dfr16:AF077008:115-558:474	MEG_2615|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3003014	argannot
+(Tmt)Dfr22:AJ628423:325-822:498	MEG_2616|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3005354	argannot
+(Tmt)Dfr23:AJ746361:6743-7403:561	MEG_2617|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3003019	argannot
+(Tmt)DfrA1:JQ794607:474:59-532	MEG_2618|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3002854	argannot
+(Tmt)DfrA14:GU726917:72-545:474	MEG_2619|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3002859	argannot
+(Tmt)DfrA15:JN108895:93-551:474	MEG_2620|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3003013	argannot
+(Tmt)DfrA15b:AJ867237:177-650:474	MEG_2621|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3004640	argannot
+(Tmt)DfrA29:AM237806:615-1086:472	MEG_2622|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3002862	argannot
+(Tmt)DfrA31:AB200915:1832-2305:474	MEG_2623|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3005084	argannot
+(Tmt)DfrA6:Z86002:336-809:474	MEG_2624|Drugs|Trimethoprim|Dihydrofolate_reductase|DHFR|RequiresSNPConfirmation	3004644	argannot
+(MLS)EreA:AY183453:2730-3950:1221	MEG_2746|Drugs|MLS|Macrolide_esterases|EREA		argannot
+(MLS)EreB:X03988:383-1642:1260	MEG_2753|Drugs|MLS|Macrolide_esterases|EREB		argannot
+(MLS)Erm30:AF079138:1283-2293:1011	MEG_2774|Drugs|MLS|23S_rRNA_methyltransferases|ERM30		argannot
+(MLS)Erm41:EU590124:258-779:522	MEG_2778|Drugs|MLS|23S_rRNA_methyltransferases|ERM41		argannot
+(MLS)ErmB:M11180:714-1451:738	MEG_2796|Drugs|MLS|23S_rRNA_methyltransferases|ERMB		argannot
+1066|unknown_id|unknown_name|MLS|23S_rRNA_methyltransferases|ERMB	MEG_2797|Drugs|MLS|23S_rRNA_methyltransferases|ERMB		argannot
+(MLS)ErmC:M19652:988-1722:735	MEG_2818|Drugs|MLS|23S_rRNA_methyltransferases|ERMC		argannot
+(MLS)ErmE:M11200:284-1396:1146	MEG_2826|Drugs|MLS|23S_rRNA_methyltransferases|ERME		argannot
+(MLS)LmrB:X79146:27840-28679:840	MEG_2849|Drugs|MLS|23S_rRNA_methyltransferases|ERMU		argannot
+(MLS)ErmX:M36726:296-1150:855	MEG_2859|Drugs|MLS|23S_rRNA_methyltransferases|ERMX		argannot
+(Bla)FAR-1:AF024601:303-1196:894	MEG_2882|Drugs|betalactams|Class_A_betalactamases|FAR1		argannot
+(Phe)FexA:JQ041372:14024-15451:1428	MEG_2903|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA	3002704	argannot
+(Phe)FloR:AKLJ01000508:383-1597:1215	MEG_2927|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|FLOR	3002705	argannot
+(Bla)FONA-1:AJ251239:1054-1941:888	MEG_2976|Drugs|betalactams|Class_A_betalactamases|FONA		argannot
+(Bla)FONA-2:AJ251240:1054-1941:888	MEG_2977|Drugs|betalactams|Class_A_betalactamases|FONA		argannot
+(Bla)FONA-3:AJ251241:1054-1941:888	MEG_2978|Drugs|betalactams|Class_A_betalactamases|FONA		argannot
+(Bla)FONA-4:AJ251242:1054-1941:888	MEG_2979|Drugs|betalactams|Class_A_betalactamases|FONA		argannot
+(Bla)FONA-5:AJ251243:1054-1941:888	MEG_2980|Drugs|betalactams|Class_A_betalactamases|FONA		argannot
+(Bla)FONA-6:AJ251244:1054-1941:888	MEG_2981|Drugs|betalactams|Class_A_betalactamases|FONA		argannot
+(Fcyn)FosB:AHLO01000073:63139-63558:417	MEG_3009|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSB		argannot
+(Bla)FOX-6:AY034848:52-1200:1149	MEG_3033|Drugs|betalactams|Class_C_betalactamases|FOX		argannot
+(Bla)GES-1:HM370522:1-864:864;(Bla)GES-7:HQ170511:644-1507:864	MEG_3102|Drugs|betalactams|Class_A_betalactamases|GES		argannot
+(Bla)GES-5:DQ236171:112-975:864	MEG_3103|Drugs|betalactams|Class_A_betalactamases|GES		argannot
+(Bla)GOB-10:AY647247:1-873:873	MEG_3147|Drugs|betalactams|Class_B_betalactamases|GOB		argannot
+(Bla)GOB-11:AY647248:1-879:879	MEG_3148|Drugs|betalactams|Class_B_betalactamases|GOB		argannot
+(Bla)GOB-12:AY647249:1-873:873	MEG_3149|Drugs|betalactams|Class_B_betalactamases|GOB		argannot
+(Bla)GOB-17:AY899332:1-873:873	MEG_3150|Drugs|betalactams|Class_B_betalactamases|GOB		argannot
+(Bla)HERA-4:AJ536088:1-873:873	MEG_3258|Drugs|betalactams|Class_A_betalactamases|HERA		argannot
+(Bla)HERA-5:AJ536089:1-873:873	MEG_3259|Drugs|betalactams|Class_A_betalactamases|HERA		argannot
+(Bla)HERA-6:AJ536090:1-873:873	MEG_3260|Drugs|betalactams|Class_A_betalactamases|HERA		argannot
+(Bla)HERA-8:AJ536092:1-873:873	MEG_3261|Drugs|betalactams|Class_A_betalactamases|HERA		argannot
+(Bla)IMP-1:HM036079:114-854:741	MEG_3339|Drugs|betalactams|Class_B_betalactamases|IMP		argannot
+(Bla)IMP-18:AB587676:1366-2106:741	MEG_3340|Drugs|betalactams|Class_B_betalactamases|IMP		argannot
+(Bla)IMP-4:DQ307573:3-743:741	MEG_3341|Drugs|betalactams|Class_B_betalactamases|IMP		argannot
+(Bla)IND-1:EF394436:1-720:720	MEG_3402|Drugs|betalactams|Class_B_betalactamases|IND		argannot
+(Bla)IND-2:EF394439:1-732:732	MEG_3403|Drugs|betalactams|Class_B_betalactamases|IND		argannot
+(Bla)IND-2b:EF672681::1-732:732	MEG_3404|Drugs|betalactams|Class_B_betalactamases|IND		argannot
+(Bla)IND-2c:GU186042::57-788:732	MEG_3405|Drugs|betalactams|Class_B_betalactamases|IND		argannot
+(Bla)KPC-1:AF297554:131-1012:882	MEG_3484|Drugs|betalactams|Class_A_betalactamases|KPC		argannot
+(Bla)KPC-13:HQ342890:1-882:882	MEG_3485|Drugs|betalactams|Class_A_betalactamases|KPC		argannot
+(Bla)KPC-4:FJ473382:364-1245:882	MEG_3486|Drugs|betalactams|Class_A_betalactamases|KPC		argannot
+(Bla)KPC-9:FJ624872:1-854:854	MEG_3487|Drugs|betalactams|Class_A_betalactamases|KPC		argannot
+(Bla)LEN-14:AY265889:1-861:861	MEG_3546|Drugs|betalactams|Class_A_betalactamases|LEN		argannot
+(Bla)LEN-17:DQ149134:1-861:861	MEG_3547|Drugs|betalactams|Class_A_betalactamases|LEN		argannot
+(Bla)LEN-24:AM850914:1-861:861	MEG_3548|Drugs|betalactams|Class_A_betalactamases|LEN		argannot
+(Bla)LEN-25:HQ709169:1-861:861	MEG_3549|Drugs|betalactams|Class_A_betalactamases|LEN		argannot
+(MLS)LsaA:AY225127:41-1537:1497	MEG_3644|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|LSA		argannot
+(Bla)Lut-1:AY695112:1-891:891	MEG_3655|Drugs|betalactams|Class_A_betalactamases|LUT		argannot
+(Bla)MAL-1:AJ277209:12-914:903	MEG_3659|Drugs|betalactams|Class_A_betalactamases|MAL		argannot
+(Bla)MECA:AB221124:91-2097:2007	MEG_3777|Drugs|betalactams|Penicillin_binding_protein|MECA	3000617	argannot
+(MLS)MefA:U70055:314-1531:1218	MEG_3823|Drugs|MLS|MLS_resistance_MFS_efflux_pumps|MEFA		argannot
+(MLS)MefB:FJ196385:11084-12313:1230	MEG_3827|Drugs|MLS|MLS_resistance_MFS_efflux_pumps|MEFB		argannot
+(Bla)MIR-4:EF587233:1-1101:1101	MEG_3955|Drugs|betalactams|Class_C_betalactamases|MIR		argannot
+(MLS)MphC:AF167161:5665-6564:900	MEG_4038|Drugs|MLS|Macrolide_phosphotransferases|MPHC		argannot
+(MLS)MphE:JF769133:8777-9661:885	MEG_4042|Drugs|MLS|Macrolide_phosphotransferases|MPHE		argannot
+(MLS)MsrA:AY591760:274-1740:1467	MEG_4067|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|MSRA		argannot
+(MLS)MsrD:AF274302:2462-3925:1464	MEG_4073|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|MSRD		argannot
+(Bla)NDM-1:JQ080305:1-813:813	MEG_4143|Drugs|betalactams|Class_B_betalactamases|NDM		argannot
+(Bla)OKP-B-14:DQ149136::47-907:861	MEG_4238|Drugs|betalactams|Class_A_betalactamases|OKP		argannot
+(Bla)OKP-B-5:AY512506:68-928:861	MEG_4239|Drugs|betalactams|Class_A_betalactamases|OKP		argannot
+(Bla)OKP-B-6:AY850171:1-861:861	MEG_4240|Drugs|betalactams|Class_A_betalactamases|OKP		argannot
+(Flq)OqxBgb:EU370913:47851-51003:3153	MEG_4367|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB	3003923	argannot
+(Tet)OtrB:AF079900:40-1733:1692	MEG_4380|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|OTRB	3002892	argannot
+(Bla)OXA-117:GQ423625:1-825:825	MEG_4743|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-134:FJ195387:695-1516:822	MEG_4744|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-17:DQ902344:2717-3517:801	MEG_4745|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-199:HQ637466:1233-2057:825	MEG_4746|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-20:AF024602:1238-2038:801	MEG_4747|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-209:JF268688:5408-6232:825	MEG_4748|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-21:DQ522237:3974-4801:825	MEG_4749|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-347:JN086160:1583-2407:825	MEG_4750|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-45:AM849110:2553-3347:795	MEG_4751|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-50:AM117128:1-789:789	MEG_4752|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-60:AY664505:1-816:816	MEG_4753|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-66:EF051061:485-1309:825	MEG_4754|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-72:AY739646:1-828:828	MEG_4755|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-82:GQ352402:8775-9599:825	MEG_4756|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-9:NC_015515:451-1290:840	MEG_4757|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXA-97:EF102240:11723-12565:843	MEG_4758|Drugs|betalactams|Class_D_betalactamases|OXA		argannot
+(Bla)OXY1-5:AY077483:181-1056:876	MEG_5284|Drugs|betalactams|Class_A_betalactamases|OXY		argannot
+(Bla)OXY1-5:AY077483:181-1056:876	MEG_5285|Drugs|betalactams|Class_A_betalactamases|OXY		argannot
+(Bla)OXY2-5:AY077487.2|:180-1049:870	MEG_5286|Drugs|betalactams|Class_A_betalactamases|OXY		argannot
+(Bla)Penicillin_Binding_Protein_Ecoli:CP002291:664439-666340:1902	MEG_5400|Drugs|betalactams|Penicillin_binding_protein|PBP2	3001209	argannot
+(Bla)AmpC1_Ecoli:FN649414:2765051-2766355:1302	MEG_5409|Drugs|betalactams|Penicillin_binding_protein|PBP4B	3006716	argannot
+(Bla)PER-1:EF535600:1-927:927	MEG_5763|Drugs|betalactams|Class_A_betalactamases|PER		argannot
+(Phe)PexA:HM537013:24055-25302:1248	MEG_5773|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|PEXA	3004666	argannot
+(Bla)PME-1:HQ541434:3071-4000:930	MEG_5793|Drugs|betalactams|Class_A_betalactamases|PME		argannot
+(Flq)QepA:AB263754:7052-8587:1536	MEG_5864|Drugs|Fluoroquinolones|Quinolone_active_efflux|QEPA	3004103	argannot
+(Flq)QnrB13:EU273756:37-681:645	MEG_5919|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB		argannot
+(Flq)QnrB2:DQ351242:1-645:645	MEG_5920|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002735	argannot
+(Flq)QnrB32:JN173054:37-681:645	MEG_5921|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB		argannot
+(Flq)QnrB46:JQ349154:1-680:680	MEG_5922|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002775	argannot
+(Flq)QnrB47:JQ349155:1-680:680	MEG_5923|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRB	3002775	argannot
+(Flq)Qnr-AS:FM178379:1699484-1700140:657	MEG_6010|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRC	3004668	argannot
+(Flq)QnrS3:EU077611:1-657:657	MEG_6019|Drugs|Fluoroquinolones|Quinolone_resistance_protein_Qnr|QNRS	3002792	argannot
+(Bla)RAHN-1:AF338038:4685-5572:888	MEG_6041|Drugs|betalactams|Class_A_betalactamases|RAHN		argannot
+(Bla)RAHN-2:HM114350:377-1264:888	MEG_6042|Drugs|betalactams|Class_A_betalactamases|RAHN		argannot
+(AGly)RmtD:DQ914960:9632-8889:744	MEG_6067|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|RMTD	3002667	argannot
+(AGly)RmtD2:HQ401565:14882-14139:744	MEG_6068|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|RMTD	3004677	argannot
+(Bla)ROB-1:AF022114:303-1220:918	MEG_6079|Drugs|betalactams|Class_A_betalactamases|ROB		argannot
+(AGly)Sat4A:X92945:38870-39412:543	MEG_6166|Drugs|Nucleosides|Streptothricin_acetyltransferase|SAT	3002897	argannot
+(Bla)SCO-1:AM939419:c2458-1592:867	MEG_6171|Drugs|betalactams|Class_A_betalactamases|SCO		argannot
+(Bla)SHV-1:AF148850:6-866:861	MEG_6240|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-1:AF148850:6-866:861	MEG_6241|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-11:HM751098:1-861:861	MEG_6242|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-12:FJ685654:24-860:837	MEG_6243|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-132:GU981741:794-1654:861	MEG_6244|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-143:JQ341060:882-1742:861	MEG_6245|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-28:EU441172:57-917:861	MEG_6246|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-31:GU064396:1-861:861	MEG_6247|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-45:HQ877612:1-715:715	MEG_6248|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-55:HQ877613:1-715:715	MEG_6249|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV-56:AY352599:1-861:861	MEG_6250|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SHV2A-kp:X62115:1281-2141:861	MEG_6251|Drugs|betalactams|Class_A_betalactamases|SHV		argannot
+(Bla)SPM-1:GU831565:1-831:831	MEG_6554|Drugs|betalactams|Class_B_betalactamases|SPM		argannot
+(Sul)SulII:EU360945:1617-2432:816	MEG_6617|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|SULII		argannot
+Sul|sul2_3_HQ840942|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|SULII	MEG_6618|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|SULII		argannot
+946|DQ464881.1|DQ464881|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|SULII	MEG_6619|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|SULII		argannot
+(Sul)SulIII:HQ875016:7396-8187:792	MEG_6639|Drugs|Sulfonamides|Sulfonamide-resistant_dihydropteroate_synthases|SULIII		argannot
+(Bla)TEM-1:JQ735917:1-861:861	MEG_6683|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-10:U09188:198-1005:858	MEG_6684|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-102:AY029354:3-833:831	MEG_6685|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-110:AY130283:1-785:785	MEG_6686|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-128:AY359287:186-1046:861	MEG_6687|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-129:AY452662:184-1044:861	MEG_6688|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-135:JQ060998:1-861:861	MEG_6689|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-144:DQ256080:215-1075:861	MEG_6690|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-1D:AF188200:215-1075:861	MEG_6691|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-20:EU527189:4132-4992:861	MEG_6692|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-21:AF466526:1346-2206:861	MEG_6693|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-24:GQ293500:4033-4893:861	MEG_6694|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-29:AJ277416:1-861:861	MEG_6695|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-3:X64523:477-1337:861	MEG_6696|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-33:GU371926:50305-51165:861	MEG_6697|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-97:AF397066:1-861:861;(Bla)TEM-99:AF397066:1-861:861	MEG_6698|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Bla)TEM-98:AF397067:1-861:861	MEG_6699|Drugs|betalactams|Class_A_betalactamases|TEM		argannot
+(Tet)Tet-32:DQ647324:181-2100:1920	MEG_6970|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TET32		argannot
+(Tet)Tet-34:AB061440:306-770:465	MEG_6976|Drugs|Tetracyclines|Tetracycline_inactivation_enzymes|TET34		argannot
+(Tet)Tet-35:AF353562:2213-3322:1110	MEG_6978|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TET35		argannot
+(Tet)Tet-40:AM419751:14211-15431:1221	MEG_6992|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TET40		argannot
+(Tet)Tet-43:GQ244501:60-1619:1560	MEG_6996|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TET43		argannot
+(Tet)Tet-41:AY264780:1825-3006:1182	MEG_7023|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETA		argannot
+(Tet)TetA:JX424423:94438-95712:1275	MEG_7024|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETA	3000165	argannot
+(Tet)TetB:AB089594:1-1206:1206	MEG_7047|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETB	3000166	argannot
+(Tet)TetC:EU751612:1-1191:1191	MEG_7062|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETC	3000167	argannot
+(Tet)TetD:AB089602:1521-2705:1185	MEG_7068|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETD	3000168	argannot
+(Tet)TetE:DQ366299:36-1253:1218	MEG_7072|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETE	3000173	argannot
+(Tet)TetG:AF133140:757-1932:1176	MEG_7077|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETG	3000174	argannot
+(Tet)TetL:FN435329:1-1377:1377	MEG_7095|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETL	3000179	argannot
+(Tet)TetM:U08812:1981-3900:1920	MEG_7134|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETM		argannot
+(Tet)TetR:HF545434:53576-54226:651	MEG_7185|Drugs|Tetracyclines|Tetracycline_transcriptional_repressor|TETR|RequiresSNPConfirmation	3003479	argannot
+(Tet)TetR(G):S52438:113-745:633	MEG_7186|Drugs|Tetracyclines|Tetracycline_transcriptional_repressor|TETR|RequiresSNPConfirmation	3003479	argannot
+(Tet)TetV:AF030344:462-1721:1260	MEG_7205|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETV	3000181	argannot
+(Tet)TetW:AJ222769:3687-5606:1920	MEG_7227|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3000194	argannot
+(Bla)TLA-1:GU441460:3220-4125:906	MEG_7251|Drugs|betalactams|Class_A_betalactamases|TLA		argannot
+(MLS)TlrC:NC_016113:803268-384890:1623	MEG_7256|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|TLRC	3002817	argannot
+(Gly)VanA-Ao2:HQ679900:1034-2080:1047	MEG_7336|Drugs|Glycopeptides|VanA-type_resistance_protein|VANA	3002913	argannot
+(Gly)VanHA-Bc:Y15704:23-1054:1032	MEG_7337|Drugs|Glycopeptides|VanA-type_resistance_protein|VANA	3000010	argannot
+(Gly)VanA-B:AF192329:28835-29863:1029	MEG_7353|Drugs|Glycopeptides|VanB-type_resistance_protein|VANB	3000013	argannot
+(Gly)VanB:AY655711:1-1029:1029	MEG_7354|Drugs|Glycopeptides|VanB-type_resistance_protein|VANB	3000013	argannot
+(Gly)VanC1:EU151769:31-1062:1032	MEG_7363|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000368	argannot
+(Gly)VanC2:L29638:33-1085:1053	MEG_7364|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000368	argannot
+(Gly)VanC2/3:EU151755:29-1081:1083	MEG_7365|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000368	argannot
+(Gly)VanC3:AY033764:26-1078:1053	MEG_7366|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000368	argannot
+(Gly)VanC4:EU151752:29-1081:1053	MEG_7367|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000368	argannot
+(Gly)VanH-Ac2:AY618461:1-714:714	MEG_7399|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3002948	argannot
+(Gly)VanH-Ao1:AF060799:534-1580:1047	MEG_7400|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3002948	argannot
+(Gly)VanH-Ao2:HQ679900:1-1032:1032	MEG_7401|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3002948	argannot
+(Gly)VanH-Pt:DQ018710:5109-6077:969	MEG_7402|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3002942	argannot
+(Gly)VanH-Pt2:AY926880:2771-3739:969	MEG_7403|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3002942	argannot
+(Gly)VanH:DQ246438:124-1179:1056;(Gly)VanH-Ac1:DQ246438:124-1179:1056	MEG_7404|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA		argannot
+(Gly)VanH-B:AF192329:27871-28842:972	MEG_7416|Drugs|Glycopeptides|VanB-type_resistance_protein|VANHB	3002943	argannot
+(Gly)VanR-Pt:DQ018711:1-696:696	MEG_7450|Drugs|Glycopeptides|VanA-type_regulator|VANRA	3002919	argannot
+(Gly)VanR-Pt2:AY926880:718-1413:696	MEG_7451|Drugs|Glycopeptides|VanA-type_regulator|VANRA		argannot
+(Gly)VanR-B:AY655721:69-728:660	MEG_7462|Drugs|Glycopeptides|VanB-type_regulator|VANRB	3002921	argannot
+(Gly)VanRc3:AY033764:3846-4541:696	MEG_7472|Drugs|Glycopeptides|VanC-type_regulator|VANRC	3002922	argannot
+(Gly)VanRc4:EU151753:3848-4543:696	MEG_7473|Drugs|Glycopeptides|VanC-type_regulator|VANRC	3002922	argannot
+(Gly)VanS-Pt:AY926880:1391-2551:1461	MEG_7487|Drugs|Glycopeptides|VanA-type_regulator|VANSA	3002931	argannot
+(Gly)VanS-Pt2:DQ018710:3721-4881:1161	MEG_7488|Drugs|Glycopeptides|VanA-type_regulator|VANSA	3002931	argannot
+(Gly)VanS-B:AY655721:731-2074:1344	MEG_7493|Drugs|Glycopeptides|VanB-type_regulator|VANSB	3002932	argannot
+(Gly)VanS-C:DQ022190:4672-5757:1086	MEG_7499|Drugs|Glycopeptides|VanC-type_regulator|VANSC	3002933	argannot
+(Gly)VanSc3:AY033764:4604-5662:1059	MEG_7500|Drugs|Glycopeptides|VanC-type_regulator|VANSC	3002933	argannot
+(Gly)VanSc4:EU151753:4599-5663:1065	MEG_7501|Drugs|Glycopeptides|VanC-type_regulator|VANSC	3002933	argannot
+(Gly)VanS-D:AB242319:689-1834:1146	MEG_7507|Drugs|Glycopeptides|VanD-type_regulator|VANSD	3002934	argannot
+(Gly)VanTc:DQ022190:1802-3898:2097	MEG_7526|Drugs|Glycopeptides|VanC-type_resistance_protein|VANTC	3002970	argannot
+(Gly)VanTc3:AY033764:1644-3746:2103	MEG_7527|Drugs|Glycopeptides|VanC-type_resistance_protein|VANTC	3002970	argannot
+(Gly)VanTc4:EU151753:1647-3749:2103	MEG_7528|Drugs|Glycopeptides|VanC-type_resistance_protein|VANTC	3002970	argannot
+(Gly)VanZ-Pa:DQ018711:2047-2862:816	MEG_7537|Drugs|Glycopeptides|VanA-type_accessory_protein|VANWA	3002964	argannot
+(Gly)VanW-B:AY655721:3069-3896:828	MEG_7540|Drugs|Glycopeptides|VanB-type_accessory_protein|VANWB	3002964	argannot
+(Gly)VanX-Ac1:DQ246438:2221-2835:615	MEG_7549|Drugs|Glycopeptides|VanA-type_resistance_protein|VANXA	3002954	argannot
+(Gly)VanX-Ac2:AY618461:1756-2316:561	MEG_7550|Drugs|Glycopeptides|VanA-type_resistance_protein|VANXA	3002954	argannot
+(Gly)VanX-Ao1:AF060799:2604-3212:609	MEG_7551|Drugs|Glycopeptides|VanA-type_resistance_protein|VANXA	3003725	argannot
+(Gly)VanX-Ao2:HQ679900:2070-2678:609	MEG_7552|Drugs|Glycopeptides|VanA-type_resistance_protein|VANXA	3003725	argannot
+(Gly)VanX-Pt:DQ018710:7107-7715:609	MEG_7553|Drugs|Glycopeptides|VanA-type_resistance_protein|VANXA	3002949	argannot
+(Gly)VanX-Pt2:AY926880:4769-5377:609	MEG_7554|Drugs|Glycopeptides|VanA-type_resistance_protein|VANXA	3002949	argannot
+(Gly)VanX-Sc:AL939117:55404-56012:609	MEG_7555|Drugs|Glycopeptides|VanA-type_resistance_protein|VANXA	3003725	argannot
+(Gly)VanX-B:AY655721:5891-6499:609	MEG_7561|Drugs|Glycopeptides|VanB-type_resistance_protein|VANXB	3002950	argannot
+(Gly)VanXYc2/3:EU151760:1078-1650:573	MEG_7578|Drugs|Glycopeptides|VanC-type_resistance_protein|VANXYC	3002966	argannot
+(Gly)VanXYc3:AY033764:1075-1647:573	MEG_7579|Drugs|Glycopeptides|VanC-type_resistance_protein|VANXYC	3002966	argannot
+(Gly)VanXYc4:EU151753:1078-1650:573	MEG_7580|Drugs|Glycopeptides|VanC-type_resistance_protein|VANXYC	3002966	argannot
+(Gly)VanY-Pt:AY926880.2|:5831-6721:891	MEG_7594|Drugs|Glycopeptides|VanA-type_accessory_protein|VANYA	3002955	argannot
+(Gly)VanY-Pt2:DQ018711:6234-7133:900	MEG_7595|Drugs|Glycopeptides|VanA-type_accessory_protein|VANYA	3002955	argannot
+(Gly)VanY-D:AB242319:1958-3025:1068	MEG_7603|Drugs|Glycopeptides|VanD-type_accessory_protein|VANYD	3002957	argannot
+(Gly)VanZ-Pa:DQ018711:7169-7648:480	MEG_7617|Drugs|Glycopeptides|VanA-type_accessory_protein|VANZA	3002962	argannot
+(MLS)VatD:L12033:162-791:630	MEG_7624|Drugs|MLS|Streptogramin_A_O-acetyltransferase|VATD		argannot
+(Bla)VEB-1:DQ393569:1955-2854:900	MEG_7655|Drugs|betalactams|Class_A_betalactamases|VEB		argannot
+(Bla)VEB-6:EU259884:6412-7311:900	MEG_7656|Drugs|betalactams|Class_A_betalactamases|VEB		argannot
+(MLS)VgaA:M90056:909-2477:1569	MEG_7680|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|VGA		argannot
+(Bla)VIM-14:EF055455:1-801:801	MEG_7721|Drugs|betalactams|Class_B_betalactamases|VIM		argannot

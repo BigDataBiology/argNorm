@@ -186,3 +186,9 @@ The ResFinder v4.0 is a notable example as it contains forty instances of gene c
 MEGARes v3.0 is composed of multiple public genomic repositories including ResFinder, ARG-ANNOT, the National Center for Biotechnology Information (NCBI) Lahey Clinic beta-lactamase archive, the Comprehensive Antibiotic Resistance Database (CARD), NCBI’s Bacterial Antimicrobial Resistance Reference Gene Database and BacMet. The CARD database and hence the ARO do not support metal and biocide resistance, and so all entries from BacMet are removed to construct the ARO mapping table for MEGARes. Entries from ResFinder and ARG-ANNOT are directly mapped using respective ARO annotation tables, while all other entries are mapped using RGI. All coding sequences and reverse complements are translated to amino acid sequences and processed by RGI using the ‘protein’ mode. All other sequences are processed by RGI using the ‘contig’ mode. The RGI outputs are modified as mentioned above and combined with ResFinder and ARG-ANNOT mappings to form automated annotation tables. Genes which were not given an ARO mapping by RGI are manually assigned an ARO accession. The manual curation and automated annotation tables are combined to produce ARO annotation tables.
 
 > Note: While manually assigning ARO accessions to genes, if the gene cannot be found in the ARO and if the gene does not have a parent ARO accession, no ARO mapping will be provided.
+
+## ./mapping/megares_resfinder_argannot_mapping.tsv
+
+Megares annotations are derived from argannot and resfinder mappings. In `../tests/test_lib.py`, `test_megares_mappings()` checks to to see if megares mappings taken directly from argannot and resfinder are correct/updated because they can be missed when running `construct_megares_mappings.py` as it depends on existing argnorm mappings.
+
+`test_megares_mappings()` depends on `./mapping/megaresmegares_resfinder_argannot_mapping.tsv`

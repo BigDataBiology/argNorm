@@ -43,40 +43,16 @@ def test_get_aro_mapping_table_smoke(database):
     df = get_aro_mapping_table(database)
     assert len(df) > 0
 
-def _search_argnorm_mappings(mappings, db):
-    mappings.drop(columns=['UpdatedHeader', 'Database'], inplace=True)
-    aros = []
-    mapping_table = get_aro_mapping_table(db)
-    mapping_table.index = list(mapping_table.index.map(lambda x: str(x).lower()))
-
-    for header in mappings['Source_header']:
-        try:
-            aros.append(str(mapping_table.loc[header.strip().lower(), 'ARO'])[4:])
-        except KeyError:
-            aros.append(None)
-
-    mappings['ARO'] = aros
-    mappings['Database'] = db
-    mappings.rename(columns={'MEGARes_header': 'Original ID'}, inplace=True)
-    return mappings.dropna()
-
-def _get_resfinder_mappings(megares_headers):
-    mappings = _search_argnorm_mappings(megares_headers[
-        ((megares_headers.Database == 'ResFinder') | (megares_headers.Database == 'Resfinder'))\
-        & (~ megares_headers.MEGARes_header.str.contains('Multi-compound'))\
-        & (~ megares_headers.MEGARes_header.str.contains('Metals'))\
-        & (~ megares_headers.MEGARes_header.str.contains('Biocides'))], 'resfinder')
-    return mappings
-
-def _get_argannot_mappings(megares_headers):
-    mappings = _search_argnorm_mappings(megares_headers[megares_headers.Database == 'ARG-ANNOT'], 'argannot')
-    return mappings
-
 def test_megares_mappings():
-    megares_headers = pd.read_csv('./tests/megares_mappings/megares_headers.csv')   
-    argannot_and_resfinder_mappings = pd.concat([_get_argannot_mappings(megares_headers), _get_resfinder_mappings(megares_headers)])
+    """
+    Megares annotations are derived from argannot and resfinder mappings (see db_hamronisation/construct_megares_mappings.py).
+    Checking to see if megares mappings taken directly from argannot and resfinder are correct/updated because they can be missed
+    when running `construct_megares_mappings.py` as it depends on existing argnorm mappings.
+    """
     
-    for i in range(argannot_and_resfinder_mappings.shape[0]):
-        gene = argannot_and_resfinder_mappings.iloc[i]['Original ID']
-        aro = argannot_and_resfinder_mappings.iloc[i]['ARO']
-        assert map_to_aro(gene, 'megares') == ARO.get_term(f'ARO:{aro}')
+    # "megares_resfinder_argannot_mapping.tsv" is created in "db_harmonisation/construct_megares_mappings.py"
+    # It can be found in "db_harmonisation/mapping/" directory which is created when "crude_db_harmonisation.py" is run
+    megares_mappings = pd.read_csv('./tests/megares_mappings/megares_resfinder_argannot_mapping.tsv', sep='\t').dropna()
+    mapped_genes = list(megares_mappings['Original ID'].map(lambda x: map_to_aro(x, 'megares')))
+    mapped_aros = list(megares_mappings['ARO'].map(lambda x: ARO.get_term(f'ARO:{int(x)}')))    
+    assert mapped_genes == mapped_aros
