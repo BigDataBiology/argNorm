@@ -31,9 +31,16 @@ def main():
                         help='The database you used to do ARG annotation.')
     parser.add_argument('-i', '--input', type=str,
                         help='The annotation result you have')
+    parser.add_argument('--hamronized', action='store_true',
+                        help='Use hamronization as a tool instead')
+
     parser.add_argument('-o', '--output', type=str,
                         help='The file to save normalization results')
     args = parser.parse_args()
+
+    if args.hamronized:
+        sys.stderr.write('Upgrade to use hamronization as a tool instead of a flag\n')
+        sys.exit(2)
 
     # We only import the normalize function when the user actually wants to run the program
     # This makes running `argnorm -h` much faster because it avoids importing slow modules (e.g. pandas)
