@@ -234,16 +234,18 @@ class HamronizationNormalizer(BaseNormalizer):
         original_annot = self.load_input(input_file)
 
         input_genes = []
-        for i in original_annot.index:
-            analysis_software = str(original_annot.iloc[i]['analysis_software_name']).lower().replace('-', '').replace('_', '').replace(' ', '')
-            
-            for tool in list(self.input_ids.keys()):
+        for _,row in original_annot.iterrows():
+            analysis_software = row['analysis_software_name'].lower() \
+                                    .replace('-', '') \
+                                    .replace('_', '') \
+                                    .replace(' ', '')
+
+            if 'ncbi' in analysis_software:
+                analysis_software = 'amrfinderplus'
+
+            for tool in self.input_ids.keys():
                 if tool in analysis_software:
                     analysis_software = tool
-                    break
-
-                if 'ncbi' in analysis_software:
-                    analysis_software = 'amrfinderplus'
                     break
             else:
                 sys.stderr.write(f'{analysis_software} is not a supported ARG annotation tool\n')
@@ -251,19 +253,19 @@ class HamronizationNormalizer(BaseNormalizer):
                 sys.exit(1)
 
             if analysis_software == 'groot':
-                if '~~~' in original_annot.iloc[i]['gene_name']:
-                    input_genes.append(self.input_ids[analysis_software]['groot-argannot'](original_annot.iloc[i]))
-                elif '.' in original_annot.iloc[i]['gene_name']:
-                    input_genes.append(self.input_ids[analysis_software]['groot-card'](original_annot.iloc[i]))
-                elif 'groot-db_' in original_annot.iloc[i]['gene_name']:
-                    input_genes.append(self.input_ids[analysis_software]['groot-db'](original_annot.iloc[i]['gene_name']))
+                if '~~~' in row['gene_name']:
+                    input_genes.append(self.input_ids[analysis_software]['groot-argannot'](row))
+                elif '.' in row['gene_name']:
+                    input_genes.append(self.input_ids[analysis_software]['groot-card'](row))
+                elif 'groot-db_' in row['gene_name']:
+                    input_genes.append(self.input_ids[analysis_software]['groot-db'](row['gene_name']))
                 else:
-                    input_genes.append(self.input_ids[analysis_software]['groot-resfinder'](original_annot.iloc[i]))
+                    input_genes.append(self.input_ids[analysis_software]['groot-resfinder'](row))
             elif analysis_software == 'abricate':
-                database = original_annot.iloc[i]['reference_database_id']
-                input_genes.append(self.input_ids[analysis_software][database](original_annot.iloc[i]))
+                database = row['reference_database_id']
+                input_genes.append(self.input_ids[analysis_software][database](row))
             else:
-                input_genes.append(self.input_ids[analysis_software](original_annot.iloc[i]))
+                input_genes.append(self.input_ids[analysis_software](row))
 
         mapping_tables = []
         for db in DATABASES:
