@@ -6,7 +6,7 @@ except pd.errors.OptionError:
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 from .lib import get_aro_mapping_table
 from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL, DATABASES
-from warnings import warn
+import sys
 
 # Column headings for drug categorization output
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
@@ -246,9 +246,9 @@ class HamronizationNormalizer(BaseNormalizer):
                     analysis_software = 'amrfinderplus'
                     break
             else:
-                warn(f'{analysis_software} is not a supported ARG annotation tool')
-                input_genes.append(None)
-                continue
+                sys.stderr.write(f'{analysis_software} is not a supported ARG annotation tool\n')
+                sys.stderr.write(f'argNorm can only map genes from the following tools: {list(self.input_ids.keys())}\n')
+                sys.exit(1)
 
             if analysis_software == 'groot':
                 if '~~~' in original_annot.iloc[i]['gene_name']:

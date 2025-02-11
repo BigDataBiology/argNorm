@@ -1,4 +1,5 @@
 import argparse
+import sys
 from .argnorm_version import __version__
 from .atomicwrite import atomic_write
 

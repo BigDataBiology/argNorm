@@ -86,8 +86,10 @@ def test_hamronization_normalizer():
     for file in os.listdir('./examples/hamronized/'):
         if 'abricate.card' in file or 'args-oap.sarg.orfs' in file:
             continue
-        
+        if file == 'combined_hamronization_full.tsv':
+            continue
+
         normed = get_normed(normalizer, f'./examples/hamronized/{file}')
         golden_file = get_golden_file(os.path.join('./outputs', 'hamronized', file))
-        
+
         pd.testing.assert_frame_equal(normed, golden_file)
