@@ -10,6 +10,7 @@ import requests
 import zipfile
 import os
 from jug import TaskGenerator, barrier
+from check_mapping_accuracy import check_mapping_accuracy, preprocess_mappings_for_tests 
 
 def download_file(url, ofile):
     os.makedirs('dbs', exist_ok=True)
@@ -169,6 +170,13 @@ def merge_megares_mappings(cds_mapping, contig_mapping):
 
     cds_mapping = cds_mapping[['Original ID', 'ARO']]
     contig_mapping = contig_mapping[['Original ID', 'ARO']]
+    
+    checked_mappings = check_mapping_accuracy(preprocess_mappings_for_tests(pd.concat([cds_mapping, contig_mapping]), 'megares'))
+    metal_biocide_and_virulence_genes = pd.Series(checked_mappings['metal_biocide_virulence_genes'])
+    mismatched_genes = checked_mappings['mismatched_genes']
+    
+    metal_biocide_and_virulence_genes.to_csv('./manual_curation/megares_metal_biocide_and_virulence_genes.tsv', sep='\t', index=False)
+    mismatched_genes.to_csv('./manual_curation/megares_mismatched_hits.tsv', sep='\t', index=False)
 
     megares_mappings.set_index('Original ID').drop(index=set(cds_mapping['Original ID']) & set(megares_mappings.index), inplace=True)
     megares_mappings.set_index('Original ID').drop(index=set(contig_mapping['Original ID']) & set(megares_mappings.index), inplace=True)
