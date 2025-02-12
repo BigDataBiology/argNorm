@@ -3,6 +3,7 @@ from pathlib import Path
 import pandas as pd
 import os
 from Bio import SeqIO
+from check_mapping_accuracy import check_mapping_accuracy, preprocess_mappings_for_tests 
 
 def check_file(path):
     """
@@ -36,12 +37,18 @@ def get_aro_for_hits(fa, rgi_output, database):
     mapping = rgi_hits[['Original ID', "Best_Hit_ARO", 'ARO']]
     mapping = mapping.astype({'ARO': 'str'})
     mapping = mapping.rename(columns={'Best_Hit_ARO': 'Gene Name in CARD'})
+    
+    checked_mappings = check_mapping_accuracy(preprocess_mappings_for_tests(mapping.copy(), database))
+    metal_biocide_and_virulence_genes = checked_mappings['metal_biocide_virulence_genes']
+    mismatched_genes = checked_mappings['mismatched_genes']
 
     os.makedirs('manual_curation', exist_ok=True)
-    missing_hits_from_original = set(database_entries) - set(mapping['Original ID'].unique())
-    missing_hits_from_original = pd.Series(list(missing_hits_from_original))
-    missing_hits_from_original.name = "Original ID"
-    missing_hits_from_original.to_csv(os.path.join('./manual_curation/', f'./{database}_manual_curation_raw.tsv'), sep='\t', index=False)
+    manual_curation = set(database_entries) - set(mapping['Original ID'].unique())
+    manual_curation = list(manual_curation) + metal_biocide_and_virulence_genes
+    manual_curation = pd.Series(manual_curation)
+    manual_curation.name = "Original ID"
+    manual_curation.to_csv(os.path.join('./manual_curation/', f'./{database}_manual_curation_raw.tsv'), sep='\t', index=False)
+    mismatched_genes.to_csv(os.path.join('./manual_curation/', f'./{database}_mismatched_genes.tsv'), sep='\t', index=False)
 
     database_entries = pd.Series(list(database_entries))
     database_entries.name = "Original ID"
