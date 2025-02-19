@@ -1,3 +1,12 @@
+# Source
+
+- These manual cuation tables are generated in `db_harmonisation/manual_curation` after running `db_harmonisation/crude_db_harmonisation.py`.
+- The script will generate most genes that should be manually curated. These are manually processed, curated, and added to this folder.
+- Resfinder gene clusters aren't flagged automatically and are manually collated in resfinder mappings.
+- Genes are manually curated by searching them up online on CARD, NCBI GenBank, UniProt, etc.
+- Description columns are filled out manually.
+- Please refer to `db_harmonisation/README.md` for more information on the automatic flagging of loose RGI hits for manual curation.
+
 # Resfinder Notes
 
 ## Gene Clusters
