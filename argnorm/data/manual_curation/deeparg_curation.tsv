@@ -14,40 +14,40 @@ NP_416340.1|FEATURES|mgrB|multidrug|mgrB	3003820	mgrB
 AUW34359.1|FEATURES|RSA-2|beta-lactam|RSA-2	3005440	RSA2 beta-lactamase	ARO number of RSA2 had been changed.
 NP_310518|FEATURES|Escherichia_coli_mipA|multidrug|Escherichia_coli_mipA	3004127	Escherichia coli mipA	
 YP_248152|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001	beta-lactamase	
-gi:447201635:ref:WP_001278891.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-HE999704.1.gene1687.p01|FEATURES|macA|MLS|macA	3000533		
+gi:447201635:ref:WP_001278891.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+HE999704.1.gene1687.p01|FEATURES|macA|MLS|macA	3000533		Previously mapped to ARO:3004666 (pexA) by RGI
 gi:916182247:ref:WP_050964278.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-EDJ91555|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
+EDJ91555|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
 gi:446993873:ref:WP_001071129.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:915954384:ref:WP_050939464.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:915954384:ref:WP_050939464.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:686372005:ref:WP_031896197.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:447201650:ref:WP_001278906.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201650:ref:WP_001278906.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 A7ZW03|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 YP_002240485|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW04
 YP_401803|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW05
 YP_002203876|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)
-gi:489824637:ref:WP_003728417.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
+gi:489824637:ref:WP_003728417.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
 BAH61691|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW05
-gi:447201645:ref:WP_001278901.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201645:ref:WP_001278901.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:1006756370:ref:WP_061823690.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 YP_001454848|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-gi:447201641:ref:WP_001278897.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:835822517:ref:WP_047669155.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:835804111:ref:WP_047662791.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201641:ref:WP_001278897.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:835822517:ref:WP_047669155.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:835804111:ref:WP_047662791.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 ZP_00990220|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
-ABH08225|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
-gi:672836786:gb:KFH80994.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:657343292:ref:WP_029402253.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:485871715:ref:WP_001468640.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-P33810|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
-gi:693209755:ref:WP_032328790.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+ABH08225|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
+gi:672836786:gb:KFH80994.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:657343292:ref:WP_029402253.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:485871715:ref:WP_001468640.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+P33810|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
+gi:693209755:ref:WP_032328790.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:446993874:ref:WP_001071130.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:447201625:ref:WP_001278881.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201625:ref:WP_001278881.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 Q83MG8|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 gi:446993886:ref:WP_001071142.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:1005569653:ref:WP_061663029.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
-gi:447201627:ref:WP_001278883.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-CAD90667|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+gi:1005569653:ref:WP_061663029.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
+gi:447201627:ref:WP_001278883.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+CAD90667|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 gi:928802369:ref:WP_053873214.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:1006153492:ref:WP_061733756.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:686133171:ref:WP_031774173.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
@@ -56,143 +56,143 @@ Q7N8V7|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_r
 gi:446993909:ref:WP_001071165.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:916211506:ref:WP_050969978.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 B6HZ32|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-ZP_04466634|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
-gi:491533320:ref:WP_005390943.1:|FEATURES|tetB|tetracycline|tetB	3000166		
-YP_001290033|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
+ZP_04466634|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
+gi:491533320:ref:WP_005390943.1:|FEATURES|tetB|tetracycline|tetB	3000166		Previously mapped to ARO:3000024 (patA) by RGI
+YP_001290033|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
 gi:1005555254:ref:WP_061653404.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:1006147757:ref:WP_061732287.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-ZP_00156276|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
-gi:447201651:ref:WP_001278907.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+ZP_00156276|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
+gi:447201651:ref:WP_001278907.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 YP_002113107|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 YP_002181880|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)
 gi:1006152247:ref:WP_061733462.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:1007064214:ref:WP_061839264.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 BAB59035|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
-gi:486160987:ref:WP_001524598.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:486160987:ref:WP_001524598.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:446993897:ref:WP_001071153.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 YP_002666586|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
-NP_733568|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		
+NP_733568|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		Previously mapped to ARO:3003967 (lfrA) by RGI
 YP_001461223|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-AY082011.1.gene2.p1|FEATURES|vanS|glycopeptide|vanS	3000071		
-gi:835704930:ref:WP_047624280.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+AY082011.1.gene2.p1|FEATURES|vanS|glycopeptide|vanS	3000071		Previously mapped to ARO:3003564 (EXO-1) by RGI
+gi:835704930:ref:WP_047624280.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:1006178758:ref:WP_061739947.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 YP_001439344|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-gi:489827925:ref:WP_003731686.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
+gi:489827925:ref:WP_003731686.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
 gi:928778382:ref:WP_053860941.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:446993885:ref:WP_001071141.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-AAS49820|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+AAS49820|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 gi:1007060617:ref:WP_061838454.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-NP_536537|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+NP_536537|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 gi:1006676707:ref:WP_061820836.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 ZP_03030905|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 B7LVU5|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-gi:501327905:ref:WP_012359540.1:|FEATURES|tetB|tetracycline|tetB	3000166		
-EDK10390|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
-gi:504744538:ref:WP_014931640.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
-ZP_00155442|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
+gi:501327905:ref:WP_012359540.1:|FEATURES|tetB|tetracycline|tetB	3000166		Previously mapped to ARO:3000024 (patA) by RGI
+EDK10390|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
+gi:504744538:ref:WP_014931640.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
+ZP_00155442|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
 ACI71754|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 YP_001571902|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 gi:12483631:dbj:BAB21440.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:447201640:ref:WP_001278896.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:489865503:ref:WP_003769095.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
-CAB54703|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+gi:447201640:ref:WP_001278896.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:489865503:ref:WP_003769095.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
+CAB54703|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 gi:1006166702:ref:WP_061737137.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-YP_001292390|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
+YP_001292390|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
 gi:1002550102:ref:WP_061393727.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:485791166:ref:WP_001413069.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:485791166:ref:WP_001413069.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 YP_001444376|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
-gi:835837149:ref:WP_047675817.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:835837149:ref:WP_047675817.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 Q8DF90|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
-gi:898534650:ref:WP_049595194.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:898534650:ref:WP_049595194.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:1031791968:ref:WP_064133322.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 YP_002401190|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-gi:447201648:ref:WP_001278904.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201648:ref:WP_001278904.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 Q57TH0|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 gi:537465722:ref:WP_020977229.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-AAC22099|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
+AAC22099|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
 gi:1031805109:ref:WP_064139257.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:950647379:ref:WP_057486511.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-HE999704.1.gene2674.p01|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
-gi:194709354:gb:ACF88577.1:|FEATURES|bleomycin_resistance_protein|glycopeptide|bleomycin_resistance_protein	3004256		
+HE999704.1.gene2674.p01|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
+gi:194709354:gb:ACF88577.1:|FEATURES|bleomycin_resistance_protein|glycopeptide|bleomycin_resistance_protein	3004256		Previously mapped to ARO:3006980 (RAHN-2) by RGI
 CAR58198|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-AAA48273|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
-CAA42550|FEATURES|lmrA|MLS|lmrA	3003028		
+AAA48273|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
+CAA42550|FEATURES|lmrA|MLS|lmrA	3003028		Previously mapped to ARO:3003955 (efpA) by RGI
 NP_826974|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)
-NP_671620|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+NP_671620|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 gi:1007099473:ref:WP_061843909.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:1031809986:ref:WP_064139870.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:916230870:ref:WP_050975032.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:938466753:ref:WP_054627812.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:447201642:ref:WP_001278898.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:938466753:ref:WP_054627812.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:447201642:ref:WP_001278898.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:1006184502:ref:WP_061741368.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:757444661:ref:WP_042741303.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-ZP_01788419|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
+ZP_01788419|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
 gi:446993877:ref:WP_001071133.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 B7N7S6|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 gi:446993895:ref:WP_001071151.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 NC_007793.3912797.p01|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:672857082:gb:KFI00103.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:672857082:gb:KFI00103.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 BAC58936|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
 YP_002188856|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)
 gi:554679166:ref:WP_023180168.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 YP_001175338|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 Q8FL96|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-ZP_04464540|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		
+ZP_04464540|FEATURES|PBP-1A|beta-lactam|PBP-1A	3000001		Previously mapped to ARO:3002913 (vanO) by RGI
 YP_001878864|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-gi:447201622:ref:WP_001278878.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:749002628:ref:WP_040062280.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201622:ref:WP_001278878.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:749002628:ref:WP_040062280.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3007650 (CDA-1) by RGI
 YP_001476958|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 gi:928780642:ref:WP_053862023.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:447201652:ref:WP_001278908.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201652:ref:WP_001278908.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 YP_002847275|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 gi:1031796384:ref:WP_064136479.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:928799654:ref:WP_053871829.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:447201485:ref:WP_001278741.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201485:ref:WP_001278741.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 YP_002196817|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)
 YP_002396141|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-gi:447201644:ref:WP_001278900.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-AAU01314|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
-gi:499592337:ref:WP_011273071.1:|FEATURES|tetB|tetracycline|tetB	3000166		
-YP_002193132|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		
+gi:447201644:ref:WP_001278900.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+AAU01314|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
+gi:499592337:ref:WP_011273071.1:|FEATURES|tetB|tetracycline|tetB	3000166		Previously mapped to ARO:3000024 (patA) by RGI
+YP_002193132|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		Previously mapped to ARO:3003046 (qacA) by RGI
 gi:1002526225:ref:WP_061390684.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-ABX00596|FEATURES|lmrA|MLS|lmrA	3003028		
-gi:499299025:ref:WP_010989975.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
-gi:447201649:ref:WP_001278905.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+ABX00596|FEATURES|lmrA|MLS|lmrA	3003028		Previously mapped to ARO:3003955 (efpA) by RGI
+gi:499299025:ref:WP_010989975.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
+gi:447201649:ref:WP_001278905.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:446993878:ref:WP_001071134.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-ABZ80060|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+ABZ80060|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 A7FMC1|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-CP000034.1.gene1340.p01|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:497610921:ref:WP_009925105.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
+CP000034.1.gene1340.p01|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:497610921:ref:WP_009925105.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
 ZP_02698269|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
 AAA67509|FEATURES|tcmA|tetracenomycin_C|tcmA	3003554		tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)
-gi:489818582:ref:WP_003722396.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		
+gi:489818582:ref:WP_003722396.1:|FEATURES|cystathionine_beta-lyase_patB|unclassified|cystathionine_beta-lyase_patB	3000025		Previously mapped to ARO:3000849 (SFH-1) by RGI
 gi:446993908:ref:WP_001071164.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 NC_003923.1003359.p01|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:447201637:ref:WP_001278893.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:447201637:ref:WP_001278893.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 gi:446993875:ref:WP_001071131.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 YP_002039320|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-gi:487032971:ref:WP_001625114.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
+gi:487032971:ref:WP_001625114.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
 ZP_01813310|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
 gi:1002519395:ref:WP_061390634.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:447201638:ref:WP_001278894.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-AAM13572|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+gi:447201638:ref:WP_001278894.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+AAM13572|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 ZP_02197344|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
 NC_002745.1124031.p01|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:446993883:ref:WP_001071139.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-AF024666.2.gene7.p01|FEATURES|tetB|tetracycline|tetB	3000166		
-ZP_02902942|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3000166		
+AF024666.2.gene7.p01|FEATURES|tetB|tetracycline|tetB	3000166		Previously mapped to ARO:3002522 (novA) by RGI
+ZP_02902942|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3000166		Previously mapped to ARO:3000600 (Erm(34)) by RGI
 YP_002418004|FEATURES|tet34|tetracycline|tet34	3002870		tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
 Q56016|FEATURES|kasugamycin_resistance_protein_ksgA|aminoglycoside|kasugamycin_resistance_protein_ksgA	3003333		https://pubchem.ncbi.nlm.nih.gov/protein/A7ZW03
-AAL73823|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		
+AAL73823|FEATURES|rifampin_resistance_protein|rifamycin|rifampin_resistance_protein	3000507		Previously mapped to ARO:3001003 (TEM-139) by RGI
 gi:446993884:ref:WP_001071140.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:446993893:ref:WP_001071149.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
 gi:1031778566:ref:WP_064126137.1:|FEATURES|fmtC|beta-lactam|fmtC	3000017		https://academic.oup.com/femsle/article-abstract/203/1/49/478714?redirectedFrom=fulltext
-gi:771454993:ref:WP_045149547.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-gi:1021747353:gb:KZO85247.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		
-AAC28105|FEATURES|Vibrio_cholerae_OmpT|peptide|Vibrio_cholerae_OmpT	3004118		
-NP_358969.1|FEATURES|patB|fluoroquinolone|patB	3000025		
-YP_004928104.1|FEATURES|CrpP|fluoroquinolone|CrpP	3004467		
-AID70696|FEATURES|Vibrio_cholerae_OmpU|peptide|Vibrio_cholerae_OmpU	3004117		
-AKL79742.1|FEATURES|carO|beta-lactam|carO	3003808		
-ABF66011.1|FEATURES|lmrC|MLS|lmrC	3002881		
-AMP35312.1|FEATURES|vgaC|MLS|vgaC	3002831		
+gi:771454993:ref:WP_045149547.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+gi:1021747353:gb:KZO85247.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase	0010004		Previously mapped to ARO:3002484 (LRA-13) by RGI
+AAC28105|FEATURES|Vibrio_cholerae_OmpT|peptide|Vibrio_cholerae_OmpT	3004118		Previously mapped to ARO:3004123 (Burkholderia pseudomallei Omp38) by RGI
+NP_358969.1|FEATURES|patB|fluoroquinolone|patB	3000025		Previously mapped to ARO:3003692 (MexJ) by RGI
+YP_004928104.1|FEATURES|CrpP|fluoroquinolone|CrpP	3004467		Previously mapped to ARO:3008590 (OXA-1172) by RGI
+AID70696|FEATURES|Vibrio_cholerae_OmpU|peptide|Vibrio_cholerae_OmpU	3004117		Previously mapped to ARO:3004122 (Klebsiella pneumoniae OmpK37) by RGI
+AKL79742.1|FEATURES|carO|beta-lactam|carO	3003808		Previously mapped to ARO:3005044 (OmpA) by RGI
+ABF66011.1|FEATURES|lmrC|MLS|lmrC	3002881		Previously mapped to ARO:3000024 (patA) by RGI
+AMP35312.1|FEATURES|vgaC|MLS|vgaC	3002831		Previously mapped to ARO:3003010 (ceoB) by RGI

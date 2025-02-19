@@ -257,7 +257,7 @@ Original ID	ARO	Gene Name in CARD	Description
 215044|AAA98099.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
 150634|AAA98223.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
 32400302|BAC78639.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
-500246546|WP_011906899.1|1|1|estDL136|estDL136||2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol_hydrolase	3000249	chloramphenicol phosphotransferase	"Closest match to ARO term, however, chloramphenicol hydrolase not in CARD"
+500246546|WP_011906899.1|1|1|estDL136|estDL136||2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol_hydrolase	3000249	chloramphenicol phosphotransferase	Closest match to ARO term, however, chloramphenicol hydrolase not in CARD
 195957621|ACG59730.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
 282165972|ADA79992.1|1|1|merT_pI258|merT_pI258||1|MERCURY|MERCURY|mercuric_transport_protein_MerT			Metal resistance gene
 760237698|AJP10337.1|1|1|tcdE|tcdE||1|||holin-like_glycosylating_toxin_export_protein_TcdE			General stress response/Virulence gene
@@ -289,94 +289,94 @@ Original ID	ARO	Gene Name in CARD	Description
 153002|AAA26617.1|1|1|see|see||1|||staphylococcal_enterotoxin_type_E			General stress response/Virulence gene
 62085704|AAX63244.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
 18147034|BAB83000.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
-1788757044|QHA94809.1|1|1|narB|narB||1|MADURAMICIN/NARASIN/SALINOMYCIN|IONOPHORE|ionophore_ABC_transporter_permease_subunit_NarB			"Ionophore antibiotic resistance gene (conferring resistance to narasin, salinomycin, and maduramicin). Gene not in CARD. No mapping available. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00104/full"
+1788757044|QHA94809.1|1|1|narB|narB||1|MADURAMICIN/NARASIN/SALINOMYCIN|IONOPHORE|ionophore_ABC_transporter_permease_subunit_NarB			Ionophore antibiotic resistance gene (conferring resistance to narasin, salinomycin, and maduramicin). Gene not in CARD. No mapping available. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00104/full
 219881591|ACL51961.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
 918399751|BAS21358.1|1|1|sey|sey||1|||staphylococcal_enterotoxin_type_Y			General stress response/Virulence gene
 284924617|CBG27800.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
 4335916|AAD17515.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
 108743114|CAJ76690.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
-1028083999|WP_063842967.1|1|1|ble-Sv|ble-Sv|sequestration|2|BLEOMYCIN|BLEOMYCIN|BLMA_family_bleomycin_binding_protein	3001205		
-1028084030|WP_063842998.1|1|1|ble-Sh|ble-Sh|sequestration|2|BLEOMYCIN|BLEOMYCIN|phleomycin/bleomycin_binding_protein_Ble-Sh	3001205		
-1028084238|WP_063843206.1|1|1|blmB|blmB|acetyltransferase|2|BLEOMYCIN|BLEOMYCIN|bleomycin_family_antibiotic_N-acetyltransferase_BlmB	3001205		
-1028097838|WP_063854493.1|1|1|nshR|nshR|target_modification|2|THIOSTREPTON|THIOSTREPTON|NshR_family_nosiheptide/thiostrepton_resistance_23S_rRNA_methyltransferase	3003060		
-1028098183|WP_063854743.1|1|1|SMR_efflux_smr|SMR_efflux_smr|efflux|2|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|multidrug_efflux_SMR_transporter_Smr	0010003		
-1105502106|WP_071846258.1|1|1|SMR_efflux_smr|SMR_efflux_smr|efflux|2|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|multidrug_efflux_SMR_transporter_Smr	0010003		
-1114603964|WP_072081991.1|1|1|blmA|blmA|sequestration|2|BLEOMYCIN|BLEOMYCIN|bleomycin_binding_protein_BLMA	3001205		
-1339868820|WP_103663397.1|1|1|sulX|sulX||2|SULFONAMIDE|SULFONAMIDE|sulfonamide_monooxygenase_SulX	3004238		
-1787413|AAC74250.1|1|1|ariR|ariR||1|||biofilm/acid-resistance_regulator_AriR	3000838		
-489821492|WP_003725292.1|1|1|SMR_efflux_bcrC|SMR_efflux_bcrC|efflux|2|BACITRACIN|BACITRACIN|quaternary_ammonium_compound_efflux_SMR_transporter_BcrC	3003250		
-489821494|WP_003725293.1|1|1|SMR_efflux_bcrB|SMR_efflux_bcrB|efflux|2|BACITRACIN|BACITRACIN|quaternary_ammonium_compound_efflux_SMR_transporter_BcrB	3003250		
-491775962|WP_005592781.1|1|1|tet(34)|tet(34)|enzymatic|2|TETRACYCLINE|TETRACYCLINE|oxytetracycline_resistance_phosphoribosyltransferase_domain-containing_protein_Tet(34)	3002870		
-499291057|WP_010982315.1|1|1|cpt|cpt|phosphotransferase|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_phosphotransferase_CPT	3000249		
-499429506|WP_011116970.1|1|1|tetAB_B|tetAB_B|efflux|2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_ABC_transporter_TetAB_subunit_B	3000166		
+1028083999|WP_063842967.1|1|1|ble-Sv|ble-Sv|sequestration|2|BLEOMYCIN|BLEOMYCIN|BLMA_family_bleomycin_binding_protein	3001205		Previously mapped to ARO:3003067 (smeS) by RGI.
+1028084030|WP_063842998.1|1|1|ble-Sh|ble-Sh|sequestration|2|BLEOMYCIN|BLEOMYCIN|phleomycin/bleomycin_binding_protein_Ble-Sh	3001205		Previously mapped to ARO:3004660 (catB11) by RGI.
+1028084238|WP_063843206.1|1|1|blmB|blmB|acetyltransferase|2|BLEOMYCIN|BLEOMYCIN|bleomycin_family_antibiotic_N-acetyltransferase_BlmB	3001205		Previously mapped to ARO:3003989 (AAC(6')-34) by RGI.
+1028097838|WP_063854493.1|1|1|nshR|nshR|target_modification|2|THIOSTREPTON|THIOSTREPTON|NshR_family_nosiheptide/thiostrepton_resistance_23S_rRNA_methyltransferase	3003060		nshR and tsnR gene are related. https://www.ncbi.nlm.nih.gov/gene/40831129
+1028098183|WP_063854743.1|1|1|SMR_efflux_smr|SMR_efflux_smr|efflux|2|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|multidrug_efflux_SMR_transporter_Smr	0010003		Previously mapped to ARO:3003063 (ykkC) by RGI
+1105502106|WP_071846258.1|1|1|SMR_efflux_smr|SMR_efflux_smr|efflux|2|QUATERNARY_AMMONIUM|QUATERNARY_AMMONIUM|multidrug_efflux_SMR_transporter_Smr	0010003		Previously mapped to ARO:3003063 (ykkC) by RGI
+1114603964|WP_072081991.1|1|1|blmA|blmA|sequestration|2|BLEOMYCIN|BLEOMYCIN|bleomycin_binding_protein_BLMA	3001205		Previously mapped to ARO:3007371 (FosA8) by RGI
+1339868820|WP_103663397.1|1|1|sulX|sulX||2|SULFONAMIDE|SULFONAMIDE|sulfonamide_monooxygenase_SulX	3004238		Previously mapped to ARO:3002423 (OKP-A-6) by RGI
+1787413|AAC74250.1|1|1|ariR|ariR||1|||biofilm/acid-resistance_regulator_AriR	3000838		Previously mapped to ARO:3003049 (rosB) by RGI
+489821492|WP_003725292.1|1|1|SMR_efflux_bcrC|SMR_efflux_bcrC|efflux|2|BACITRACIN|BACITRACIN|quaternary_ammonium_compound_efflux_SMR_transporter_BcrC	3003250		Previously mapped to ARO:3007014 (qacJ) by RGI
+489821494|WP_003725293.1|1|1|SMR_efflux_bcrB|SMR_efflux_bcrB|efflux|2|BACITRACIN|BACITRACIN|quaternary_ammonium_compound_efflux_SMR_transporter_BcrB	3003250		Previously mapped to ARO:3007014 (qacJ) by RGI
+491775962|WP_005592781.1|1|1|tet(34)|tet(34)|enzymatic|2|TETRACYCLINE|TETRACYCLINE|oxytetracycline_resistance_phosphoribosyltransferase_domain-containing_protein_Tet(34)	3002870		Previously mapped to ARO:3007840 (CIM-1) by RGI
+499291057|WP_010982315.1|1|1|cpt|cpt|phosphotransferase|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_phosphotransferase_CPT	3000249		Previously mapped to ARO:3003111 (lsaB) by RGI.
+499429506|WP_011116970.1|1|1|tetAB_B|tetAB_B|efflux|2|TETRACYCLINE|TETRACYCLINE|tetracycline_efflux_ABC_transporter_TetAB_subunit_B	3000166		Previously mapped to ARO:3002522 (novA) by RGI
 738346930|WP_036299413.1|1|1|sulR|sulR||2|SULFONAMIDE|SULFONAMIDE|flavin_reductase_SulR	3004238		(https://pubmed.ncbi.nlm.nih.gov/30928844/) it seems that this gene is for microbacterium which is gram-positive. Sul 1, 2, 3, and 4 in CARD are all for gram-negative bacteria
-918359733|WP_052413892.1|1|1|tcmA|tcmA||2|TETRACENOMYCIN|TETRACENOMYCIN|tetracenomycin_C_efflux_MFS_transporter	3003554		
+918359733|WP_052413892.1|1|1|tcmA|tcmA||2|TETRACENOMYCIN|TETRACENOMYCIN|tetracenomycin_C_efflux_MFS_transporter	3003554		Previously mapped to ARO:3004577 (Acinetobacter baumannii AmvA) by RGI
 919906410|WP_052905207.1|1|1|grdA|grdA||2|GENTAMICIN|AMINOGLYCOSIDE|gentamicin_resistance_ATP-binding_protein_GrdA	3002528		https://pmc.ncbi.nlm.nih.gov/articles/PMC7577141/#:~:text=The%20grdA%20gene%20identified%20in,protein%20likely%20binds%20to%20ATP.
-0|WP_000064875.1|1|1|lpxA|lpxA|mutation|2|||acyl-ACP--UDP-N-acetylglucosamine_O-acyltransferase_LpxA	3003573		
-0|WP_000159119.1|1|1|cdsA|cdsA|mutation|2|||phosphatidate_cytidylyltransferase_CdsA	3004096		
-0|WP_000161505.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		
-0|WP_000167936.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase	3000226		
-0|WP_000240700.1|1|1|lpxC|lpxC|mutation|2|||UDP-3-O-acyl-N-acetylglucosamine_deacetylase_LpxC	3003574		
-0|WP_000351450.1|1|1|nfsB|nfsB|mutation|2|||oxygen-insensitive_NAD(P)H_nitroreductase_NfsB	3003755		
-0|WP_000680577.1|1|1|baeR|baeR|mutation|2|||response_regulator_BaeR	3000828		
-0|WP_000697899.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		
+0|WP_000064875.1|1|1|lpxA|lpxA|mutation|2|||acyl-ACP--UDP-N-acetylglucosamine_O-acyltransferase_LpxA	3003573		Previously mapped to ARO:3002675 (catB2) by RGI
+0|WP_000159119.1|1|1|cdsA|cdsA|mutation|2|||phosphatidate_cytidylyltransferase_CdsA	3004096		Previously mapped to ARO:3000804 (MexF) by RGI
+0|WP_000161505.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		Previously mapped to ARO:3000838 (arlR) by RGI
+0|WP_000167936.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase	3000226		Previously mapped to ARO:3004361 (sul4) by RGI
+0|WP_000240700.1|1|1|lpxC|lpxC|mutation|2|||UDP-3-O-acyl-N-acetylglucosamine_deacetylase_LpxC	3003574		Previously mapped to ARO:3007062 (VAM-1) by RGI
+0|WP_000351450.1|1|1|nfsB|nfsB|mutation|2|||oxygen-insensitive_NAD(P)H_nitroreductase_NfsB	3003755		Previously mapped to ARO:3008820 (OXY-9-1) by RGI
+0|WP_000680577.1|1|1|baeR|baeR|mutation|2|||response_regulator_BaeR	3000828		Previously mapped to ARO:3003066 (smeR) by RGI
+0|WP_000697899.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		Previously mapped to ARO:3002919 (vanR gene in vanA cluster) by RGI
 0|WP_000888203.1|1|1|oqxR|oqxR|mutation|2|||Rrf2_family_transcriptional_regulator_OqxR	3003921		https://aricjournal.biomedcentral.com/articles/10.1186/s13756-019-0489-3
-0|WP_000948731.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	3004247		
-0|WP_000977920.1|1|1|ompF|ompF|mutation|2|||outer_membrane_protein_F_OmpF	3000265		
-0|WP_001010111.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	3004247		
-0|WP_001118667.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	3003930		
-0|WP_001157751.1|1|1|ompR|ompR|mutation|2|||two-component_system_response_regulator_OmpR	3004282		
-0|WP_001181005.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	3003930		
-0|WP_001281271.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_001960919.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-0|WP_002215394.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	3003930		
-0|WP_002215445.1|1|1|rpsE|rpsE|mutation|2|||30S_ribosomal_protein_S5	3007526		
-0|WP_002240607.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_002296175.1|1|1|eat(A)|eat(A)|mutation|2|||ABC-F_type_ribosomal_protection_protein_Eat(A)	3003761		
-0|WP_002884747.1|1|1|lamB|lamB|mutation|2|||maltoporin_LamB	3004126		
-0|WP_002892080.1|1|1|acrR|acrR|mutation|2|||transcriptional_regulator_AcrR	3000702		
-0|WP_003027598.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_003082436.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	3000834		
-0|WP_003082438.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	3000835		
-0|WP_003088694.1|1|1|cmrA|cmrA|mutation|2|||AraC_family_transcriptional_regulator_CmrA	3002702		
-0|WP_003091448.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_003093741.1|1|1|fusA1|fusA1|mutation|2|||elongation_factor_G	3003734		
-0|WP_003096330.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	3004247		
-0|WP_003097268.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		
-0|WP_003102062.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000115		
-0|WP_003102236.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		
+0|WP_000948731.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	3004247		Previously mapped to ARO:3007019 (fexB) by RGI
+0|WP_000977920.1|1|1|ompF|ompF|mutation|2|||outer_membrane_protein_F_OmpF	3000265		Previously mapped to ARO:3004122 (Klebsiella pneumoniae OmpK37) by RGI
+0|WP_001010111.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	3004247		Previously mapped to ARO:3007010 (norC) by RGI
+0|WP_001118667.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	3003930		Previously mapped to ARO:3003953 (hmrM) by RGI
+0|WP_001157751.1|1|1|ompR|ompR|mutation|2|||two-component_system_response_regulator_OmpR	3004282		Previously mapped to ARO:3003728 (vanR gene in vanI cluster) by RGI
+0|WP_001181005.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	3003930		Previously mapped to ARO:3001427 (OXA-33) by RGI
+0|WP_001281271.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+0|WP_001960919.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3002523 (AAC(2')-Ia) by RGI
+0|WP_002215394.1|1|1|rpsJ|rpsJ|mutation|2|||30S_ribosomal_protein_S10	3003930		Previously mapped to ARO:3001364 (SHV-182) by RGI
+0|WP_002215445.1|1|1|rpsE|rpsE|mutation|2|||30S_ribosomal_protein_S5	3007526		Previously mapped to ARO:3006155 (CME-2) by RGI
+0|WP_002240607.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+0|WP_002296175.1|1|1|eat(A)|eat(A)|mutation|2|||ABC-F_type_ribosomal_protection_protein_Eat(A)	3003761		Previously mapped to ARO:3000300 (lsaA) by RGI
+0|WP_002884747.1|1|1|lamB|lamB|mutation|2|||maltoporin_LamB	3004126		Previously mapped to ARO:3000491 (acrD) by RGI
+0|WP_002892080.1|1|1|acrR|acrR|mutation|2|||transcriptional_regulator_AcrR	3000702		Previously mapped to ARO:3003807 (Escherichia coli AcrAB-TolC with AcrR mutation conferring resistance to ciprofloxacin, tetracycline, and ceftazidime) by RGI
+0|WP_003027598.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+0|WP_003082436.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	3000834		Previously mapped to ARO:3000838 (arlR) by RGI
+0|WP_003082438.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	3000835		Previously mapped to ARO:3003067 (smeS) by RGI
+0|WP_003088694.1|1|1|cmrA|cmrA|mutation|2|||AraC_family_transcriptional_regulator_CmrA	3002702		Previously mapped to ARO:3000823 (ramA) by RGI
+0|WP_003091448.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3007906 (ACT-124) by RGI
+0|WP_003093741.1|1|1|fusA1|fusA1|mutation|2|||elongation_factor_G	3003734		Previously mapped to ARO:3000193 (tet(T)) by RGI
+0|WP_003096330.1|1|1|glpT|glpT|mutation|2|||glycerol-3-phosphate_transporter_GlpT	3004247		Previously mapped to ARO:3004574 (Acinetobacter baumannii AbaQ) by RGI
+0|WP_003097268.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		Previously mapped to ARO:3007043 (msr(I)) by RGI
+0|WP_003102062.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000115		Previously mapped to ARO:3000549 (adeS) by RGI
+0|WP_003102236.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		Previously mapped to ARO:3000838 (arlR) by RGI
 0|WP_003112576.1|1|1|oprD|oprD|mutation|2|||outer_membrane_porin_OprD	3003686		https://www.uniprot.org/uniprotkb/P32722/entry
 0|WP_003137572.1|1|1|ampR|ampR|mutation|2|||transcriptional_regulator_AmpR	3007491		https://www.ncbi.nlm.nih.gov/protein/WP_003137572.1
-0|WP_003429305.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_003429485.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	3004995		
-0|WP_003434229.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		
-0|WP_003688895.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_003690088.1|1|1|rplD|rplD|mutation|2|||50S_ribosomal_protein_L4	3004956		
-0|WP_003691666.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000457		
+0|WP_003429305.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3005466 (IMP-59) by RGI
+0|WP_003429485.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	3004995		Previously mapped to ARO:3004146 (cfrC) by RGI
+0|WP_003434229.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		Previously mapped to ARO:3008988 (PEN-A10) by RGI
+0|WP_003688895.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+0|WP_003690088.1|1|1|rplD|rplD|mutation|2|||50S_ribosomal_protein_L4	3004956		Previously mapped to ARO:3004643 (Erm(K)) by RGI
+0|WP_003691666.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000457		Previously mapped to ARO:3004669 (emtA) by RGI
 0|WP_003702942.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	3004873		https://www.ncbi.nlm.nih.gov/protein/WP_003702942.1
-0|WP_004103997.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_004105833.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-0|WP_004527513.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_005482017.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-0|WP_006764872.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_011078689.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-0|WP_011861625.1|1|1|murG|murG|mutation|2|||undecaprenyldiphospho-muramoylpentapeptide_beta-N-acetylglucosaminyltransferase_MurG	3004560		
-0|WP_013098009.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-0|WP_013098723.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
+0|WP_004103997.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+0|WP_004105833.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3007101 (BcIII) by RGI
+0|WP_004527513.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3006122 (OXA-942) by RGI
+0|WP_005482017.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3002523 (AAC(2')-Ia) by RGI
+0|WP_006764872.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3006312 (ADC-137) by RGI
+0|WP_011078689.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3002523 (AAC(2')-Ia) by RGI
+0|WP_011861625.1|1|1|murG|murG|mutation|2|||undecaprenyldiphospho-muramoylpentapeptide_beta-N-acetylglucosaminyltransferase_MurG	3004560		Previously mapped to ARO:3000462 (mgtA) by RGI
+0|WP_013098009.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+0|WP_013098723.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3007101 (BcIII) by RGI
 0|WP_019167736.1|1|1|grlA|grlA|mutation|2|||DNA_topoisomerase_GrlA	3003296		https://pmc.ncbi.nlm.nih.gov/articles/PMC105394/
-0|WP_028127742.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
+0|WP_028127742.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
 0|WP_050171206.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3004859		https://www.ncbi.nlm.nih.gov/protein/WP_050171206.1
 0|WP_089631889.1|1|1|nfsA|nfsA|mutation|2|||nitroreductase_NfsA	3003751		https://www.ncbi.nlm.nih.gov/protein/WP_089631889.1
-0|WP_103263503.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
+0|WP_103263503.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3000553 (adeR) by RGI
 1011600567|WP_002389492.1|1|1|gshF|gshF|mutation|2|||bifunctional_glutamate--cysteine_ligase/glutathione_synthetase_GshF	3003805		https://www.ncbi.nlm.nih.gov/protein/WP_002389492.1
-1236597042|WP_094970923.1|1|1|basR|basR|mutation|2|||two-component_system_response_regulator_BasR	3003582		
-1327477942|WP_101982161.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
+1236597042|WP_094970923.1|1|1|basR|basR|mutation|2|||two-component_system_response_regulator_BasR	3003582		Previously mapped to ARO:3000838 (arlR) by RGI
+1327477942|WP_101982161.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3007101 (BcIII) by RGI
 1409065054|WP_111724484.1|1|1|mprF|mprF|mutation|2|||bifunctional_lysylphosphatidylglycerol_flippase/synthetase	3003769		https://www.ncbi.nlm.nih.gov/protein/WP_111724484.1
-1467848013|WP_117036963.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-16131218|WP_000031783.1|1|1|tufA|tufA|mutation|2|||translation_elongation_factor_EF-Tu_1	3003368		
-1635689237|WP_137277832.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-1789396|WP_001281881.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-218562643|WP_002857904.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
+1467848013|WP_117036963.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+16131218|WP_000031783.1|1|1|tufA|tufA|mutation|2|||translation_elongation_factor_EF-Tu_1	3003368		Previously mapped to ARO:3007124 (tet(W/32/O)) by RGI
+1635689237|WP_137277832.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3002987 (bcrA) by RGI
+1789396|WP_001281881.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3007101 (BcIII) by RGI
+218562643|WP_002857904.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3004541 (mphK) by RGI
 29342129|WP_002356022.1|1|1|yybT|yybT|mutation|2|||cyclic_dinucleotide_phosphodiesterase_YybT	3003797		https://www.ncbi.nlm.nih.gov/protein/WP_002356022.1
 29344842|WP_002355137.1|1|1|liaR|liaR|mutation|2|||response_regulator_transcription_factor_LiaR	3003078		https://www.ncbi.nlm.nih.gov/protein/WP_002355137.1
 29344843|WP_002365182.1|1|1|liaS|liaS|mutation|2|||sensor_histidine_kinase_LiaS	3004264		https://card.mcmaster.ca/ontology/41428
@@ -384,33 +384,33 @@ Original ID	ARO	Gene Name in CARD	Description
 388533369|WP_002289154.1|1|1|liaS|liaS|mutation|2|||sensor_histidine_kinase_LiaS	3003079		https://www.ncbi.nlm.nih.gov/protein/WP_002289154.1
 388533370|WP_002289153.1|1|1|liaR|liaR|mutation|2|||response_regulator_transcription_factor_LiaR	3003078		https://www.ncbi.nlm.nih.gov/protein/WP_002289153.1
 446012460|WP_000090315.1|1|1|fusA|fusA|mutation|2|||elongation_factor_G	3003735		https://www.ncbi.nlm.nih.gov/protein/WP_000090315.1
-446038595|WP_000116450.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-446060493|WP_000138348.1|1|1|pbp2|pbp2|mutation|2|||penicillin-binding_protein	3001208		
-446117463|WP_000195318.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000457		
-446306851|WP_000384706.1|1|1|ileS|ileS|mutation|2|||isoleucine--tRNA_ligase	3000732		
-446687385|WP_000764731.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	3000226		
-447203987|WP_001281243.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-447204654|WP_001281910.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-487755227|WP_001836116.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-488300672|WP_002371880.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-488984872|WP_002895659.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		
-489000713|WP_002911375.1|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	3003820		
-490249900|WP_004147969.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	3000835		
-490252783|WP_004150807.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	3000834		
-49240387|WP_010956585.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		
-49240401|WP_000871610.1|1|1|walK|walK|mutation|2|||cell_wall_metabolism_sensor_histidine_kinase_WalK	3003795		
+446038595|WP_000116450.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3004466 (ICR-Mc) by RGI
+446060493|WP_000138348.1|1|1|pbp2|pbp2|mutation|2|||penicillin-binding_protein	3001208		Previously mapped to ARO:3004658 (catA8) by RGI
+446117463|WP_000195318.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000457		Previously mapped to ARO:3000549 (adeS) by RGI
+446306851|WP_000384706.1|1|1|ileS|ileS|mutation|2|||isoleucine--tRNA_ligase	3000732		Previously mapped to ARO:3000510 (Staphylococcus aureus mupB conferring resistance to mupirocin) by RGI
+446687385|WP_000764731.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	3000226		Previously mapped to ARO:3004361 (sul4) by RGI
+447203987|WP_001281243.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3003172 (ACT-37) by RGI
+447204654|WP_001281910.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3007101 (BcIII) by RGI
+487755227|WP_001836116.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3005466 (IMP-59) by RGI
+488300672|WP_002371880.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3009035 (RAA-1) by RGI
+488984872|WP_002895659.1|1|1|pmrA|pmrA|mutation|2|||two-component_system_response_regulator_PmrA	3000822		Previously mapped to ARO:3005063 (cprR) by RGI
+489000713|WP_002911375.1|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	3003820		Previously mapped to ARO:3000794 (mdtC) by RGI
+490249900|WP_004147969.1|1|1|phoQ|phoQ|mutation|2|||two-component_system_sensor_histidine_kinase_PhoQ	3000835		Previously mapped to ARO:3000829 (baeS) by RGI
+490252783|WP_004150807.1|1|1|phoP|phoP|mutation|2|||two-component_system_response_regulator_PhoP	3000834		Previously mapped to ARO:3003841 (kdpE) by RGI
+49240387|WP_010956585.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		Previously mapped to ARO:3000549 (adeS) by RGI
+49240401|WP_000871610.1|1|1|walK|walK|mutation|2|||cell_wall_metabolism_sensor_histidine_kinase_WalK	3003795		Previously mapped to ARO:3000829 (baeS) by RGI
 49240583|WP_001008722.1|1|1|uhpT|uhpT|mutation|2|||hexose_phosphate_transporter_UhpT	3003902		https://www.ncbi.nlm.nih.gov/protein/WP_001008722.1
-49240902|WP_000567963.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	3003291		
+49240902|WP_000567963.1|1|1|rpoC|rpoC|mutation|2|||DNA-directed_RNA_polymerase_subunit_beta_RpoC	3003291		Previously mapped to ARO:3003746 (optrA) by RGI
 499327248|WP_011017740.1|1|1|folP|folP|mutation|2|||dihydropteroate_synthase_FolP	3003387		https://www.ncbi.nlm.nih.gov/protein/WP_011017740.1
-557272689|WP_000623140.1|1|1|ptsI|ptsI|mutation|2|||phosphoenolpyruvate--protein_phosphotransferase_PtsI	3003899		
-557273012|WP_000281668.1|1|1|cyaA|cyaA|mutation|2|||adenylate_cyclase_CyaA	3003900		
-557273135|WP_000633668.1|1|1|uhpA|uhpA|mutation|2|||DNA-binding_response_regulator_UhpA	3004249		
-557273138|WP_000879194.1|1|1|uhpT|uhpT|mutation|2|||hexose_phosphate_transporter_UhpT	3004248		
-685632466|WP_001289586.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		
-723059797|WP_033554192.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000457		
-769549125|WP_002779062.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		
-85676345|WP_000072067.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		
-87203547|WP_000571549.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	3003272		
-949628753|WP_057042458.1|1|1|rpsL|rpsL|mutation|2|||30S_ribosomal_protein_S12_RpsL	3003419		
-985479976|WP_002295408.1|1|1|liaF|liaF|mutation|2|||three-component_signaling_pathway_regulator_LiaF	3004262		
-489000713|WP_002911375.1:47:mgrB_W47R|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	3003820		
+557272689|WP_000623140.1|1|1|ptsI|ptsI|mutation|2|||phosphoenolpyruvate--protein_phosphotransferase_PtsI	3003899		Previously mapped to ARO:3003992 (rphB) by RGI
+557273012|WP_000281668.1|1|1|cyaA|cyaA|mutation|2|||adenylate_cyclase_CyaA	3003900		Previously mapped to ARO:3003692 (MexJ) by RGI
+557273135|WP_000633668.1|1|1|uhpA|uhpA|mutation|2|||DNA-binding_response_regulator_UhpA	3004249		Previously mapped to ARO:3000832 (evgA) by RGI
+557273138|WP_000879194.1|1|1|uhpT|uhpT|mutation|2|||hexose_phosphate_transporter_UhpT	3004248		Previously mapped to ARO:3003048 (rosA) by RGI
+685632466|WP_001289586.1|1|1|parC|parC|mutation|2|||DNA_topoisomerase_IV_subunit_A_ParC	3000274		Previously mapped to ARO:3008818 (OXY-8-2) by RGI
+723059797|WP_033554192.1|1|1|parE|parE|mutation|2|||DNA_topoisomerase_IV_subunit_B_ParE	3000457		Previously mapped to ARO:3004074 (MuxB) by RGI
+769549125|WP_002779062.1|1|1|gyrA|gyrA|mutation|2|||DNA_gyrase_subunit_A_GyrA	3003292		Previously mapped to ARO:3004541 (mphK) by RGI
+85676345|WP_000072067.1|1|1|gyrB|gyrB|mutation|2|||DNA_topoisomerase_(ATP-hydrolyzing)_subunit_B_GyrB	3000864		Previously mapped to ARO:3004745 (MIR-23) by RGI
+87203547|WP_000571549.1|1|1|cls|cls|mutation|2|||cardiolipin_synthase_Cls	3003272		Previously mapped to ARO:3002587 (AAC(6')-I33) by RGI
+949628753|WP_057042458.1|1|1|rpsL|rpsL|mutation|2|||30S_ribosomal_protein_S12_RpsL	3003419		Previously mapped to ARO:3002669 (APH(2'')-Ig) by RGI
+985479976|WP_002295408.1|1|1|liaF|liaF|mutation|2|||three-component_signaling_pathway_regulator_LiaF	3004262		Previously mapped to ARO:3002975 (vanT gene in vanN cluster) by RGI
+489000713|WP_002911375.1:47:mgrB_W47R|1|1|mgrB|mgrB|mutation|2|||PhoP/PhoQ_regulator_MgrB	3003820		Previously mapped to ARO:3000794 (mdtC) by RGI

@@ -43,12 +43,12 @@ blaBKC-1_1_KP689347	BKC-1	3004757			Reverse complement in resfinder db.
 mph(A)_1_D16251	mphA	3000316			Reverse complement in resfinder db.
 qepA1_1_AB263754	QepA2	3004103			Reverse complement in resfinder db.
 tet(43)_1_GQ244501	tet(43)	3000573			Reverse complement in resfinder db.
-blaSPG-1_1_KP109680	SPG-1	3003720			
-blaBIM-1_1_CP016446	BlaB	3004201			
-grdA_1_QJX10702		3007380			Parent ARO mapping
-aac(3)-I_1_AJ877225	AAC(3)-I	3007384			
+blaSPG-1_1_KP109680	SPG-1	3003720			Reverse complement in resfinder db.
+blaBIM-1_1_CP016446	BlaB	3004201			Reverse complement in resfinder db.
+grdA_1_QJX10702		3007380			Reverse complement in resfinder db. Was given parent ARO mapping
+aac(3)-I_1_AJ877225	AAC(3)-I	3007384			Reverse complement in resfinder db.
 EstDL136_1_JN242251		3000557			Parent ARO mapping
 NarB_1_MN590304			https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00104/full		Ionophore antibiotic resistance gene (conferring resistance to narasin, salinomycin, and maduramicin). Gene not in CARD. No mapping available.
-lmr(A)_1_X59926		3003028			
-crpP_1_HM560971		3004467			
-tet(34)_1_AB061440		3002870			
+lmr(A)_1_X59926		3003028			Previously mapped to ARO:3003955 (efpA) by RGI.
+crpP_1_HM560971		3004467			Previously mapped to ARO:3008590 (OXA-1172) by RGI.
+tet(34)_1_AB061440		3002870			Previously mapped to ARO:3007840 (CIM-1) by RGI. tet(34) isn't used by RGI (it is a 'private model') however it is available in ARO.
