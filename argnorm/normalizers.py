@@ -1,4 +1,5 @@
 import pandas as pd
+# Pandas <1.5 does not have copy_on_write option
 try:
     pd.options.mode.copy_on_write = True
 except pd.errors.OptionError:

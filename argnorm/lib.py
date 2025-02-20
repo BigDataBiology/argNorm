@@ -1,10 +1,5 @@
 import os
-import pandas as pd
-# Pandas <1.5 does not have copy_on_write option
-try:
-    pd.options.mode.copy_on_write = True
-except pd.errors.OptionError:
-    pass
+# do not import pandas here because it is slow to import
 
 # import here so that __version__ is available in the package
 from .argnorm_version import __version__
@@ -56,6 +51,7 @@ def get_aro_mapping_table(database):
     Returns:
         aro_mapping_table (DataFrame): A pandas dataframe with ARGs mapped to AROs.
     """
+    import pandas as pd
 
     if 'groot' in database:
         database = 'groot'
@@ -90,6 +86,7 @@ def map_to_aro(gene, database):
 
         If ARO mapping is doesn't exist, None is returned.
     """
+    import pandas as pd
 
     if database not in DATABASES:
         raise Exception(f'{database} is not a supported database.')

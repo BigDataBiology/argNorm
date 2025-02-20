@@ -2,6 +2,8 @@ import argparse
 import sys
 from .argnorm_version import __version__
 from .atomicwrite import atomic_write
+from . import lib
+
 
 def main():
     """
@@ -16,19 +18,7 @@ def main():
                         choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus', 'groot', 'hamronization'],
                         help='The tool you used to do ARG annotation.')
     parser.add_argument('--db', type=str.lower,
-                        choices=['sarg', 
-                                 'ncbi', 
-                                 'resfinder', 
-                                 'deeparg', 
-                                 'megares', 
-                                 'argannot', 
-                                 'resfinderfg', 
-                                 'groot-argannot', 
-                                 'groot-resfinder', 
-                                 'groot-db', 
-                                 'groot-core-db', 
-                                 'groot-card'
-                                ],
+                        choices=lib.DATABASES,
                         help='The database you used to do ARG annotation.')
     parser.add_argument('-i', '--input', type=str,
                         help='The annotation result you have')
