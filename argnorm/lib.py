@@ -6,6 +6,7 @@ try:
 except pd.errors.OptionError:
     pass
 
+# import here so that __version__ is available in the package
 from .argnorm_version import __version__
 
 ORIGINAL_ID_COL = 'Original ID'
@@ -13,19 +14,19 @@ MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
 
 DATABASES = [
-    'argannot', 
-    'deeparg', 
-    'megares', 
-    'ncbi', 
-    'resfinder', 
-    'resfinderfg', 
+    'argannot',
+    'deeparg',
+    'megares',
+    'ncbi',
+    'resfinder',
+    'resfinderfg',
     'sarg',
     'groot-db',
     'groot-core-db',
     'groot-argannot',
     'groot-resfinder',
     'groot-card',
-] 
+]
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 _ARO = None
@@ -44,6 +45,7 @@ def get_aro_ontology():
         _ARO = pronto.Ontology(os.path.join(_ROOT, 'data/aro.obo'))
     return _ARO
 
+
 def get_aro_mapping_table(database):
     """
     Description: Returns the ARO mapping table for a specific supported databases.
@@ -54,7 +56,7 @@ def get_aro_mapping_table(database):
     Returns:
         aro_mapping_table (DataFrame): A pandas dataframe with ARGs mapped to AROs.
     """
-    
+
     if 'groot' in database:
         database = 'groot'
 
@@ -93,7 +95,7 @@ def map_to_aro(gene, database):
         raise Exception(f'{database} is not a supported database.')
 
     mapping_table = get_aro_mapping_table(database)
-    
+
     # Preprocess input gene & mapping table original ids if groot is being used
     if database == 'groot-argannot':
         gene = gene.split('~~~')[-1]

@@ -12,6 +12,7 @@ import sys
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
 RESISTANCE_TO_DRUG_CLASSES_COL = 'resistance_to_drug_classes'
 
+
 class BaseNormalizer:
     """
     Inherit this class and customize subclass methods to implement the normalization of new databases/formats.
@@ -56,6 +57,7 @@ class BaseNormalizer:
         """
         return pd.read_csv(input_file, sep='\t')
 
+
 class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
         database = 'sarg'
@@ -67,6 +69,7 @@ class ARGSOAPNormalizer(BaseNormalizer):
     def load_input(self, input_file):
         return pd.read_csv(input_file, sep='\t', header=None)
 
+
 class DeepARGNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
         database = 'deeparg'
@@ -74,6 +77,7 @@ class DeepARGNormalizer(BaseNormalizer):
 
     def get_input_ids(self, itable):
         return itable['best-hit']
+
 
 class ResFinderNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
@@ -89,6 +93,7 @@ class ResFinderNormalizer(BaseNormalizer):
         split_genes = ref_genes.str.split('_')
         return pd.Series(split_genes.str[0] + '_' + split_genes.str[-1])
 
+
 class AMRFinderPlusNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
         database = 'ncbi'
@@ -102,6 +107,7 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
     def preprocess_ref_genes(self, ref_genes):
         split_genes = ref_genes.str.split('|')
         return pd.Series(split_genes.str[1] + '|' + split_genes.str[-1])
+
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
@@ -121,18 +127,15 @@ class AbricateNormalizer(BaseNormalizer):
 
         if self.database == 'resfinderfg':
             return itable[col].str.split('|').str[1]
-        
-        if self.database == 'resfinder':          
+        if self.database == 'resfinder':
             return pd.Series(itable[col['gene_identifier']] + '_' + itable[col['accession']])
-            
         if self.database == 'ncbi':
             return pd.Series(itable[col].str.replace(' ', '_'))
-        
         return itable[col]
 
     def preprocess_argannot_ref_genes(self, ref_gene):
         split_str = ref_gene.split(':')
-        if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
+        if not str(split_str[2][0]).isnumeric() and '-' not in split_str[2]:
             return ':'.join([split_str[1], split_str[3]])
         return ':'.join(ref_gene.split(':')[1:3])
 
@@ -152,22 +155,21 @@ class GrootNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
         if database not in ['groot-argannot', 'groot-resfinder', 'groot-db', 'groot-core-db', 'groot-card']:
             raise Exception(f'{database} is not a supported database for groot.')
-
         super().__init__(database)
-            
+
     def load_input(self, input_file):
         return pd.read_csv(input_file, sep='\t', header=None)
-    
+
     def preprocess_groot_db_inputs(self, gene_name):
         processed_gene_name = str(gene_name).split('__')[1]
         if 'card' in  str(gene_name).split('__')[0].lower():
             processed_gene_name = processed_gene_name.split('|')[-1]
         return processed_gene_name
-    
+
     def get_input_ids(self, itable):
         if self.database == 'groot-argannot':
             return itable[0].map(lambda x: x.split('~~~')[-1])
-            
+
         if self.database == 'groot-card':
             return itable[0].map(lambda x: x.split('.')[0])
 
@@ -175,12 +177,13 @@ class GrootNormalizer(BaseNormalizer):
             return itable[0].map(self.preprocess_groot_db_inputs)
 
         return itable[0]
-            
+
     def preprocess_ref_genes(self, ref_genes):
         if self.database == 'groot-argannot':
             return ref_genes.map(lambda x: ':'.join(str(x).split(':')[1:3]))
         return ref_genes
-    
+
+
 class HamronizationNormalizer(BaseNormalizer):
     def __init__(self, database=None):
         super().__init__(database)
@@ -223,7 +226,7 @@ class HamronizationNormalizer(BaseNormalizer):
         if 'card' in  str(gene_name).split('__')[0].lower():
             processed_gene_name = processed_gene_name.split('|')[-1]
         return processed_gene_name
-    
+
     def preprocess_argannot_ref_genes(self, ref_gene):
         split_str = ref_gene.split(':')
         if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
