@@ -42,6 +42,7 @@ def get_megares_db():
 def search_argnorm_mappings(mappings, db):
     mappings.drop(columns=['UpdatedHeader', 'Database'], inplace=True)
     aros = []
+    cut_offs = []
     mapping_table = get_aro_mapping_table(db)
     mapping_table.index = list(mapping_table.index.map(lambda x: str(x).lower()))
 
@@ -50,9 +51,13 @@ def search_argnorm_mappings(mappings, db):
             aros.append(str(mapping_table.loc[header.strip().lower(), 'ARO'])[4:])
         except KeyError:
             aros.append(np.nan)
+            cut_offs.append('')
+        else:
+            cut_offs.append(mapping_table.loc[header.strip().lower(), 'Cut_Off'])
 
     mappings['ARO'] = aros
     mappings['Database'] = db
+    mappings['Cut_Off'] = cut_offs
     mappings.rename(columns={'MEGARes_header': 'Original ID'}, inplace=True)
     return mappings
 
@@ -168,8 +173,8 @@ def merge_megares_mappings(cds_mapping, contig_mapping):
     cds_mapping['Original ID'] = cds_mapping['ORF_ID']
     contig_mapping['Original ID'] = contig_mapping['Contig'].apply(lambda x: '_'.join(x.split('_')[:-1]))
 
-    cds_mapping = cds_mapping[['Original ID', 'ARO']]
-    contig_mapping = contig_mapping[['Original ID', 'ARO']]
+    cds_mapping = cds_mapping[['Original ID', 'ARO', 'Cut_Off']]
+    contig_mapping = contig_mapping[['Original ID', 'ARO', 'Cut_Off']]
     
     checked_mappings = check_mapping_accuracy(preprocess_mappings_for_tests(pd.concat([cds_mapping, contig_mapping]), 'megares'))
     metal_biocide_and_virulence_genes = pd.Series(checked_mappings['metal_biocide_virulence_genes'])

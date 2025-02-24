@@ -169,6 +169,7 @@ The following columns are added to the tsv outputs of ARG annotation tools:
 | `ARO`                        | ARO accessions of ARG                                                            |
 | `confers_resistance_to`      | ARO accessions of drugs to which ARGs confer resistance to                       |
 | `resistance_to_drug_classes` | ARO accessions of drugs classes to which drugs in `confers_resistance_to` belong |
+| `Cut_Off`                    | RGI cut-off scores for ARO mappings. If manually curated, cut-off score is `Manual Curation`|
 
 A comment is added to the very top of the ARG annotation tool outputs specifying the argNorm version used if ran on the command line. For example:
 
@@ -188,6 +189,18 @@ input_sequence_id	input_file_name	gene_symbol	gene_name	reference_database_id ..
 > df = pd.read_csv(<PATH TO ARGNORM OUTPUT>, sep='\t', skiprows=1)
 > ```
 
+### `Cut_Off` column
+
+- Cut-off scores are procured from RGI outputs after running input databases through RGI. These cut-off scores correspond to RGI's Discovery paradigm (learn more here: https://github.com/arpcard/rgi/blob/master/docs/rgi_main.rst).
+- RGI's cut-off scores are of three types: `Loose`, `Strict`, and `Perfect`.
+- argNorm also adds another score `Manual Curation` to signify genes that are mapped to ARO terms manually without using RGI.
+
+From RGI documentation (https://github.com/arpcard/rgi/blob/master/docs/rgi_main.rst):
+> The RGI analyzes genome or proteome sequences under a Perfect, Strict, and Loose (a.k.a. Discovery) paradigm. The Perfect algorithm is most often applied to clinical surveillance as it detects perfect matches to the curated reference sequences in CARD. In contrast, the Strict algorithm detects previously unknown variants of known AMR genes, including secondary screen for key mutations, using detection models with CARD's curated similarity cut-offs to ensure the detected variant is likely a functional AMR gene. The Loose algorithm works outside of the detection model cut-offs to provide detection of new, emergent threats and more distant homologs of AMR genes, but will also catalog homologous sequences and spurious partial matches that may not have a role in AMR. Combined with phenotypic screening, the Loose algorithm allows researchers to hone in on new AMR genes.
+>
+> Within the Perfect, Strict, and Loose paradigm, RGI currently supports CARD's protein homolog models, protein variant models, protein over-expression models, and rRNA mutation models:
+> 
+> Protein Homolog Models (PHM) detect protein sequences based on their similarity to a curated reference sequence, using curated BLASTP bitscore cut-offs, for example NDM-1. Protein Homolog Models apply to all genes that confer resistance through their presence in an organism, such as the presence of a beta-lactamase gene on a plasmid. PHMs include a reference sequence and a bitscore cut-off for detection using BLASTP. A Perfect RGI match is 100% identical to the reference protein sequence along its entire length, a Strict RGI match is not identical but the bit-score of the matched sequence is greater than the curated BLASTP bit-score cutoff, Loose RGI matches have a bit-score less than the curated BLASTP bit-score cut-off.
 
 ## Example 1: argNorm as a command line tool
 

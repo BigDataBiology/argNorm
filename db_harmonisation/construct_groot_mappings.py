@@ -25,6 +25,7 @@ def get_groot_argannot_db():
             
     groot_argannot_genes = []
     groot_argannot_accessions = []
+    groot_argannot_cutoffs = []
     preprocessed_argannot_refs = []
 
     for i in list(argannot_aro_mapping_table.index):
@@ -48,11 +49,13 @@ def get_groot_argannot_db():
             if id in preprocessed_argannot_refs:
                 groot_argannot_genes.append(record.id)
                 groot_argannot_accessions.append(str(argannot_aro_mapping_table.loc[id, 'ARO']).replace('ARO:', ''))
+                groot_argannot_cutoffs.append(argannot_aro_mapping_table.loc[id, 'Cut_Off'])
             else:
                 # These genes will be mapped through RGI as they aren't in the default argannot mappings
                 SeqIO.write(record, ofile, 'fasta')
     argannot_groot_mapping = pd.DataFrame(groot_argannot_genes, columns=['Original ID'])
     argannot_groot_mapping['ARO'] = groot_argannot_accessions
+    argannot_groot_mapping['Cut_Off'] = groot_argannot_cutoffs
     ofile = './mapping/argannot_groot_mapping.tsv'
     argannot_groot_mapping.to_csv(ofile, sep='\t', index=False)
     return ofile
@@ -74,12 +77,14 @@ def get_groot_resfinder_db():
     resfinder_aro_mapping_table = get_aro_mapping_table('resfinder')
     groot_resfinder_genes = [] 
     groot_resfinder_accessions = []
+    groot_resfinder_cut_offs = []
 
     with open('./dbs/resfinder_groot_db.fna', 'r') as ifile, open('./manual_curation/groot_missing.fasta', 'a') as ofile:
         for record in SeqIO.parse(ifile, 'fasta'):
             if str(record.id) in list(resfinder_aro_mapping_table.index):
                 groot_resfinder_genes.append(record.id)
                 groot_resfinder_accessions.append(str(resfinder_aro_mapping_table.loc[record.id, 'ARO']).replace('ARO:', ''))
+                groot_resfinder_cut_offs.append(resfinder_aro_mapping_table.loc[record.id, 'Cut_Off'])
             else:                
                 if record.seq.reverse_complement().translate().endswith('*')\
                     and record.seq.reverse_complement().translate().count('*') == 1:
@@ -91,6 +96,7 @@ def get_groot_resfinder_db():
 
     resfinder_groot_mapping = pd.DataFrame(groot_resfinder_genes, columns=['Original ID'])
     resfinder_groot_mapping['ARO'] = groot_resfinder_accessions
+    resfinder_groot_mapping['Cut_Off'] = groot_resfinder_cut_offs
     
     ofile = './mapping/resfinder_groot_mapping.tsv'
     resfinder_groot_mapping.to_csv(ofile, sep='\t', index=False)
@@ -113,6 +119,7 @@ def get_groot_card_db():
             
     card_groot_mapping = pd.DataFrame(card_genes, columns=['Original ID'])
     card_groot_mapping['ARO'] = card_accessions
+    card_groot_mapping['Cut_Off'] = 'Perfect'
     
     ofile = './mapping/card_groot_mapping.tsv'
     card_groot_mapping.to_csv(ofile, sep='\t', index=False)
@@ -139,7 +146,7 @@ def get_groot_missing():
     
     missing_groot_mappings = pd.read_csv('./mapping/groot_missing_mapping.txt', sep='\t')
     missing_groot_mappings['Original ID'] = missing_groot_mappings['ORF_ID']
-    missing_groot_mappings_trim = missing_groot_mappings[['Original ID', 'ARO']]
+    missing_groot_mappings_trim = missing_groot_mappings[['Original ID', 'ARO', 'Cut_Off']]
     ofile = './mapping/missing_groot_mapping.tsv'
     missing_groot_mappings_trim.to_csv(ofile, sep='\t', index=False)
     return ofile

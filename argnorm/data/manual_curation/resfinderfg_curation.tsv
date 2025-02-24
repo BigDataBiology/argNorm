@@ -1,9 +1,9 @@
-Original ID	ARO	Gene Name in CARD	Description
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629588.1|pediatric_fecal_sample|CYC	3003970	D-Ala-D-Ala ligase	
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629153.1|pediatric_fecal_sample|CYC	3003970	D-Ala-D-Ala ligase	
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KJ695568.1|Agricultural soil|CYC	3003970	D-Ala-D-Ala ligase	
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KX125757.1|human_gut|CYC	3003970		Previously mapped to ARO:3006977 (PST-2) by RGI
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KX125843.1|human_gut|CYC	3003970		Previously mapped to ARO:3004795 (FPH-1) by RGI
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF627869.1|pediatric_fecal_sample|CYC	3003970		Previously mapped to ARO:3002909 (vanG) by RGI
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629229.1|pediatric_fecal_sample|CYC	3003970		Previously mapped to ARO:3000521 (Staphylococcus aureus mupA conferring resistance to mupirocin) by RGI
-UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF630034.1|pediatric_fecal_sample|CYC	3003970		Previously mapped to ARO:3002872 (FosA3) by RGI
+Original ID	ARO	Gene Name in CARD	Description	Cut_Off
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629588.1|pediatric_fecal_sample|CYC	3003970	D-Ala-D-Ala ligase		Manual Curation
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629153.1|pediatric_fecal_sample|CYC	3003970	D-Ala-D-Ala ligase		Manual Curation
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KJ695568.1|Agricultural soil|CYC	3003970	D-Ala-D-Ala ligase		Manual Curation
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KX125757.1|human_gut|CYC	3003970		Previously mapped to ARO:3006977 (PST-2) by RGI	Manual Curation
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KX125843.1|human_gut|CYC	3003970		Previously mapped to ARO:3004795 (FPH-1) by RGI	Manual Curation
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF627869.1|pediatric_fecal_sample|CYC	3003970		Previously mapped to ARO:3002909 (vanG) by RGI	Manual Curation
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF629229.1|pediatric_fecal_sample|CYC	3003970		Previously mapped to ARO:3000521 (Staphylococcus aureus mupA conferring resistance to mupirocin) by RGI	Manual Curation
+UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase|KF630034.1|pediatric_fecal_sample|CYC	3003970		Previously mapped to ARO:3002872 (FosA3) by RGI	Manual Curation

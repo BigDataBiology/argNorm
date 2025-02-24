@@ -6,7 +6,7 @@ except pd.errors.OptionError:
     pass
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 from .lib import get_aro_mapping_table
-from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL, DATABASES
+from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL, DATABASES, CUT_OFF_COL
 import sys
 
 # Column headings for drug categorization output
@@ -33,8 +33,12 @@ class BaseNormalizer:
         aro_table.set_index(self.preprocess_ref_genes(
             aro_table.index
         ), inplace=True)
+
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
+        cut_offs = aro_table[CUT_OFF_COL].to_dict()
+
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
+        original_annot[CUT_OFF_COL] = input_genes.map(cut_offs)
 
         # Drug categorization
         original_annot[CONFERS_RESISTANCE_TO_COL] = original_annot[TARGET_ARO_COL].map(
@@ -280,7 +284,10 @@ class HamronizationNormalizer(BaseNormalizer):
 
         aro_table = pd.concat(mapping_tables)
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
+        cut_offs = aro_table[CUT_OFF_COL].to_dict()
+
         original_annot[TARGET_ARO_COL] = pd.Series(input_genes).map(mapping)
+        original_annot[CUT_OFF_COL] = pd.Series(input_genes).map(cut_offs)
 
         original_annot[CONFERS_RESISTANCE_TO_COL] = original_annot[TARGET_ARO_COL].map(
                 lambda a: ','.join(confers_resistance_to(a)), na_action='ignore')

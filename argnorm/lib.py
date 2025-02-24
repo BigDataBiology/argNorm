@@ -7,6 +7,7 @@ from .argnorm_version import __version__
 ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
+CUT_OFF_COL = "Cut_Off"
 
 DATABASES = [
     'argannot',
