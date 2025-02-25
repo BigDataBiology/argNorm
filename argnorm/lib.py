@@ -7,6 +7,7 @@ from .argnorm_version import __version__
 ORIGINAL_ID_COL = 'Original ID'
 MAPPING_TABLE_ARO_COL = 'ARO'
 TARGET_ARO_COL = 'ARO'
+CUT_OFF_COL = "Cut_Off"
 
 DATABASES = [
     'argannot',
@@ -67,6 +68,7 @@ def get_aro_mapping_table(database):
                     sep='\t', index_col=0, dtype={'ARO': str})
     if database != 'groot':
         manual_curation['Database'] = aro_mapping_table['Database'].iloc[0]
+    manual_curation[CUT_OFF_COL] = 'Manual'
     aro_mapping_table.drop(index=set(manual_curation.index) & set(aro_mapping_table.index), inplace=True)
     aro_mapping_table = pd.concat([aro_mapping_table, manual_curation])
 

@@ -34,7 +34,7 @@ def get_aro_for_hits(fa, rgi_output, database):
     else:
         rgi_hits['Original ID'] = rgi_hits['ORF_ID']
 
-    mapping = rgi_hits[['Original ID', "Best_Hit_ARO", 'ARO']]
+    mapping = rgi_hits[['Original ID', "Best_Hit_ARO", 'ARO', 'Cut_Off']]
     mapping = mapping.astype({'ARO': 'str'})
     mapping = mapping.rename(columns={'Best_Hit_ARO': 'Gene Name in CARD'})
     
