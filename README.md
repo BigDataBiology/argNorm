@@ -169,7 +169,7 @@ The following columns are added to the tsv outputs of ARG annotation tools:
 | `ARO`                        | ARO accessions of ARG                                                            |
 | `confers_resistance_to`      | ARO accessions of drugs to which ARGs confer resistance to                       |
 | `resistance_to_drug_classes` | ARO accessions of drugs classes to which drugs in `confers_resistance_to` belong |
-| `Cut_Off`                    | RGI cut-off scores for ARO mappings. If manually curated, cut-off score is `Manual Curation`|
+| `Cut_Off`                    | RGI cut-off scores for ARO mappings. If manually curated, cut-off score is `Manual`|
 
 A comment is added to the very top of the ARG annotation tool outputs specifying the argNorm version used if ran on the command line. For example:
 
@@ -193,7 +193,7 @@ input_sequence_id	input_file_name	gene_symbol	gene_name	reference_database_id ..
 
 - Cut-off scores are procured from RGI outputs after running input databases through RGI. These cut-off scores correspond to RGI's Discovery paradigm (learn more here: https://github.com/arpcard/rgi/blob/master/docs/rgi_main.rst).
 - RGI's cut-off scores are of three types: `Loose`, `Strict`, and `Perfect`.
-- argNorm also adds another score `Manual Curation` to signify genes that are mapped to ARO terms manually without using RGI.
+- argNorm also adds another score, `Manual`, to signify genes that are mapped to ARO terms manually without using RGI.
 
 From RGI documentation (https://github.com/arpcard/rgi/blob/master/docs/rgi_main.rst):
 > The RGI analyzes genome or proteome sequences under a Perfect, Strict, and Loose (a.k.a. Discovery) paradigm. The Perfect algorithm is most often applied to clinical surveillance as it detects perfect matches to the curated reference sequences in CARD. In contrast, the Strict algorithm detects previously unknown variants of known AMR genes, including secondary screen for key mutations, using detection models with CARD's curated similarity cut-offs to ensure the detected variant is likely a functional AMR gene. The Loose algorithm works outside of the detection model cut-offs to provide detection of new, emergent threats and more distant homologs of AMR genes, but will also catalog homologous sequences and spurious partial matches that may not have a role in AMR. Combined with phenotypic screening, the Loose algorithm allows researchers to hone in on new AMR genes.

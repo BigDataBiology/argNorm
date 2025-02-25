@@ -1,5 +1,5 @@
-Original ID	ARO	Gene Name in CARD	Description	Cut_Off
-gb|AAG57600.1|ARO:3000318|mphB	3000318	mphB		Manual Curation
-AM180355.1.gene2260.p01	3000250	ErmC		Manual Curation
-gb|AUW34359.1|ARO:3004445|RSA-2	3005440	RSA2 beta-lactamase	Previously mapped to ARO:3005764  (OXA-534) by RGI	Manual Curation
-gb|AAB08924.1|ARO:3004650|tetU	3004650		Previously mapped to ARO:3002907 (vanE) by RGI.	Manual Curation
+Original ID	ARO	Gene Name in CARD	Description
+gb|AAG57600.1|ARO:3000318|mphB	3000318	mphB	
+AM180355.1.gene2260.p01	3000250	ErmC	
+gb|AUW34359.1|ARO:3004445|RSA-2	3005440	RSA2 beta-lactamase	Previously mapped to ARO:3005764  (OXA-534) by RGI
+gb|AAB08924.1|ARO:3004650|tetU	3004650		Previously mapped to ARO:3002907 (vanE) by RGI.

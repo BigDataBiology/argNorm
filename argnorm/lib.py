@@ -68,6 +68,7 @@ def get_aro_mapping_table(database):
                     sep='\t', index_col=0, dtype={'ARO': str})
     if database != 'groot':
         manual_curation['Database'] = aro_mapping_table['Database'].iloc[0]
+    manual_curation[CUT_OFF_COL] = 'Manual'
     aro_mapping_table.drop(index=set(manual_curation.index) & set(aro_mapping_table.index), inplace=True)
     aro_mapping_table = pd.concat([aro_mapping_table, manual_curation])
 

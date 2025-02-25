@@ -1,14 +1,14 @@
-Original ID	ARO	Gene Name in CARD	Description	Cut_Off
-(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537	3000249	chloramphenicol phosphotransferase	Parent ARO mapping	Manual Curation
-(AGly)aadC:V01282:225-701:477	3000225	ANT(6)	Parent ARO mapping	Manual Curation
-(Gly)vanA-G:AY271782:157-606:450	3000010		Previously mapped to ARO:3007029 (salE gene) by RGI	Manual Curation
-(MLS)lmr(A):X59926:318-1763:1446	3003028		Previously mapped to ARO:3003955 (efpA gene) by RGI	Manual Curation
-(MLS)mph(D):NC_017312:2291580-2292413:834	3000333		Previously mapped to ARO:3004581 (tet(48) gene) by RGI	Manual Curation
-(Rif)rif:EF541029:530-2170:1641	3004040		Previously mapped to ARO:3004047 (kpdD gene) by RGI	Manual Curation
-(Tet)tet(34):AB061440:306-770:465	3002870		Previously mapped to ARO:3007840 (CIM-1) gene by RGI	Manual Curation
-(Tet)tetH:EF460464:6286-7839:1554	3000175		Previously mapped to ARO:3004797 (FRI-1) gene by RGI	Manual Curation
-(Tet)tetU:U01917:413-730:318	3004650		Previously mapped to ARO:3002907 (vanE) by RGI	Manual Curation
-(TetracenomycinC)tcmA:NG_048121:101-1717:1617	3003554		Previously mapped to ARO:3004577 (Acinetobacter baumanii AmvA) by RGI. tcma is a 'private model' in that RGI doesn't map to its ARO.	Manual Curation
-(Phe)cpt:NG_051909:101-631:531	3000249		Previously mapped to ARO:3003111 (IsaB) by RGI	Manual Curation
-(Fcyn)FomC:AB016934:10868-11656:789	3004246		Previously mapped to ARO:3002893 (tcr3) by RGI	Manual Curation
-(Flq)crpP:NG_062203:WP_033179079:101-298:198	3004467		Previously mapped to ARO:3008590 (OXA-1172) by RGI	Manual Curation
+Original ID	ARO	Gene Name in CARD	Description
+(Phe)cpt_strepv:U09991:AAB36569:1412-1948:537	3000249	chloramphenicol phosphotransferase	Parent ARO mapping
+(AGly)aadC:V01282:225-701:477	3000225	ANT(6)	Parent ARO mapping
+(Gly)vanA-G:AY271782:157-606:450	3000010		Previously mapped to ARO:3007029 (salE gene) by RGI
+(MLS)lmr(A):X59926:318-1763:1446	3003028		Previously mapped to ARO:3003955 (efpA gene) by RGI
+(MLS)mph(D):NC_017312:2291580-2292413:834	3000333		Previously mapped to ARO:3004581 (tet(48) gene) by RGI
+(Rif)rif:EF541029:530-2170:1641	3004040		Previously mapped to ARO:3004047 (kpdD gene) by RGI
+(Tet)tet(34):AB061440:306-770:465	3002870		Previously mapped to ARO:3007840 (CIM-1) gene by RGI
+(Tet)tetH:EF460464:6286-7839:1554	3000175		Previously mapped to ARO:3004797 (FRI-1) gene by RGI
+(Tet)tetU:U01917:413-730:318	3004650		Previously mapped to ARO:3002907 (vanE) by RGI
+(TetracenomycinC)tcmA:NG_048121:101-1717:1617	3003554		Previously mapped to ARO:3004577 (Acinetobacter baumanii AmvA) by RGI. tcma is a 'private model' in that RGI doesn't map to its ARO.
+(Phe)cpt:NG_051909:101-631:531	3000249		Previously mapped to ARO:3003111 (IsaB) by RGI
+(Fcyn)FomC:AB016934:10868-11656:789	3004246		Previously mapped to ARO:3002893 (tcr3) by RGI
+(Flq)crpP:NG_062203:WP_033179079:101-298:198	3004467		Previously mapped to ARO:3008590 (OXA-1172) by RGI

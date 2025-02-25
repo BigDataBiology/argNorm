@@ -1,519 +1,519 @@
-Original ID	ARO	Description	Cut_Off
-MEG_5352|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5347|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5383|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5335|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_8234|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|MACAB|RequiresSNPConfirmation	3000545		Manual Curation
-MEG_3216|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3190|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8642|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping	Manual Curation
-MEG_3238|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_5379|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_3200|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_5389|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_3235|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_2873|Biocides|Phenolic_compound_resistance|Triclosan-resistant_mutation|FABG|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_5339|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_8087|Biocides|Aldehyde_resistance|Aldehyde_degradation|FORMA		Biocide resistance. No mapping	Manual Curation
-MEG_3987|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004546		Manual Curation
-MEG_5330|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_8443|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|P23S|RequiresSNPConfirmation	3005083		Manual Curation
-MEG_1732|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	3003092		Manual Curation
-MEG_5326|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_8650|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACH		Biocide resistance. No mapping	Manual Curation
-MEG_3207|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_1|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|A16S|RequiresSNPConfirmation	3003485		Manual Curation
-MEG_5370|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_1180|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|ASMA		Multi-drug resistance. No mapping	Manual Curation
-MEG_7974|Drugs|betalactams|Class_C_betalactamase_regulator|AMPCR|RequiresSNPConfirmation	3000076		Manual Curation
-MEG_3236|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_6961|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERZ		Metal resistance. No mapping	Manual Curation
-MEG_3588|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003077		Manual Curation
-MEG_5349|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5338|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_3237|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_1179|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|ASMA		Multi-drug resistance. No mapping	Manual Curation
-MEG_5325|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5350|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA		Metal resistance. No mapping	Manual Curation
-MEG_5377|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_2062|Metals|Copper_resistance|Copper_resistance_protein|COPL		Metal resistance. No mapping	Manual Curation
-MEG_8700|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|SITABCD		Metal + Biocide resistance. No mapping	Manual Curation
-MEG_8448|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_6136|Drugs|Lipopeptides|Daptomycin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOBL|RequiresSNPConfirmation	3003285		Manual Curation
-MEG_4033|Drugs|MLS|Macrolide_phosphotransferases|MPHB	3000318		Manual Curation
-MEG_8651|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping	Manual Curation
-MEG_5358|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5343|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_3223|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8150|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_5385|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_8648|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_8143|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GRLB|RequiresSNPConfirmation	3003314		Manual Curation
-MEG_3239|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_8450|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_8643|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping	Manual Curation
-MEG_2933|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|FOLC|RequiresSNPConfirmation	3004157		Manual Curation
-MEG_6963|Drugs|Tetracyclines|Tetracycline-resistant_16S_ribosomal_subunit_protein|TET16S|RequiresSNPConfirmation	3003510		Manual Curation
-MEG_5360|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5384|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_6144|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSL|RequiresSNPConfirmation	3003395		Manual Curation
-MEG_8644|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping	Manual Curation
-MEG_3229|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_5372|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5391|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5285|Drugs|betalactams|Class_A_betalactamases|OXY	3002390		Manual Curation
-MEG_2430|Drugs|betalactams|Class_A_betalactamases|CTX	3000016		Manual Curation
-MEG_5337|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_3445|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|KASA|RequiresSNPConfirmation	3003463		Manual Curation
-MEG_2114|Drugs|Phenicol|Chloramphenicol_phosphotransferase|CPT	3000249		Manual Curation
-MEG_5366|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_3230|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_5395|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAREF|RequiresSNPConfirmation	3003316		Manual Curation
-MEG_8447|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_3243|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_6055|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|RIBD|RequiresSNPConfirmation	3004184		Manual Curation
-MEG_3250|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479		Manual Curation
-MEG_3982|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004163		Manual Curation
-MEG_3745|Multi-compound|Drug_and_biocide_and_metal_resistance|Drug_and_biocide_and_metal_RND_efflux_pumps|MDTA		Biocide resistance. No mapping	Manual Curation
-MEG_6137|Drugs|Lipopeptides|Daptomycin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOBL|RequiresSNPConfirmation	3003287		Manual Curation
-MEG_6241|Drugs|betalactams|Class_A_betalactamases|SHV	3000015		Manual Curation
-MEG_5336|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_8645|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACC		Biocide resistance. No mapping	Manual Curation
-MEG_5390|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_3191|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3986|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_5387|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_7259|Drugs|Aminoglycosides|Aminoglycoside-resistant_arabinosyltransferase|TLYA|RequiresSNPConfirmation	3003443		Manual Curation
-MEG_3211|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3980|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_3185|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8153|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_8646|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACD		Biocide resistance. No mapping	Manual Curation
-MEG_8662|Drugs|Metronidazole|rdxA_nitroimidazole_reductase|RDXA	3007055		Manual Curation
-MEG_5780|Drugs|Lipopeptides|Daptomycin-resistant_mutant|PGSA|RequiresSNPConfirmation	3003323		Manual Curation
-MEG_3181|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8647|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping	Manual Curation
-MEG_5781|Drugs|Phenicol|Phenicol-resistant_23S_rRNA_mutation|PH23S|RequiresSNPConfirmation	3004180		Manual Curation
-MEG_2864|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	3000249		Manual Curation
-MEG_5357|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_3222|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_5346|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_3071|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSE|RequiresSNPConfirmation	3003737		Manual Curation
-MEG_5208|Drugs|betalactams|Class_D_betalactamases|OXA	3001410		Manual Curation
-MEG_8263|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRC|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_2414|Drugs|betalactams|Class_A_betalactamases|CTX	3001904		Manual Curation
-MEG_3993|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	3004937		Manual Curation
-MEG_5148|Drugs|betalactams|Class_D_betalactamases|OXA	3001555		Manual Curation
-MEG_2425|Drugs|betalactams|Class_A_betalactamases|CTX	3002002		Manual Curation
-MEG_3393|Drugs|betalactams|Class_B_betalactamases|IMP	3002223		Manual Curation
-MEG_2429|Drugs|betalactams|Class_A_betalactamases|CTX	3001943		Manual Curation
-MEG_1319|Drugs|betalactams|Class_A_betalactamases|BLASME	3002379		Manual Curation
-MEG_2423|Drugs|betalactams|Class_A_betalactamases|CTX	3001932		Manual Curation
-MEG_3990|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_8253|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_2393|Drugs|betalactams|Class_A_betalactamases|CTX	3001960		Manual Curation
-MEG_3983|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_3129|Drugs|betalactams|Class_A_betalactamases|GES	3002337		Manual Curation
-MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_2421|Drugs|betalactams|Class_A_betalactamases|CTX	3001927		Manual Curation
-MEG_3989|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_2427|Drugs|betalactams|Class_A_betalactamases|CTX	3001982		Manual Curation
-MEG_7075|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETE	3000173		Manual Curation
-MEG_7604|Drugs|Glycopeptides|VanD-type_accessory_protein|VANYD	3002957		Manual Curation
-MEG_3131|Drugs|betalactams|Class_A_betalactamases|GES	3002350		Manual Curation
-MEG_333|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002578		Manual Curation
-MEG_8254|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_6964|Drugs|Tetracyclines|Tetracycline-resistant_16S_ribosomal_subunit_protein|TET16S|RequiresSNPConfirmation	3003499		Manual Curation
-MEG_1983|Drugs|betalactams|Class_C_betalactamases|CMY	3002095		Manual Curation
-MEG_3396|Drugs|betalactams|Class_B_betalactamases|IMP	3002205		Manual Curation
-MEG_3979|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping	Manual Curation
-MEG_1544|Drugs|betalactams|Class_A_betalactamases|CARB	3002243		Manual Curation
-MEG_985|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT4-PRIME	3000229		Manual Curation
-MEG_1197|Drugs|Cationic_antimicrobial_peptides|Polymyxin_B_resistance_regulator|BASRS|RequiresSNPConfirmation	3003579		Manual Curation
-MEG_1288|Drugs|betalactams|Penicillin_binding_protein_regulator|BLAI	3000160	blaI is a gene in CARD. However, its ARO isn't used by RGI (private model)	Manual Curation
-MEG_1458|Drugs|Glycopeptides|Bleomycin_resistance_protein|BLE	3001205		Manual Curation
-MEG_1461|Drugs|Glycopeptides|Bleomycin_resistance_protein|BLM	3005036		Manual Curation
-MEG_1462|Drugs|Glycopeptides|Bleomycin_resistance_protein|BLM	3005036		Manual Curation
-MEG_1607|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATB|RequiresSNPConfirmation	3002674		Manual Curation
-MEG_1642|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CDSA|RequiresSNPConfirmation	3004096		Manual Curation
-MEG_1730|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	3003272		Manual Curation
-MEG_1731|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	3003272		Manual Curation
-MEG_2113|Drugs|Phenicol|Chloramphenicol_phosphotransferase|CPT	3000249	Previously mapped to ARO:3003111 (LsaB) by RGI.	Manual Curation
-MEG_2133|Drugs|Fluoroquinolones|Fluoroquinolone_resistance_phosphotransferase|CRPP	3004467		Manual Curation
-MEG_2709|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBA|RequiresSNPConfirmation	3003452		Manual Curation
-MEG_2710|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBB|RequiresSNPConfirmation	3000235		Manual Curation
-MEG_2711|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBB|RequiresSNPConfirmation	3000235		Manual Curation
-MEG_2712|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBC|RequiresSNPConfirmation	3002706		Manual Curation
-MEG_2713|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBR|RequiresSNPConfirmation	3003454		Manual Curation
-MEG_2866|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethionamide-resistant_mutant|ETHA|RequiresSNPConfirmation	3003457		Manual Curation
-MEG_2997|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA	3000149		Manual Curation
-MEG_3065|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	3003734		Manual Curation
-MEG_3135|Drugs|Aminoglycosides|Aminoglycoside-resistant_gidB|GIDB|RequiresSNPConfirmation	3003466		Manual Curation
-MEG_3143|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	3004247		Manual Curation
-MEG_3144|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	3004247		Manual Curation
-MEG_3176|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3177|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3178|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3180|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3182|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3183|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3184|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3186|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3187|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3188|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3189|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3192|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3193|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3194|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3195|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3196|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3197|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3198|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3199|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3201|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3202|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3203|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3204|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3205|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3206|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3208|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3209|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3210|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3212|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3213|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3214|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3215|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3217|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3218|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3219|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3220|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3221|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3224|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3225|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3226|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3227|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3228|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3231|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3232|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3233|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3234|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_3241|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_3242|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_3244|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479		Manual Curation
-MEG_3245|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479		Manual Curation
-MEG_3246|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479		Manual Curation
-MEG_3248|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479		Manual Curation
-MEG_3249|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479		Manual Curation
-MEG_3251|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRC|RequiresSNPConfirmation	3000452		Manual Curation
-MEG_3429|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|INHA|RequiresSNPConfirmation	3004874		Manual Curation
-MEG_3430|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol-resistant_mutant|INIA|RequiresSNPConfirmation	3003447		Manual Curation
-MEG_3431|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol-resistant_mutant|INIB|RequiresSNPConfirmation	3004136		Manual Curation
-MEG_3432|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol-resistant_mutant|INIC|RequiresSNPConfirmation	3003450		Manual Curation
-MEG_3446|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|KATG|RequiresSNPConfirmation	3003416		Manual Curation
-MEG_3586|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003076		Manual Curation
-MEG_3589|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003076		Manual Curation
-MEG_3590|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003076		Manual Curation
-MEG_3626|Drugs|Lipopeptides|Colistin-resistant_mutant|LPXA|RequiresSNPConfirmation	3003573		Manual Curation
-MEG_3627|Drugs|Lipopeptides|Colistin-resistant_mutant|LPXC|RequiresSNPConfirmation	3003574		Manual Curation
-MEG_3831|Drugs|Lipopeptides|Lysocin-resistant_mutant|MENA|RequiresSNPConfirmation	3004265		Manual Curation
-MEG_4097|Drugs|Glycopeptides|Vancomycin-resistant_mutation|MURG|RequiresSNPConfirmation	3004560		Manual Curation
-MEG_4130|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|NDH|RequiresSNPConfirmation	3003460		Manual Curation
-MEG_4222|Drugs|Thiopeptides|Thiostrepton_23S_rRNA_methyltransferases|NSHR	3003060		Manual Curation
-MEG_5254|Drugs|betalactams|Class_D_betalactamases|OXA	3000017		Manual Curation
-MEG_5255|Drugs|betalactams|Class_D_betalactamases|OXA	3000017		Manual Curation
-MEG_5327|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5329|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5332|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5333|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5334|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5340|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5341|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5342|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5344|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5345|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5348|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5351|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5353|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5354|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5355|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5356|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5359|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5361|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5362|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5363|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_5364|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5365|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5367|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5368|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5369|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5371|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5373|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5374|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5375|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5376|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5378|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5380|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5381|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5382|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5386|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5388|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5392|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5393|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_5394|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAREF|RequiresSNPConfirmation	3003316		Manual Curation
-MEG_5784|Drugs|Lipopeptides|Colistin-resistant_mutant|PHOP|RequiresSNPConfirmation	3000834		Manual Curation
-MEG_5785|Drugs|Lipopeptides|Colistin-resistant_mutant|PHOQ|RequiresSNPConfirmation	3000835		Manual Curation
-MEG_5803|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|PNCA|RequiresSNPConfirmation	3004267		Manual Curation
-MEG_6058|Drugs|MLS|23S_rRNA_methyltransferases|RLMH	3001298		Manual Curation
-MEG_6138|Drugs|Glycopeptides|Vancomycin-resistant_mutation|RPOC|RequiresSNPConfirmation	3004725		Manual Curation
-MEG_6139|Drugs|Lipopeptides|Daptomycin-resistant_beta-subunit_of_RNA_polymerase_RpoC|RPOCL|RequiresSNPConfirmation	3003290		Manual Curation
-MEG_6142|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|RPSA|RequiresSNPConfirmation	3004722		Manual Curation
-MEG_6143|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|RPSJ|RequiresSNPConfirmation	3003930		Manual Curation
-MEG_6641|Drugs|Sulfonamides|Flavin_reductase|SULR	3004238	(https://pubmed.ncbi.nlm.nih.gov/30928844/) it seems that this gene is for microbacterium which is gram-positive. Sul 1, 2, 3, and 4 in CARD are all for gram-negative bacteria	Manual Curation
-MEG_6642|Drugs|Sulfonamides|Sulfonamide_monooxygenase|SULX	3004238	(https://pubmed.ncbi.nlm.nih.gov/30928844/) it seems that this gene is for microbacterium which is gram-positive. Sul 1, 2, 3, and 4 in CARD are all for gram-negative bacteria	Manual Curation
-MEG_6649|Drugs|Tetracenomycin|Tetracenomycin_MFS_efflux_pump|TCMA	3003554	tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)	Manual Curation
-MEG_6976|Drugs|Tetracyclines|Tetracycline_inactivation_enzymes|TET34	3002870	tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)	Manual Curation
-MEG_7022|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETA	3000165		Manual Curation
-MEG_7204|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_regulator|TETU	3004650		Manual Curation
-MEG_7250|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|THYA|RequiresSNPConfirmation	3004152		Manual Curation
-MEG_7258|Drugs|Aminoglycosides|Aminoglycoside-resistant_arabinosyltransferase|TLYA|RequiresSNPConfirmation	3003443		Manual Curation
-MEG_7301|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7302|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7303|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7304|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7305|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7306|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7307|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7308|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7309|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7310|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7311|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7312|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7313|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7314|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7315|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7316|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7317|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7318|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7319|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7320|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7321|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312		Manual Curation
-MEG_7329|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	3004248		Manual Curation
-MEG_7330|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	3004248		Manual Curation
-MEG_7806|Drugs|Lipopeptides|Daptomycin-resistant_mutant|WALK|RequiresSNPConfirmation	3003795		Manual Curation
-MEG_7843|Drugs|Lipopeptides|Daptomycin-resistant_mutant|YYBT|RequiresSNPConfirmation	3003798		Manual Curation
-MEG_7844|Drugs|Glycopeptides|Bleomycin_resistance_protein|ZBMA	3004256		Manual Curation
-MEG_8147|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8145|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8445|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_8634|Drugs|Lipopeptides|Colistin-resistant_mutant|PMRAR|RequiresSNPConfirmation	3004269		Manual Curation
-MEG_8144|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8687|Drugs|Mycobacterium_tuberculosis-specific_Drug|MDR_mutant_promoter|RV0678|RequiresSNPConfirmation	3007852		Manual Curation
-MEG_7971|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|AHPC|RequiresSNPConfirmation	3004921		Manual Curation
-MEG_7973|Drugs|Mycobacterium_tuberculosis-specific_Drug|Cycloserine-resistant_mutant|ALR|RequiresSNPConfirmation	3004947		Manual Curation
-MEG_8085|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethionamide-resistant_mutant|ETHR|RequiresSNPConfirmation	3003458		Manual Curation
-MEG_8444|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|PAND|RequiresSNPConfirmation	3004976		Manual Curation
-MEG_8670|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RPLC|RequiresSNPConfirmation	3004057		Manual Curation
-MEG_8675|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOCR|RequiresSNPConfirmation	3000210		Manual Curation
-MEG_8720|Drugs|Aminoglycosides|Aminoglycoside-resistant_arabinosyltransferase|TLYA|RequiresSNPConfirmation	3003443		Manual Curation
-MEG_8676|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSE|RequiresSNPConfirmation	3007526		Manual Curation
-MEG_8146|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8446|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274		Manual Curation
-MEG_8449|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457		Manual Curation
-MEG_8100|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	3003734		Manual Curation
-MEG_8142|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GRLA|RequiresSNPConfirmation	3000864		Manual Curation
-MEG_8456|Drugs|betalactams|Penicillin_binding_protein|PBP2|RequiresSNPConfirmation	3001208		Manual Curation
-MEG_8257|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|MSHA|RequiresSNPConfirmation	3004925		Manual Curation
-MEG_8154|Drugs|Spiropyrimidinetriones|Zoliflodacin-resistant_DNA_topoisomerases|GYRBZ|RequiresSNPConfirmation	3005000		Manual Curation
-MEG_8148|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8723|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|UL3|RequiresSNPConfirmation	3005081		Manual Curation
-MEG_8149|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292		Manual Curation
-MEG_8101|Drugs|Metronidazole|fxr_nitroimidazole_reductase|FXRA|RequiresSNPConfirmation	3007059		Manual Curation
-MEG_8141|Drugs|Aminoglycosides|Gentamicin-resistant_ATP-binding_protein|GRDA	3002528	https://pmc.ncbi.nlm.nih.gov/articles/PMC7577141/#:~:text=The%20grdA%20gene%20identified%20in,protein%20likely%20binds%20to%20ATP.	Manual Curation
-MEG_400|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ACRA		Biocide resistance. No mapping	Manual Curation
-MEG_402|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ACRB		Biocide resistance. No mapping	Manual Curation
-MEG_413|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRR|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_414|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRR|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_415|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRS		Biocide resistance. No mapping	Manual Curation
-MEG_686|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ADEI		Biocide resistance. No mapping	Manual Curation
-MEG_687|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ADEI		Biocide resistance. No mapping	Manual Curation
-MEG_692|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ADEJ		Biocide resistance. No mapping	Manual Curation
-MEG_700|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADEL		Biocide resistance. No mapping	Manual Curation
-MEG_702|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADEN		Biocide resistance. No mapping	Manual Curation
-MEG_703|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADER		Biocide resistance. No mapping	Manual Curation
-MEG_704|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADES		Biocide resistance. No mapping	Manual Curation
-MEG_731|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AMRA		Biocide resistance. No mapping	Manual Curation
-MEG_732|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AMRB		Biocide resistance. No mapping	Manual Curation
-MEG_1121|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ARMR		Biocide resistance. No mapping	Manual Curation
-MEG_1185|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AXY		Biocide resistance. No mapping	Manual Curation
-MEG_1186|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AXY		Biocide resistance. No mapping	Manual Curation
-MEG_1187|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AXYZ|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_1212|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|BCR1		Biocide resistance. No mapping	Manual Curation
-MEG_1216|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|BCRCM		Biocide resistance. No mapping	Manual Curation
-MEG_1463|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|BLT		Biocide resistance. No mapping	Manual Curation
-MEG_1471|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|BMR		Biocide resistance. No mapping	Manual Curation
-MEG_1643|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|CEOA		Biocide resistance. No mapping	Manual Curation
-MEG_1644|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|CEOB		Biocide resistance. No mapping	Manual Curation
-MEG_2117|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping	Manual Curation
-MEG_2118|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping	Manual Curation
-MEG_2119|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping	Manual Curation
-MEG_2120|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping	Manual Curation
-MEG_2121|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping	Manual Curation
-MEG_2122|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping	Manual Curation
-MEG_2132|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CRP		Biocide resistance. No mapping	Manual Curation
-MEG_2704|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|EFMA		Biocide resistance. No mapping	Manual Curation
-MEG_2705|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|EFPA		Biocide resistance. No mapping	Manual Curation
-MEG_2717|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|EMHC		Biocide resistance. No mapping	Manual Curation
-MEG_2870|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|EVGS		Biocide resistance. No mapping	Manual Curation
-MEG_2884|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FARA		Biocide resistance. No mapping	Manual Curation
-MEG_2886|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FARB		Biocide resistance. No mapping	Manual Curation
-MEG_2901|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping	Manual Curation
-MEG_2902|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping	Manual Curation
-MEG_2904|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping	Manual Curation
-MEG_3082|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|GADW		Biocide resistance. No mapping	Manual Curation
-MEG_3268|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|HMRM		Biocide resistance. No mapping	Manual Curation
-MEG_3512|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|KPN		Biocide resistance. No mapping	Manual Curation
-MEG_3513|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|KPN		Biocide resistance. No mapping	Manual Curation
-MEG_3739|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDFA		Biocide resistance. No mapping	Manual Curation
-MEG_3754|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDTG		Biocide resistance. No mapping	Manual Curation
-MEG_3755|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDTH		Biocide resistance. No mapping	Manual Curation
-MEG_3760|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|MDTK		Biocide resistance. No mapping	Manual Curation
-MEG_3764|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MDTO		Biocide resistance. No mapping	Manual Curation
-MEG_3765|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MDTP		Biocide resistance. No mapping	Manual Curation
-MEG_3833|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|MEPA		Biocide resistance. No mapping	Manual Curation
-MEG_3836|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_regulator|MEPR		Biocide resistance. No mapping	Manual Curation
-MEG_3837|Metals|Mercury_resistance|Mercury_resistance_protein|MERA		Metal resistance. No mapping	Manual Curation
-MEG_3846|Metals|Mercury_resistance|Mercury_resistance_protein|MERB		Metal resistance. No mapping	Manual Curation
-MEG_3857|Metals|Mercury_resistance|Mercury_resistance_protein|MERC		Metal resistance. No mapping	Manual Curation
-MEG_3869|Metals|Mercury_resistance|Mercury_resistance_protein|MERF		Metal resistance. No mapping	Manual Curation
-MEG_3909|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXE		Biocide resistance. No mapping	Manual Curation
-MEG_3910|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXE		Biocide resistance. No mapping	Manual Curation
-MEG_3912|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXF		Biocide resistance. No mapping	Manual Curation
-MEG_3913|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXG		Biocide resistance. No mapping	Manual Curation
-MEG_3914|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXH		Biocide resistance. No mapping	Manual Curation
-MEG_3918|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXL		Biocide resistance. No mapping	Manual Curation
-MEG_3919|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXN		Biocide resistance. No mapping	Manual Curation
-MEG_3920|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXN		Biocide resistance. No mapping	Manual Curation
-MEG_3921|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXQ		Biocide resistance. No mapping	Manual Curation
-MEG_3922|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXQ		Biocide resistance. No mapping	Manual Curation
-MEG_3923|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXQ		Biocide resistance. No mapping	Manual Curation
-MEG_3931|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXS|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_3933|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXT|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_3934|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXT		Biocide resistance. No mapping	Manual Curation
-MEG_3938|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXX		Biocide resistance. No mapping	Manual Curation
-MEG_3940|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXY		Biocide resistance. No mapping	Manual Curation
-MEG_3941|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXZ|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_4080|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRC		Biocide resistance. No mapping	Manual Curation
-MEG_4083|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRD		Biocide resistance. No mapping	Manual Curation
-MEG_4085|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRE		Biocide resistance. No mapping	Manual Curation
-MEG_4088|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|MTRR|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_4208|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|NORA		Biocide resistance. No mapping	Manual Curation
-MEG_4209|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|NORA		Biocide resistance. No mapping	Manual Curation
-MEG_4302|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OPRN		Biocide resistance. No mapping	Manual Curation
-MEG_4303|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OPRZ		Biocide resistance. No mapping	Manual Curation
-MEG_4324|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4325|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4326|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4327|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4328|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4329|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4330|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4331|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4332|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4333|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping	Manual Curation
-MEG_4336|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4337|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4338|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4339|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4340|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4341|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4342|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4343|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4344|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4345|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4346|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4347|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4348|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4349|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4350|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4351|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4352|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4353|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4354|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4355|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4356|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4357|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4358|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4359|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4360|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4361|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4362|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4363|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4364|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4365|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_4366|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping	Manual Curation
-MEG_5783|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|PHOB|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_5795|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|PMRA		Biocide resistance. No mapping	Manual Curation
-MEG_5797|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|PMRA		Biocide resistance. No mapping	Manual Curation
-MEG_5820|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping	Manual Curation
-MEG_5823|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping	Manual Curation
-MEG_5824|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping	Manual Curation
-MEG_5827|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACE		Biocide resistance. No mapping	Manual Curation
-MEG_5828|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACE		Biocide resistance. No mapping	Manual Curation
-MEG_5832|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping	Manual Curation
-MEG_5833|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping	Manual Curation
-MEG_5834|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping	Manual Curation
-MEG_5835|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping	Manual Curation
-MEG_5836|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping	Manual Curation
-MEG_5837|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping	Manual Curation
-MEG_5839|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_5840|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_5841|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_5842|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_5843|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_5844|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_5845|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping	Manual Curation
-MEG_5848|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACH		Biocide resistance. No mapping	Manual Curation
-MEG_5850|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACK		Biocide resistance. No mapping	Manual Curation
-MEG_5851|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping	Manual Curation
-MEG_5852|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping	Manual Curation
-MEG_5853|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping	Manual Curation
-MEG_5854|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping	Manual Curation
-MEG_5855|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACPB		Biocide resistance. No mapping	Manual Curation
-MEG_6501|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|SILC		Metal resistance. No mapping	Manual Curation
-MEG_6504|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|SILF		Metal resistance. No mapping	Manual Curation
-MEG_6506|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|SILP		Metal resistance. No mapping	Manual Curation
-MEG_6509|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_regulator|SILS		Metal resistance. No mapping	Manual Curation
-MEG_6524|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping	Manual Curation
-MEG_6525|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping	Manual Curation
-MEG_6526|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping	Manual Curation
-MEG_6527|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping	Manual Curation
-MEG_6528|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping	Manual Curation
-MEG_6529|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping	Manual Curation
-MEG_6532|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR		Biocide resistance. No mapping	Manual Curation
-MEG_6533|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR		Biocide resistance. No mapping	Manual Curation
-MEG_6534|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR		Biocide resistance. No mapping	Manual Curation
-MEG_6547|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|SOXR		Biocide resistance. No mapping	Manual Curation
-MEG_6548|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|SOXR|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_6955|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERB		Metal resistance. No mapping	Manual Curation
-MEG_7286|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|TTGA		Biocide resistance. No mapping	Manual Curation
-MEG_7288|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|TTGB		Biocide resistance. No mapping	Manual Curation
-MEG_7842|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|YOGI		Biocide resistance. No mapping	Manual Curation
-MEG_7884|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRR|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_7883|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ACRB|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
-MEG_8077|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|EFRA		Biocide resistance. No mapping	Manual Curation
-MEG_8741|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|YAJC		Biocide resistance. No mapping	Manual Curation
-MEG_8686|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|RSMA		Biocide resistance. No mapping	Manual Curation
-MEG_8273|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|NORC		Biocide resistance. No mapping	Manual Curation
-MEG_8241|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDE		Biocide resistance. No mapping	Manual Curation
-MEG_8693|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SEPA		Biocide resistance. No mapping	Manual Curation
-MEG_8692|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|SDRM		Biocide resistance. No mapping	Manual Curation
-MEG_8248|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXD1		Biocide resistance. No mapping	Manual Curation
-MEG_8649|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACH		Biocide resistance. No mapping	Manual Curation
-MEG_1464|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|BLT		Biocide resistance. No mapping	Manual Curation
-MEG_2706|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|EFRA		Biocide resistance. No mapping	Manual Curation
-MEG_2707|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|EFRB		Biocide resistance. No mapping	Manual Curation
-MEG_2905|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping	Manual Curation
-MEG_3834|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|MEPA		Biocide resistance. No mapping	Manual Curation
-MEG_8264|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|MTRR|RequiresSNPConfirmation		Biocide resistance. No mapping	Manual Curation
+Original ID	ARO	Description
+MEG_5352|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5347|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5383|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5335|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_8234|Drugs|MLS|MLS_resistance_ABC_efflux_pumps|MACAB|RequiresSNPConfirmation	3000545	
+MEG_3216|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3190|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8642|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
+MEG_3238|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864	
+MEG_5379|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_3200|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_5389|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_3235|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_2873|Biocides|Phenolic_compound_resistance|Triclosan-resistant_mutation|FABG|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_5339|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_8087|Biocides|Aldehyde_resistance|Aldehyde_degradation|FORMA		Biocide resistance. No mapping
+MEG_3987|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004546	
+MEG_5330|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_8443|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|P23S|RequiresSNPConfirmation	3005083	
+MEG_1732|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	3003092	
+MEG_5326|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_8650|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACH		Biocide resistance. No mapping
+MEG_3207|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_1|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|A16S|RequiresSNPConfirmation	3003485	
+MEG_5370|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_1180|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|ASMA		Multi-drug resistance. No mapping
+MEG_7974|Drugs|betalactams|Class_C_betalactamase_regulator|AMPCR|RequiresSNPConfirmation	3000076	
+MEG_3236|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_6961|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERZ		Metal resistance. No mapping
+MEG_3588|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003077	
+MEG_5349|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5338|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_3237|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_1179|Drugs|Multi-drug_resistance|Multi-drug_RND_efflux_regulator|ASMA		Multi-drug resistance. No mapping
+MEG_5325|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5350|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_4060|Metals|Multi-metal_resistance|Multi-metal_resistance_protein|MREA		Metal resistance. No mapping
+MEG_5377|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_2062|Metals|Copper_resistance|Copper_resistance_protein|COPL		Metal resistance. No mapping
+MEG_8700|Multi-compound|Biocide_and_metal_resistance|Biocide_and_metal_ABC_efflux_pumps|SITABCD		Metal + Biocide resistance. No mapping
+MEG_8448|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_6136|Drugs|Lipopeptides|Daptomycin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOBL|RequiresSNPConfirmation	3003285	
+MEG_4033|Drugs|MLS|Macrolide_phosphotransferases|MPHB	3000318	
+MEG_8651|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping
+MEG_5358|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5343|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_3223|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8150|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864	
+MEG_5385|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_8648|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_8143|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GRLB|RequiresSNPConfirmation	3003314	
+MEG_3239|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864	
+MEG_8450|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_8643|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
+MEG_2933|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|FOLC|RequiresSNPConfirmation	3004157	
+MEG_6963|Drugs|Tetracyclines|Tetracycline-resistant_16S_ribosomal_subunit_protein|TET16S|RequiresSNPConfirmation	3003510	
+MEG_5360|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5384|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_6144|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSL|RequiresSNPConfirmation	3003395	
+MEG_8644|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
+MEG_3229|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_5372|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5391|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5285|Drugs|betalactams|Class_A_betalactamases|OXY	3002390	
+MEG_2430|Drugs|betalactams|Class_A_betalactamases|CTX	3000016	
+MEG_5337|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_3445|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|KASA|RequiresSNPConfirmation	3003463	
+MEG_2114|Drugs|Phenicol|Chloramphenicol_phosphotransferase|CPT	3000249	
+MEG_5366|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_3230|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_5395|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAREF|RequiresSNPConfirmation	3003316	
+MEG_8447|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_3243|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864	
+MEG_6055|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|RIBD|RequiresSNPConfirmation	3004184	
+MEG_3250|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479	
+MEG_3982|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004163	
+MEG_3745|Multi-compound|Drug_and_biocide_and_metal_resistance|Drug_and_biocide_and_metal_RND_efflux_pumps|MDTA		Biocide resistance. No mapping
+MEG_6137|Drugs|Lipopeptides|Daptomycin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOBL|RequiresSNPConfirmation	3003287	
+MEG_6241|Drugs|betalactams|Class_A_betalactamases|SHV	3000015	
+MEG_5336|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_8645|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACC		Biocide resistance. No mapping
+MEG_5390|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_3191|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3986|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_5387|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_7259|Drugs|Aminoglycosides|Aminoglycoside-resistant_arabinosyltransferase|TLYA|RequiresSNPConfirmation	3003443	
+MEG_3211|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3980|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_3185|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8153|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864	
+MEG_8646|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACD		Biocide resistance. No mapping
+MEG_8662|Drugs|Metronidazole|rdxA_nitroimidazole_reductase|RDXA	3007055	
+MEG_5780|Drugs|Lipopeptides|Daptomycin-resistant_mutant|PGSA|RequiresSNPConfirmation	3003323	
+MEG_3181|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8647|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
+MEG_5781|Drugs|Phenicol|Phenicol-resistant_23S_rRNA_mutation|PH23S|RequiresSNPConfirmation	3004180	
+MEG_2864|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	3000249	
+MEG_5357|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_3222|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_5346|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_3071|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSE|RequiresSNPConfirmation	3003737	
+MEG_5208|Drugs|betalactams|Class_D_betalactamases|OXA	3001410	
+MEG_8263|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRC|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_2414|Drugs|betalactams|Class_A_betalactamases|CTX	3001904	
+MEG_3993|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_8679|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RRL|RequiresSNPConfirmation	3004937	
+MEG_5148|Drugs|betalactams|Class_D_betalactamases|OXA	3001555	
+MEG_2425|Drugs|betalactams|Class_A_betalactamases|CTX	3002002	
+MEG_3393|Drugs|betalactams|Class_B_betalactamases|IMP	3002223	
+MEG_2429|Drugs|betalactams|Class_A_betalactamases|CTX	3001943	
+MEG_1319|Drugs|betalactams|Class_A_betalactamases|BLASME	3002379	
+MEG_2423|Drugs|betalactams|Class_A_betalactamases|CTX	3001932	
+MEG_3990|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_8253|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_2393|Drugs|betalactams|Class_A_betalactamases|CTX	3001960	
+MEG_3983|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_3129|Drugs|betalactams|Class_A_betalactamases|GES	3002337	
+MEG_3975|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_2421|Drugs|betalactams|Class_A_betalactamases|CTX	3001927	
+MEG_3989|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_2427|Drugs|betalactams|Class_A_betalactamases|CTX	3001982	
+MEG_7075|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETE	3000173	
+MEG_7604|Drugs|Glycopeptides|VanD-type_accessory_protein|VANYD	3002957	
+MEG_3131|Drugs|betalactams|Class_A_betalactamases|GES	3002350	
+MEG_333|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-PRIME	3002578	
+MEG_8254|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_6964|Drugs|Tetracyclines|Tetracycline-resistant_16S_ribosomal_subunit_protein|TET16S|RequiresSNPConfirmation	3003499	
+MEG_1983|Drugs|betalactams|Class_C_betalactamases|CMY	3002095	
+MEG_3396|Drugs|betalactams|Class_B_betalactamases|IMP	3002205	
+MEG_3979|Drugs|MLS|Macrolide-resistant_23S_rRNA_mutation|MLS23S|RequiresSNPConfirmation	3004125	Parent ARO mapping
+MEG_1544|Drugs|betalactams|Class_A_betalactamases|CARB	3002243	
+MEG_985|Drugs|Aminoglycosides|Aminoglycoside_O-nucleotidyltransferases|ANT4-PRIME	3000229	
+MEG_1197|Drugs|Cationic_antimicrobial_peptides|Polymyxin_B_resistance_regulator|BASRS|RequiresSNPConfirmation	3003579	
+MEG_1288|Drugs|betalactams|Penicillin_binding_protein_regulator|BLAI	3000160	blaI is a gene in CARD. However, its ARO isn't used by RGI (private model)
+MEG_1458|Drugs|Glycopeptides|Bleomycin_resistance_protein|BLE	3001205	
+MEG_1461|Drugs|Glycopeptides|Bleomycin_resistance_protein|BLM	3005036	
+MEG_1462|Drugs|Glycopeptides|Bleomycin_resistance_protein|BLM	3005036	
+MEG_1607|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATB|RequiresSNPConfirmation	3002674	
+MEG_1642|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CDSA|RequiresSNPConfirmation	3004096	
+MEG_1730|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	3003272	
+MEG_1731|Drugs|Lipopeptides|Daptomycin-resistant_mutant|CLS|RequiresSNPConfirmation	3003272	
+MEG_2113|Drugs|Phenicol|Chloramphenicol_phosphotransferase|CPT	3000249	Previously mapped to ARO:3003111 (LsaB) by RGI.
+MEG_2133|Drugs|Fluoroquinolones|Fluoroquinolone_resistance_phosphotransferase|CRPP	3004467	
+MEG_2709|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBA|RequiresSNPConfirmation	3003452	
+MEG_2710|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBB|RequiresSNPConfirmation	3000235	
+MEG_2711|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBB|RequiresSNPConfirmation	3000235	
+MEG_2712|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBC|RequiresSNPConfirmation	3002706	
+MEG_2713|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol_resistant_arabinosyltransferase|EMBR|RequiresSNPConfirmation	3003454	
+MEG_2866|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethionamide-resistant_mutant|ETHA|RequiresSNPConfirmation	3003457	
+MEG_2997|Drugs|Fosfomycin|Fosfomycin_thiol_transferases|FOSA	3000149	
+MEG_3065|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	3003734	
+MEG_3135|Drugs|Aminoglycosides|Aminoglycoside-resistant_gidB|GIDB|RequiresSNPConfirmation	3003466	
+MEG_3143|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	3004247	
+MEG_3144|Drugs|Fosfomycin|Fosfomycin_target_mutation|GLPT|RequiresSNPConfirmation	3004247	
+MEG_3176|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3177|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3178|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3180|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3182|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3183|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3184|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3186|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3187|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3188|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3189|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3192|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3193|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3194|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3195|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3196|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3197|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3198|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3199|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3201|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3202|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3203|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3204|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3205|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3206|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3208|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3209|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3210|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3212|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3213|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3214|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3215|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3217|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3218|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3219|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3220|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3221|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3224|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3225|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3226|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3227|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3228|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3231|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3232|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3233|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3234|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_3241|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864	
+MEG_3242|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRB|RequiresSNPConfirmation	3000864	
+MEG_3244|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479	
+MEG_3245|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479	
+MEG_3246|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479	
+MEG_3248|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479	
+MEG_3249|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|GYRBA|RequiresSNPConfirmation	3000479	
+MEG_3251|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRC|RequiresSNPConfirmation	3000452	
+MEG_3429|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|INHA|RequiresSNPConfirmation	3004874	
+MEG_3430|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol-resistant_mutant|INIA|RequiresSNPConfirmation	3003447	
+MEG_3431|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol-resistant_mutant|INIB|RequiresSNPConfirmation	3004136	
+MEG_3432|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethambutol-resistant_mutant|INIC|RequiresSNPConfirmation	3003450	
+MEG_3446|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|KATG|RequiresSNPConfirmation	3003416	
+MEG_3586|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003076	
+MEG_3589|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003076	
+MEG_3590|Drugs|Lipopeptides|Daptomycin-resistant_mutant|LIAFSR|RequiresSNPConfirmation	3003076	
+MEG_3626|Drugs|Lipopeptides|Colistin-resistant_mutant|LPXA|RequiresSNPConfirmation	3003573	
+MEG_3627|Drugs|Lipopeptides|Colistin-resistant_mutant|LPXC|RequiresSNPConfirmation	3003574	
+MEG_3831|Drugs|Lipopeptides|Lysocin-resistant_mutant|MENA|RequiresSNPConfirmation	3004265	
+MEG_4097|Drugs|Glycopeptides|Vancomycin-resistant_mutation|MURG|RequiresSNPConfirmation	3004560	
+MEG_4130|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|NDH|RequiresSNPConfirmation	3003460	
+MEG_4222|Drugs|Thiopeptides|Thiostrepton_23S_rRNA_methyltransferases|NSHR	3003060	
+MEG_5254|Drugs|betalactams|Class_D_betalactamases|OXA	3000017	
+MEG_5255|Drugs|betalactams|Class_D_betalactamases|OXA	3000017	
+MEG_5327|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5329|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5332|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5333|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5334|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5340|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5341|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5342|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5344|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5345|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5348|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5351|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5353|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5354|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5355|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5356|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5359|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5361|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5362|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5363|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_5364|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5365|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5367|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5368|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5369|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5371|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5373|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5374|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5375|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5376|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5378|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5380|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5381|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5382|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5386|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5388|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5392|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5393|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_5394|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PAREF|RequiresSNPConfirmation	3003316	
+MEG_5784|Drugs|Lipopeptides|Colistin-resistant_mutant|PHOP|RequiresSNPConfirmation	3000834	
+MEG_5785|Drugs|Lipopeptides|Colistin-resistant_mutant|PHOQ|RequiresSNPConfirmation	3000835	
+MEG_5803|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|PNCA|RequiresSNPConfirmation	3004267	
+MEG_6058|Drugs|MLS|23S_rRNA_methyltransferases|RLMH	3001298	
+MEG_6138|Drugs|Glycopeptides|Vancomycin-resistant_mutation|RPOC|RequiresSNPConfirmation	3004725	
+MEG_6139|Drugs|Lipopeptides|Daptomycin-resistant_beta-subunit_of_RNA_polymerase_RpoC|RPOCL|RequiresSNPConfirmation	3003290	
+MEG_6142|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|RPSA|RequiresSNPConfirmation	3004722	
+MEG_6143|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|RPSJ|RequiresSNPConfirmation	3003930	
+MEG_6641|Drugs|Sulfonamides|Flavin_reductase|SULR	3004238	(https://pubmed.ncbi.nlm.nih.gov/30928844/) it seems that this gene is for microbacterium which is gram-positive. Sul 1, 2, 3, and 4 in CARD are all for gram-negative bacteria
+MEG_6642|Drugs|Sulfonamides|Sulfonamide_monooxygenase|SULX	3004238	(https://pubmed.ncbi.nlm.nih.gov/30928844/) it seems that this gene is for microbacterium which is gram-positive. Sul 1, 2, 3, and 4 in CARD are all for gram-negative bacteria
+MEG_6649|Drugs|Tetracenomycin|Tetracenomycin_MFS_efflux_pump|TCMA	3003554	tcmA is actually a gene in CARD. However, its ARO isn't used by RGI (private model)
+MEG_6976|Drugs|Tetracyclines|Tetracycline_inactivation_enzymes|TET34	3002870	tet34 is a gene in CARD. However, its ARO isn't used by RGI (private model)
+MEG_7022|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_pumps|TETA	3000165	
+MEG_7204|Drugs|Tetracyclines|Tetracycline_resistance_MFS_efflux_regulator|TETU	3004650	
+MEG_7250|Drugs|Mycobacterium_tuberculosis-specific_Drug|Para-aminosalicylic_acid_resistant_mutant|THYA|RequiresSNPConfirmation	3004152	
+MEG_7258|Drugs|Aminoglycosides|Aminoglycoside-resistant_arabinosyltransferase|TLYA|RequiresSNPConfirmation	3003443	
+MEG_7301|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7302|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7303|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7304|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7305|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7306|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7307|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7308|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7309|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7310|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7311|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7312|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7313|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7314|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7315|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7316|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7317|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7318|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7319|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7320|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7321|Drugs|Elfamycins|EF-Tu_inhibition|TUFAB|RequiresSNPConfirmation	3001312	
+MEG_7329|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	3004248	
+MEG_7330|Drugs|Fosfomycin|Fosfomycin_target_mutation|UHPT|RequiresSNPConfirmation	3004248	
+MEG_7806|Drugs|Lipopeptides|Daptomycin-resistant_mutant|WALK|RequiresSNPConfirmation	3003795	
+MEG_7843|Drugs|Lipopeptides|Daptomycin-resistant_mutant|YYBT|RequiresSNPConfirmation	3003798	
+MEG_7844|Drugs|Glycopeptides|Bleomycin_resistance_protein|ZBMA	3004256	
+MEG_8147|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8145|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8445|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_8634|Drugs|Lipopeptides|Colistin-resistant_mutant|PMRAR|RequiresSNPConfirmation	3004269	
+MEG_8144|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8687|Drugs|Mycobacterium_tuberculosis-specific_Drug|MDR_mutant_promoter|RV0678|RequiresSNPConfirmation	3007852	
+MEG_7971|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|AHPC|RequiresSNPConfirmation	3004921	
+MEG_7973|Drugs|Mycobacterium_tuberculosis-specific_Drug|Cycloserine-resistant_mutant|ALR|RequiresSNPConfirmation	3004947	
+MEG_8085|Drugs|Mycobacterium_tuberculosis-specific_Drug|Ethionamide-resistant_mutant|ETHR|RequiresSNPConfirmation	3003458	
+MEG_8444|Drugs|Mycobacterium_tuberculosis-specific_Drug|Pyrazinamide-resistant_mutant|PAND|RequiresSNPConfirmation	3004976	
+MEG_8670|Drugs|Oxazolidinone|Oxazolidinone-resistant_23S_rRNA_mutation|RPLC|RequiresSNPConfirmation	3004057	
+MEG_8675|Drugs|Rifampin|Rifampin-resistant_beta-subunit_of_RNA_polymerase_RpoB|RPOCR|RequiresSNPConfirmation	3000210	
+MEG_8720|Drugs|Aminoglycosides|Aminoglycoside-resistant_arabinosyltransferase|TLYA|RequiresSNPConfirmation	3003443	
+MEG_8676|Drugs|Aminoglycosides|Aminoglycoside-resistant_16S_ribosomal_subunit_protein|RPSE|RequiresSNPConfirmation	3007526	
+MEG_8146|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8446|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|PARC|RequiresSNPConfirmation	3000274	
+MEG_8449|Drugs|Aminocoumarins|Aminocoumarin-resistant_DNA_topoisomerases|PARE|RequiresSNPConfirmation	3000457	
+MEG_8100|Drugs|Fusidic_acid|Fusidic_acid-resistant_mutation|FUSA|RequiresSNPConfirmation	3003734	
+MEG_8142|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GRLA|RequiresSNPConfirmation	3000864	
+MEG_8456|Drugs|betalactams|Penicillin_binding_protein|PBP2|RequiresSNPConfirmation	3001208	
+MEG_8257|Drugs|Mycobacterium_tuberculosis-specific_Drug|Isoniazid-resistant_mutant|MSHA|RequiresSNPConfirmation	3004925	
+MEG_8154|Drugs|Spiropyrimidinetriones|Zoliflodacin-resistant_DNA_topoisomerases|GYRBZ|RequiresSNPConfirmation	3005000	
+MEG_8148|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8723|Drugs|Pleuromutilin|Pleuromutilin-resistant_23S_rRNA_mutation|UL3|RequiresSNPConfirmation	3005081	
+MEG_8149|Drugs|Fluoroquinolones|Fluoroquinolone-resistant_DNA_topoisomerases|GYRA|RequiresSNPConfirmation	3003292	
+MEG_8101|Drugs|Metronidazole|fxr_nitroimidazole_reductase|FXRA|RequiresSNPConfirmation	3007059	
+MEG_8141|Drugs|Aminoglycosides|Gentamicin-resistant_ATP-binding_protein|GRDA	3002528	https://pmc.ncbi.nlm.nih.gov/articles/PMC7577141/#:~:text=The%20grdA%20gene%20identified%20in,protein%20likely%20binds%20to%20ATP.
+MEG_400|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ACRA		Biocide resistance. No mapping
+MEG_402|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ACRB		Biocide resistance. No mapping
+MEG_413|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRR|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_414|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRR|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_415|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRS		Biocide resistance. No mapping
+MEG_686|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ADEI		Biocide resistance. No mapping
+MEG_687|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ADEI		Biocide resistance. No mapping
+MEG_692|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ADEJ		Biocide resistance. No mapping
+MEG_700|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADEL		Biocide resistance. No mapping
+MEG_702|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADEN		Biocide resistance. No mapping
+MEG_703|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADER		Biocide resistance. No mapping
+MEG_704|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ADES		Biocide resistance. No mapping
+MEG_731|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AMRA		Biocide resistance. No mapping
+MEG_732|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AMRB		Biocide resistance. No mapping
+MEG_1121|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ARMR		Biocide resistance. No mapping
+MEG_1185|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AXY		Biocide resistance. No mapping
+MEG_1186|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AXY		Biocide resistance. No mapping
+MEG_1187|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|AXYZ|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_1212|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|BCR1		Biocide resistance. No mapping
+MEG_1216|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|BCRCM		Biocide resistance. No mapping
+MEG_1463|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|BLT		Biocide resistance. No mapping
+MEG_1471|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|BMR		Biocide resistance. No mapping
+MEG_1643|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|CEOA		Biocide resistance. No mapping
+MEG_1644|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|CEOB		Biocide resistance. No mapping
+MEG_2117|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping
+MEG_2118|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping
+MEG_2119|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping
+MEG_2120|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping
+MEG_2121|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping
+MEG_2122|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CPXAR		Biocide resistance. No mapping
+MEG_2132|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|CRP		Biocide resistance. No mapping
+MEG_2704|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|EFMA		Biocide resistance. No mapping
+MEG_2705|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|EFPA		Biocide resistance. No mapping
+MEG_2717|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|EMHC		Biocide resistance. No mapping
+MEG_2870|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|EVGS		Biocide resistance. No mapping
+MEG_2884|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FARA		Biocide resistance. No mapping
+MEG_2886|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FARB		Biocide resistance. No mapping
+MEG_2901|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping
+MEG_2902|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping
+MEG_2904|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping
+MEG_3082|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|GADW		Biocide resistance. No mapping
+MEG_3268|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|HMRM		Biocide resistance. No mapping
+MEG_3512|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|KPN		Biocide resistance. No mapping
+MEG_3513|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|KPN		Biocide resistance. No mapping
+MEG_3739|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDFA		Biocide resistance. No mapping
+MEG_3754|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDTG		Biocide resistance. No mapping
+MEG_3755|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDTH		Biocide resistance. No mapping
+MEG_3760|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|MDTK		Biocide resistance. No mapping
+MEG_3764|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MDTO		Biocide resistance. No mapping
+MEG_3765|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MDTP		Biocide resistance. No mapping
+MEG_3833|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|MEPA		Biocide resistance. No mapping
+MEG_3836|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_regulator|MEPR		Biocide resistance. No mapping
+MEG_3837|Metals|Mercury_resistance|Mercury_resistance_protein|MERA		Metal resistance. No mapping
+MEG_3846|Metals|Mercury_resistance|Mercury_resistance_protein|MERB		Metal resistance. No mapping
+MEG_3857|Metals|Mercury_resistance|Mercury_resistance_protein|MERC		Metal resistance. No mapping
+MEG_3869|Metals|Mercury_resistance|Mercury_resistance_protein|MERF		Metal resistance. No mapping
+MEG_3909|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXE		Biocide resistance. No mapping
+MEG_3910|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXE		Biocide resistance. No mapping
+MEG_3912|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXF		Biocide resistance. No mapping
+MEG_3913|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXG		Biocide resistance. No mapping
+MEG_3914|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXH		Biocide resistance. No mapping
+MEG_3918|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXL		Biocide resistance. No mapping
+MEG_3919|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXN		Biocide resistance. No mapping
+MEG_3920|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXN		Biocide resistance. No mapping
+MEG_3921|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXQ		Biocide resistance. No mapping
+MEG_3922|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXQ		Biocide resistance. No mapping
+MEG_3923|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXQ		Biocide resistance. No mapping
+MEG_3931|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXS|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_3933|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXT|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_3934|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXT		Biocide resistance. No mapping
+MEG_3938|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXX		Biocide resistance. No mapping
+MEG_3940|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXY		Biocide resistance. No mapping
+MEG_3941|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|MEXZ|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_4080|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRC		Biocide resistance. No mapping
+MEG_4083|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRD		Biocide resistance. No mapping
+MEG_4085|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MTRE		Biocide resistance. No mapping
+MEG_4088|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|MTRR|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_4208|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|NORA		Biocide resistance. No mapping
+MEG_4209|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|NORA		Biocide resistance. No mapping
+MEG_4302|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OPRN		Biocide resistance. No mapping
+MEG_4303|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OPRZ		Biocide resistance. No mapping
+MEG_4324|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4325|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4326|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4327|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4328|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4329|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4330|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4331|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4332|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4333|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXA		Biocide resistance. No mapping
+MEG_4336|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4337|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4338|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4339|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4340|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4341|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4342|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4343|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4344|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4345|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4346|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4347|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4348|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4349|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4350|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4351|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4352|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4353|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4354|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4355|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4356|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4357|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4358|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4359|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4360|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4361|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4362|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4363|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4364|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4365|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_4366|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|OQXB		Biocide resistance. No mapping
+MEG_5783|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|PHOB|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_5795|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|PMRA		Biocide resistance. No mapping
+MEG_5797|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|PMRA		Biocide resistance. No mapping
+MEG_5820|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
+MEG_5823|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
+MEG_5824|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|QACAB		Biocide resistance. No mapping
+MEG_5827|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACE		Biocide resistance. No mapping
+MEG_5828|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACE		Biocide resistance. No mapping
+MEG_5832|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
+MEG_5833|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
+MEG_5834|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
+MEG_5835|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
+MEG_5836|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
+MEG_5837|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACF		Biocide resistance. No mapping
+MEG_5839|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_5840|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_5841|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_5842|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_5843|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_5844|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_5845|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACG		Biocide resistance. No mapping
+MEG_5848|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACH		Biocide resistance. No mapping
+MEG_5850|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACK		Biocide resistance. No mapping
+MEG_5851|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping
+MEG_5852|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping
+MEG_5853|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping
+MEG_5854|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACL		Biocide resistance. No mapping
+MEG_5855|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACPB		Biocide resistance. No mapping
+MEG_6501|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|SILC		Metal resistance. No mapping
+MEG_6504|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|SILF		Metal resistance. No mapping
+MEG_6506|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_pumps|SILP		Metal resistance. No mapping
+MEG_6509|Metals|Multi-metal_resistance|Multi-metal_RND_efflux_regulator|SILS		Metal resistance. No mapping
+MEG_6524|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping
+MEG_6525|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping
+MEG_6526|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping
+MEG_6527|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping
+MEG_6528|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping
+MEG_6529|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SME		Biocide resistance. No mapping
+MEG_6532|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR		Biocide resistance. No mapping
+MEG_6533|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR		Biocide resistance. No mapping
+MEG_6534|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|SMR		Biocide resistance. No mapping
+MEG_6547|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|SOXR		Biocide resistance. No mapping
+MEG_6548|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_regulator|SOXR|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_6955|Metals|Tellurium_resistance|Tellurium_resistance_protein|TERB		Metal resistance. No mapping
+MEG_7286|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|TTGA		Biocide resistance. No mapping
+MEG_7288|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|TTGB		Biocide resistance. No mapping
+MEG_7842|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|YOGI		Biocide resistance. No mapping
+MEG_7884|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|ACRR|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_7883|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|ACRB|RequiresSNPConfirmation		Biocide resistance. No mapping
+MEG_8077|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|EFRA		Biocide resistance. No mapping
+MEG_8741|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_regulator|YAJC		Biocide resistance. No mapping
+MEG_8686|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|RSMA		Biocide resistance. No mapping
+MEG_8273|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|NORC		Biocide resistance. No mapping
+MEG_8241|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|MDE		Biocide resistance. No mapping
+MEG_8693|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|SEPA		Biocide resistance. No mapping
+MEG_8692|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|SDRM		Biocide resistance. No mapping
+MEG_8248|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_RND_efflux_pumps|MEXD1		Biocide resistance. No mapping
+MEG_8649|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_SMR_efflux_pumps|QACH		Biocide resistance. No mapping
+MEG_1464|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|BLT		Biocide resistance. No mapping
+MEG_2706|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|EFRA		Biocide resistance. No mapping
+MEG_2707|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_ABC_efflux_pumps|EFRB		Biocide resistance. No mapping
+MEG_2905|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_pumps|FEXA		Biocide resistance. No mapping
+MEG_3834|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MATE_efflux_pumps|MEPA		Biocide resistance. No mapping
+MEG_8264|Multi-compound|Drug_and_biocide_resistance|Drug_and_biocide_MFS_efflux_regulator|MTRR|RequiresSNPConfirmation		Biocide resistance. No mapping
