@@ -4,6 +4,8 @@
 
 Here is a quick demo of running argNorm on the command line.
 
+**Note: argNorm takes only seconds to run (e.g., 3s to process 4,538 ARGs)**
+
 ### Step 1: Install argNorm
 
 Install argNorm and check installation
