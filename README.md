@@ -140,12 +140,16 @@ ARG annotation tools can use several ARG databases for annotation. Hence, the `t
 | `groot`         | Any from `groot-argannot`, `groot-resfinder`, `groot-db`, `groot-core-db`, or `groot-card` |
 | `hamronization` | Not required |
 
+### `--hamronization_skip_unsupported_tool` (*optional*)
+Combined hamronization results can have ARGs detected by unsupported tools (e.g. staramr). By default, argNorm throws an exception as these are unsupported tools, however, `--hamronization_skip_unsupported_tool` allows users to skip rows with unsupported tools. A warning will be raised rather than an exception.
+
 ### `-h` or `--help`
 Use `argnorm -h` or `argnorm --help` to see available options.
 
 ```bash
 >argnorm -h
-usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}] [-i INPUT] [-o OUTPUT]
+usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}]
+               [-i INPUT] [--hamronized] [--hamronization_skip_unsupported_tool] [-o OUTPUT]
                {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
@@ -156,10 +160,13 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}
+  --db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}
                         The database you used to do ARG annotation.
   -i INPUT, --input INPUT
                         The annotation result you have
+  --hamronized          Use hamronization as a tool instead
+  --hamronization_skip_unsupported_tool
+                        Skip rows with unsupported tools for hamronization outputs
   -o OUTPUT, --output OUTPUT
                         The file to save normalization results
 ```
@@ -220,7 +227,8 @@ argnorm -h
 
 ```
 > argnorm -h
-usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}] [-i INPUT] [-o OUTPUT]
+usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}]
+               [-i INPUT] [--hamronized] [--hamronization_skip_unsupported_tool] [-o OUTPUT]
                {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
@@ -231,10 +239,13 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}
+  --db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}
                         The database you used to do ARG annotation.
   -i INPUT, --input INPUT
                         The annotation result you have
+  --hamronized          Use hamronization as a tool instead
+  --hamronization_skip_unsupported_tool
+                        Skip rows with unsupported tools for hamronization outputs
   -o OUTPUT, --output OUTPUT
                         The file to save normalization results
 ```
