@@ -4,7 +4,7 @@
 
 Here is a quick demo of running argNorm on the command line.
 
-**Note: argNorm takes only seconds to run (e.g., 3s to process 4,538 ARGs)**
+**Note: argNorm takes only seconds to run (e.g., 1.76s to process 4,538 ARGs), and should not take up more memory than the baseline maximum resident set size**
 
 ### Step 1: Install argNorm
 

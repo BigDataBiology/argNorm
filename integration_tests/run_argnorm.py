@@ -1,7 +1,7 @@
 import subprocess
 import pandas as pd
 import os
-import time
+from resource import *
 
 os.makedirs('integration_tests/outputs/raw', exist_ok=True)
 os.makedirs('integration_tests/outputs/hamronized', exist_ok=True)
@@ -20,10 +20,11 @@ def run_cli_test(tool, file, folder, db=None):
     if tool in  ['abricate', 'groot']:
         command += ['--db', db]
     
-    start = time.time()
+    baseline = getrusage(RUSAGE_SELF).ru_maxrss
     subprocess.check_call(command)
-    end = time.time()
-    print(f'{tool} {file} {folder} : {end-start:.2f}s')
+    print(f'Time taken to run for {tool} {file} {folder} : {getrusage(RUSAGE_SELF).ru_utime}')
+    print(f'Baseline memory: {baseline}')
+    print(f'Program memory for {tool} {file} {folder} : {getrusage(RUSAGE_SELF).ru_maxrss - baseline}')
 
     output = pd.read_csv(f'integration_tests/outputs/{folder}/{file}', sep='\t')
     golden_file = pd.read_csv(f'outputs/{folder}/{file}', sep='\t')
