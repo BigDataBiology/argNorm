@@ -1,7 +1,6 @@
 import subprocess
 import pandas as pd
 import os
-import time
 
 os.makedirs('integration_tests/outputs/raw', exist_ok=True)
 os.makedirs('integration_tests/outputs/hamronized', exist_ok=True)
@@ -11,19 +10,18 @@ def run_cli_test(tool, file, folder, db=None):
         tool = 'hamronization'
 
     command = [
+        '/usr/bin/time',
+            '-f', "Time %e seconds (%M KB mem used)",  # %e is wall clock time, %M is max memory
         'argnorm',
         tool,
         '-i', f'examples/{folder}/{file}',
         '-o', f'integration_tests/outputs/{folder}/{file}'
     ]
 
-    if tool in  ['abricate', 'groot']:
+    if tool in ['abricate', 'groot']:
         command += ['--db', db]
-    
-    start = time.time()
+
     subprocess.check_call(command)
-    end = time.time()
-    print(f'{tool} {file} {folder} : {end-start:.2f}s')
 
     output = pd.read_csv(f'integration_tests/outputs/{folder}/{file}', sep='\t')
     golden_file = pd.read_csv(f'outputs/{folder}/{file}', sep='\t')

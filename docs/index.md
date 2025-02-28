@@ -45,6 +45,8 @@ The `confers_resistance_to` column will contain ARO numbers of all the drug clas
 
 The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
 
+**Resource requirements**: argNorm takes a few seconds to run (even for 1,000s of input genes) and requires only _ca_ 200MiB of RAM.
+
 ### argNorm Preprint
 **You can read the preprint detailing argNorm here: https://eprints.qut.edu.au/252448/**
 

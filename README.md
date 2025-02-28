@@ -101,6 +101,8 @@ Here is a basic outline of calling argNorm.
 argnorm [tool] [--db] -i [path to original_annotation.tsv] -o [path to annotation_result_with_aro.tsv]
 ```
 
+**Resource requirements**: argNorm takes a few seconds to run (even for 1,000s of input genes) and requires only _ca_ 200MiB of RAM.
+
 ### `tool` (required)
 The most important ***required positional*** argument is `tool` (see [here](#supported-tools-and-databases) for the specific versions of supported tools):
 - `deeparg`
