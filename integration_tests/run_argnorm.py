@@ -5,7 +5,7 @@ import os
 os.makedirs('integration_tests/outputs/raw', exist_ok=True)
 os.makedirs('integration_tests/outputs/hamronized', exist_ok=True)
 
-def run_cli_test(tool, file, folder, db=None):
+def run_cli_test(tool, file, folder, db=None, options=[]):
     if folder == 'hamronized':
         tool = 'hamronization'
 
@@ -21,6 +21,7 @@ def run_cli_test(tool, file, folder, db=None):
     if tool in ['abricate', 'groot']:
         command += ['--db', db]
 
+    command += options 
     subprocess.check_call(command)
 
     output = pd.read_csv(f'integration_tests/outputs/{folder}/{file}', sep='\t')
@@ -48,3 +49,11 @@ for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'r
         run_cli_test('abricate', file, 'raw', db=db)
 
 run_cli_test('hamronization', 'combined_hamronization.tsv', 'hamronized')
+run_cli_test('hamronization', 'combined_hamronization_full.tsv', 'hamronized', options=['--hamronization_skip_unsupported_tool'])
+
+try:
+    run_cli_test('hamronization', 'combined_hamronization_full.tsv', 'hamronized')
+except:
+    pass
+else:
+    raise AssertionError(f'combined_hamronization_full.tsv is normalized without exception without using --hamronization_skip_unsupported_tool')

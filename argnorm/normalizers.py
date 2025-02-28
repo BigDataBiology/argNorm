@@ -8,6 +8,7 @@ from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
 from .lib import get_aro_mapping_table
 from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL, DATABASES, CUT_OFF_COL
 import sys
+from warnings import warn
 
 # Column headings for drug categorization output
 CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
@@ -190,8 +191,9 @@ class GrootNormalizer(BaseNormalizer):
 
 
 class HamronizationNormalizer(BaseNormalizer):
-    def __init__(self, database=None):
+    def __init__(self, database=None, skip_on_unsupported_tool=False):
         super().__init__(database)
+        self.skip_on_unsupported_tool = skip_on_unsupported_tool
 
         self.input_ids = {
             'argsoap': lambda x: x['reference_accession'],
@@ -256,9 +258,14 @@ class HamronizationNormalizer(BaseNormalizer):
                     analysis_software = tool
                     break
             else:
-                sys.stderr.write(f'{analysis_software} is not a supported ARG annotation tool\n')
-                sys.stderr.write(f'argNorm can only map genes from the following tools: {list(self.input_ids.keys())}\n')
-                sys.exit(1)
+                if self.skip_on_unsupported_tool:
+                    warn(f'{tool} is not a supported ARG annotation tool. Skipping this row.')
+                    input_genes.append(None)
+                    continue
+                else:
+                    sys.stderr.write(f'{analysis_software} is not a supported ARG annotation tool\n')
+                    sys.stderr.write(f'argNorm can only map genes from the following tools: {list(self.input_ids.keys())}\n')
+                    sys.exit(1)
 
             if analysis_software == 'groot':
                 if '~~~' in row['gene_name']:

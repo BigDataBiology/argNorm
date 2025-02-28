@@ -24,7 +24,7 @@ def main():
                         help='The annotation result you have')
     parser.add_argument('--hamronized', action='store_true',
                         help='Use hamronization as a tool instead')
-
+    parser.add_argument('--hamronization_skip_unsupported_tool', action='store_true', help="Skip rows with unsupported tools for hamronization outputs")
     parser.add_argument('-o', '--output', type=str,
                         help='The file to save normalization results')
     args = parser.parse_args()
@@ -39,6 +39,7 @@ def main():
     result = normalize(args.input,
             tool=args.tool,
             database=args.db,
+            skip_on_unsupported_tool=args.hamronization_skip_unsupported_tool
         )
 
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]

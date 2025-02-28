@@ -15,14 +15,15 @@ From RGI documentation (https://github.com/arpcard/rgi/blob/master/docs/rgi_main
 > 
 > Protein Homolog Models (PHM) detect protein sequences based on their similarity to a curated reference sequence, using curated BLASTP bitscore cut-offs, for example NDM-1. Protein Homolog Models apply to all genes that confer resistance through their presence in an organism, such as the presence of a beta-lactamase gene on a plasmid. PHMs include a reference sequence and a bitscore cut-off for detection using BLASTP. A Perfect RGI match is 100% identical to the reference protein sequence along its entire length, a Strict RGI match is not identical but the bit-score of the matched sequence is greater than the curated BLASTP bit-score cutoff, Loose RGI matches have a bit-score less than the curated BLASTP bit-score cut-off.
 
-#### Added `HamronizationNormalizer`
+#### Added `HamronizationNormalizer` and `--hamronization_skip_unsupported_tool`
 - Removed the `is_hamronized` property for all normalizers and removed `--hamronized` flag for CLI.
 - All hamronized results now go through the `HamronizationNormalizer` class.
 - HamronizationNormalizer reads a hamronized file line by line, procures input genes, and loads all ARO mapping tables to support hamronized results that combine the outputs from multiple tools and databases.
 - For CLI hamronization commands will look like: 
 ```bash
-argnorm hamronization -i PATH_TO_INPUT -o PATH_TO_OUTPUT
+argnorm hamronization -i PATH_TO_INPUT -o PATH_TO_OUTPUT [--hamronization_skip_unsupported_tool]
 ```
+- Combined hamronization results can have ARGs detected by unsupported tools (e.g. staramr). By default, argNorm throws an exception as these are unsupported tools, however, `--hamronization_skip_unsupported_tool` allows users to skip rows with unsupported tools. A warning will be raised rather than an exception.
 
 #### Update `confers_resistance_to()` to use `regulates`, `part_of`, and `participates_in` ARO relationships
 Previously, argNorm used the `is_a` ARO relationship along with `confers_resistance_to_drug_class` and `confers_resistance_to_antibiotic` to map ARGs to the drugs they confer resistance to. While this worked well for most genes, some ARGs such as those coding for efflux pumps/proteins (e.g. `ARO:3003548`, `ARO:3000826`, `ARO:3003066`) were previously not mapped to any drugs. This is because none of their superclasses mapped to drugs/antibiotics via `confers_resistance_to_antibiotic` or `confers_resistance_to_drug_class`. However, these genes were related to other ARGs that did map to drugs via the `regulates`, `part_of`, or `participates_in` ARO relationships. argNorm now also utilizes these three relationships to ensure that even if the superclasses (derived using `is_a`) of an ARG don't map to a drug, the gene can be assigned a drug mapping.

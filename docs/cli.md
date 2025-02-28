@@ -16,7 +16,8 @@ argnorm -h
 
 ```
 > argnorm -h
-usage: argnorm [-h] [--db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}] [-i INPUT] [-o OUTPUT]
+usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}]
+               [-i INPUT] [--hamronized] [--hamronization_skip_unsupported_tool] [-o OUTPUT]
                {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
@@ -27,10 +28,13 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  --db {sarg,ncbi,resfinder,deeparg,megares,argannot,resfinderfg,groot-argannot,groot-resfinder,groot-db,groot-core-db,groot-card}
+  --db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}
                         The database you used to do ARG annotation.
   -i INPUT, --input INPUT
                         The annotation result you have
+  --hamronized          Use hamronization as a tool instead
+  --hamronization_skip_unsupported_tool
+                        Skip rows with unsupported tools for hamronization outputs
   -o OUTPUT, --output OUTPUT
                         The file to save normalization results
 ```
@@ -149,3 +153,5 @@ argnorm hamronization -i examples/hamronized/groot.resfinder.tsv -o outputs/hamr
 argnorm hamronization -i examples/hamronized/groot.card.tsv -o outputs/hamronized/groot.card.tsv
 argnorm hamronization -i examples/hamronized/groot.groot-db.tsv -o outputs/hamronized/groot.groot-db.tsv
 argnorm hamronization -i examples/hamronized/groot.groot-core-db.tsv -o outputs/hamronized/groot.groot-core-db.tsv
+argnorm hamronization -i examples/hamronized/combined_hamronization.tsv -o outputs/hamronized/combined_hamronization.tsv
+argnorm hamronization -i examples/hamronized/combined_hamronization_full.tsv -o outputs/hamronized/combined_hamronization_full.tsv ----hamronization_skip_unsupported_tool
