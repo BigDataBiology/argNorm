@@ -33,6 +33,10 @@ def main():
     if args.hamronized:
         sys.stderr.write('Upgrade to use hamronization as a tool instead of a flag\n')
         sys.exit(2)
+        
+    if args.tool == 'amrfinderplus' and args.tool_version != None:
+        sys.stderr.write('Please specify a version of amrfinderplus using `--tool_version` when using amrfinderplus\n')
+        sys.exit(2)
 
     # We only import the normalize function when the user actually wants to run the program
     # This makes running `argnorm -h` much faster because it avoids importing slow modules (e.g. pandas)
