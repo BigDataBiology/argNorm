@@ -29,8 +29,16 @@ def main():
                         help='The file to save normalization results')
     args = parser.parse_args()
 
+    if args.output is None:
+        sys.stderr.write('Please specify an output file using `-o` or `--output`\n')
+        sys.exit(2)
+
     if args.hamronized:
         sys.stderr.write('Upgrade to use hamronization as a tool instead of a flag\n')
+        sys.exit(2)
+
+    if args.tool in ['groot', 'abricate'] and args.db == None:
+        sys.stderr.write('Please specify a database using `--db` when using groot or abricate\n')
         sys.exit(2)
 
     # We only import the normalize function when the user actually wants to run the program
