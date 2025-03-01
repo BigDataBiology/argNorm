@@ -124,7 +124,8 @@ argnorm resfinder -i examples/raw/resfinder.resfinder.reads.tsv -o outputs/raw/r
 
 ### AMRFinderPlus
 ```bash
-argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.tsv
+argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.v3.10.30.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.v3.10.30.tsv --tool_version 3.10.30
+argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.v4.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.v4.tsv --tool_version 4.0.19
 ```
 
 ### GROOT

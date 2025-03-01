@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+#### Support amrfinderplus v4.0.19 alongisde amrfinderplus v3.10.30
+- Both the latest version of amrfinderplus (v4.0.19) and the previous v3.10.30 are now supported.
+- Users can choose specify the version of amrfinderplus being used via the '--tool_version' option.
+- e.g.
+```
+argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.tsv --tool_version 3.10.30
+```
+
 #### Added `Cut_Off` column to outputs
 - A new column called `Cut_Off` is now added to all argNorm outputs.
 - These cut off scores are procured from RGI outputs after running input databases through RGI, and these cut-off scores correspond to RGI's Discovery paradigm (learn more here: https://github.com/arpcard/rgi/blob/master/docs/rgi_main.rst).

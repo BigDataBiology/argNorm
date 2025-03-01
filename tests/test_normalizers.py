@@ -58,12 +58,13 @@ def test_resfinder_normalizer(mode):
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
-def test_amrfinderplus_normalizer():
-    normalizer = argnorm.AMRFinderPlusNormalizer()
-    input_file = f'./examples/raw/amrfinderplus.ncbi.orfs.tsv'
+@pytest.mark.parametrize('version', ['v3.10.30', 'v4'])
+def test_amrfinderplus_normalizer(version):
+    normalizer = argnorm.AMRFinderPlusNormalizer(tool_version=version)
+    input_file = f'./examples/raw/amrfinderplus.ncbi.orfs.{version}.tsv'
     
     normed = get_normed(normalizer, input_file)
-    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', f'amrfinderplus.ncbi.orfs.tsv'))
+    golden_file = get_golden_file(os.path.join('./outputs/', 'raw', f'amrfinderplus.ncbi.orfs.{version}.tsv'))
 
     pd.testing.assert_frame_equal(normed, golden_file)
 

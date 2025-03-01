@@ -33,7 +33,8 @@ for folder in ['hamronized', 'raw']:
     run_cli_test('argsoap', 'args-oap.sarg.reads.tsv', folder)
     run_cli_test('DEEParg', 'deeparg.deeparg.orfs.tsv', folder)
     run_cli_test('deeparg', 'deeparg.deeparg.orfs.tsv', folder)
-    run_cli_test('amrfinderplus', 'amrfinderplus.ncbi.orfs.tsv', folder)
+    run_cli_test('amrfinderplus', 'amrfinderplus.ncbi.orfs.v3.10.30.tsv', folder, options=['--tool_version', '3.10.30'])
+    run_cli_test('amrfinderplus', 'amrfinderplus.ncbi.orfs.v4.tsv', folder, options=['--tool_version', '4.0.19'])
     run_cli_test('resfinder', 'resfinder.resfinder.reads.tsv', folder)
     run_cli_test('resfinder', 'resfinder.resfinder.orfs.tsv', folder)
     for db in ['argannot', 'card', 'groot-core-db', 'groot-db', 'resfinder']:

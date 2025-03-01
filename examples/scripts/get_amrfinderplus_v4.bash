@@ -1,0 +1,3 @@
+wget https://raw.githubusercontent.com/ncbi/amr/refs/tags/amrfinder_v4.0.19/test_both.expected
+mv test_both.expected ../raw/amrfinderplus.ncbi.orfs.v4.tsv
+hamronize amrfinderplus ../raw/amrfinderplus.ncbi.orfs.v4.tsv --input_file_name amrfinderplus.ncbi.orfs.v4.tsv --output ../hamronized/amrfinderplus.ncbi.orfs.v4.tsv --reference_database_version 2024-12-18.1 --analysis_software_version 4.0.19 --format tsv
