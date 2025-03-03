@@ -20,9 +20,8 @@ class BaseNormalizer:
     Inherit this class and customize subclass methods to implement the normalization of new databases/formats.
     """
 
-    def __init__(self, database=None, tool_version=None) -> None:
+    def __init__(self, database=None) -> None:
         self.database = database
-        self.tool_version = tool_version
 
     def run(self, input_file : str):
         """
@@ -102,19 +101,19 @@ class ResFinderNormalizer(BaseNormalizer):
 
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
-    def __init__(self, database=None, tool_version=None) -> None:
+    def __init__(self, database=None) -> None:
         database = 'ncbi'
-        super().__init__(database, tool_version)
+        super().__init__(database)
 
     def get_input_ids(self, itable):
-        if '3.10.30' in self.tool_version:
+        if 'Accession of closest sequence' in itable.columns and 'Sequence name' in itable.columns:
             accession = 'Accession of closest sequence'
             gene_identifier = 'Sequence name'
-        elif '4.0.' in self.tool_version or 'v4' in self.tool_version:
+        elif 'Closest reference accession' in itable.columns and 'Element name' in itable.columns:
             accession = 'Closest reference accession'
-            gene_identifier = 'Element name'
+            gene_identifier = 'Closest reference name'
         else:
-            raise Exception('Unsupported AMRFinderPlus version. Please use 3.10.30 or 4.0.19.')
+            raise Exception('Unsupported AMRFinderPlus version detected. Please use amrfinderplus v3.10.30 or v4.0.19.')
 
         return pd.Series(itable[accession] + '|' + itable[gene_identifier].str.replace(' ', '_'))
 

@@ -60,7 +60,7 @@ def test_resfinder_normalizer(mode):
 
 @pytest.mark.parametrize('version', ['v3.10.30', 'v4'])
 def test_amrfinderplus_normalizer(version):
-    normalizer = argnorm.AMRFinderPlusNormalizer(tool_version=version)
+    normalizer = argnorm.AMRFinderPlusNormalizer()
     input_file = f'./examples/raw/amrfinderplus.ncbi.orfs.{version}.tsv'
     
     normed = get_normed(normalizer, input_file)

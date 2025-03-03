@@ -59,7 +59,7 @@ If you use argNorm in a publication, please cite the preprint:
 | DeepARG v2                         | [DeepARG v1.0.2](https://bench.cs.vt.edu/deeparg) & [hAMRonization](https://github.com/pha4ge/hAMRonization)       |
 | Groot v1.1.2                       | [GROOT v1.1.2](https://github.com/will-rowe/groot) & [hAMRonization](https://github.com/pha4ge/hAMRonization)      |
 | MEGARes v3.0                       | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
-| NCBI Reference Gene Database v3.12 | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [AMRFinderPlus v3.10.30 and v4.0.19](https://github.com/ncbi/amr), & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
+| NCBI Reference Gene Database v3.12 and v4.0 | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [AMRFinderPlus v3.10.30 and v4.0.19](https://github.com/ncbi/amr), & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
 | ResFinder v4.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [ResFinder v4.0](https://bitbucket.org/genomicepidemiology/resfinder/src/master/), & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
 | ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
 | SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/) & [hAMRonization](https://github.com/pha4ge/hAMRonization)  | 
@@ -98,7 +98,7 @@ argNorm is readily available in the funcscan pipeline which can be accessed (her
 Here is a basic outline of calling argNorm.
 
 ```bash
-argnorm [tool] [--db] -i [path to original_annotation.tsv] -o [path to annotation_result_with_aro.tsv] [----hamronization_skip_unsupported_tool] [--tool_version]
+argnorm [tool] [--db] -i [path to original_annotation.tsv] -o [path to annotation_result_with_aro.tsv] [----hamronization_skip_unsupported_tool]
 ```
 
 **Resource requirements**: argNorm takes a few seconds to run (even for 1,000s of input genes) and requires only _ca_ 200MiB of RAM.
@@ -112,14 +112,6 @@ The most important ***required positional*** argument is `tool` (see [here](#sup
 - `amrfinderplus`
 - `groot`
 - `hamronization`
-
-### `--tool_version` (optional, required for `amrfinderplus`)
-- argNorm supports both versions `v3.10.30` and `v4.0.19` of amrfinderplus.
-- Use the `--tool_version` option  to specify which version of amrfinderplus is being used.
-- e.g.
-```
-argnorm amrfinderplus -i examples/raw/amrfinderplus.ncbi.orfs.tsv -o outputs/raw/amrfinderplus.ncbi.orfs.tsv --tool_version 3.10.30
-```
 
 ### I/O (required)
 - `-i` or `--input`: path to the annotation result

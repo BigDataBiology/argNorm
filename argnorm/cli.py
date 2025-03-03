@@ -27,15 +27,10 @@ def main():
     parser.add_argument('--hamronization_skip_unsupported_tool', action='store_true', help="Skip rows with unsupported tools for hamronization outputs")
     parser.add_argument('-o', '--output', type=str,
                         help='The file to save normalization results')
-    parser.add_argument('--tool_version', type=str, help='The version of the arg tool used (optional). This is only required for AMRFinderPlus where v3.10.30 and v4.0.19 are supported')
     args = parser.parse_args()
 
     if args.hamronized:
         sys.stderr.write('Upgrade to use hamronization as a tool instead of a flag\n')
-        sys.exit(2)
-        
-    if args.tool == 'amrfinderplus' and args.tool_version != None:
-        sys.stderr.write('Please specify a version of amrfinderplus using `--tool_version` when using amrfinderplus\n')
         sys.exit(2)
 
     # We only import the normalize function when the user actually wants to run the program
@@ -44,8 +39,7 @@ def main():
     result = normalize(args.input,
             tool=args.tool,
             database=args.db,
-            skip_on_unsupported_tool=args.hamronization_skip_unsupported_tool,
-            tool_version=args.tool_version
+            skip_on_unsupported_tool=args.hamronization_skip_unsupported_tool
         )
 
     prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
