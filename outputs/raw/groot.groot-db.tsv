@@ -1,4 +1,4 @@
-# argNorm version: 0.6.0
+# argNorm version: 0.7.0
 0	1	2	3	ARO	Cut_Off	confers_resistance_to	resistance_to_drug_classes
 groot-db_RESFINDER__cfxA2_1_AF504914	321	966	286M1D328M1D344M6D	ARO:3003002	Strict	ARO:3009106	ARO:3000007
 groot-db_RESFINDER__tet(40)_1_FJ158002	411	1221	1221M	ARO:3000567	Strict	ARO:0000051	ARO:3000050
