@@ -34,9 +34,14 @@ def get_resfinderfg_db():
     url = 'https://raw.githubusercontent.com/RemiGSC/ResFinder_FG_Construction/606b4768433079d55f5b179219e080a45bf59dfc/output/RFG_db/ResFinder_FG.faa'
     return download_file(url, 'dbs/resfinder_fg.faa')
 
-def get_ncbi_db():
-    ofile = 'dbs/ncbi_amr_raw.faa'
+def get_ncbi3_db():
+    ofile = 'dbs/ncbi3_amr_raw.faa'
     url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/3.12/2024-01-31.1/AMRProt'
+    return download_file(url, ofile)
+
+def get_ncbi4_db():
+    ofile = 'dbs/ncbi4_amr_raw.faa'
+    url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/4.0/2024-12-18.1/AMRProt.fa'
     return download_file(url, ofile)
 
 def get_resfinder_db():
@@ -58,13 +63,22 @@ def get_argannot_db():
 
 # NCBI db has '*' at end of each protein sequence. RGI can't handle that, so '*' is removed
 @TaskGenerator
-def fix_ncbi(ncbi_amr_faa):
+def fix_ncbi(ncbi3_amr_faa, ncbi4_amr_faa):
     ofile = './dbs/ncbi.faa'
-    with open(ncbi_amr_faa) as original, \
+    with open(ncbi3_amr_faa) as ncbi3, open(ncbi4_amr_faa) as ncbi4, \
             open(ofile, 'w') as corrected:
-        for record in SeqIO.parse(ncbi_amr_faa, 'fasta'):
+        ncbi3_records = list(SeqIO.parse(ncbi3, 'fasta'))
+        ncbi4_records = list(SeqIO.parse(ncbi4, 'fasta'))
+        ncbi_records = ncbi3_records + ncbi4_records
+        
+        records = []
+        for record in ncbi_records:
             record.seq = Seq(str(record.seq).replace("*", ""))
-            SeqIO.write(record, corrected, 'fasta')
+            if not record.id in records:
+                SeqIO.write(record, corrected, 'fasta')
+                records.append(record.id)
+            else:
+                continue
 
     return ofile
 
@@ -135,7 +149,7 @@ load_rgi()
 barrier()
 for db in [
         fna_to_faa(get_resfinder_db()),
-        fix_ncbi(get_ncbi_db()),
+        fix_ncbi(get_ncbi3_db(), get_ncbi4_db()),
         get_sarg_db(),
         get_resfinderfg_db(),
         get_deeparg_db(),

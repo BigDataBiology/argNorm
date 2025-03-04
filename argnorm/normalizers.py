@@ -106,8 +106,15 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
         super().__init__(database)
 
     def get_input_ids(self, itable):
-        gene_identifier = 'Sequence name'
-        accession = 'Accession of closest sequence'
+        if 'Accession of closest sequence' in itable.columns and 'Sequence name' in itable.columns:
+            accession = 'Accession of closest sequence'
+            gene_identifier = 'Sequence name'
+        elif 'Closest reference accession' in itable.columns and 'Element name' in itable.columns:
+            accession = 'Closest reference accession'
+            gene_identifier = 'Closest reference name'
+        else:
+            raise Exception('Unsupported AMRFinderPlus version detected. Please use amrfinderplus v3.10.30 or v4.0.19.')
+
         return pd.Series(itable[accession] + '|' + itable[gene_identifier].str.replace(' ', '_'))
 
     def preprocess_ref_genes(self, ref_genes):
