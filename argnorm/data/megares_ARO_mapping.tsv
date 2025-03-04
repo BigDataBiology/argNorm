@@ -154,7 +154,7 @@ MEG_2613|Drugs|betalactams|Class_C_betalactamases|DHA	3002145	Perfect	megares
 MEG_2806|Drugs|MLS|23S_rRNA_methyltransferases|ERMB	3000375	Strict	megares
 MEG_2807|Drugs|MLS|23S_rRNA_methyltransferases|ERMB	3000375	Strict	megares
 MEG_2853|Drugs|MLS|23S_rRNA_methyltransferases|ERMV	3002824	Perfect	megares
-MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	3000557	Manual Curation	megares
+MEG_2865|Drugs|Phenicol|Chloramphenicol_hydrolase|ESTD	3000557	Manual	megares
 MEG_2906|Drugs|Phenicol|Phenicol_resistance_MFS_efflux_pumps|FEXB	3007019	Perfect	megares
 MEG_2932|Drugs|Aminoglycosides|16S_rRNA_methyltransferases|FMRO	3000858	Loose	megares
 MEG_2975|Drugs|Fosfomycin|Fosfomycin_phosphorylation|FOMB	3000449	Perfect	megares
@@ -184,7 +184,7 @@ MEG_3799|Drugs|betalactams|Penicillin_binding_protein|MECC	3001209	Strict	megare
 MEG_3800|Drugs|betalactams|Penicillin_binding_protein|MECC	3001209	Loose	megares
 MEG_3826|Drugs|MLS|MLS_resistance_MFS_efflux_pumps|MEFA	3000616	Loose	megares
 MEG_4040|Drugs|MLS|Macrolide_phosphotransferases|MPHC	3000319	Strict	megares
-MEG_4041|Drugs|MLS|Macrolide_phosphotransferases|MPHD	3000333	Manual Curation	megares
+MEG_4041|Drugs|MLS|Macrolide_phosphotransferases|MPHD	3000333	Manual	megares
 MEG_4051|Drugs|MLS|Macrolide_phosphotransferases|MPHN	3000318	Loose	megares
 MEG_4186|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMF	3007108	Strict	megares
 MEG_4187|Drugs|Metronidazole|nim_nitroimidazole_reductase|NIMH	3007110	Strict	megares
@@ -259,52 +259,52 @@ MEG_7234|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_protei
 MEG_7235|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	Strict	megares
 MEG_7236|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	Strict	megares
 MEG_7237|Drugs|Tetracyclines|Tetracycline_resistance_ribosomal_protection_proteins|TETW	3007122	Strict	megares
-MEG_7344|Drugs|Glycopeptides|VanA-type_resistance_protein|VANA	3003970	Manual Curation	megares
-MEG_7371|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7372|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7373|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7374|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7375|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7376|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7377|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7378|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
+MEG_7344|Drugs|Glycopeptides|VanA-type_resistance_protein|VANA	3003970	Manual	megares
+MEG_7371|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7372|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7373|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7374|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7375|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7376|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7377|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7378|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
 MEG_7379|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000368	Strict	megares
-MEG_7380|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7381|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7382|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual Curation	megares
-MEG_7390|Drugs|Glycopeptides|VanE-type_resistance_protein|VANE	3000259	Manual Curation	megares
+MEG_7380|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7381|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7382|Drugs|Glycopeptides|VanC-type_resistance_protein|VANC	3000246	Manual	megares
+MEG_7390|Drugs|Glycopeptides|VanE-type_resistance_protein|VANE	3000259	Manual	megares
 MEG_7391|Drugs|Glycopeptides|VanE-type_resistance_protein|VANE	3002907	Strict	megares
-MEG_7396|Drugs|Glycopeptides|VanG-type_resistance_protein|VANG	3000257	Manual Curation	megares
-MEG_7397|Drugs|Glycopeptides|VanG-type_resistance_protein|VANG	3000257	Manual Curation	megares
-MEG_7408|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual Curation	megares
-MEG_7409|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual Curation	megares
-MEG_7410|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual Curation	megares
-MEG_7411|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual Curation	megares
-MEG_7412|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual Curation	megares
-MEG_7417|Drugs|Glycopeptides|VanB-type_resistance_protein|VANHB	3000238	Manual Curation	megares
-MEG_7418|Drugs|Glycopeptides|VanB-type_resistance_protein|VANHB	3000238	Manual Curation	megares
-MEG_7429|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000255	Manual Curation	megares
-MEG_7430|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual Curation	megares
-MEG_7431|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual Curation	megares
-MEG_7432|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual Curation	megares
-MEG_7433|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000256	Manual Curation	megares
-MEG_7434|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual Curation	megares
-MEG_7435|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual Curation	megares
-MEG_7436|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual Curation	megares
-MEG_7437|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual Curation	megares
-MEG_7438|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3002918	Manual Curation	megares
-MEG_7445|Drugs|Glycopeptides|VanL-type_resistance_protein|VANL	3000260	Manual Curation	megares
-MEG_7447|Drugs|Glycopeptides|VanN-type_resistance_protein|VANN	3002917	Manual Curation	megares
+MEG_7396|Drugs|Glycopeptides|VanG-type_resistance_protein|VANG	3000257	Manual	megares
+MEG_7397|Drugs|Glycopeptides|VanG-type_resistance_protein|VANG	3000257	Manual	megares
+MEG_7408|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual	megares
+MEG_7409|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual	megares
+MEG_7410|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual	megares
+MEG_7411|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual	megares
+MEG_7412|Drugs|Glycopeptides|VanA-type_resistance_protein|VANHA	3000236	Manual	megares
+MEG_7417|Drugs|Glycopeptides|VanB-type_resistance_protein|VANHB	3000238	Manual	megares
+MEG_7418|Drugs|Glycopeptides|VanB-type_resistance_protein|VANHB	3000238	Manual	megares
+MEG_7429|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000255	Manual	megares
+MEG_7430|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual	megares
+MEG_7431|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual	megares
+MEG_7432|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual	megares
+MEG_7433|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000256	Manual	megares
+MEG_7434|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual	megares
+MEG_7435|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual	megares
+MEG_7436|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual	megares
+MEG_7437|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3000253	Manual	megares
+MEG_7438|Drugs|Glycopeptides|VanD-type_resistance_protein|VANHD	3002918	Manual	megares
+MEG_7445|Drugs|Glycopeptides|VanL-type_resistance_protein|VANL	3000260	Manual	megares
+MEG_7447|Drugs|Glycopeptides|VanN-type_resistance_protein|VANN	3002917	Manual	megares
 MEG_7448|Drugs|Glycopeptides|VanN-type_resistance_protein|VANN	3002949	Strict	megares
-MEG_7563|Drugs|Glycopeptides|VanB-type_resistance_protein|VANXB	3003722	Manual Curation	megares
-MEG_7571|Drugs|Glycopeptides|VanM-type_resistance_protein|VANXM	3003722	Manual Curation	megares
-MEG_7572|Drugs|Glycopeptides|VanM-type_resistance_protein|VANXM	3003722	Manual Curation	megares
+MEG_7563|Drugs|Glycopeptides|VanB-type_resistance_protein|VANXB	3003722	Manual	megares
+MEG_7571|Drugs|Glycopeptides|VanM-type_resistance_protein|VANXM	3003722	Manual	megares
+MEG_7572|Drugs|Glycopeptides|VanM-type_resistance_protein|VANXM	3003722	Manual	megares
 MEG_7686|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|VGA	3002830	Loose	megares
 MEG_7687|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|VGA	3002829	Loose	megares
 MEG_7769|Drugs|betalactams|Class_B_betalactamases|VIM	3002272	Strict	megares
 MEG_7869|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3	3004621	Strict	megares
 MEG_8014|Drugs|Phenicol|Chloramphenicol_acetyltransferases|CATT	3004657	Loose	megares
-MEG_8140|Drugs|Aminoglycosides|Gentamicin-resistant_ATP-binding_protein|GRDA	3007380	Manual Curation	megares
+MEG_8140|Drugs|Aminoglycosides|Gentamicin-resistant_ATP-binding_protein|GRDA	3007380	Manual	megares
 MEG_8237|Drugs|Lipopeptides|Colistin_phosphoethanolamine_transferase|MCR	3007232	Perfect	megares
 MEG_8238|Drugs|Lipopeptides|Colistin_phosphoethanolamine_transferase|MCR	3007137	Perfect	megares
 MEG_8639|Drugs|Multi-drug_resistance|Multi-drug_ABC_efflux_pumps|POXT	3004470	Strict	megares
