@@ -5,3 +5,6 @@ manual_curation/
 card.json
 data
 localDB/
+
+# pixi environments
+.pixi

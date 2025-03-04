@@ -1,26 +1,26 @@
-# db_harmonisation
+# DB Harmonisation
 
 This is useful to _build_ the argNorm mapping databases, it is **not** intended for regular users of argNorm.
 
-# Mapping Databases to RGI
-
-Applicable to all databases except MEGARes
-
-## Setting up conda environment
-
-```bash
-conda create --name rgi --channel conda-forge --channel bioconda --channel defaults rgi
-conda activate rgi
-conda install jug
-```
+Hand curated mappings are stored in a separate location and will override the automatically generated mappings.
 
 ## Running the code
 
-This is a [Jug](https://jug.rtfd.io/) project, so you run `jug execute`
+This is a [Jug](https://jug.rtfd.io/) project, so you run `jug execute`. Everything is installed with [pixi](https://pixi.sh/), so you can run it with `pixi run`:
 
 ```bash
+pixi run jug execute crude_db_harmonisation.py
+```
+
+This will download all the dependencies and run the code. Alternatively you can first install the dependencies and then run the code:
+
+```bash
+pixi install
+pixi shell
 jug execute crude_db_harmonisation.py
 ```
+
+# Notes on specific databases
 
 ## Constructing MEGARes Mappings
 
