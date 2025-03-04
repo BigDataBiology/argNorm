@@ -1,22 +1,22 @@
-from argnorm.drug_categorization import *
+from argnorm.drug_categorization import confers_resistance_to, drugs_to_drug_classes, ARO
 import pandas as pd
+
 
 def preprocess_mappings_for_tests(mapping, database):
     rgi_mapping = mapping
 
     # Add drug class information from argnorm
     drug_classes_list = []
-    
+
     for i in range(rgi_mapping.shape[0]):
         aro = "ARO:" + str(rgi_mapping.iloc[i]['ARO'])
         drugs = confers_resistance_to(aro)
         drug_classes = drugs_to_drug_classes(drugs)
         drug_classes_list.append(list(map(lambda x: ARO[x].name, drug_classes)))
-        
-    print(drug_classes_list)
-    
+
+
     rgi_mapping['Drug Classes'] = drug_classes_list
-    
+
     # Add drug class information from original database
     resfinder_antibiotic_classes = pd.read_csv('./drug_classes/resfinder_antibiotic_classes.tsv', sep='\t')
     sarg_antibiotic_classes = pd.read_csv('./drug_classes/SARG_structure.tsv', sep='\t')
