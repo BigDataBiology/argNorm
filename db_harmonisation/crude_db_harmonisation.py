@@ -1,16 +1,16 @@
-from jug import TaskGenerator, barrier
+from jug import Task, TaskGenerator, barrier
 import shutil
 import subprocess
 import requests
 import os
 from os import path
-import tempfile
 from Bio import SeqIO
 from Bio.Seq import translate, Seq
 from construct_megares_mapping import construct_megares
 from construct_groot_mappings import get_groot_aro_mapping
 
-@TaskGenerator
+
+@Task
 def create_out_dirs():
     os.makedirs('dbs', exist_ok=True)
     os.makedirs('mapping', exist_ok=True)
@@ -126,27 +126,29 @@ def run_rgi(fa):
     get_aro_for_hits(fa, rgi_ofile + '.txt', db_name).to_csv(ofile, sep='\t', index=False)
     return ofile
 
-# Moving ARO mapping tables over to argnorm/data
+#
 @TaskGenerator
-def move_mappings_to_argnorm(aro_mapping):
+def copy_mappings_to_argnorm(aro_mapping):
     shutil.copy(aro_mapping, '../argnorm/data')
+
 
 @TaskGenerator
 def get_rgi_hit_counts():
     import pandas as pd
 
     dfs = []
-    for dir in os.listdir('./mapping'):
-        if 'rgi.txt' in dir or 'rgi_output.txt' in dir:
-            dfs.append(pd.read_csv(f'./mapping/{dir}', sep='\t'))
-            
-    comb_df = pd.concat(dfs)
-    comb_df.to_csv('./mapping/combined_ARO_mapping.tsv', sep='\t')
+    for f in os.listdir('./mapping'):
+        if 'rgi.txt' in f or 'rgi_output.txt' in f:
+            dfs.append(pd.read_csv(f'./mapping/{f}', sep='\t'))
 
-# Calling tasks
-create_out_dirs()
+    comb_df = pd.concat(dfs)
+    oname = './mapping/combined_rgi_output.tsv'
+    comb_df.to_csv(oname, sep='\t', index=False)
+    return oname
+
 load_rgi()
 barrier()
+
 for db in [
         fna_to_faa(get_resfinder_db()),
         fix_ncbi(get_ncbi3_db(), get_ncbi4_db()),
@@ -155,7 +157,7 @@ for db in [
         get_deeparg_db(),
         get_argannot_db()
     ]:
-    move_mappings_to_argnorm(run_rgi(db))
+    copy_mappings_to_argnorm(run_rgi(db))
 construct_megares()
 get_groot_aro_mapping()
 barrier()
