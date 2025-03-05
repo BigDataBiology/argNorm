@@ -55,14 +55,14 @@ If you use argNorm in a publication, please cite the preprint:
 
 | ARG database                       | Tool for ARG annotation                                 |
 | ---------------------------------- | ------------------------------------------------------- |
-| ARG-ANNOT v5.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
-| DeepARG v2                         | [DeepARG v1.0.2](https://bench.cs.vt.edu/deeparg) & [hAMRonization](https://github.com/pha4ge/hAMRonization)       |
-| Groot v1.1.2                       | [GROOT v1.1.2](https://github.com/will-rowe/groot) & [hAMRonization](https://github.com/pha4ge/hAMRonization)      |
-| MEGARes v3.0                       | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
-| NCBI Reference Gene Database v3.12 and v4.0 | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [AMRFinderPlus v3.10.30 and v4.0.19](https://github.com/ncbi/amr), & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
-| ResFinder v4.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [ResFinder v4.0](https://bitbucket.org/genomicepidemiology/resfinder/src/master/), & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
-| ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
-| SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/) & [hAMRonization](https://github.com/pha4ge/hAMRonization)  | 
+| ARG-ANNOT v5.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
+| DeepARG v2                         | [DeepARG v1.0.2](https://bench.cs.vt.edu/deeparg) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4       |
+| Groot v1.1.2                       | [GROOT v1.1.2](https://github.com/will-rowe/groot) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4      |
+| MEGARes v3.0                       | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
+| NCBI Reference Gene Database v3.12 and v4.0 | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [AMRFinderPlus v3.10.30 and v4.0.19](https://github.com/ncbi/amr), & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
+| ResFinder v4.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [ResFinder v4.0](https://bitbucket.org/genomicepidemiology/resfinder/src/master/), & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
+| ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
+| SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4  | 
 
 - Note: ARG database and ARG annotation tool versions can change. argNorm currently only supports versions listed above.
 - Note: the argNorm tool will be periodically updated to support the latest versions of databases and annotation tools if they undergo significant changes.
