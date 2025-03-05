@@ -64,7 +64,7 @@ If you use argNorm in a publication, please cite the preprint:
 | ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) |
 | SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/) & [hAMRonization](https://github.com/pha4ge/hAMRonization)  | 
 
-- Note: ARG database and ARG annotation tool versions can change. argNorm is only intended for supported versions listed above.
+- Note: ARG database and ARG annotation tool versions can change. argNorm currently only supports versions listed above.
 - Note: the argNorm tool will be periodically updated to support the latest versions of databases and annotation tools if they undergo significant changes.
 > hAMRonization: argNorm does not support ALL hAMRonized results. **argNorm only supports hAMRonization outputs that were obtained by passing the outputs of the supported ARG annotation tools listed above into hAMRonization**
 
