@@ -87,7 +87,7 @@ def test_hamronization_normalizer():
     for file in os.listdir('./examples/hamronized/'):
         if 'abricate.card' in file or 'args-oap.sarg.orfs' in file:
             continue
-        if file == 'combined_hamronization_full.tsv':
+        if file in ['combined_hamronization_full.tsv', 'example_hamronization_summary.tsv']:
             normalizer = argnorm.HamronizationNormalizer(skip_on_unsupported_tool=True)
 
         normed = get_normed(normalizer, f'./examples/hamronized/{file}')

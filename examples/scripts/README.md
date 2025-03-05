@@ -1,0 +1,1 @@
+- examples/hamronized/example_hamronization_summary.tsv was created by running the integration tests from hAMRonization: https://github.com/pha4ge/hAMRonization/blob/v1.1.8/test/run_integration_test.sh
