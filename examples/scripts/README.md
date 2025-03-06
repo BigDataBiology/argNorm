@@ -1,0 +1,1 @@
+- examples/hamronized/abricate.ncbi.hamronizationv4.tsv was created by running the integration tests from hAMRonization: https://github.com/pha4ge/hAMRonization/blob/v1.1.8/test/run_integration_test.sh and saving only the rows that contain abricate in the `analysis_software_name` column
