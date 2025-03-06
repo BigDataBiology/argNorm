@@ -51,6 +51,7 @@ for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'r
 
 run_cli_test('hamronization', 'combined_hamronization.tsv', 'hamronized')
 run_cli_test('hamronization', 'combined_hamronization_full.tsv', 'hamronized', options=['--hamronization_skip_unsupported_tool'])
+run_cli_test('hamronization', 'abricate.ncbi.hamronizationv4.tsv', 'hamronized')
 
 try:
     run_cli_test('hamronization', 'combined_hamronization_full.tsv', 'hamronized')
