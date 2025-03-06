@@ -151,27 +151,29 @@ Use `argnorm -h` or `argnorm --help` to see available options.
 
 ```bash
 >argnorm -h
-usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}]
-               [-i INPUT] [--hamronized] [--hamronization_skip_unsupported_tool] [-o OUTPUT]
+usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}] [-i INPUT] [--hamronized]
+               [--hamronization_skip_unsupported_tool] [-o OUTPUT]
                {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
   {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
-                        The tool you used to do ARG annotation.
+                        tool (required): The bioinformatics tool used for ARG annotation.
 
 options:
   -h, --help            show this help message and exit
   --db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}
-                        The database you used to do ARG annotation.
+                        --db (mostly optional): The database used alongside the ARG annotation tool. This is only required if abricate or groot is used as a tool. Please refer here for more information
+                        on --db: https://github.com/BigDataBiology/argNorm?tab=readme-ov-file#--db-optional
   -i INPUT, --input INPUT
-                        The annotation result you have
-  --hamronized          Use hamronization as a tool instead
+                        -i (required): The path to the ARG annotation result which needs to be normalized.
+  --hamronized          Please use hamronization as a tool instead
   --hamronization_skip_unsupported_tool
-                        Skip rows with unsupported tools for hamronization outputs
+                        --hamronization_skip_unsupported_tool (optional): skip rows with unsupported tools for hamronization outputs. argNorm be default will raise an exception if unsupported tool is
+                        found in hamronization. Use this if you only want argNorm to raise a warning.
   -o OUTPUT, --output OUTPUT
-                        The file to save normalization results
+                        -o (required): The path to the output file where you would like to store argNorm's results
 ```
 
 ## Outputs
@@ -231,27 +233,29 @@ argnorm -h
 
 ```
 > argnorm -h
-usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}]
-               [-i INPUT] [--hamronized] [--hamronization_skip_unsupported_tool] [-o OUTPUT]
+usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}] [-i INPUT] [--hamronized]
+               [--hamronization_skip_unsupported_tool] [-o OUTPUT]
                {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
 argNorm normalizes ARG annotation results from different tools and databases to the same ontology, namely ARO (Antibiotic Resistance Ontology).
 
 positional arguments:
   {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
-                        The tool you used to do ARG annotation.
+                        tool (required): The bioinformatics tool used for ARG annotation.
 
 options:
   -h, --help            show this help message and exit
   --db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}
-                        The database you used to do ARG annotation.
+                        --db (mostly optional): The database used alongside the ARG annotation tool. This is only required if abricate or groot is used as a tool. Please refer here for more information
+                        on --db: https://github.com/BigDataBiology/argNorm?tab=readme-ov-file#--db-optional
   -i INPUT, --input INPUT
-                        The annotation result you have
-  --hamronized          Use hamronization as a tool instead
+                        -i (required): The path to the ARG annotation result which needs to be normalized.
+  --hamronized          Please use hamronization as a tool instead
   --hamronization_skip_unsupported_tool
-                        Skip rows with unsupported tools for hamronization outputs
+                        --hamronization_skip_unsupported_tool (optional): skip rows with unsupported tools for hamronization outputs. argNorm be default will raise an exception if unsupported tool is
+                        found in hamronization. Use this if you only want argNorm to raise a warning.
   -o OUTPUT, --output OUTPUT
-                        The file to save normalization results
+                        -o (required): The path to the output file where you would like to store argNorm's results
 ```
 
 ### Step 2: Create working directory & download sample data

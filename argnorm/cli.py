@@ -16,17 +16,22 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('tool', type=str.lower,
                         choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus', 'groot', 'hamronization'],
-                        help='The tool you used to do ARG annotation.')
+                        help='tool (required): The bioinformatics tool used for ARG annotation.')
     parser.add_argument('--db', type=str.lower,
                         choices=lib.DATABASES,
-                        help='The database you used to do ARG annotation.')
+                        help='--db (mostly optional): The database used alongside the ARG annotation tool. This is\
+                            only required if abricate or groot is used as a tool. Please refer here for more information\
+                                on --db: https://github.com/BigDataBiology/argNorm?tab=readme-ov-file#--db-optional')
     parser.add_argument('-i', '--input', type=str,
-                        help='The annotation result you have')
+                        help='-i (required): The path to the ARG annotation result which needs to be normalized.')
     parser.add_argument('--hamronized', action='store_true',
-                        help='Use hamronization as a tool instead')
-    parser.add_argument('--hamronization_skip_unsupported_tool', action='store_true', help="Skip rows with unsupported tools for hamronization outputs")
+                        help='Please use hamronization as a tool instead')
+    parser.add_argument('--hamronization_skip_unsupported_tool', action='store_true', 
+                        help="--hamronization_skip_unsupported_tool (optional): skip rows with unsupported tools\
+                            for hamronization outputs. argNorm be default will raise an exception if unsupported\
+                             tool is found in hamronization. Use this if you only want argNorm to raise a warning.")
     parser.add_argument('-o', '--output', type=str,
-                        help='The file to save normalization results')
+                        help="-o (required): The path to the output file where you would like to store argNorm's results")
     args = parser.parse_args()
 
     if args.output is None:
