@@ -24,8 +24,6 @@ def main():
                                 on --db: https://github.com/BigDataBiology/argNorm?tab=readme-ov-file#--db-optional')
     parser.add_argument('-i', '--input', type=str,
                         help='-i (required): The path to the ARG annotation result which needs to be normalized.')
-    parser.add_argument('--hamronized', action='store_true',
-                        help='Please use hamronization as a tool instead')
     parser.add_argument('--hamronization_skip_unsupported_tool', action='store_true', 
                         help="--hamronization_skip_unsupported_tool (optional): skip rows with unsupported tools\
                             for hamronization outputs. argNorm be default will raise an exception if unsupported\
@@ -36,10 +34,6 @@ def main():
 
     if args.output is None:
         sys.stderr.write('Please specify an output file using `-o` or `--output`\n')
-        sys.exit(2)
-
-    if args.hamronized:
-        sys.stderr.write('Upgrade to use hamronization as a tool instead of a flag\n')
         sys.exit(2)
 
     if args.tool in ['groot', 'abricate'] and args.db == None:
