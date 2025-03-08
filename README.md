@@ -1,5 +1,6 @@
 # argNorm: Normalize ARG annotations to the ARO
 
+[![Documentation](https://readthedocs.org/projects/argnorm/badge/?version=latest)](https://argnorm.readthedocs.io/en/latest/?badge=latest)
 [![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
 [![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
 ![](https://img.shields.io/badge/status-beta-yellow?style=flat)
