@@ -18,17 +18,18 @@ input_sequence_id	input_file_name	gene_symbol	gene_name	reference_database_id ..
 .
 ```
 
-> **NOTE: THIS WILL BREAK ANY PREVIOUS SCRIPTS ANALYZING ARGNORM CLI OUTPUTS BEFORE THIS UPDATE! PLEASE USE THE `skiprows=1` ARGUMENT WHEN LOADING ARGNORM OUTPUT DATAFRAMES TO IGNORE THE COMMENT WITH THE ARGNORM VERSION AS SHOWN BELOW:**
-> ```python
-> import pandas as pd
-> df = pd.read_csv(<PATH TO ARGNORM OUTPUT>, sep='\t', skiprows=1)
-> ```
+**Note** ⚠️: this will break any previous scripts analyzing argnorm cli outputs before this update! Use the `skiprows=1` argument (or equivalent) when loading argnorm output dataframes to ignore the comment with the argnorm version as shown below for Pandas:
+
+```python
+import pandas as pd
+df = pd.read_csv(<PATH TO ARGNORM OUTPUT>, sep='\t', skiprows=1)
+```
 
 #### argNorm mappings updated for CARD and ARO v4.0.0
 
 CARD and ARO were updated to v4.0.0 (released 18 Dec 2024). This brought significant changes to both CARD and the ARO, with 1200+ new beta-lactamase genes being added.
 
-> **NOTE: ARO mappings for many ARGs have changed. An ARO mapping from a previous version of argNorm might not be present in the latest ARO or can even point to a completely different gene.** 
+> **NOTE 💡 : ARO mappings for many ARGs have changed. An ARO mapping from a previous version of argNorm might not be present in the latest ARO or can even point to a completely different gene.** 
 
 #### Improved manual curation
 
@@ -62,7 +63,9 @@ Note that the `--hamronization_skip_unsupported_tool` flag can be used to skip r
 
 On the internal library, this corresponds to the use of the `HamronizationNormalizer` class.
 
-### Better error messages if output file is missing
+#### Better error messages if output file is missing
+
+Now, an explicit error message is raised if the output argument is not passed on the command line.
 
 ### Internal improvements
 
