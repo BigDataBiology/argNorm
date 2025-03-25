@@ -5,7 +5,7 @@ import os
 os.makedirs('integration_tests/outputs/raw', exist_ok=True)
 os.makedirs('integration_tests/outputs/hamronized', exist_ok=True)
 
-def run_cli_test(tool, file, folder, db=None, options=[]):
+def run_cli_test(tool, file, folder, *, db=None, options=[]):
     if folder == 'hamronized':
         tool = 'hamronization'
 
@@ -21,7 +21,7 @@ def run_cli_test(tool, file, folder, db=None, options=[]):
     if tool in ['abricate', 'groot']:
         command += ['--db', db]
 
-    command += options 
+    command += options
     subprocess.check_call(command)
 
     output = pd.read_csv(f'integration_tests/outputs/{folder}/{file}', sep='\t')
@@ -41,7 +41,7 @@ for folder in ['hamronized', 'raw']:
         database = db
         if not 'groot' in db:
             database = f'groot-{db}'
-        run_cli_test('groot', f'groot.{db}.tsv', folder, database)
+        run_cli_test('groot', f'groot.{db}.tsv', folder, db=database)
 
 for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
     file  = f'abricate.{db.lower()}.tsv'
