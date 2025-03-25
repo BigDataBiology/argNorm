@@ -10,10 +10,20 @@ from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL, DATABASES, CUT_OFF_COL
 import sys
 from warnings import warn
 
-# Column headings for drug categorization output
-CONFERS_RESISTANCE_TO_COL = 'confers_resistance_to'
-RESISTANCE_TO_DRUG_CLASSES_COL = 'resistance_to_drug_classes'
 
+def _add_drug_resistance_columns(original_annot):
+    confers_resistance = original_annot[TARGET_ARO_COL].map(
+            confers_resistance_to,
+            na_action='ignore')
+    resistance_to_drug_classes = confers_resistance.map(
+            drugs_to_drug_classes,
+            na_action='ignore')
+    original_annot['confers_resistance_to'] = confers_resistance.map(
+            ','.join,
+            na_action='ignore')
+    original_annot['resistance_to_drug_classes'] = resistance_to_drug_classes.map(
+            ','.join,
+            na_action='ignore')
 
 class BaseNormalizer:
     """
@@ -41,14 +51,7 @@ class BaseNormalizer:
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
         original_annot[CUT_OFF_COL] = input_genes.map(cut_offs)
 
-        # Drug categorization
-        original_annot[CONFERS_RESISTANCE_TO_COL] = original_annot[TARGET_ARO_COL].map(
-                lambda a: ','.join(confers_resistance_to(a)),
-                na_action='ignore')
-        original_annot[RESISTANCE_TO_DRUG_CLASSES_COL] = original_annot[TARGET_ARO_COL].map(
-                lambda a: ','.join(drugs_to_drug_classes(confers_resistance_to(a))),
-                na_action='ignore')
-
+        _add_drug_resistance_columns(original_annot)
         return original_annot
 
     def preprocess_ref_genes(self, ref_genes):
@@ -308,12 +311,10 @@ class HamronizationNormalizer(BaseNormalizer):
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
         cut_offs = aro_table[CUT_OFF_COL].to_dict()
 
+
         original_annot[TARGET_ARO_COL] = pd.Series(input_genes).map(mapping)
         original_annot[CUT_OFF_COL] = pd.Series(input_genes).map(cut_offs)
 
-        original_annot[CONFERS_RESISTANCE_TO_COL] = original_annot[TARGET_ARO_COL].map(
-                lambda a: ','.join(confers_resistance_to(a)), na_action='ignore')
-        original_annot[RESISTANCE_TO_DRUG_CLASSES_COL] = original_annot[TARGET_ARO_COL].map(
-                lambda a: ','.join(drugs_to_drug_classes(confers_resistance_to(a))), na_action='ignore')
+        _add_drug_resistance_columns(original_annot)
 
         return original_annot
