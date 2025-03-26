@@ -289,13 +289,12 @@ class HamronizationNormalizer(BaseNormalizer):
             elif analysis_software == 'abricate':
                 try:
                     database = row['reference_database_id']
-                except:
+                except KeyError:
                     try:
                         database = row['reference_database_name']
-                    except:
+                    except KeyError:
                         sys.stderr.write(f'An unrecognized hamronization format has been detected. Please use hamronization v1.1.8 or v1.0.4')
                         sys.exit(1)
-                
                 input_genes.append(self.input_ids[analysis_software][database](row))
             else:
                 input_genes.append(self.input_ids[analysis_software](row))
