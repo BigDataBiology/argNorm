@@ -3,8 +3,7 @@ import argnorm.normalize as argnorm
 import pandas as pd
 import os
 import numpy as np
-from warnings import warn
-    
+
 def get_normed(normalizer, input_path):
     normed = normalizer.run(input_path)
     normed = normed.apply(lambda x: x.str.strip() if isinstance(x, str) else x).replace('', np.nan)

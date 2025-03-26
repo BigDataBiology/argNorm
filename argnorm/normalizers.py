@@ -5,11 +5,10 @@ try:
 except pd.errors.OptionError:
     pass
 from .drug_categorization import confers_resistance_to, drugs_to_drug_classes
-from .lib import get_aro_mapping_table
+from .lib import get_aro_mapping_table, get_aro_ontology
 from .lib import MAPPING_TABLE_ARO_COL, TARGET_ARO_COL, DATABASES, CUT_OFF_COL
 import sys
 from warnings import warn
-
 
 
 class BaseNormalizer:
@@ -35,7 +34,21 @@ class BaseNormalizer:
         mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
         cut_offs = aro_table[CUT_OFF_COL].to_dict()
 
+        ARO = get_aro_ontology()
+
+        _aro_name_cache = {}
+        def get_aro_name(aro_id):
+            if aro_id not in _aro_name_cache:
+                _aro_name_cache[aro_id] = ARO[aro_id].name
+            return _aro_name_cache[aro_id]
+
+        def aro_id_to_names(aro_ids):
+            return ','.join([get_aro_name(aro_id) for aro_id in aro_ids])
+
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
+        original_annot['ARO_name'] = original_annot[TARGET_ARO_COL].map(
+                get_aro_name,
+                na_action='ignore')
         original_annot[CUT_OFF_COL] = input_genes.map(cut_offs)
 
         confers_resistance = original_annot[TARGET_ARO_COL].map(
@@ -47,9 +60,16 @@ class BaseNormalizer:
         original_annot['confers_resistance_to'] = confers_resistance.map(
                 ','.join,
                 na_action='ignore')
+        original_annot['confers_resistance_to_names'] = confers_resistance.map(
+                aro_id_to_names,
+                na_action='ignore')
         original_annot['resistance_to_drug_classes'] = resistance_to_drug_classes.map(
                 ','.join,
                 na_action='ignore')
+        original_annot['resistance_to_drug_classes_names'] = resistance_to_drug_classes.map(
+                aro_id_to_names,
+                na_action='ignore')
+
         return original_annot
 
     def load_mapping_table(self):

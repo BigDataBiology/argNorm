@@ -4,6 +4,7 @@
 
 ### User-facing changes
 
+- Added columns to output with English names for AROs, drugs, and drug classes (`ARO_name`, `confers_resistance_to_names`, `resistance_to_drug_classes_names`)
 - Added `--version` argument
 
 ## Version 0.7.0 - 5 March 2025
