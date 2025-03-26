@@ -19,13 +19,11 @@ def test_database(database):
     for ar in set(db['ARO'].dropna()):
         assert ar in ARO, f'ARO not found in the ontology: {ar}'
 
-        try:
-            assert determinant_of_ab_resistance in ARO[ar].superclasses()
-        except:
-            try:
-                assert process_or_component_of_antibiotic_biology_or_chemistry in ARO[ar].superclasses()
-            except:
-                assert False, f'ARO not a determinant of antibiotic resistance nor process/component of ab resistance: {ar}'
+        assert (
+                determinant_of_ab_resistance in ARO[ar].superclasses()
+                or
+                process_or_component_of_antibiotic_biology_or_chemistry in ARO[ar].superclasses()
+                )
 
         for d in drug_categorization.confers_resistance_to(ar):
             assert d in ARO, f'ARO not found in the ontology: {d}'
