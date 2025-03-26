@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased version
+
+### User-facing changes
+
+- Added `--version` argument
+
 ## Version 0.7.0 - 5 March 2025
 
 ### User-facing changes

@@ -1,6 +1,6 @@
 import argparse
 import sys
-from .argnorm_version import __version__
+from .argnorm_version import __version__, is_release
 from .atomicwrite import atomic_write
 from . import lib
 
@@ -14,6 +14,10 @@ def main():
                      'different tools and databases to the same ontology, '
                      'namely ARO (Antibiotic Resistance Ontology).'),
         formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument('--version', '-v',
+                        action='version',
+                        version=(__version__ if is_release else f'{__version__}-dev')
+                        )
     parser.add_argument('tool', type=str.lower,
                         choices=['argsoap', 'abricate', 'deeparg', 'resfinder', 'amrfinderplus', 'groot', 'hamronization'],
                         help='tool (required): The bioinformatics tool used for ARG annotation.')

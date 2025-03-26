@@ -28,6 +28,9 @@ def run_cli_test(tool, file, folder, *, db=None, options=[]):
     golden_file = pd.read_csv(f'outputs/{folder}/{file}', sep='\t')
     pd.testing.assert_frame_equal(output, golden_file)
 
+print('Testing argnorm --version')
+subprocess.check_call(['argnorm', '--version'])
+
 for folder in ['hamronized', 'raw']:
     run_cli_test('ARGSOAP', 'args-oap.sarg.reads.tsv', folder)
     run_cli_test('argsoap', 'args-oap.sarg.reads.tsv', folder)
