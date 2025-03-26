@@ -11,19 +11,6 @@ import sys
 from warnings import warn
 
 
-def _add_drug_resistance_columns(original_annot):
-    confers_resistance = original_annot[TARGET_ARO_COL].map(
-            confers_resistance_to,
-            na_action='ignore')
-    resistance_to_drug_classes = confers_resistance.map(
-            drugs_to_drug_classes,
-            na_action='ignore')
-    original_annot['confers_resistance_to'] = confers_resistance.map(
-            ','.join,
-            na_action='ignore')
-    original_annot['resistance_to_drug_classes'] = resistance_to_drug_classes.map(
-            ','.join,
-            na_action='ignore')
 
 class BaseNormalizer:
     """
@@ -40,7 +27,7 @@ class BaseNormalizer:
         original_annot = self.load_input(input_file)
         input_genes = self.get_input_ids(original_annot)
 
-        aro_table = get_aro_mapping_table(self.database)
+        aro_table = self.load_mapping_table()
         aro_table.set_index(self.preprocess_ref_genes(
             aro_table.index
         ), inplace=True)
@@ -51,8 +38,26 @@ class BaseNormalizer:
         original_annot[TARGET_ARO_COL] = input_genes.map(mapping)
         original_annot[CUT_OFF_COL] = input_genes.map(cut_offs)
 
-        _add_drug_resistance_columns(original_annot)
+        confers_resistance = original_annot[TARGET_ARO_COL].map(
+                confers_resistance_to,
+                na_action='ignore')
+        resistance_to_drug_classes = confers_resistance.map(
+                drugs_to_drug_classes,
+                na_action='ignore')
+        original_annot['confers_resistance_to'] = confers_resistance.map(
+                ','.join,
+                na_action='ignore')
+        original_annot['resistance_to_drug_classes'] = resistance_to_drug_classes.map(
+                ','.join,
+                na_action='ignore')
         return original_annot
+
+    def load_mapping_table(self):
+        """
+        Load the mapping table for the database, defaults to loading a single database mapping table (defined by self.database).
+        """
+        return get_aro_mapping_table(self.database)
+
 
     def preprocess_ref_genes(self, ref_genes):
         """
@@ -250,9 +255,7 @@ class HamronizationNormalizer(BaseNormalizer):
             return ':'.join([split_str[1], split_str[3]])
         return ':'.join(ref_gene.split(':')[1:3])
 
-    def run(self, input_file : str):
-        original_annot = self.load_input(input_file)
-
+    def get_input_ids(self, original_annot):
         input_genes = []
         for _,row in original_annot.iterrows():
             analysis_software = row['analysis_software_name'].lower() \
@@ -298,7 +301,9 @@ class HamronizationNormalizer(BaseNormalizer):
                 input_genes.append(self.input_ids[analysis_software][database](row))
             else:
                 input_genes.append(self.input_ids[analysis_software](row))
+        return pd.Series(input_genes)
 
+    def load_mapping_table(self):
         mapping_tables = []
         for db in DATABASES:
             table = get_aro_mapping_table(db)
@@ -306,14 +311,4 @@ class HamronizationNormalizer(BaseNormalizer):
                 table.index = list(map(self.preprocess_ref_genes_funcs[db], table.index))
             mapping_tables.append(table)
 
-        aro_table = pd.concat(mapping_tables)
-        mapping = aro_table[MAPPING_TABLE_ARO_COL].to_dict()
-        cut_offs = aro_table[CUT_OFF_COL].to_dict()
-
-
-        original_annot[TARGET_ARO_COL] = pd.Series(input_genes).map(mapping)
-        original_annot[CUT_OFF_COL] = pd.Series(input_genes).map(cut_offs)
-
-        _add_drug_resistance_columns(original_annot)
-
-        return original_annot
+        return pd.concat(mapping_tables)
