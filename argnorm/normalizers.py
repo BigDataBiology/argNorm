@@ -94,8 +94,7 @@ class BaseNormalizer:
 
 class ARGSOAPNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
-        database = 'sarg'
-        super().__init__(database)
+        super().__init__(database='sarg')
 
     def get_input_ids(self, itable):
         return itable[1]
@@ -106,8 +105,7 @@ class ARGSOAPNormalizer(BaseNormalizer):
 
 class DeepARGNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
-        database = 'deeparg'
-        super().__init__(database)
+        super().__init__(database='deeparg')
 
     def get_input_ids(self, itable):
         return itable['best-hit']
@@ -115,8 +113,7 @@ class DeepARGNormalizer(BaseNormalizer):
 
 class ResFinderNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
-        database = 'resfinder'
-        super().__init__(database)
+        super().__init__(database='resfinder')
 
     def get_input_ids(self, itable):
         gene_identifier = 'Resistance gene'
@@ -130,8 +127,7 @@ class ResFinderNormalizer(BaseNormalizer):
 
 class AMRFinderPlusNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
-        database = 'ncbi'
-        super().__init__(database)
+        super().__init__(database='ncbi')
 
     def get_input_ids(self, itable):
         if 'Accession of closest sequence' in itable.columns and 'Sequence name' in itable.columns:
@@ -141,7 +137,9 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
             accession = 'Closest reference accession'
             gene_identifier = 'Closest reference name'
         else:
-            raise Exception('Unsupported AMRFinderPlus version detected. Please use amrfinderplus v3.10.30 or v4.0.19.')
+            raise NotImplementedError(
+                    'Unsupported AMRFinderPlus version detected. '
+                    'Supported/tested versions are v3.10.30 or v4.0.19.')
 
         return pd.Series(itable[accession] + '|' + itable[gene_identifier].str.replace(' ', '_'))
 
@@ -192,10 +190,11 @@ class AbricateNormalizer(BaseNormalizer):
         )
         return ref_genes.map(process_funcs_by_db[self.database])
 
+
 class GrootNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
         if database not in ['groot-argannot', 'groot-resfinder', 'groot-db', 'groot-core-db', 'groot-card']:
-            raise Exception(f'{database} is not a supported database for groot.')
+            raise NotImplementedError(f'{database} is not a supported database for groot.')
         super().__init__(database)
 
     def load_input(self, input_file):
@@ -230,13 +229,26 @@ class HamronizationNormalizer(BaseNormalizer):
         super().__init__(database)
         self.skip_on_unsupported_tool = skip_on_unsupported_tool
 
-        self.input_ids = {
+    def preprocess_groot_db_inputs(self, gene_name):
+        processed_gene_name = str(gene_name).split('__')[1]
+        if 'card' in  str(gene_name).split('__')[0].lower():
+            processed_gene_name = processed_gene_name.split('|')[-1]
+        return processed_gene_name
+
+    def preprocess_argannot_ref_genes(self, ref_gene):
+        split_str = ref_gene.split(':')
+        if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
+            return ':'.join([split_str[1], split_str[3]])
+        return ':'.join(ref_gene.split(':')[1:3])
+
+    def get_input_ids(self, original_annot):
+        input_id_lookup = {
             'argsoap': lambda x: x['reference_accession'],
             'deeparg': lambda x: x['gene_name'],
             'resfinder': lambda x: x['gene_name'] + '_' + x['reference_accession'],
             'amrfinderplus': lambda x: str(x['gene_name']).replace(' ', '_'),
             'groot': {
-                'groot-card': lambda x: x['gene_name'].split('.')[0], 
+                'groot-card': lambda x: x['gene_name'].split('.')[0],
                 'groot-argannot': lambda x: x['gene_name'].split('~~~')[-1],
                 'groot-db': self.preprocess_groot_db_inputs,
                 'groot-resfinder': lambda x: x['gene_name']
@@ -251,31 +263,6 @@ class HamronizationNormalizer(BaseNormalizer):
                 'ncbi': lambda x: str(x['gene_name']).replace(' ', '_')
             }
         }
-
-        self.preprocess_ref_genes_funcs = {
-            'resfinder': lambda x: x.split('_')[0] + '_' + x.split('_')[-1],
-            'ncbi': lambda x: x.split('|')[-1],
-            'groot': lambda x: ':'.join(str(x).split(':')[1:3]) if ':' in x else x,
-            'deeparg': lambda x: x,
-            'sarg': lambda x: x,
-            'megares': lambda x: x.split('|')[0],
-            'argannot': self.preprocess_argannot_ref_genes,
-            'resfinderfg': lambda x: x.split('|')[1],
-        }
-
-    def preprocess_groot_db_inputs(self, gene_name):
-        processed_gene_name = str(gene_name).split('__')[1]
-        if 'card' in  str(gene_name).split('__')[0].lower():
-            processed_gene_name = processed_gene_name.split('|')[-1]
-        return processed_gene_name
-
-    def preprocess_argannot_ref_genes(self, ref_gene):
-        split_str = ref_gene.split(':')
-        if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
-            return ':'.join([split_str[1], split_str[3]])
-        return ':'.join(ref_gene.split(':')[1:3])
-
-    def get_input_ids(self, original_annot):
         input_genes = []
         for _,row in original_annot.iterrows():
             analysis_software = row['analysis_software_name'].lower() \
@@ -286,7 +273,7 @@ class HamronizationNormalizer(BaseNormalizer):
             if 'ncbi' in analysis_software:
                 analysis_software = 'amrfinderplus'
 
-            for tool in self.input_ids.keys():
+            for tool in input_id_lookup:
                 if tool in analysis_software:
                     analysis_software = tool
                     break
@@ -297,18 +284,18 @@ class HamronizationNormalizer(BaseNormalizer):
                     continue
                 else:
                     sys.stderr.write(f'{analysis_software} is not a supported ARG annotation tool\n')
-                    sys.stderr.write(f'argNorm can only map genes from the following tools: {list(self.input_ids.keys())}\n')
+                    sys.stderr.write(f'argNorm can only map genes from the following tools: {list(input_id_lookup.keys())}\n')
                     sys.exit(1)
 
             if analysis_software == 'groot':
                 if '~~~' in row['gene_name']:
-                    input_genes.append(self.input_ids[analysis_software]['groot-argannot'](row))
+                    input_genes.append(input_id_lookup[analysis_software]['groot-argannot'](row))
                 elif '.' in row['gene_name']:
-                    input_genes.append(self.input_ids[analysis_software]['groot-card'](row))
+                    input_genes.append(input_id_lookup[analysis_software]['groot-card'](row))
                 elif 'groot-db_' in row['gene_name']:
-                    input_genes.append(self.input_ids[analysis_software]['groot-db'](row['gene_name']))
+                    input_genes.append(input_id_lookup[analysis_software]['groot-db'](row['gene_name']))
                 else:
-                    input_genes.append(self.input_ids[analysis_software]['groot-resfinder'](row))
+                    input_genes.append(input_id_lookup[analysis_software]['groot-resfinder'](row))
             elif analysis_software == 'abricate':
                 try:
                     database = row['reference_database_id']
@@ -318,17 +305,32 @@ class HamronizationNormalizer(BaseNormalizer):
                     except KeyError:
                         sys.stderr.write(f'An unrecognized hamronization format has been detected. Please use hamronization v1.1.8 or v1.0.4')
                         sys.exit(1)
-                input_genes.append(self.input_ids[analysis_software][database](row))
+                input_genes.append(input_id_lookup[analysis_software][database](row))
             else:
-                input_genes.append(self.input_ids[analysis_software](row))
+                input_genes.append(input_id_lookup[analysis_software](row))
         return pd.Series(input_genes)
 
     def load_mapping_table(self):
+        preprocess_ref_genes_funcs = {
+            'resfinder': lambda x: x.split('_')[0] + '_' + x.split('_')[-1],
+            'ncbi': lambda x: x.split('|')[-1],
+            'groot': lambda x: ':'.join(str(x).split(':')[1:3]) if ':' in x else x,
+            'deeparg': lambda x: x,
+            'sarg': lambda x: x,
+            'megares': lambda x: x.split('|')[0],
+            'argannot': self.preprocess_argannot_ref_genes,
+            'resfinderfg': lambda x: x.split('|')[1],
+        }
+
         mapping_tables = []
         for db in DATABASES:
             table = get_aro_mapping_table(db)
-            if db in list(self.preprocess_ref_genes_funcs.keys()):
-                table.index = list(map(self.preprocess_ref_genes_funcs[db], table.index))
+
+            # walrus operator was added in 3.8, so we can use it once we drop
+            # support for 3.7
+            ref_gene_f = preprocess_ref_genes_funcs.get(db)
+            if ref_gene_f is not None:
+                table.index = table.index.map(ref_gene_f)
             mapping_tables.append(table)
 
         return pd.concat(mapping_tables)
