@@ -2,6 +2,9 @@
 
 ## Unreleased version
 
+### Bug fixes
+- Fixed reference gene preprocessing for abricate's resfinder option—previous version missed to include a part of the reference genes for abricate's resfinder option.
+
 ### User-facing changes
 
 - Added columns to output with English names for AROs, drugs, and drug classes (`ARO_name`, `confers_resistance_to_names`, `resistance_to_drug_classes_names`)

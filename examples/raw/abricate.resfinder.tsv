@@ -1,0 +1,10 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+./fna/GMGC10.95nr.fna_block_0001.fna.gz	GMGC10.025_807_996.UNKNOWN	13	210	+	crpP_1	1-198/198	===============	0/0	100.00	94.44	resfinder	HM560971	crpP	Ciprofloxacin
+./fna/GMGC10.95nr.fna_block_0002.fna.gz	GMGC10.011_421_809.UNKNOWN	49	246	+	crpP_1	1-198/198	===============	0/0	100.00	98.99	resfinder	HM560971	crpP	Ciprofloxacin
+./fna/GMGC10.95nr.fna_block_0002.fna.gz	GMGC10.016_690_720.UNKNOWN	1	237	+	dfrB3_1	1-237/237	===============	0/0	100.00	100.00	resfinder	X72585	dfrB3	Trimethoprim
+./fna/GMGC10.95nr.fna_block_0002.fna.gz	GMGC10.026_804_036.UNKNOWN	1	237	+	dfrB5_1	1-237/237	===============	0/0	100.00	100.00	resfinder	AY943084	dfrB5	Trimethoprim
+./fna/GMGC10.95nr.fna_block_0002.fna.gz	GMGC10.044_316_970.UNKNOWN	15	232	+	dfrB3_1	18-235/237	.==============	0/0	91.98	85.78	resfinder	X72585	dfrB3	Trimethoprim
+./fna/GMGC10.95nr.fna_block_0002.fna.gz	GMGC10.046_578_884.UNKNOWN	1	237	+	dfrB4_1	1-237/237	===============	0/0	100.00	100.00	resfinder	AJ429132	dfrB4	Trimethoprim
+./fna/GMGC10.95nr.fna_block_0006.fna.gz	GMGC10.038_883_974.AACA7	1	381	+	aac(6')-29a_1	16-396/396	===============	0/0	96.21	100.00	resfinder	AF263519	aac(6')-29a	Amikacin;Tobramycin
+./fna/GMGC10.95nr.fna_block_0007.fna.gz	GMGC10.002_430_984.FOSB	1	417	+	fosB1_1	1-417/417	===============	0/0	100.00	99.28	resfinder	CP001903	fosB1	Fosfomycin
+./fna/GMGC10.95nr.fna_block_0007.fna.gz	GMGC10.002_455_792.FOSB	1	399	+	fos_1	1-399/399	===============	0/0	100.00	87.22	resfinder	ACCV01000052	fos	Fosfomycin

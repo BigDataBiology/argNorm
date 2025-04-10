@@ -49,7 +49,7 @@ for folder in ['hamronized', 'raw']:
 for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
     file  = f'abricate.{db.lower()}.tsv'
     run_cli_test('hamronization', file, 'hamronized', db=db)
-    if not 'resfinder' in db:
+    if not 'resfinderfg' in db:
         run_cli_test('abricate', file, 'raw', db=db)
 
 run_cli_test('hamronization', 'combined_hamronization.tsv', 'hamronized')
