@@ -32,7 +32,7 @@ def test_deeparg_normalizer():
 
     pd.testing.assert_frame_equal(normed, golden_file)
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi'])
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder'])
 def test_abricate_normalizer(database):
     normalizer = argnorm.AbricateNormalizer(database=database)
     input_path = f'./examples/raw/abricate.{database}.tsv'

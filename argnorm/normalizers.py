@@ -184,7 +184,7 @@ class AbricateNormalizer(BaseNormalizer):
         process_funcs_by_db = dict(
             ncbi=lambda x: x.split('|')[-1],
             deeparg=lambda x: x,
-            resfinder=lambda x: '_'.join([x.split('_')[0], x.split('_')[-1]]),
+            resfinder=lambda x: '_'.join([x.split('_')[0], x.split('_')[1], x.split('_')[-1]]),
             sarg=lambda x: x,
             megares=lambda x: x.split('|')[0],
             argannot=self.preprocess_argannot_ref_genes,
