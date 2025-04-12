@@ -10,7 +10,11 @@ readme = "README.md"
 authors = [
     { name = "ArgNorm Developers", email = "luispedro@big-data-biology.org" }
 ]
+
+# In newer versions of Python, this could be simply `license = "MIT"`, but this
+# form is required for older versions (3.8 and below):
 license = { text = "MIT" }
+
 requires-python = ">=3.7"
 keywords = ["bioinformatics", "antibiotic-resistance", "ontology"]
 dependencies = [
@@ -27,7 +31,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Development Status :: 5 - Production/Stable",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Natural Language :: English",
 ]
