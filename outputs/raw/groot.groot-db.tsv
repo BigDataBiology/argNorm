@@ -1,4 +1,4 @@
-# argNorm version: 0.8.0
+# argNorm version: 1.0.0
 0	1	2	3	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 groot-db_RESFINDER__cfxA2_1_AF504914	321	966	286M1D328M1D344M6D	ARO:3003002	CfxA2	Strict	ARO:3009106	second-generation cephalosporin	ARO:3000007	beta-lactam antibiotic
 groot-db_RESFINDER__tet(40)_1_FJ158002	411	1221	1221M	ARO:3000567	tet(40)	Strict	ARO:0000051	tetracycline	ARO:3000050	tetracycline antibiotic

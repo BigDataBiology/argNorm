@@ -1,4 +1,4 @@
-# argNorm version: 0.8.0
+# argNorm version: 1.0.0
 0	1	2	3	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 groot-db_ARGANNOT__(Tet)Tet-40:AM419751:14211-15431:1221315	1221	0	156M7D1057M1D							
 groot-db_ARGANNOT__(Tet)TetW:AJ222769:3687-5606:1920	203	1920	2D1900M18D	ARO:3000194	tet(W)	Perfect	ARO:0000051,ARO:0000069,ARO:3000152,ARO:3000528,ARO:3000667,ARO:3000668	tetracycline,doxycycline,minocycline,chlortetracycline,demeclocycline,oxytetracycline	ARO:3000050,ARO:3000050,ARO:3000050,ARO:3000050,ARO:3000050,ARO:3000050	tetracycline antibiotic,tetracycline antibiotic,tetracycline antibiotic,tetracycline antibiotic,tetracycline antibiotic,tetracycline antibiotic

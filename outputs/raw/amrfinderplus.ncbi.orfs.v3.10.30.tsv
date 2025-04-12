@@ -1,4 +1,4 @@
-# argNorm version: 0.8.0
+# argNorm version: 1.0.0
 Protein identifier	Contig id	Start	Stop	Strand	Gene symbol	Sequence name	Scope	Element type	Element subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference sequence	% Identity to reference sequence	Alignment length	Accession of closest sequence	Name of closest sequence	HMM id	HMM description	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 	k119_2904	160	1377	+	tet(40)	tetracycline efflux MFS transporter Tet(40)	core	AMR	AMR	TETRACYCLINE	TETRACYCLINE	BLASTX	406	406	100.0	99.51	406	WP_009247026.1	tetracycline efflux MFS transporter Tet(40)			ARO:3000567	tet(40)	Strict	ARO:0000051	tetracycline	ARO:3000050	tetracycline antibiotic
 	k119_33901	12	542	-	vanH-D	D-lactate dehydrogenase VanH-D	core	AMR	AMR	GLYCOPEPTIDE	VANCOMYCIN	PARTIAL_CONTIG_ENDX	177	323	54.8	100.0	177	WP_063856705.1	D-lactate dehydrogenase VanH-D			ARO:3002944	vanH gene in vanD cluster	Strict	ARO:0000028,ARO:0000029	vancomycin,teicoplanin	ARO:3000081,ARO:3000081	glycopeptide antibiotic,glycopeptide antibiotic

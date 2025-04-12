@@ -1,4 +1,4 @@
-# argNorm version: 0.8.0
+# argNorm version: 1.0.0
 #FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 GMGC10.wastewater.95nr.test_10k.fna.gz_block_0006.fna.gz	GMGC10.034_105_239.FOLA	1	498	+	dfrA12	1-498/498	===============	0/0	100.0	99.8	ncbi	NG_047689.1	trimethoprim-resistant dihydrofolate reductase DfrA12	TRIMETHOPRIM	ARO:3002858	dfrA12	Strict	ARO:3000188	trimethoprim	ARO:3000171	diaminopyrimidine antibiotic
 GMGC10.wastewater.95nr.test_10k.fna.gz_block_0007.fna.gz	GMGC10.001_965_233.UNKNOWN	70	534	+	aac(3)-Ia	1-465/465	===============	0/0	100.0	100.0	ncbi	NG_047234.1	aminoglycoside N-acetyltransferase AAC(3)-Ia	GENTAMICIN	ARO:3002528	AAC(3)-Ia	Perfect	ARO:0000003,ARO:0000035,ARO:3007382	astromicin,sisomicin,gentamicin	ARO:0000016,ARO:0000016,ARO:0000016	aminoglycoside antibiotic,aminoglycoside antibiotic,aminoglycoside antibiotic

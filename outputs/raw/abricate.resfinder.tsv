@@ -1,4 +1,4 @@
-# argNorm version: 0.8.0
+# argNorm version: 1.0.0
 #FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 ./fna/GMGC10.95nr.fna_block_0001.fna.gz	GMGC10.025_807_996.UNKNOWN	13	210	+	crpP_1	1-198/198	===============	0/0	100.0	94.44	resfinder	HM560971	crpP	Ciprofloxacin	ARO:3004467	ciprofloxacin phosphotransferase	Manual	ARO:0000001	fluoroquinolone antibiotic	ARO:0000001	fluoroquinolone antibiotic
 ./fna/GMGC10.95nr.fna_block_0002.fna.gz	GMGC10.011_421_809.UNKNOWN	49	246	+	crpP_1	1-198/198	===============	0/0	100.0	98.99	resfinder	HM560971	crpP	Ciprofloxacin	ARO:3004467	ciprofloxacin phosphotransferase	Manual	ARO:0000001	fluoroquinolone antibiotic	ARO:0000001	fluoroquinolone antibiotic
