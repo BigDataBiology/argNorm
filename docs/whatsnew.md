@@ -2,6 +2,18 @@
 
 argNorm is under active development and outputs may change between versions. Particular versions of argNorm should, however, be reproducible as the databases are bundled with the tool.
 
+## Version 0.8.0 - released on 12 April 2025
+
+*This is a test release for version 1.0, which will be released as soon as the manuscript is published.*
+
+### User-facing changes
+
+- Added columns to output with English names for AROs, drugs, and drug classes (`ARO_name`, `confers_resistance_to_names`, `resistance_to_drug_classes_names`, corresponding to `ARO`, `confers_resistance_to`, and `resistance_to_drug_classes` columns).
+- Added `--version` argument
+
+### Bug fixes
+- Fixed reference gene preprocessing for abricate's resfinder option—previous version missed to include a part of the reference genes for abricate's resfinder option.
+
 ## Version 0.7.0 - 5 March 2025
 
 ### User-facing changes

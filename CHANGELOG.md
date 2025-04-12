@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased version
+## Version 0.8.0 - released on 12 April 2025
 
 ### Bug fixes
 - Fixed reference gene preprocessing for abricate's resfinder option—previous version missed to include a part of the reference genes for abricate's resfinder option.
