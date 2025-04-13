@@ -28,7 +28,7 @@ def main():
                                 on --db: https://github.com/BigDataBiology/argNorm?tab=readme-ov-file#--db-optional')
     parser.add_argument('-i', '--input', type=str,
                         help='-i (required): The path to the ARG annotation result which needs to be normalized.')
-    parser.add_argument('--hamronization_skip_unsupported_tool', action='store_true', 
+    parser.add_argument('--hamronization_skip_unsupported_tool', action='store_true',
                         help="--hamronization_skip_unsupported_tool (optional): skip rows with unsupported tools\
                             for hamronization outputs. argNorm be default will raise an exception if unsupported\
                              tool is found in hamronization. Use this if you only want argNorm to raise a warning.")
@@ -53,8 +53,8 @@ def main():
             skip_on_unsupported_tool=args.hamronization_skip_unsupported_tool
         )
 
-    prop_unmapped = ((result.ARO == 'ARO:nan').sum() + result.ARO.isna().sum()) / result.shape[0]
-    print(f'{args.output}:', f'{round(1 - prop_unmapped, 3):.2%} ARGs mapped.')
+    prop_unmapped = result.ARO.isna().mean()
+    print(f'{args.output}:', f'{1 - prop_unmapped:.1%} ARGs mapped.')
     with atomic_write(args.output, mode='w', overwrite=True) as out:
         out.write(f'# argNorm version: {__version__}\n')
         result.to_csv(out, sep='\t', index=False)

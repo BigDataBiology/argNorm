@@ -11,6 +11,14 @@ import sys
 from warnings import warn
 
 
+def _confers_resistance_to_or_nan(aro_id):
+    import numpy as np
+    r = confers_resistance_to(aro_id)
+    if not r:
+        return np.nan
+    return r
+
+
 class BaseNormalizer:
     """
     Inherit this class and customize subclass methods to implement the normalization of new databases/formats.
@@ -52,7 +60,7 @@ class BaseNormalizer:
         original_annot[CUT_OFF_COL] = input_genes.map(cut_offs)
 
         confers_resistance = original_annot[TARGET_ARO_COL].map(
-                confers_resistance_to,
+                _confers_resistance_to_or_nan,
                 na_action='ignore')
         resistance_to_drug_classes = confers_resistance.map(
                 drugs_to_drug_classes,
