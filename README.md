@@ -46,11 +46,10 @@ The `confers_resistance_to` column will contain ARO numbers of all the drug clas
 
 The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
 
-### argNorm Preprint
-**You can read the preprint detailing argNorm here: https://eprints.qut.edu.au/252448/**
+### argNorm citation
 
 If you use argNorm in a publication, please cite the preprint:
-> Ugarcina Perovic S, Ramji V et al. argNorm: Normalization of Antibiotic Resistance Gene Annotations to the Antibiotic Resistance Ontology (ARO). Queensland University of Technology ePrints, 2024. DOI: https://doi.org/10.5204/rep.eprints.252448 [Preprint] (Under review).
+> Svetlana Ugarcina Perovic, Vedanth Ramji, Hui Chong, Yiqian Duan, Finlay Maguire, Luis Pedro Coelho, argNorm: normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO), Bioinformatics, 2025;, btaf173, https://doi.org/10.1093/bioinformatics/btaf173
 
 ## Supported ARG annotation tools and databases
 
