@@ -48,7 +48,7 @@ The `resistance_to_drug_classes` column will contain ARO numbers of the broader 
 
 ### argNorm citation
 
-If you use argNorm in a publication, please cite the preprint:
+If you use argNorm in a publication, please cite:
 > Svetlana Ugarcina Perovic, Vedanth Ramji, Hui Chong, Yiqian Duan, Finlay Maguire, Luis Pedro Coelho, argNorm: normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO), Bioinformatics, 2025;, btaf173, https://doi.org/10.1093/bioinformatics/btaf173
 
 ## Supported ARG annotation tools and databases
