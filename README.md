@@ -17,6 +17,15 @@
 
 *argNorm presented at the Microbiome Virtual International Forum*
 
+### argNorm manuscript
+
+For more high-level information on argNorm, please refer to the manuscript:
+
+> Svetlana Ugarcina Perovic, Vedanth Ramji, Hui Chong, Yiqian Duan, Finlay Maguire, Luis Pedro Coelho, argNorm: normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO), in _Bioinformatics_ (2025) https://doi.org/10.1093/bioinformatics/btaf173
+
+We also ask that you cite the manuscript if you use argNorm in your work.
+
+
 ## argNorm workflow
 
 ![argNorm Workflow](./docs/images/argnorm_workflow.svg)
@@ -46,10 +55,6 @@ The `confers_resistance_to` column will contain ARO numbers of all the drug clas
 
 The `resistance_to_drug_classes` column will contain ARO numbers of the broader categories of the drug classes in the `confers_resistance_to` column (`ARO:3000007` for `beta lactam antibiotic` in the previous example).
 
-### argNorm citation
-
-If you use argNorm in a publication, please cite:
-> Svetlana Ugarcina Perovic, Vedanth Ramji, Hui Chong, Yiqian Duan, Finlay Maguire, Luis Pedro Coelho, argNorm: normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO), Bioinformatics, 2025;, btaf173, https://doi.org/10.1093/bioinformatics/btaf173
 
 ## Supported ARG annotation tools and databases
 
