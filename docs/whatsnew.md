@@ -2,6 +2,12 @@
 
 argNorm is under active development and outputs may change between versions. Particular versions of argNorm should, however, be reproducible as the databases are bundled with the tool.
 
+## Version 1.0.0 - released on 19 April 2025
+
+Adds citation information to the README and the CLI.
+
+Otherwise, no major changes.
+
 ## Version 0.8.0 - released on 12 April 2025
 
 *This is a test release for version 1.0, which will be released as soon as the manuscript is published.*

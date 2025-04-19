@@ -1,2 +1,2 @@
 __version__ = '1.0.0'
-is_release = False
+is_release = True

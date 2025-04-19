@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.0.0 - released on 19 April 2025
+
+Adds citation information to the README and the CLI.
+
+Otherwise, no major changes.
+
 ## Version 0.8.0 - released on 12 April 2025
 
 ### Bug fixes
