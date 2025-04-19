@@ -1,4 +1,4 @@
-# argNorm version: 1.0.0
+# argNorm version: 1.1.0
 0	1	2	3	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 argannot~~~(Bla)cfiA9~~~AB087234:1-750	79	750	15D732M3D	ARO:3006921	CfiA9	Perfect	ARO:0000020	carbapenem	ARO:3000007	beta-lactam antibiotic
 argannot~~~(Tet)Tet-40~~~AM419751:14211-15431	315	1221	156M7D1057M1D	ARO:3000567	tet(40)	Perfect	ARO:0000051	tetracycline	ARO:3000050	tetracycline antibiotic

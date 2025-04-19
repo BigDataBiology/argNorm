@@ -1,4 +1,4 @@
-# argNorm version: 1.0.0
+# argNorm version: 1.1.0
 #ARG	query-start	query-end	read_id	predicted_ARG-class	best-hit	probability	identity	alignment-length	alignment-bitscore	alignment-evalue	counts	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 VANU	1	67	ExDog1_167862	glycopeptide	DQ212986.1.gene3.p01|FEATURES|vanU|glycopeptide|vanU	0.9927080391067162	50.7	67	77.4	2.9400000000000003e-21	1	ARO:3004253	vanU gene in vanG cluster	Perfect	ARO:0000028	vancomycin	ARO:3000081	glycopeptide antibiotic
 VANU	1	67	ExDog1_325079	glycopeptide	DQ212986.1.gene3.p01|FEATURES|vanU|glycopeptide|vanU	0.9868508225400342	52.2	67	69.3	4.28e-18	1	ARO:3004253	vanU gene in vanG cluster	Perfect	ARO:0000028	vancomycin	ARO:3000081	glycopeptide antibiotic

@@ -1,4 +1,4 @@
-# argNorm version: 1.0.0
+# argNorm version: 1.1.0
 0	1	2	3	4	5	6	7	8	9	10	11	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 SRR2938063_1	ZP_04405450	96.67	30	1	0	108	19	276	305	2e-17	72.4	ARO:3002660	APH(6)-Id	Strict	ARO:0000040	streptomycin	ARO:0000016	aminoglycoside antibiotic
 SRR2938063_3	ZP_03949893	65.22	46	16	0	3	140	55	100	8e-16	67.8	ARO:3002986	bacA	Loose	ARO:3000629,ARO:3000630,ARO:3000631	bacitracin A,bacitracin B,bacitracin F	ARO:3000053,ARO:3000053,ARO:3000053	peptide antibiotic,peptide antibiotic,peptide antibiotic

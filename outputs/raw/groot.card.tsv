@@ -1,4 +1,4 @@
-# argNorm version: 1.0.0
+# argNorm version: 1.1.0
 0	1	2	3	ARO	ARO_name	Cut_Off	confers_resistance_to	confers_resistance_to_names	resistance_to_drug_classes	resistance_to_drug_classes_names
 Mef(En2).3004659.AF251288.1.794-2000.5539	135	1206	11D599M16D568M12D	ARO:3004659	Mef(En2)	Perfect	ARO:0000000,ARO:0000046	macrolide antibiotic,lincomycin	ARO:0000000,ARO:0000017	macrolide antibiotic,lincosamide antibiotic
 rrsB.3003410.U00096.4166659-4168200.3242	95	1542	6D1521M15D							
