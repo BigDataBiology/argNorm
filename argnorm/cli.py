@@ -1,5 +1,7 @@
 import argparse
 import sys
+import textwrap
+
 from .argnorm_version import __version__, is_release
 from .atomicwrite import atomic_write
 from . import lib
@@ -13,7 +15,16 @@ def main():
         description=('argNorm normalizes ARG annotation results from '
                      'different tools and databases to the same ontology, '
                      'namely ARO (Antibiotic Resistance Ontology).'),
-        formatter_class=argparse.RawDescriptionHelpFormatter)
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=textwrap.dedent('''\
+
+        If argNorm is helpful in a scientific publication, please cite:
+
+            argNorm: normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO)
+            by Svetlana Ugarcina Perovic, Vedanth Ramji, Hui Chong, Yiqian Duan, Finlay Maguire, Luis Pedro Coelho
+            in Bioinformatics (2025) https://doi.org/10.1093/bioinformatics/btaf173
+         '''))
+
     parser.add_argument('--version', '-v',
                         action='version',
                         version=(__version__ if is_release else f'{__version__}-dev')
