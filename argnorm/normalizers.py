@@ -208,9 +208,11 @@ class GrootNormalizer(BaseNormalizer):
     def load_input(self, input_file):
         return pd.read_csv(input_file, sep='\t', header=None)
 
-    def preprocess_groot_db_inputs(self, gene_name):
-        processed_gene_name = str(gene_name).split('__')[1]
-        if 'card' in  str(gene_name).split('__')[0].lower():
+    @staticmethod
+    def preprocess_groot_db_inputs(gene_name):
+        tokens = str(gene_name).split('__')
+        processed_gene_name = tokens[1]
+        if 'card' in tokens[0].lower():
             processed_gene_name = processed_gene_name.split('|')[-1]
         return processed_gene_name
 
@@ -237,15 +239,9 @@ class HamronizationNormalizer(BaseNormalizer):
         super().__init__(database)
         self.skip_on_unsupported_tool = skip_on_unsupported_tool
 
-    def preprocess_groot_db_inputs(self, gene_name):
-        processed_gene_name = str(gene_name).split('__')[1]
-        if 'card' in  str(gene_name).split('__')[0].lower():
-            processed_gene_name = processed_gene_name.split('|')[-1]
-        return processed_gene_name
-
     def preprocess_argannot_ref_genes(self, ref_gene):
         split_str = ref_gene.split(':')
-        if not str(split_str[2][0]).isnumeric() and not '-' in split_str[2]:
+        if not str(split_str[2][0]).isnumeric() and '-' not in split_str[2]:
             return ':'.join([split_str[1], split_str[3]])
         return ':'.join(ref_gene.split(':')[1:3])
 
@@ -258,7 +254,7 @@ class HamronizationNormalizer(BaseNormalizer):
             'groot': {
                 'groot-card': lambda x: x['gene_name'].split('.')[0],
                 'groot-argannot': lambda x: x['gene_name'].split('~~~')[-1],
-                'groot-db': self.preprocess_groot_db_inputs,
+                'groot-db': GrootNormalizer.preprocess_groot_db_inputs,
                 'groot-resfinder': lambda x: x['gene_name']
             },
             'abricate': {
