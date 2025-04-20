@@ -128,7 +128,8 @@ class ResFinderNormalizer(BaseNormalizer):
         accession = 'Accession no.'
         return pd.Series(itable[gene_identifier] + '_' + itable[accession])
 
-    def preprocess_ref_genes(self, ref_genes):
+    @staticmethod
+    def preprocess_ref_genes(ref_genes):
         split_genes = ref_genes.str.split('_')
         return pd.Series(split_genes.str[0] + '_' + split_genes.str[-1])
 
@@ -180,7 +181,8 @@ class AbricateNormalizer(BaseNormalizer):
             return pd.Series(itable[col].str.replace(' ', '_'))
         return itable[col]
 
-    def preprocess_argannot_ref_genes(self, ref_gene):
+    @staticmethod
+    def preprocess_argannot_ref_gene(ref_gene):
         split_str = ref_gene.split(':')
         if not str(split_str[2][0]).isnumeric() and '-' not in split_str[2]:
             return ':'.join([split_str[1], split_str[3]])
@@ -189,13 +191,13 @@ class AbricateNormalizer(BaseNormalizer):
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
             ncbi=lambda x: x.split('|')[-1],
-            deeparg=lambda x: x,
             resfinder=lambda x: '_'.join([x.split('_')[0], x.split('_')[1], x.split('_')[-1]]),
-            sarg=lambda x: x,
             megares=lambda x: x.split('|')[0],
-            argannot=self.preprocess_argannot_ref_genes,
+            argannot=self.preprocess_argannot_ref_gene,
             resfinderfg=lambda x: x.split('|')[1]
         )
+        if self.database in ['database', 'sarg']:
+            return ref_genes
         return ref_genes.map(process_funcs_by_db[self.database])
 
 
@@ -238,12 +240,6 @@ class HamronizationNormalizer(BaseNormalizer):
     def __init__(self, database=None, skip_on_unsupported_tool=False):
         super().__init__(database)
         self.skip_on_unsupported_tool = skip_on_unsupported_tool
-
-    def preprocess_argannot_ref_genes(self, ref_gene):
-        split_str = ref_gene.split(':')
-        if not str(split_str[2][0]).isnumeric() and '-' not in split_str[2]:
-            return ':'.join([split_str[1], split_str[3]])
-        return ':'.join(ref_gene.split(':')[1:3])
 
     def get_input_ids(self, original_annot):
         input_id_lookup = {
@@ -315,26 +311,25 @@ class HamronizationNormalizer(BaseNormalizer):
         return pd.Series(input_genes)
 
     def load_mapping_table(self):
-        preprocess_ref_genes_funcs = {
-            'resfinder': lambda x: x.split('_')[0] + '_' + x.split('_')[-1],
-            'ncbi': lambda x: x.split('|')[-1],
-            'groot': lambda x: ':'.join(str(x).split(':')[1:3]) if ':' in x else x,
-            'deeparg': lambda x: x,
-            'sarg': lambda x: x,
-            'megares': lambda x: x.split('|')[0],
-            'argannot': self.preprocess_argannot_ref_genes,
-            'resfinderfg': lambda x: x.split('|')[1],
-        }
-
         mapping_tables = []
         for db in DATABASES:
             table = get_aro_mapping_table(db)
 
-            # walrus operator was added in 3.8, so we can use it once we drop
-            # support for 3.7
-            ref_gene_f = preprocess_ref_genes_funcs.get(db)
-            if ref_gene_f is not None:
-                table.index = table.index.map(ref_gene_f)
+            if db == 'resfinder':
+                table.index = ResFinderNormalizer.preprocess_ref_genes(table.index)
+            elif db == 'ncbi':
+                table.index = table.index.str.split('|').str[-1]
+            elif db == 'groot':
+                table.index = table.index.str.split('|').str[0]
+            elif db == 'megares':
+                table.index = table.index.str.split('|').str[0]
+            elif db == 'argannot':
+                table.index = table.index.map(AbricateNormalizer.preprocess_argannot_ref_gene)
+            elif db == 'resfinderfg':
+                table.index = table.index.str.split('|').str[1]
+
             mapping_tables.append(table)
 
         return pd.concat(mapping_tables)
+
+
