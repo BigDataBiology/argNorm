@@ -329,7 +329,9 @@ class HamronizationNormalizer(BaseNormalizer):
                 table.index = table.index.str.split('|').str[1]
 
             mapping_tables.append(table)
-
-        return pd.concat(mapping_tables)
+        
+        mapping_table = pd.concat(mapping_tables)
+        mapping_table = mapping_table[~mapping_table.index.duplicated(keep='last')]
+        return mapping_table
 
 
