@@ -151,10 +151,18 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
                     'Supported/tested versions are v3.10.30 or v4.0.19.')
 
         return pd.Series(itable[accession] + '|' + itable[gene_identifier].str.replace(' ', '_'))
-
-    def preprocess_ref_genes(self, ref_genes):
-        split_genes = ref_genes.str.split('|')
-        return pd.Series(split_genes.str[1] + '|' + split_genes.str[-1])
+    
+    def load_mapping_table(self):
+        protein_id_mapping_table = get_aro_mapping_table(self.database)
+        refseq_id_mapping_table = get_aro_mapping_table(self.database)
+        
+        protein_id_index = pd.Series([(gene.split('|')[1] + '|' + gene.split('|')[-1]) for gene in protein_id_mapping_table.index])
+        refseq_id_index = pd.Series([(gene.split('|')[2] + '|' + gene.split('|')[-1]) for gene in refseq_id_mapping_table.index])
+                
+        protein_id_mapping_table.set_index(protein_id_index, inplace=True)
+        refseq_id_mapping_table.set_index(refseq_id_index, inplace=True)
+        
+        return pd.concat([protein_id_mapping_table, refseq_id_mapping_table])
 
 
 class AbricateNormalizer(BaseNormalizer):
@@ -166,7 +174,7 @@ class AbricateNormalizer(BaseNormalizer):
 
     def get_input_ids(self, itable):
         col = dict(
-            ncbi='PRODUCT',
+            ncbi=dict(gene_identifier='PRODUCT', accession='ACCESSION'),
             deeparg='best-hit',
             resfinder=dict(gene_identifier='GENE', accession='ACCESSION'),
             megares='ACCESSION',
@@ -178,7 +186,7 @@ class AbricateNormalizer(BaseNormalizer):
         if self.database == 'resfinder':
             return pd.Series(itable[col['gene_identifier']] + '_' + itable[col['accession']])
         if self.database == 'ncbi':
-            return pd.Series(itable[col].str.replace(' ', '_'))
+            return pd.Series(itable[col['gene_identifier']].str.replace(' ', '_') + '|' + itable[col['accession']])
         return itable[col]
 
     @staticmethod
@@ -190,15 +198,30 @@ class AbricateNormalizer(BaseNormalizer):
 
     def preprocess_ref_genes(self, ref_genes):
         process_funcs_by_db = dict(
-            ncbi=lambda x: x.split('|')[-1],
             resfinder=lambda x: '_'.join([x.split('_')[0], x.split('_')[1], x.split('_')[-1]]),
             megares=lambda x: x.split('|')[0],
             argannot=self.preprocess_argannot_ref_gene,
             resfinderfg=lambda x: x.split('|')[1]
         )
-        if self.database in ['database', 'sarg']:
+            
+        if self.database in ['database', 'sarg', 'ncbi']:
             return ref_genes
         return ref_genes.map(process_funcs_by_db[self.database])
+    
+    def load_mapping_table(self):
+        if self.database != 'ncbi':
+            return super().load_mapping_table()
+        else:
+            protein_id_mapping_table = get_aro_mapping_table(self.database)
+            refseq_id_mapping_table = get_aro_mapping_table(self.database)
+            
+            protein_id_index = pd.Series([(gene.split('|')[1] + '|' + gene.split('|')[-1]) for gene in protein_id_mapping_table.index])
+            refseq_id_index = pd.Series([(gene.split('|')[2] + '|' + gene.split('|')[-1]) for gene in refseq_id_mapping_table.index])
+                    
+            protein_id_mapping_table.set_index(protein_id_index, inplace=True)
+            refseq_id_mapping_table.set_index(refseq_id_index, inplace=True)
+            
+            return pd.concat([protein_id_mapping_table, refseq_id_mapping_table])
 
 
 class GrootNormalizer(BaseNormalizer):
@@ -246,7 +269,7 @@ class HamronizationNormalizer(BaseNormalizer):
             'argsoap': lambda x: x['reference_accession'],
             'deeparg': lambda x: x['gene_name'],
             'resfinder': lambda x: x['gene_name'] + '_' + x['reference_accession'],
-            'amrfinderplus': lambda x: str(x['gene_name']).replace(' ', '_'),
+            'amrfinderplus': lambda x: str(x['gene_name']).replace(' ', '_') + '|' + x['reference_accession'],
             'groot': {
                 'groot-card': lambda x: x['gene_name'].split('.')[0],
                 'groot-argannot': lambda x: x['gene_name'].split('~~~')[-1],
@@ -260,7 +283,7 @@ class HamronizationNormalizer(BaseNormalizer):
                 'resfinderfg': lambda x: x['gene_name'].split('|')[1],
                 'deeparg': lambda x: x['gene_name'],
                 'resfinder': lambda x: x['gene_name'] + '_' + x['reference_accession'],
-                'ncbi': lambda x: str(x['gene_name']).replace(' ', '_')
+                'ncbi': lambda x: str(x['gene_name']).replace(' ', '_') + '|' + x['reference_accession']
             }
         }
         input_genes = []
@@ -318,7 +341,10 @@ class HamronizationNormalizer(BaseNormalizer):
             if db == 'resfinder':
                 table.index = ResFinderNormalizer.preprocess_ref_genes(table.index)
             elif db == 'ncbi':
-                table.index = table.index.str.split('|').str[-1]
+                table.index = table.index.str.split('|').str[-1] + '|' + table.index.str.split('|').str[2]
+                protein_id_table = get_aro_mapping_table(db)
+                protein_id_table.index = protein_id_table.index.str.split('|').str[-1] + '|' + protein_id_table.index.str.split('|').str[1]
+                table = pd.concat([table, protein_id_table])
             elif db == 'groot':
                 table.index = table.index.str.split('|').str[0]
             elif db == 'megares':
@@ -330,6 +356,8 @@ class HamronizationNormalizer(BaseNormalizer):
 
             mapping_tables.append(table)
 
-        return pd.concat(mapping_tables)
+        mapping_table = pd.concat(mapping_tables)
+        mapping_table = mapping_table[~mapping_table.index.duplicated(keep='last')]
+        return mapping_table
 
 
