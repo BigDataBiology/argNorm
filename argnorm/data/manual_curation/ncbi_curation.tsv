@@ -1,300 +1,300 @@
 Original ID	ARO	Gene Name in CARD	Description
-0|NDR16747.1|1|1|sel28|sel28||1|||staphylococcal_enterotoxin_type_28			General stress response/Virulence gene
-100173053|ABF69110.1|1|1|beta-4|beta-4||1|KAPPA|INTIMIN|intimin_type_kappa			General stress response/Virulence gene
-100173075|ABF69121.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-100173077|ABF69122.1|1|1|alpha-5|alpha-5||1|NU|INTIMIN|intimin_type_nu			General stress response/Virulence gene
-1028085756|WP_063844287.1|1|1|cpt|cpt|phosphotransferase|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_phosphotransferase_CPT	3000249	chloramphenicol phosphotransferase	
-1035517479|BAA82061.2|1|1|merB1|merB1||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB1			Metal resistance gene
-1061414|AAB09624.1|1|1|arsR_R46|arsR_R46||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
-1088258|AAA98293.1|1|1|terE|terE||1|TELLURIUM|TELLURIUM|tellurium_resistance_cAMP_binding_protein_TerE			Metal resistance gene
-1122937092|OKT93637.1|1|1|crsA|crsA||1|||CS26_fimbrial_major_subunit_CrsA			General stress response/Virulence gene
-1150846|AAA85196.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
-11527908|AAG37043.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			General stress response/Virulence gene
-115500654|BAF33885.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
-115514355|ABJ02430.1|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			General stress response/Virulence gene
-1159362952|OPH66324.1|1|1|lpfA1|lpfA1||1|||long_polar_fimbria_major_subunit_LpfA1			General stress response/Virulence gene
-1212330120|ASF80766.1|1|1|LHR_yfdX2|LHR_yfdX2||1|||heat_resistance_protein_YfdX2			General stress response/Virulence gene
-1212330125|ASF80771.1|1|1|LHR_hsp20B|LHR_hsp20B||1|||small_heat_shock_protein_sHSP20-GI			General stress response/Virulence gene
-121308153|CAM11313.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-121308155|CAM11314.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-121308173|CAM11323.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-121308175|CAM11324.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-1232061|AAA92621.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-123229145|ABM73977.1|1|1|bont_B3|bont_B3||1|||botulinum_neurotoxin_subtype_B3			General stress response/Virulence gene
-124106630|BAF45437.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-124106634|BAF45439.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-124106636|BAF45440.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-124106650|BAF45447.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-124106658|BAF45451.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-124106674|BAF45459.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-12518278|AAG58695.1|1|1|lpfA1|lpfA1||1|||long_polar_fimbria_major_subunit_LpfA1			General stress response/Virulence gene
-1325136444|AUN52700.1|1|1|rmpD|rmpD||1|||mucoid_phenotype_synthesis_protein_RmpD			General stress response/Virulence gene
-13310561|AAK18385.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
+0|NDR16747.1|JAAFMT010000017.1|1|1|sel28|sel28||1|||staphylococcal_enterotoxin_type_28			General stress response/Virulence gene
+100173053|ABF69110.1|DQ523603.1|1|1|beta-4|beta-4||1|KAPPA|INTIMIN|intimin_type_kappa			General stress response/Virulence gene
+100173075|ABF69121.1|DQ523614.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+100173077|ABF69122.1|DQ523615.1|1|1|alpha-5|alpha-5||1|NU|INTIMIN|intimin_type_nu			General stress response/Virulence gene
+1028085756|WP_063844287.1|NG_047672.1|1|1|cpt|cpt|phosphotransferase|2|CHLORAMPHENICOL|PHENICOL|chloramphenicol_phosphotransferase_CPT	3000249	chloramphenicol phosphotransferase	
+1035517479|BAA82061.2|LC152290.1|1|1|merB1|merB1||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB1			Metal resistance gene
+1061414|AAB09624.1|U38947.1|1|1|arsR_R46|arsR_R46||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
+1088258|AAA98293.1|M20238.1|1|1|terE|terE||1|TELLURIUM|TELLURIUM|tellurium_resistance_cAMP_binding_protein_TerE			Metal resistance gene
+1122937092|OKT93637.1|LGMS01000054.1|1|1|crsA|crsA||1|||CS26_fimbrial_major_subunit_CrsA			General stress response/Virulence gene
+1150846|AAA85196.1|U42629.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
+11527908|AAG37043.1|AF297061.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			General stress response/Virulence gene
+115500654|BAF33885.1|AB255435.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
+115514355|ABJ02430.1|CP000468.1|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			General stress response/Virulence gene
+1159362952|OPH66324.1|MWVK01000001.1|1|1|lpfA1|lpfA1||1|||long_polar_fimbria_major_subunit_LpfA1			General stress response/Virulence gene
+1212330120|ASF80766.1|KY887595.1|1|1|LHR_yfdX2|LHR_yfdX2||1|||heat_resistance_protein_YfdX2			General stress response/Virulence gene
+1212330125|ASF80771.1|KY887595.1|1|1|LHR_hsp20B|LHR_hsp20B||1|||small_heat_shock_protein_sHSP20-GI			General stress response/Virulence gene
+121308153|CAM11313.1|AM421995.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+121308155|CAM11314.1|AM421996.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+121308173|CAM11323.1|AM422005.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+121308175|CAM11324.1|AM422006.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+1232061|AAA92621.1|L77091.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+123229145|ABM73977.1|EF028400.1|1|1|bont_B3|bont_B3||1|||botulinum_neurotoxin_subtype_B3			General stress response/Virulence gene
+124106630|BAF45437.1|AB253557.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+124106634|BAF45439.1|AB253559.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+124106636|BAF45440.1|AB253560.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+124106650|BAF45447.1|AB253567.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+124106658|BAF45451.1|AB253571.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+124106674|BAF45459.1|AB253579.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+12518278|AAG58695.1|AE005174.2|1|1|lpfA1|lpfA1||1|||long_polar_fimbria_major_subunit_LpfA1			General stress response/Virulence gene
+1325136444|AUN52700.1|CP025630.1|1|1|rmpD|rmpD||1|||mucoid_phenotype_synthesis_protein_RmpD			General stress response/Virulence gene
+13310561|AAK18385.1|AF348706.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
 13701623|BAB42916.1|1|1|seo|seo||1|||staphylococcal_enterotoxin_type_O			General stress response/Virulence gene
-13774144|BAB43874.1|1|1|cadD|cadD||1|CADMIUM|CADMIUM|cadmium_resistance_transporter_CadD			Metal resistance gene
+13774144|BAB43874.1|AP003139.1|1|1|cadD|cadD||1|CADMIUM|CADMIUM|cadmium_resistance_transporter_CadD			Metal resistance gene
 13811426|AAK40114.1|1|1|hreP|hreP||1|||subtilisin/kexin-like_serine_protease_HreP			General stress response/Virulence gene
-139002545|BAF52034.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139002548|BAF52035.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139002755|BAF52033.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003779|BAF52358.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003787|BAF52360.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003791|BAF52362.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003796|BAF52363.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003798|BAF52364.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003804|BAF52365.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003810|BAF52366.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003812|BAF52367.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003825|BAF52370.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003840|BAF52374.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-139003851|BAF52377.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-143192|AAA83978.1|1|1|merB1|merB1||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB1			Metal resistance gene
+139002545|BAF52034.1|AB271154.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139002548|BAF52035.1|AB271155.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139002755|BAF52033.1|AB271153.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003779|BAF52358.1|AB275113.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003787|BAF52360.1|AB275115.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003791|BAF52362.1|AB275117.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003796|BAF52363.1|AB275118.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003798|BAF52364.1|AB275119.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003804|BAF52365.1|AB275120.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003810|BAF52366.1|AB275121.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003812|BAF52367.1|AB275122.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003825|BAF52370.1|AB275125.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003840|BAF52374.1|AB275129.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+139003851|BAF52377.1|AB275134.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+143192|AAA83978.1|AF138877.1|1|1|merB1|merB1||1|ORGANOMERCURY|MERCURY|organomercurial_lyase_MerB1			Metal resistance gene
 1437352259|SUK66413.1|1|1|sel30|sel30||1|||staphylococcal_enterotoxin_type_30			General stress response/Virulence gene
-144867|AAA23263.1|1|1|bont_F6|bont_F6||1|||botulinum_neurotoxin_subtype_F6			General stress response/Virulence gene
-144928|AAA72120.1|1|1|cpe|cpe||1|||enterotoxin_CPE			General stress response/Virulence gene
-14579333|AAK69210.1|1|1|yopD|yopD||1|||type_III_secretion_system_translocon_subunit_YopD			General stress response/Virulence gene
-146150132|ABQ02454.1|1|1|rho-1|rho-1||1|RHO|INTIMIN|intimin_type_rho			General stress response/Virulence gene
-147830|AAA24632.1|1|1|stxA2f|stxA2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_A			General stress response/Virulence gene
-148750667|ABR09934.1|1|1|stxA2c|stxA2c||1|STX2C|STX2|Shiga_toxin_Stx2c_subunit_A			General stress response/Virulence gene
-150729|AAA25638.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase			Metal resistance gene
-151858|AAA21095.1|1|1|arsB_R773|arsB_R773||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
-152520|AAA26403.1|1|1|klaC|klaC||1|TELLURIUM|TELLURIUM|tellurium_resistance_system_protein_klaC			Metal resistance gene
-15419713|AAK97135.1|1|1|csaB|csaB||1|||CS4_pilus_major_pilin_CsaB			General stress response/Virulence gene
-1545992|AAB42204.1|1|1|arsB_pYV|arsB_pYV||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
-15528433|CAC69250.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
-155344|AAA27587.1|1|1|arsR_pSX267|arsR_pSX267||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
-155345|AAA27588.1|1|1|arsB_pI258|arsB_pI258||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
-155346|AAA27589.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase			Metal resistance gene
-157076729|ABV16438.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			General stress response/Virulence gene
-15723940|AAL06387.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
-157688250|ABQ02442.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
-157688252|ABQ02443.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
-157688256|ABQ02445.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
-159132570|BAF91946.1|1|1|bont_B6|bont_B6||1|||botulinum_neurotoxin_subtype_B6			General stress response/Virulence gene
-159885585|BAF92845.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir			General stress response/Virulence gene
-16417609|AAL18821.1|1|1|epeA|epeA||1|||serine_protease_autotransporter_EpeA			General stress response/Virulence gene
-164457634|BAF96541.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-1653492|BAA18405.1|1|1|acr3|acr3||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_Acr3			Metal resistance gene
-166409298|BAG06667.1|1|1|ses|ses||1|||staphylococcal_enterotoxin_type_S			General stress response/Virulence gene
-168986470|BAG12001.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-169294941|EDS77074.1|1|1|c3bot2|c3bot2||1|||C3_toxin			General stress response/Virulence gene
-170518859|ACB17037.1|1|1|air|air||1|||inverse_autotransporter_adhesin_EaeX/Air			General stress response/Virulence gene
-170521958|ACB20136.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			General stress response/Virulence gene
-1753231480|KAA9473339.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
-1764164|AAC44731.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			General stress response/Virulence gene
-1796443971|QHF70768.1|1|1|fanC|fanC||1|||F5_fimbrial_major_subunit_protein_FanC			General stress response/Virulence gene
-18147064|BAB83020.1|1|1|stxA2g|stxA2g||1|STX2G|STX2|Shiga_toxin_Stx2g_subunit_A			General stress response/Virulence gene
-18147067|BAB83022.1|1|1|stxA1c|stxA1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_A			General stress response/Virulence gene
-18462537|AAL72309.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
-188998312|ACD67884.1|1|1|cpd|cpd||1|||beta-channel_forming_cytolysin_CPD			General stress response/Virulence gene
-192758587|ACF05260.1|1|1|agg4A|agg4A||1|||aggregative_adherence_fimbria_4_major_subunit_Agg4A/HdaA			General stress response/Virulence gene
-195182801|BAG66379.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-195957566|ACG59676.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
-196475602|ACG76368.1|1|1|arsP|arsP||1|ORGANOARSENIC|ARSENIC|organoarsenical_efflux_permease_ArsP			Metal resistance gene
-198040639|CAR56625.1|1|1|cblA_Bc|cblA_Bc||1|||cable_pilus_major_pilin_CblA			General stress response/Virulence gene
-215266044|CAS10463.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			General stress response/Virulence gene
-215489834|CAS06720.1|1|1|gamma-2|gamma-2||1|THETA|INTIMIN|intimin_type_theta			General stress response/Virulence gene
-215489836|CAS06721.1|1|1|alpha-6|alpha-6||1|ZETA|INTIMIN|intimin_type_zeta			General stress response/Virulence gene
-215489840|CAS06723.1|1|1|alpha-6|alpha-6||1|ZETA|INTIMIN|intimin_type_zeta			General stress response/Virulence gene
-2159997|BAA20336.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
-21636536|AAM70045.1|1|1|stxA2a|stxA2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_A			General stress response/Virulence gene
-218349792|CAQ87187.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
+144867|AAA23263.1|M92906.1|1|1|bont_F6|bont_F6||1|||botulinum_neurotoxin_subtype_F6			General stress response/Virulence gene
+144928|AAA72120.1|M98037.1|1|1|cpe|cpe||1|||enterotoxin_CPE			General stress response/Virulence gene
+14579333|AAK69210.1|AF336309.1|1|1|yopD|yopD||1|||type_III_secretion_system_translocon_subunit_YopD			General stress response/Virulence gene
+146150132|ABQ02454.1|EF204930.1|1|1|rho-1|rho-1||1|RHO|INTIMIN|intimin_type_rho			General stress response/Virulence gene
+147830|AAA24632.1|M29153.1|1|1|stxA2f|stxA2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_A			General stress response/Virulence gene
+148750667|ABR09934.1|EF441604.1|1|1|stxA2_acd|stxA2_acd||1|stxA2|STX2|Shiga_toxin_Stx2_subunit_A			General stress response/Virulence gene
+150729|AAA25638.1|M86824.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase			Metal resistance gene
+151858|AAA21095.1|J02591.1|1|1|arsB_R773|arsB_R773||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
+152520|AAA26403.1|M62426.1|1|1|klaC|klaC||1|TELLURIUM|TELLURIUM|tellurium_resistance_system_protein_klaC			Metal resistance gene
+15419713|AAK97135.1|AF296132.1|1|1|csaB|csaB||1|||CS4_pilus_major_pilin_CsaB			General stress response/Virulence gene
+1545992|AAB42204.1|U58366.1|1|1|arsB_pYV|arsB_pYV||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
+15528433|CAC69250.1|AJ251743.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
+155344|AAA27587.1|M80565.1|1|1|arsR_pSX267|arsR_pSX267||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
+155345|AAA27588.1|M80565.1|1|1|arsB_pI258|arsB_pI258||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
+155346|AAA27589.1|M80565.1|1|1|arsC_thio|arsC_thio||1|ARSENATE|ARSENIC|thioredoxin-dependent_arsenate_reductase			Metal resistance gene
+157076729|ABV16438.1|CP000799.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			General stress response/Virulence gene
+15723940|AAL06387.1|AF311901.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
+157688250|ABQ02442.1|EF204922.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
+157688252|ABQ02443.1|EF204923.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
+157688256|ABQ02445.1|EF204925.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
+159132570|BAF91946.1|AB302852.1|1|1|bont_B6|bont_B6||1|||botulinum_neurotoxin_subtype_B6			General stress response/Virulence gene
+159885585|BAF92845.1|AB355659.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir			General stress response/Virulence gene
+16417609|AAL18821.1|AY258503.2|1|1|epeA|epeA||1|||serine_protease_autotransporter_EpeA			General stress response/Virulence gene
+164457634|BAF96541.1|AB303062.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+1653492|BAA18405.1|BA000022.2|1|1|acr3|acr3||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_Acr3			Metal resistance gene
+166409298|BAG06667.1|AB330135.1|1|1|ses|ses||1|||staphylococcal_enterotoxin_type_S			General stress response/Virulence gene
+168986470|BAG12001.1|AB356001.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+169294941|EDS77074.1|ABDQ01000009.1|1|1|c3bot2|c3bot2||1|||C3_toxin			General stress response/Virulence gene
+170518859|ACB17037.1|CP000970.1|1|1|air|air||1|||inverse_autotransporter_adhesin_EaeX/Air			General stress response/Virulence gene
+170521958|ACB20136.1|CP000970.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			General stress response/Virulence gene
+1753231480|KAA9473339.1|QDBI01000003.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
+1764164|AAC44731.1|U69128.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			General stress response/Virulence gene
+1796443971|QHF70768.1|CP026930.2|1|1|fanC|fanC||1|||F5_fimbrial_major_subunit_protein_FanC			General stress response/Virulence gene
+18147064|BAB83020.1|AB048236.1|1|1|stxA2g|stxA2g||1|stxA2g|STX2|Shiga_toxin_Stx2g_subunit_A			General stress response/Virulence gene
+18147067|BAB83022.1|AB048237.1|1|1|stxA1c|stxA1c||1|stxA1c|STX1|Shiga_toxin_Stx1c_subunit_A			General stress response/Virulence gene
+18462537|AAL72309.1|AF386526.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
+188998312|ACD67884.1|EU545552.1|1|1|cpd|cpd||1|||beta-channel_forming_cytolysin_CPD			General stress response/Virulence gene
+192758587|ACF05260.1|EU637023.1|1|1|agg4A|agg4A||1|||aggregative_adherence_fimbria_4_major_subunit_Agg4A/HdaA			General stress response/Virulence gene
+195182801|BAG66379.1|AB426050.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+195957566|ACG59676.1|EU871627.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
+196475602|ACG76368.1|EU916833.1|1|1|arsP|arsP||1|ORGANOARSENIC|ARSENIC|organoarsenical_efflux_permease_ArsP			Metal resistance gene
+198040639|CAR56625.1|AM747721.1|1|1|cblA_Bc|cblA_Bc||1|||cable_pilus_major_pilin_CblA			General stress response/Virulence gene
+215266044|CAS10463.1|FM180568.1|1|1|espC|espC||1|||serine_protease_autotransporter_toxin_EspC			General stress response/Virulence gene
+215489834|CAS06720.1|FM872418.1|1|1|gamma-2|gamma-2||1|THETA|INTIMIN|intimin_type_theta			General stress response/Virulence gene
+215489836|CAS06721.1|FM872419.1|1|1|alpha-6|alpha-6||1|ZETA|INTIMIN|intimin_type_zeta			General stress response/Virulence gene
+215489840|CAS06723.1|FM872421.1|1|1|alpha-6|alpha-6||1|ZETA|INTIMIN|intimin_type_zeta			General stress response/Virulence gene
+2159997|BAA20336.1|D83080.2|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
+21636536|AAM70045.1|AF461173.1|1|1|stxA2a|stxA2a||1|stxA2a|STX2|Shiga_toxin_Stx2a_subunit_A			General stress response/Virulence gene
+218349792|CAQ87187.1|CU928146.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
 218428762|CAR09703.2|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			General stress response/Virulence gene
-218434398|CAR15326.1|1|1|air|air||1|||inverse_autotransporter_adhesin_EaeX/Air			General stress response/Virulence gene
-22003413|AAM88668.1|1|1|cueA|cueA||1|COPPER|COPPER|copper_resistance_metal-translocating_P1-type_ATPase_CueA			Metal resistance gene
-221361465|CAX18635.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
-222708689|ACM67146.1|1|1|alpha-2|alpha-2||1|ALPHA|INTIMIN|intimin_type_alpha			General stress response/Virulence gene
-222708701|ACM67152.1|1|1|beta-2|beta-2||1|BETA|INTIMIN|intimin_type_beta			General stress response/Virulence gene
-222708703|ACM67153.1|1|1|lambda-2|lambda-2||1|LAMBDA|INTIMIN|intimin_type_lambda			General stress response/Virulence gene
-222708705|ACM67154.1|1|1|gamma-6|gamma-6||1|GAMMA|INTIMIN|intimin_type_gamma			General stress response/Virulence gene
-222708707|ACM67155.1|1|1|epsilon-8|epsilon-8||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-222708709|ACM67156.1|1|1|epsilon-8|epsilon-8||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-222708713|ACM67158.1|1|1|epsilon-6|epsilon-6||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-222708719|ACM67161.1|1|1|beta-2|beta-2||1|BETA|INTIMIN|intimin_type_beta			General stress response/Virulence gene
-222708721|ACM67162.1|1|1|gamma-4|gamma-4||1|GAMMA|INTIMIN|intimin_type_gamma			General stress response/Virulence gene
-222708723|ACM67163.1|1|1|rho-3|rho-3||1|RHO|INTIMIN|intimin_type_rho			General stress response/Virulence gene
-222708727|ACM67165.1|1|1|gamma-3|gamma-3||1|GAMMA|INTIMIN|intimin_type_gamma			General stress response/Virulence gene
-222708731|ACM67167.1|1|1|epsilon-6|epsilon-6||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-224612960|CAQ77251.1|1|1|hlyA-alpha|hlyA-alpha||1|||RTX_toxin_hemolysin_HlyA			General stress response/Virulence gene
-22652647|AAN03785.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
-22652649|AAN03786.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
-22759881|BAC10987.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
-229260169|ACQ51206.1|1|1|bont_B5|bont_B5||1|||botulinum_neurotoxin_subtype_B5			General stress response/Virulence gene
+218434398|CAR15326.1|CU928163.2|1|1|air|air||1|||inverse_autotransporter_adhesin_EaeX/Air			General stress response/Virulence gene
+22003413|AAM88668.1|AF390440.1|1|1|cueA|cueA||1|COPPER|COPPER|copper_resistance_metal-translocating_P1-type_ATPase_CueA			Metal resistance gene
+221361465|CAX18635.1|FM986651.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
+222708689|ACM67146.1|FJ609801.1|1|1|alpha-2|alpha-2||1|ALPHA|INTIMIN|intimin_type_alpha			General stress response/Virulence gene
+222708701|ACM67152.1|FJ609807.1|1|1|beta-2|beta-2||1|BETA|INTIMIN|intimin_type_beta			General stress response/Virulence gene
+222708703|ACM67153.1|FJ609808.1|1|1|lambda-2|lambda-2||1|LAMBDA|INTIMIN|intimin_type_lambda			General stress response/Virulence gene
+222708705|ACM67154.1|FJ609809.1|1|1|gamma-6|gamma-6||1|GAMMA|INTIMIN|intimin_type_gamma			General stress response/Virulence gene
+222708707|ACM67155.1|FJ609810.1|1|1|epsilon-8|epsilon-8||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+222708709|ACM67156.1|FJ609811.1|1|1|epsilon-8|epsilon-8||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+222708713|ACM67158.1|FJ609813.1|1|1|epsilon-6|epsilon-6||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+222708719|ACM67161.1|FJ609816.1|1|1|beta-2|beta-2||1|BETA|INTIMIN|intimin_type_beta			General stress response/Virulence gene
+222708721|ACM67162.1|FJ609817.1|1|1|gamma-4|gamma-4||1|GAMMA|INTIMIN|intimin_type_gamma			General stress response/Virulence gene
+222708723|ACM67163.1|FJ609818.1|1|1|rho-3|rho-3||1|RHO|INTIMIN|intimin_type_rho			General stress response/Virulence gene
+222708727|ACM67165.1|FJ609820.1|1|1|gamma-3|gamma-3||1|GAMMA|INTIMIN|intimin_type_gamma			General stress response/Virulence gene
+222708731|ACM67167.1|FJ609822.1|1|1|epsilon-6|epsilon-6||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+224612960|CAQ77251.1|FM180012.1|1|1|hlyA-alpha|hlyA-alpha||1|||RTX_toxin_hemolysin_HlyA			General stress response/Virulence gene
+22652647|AAN03785.1|AF483828.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
+22652649|AAN03786.1|AF483829.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
+22759881|BAC10987.1|AB071619.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
+229260169|ACQ51206.1|CP001081.1|1|1|bont_B5|bont_B5||1|||botulinum_neurotoxin_subtype_B5			General stress response/Virulence gene
 238549598|BAH65949.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
-24137633|BAC22064.1|1|1|bont_B2|bont_B2||1|||botulinum_neurotoxin_subtype_B2			General stress response/Virulence gene
-24984576|AAN68576.1|1|1|mrdH|mrdH||1|COPPER/NICKEL|COPPER/NICKEL|Ni(II)/Co(II)_efflux_transporter_permease_subunit_MrdH			Metal resistance gene
-254939479|BAH86759.1|1|1|stxA2f|stxA2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_A			General stress response/Virulence gene
-2576413|AAB82330.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
-257759657|BAI31154.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
-257766024|BAI37519.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
-2588785|BAA23166.1|1|1|merG|merG||1|PHENYLMERCURY|MERCURY|phenylmercury_resistance_protein_MerG			Metal resistance gene
-25987939|AAN76093.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
-260213855|CBE05858.1|1|1|bin_CdtB|bin_CdtB||1|||ADP-ribosylating_binary_toxin_binding_subunit_CdtB			General stress response/Virulence gene
-260279121|BAI44131.1|1|1|agg5A|agg5A||1|||aggregative_adherence_fimbria_V_major_subunit_Agg5A			General stress response/Virulence gene
-26107524|AAN79707.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
-26111414|AAN83596.1|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			General stress response/Virulence gene
-270269184|ACZ66176.1|1|1|sel31|sel31||1|||staphylococcal_enterotoxin_type_31			General stress response/Virulence gene
-2765304|CAA73668.1|1|1|lukD|lukD||1|||bi-component_leukocidin_LukED_subunit_D			General stress response/Virulence gene
-281603818|ADA76801.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
-282160579|ADA79569.1|1|1|bont_F4|bont_F4||1|||botulinum_neurotoxin_subtype_F4			General stress response/Virulence gene
-282948281|CBG87859.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB			General stress response/Virulence gene
-282950079|CBG89712.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
-284924615|CBG27798.1|1|1|aafD|aafD||1|||aggregative_adherence_fimbria_II_chaperone_AafD			General stress response/Virulence gene
-2853151|CAA11820.1|1|1|cfsA|cfsA||1|||CS5_fimbrial_major_subunit_CsfA			General stress response/Virulence gene
-2865302|AAC38394.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
-2865304|AAC38396.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
-2865308|AAC38400.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
-2879920|BAA24823.1|1|1|arsB_pKW301|arsB_pKW301||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
-290432|AAA23737.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin			General stress response/Virulence gene
-2947088|AAC38232.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
-295060061|ADF64798.1|1|1|ncrC|ncrC||1|COPPER/NICKEL|COPPER/NICKEL|Ni(II)/Co(II)_efflux_transporter_permease_subunit_NcrC			General stress response/Virulence gene
-297592330|ADI47068.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			General stress response/Virulence gene
-29895498|AAP08785.1|1|1|nheC|nheC||1|||non-hemolytic_enterotoxin_NHE_subunit_C			General stress response/Virulence gene
-29896770|AAP10048.1|1|1|hblC|hblC||1|||hemolytic_enterotoxin_HBL_lytic_component_L2			General stress response/Virulence gene
-30043229|AAP18950.1|1|1|lpfA-O113|lpfA-O113||1|||long_polar_fimbria_major_subunit_LpfA-O113			General stress response/Virulence gene
-302333605|ADL23798.1|1|1|scn|scn||1|||complement_inhibitor_SCIN-A			General stress response/Virulence gene
-3095184|AAC26634.1|1|1|pet|pet||1|||serine_protease_autotransporter_toxin_Pet			General stress response/Virulence gene
-3115184|CAA73506.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
-325048858|BAJ79293.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
-325048862|BAJ79295.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
-332312684|EGJ25779.1|1|1|arsD_like|arsD_like||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD-related_protein			Metal resistance gene
-332312690|EGJ25785.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
-332312691|EGJ25786.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
-3337077|BAA31836.1|1|1|espP|espP||1|||serine_protease_autotransporter_EspP			General stress response/Virulence gene
-33469479|AAQ19775.1|1|1|csdA|csdA||1|||CS19_fimbria_major_subunit_CsdA			General stress response/Virulence gene
+24137633|BAC22064.1|AB084152.1|1|1|bont_B2|bont_B2||1|||botulinum_neurotoxin_subtype_B2			General stress response/Virulence gene
+24984576|AAN68576.1|AE015451.2|1|1|mrdH|mrdH||1|COPPER/NICKEL|COPPER/NICKEL|Ni(II)/Co(II)_efflux_transporter_permease_subunit_MrdH			Metal resistance gene
+254939479|BAH86759.1|AB472687.1|1|1|stxA2f|stxA2f||1|stxA2f|STX2|Shiga_toxin_Stx2f_subunit_A			General stress response/Virulence gene
+2576413|AAB82330.1|AF012835.2|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
+257759657|BAI31154.1|AP010958.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+257766024|BAI37519.1|AP010960.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
+2588785|BAA23166.1|D83080.2|1|1|merG|merG||1|PHENYLMERCURY|MERCURY|phenylmercury_resistance_protein_MerG			Metal resistance gene
+25987939|AAN76093.1|AF449498.2|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
+260213855|CBE05858.1|FN545816.1|1|1|bin_CdtB|bin_CdtB||1|||ADP-ribosylating_binary_toxin_binding_subunit_CdtB			General stress response/Virulence gene
+260279121|BAI44131.1|AB513347.1|1|1|agg5A|agg5A||1|||aggregative_adherence_fimbria_V_major_subunit_Agg5A			General stress response/Virulence gene
+26107524|AAN79707.1|AE014075.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
+26111414|AAN83596.1|AE014075.1|1|1|ireA|ireA||1|||TonB-dependent_siderophore_receptor_IreA			General stress response/Virulence gene
+270269184|ACZ66176.1|GQ900475.1|1|1|sel31|sel31||1|||staphylococcal_enterotoxin_type_31			General stress response/Virulence gene
+2765304|CAA73668.1|Y13225.1|1|1|lukD|lukD||1|||bi-component_leukocidin_LukED_subunit_D			General stress response/Virulence gene
+281603818|ADA76801.1|CP001384.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
+282160579|ADA79569.1|GU213221.1|1|1|bont_F4|bont_F4||1|||botulinum_neurotoxin_subtype_F4			General stress response/Virulence gene
+282948281|CBG87859.1|FN543502.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB			General stress response/Virulence gene
+282950079|CBG89712.1|FN543502.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
+284924615|CBG27798.1|FN554767.1|1|1|aafD|aafD||1|||aggregative_adherence_fimbria_II_chaperone_AafD			General stress response/Virulence gene
+2853151|CAA11820.1|AJ224079.2|1|1|cfsA|cfsA||1|||CS5_fimbrial_major_subunit_CsfA			General stress response/Virulence gene
+2865302|AAC38394.1|AF022236.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
+2865304|AAC38396.1|AF022236.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
+2865308|AAC38400.1|AF022236.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
+2879920|BAA24823.1|AB004659.1|1|1|arsB_pKW301|arsB_pKW301||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
+290432|AAA23737.1|L14318.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin			General stress response/Virulence gene
+2947088|AAC38232.1|U90263.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
+295060061|ADF64798.1|CP001919.1|1|1|ncrC|ncrC||1|COPPER/NICKEL|COPPER/NICKEL|Ni(II)/Co(II)_efflux_transporter_permease_subunit_NcrC			General stress response/Virulence gene
+297592330|ADI47068.1|GU725392.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			General stress response/Virulence gene
+29895498|AAP08785.1|AE016877.1|1|1|nheC|nheC||1|||non-hemolytic_enterotoxin_NHE_subunit_C			General stress response/Virulence gene
+29896770|AAP10048.1|AE016877.1|1|1|hblC|hblC||1|||hemolytic_enterotoxin_HBL_lytic_component_L2			General stress response/Virulence gene
+30043229|AAP18950.1|AE014073.1|1|1|lpfA-O113|lpfA-O113||1|||long_polar_fimbria_major_subunit_LpfA-O113			General stress response/Virulence gene
+302333605|ADL23798.1|CP002114.3|1|1|scn|scn||1|||complement_inhibitor_SCIN-A			General stress response/Virulence gene
+3095184|AAC26634.1|AF056581.1|1|1|pet|pet||1|||serine_protease_autotransporter_toxin_Pet			General stress response/Virulence gene
+3115184|CAA73506.1|Y13068.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
+325048858|BAJ79293.1|AB571091.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
+325048862|BAJ79295.1|AB571093.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
+332312684|EGJ25779.1|CM001159.1|1|1|arsD_like|arsD_like||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_metallochaperone_ArsD-related_protein			Metal resistance gene
+332312690|EGJ25785.1|CM001159.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
+332312691|EGJ25786.1|CM001159.1|1|1|arsB_Lm|arsB_Lm||1|ARSENITE|ARSENIC|arsenite_efflux_transporter_membrane_subunit_ArsB			Metal resistance gene
+3337077|BAA31836.1|AB011549.2|1|1|espP|espP||1|||serine_protease_autotransporter_EspP			General stress response/Virulence gene
+33469479|AAQ19775.1|AY288101.1|1|1|csdA|csdA||1|||CS19_fimbria_major_subunit_CsdA			General stress response/Virulence gene
 3372542|AAC78590.1|1|1|sej|sej||1|||staphylococcal_enterotoxin_type_J			General stress response/Virulence gene
 3417251|CAA12346.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
-3513658|AAC33908.1|1|1|merC|merC||1|ORGANOMERCURY|MERCURY|organomercurial_transporter_MerC			Metal resistance gene
+3513658|AAC33908.1|AF071413.3|1|1|merC|merC||1|ORGANOMERCURY|MERCURY|organomercurial_transporter_MerC			Metal resistance gene
 354855824|EHF16297.1|1|1|aggB|aggB||1|||aggregative_adherence_fimbria_I_minor_subunit_AggB			General stress response/Virulence gene
 354855825|EHF16298.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			General stress response/Virulence gene
-356484840|AET11941.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-356484899|AET11995.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-356484913|AET12008.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-371976459|EHO93748.1|1|1|aur|aur||1|||zinc_metalloproteinase_aureolysin			Metal resistance gene
-374343131|BAL46940.1|1|1|alpha|alpha||1|ALPHA|INTIMIN|intimin_type_alpha			General stress response/Virulence gene
-374343133|BAL46941.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-374343515|BAL47132.1|1|1|epsilon-4|epsilon-4||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-374343603|BAL47176.1|1|1|rho-2|rho-2||1|YPSILON|INTIMIN|intimin_type_ypsilon			General stress response/Virulence gene
-374343609|BAL47179.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
-374343613|BAL47181.1|1|1|alpha|alpha||1|ALPHA|INTIMIN|intimin_type_alpha			General stress response/Virulence gene
-380005626|AFD29291.1|1|1|aalE|aalE||1|||CS23_fimbrial_major_subunit_AalE			General stress response/Virulence gene
-380248692|CBW53086.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			General stress response/Virulence gene
-38194523|AAR13270.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
-389595513|AFK88558.1|1|1|sat_auto|sat_auto||1|||serine_protease_autotransporter_toxin_Sat			General stress response/Virulence gene
-390980685|AFM31243.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
+356484840|AET11941.1|JN159726.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+356484899|AET11995.1|JN159731.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+356484913|AET12008.1|JN159732.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+371976459|EHO93748.1|AHJW01000015.1|1|1|aur|aur||1|||zinc_metalloproteinase_aureolysin			Metal resistance gene
+374343131|BAL46940.1|AB647368.1|1|1|alpha|alpha||1|ALPHA|INTIMIN|intimin_type_alpha			General stress response/Virulence gene
+374343133|BAL46941.1|AB647369.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+374343515|BAL47132.1|AB647560.1|1|1|epsilon-4|epsilon-4||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+374343603|BAL47176.1|AB647604.1|1|1|rho-2|rho-2||1|YPSILON|INTIMIN|intimin_type_ypsilon			General stress response/Virulence gene
+374343609|BAL47179.1|AB647607.1|1|1|epsilon-2|epsilon-2||1|EPSILON|INTIMIN|intimin_type_epsilon			General stress response/Virulence gene
+374343613|BAL47181.1|AB647609.1|1|1|alpha|alpha||1|ALPHA|INTIMIN|intimin_type_alpha			General stress response/Virulence gene
+380005626|AFD29291.1|JQ434477.1|1|1|aalE|aalE||1|||CS23_fimbrial_major_subunit_AalE			General stress response/Virulence gene
+380248692|CBW53086.1|FR686852.1|1|1|iha|iha||1|||bifunctional_siderophore_receptor/adhesin_Iha			General stress response/Virulence gene
+38194523|AAR13270.1|AY365116.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
+389595513|AFK88558.1|JX050263.1|1|1|sat_auto|sat_auto||1|||serine_protease_autotransporter_toxin_Sat			General stress response/Virulence gene
+390980685|AFM31243.1|JX101866.1|1|1|tccP2|tccP2||1|||Tir-cytoskeleton_coupling_protein_TccP2			General stress response/Virulence gene
 394333411|AFN27480.1|1|1|bonA|bonA||1|||bongkrekic_acid_type_I_polyketide_synthase_BonA			General stress response/Virulence gene
-395406670|AFN61309.1|1|1|bont_B8|bont_B8||1|||botulinum_neurotoxin_subtype_B8			General stress response/Virulence gene
-403299|CAA50007.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
-406780449|AFS59871.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
-414655|CAA51960.1|1|1|ibp|ibp||1|||ADP-ribosylating_binary_toxin_iota_binding_subunit_Ib			General stress response/Virulence gene
-42529|CAA43558.1|1|1|papG-III|papG-III||1|||P_fimbria_tip_G-adhesin_PapG-III			General stress response/Virulence gene
-4335912|AAD17513.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-4335914|AAD17514.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-46369880|AAS89773.1|1|1|cosA|cosA||1|||PCF071_fimbrial_major_subunit_CosA			General stress response/Virulence gene
-46369885|AAS89777.1|1|1|csbA|csbA||1|||CS17_fimbrial_major_subunit_CsbA			General stress response/Virulence gene
-46949087|AAT07441.1|1|1|cooA|cooA||1|||CS1_fimbrial_major_subunit_CooA			General stress response/Virulence gene
-472420551|EMS03085.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			General stress response/Virulence gene
-47600653|CAE55775.1|1|1|sat_auto|sat_auto||1|||serine_protease_autotransporter_toxin_Sat			General stress response/Virulence gene
-50956507|AAT90756.1|1|1|tcbA|tcbA||1|||Tc_family_toxin_subunit_TcbA			General stress response/Virulence gene
-51949833|AAU14850.1|1|1|cpb2|cpb2||1|||beta-2_toxin_CPB2			General stress response/Virulence gene
-52854784|AAU88264.1|1|1|cdtB|cdtB||1|||cytolethal_distending_toxin_nuclease_subunit_CdtB			General stress response/Virulence gene
-531398|AAA57452.1|1|1|aggC|aggC||1|||aggregative_adherence_fimbria_I_usher_protein_AggC			General stress response/Virulence gene
-534988|CAA85366.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
-535089|CAA85370.1|1|1|stxA1c|stxA1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_A			General stress response/Virulence gene
-535625057|EQX61716.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			General stress response/Virulence gene
-53850832|AAU95470.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB			General stress response/Virulence gene
+395406670|AFN61309.1|JQ964806.1|1|1|bont_B8|bont_B8||1|||botulinum_neurotoxin_subtype_B8			General stress response/Virulence gene
+403299|CAA50007.1|X70670.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
+406780449|AFS59871.1|CP003299.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
+414655|CAA51960.1|X73562.1|1|1|ibp|ibp||1|||ADP-ribosylating_binary_toxin_iota_binding_subunit_Ib			General stress response/Virulence gene
+42529|CAA43558.1|X61238.1|1|1|papG-III|papG-III||1|||P_fimbria_tip_G-adhesin_PapG-III			General stress response/Virulence gene
+4335912|AAD17513.1|AF055310.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+4335914|AAD17514.1|AF055311.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+46369880|AAS89773.1|AY513487.1|1|1|cosA|cosA||1|||PCF071_fimbrial_major_subunit_CosA			General stress response/Virulence gene
+46369885|AAS89777.1|AY515609.1|1|1|csbA|csbA||1|||CS17_fimbrial_major_subunit_CsbA			General stress response/Virulence gene
+46949087|AAT07441.1|AY536429.1|1|1|cooA|cooA||1|||CS1_fimbrial_major_subunit_CooA			General stress response/Virulence gene
+472420551|EMS03085.1|AHAW01000077.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			General stress response/Virulence gene
+47600653|CAE55775.1|AJ586888.1|1|1|sat_auto|sat_auto||1|||serine_protease_autotransporter_toxin_Sat			General stress response/Virulence gene
+50956507|AAT90756.1|AY647257.1|1|1|tcbA|tcbA||1|||Tc_family_toxin_subunit_TcbA			General stress response/Virulence gene
+51949833|AAU14850.1|AY609165.1|1|1|cpb2|cpb2||1|||beta-2_toxin_CPB2			General stress response/Virulence gene
+52854784|AAU88264.1|AY696753.1|1|1|cdtB|cdtB||1|||cytolethal_distending_toxin_nuclease_subunit_CdtB			General stress response/Virulence gene
+531398|AAA57452.1|U12894.1|1|1|aggC|aggC||1|||aggregative_adherence_fimbria_I_usher_protein_AggC			General stress response/Virulence gene
+534988|CAA85366.1|Z36899.1|1|1|stxA1a|stxA1a||1|stxA1a|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
+535089|CAA85370.1|Z36901.1|1|1|stxA1c|stxA1c||1|STX1C|STX1|Shiga_toxin_Stx1c_subunit_A			General stress response/Virulence gene
+535625057|EQX61716.1|AWCC01000052.1|1|1|aggA|aggA||1|||aggregative_adherence_fimbria_I_major_subunit_AggA			General stress response/Virulence gene
+53850832|AAU95470.1|AY747106.1|1|1|nleB|nleB||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB			General stress response/Virulence gene
 54311626|CAG17541.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
-545581792|AGW33874.1|1|1|lukS-PV|lukS-PV||1|||Panton-Valentine_bi-component_leukocidin_subunit_S			General stress response/Virulence gene
-550423|CAA57277.1|1|1|hlgC|hlgC||1|||bi-component_gamma-hemolysin_HlgCB_subunit_C			General stress response/Virulence gene
-57434439|CAI43856.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
-586640776|AHJ80155.1|1|1|stxA1e|stxA1e||1|STX1E|STX1|Shiga_toxin_Stx1e_subunit_A			General stress response/Virulence gene
-61652455|AAX47730.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir			General stress response/Virulence gene
-619130|CAA58527.1|1|1|pcoC|pcoC||1|COPPER|COPPER|copper_resistance_system_metallochaperone_PcoC			Metal resistance gene
-62085706|AAX63245.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
-62085734|AAX63259.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
-6470209|AAF13663.1|1|1|capB|capB||1|||capsule_biosynthesis_protein_CapB			General stress response/Virulence gene
-663201|CAA54115.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE			General stress response/Virulence gene
-6687466|CAB64953.1|1|1|stxA2f|stxA2f||1|STX2F|STX2|Shiga_toxin_Stx2f_subunit_A			General stress response/Virulence gene
-674651835|CDY80020.1|1|1|LHR_hsp20A|LHR_hsp20A||1|||small_heat_shock_protein_sHSP20			General stress response/Virulence gene
-73476899|AAZ76514.1|1|1|espP|espP||1|||serine_protease_autotransporter_EspP			General stress response/Virulence gene
-755408432|AJJ21446.1|1|1|yopM|yopM||1|||type_III_secretion_system_effector_YopM			General stress response/Virulence gene
-760237696|AJP10335.1|1|1|tcdR|tcdR||1|||glycosylating_toxin_sigma_factor_TcdR			General stress response/Virulence gene
-760237700|AJP10339.1|1|1|tcdA|tcdA||1|||glycosylating_toxin_TcdA			General stress response/Virulence gene
-812239686|CNC65351.1|1|1|yadA|yadA||1|||trimeric_autotransporter_adhesin_YadA			General stress response/Virulence gene
-81240477|ABB61187.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
-817048098|AKF16652.1|1|1|netF|netF||1|||necrotizing_enteritis_toxin_NetF			General stress response/Virulence gene
-821787072|KLB41245.1|1|1|copL|copL||1|COPPER|COPPER|transcriptional_regulator_CopL			Metal resistance gene
-83308567|CAI79539.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			General stress response/Virulence gene
-844574223|AKN09807.1|1|1|yopJ_gen|yopJ_gen||1|||YopJ/YopP_family_T3SS_effector_serine/threonine_acetyltransferase			General stress response/Virulence gene
-85676543|BAE77793.1|1|1|arsR_K-12|arsR_K-12||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
-86753172|ABD14714.1|1|1|cesD|cesD||1|||cereulide_export_ABC_transporter_permease_subunit_CesD			General stress response/Virulence gene
-886953|CAA88252.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
-91075443|ABE10324.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
-94480755|CAK02719.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
-991872253|AMG40538.1|1|1|sel|sel||1|||staphylococcal_enterotoxin_type_L			General stress response/Virulence gene
-997194215|CXT91862.1|1|1|sel33|sel33||1|||staphylococcal_enterotoxin_type_33			General stress response/Virulence gene
-215264243|CAS08589.1|1|1|nleB2|nleB2||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB2			General stress response/Virulence gene
-986931|AAB59153.1|1|1|cadC_Sa|cadC_Sa||1|CADMIUM/LEAD/ZINC|CADMIUM/LEAD/ZINC|Cd(II)/Pb(II)/Zn(II)-sensing_metalloregulatory_transcriptional_repressor_CadC			Metal resistance gene
-23630581|AAN37537.1|1|1|yopJ_gen|yopJ_gen||1|||YopJ/YopP_family_T3SS_effector_serine/threonine_acetyltransferase			General stress response/Virulence gene
-169123155|ACA46990.1|1|1|bont_B1|bont_B1||1|||botulinum_neurotoxin_subtype_B1			General stress response/Virulence gene
-871816|AAA69514.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-531399|AAA57453.1|1|1|aggB|aggB||1|||aggregative_adherence_fimbria_I_minor_subunit_AggB			General stress response/Virulence gene
-325048864|BAJ79296.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
-12518439|AAG58818.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
-51449798|AAU01878.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
-195957623|ACG59732.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
-5702378|AAD47284.1|1|1|terZ|terZ||1|TELLURIUM|TELLURIUM|tellurium_resistance-associated_protein_TerZ			Metal resistance gene
-3414888|AAC31499.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
-325699397|ADZ45128.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
-18147025|BAB82994.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
-1232058|AAA92618.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin			General stress response/Virulence gene
-29896768|AAP10046.1|1|1|hblB|hblB||1|||hemolytic_enterotoxin_HBL_binding_subunit_HblB			General stress response/Virulence gene
-27549252|AAO17297.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			General stress response/Virulence gene
-110681652|BAE98281.1|1|1|bfpA|bfpA||1|||bundle-forming_pilus_major_subunit_BfpA			General stress response/Virulence gene
-150727|AAA25636.1|1|1|arsR_pI258|arsR_pI258||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
-1181183|AAA86846.1|1|1|terZ|terZ||1|TELLURIUM|TELLURIUM|tellurium_resistance-associated_protein_TerZ			Metal resistance gene
-62085756|AAX63270.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
-6090818|AAF03351.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
-215044|AAA98099.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
-150634|AAA98223.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
-32400302|BAC78639.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
-500246546|WP_011906899.1|1|1|estDL136|estDL136||2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol_hydrolase	3000249	chloramphenicol phosphotransferase	Closest match to ARO term, however, chloramphenicol hydrolase not in CARD
-195957621|ACG59730.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
-282165972|ADA79992.1|1|1|merT_pI258|merT_pI258||1|MERCURY|MERCURY|mercuric_transport_protein_MerT			Metal resistance gene
-760237698|AJP10337.1|1|1|tcdE|tcdE||1|||holin-like_glycosylating_toxin_export_protein_TcdE			General stress response/Virulence gene
-228698261|EEL50994.1|1|1|entFM|entFM||1|||enterotoxin_EntFM			General stress response/Virulence gene
-253721162|ACT33471.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-4335904|AAD17509.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin			General stress response/Virulence gene
+545581792|AGW33874.1|CP003603.1|1|1|lukS-PV|lukS-PV||1|||Panton-Valentine_bi-component_leukocidin_subunit_S			General stress response/Virulence gene
+550423|CAA57277.1|X81586.1|1|1|hlgC|hlgC||1|||bi-component_gamma-hemolysin_HlgCB_subunit_C			General stress response/Virulence gene
+57434439|CAI43856.1|AJ303141.2|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
+586640776|AHJ80155.1|KF926684.1|1|1|stxA1e|stxA1e||1|stxA1e|STX1|Shiga_toxin_Stx1e_subunit_A			General stress response/Virulence gene
+61652455|AAX47730.1|AY944737.1|1|1|tir|tir||1|||type_III_secretion_system_LEE_translocated_intimin_receptor_Tir			General stress response/Virulence gene
+619130|CAA58527.1|X83541.1|1|1|pcoC|pcoC||1|COPPER|COPPER|copper_resistance_system_metallochaperone_PcoC			Metal resistance gene
+62085706|AAX63245.1|AY970783.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
+62085734|AAX63259.1|AY970797.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
+6470209|AAF13663.1|AF188935.1|1|1|capB|capB||1|||capsule_biosynthesis_protein_CapB			General stress response/Virulence gene
+663201|CAA54115.1|X76688.1|1|1|nfaE|nfaE||1|||Dr_family_non-fimbrial_adhesin_I_chaperone_NfaE			General stress response/Virulence gene
+6687466|CAB64953.1|AJ010730.1|1|1|stxA2f|stxA2f||1|stxA2f|STX2|Shiga_toxin_Stx2f_subunit_A			General stress response/Virulence gene
+674651835|CDY80020.1|LM994717.1|1|1|LHR_hsp20A|LHR_hsp20A||1|||small_heat_shock_protein_sHSP20			General stress response/Virulence gene
+73476899|AAZ76514.1|AY258503.2|1|1|espP|espP||1|||serine_protease_autotransporter_EspP			General stress response/Virulence gene
+755408432|AJJ21446.1|CP009845.1|1|1|yopM|yopM||1|||type_III_secretion_system_effector_YopM			General stress response/Virulence gene
+760237696|AJP10335.1|CP010905.2|1|1|tcdR|tcdR||1|||glycosylating_toxin_sigma_factor_TcdR			General stress response/Virulence gene
+760237700|AJP10339.1|CP010905.2|1|1|tcdA|tcdA||1|||glycosylating_toxin_TcdA			General stress response/Virulence gene
+812239686|CNC65351.1|CHJR01000063.1|1|1|yadA|yadA||1|||trimeric_autotransporter_adhesin_YadA			General stress response/Virulence gene
+81240477|ABB61187.1|CP000034.1|1|1|iroN|iroN||1|||siderophore_salmochelin_receptor_IroN			General stress response/Virulence gene
+817048098|AKF16652.1|KP739975.1|1|1|netF|netF||1|||necrotizing_enteritis_toxin_NetF			General stress response/Virulence gene
+821787072|KLB41245.1|JZLN01000017.1|1|1|copL|copL||1|COPPER|COPPER|transcriptional_regulator_CopL			Metal resistance gene
+83308567|CAI79539.1|CR942285.1|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			General stress response/Virulence gene
+844574223|AKN09807.1|KR088867.1|1|1|yopJ_gen|yopJ_gen||1|||YopJ/YopP_family_T3SS_effector_serine/threonine_acetyltransferase			General stress response/Virulence gene
+85676543|BAE77793.1|AP009048.1|1|1|arsR_K-12|arsR_K-12||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
+86753172|ABD14714.1|DQ360825.1|1|1|cesD|cesD||1|||cereulide_export_ABC_transporter_permease_subunit_CesD			General stress response/Virulence gene
+886953|CAA88252.1|Z48219.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
+91075443|ABE10324.1|CP000243.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
+94480755|CAK02719.1|AM261284.1|1|1|cnf1|cnf1||1|||cytotoxic_necrotizing_factor_CNF1			General stress response/Virulence gene
+991872253|AMG40538.1|CP014064.2|1|1|sel|sel||1|||staphylococcal_enterotoxin_type_L			General stress response/Virulence gene
+997194215|CXT91862.1|FGMI01000018.1|1|1|sel33|sel33||1|||staphylococcal_enterotoxin_type_33			General stress response/Virulence gene
+215264243|CAS08589.1|FM180568.1|1|1|nleB2|nleB2||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB2			General stress response/Virulence gene
+986931|AAB59153.1|J04551.1|1|1|cadC_Sa|cadC_Sa||1|CADMIUM/LEAD/ZINC|CADMIUM/LEAD/ZINC|Cd(II)/Pb(II)/Zn(II)-sensing_metalloregulatory_transcriptional_repressor_CadC			Metal resistance gene
+23630581|AAN37537.1|AY150843.2|1|1|yopJ_gen|yopJ_gen||1|||YopJ/YopP_family_T3SS_effector_serine/threonine_acetyltransferase			General stress response/Virulence gene
+169123155|ACA46990.1|CP000940.1|1|1|bont_B1|bont_B1||1|||botulinum_neurotoxin_subtype_B1			General stress response/Virulence gene
+871816|AAA69514.1|L33969.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+531399|AAA57453.1|U12894.1|1|1|aggB|aggB||1|||aggregative_adherence_fimbria_I_minor_subunit_AggB			General stress response/Virulence gene
+325048864|BAJ79296.1|AB571094.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
+12518439|AAG58818.1|AE005174.2|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
+51449798|AAU01878.1|AY604009.1|1|1|sepA|sepA||1|||serine_protease_autotransporter_toxin_SepA			General stress response/Virulence gene
+195957623|ACG59732.1|EU871628.1|1|1|espA|espA||1|||type_III_secretion_system_LEE_translocon_filament_protein_EspA			General stress response/Virulence gene
+5702378|AAD47284.1|AF168355.1|1|1|terZ|terZ||1|TELLURIUM|TELLURIUM|tellurium_resistance-associated_protein_TerZ			Metal resistance gene
+3414888|AAC31499.1|AF071034.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
+325699397|ADZ45128.1|HM138194.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
+18147025|BAB82994.1|AB048223.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
+1232058|AAA92618.1|L77091.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin			General stress response/Virulence gene
+29896768|AAP10046.1|AE016877.1|1|1|hblB|hblB||1|||hemolytic_enterotoxin_HBL_binding_subunit_HblB			General stress response/Virulence gene
+27549252|AAO17297.1|AY163491.2|1|1|eatA|eatA||1|||serine_protease_autotransporter_toxin_EatA			General stress response/Virulence gene
+110681652|BAE98281.1|AB247925.1|1|1|bfpA|bfpA||1|||bundle-forming_pilus_major_subunit_BfpA			General stress response/Virulence gene
+150727|AAA25636.1|M86824.1|1|1|arsR_pI258|arsR_pI258||1|ARSENIC|ARSENIC|As(III)-sensing_metalloregulatory_transcriptional_repressor_ArsR			Metal resistance gene
+1181183|AAA86846.1|U59239.2|1|1|terZ|terZ||1|TELLURIUM|TELLURIUM|tellurium_resistance-associated_protein_TerZ			Metal resistance gene
+62085756|AAX63270.1|AY970808.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
+6090818|AAF03351.1|AF116900.1|1|1|espF|espF||1|||type_III_secretion_system_LEE_effector_EspF			General stress response/Virulence gene
+215044|AAA98099.1|M16625.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
+150634|AAA98223.1|M24940.1|1|1|MerP_Gneg|MerP_Gneg||1|MERCURY|MERCURY|mercury_resistance_system_periplasmic_binding_protein_MerP			Metal resistance gene
+32400302|BAC78639.1|AB083044.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
+500246546|WP_011906899.1|NG_050583.1|1|1|estDL136|estDL136||2|CHLORAMPHENICOL/FLORFENICOL|PHENICOL|chloramphenicol_hydrolase	3000249	chloramphenicol phosphotransferase	Closest match to ARO term, however, chloramphenicol hydrolase not in CARD
+195957621|ACG59730.1|EU871628.1|1|1|espB|espB||1|||type_III_secretion_system_LEE_translocon_pore-forming_subunit_EspB			General stress response/Virulence gene
+282165972|ADA79992.1|GQ900446.1|1|1|merT_pI258|merT_pI258||1|MERCURY|MERCURY|mercuric_transport_protein_MerT			Metal resistance gene
+760237698|AJP10337.1|CP010905.2|1|1|tcdE|tcdE||1|||holin-like_glycosylating_toxin_export_protein_TcdE			General stress response/Virulence gene
+228698261|EEL50994.1|ACML01000111.1|1|1|entFM|entFM||1|||enterotoxin_EntFM			General stress response/Virulence gene
+253721162|ACT33471.1|CP001162.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+4335904|AAD17509.1|AF055306.1|1|1|f17a|f17a||1|||F17A_fimbrial_adhesin			General stress response/Virulence gene
 41157|CAA34816.1|1|1|cstB|cstB||1|||CS3_fimbrial_usher_protein_CstB			General stress response/Virulence gene
-152935704|ABS41202.1|1|1|bont_F1|bont_F1||1|||botulinum_neurotoxin_subtype_F1			General stress response/Virulence gene
-121308157|CAM11315.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-15207766|BAB62897.1|1|1|cofA|cofA||1|||type_4b_pilus_CFA/III_major_pilin_CofA			General stress response/Virulence gene
-290430|AAA23736.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-495647|AAA25276.1|1|1|cadC_Lm|cadC_Lm||1|CADMIUM|CADMIUM|Cd(II)-sensing_metalloregulatory_transcriptional_repressor_CadC			Metal resistance gene
-658417288|KEJ01913.1|1|1|bont_F8|bont_F8||1|||botulinum_neurotoxin_subtype_F8			General stress response/Virulence gene
-550334|CAA85780.1|1|1|stxA2a|stxA2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_A			General stress response/Virulence gene
-147833|AAA71893.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
-282160591|ADA79575.1|1|1|bont_F3|bont_F3||1|||botulinum_neurotoxin_subtype_F3			General stress response/Virulence gene
-164457631|BAF96538.1|1|1|nleB2|nleB2||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB2			General stress response/Virulence gene
-1129095|AAA83975.1|1|1|merT_RC607|merT_RC607||1|MERCURY|MERCURY|mercuric_transport_protein_MerT			Metal resistance gene
-78214792|ABB36586.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A			General stress response/Virulence gene
-153006|AAA26625.1|1|1|eta|eta||1|||exfoliative_toxin_A			General stress response/Virulence gene
-2465785|AAC45722.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-1255553|BAA06852.1|1|1|cpa|cpa||1|||alpha-toxin			General stress response/Virulence gene
-3337015|BAA31774.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
-73856581|AAZ89288.1|1|1|senB|senB||1|||enterotoxin_production-related_protein_TieB			General stress response/Virulence gene
-18147031|BAB82998.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
-0|MBY0597968.1|1|1|entFM|entFM||1|||enterotoxin_EntFM			General stress response/Virulence gene
-121308161|CAM11317.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
-4877347|BAA77749.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
-153002|AAA26617.1|1|1|see|see||1|||staphylococcal_enterotoxin_type_E			General stress response/Virulence gene
-62085704|AAX63244.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
-18147034|BAB83000.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
-1788757044|QHA94809.1|1|1|narB|narB||1|MADURAMICIN/NARASIN/SALINOMYCIN|IONOPHORE|ionophore_ABC_transporter_permease_subunit_NarB			Ionophore antibiotic resistance gene (conferring resistance to narasin, salinomycin, and maduramicin). Gene not in CARD. No mapping available. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2020.00104/full
-219881591|ACL51961.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
-918399751|BAS21358.1|1|1|sey|sey||1|||staphylococcal_enterotoxin_type_Y			General stress response/Virulence gene
-284924617|CBG27800.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
-4335916|AAD17515.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
-108743114|CAJ76690.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
+152935704|ABS41202.1|CP000728.1|1|1|bont_F1|bont_F1||1|||botulinum_neurotoxin_subtype_F1			General stress response/Virulence gene
+121308157|CAM11315.1|AM421997.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+15207766|BAB62897.1|AB049751.1|1|1|cofA|cofA||1|||type_4b_pilus_CFA/III_major_pilin_CofA			General stress response/Virulence gene
+290430|AAA23736.1|L14319.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+495647|AAA25276.1|L28104.1|1|1|cadC_Lm|cadC_Lm||1|CADMIUM|CADMIUM|Cd(II)-sensing_metalloregulatory_transcriptional_repressor_CadC			Metal resistance gene
+658417288|KEJ01913.1|AUZC01000009.1|1|1|bont_F8|bont_F8||1|||botulinum_neurotoxin_subtype_F8			General stress response/Virulence gene
+550334|CAA85780.1|Z37725.1|1|1|stxA2a|stxA2a||1|STX2A|STX2|Shiga_toxin_Stx2a_subunit_A			General stress response/Virulence gene
+147833|AAA71893.1|L04539.1|1|1|stxA1a|stxA1a||1|stxA1a|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
+282160591|ADA79575.1|GU213227.1|1|1|bont_F3|bont_F3||1|||botulinum_neurotoxin_subtype_F3			General stress response/Virulence gene
+164457631|BAF96538.1|AB303062.1|1|1|nleB2|nleB2||1|||type_III_secretion_system_effector_arginine_glycosyltransferase_NleB2			General stress response/Virulence gene
+1129095|AAA83975.1|AF138877.1|1|1|merT_RC607|merT_RC607||1|MERCURY|MERCURY|mercuric_transport_protein_MerT			Metal resistance gene
+78214792|ABB36586.1|DQ235775.1|1|1|stxA2d|stxA2d||1|STX2D|STX2|Shiga_toxin_Stx2d_subunit_A			General stress response/Virulence gene
+153006|AAA26625.1|M17347.1|1|1|eta|eta||1|||exfoliative_toxin_A			General stress response/Virulence gene
+2465785|AAC45722.1|AF022140.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+1255553|BAA06852.1|D32126.1|1|1|cpa|cpa||1|||alpha-toxin			General stress response/Virulence gene
+3337015|BAA31774.1|AB011549.2|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
+73856581|AAZ89288.1|CP000038.1|1|1|senB|senB||1|||enterotoxin_production-related_protein_TieB			General stress response/Virulence gene
+18147031|BAB82998.1|AB048225.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
+0|MBY0597968.1|JAIKLI010000168.1|1|1|entFM|entFM||1|||enterotoxin_EntFM			General stress response/Virulence gene
+121308161|CAM11317.1|AM421999.1|1|1|nleA|nleA||1|||type_III_secretion_system_effector_NleA			General stress response/Virulence gene
+4877347|BAA77749.1|AB012101.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
+153002|AAA26617.1|M21319.1|1|1|see|see||1|||staphylococcal_enterotoxin_type_E			General stress response/Virulence gene
+62085704|AAX63244.1|AY970782.1|1|1|fedF|fedF||1|||F18_fimbrial_adhesin_subunit_FedF			General stress response/Virulence gene
+18147034|BAB83000.1|AB048226.1|1|1|stxA2b|stxA2b||1|STX2B|STX2|Shiga_toxin_Stx2b_subunit_A			General stress response/Virulence gene
+1788757044|QHA94809.1|MN590304.1|1|1|narB|narB||1|MADURAMICIN/NARASIN/SALINOMYCIN|IONOPHORE|ionophore_ABC_transporter_permease_subunit_NarB			Ionophore antibiotic resistance gene (conferring resistance to narasin, salinomycin, and maduramicin). Gene not in CARD. No mapping available. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.20200104/full
+219881591|ACL51961.1|FJ386569.1|1|1|ehxA|ehxA||1|||enterohemolysin_EhxA			General stress response/Virulence gene
+918399751|BAS21358.1|AB924045.1|1|1|sey|sey||1|||staphylococcal_enterotoxin_type_Y			General stress response/Virulence gene
+284924617|CBG27800.1|FN554767.1|1|1|aafA|aafA||1|||aggregative_adherence_fimbria_II_major_subunit_AafA			General stress response/Virulence gene
+4335916|AAD17515.1|AF055312.1|1|1|f17g|f17g||1|||F17G_fimbrial_adhesin			General stress response/Virulence gene
+108743114|CAJ76690.1|AM230662.1|1|1|stxA1a|stxA1a||1|STX1A|STX1|Shiga_toxin_Stx1a_subunit_A			General stress response/Virulence gene
 1028083999|WP_063842967.1|1|1|ble-Sv|ble-Sv|sequestration|2|BLEOMYCIN|BLEOMYCIN|BLMA_family_bleomycin_binding_protein	3001205		Previously mapped to ARO:3003067 (smeS) by RGI.
 1028084030|WP_063842998.1|1|1|ble-Sh|ble-Sh|sequestration|2|BLEOMYCIN|BLEOMYCIN|phleomycin/bleomycin_binding_protein_Ble-Sh	3001205		Previously mapped to ARO:3004660 (catB11) by RGI.
 1028084238|WP_063843206.1|1|1|blmB|blmB|acetyltransferase|2|BLEOMYCIN|BLEOMYCIN|bleomycin_family_antibiotic_N-acetyltransferase_BlmB	3001205		Previously mapped to ARO:3003989 (AAC(6')-34) by RGI.

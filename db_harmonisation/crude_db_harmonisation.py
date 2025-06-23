@@ -26,8 +26,8 @@ def download_file(url, ofile):
 @TaskGenerator
 def load_rgi():
     subprocess.check_call(['rgi', 'clean', '--local'])
-    subprocess.check_call(['wget', 'https://card.mcmaster.ca/latest/data'])
-    subprocess.check_call(['tar', '-xvf', 'data', './card.json'])
+    subprocess.check_call(['wget', 'https://card.mcmaster.ca/download/0/broadstreet-v4.0.0.tar.bz2'])
+    subprocess.check_call(['tar', '-xvf', 'broadstreet-v4.0.0.tar.bz2', './card.json'])
     subprocess.check_call(['rgi', 'load', '--card_json', 'card.json', '--local'])
 
 def get_resfinderfg_db():
@@ -35,14 +35,24 @@ def get_resfinderfg_db():
     return download_file(url, 'dbs/resfinder_fg.faa')
 
 def get_ncbi3_db():
-    ofile = 'dbs/ncbi3_amr_raw.faa'
-    url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/3.12/2024-01-31.1/AMRProt'
-    return download_file(url, ofile)
+    protein_ofile = 'dbs/ncbi3_amr_raw.faa'
+    cds_ofile = 'dbs/ncbi3_amr_raw.fna'
+    
+    protein_url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/3.12/2024-01-31.1/AMRProt'
+    cds_url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/3.12/2024-01-31.1/AMR_CDS'
+    
+    download_file(cds_url, cds_ofile)
+    return download_file(protein_url, protein_ofile)
 
 def get_ncbi4_db():
-    ofile = 'dbs/ncbi4_amr_raw.faa'
-    url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/4.0/2024-12-18.1/AMRProt.fa'
-    return download_file(url, ofile)
+    protein_ofile = 'dbs/ncbi4_amr_raw.faa'
+    cds_ofile = 'dbs/ncbi4_amr_raw.fna'
+
+    protein_url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/4.0/2024-12-18.1/AMRProt.fa'
+    cds_url = 'https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/4.0/2024-12-18.1/AMR_CDS.fa'
+    
+    download_file(cds_url, cds_ofile)
+    return download_file(protein_url, protein_ofile)
 
 def get_resfinder_db():
     ofile = 'dbs/resfinder.fna'
@@ -61,10 +71,9 @@ def get_argannot_db():
     url = 'https://www.mediterranee-infection.com/wp-content/uploads/2019/06/ARG_ANNOT_V5_AA_JUNE2019.txt'
     return download_file(url, 'dbs/argannot.faa')
 
-# NCBI db has '*' at end of each protein sequence. RGI can't handle that, so '*' is removed
 @TaskGenerator
-def fix_ncbi(ncbi3_amr_faa, ncbi4_amr_faa):
-    ofile = './dbs/ncbi.faa'
+def combine_ncbi_dbs(ncbi3_amr_faa, ncbi4_amr_faa):
+    ofile = './dbs/combined_ncbi.faa'
     with open(ncbi3_amr_faa) as ncbi3, open(ncbi4_amr_faa) as ncbi4, \
             open(ofile, 'w') as corrected:
         ncbi3_records = list(SeqIO.parse(ncbi3, 'fasta'))
@@ -73,6 +82,7 @@ def fix_ncbi(ncbi3_amr_faa, ncbi4_amr_faa):
         
         records = []
         for record in ncbi_records:
+            # NCBI db has '*' at end of each protein sequence. RGI can't handle that, so '*' is removed
             record.seq = Seq(str(record.seq).replace("*", ""))
             if not record.id in records:
                 SeqIO.write(record, corrected, 'fasta')
@@ -80,6 +90,33 @@ def fix_ncbi(ncbi3_amr_faa, ncbi4_amr_faa):
             else:
                 continue
 
+    return ofile
+
+@TaskGenerator
+def add_refseq_ids_to_ncbi(ncbi_faa):
+    ofile = './dbs/ncbi.faa'
+    ncbi3_cds = 'dbs/ncbi3_amr_raw.fna'
+    ncbi4_cds = 'dbs/ncbi4_amr_raw.fna'
+
+    with open(ncbi_faa) as ncbi_faa, open(ofile, 'w') as output:
+        ncbi3_cds_records = list(SeqIO.parse(ncbi3_cds, 'fasta'))
+        ncbi4_cds_records = list(SeqIO.parse(ncbi4_cds, 'fasta'))
+        combined_cds_records = ncbi3_cds_records + ncbi4_cds_records
+        protein_records = list(SeqIO.parse(ncbi_faa, 'fasta'))
+        
+        for protein_record in protein_records:
+            protein_record_id = str(protein_record.id).split('|')
+            for cds_record in combined_cds_records:
+                if protein_record_id[1] == str(cds_record).split('|')[1]:
+                    protein_record_id.insert(2, f'{str(cds_record).split('|')[2]}')
+                    protein_record.id = '|'.join(protein_record_id)
+                    protein_record.name = ''
+                    protein_record.description = ''
+                    SeqIO.write(protein_record, output, 'fasta')
+                    break
+            else:
+                SeqIO.write(protein_record, output, 'fasta')
+    
     return ofile
 
 # Needed when nucleotide database (eg. resfinder) needs to be run through RGI with protein mode
@@ -151,7 +188,7 @@ barrier()
 
 for db in [
         fna_to_faa(get_resfinder_db()),
-        fix_ncbi(get_ncbi3_db(), get_ncbi4_db()),
+        add_refseq_ids_to_ncbi(combine_ncbi_dbs(get_ncbi3_db(), get_ncbi4_db())),
         get_sarg_db(),
         get_resfinderfg_db(),
         get_deeparg_db(),

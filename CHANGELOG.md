@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Add genomic refseq accession ids to ncbi database
+
+Previously, NCBI only had protein refseq accession ids. Hence, whenever ARG annotation tools used genomic ids, only the gene name was used for mapping. This posed issues regarding the uniqueness of mappings as the same gene names can be mapped to multiple ARO numbers.
+
+Now, the genomic ids are downloaded in the crude_db_harmonisatoin.py and added to the ncbi_ARO_mapping.tsv and ncbi_curation.tsv files along with protein ids. This also means that reference accession can be used with gene name for NCBI's hamronization normalizer. This greatly reduces the amount of one to many ARO mappings that were previously present in the hamronization mapping table.
+
 ## Version 1.0.0 - released on 19 April 2025
 
 Adds citation information to the README and the CLI.
