@@ -100,3 +100,37 @@ def test_hamronization_normalizer():
         normed = get_normed(normalizer, f'./examples/hamronized/{file}')
         golden_file = get_golden_file('hamronized', file)
         pd.testing.assert_frame_equal(normed, golden_file)
+
+def test_raw_matching_hamronization():
+    files = [
+        'resfinder.resfinder.orfs.tsv',
+        'resfinder.resfinder.reads.tsv',
+        'groot.resfinder.tsv',
+        'groot.groot-db.tsv',
+        'groot.groot-core-db.tsv',
+        'groot.card.tsv',
+        'groot.argannot.tsv',
+        'amrfinderplus.ncbi.orfs.v3.10.30.tsv'
+    ]
+    
+    hamronization_normalizer = argnorm.HamronizationNormalizer(skip_on_unsupported_tool=True)
+    
+    for file in files:
+        hamronized_file = f'./examples/hamronized/{file}'
+        raw_file = f'./examples/raw/{file}'
+        
+        print(raw_file)
+        
+        if 'resfinder' in file and not 'groot' in file:
+            normalizer = argnorm.ResFinderNormalizer()
+        elif 'groot' in file:
+            normalizer = argnorm.GrootNormalizer(database=((f"groot-{file.split('.')[1]}") if not 'groot' in file.split('.')[1] else file.split('.')[1]))
+        elif 'amrfinderplus' in file:
+            normalizer = argnorm.AMRFinderPlusNormalizer()
+        else:
+            raise Exception('Unable to determine normalizer')        
+        
+        ham_normed = get_normed(hamronization_normalizer, hamronized_file)
+        raw_normed = get_normed(normalizer, raw_file)
+        
+        pd.testing.assert_series_equal(ham_normed['ARO'], raw_normed['ARO'])
