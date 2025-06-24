@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## Version 1.1.0 - released on 24 June 2025
 
 ### Add genomic refseq accession ids to ncbi database
 

@@ -2,6 +2,10 @@
 
 argNorm is under active development and outputs may change between versions. Particular versions of argNorm should, however, be reproducible as the databases are bundled with the tool.
 
+## Version 1.1.0 - released on 24 June 2025
+
+The way that NCBI mappings are handled has been changed, which fixes several issues, particularly in handling hAMROnized data. The [CHANGELOG](https://github.com/BigDataBiology/argNorm/blob/main/CHANGELOG.md) has internal details, but users should see a few changes in the output (for the better). In some cases, previous versions of argNorm returned too optimistic mappings.
+
 ## Version 1.0.0 - released on 19 April 2025
 
 Adds citation information to the README and the CLI.
