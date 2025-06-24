@@ -8,6 +8,10 @@ Previously, NCBI only had protein refseq accession ids. Hence, whenever ARG anno
 
 Now, the genomic ids are downloaded in the crude_db_harmonisatoin.py and added to the ncbi_ARO_mapping.tsv and ncbi_curation.tsv files along with protein ids. This also means that reference accession can be used with gene name for NCBI's hamronization normalizer. This greatly reduces the amount of one to many ARO mappings that were previously present in the hamronization mapping table.
 
+### Relax constraints on matching NCBI genes
+
+Previously, both the gene name and the reference accession were used to locate the mapping for a particular NCBI gene. However, depending on whether or not the output is hamronized (and depending on the ARG annotation tool; Abricate vs AMRFinderPlus), the gene name can be recorded in different ways (e.g., 'NimIJ family 5-nitroimidazole reductase' vs '5-nitroimidazole_reductase_NimJ'). To ensure the mappings of the same genes from hamronized and raw outputs are the same, only the reference accessions are used for the mapping now as they are common for all outputs and can accurately locate mappings.
+
 ## Version 1.0.0 - released on 19 April 2025
 
 Adds citation information to the README and the CLI.
