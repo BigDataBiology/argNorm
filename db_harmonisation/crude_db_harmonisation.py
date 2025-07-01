@@ -29,6 +29,10 @@ def load_rgi():
     subprocess.check_call(['wget', 'https://card.mcmaster.ca/download/0/broadstreet-v4.0.0.tar.bz2'])
     subprocess.check_call(['tar', '-xvf', 'broadstreet-v4.0.0.tar.bz2', './card.json'])
     subprocess.check_call(['rgi', 'load', '--card_json', 'card.json', '--local'])
+    
+def get_abricate_card_db():
+    url = 'https://raw.githubusercontent.com/tseemann/abricate/refs/heads/master/db/card/sequences'
+    return download_file(url, 'dbs/abricate_card.fna')
 
 def get_resfinderfg_db():
     url = 'https://raw.githubusercontent.com/RemiGSC/ResFinder_FG_Construction/606b4768433079d55f5b179219e080a45bf59dfc/output/RFG_db/ResFinder_FG.faa'
@@ -192,7 +196,8 @@ for db in [
         get_sarg_db(),
         get_resfinderfg_db(),
         get_deeparg_db(),
-        get_argannot_db()
+        get_argannot_db(),
+        fna_to_faa(get_abricate_card_db())
     ]:
     copy_mappings_to_argnorm(run_rgi(db))
 construct_megares()
