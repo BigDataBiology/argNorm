@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+### Add support for abricate outputs that use CARD database
+Genes annotated via abricate using the CARD database can now be normalized by argNorm. Both hamronized and raw versions are supported.
+
 ## Version 1.1.0 - released on 24 June 2025
 
 ### Add genomic refseq accession ids to ncbi database

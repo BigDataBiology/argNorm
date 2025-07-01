@@ -68,6 +68,7 @@ The `resistance_to_drug_classes` column will contain ARO numbers of the broader 
 | ResFinder v4.0                     | [ABRicate v1.0.1](https://github.com/tseemann/abricate), [ResFinder v4.0](https://bitbucket.org/genomicepidemiology/resfinder/src/master/), & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
 | ResFinderFG v2.0                   | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
 | SARG (reads mode) v3.2.1           | [ARGs-OAP v2.3](https://galaxyproject.org/use/args-oap/) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4  | 
+| CARD (March 2020 version)          | [ABRicate v1.0.1](https://github.com/tseemann/abricate) & [hAMRonization](https://github.com/pha4ge/hAMRonization) v1.1 and v1.0.4 |
 
 - Note: ARG database and ARG annotation tool versions can change. argNorm is only intended for supported versions listed above.
 - Note: the argNorm tool will be periodically updated to support the latest versions of databases and annotation tools if they undergo significant changes.
@@ -129,6 +130,7 @@ This is the ARG database used to perform annotation:
 - `megares`
 - `argannot`
 - `groot-core-db`, `groot-db`, `groot-resfinder`, `groot-argannot`, `groot-card`
+- `abricate-card`
 
 #### **`--db` vs `tool`**
 ARG annotation tools can use several ARG databases for annotation. Hence, the `tool` is a required argument while `--db` is mostly optional. For some tools, however, specifiying `--db` is **required**, see below:
@@ -137,7 +139,7 @@ ARG annotation tools can use several ARG databases for annotation. Hence, the `t
 | --------------- | ------------ |
 | `deeparg`       | Not required |
 | `argsoap`       | Not required |
-| `abricate`      | Any from `ncbi`, `deeparg`, `resfinder`, `sarg`, `megares`, `argannot`, or `resfinderfg` |
+| `abricate`      | Any from `ncbi`, `deeparg`, `resfinder`, `sarg`, `megares`, `argannot`, `resfinderfg`, or `abricate-card` |
 | `resfinder`     | Not required |
 | `amrfinderplus` | Not required |
 | `groot`         | Any from `groot-argannot`, `groot-resfinder`, `groot-db`, `groot-core-db`, or `groot-card` |
