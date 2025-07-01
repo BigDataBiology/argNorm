@@ -42,6 +42,8 @@ def preprocess_mappings_for_tests(mapping, database):
         if database == 'sarg':
             gene_name = rgi_mapping.iloc[i]['Original ID'].split(' ')[0]
             drug_class = str(sarg_antibiotic_classes[sarg_antibiotic_classes['SARG.Seq.ID'] == gene_name]['Type'].values).replace("['", '').replace("']", '')
+        if database == 'abricate_card':
+            drug_class = str(rgi_mapping.iloc[i]['Original ID'].split('~~~')[-1]).split(' ')[0]
 
         drug_classes.append(drug_class)
     
@@ -50,7 +52,7 @@ def preprocess_mappings_for_tests(mapping, database):
 
 def check_mapping_accuracy(processed_mappings : pd.DataFrame):
     alternative_ids = {
-        "beta-lactam antibiotic": ['Methicillin resistance mecR1 protein', 'Bla', 'beta_lactam', 'beta-lactam', 'Beta-lactamase', 'betalactams', 'beta-lactamase', 'Metallo-beta-lactamase', 'putative peptidoglycan D%2CD-transpeptidase PenA'],
+        "beta-lactam antibiotic": ['Methicillin resistance mecR1 protein', 'Bla', 'beta_lactam', 'beta-lactam', 'Beta-lactamase', 'betalactams', 'beta-lactamase', 'Metallo-beta-lactamase', 'putative peptidoglycan D%2CD-transpeptidase PenA', 'penam', 'carbapenam', 'cephalosporin', 'carbapenem', 'cephamycin', ],
         "aminoglycoside antibiotic": ['aminoglycoside', 'AGly', 'Aminoglycosides', "Streptomycin 3''-adenylyltransferase", 'Gentamicin 3-N-acetyltransferase', 'Bifunctional AAC/APH'],
         "macrolide antibiotic": ['MLS', 'MACROLIDE', 'Macrolide'],
         "tetracycline antibiotic": ['tetracycline', 'Tet', 'TETRACYCLINE', 'Tetracyclines', 'Tetracycline', 'Tetracycline resistance protein', 'Tetracycline repressor protein'],
@@ -61,7 +63,7 @@ def check_mapping_accuracy(processed_mappings : pd.DataFrame):
         "diaminopyrimidine antibiotic": ['Dihydrofolate reductase', 'Trimethoprim', 'Folate pathway antagonist', 'Tmt'],
         "peptide antibiotic": ['bacitracin', 'polymyxin', 'other_peptide_antibiotics', 'COLISTIN', 'lipopeptides', 'COL', 'TUBERACTINOMYCIN', 'edeine', 'defensin', 'Cationic_antimicrobial_peptides'],
         "aminocoumarin antibiotic": ['novobiocin'],
-        "nucleoside antibiotic": ['puromycin', 'Nucleosides', 'tunicamycin', 'streptothricin', 'aminoglycoside', 'AGly'],
+        "nucleoside antibiotic": ['puromycin', 'Nucleosides', 'tunicamycin', 'streptothricin', 'aminoglycoside', 'AGly', 'nucleoside'],
         "rifamycin antibiotic": ['rifampin'],
         "lincosamide antibiotic": ['lincosamide', 'MLS'],
         "streptogramin antibiotic": ['streptogramin', 'streptogramin A', 'streptogramin B', 'MLS'],
@@ -70,6 +72,9 @@ def check_mapping_accuracy(processed_mappings : pd.DataFrame):
         'fusidane antibiotic': ['fusidic_acid', 'fusaric-acid', 'FUSIDIC_ACID', 'fusidic-acid', 'Fcd'],
         'fluoroquinolone antibiotic': ['Flq', 'Fluoroquinolones', 'PHENICOL/QUINOLONE'],
         'pleuromutilin antibiotic': ['pleuromutilin_tiamulin', 'LINCOSAMIDE/PLEUROMUTILIN'],
+        'antibacterial free fatty acids': ['antibacterial_free_fatty_acids'],
+        'disinfecting agents and antiseptics': ['acridine_dye', 'triclosan'],
+        'polyamine antibiotic': ['polyamine']
     }
     metals = ['mercury_resistance', 'multi-metal_resistance', 'tellurium_resistance', 'tellurium', 'arsenic', 'cadmium', 'copper', 'mercury', 'nickel', 'copper/silver', 'silver', 'cadmium/cobalt/nickel', 'chromate', 'COPPER/GOLD', 'GOLD']
     virulence_genes_or_toxins = ['stx2', 'intimin', 'stx1']
