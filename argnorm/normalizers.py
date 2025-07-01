@@ -165,8 +165,11 @@ class AMRFinderPlusNormalizer(BaseNormalizer):
 
 class AbricateNormalizer(BaseNormalizer):
     def __init__(self, database=None) -> None:
-        if database not in ['ncbi', 'deeparg', 'resfinder', 'megares', 'argannot']:
+        if database not in ['ncbi', 'deeparg', 'resfinder', 'megares', 'argannot', 'abricate-card', 'abricate_card']:
             raise Exception(f'{database} is not a supported database.')
+        
+        if database == 'abricate-card':
+            database = 'abricate_card'
 
         super().__init__(database)
 
@@ -176,13 +179,16 @@ class AbricateNormalizer(BaseNormalizer):
             deeparg='best-hit',
             resfinder=dict(gene_identifier='GENE', accession='ACCESSION'),
             megares='ACCESSION',
-            argannot='ACCESSION'
+            argannot='ACCESSION',
+            abricate_card=dict(gene_identifier='GENE', accession='ACCESSION')
         )[self.database]
 
         if self.database == 'resfinderfg':
             return itable[col].str.split('|').str[1]
         if self.database == 'resfinder':
             return pd.Series(itable[col['gene_identifier']] + '_' + itable[col['accession']])
+        if self.database == 'abricate_card':
+            return pd.Series(itable[col['gene_identifier']] + '~~~' + itable[col['accession']])
         return itable[col]
 
     @staticmethod
@@ -197,7 +203,8 @@ class AbricateNormalizer(BaseNormalizer):
             resfinder=lambda x: '_'.join([x.split('_')[0], x.split('_')[1], x.split('_')[-1]]),
             megares=lambda x: x.split('|')[0],
             argannot=self.preprocess_argannot_ref_gene,
-            resfinderfg=lambda x: x.split('|')[1]
+            resfinderfg=lambda x: x.split('|')[1],
+            abricate_card=lambda x: x.split('~~~')[1] + '~~~' + x.split('~~~')[2]
         )
             
         if self.database in ['database', 'sarg', 'ncbi']:
@@ -279,7 +286,8 @@ class HamronizationNormalizer(BaseNormalizer):
                 'resfinderfg': lambda x: x['gene_name'].split('|')[1],
                 'deeparg': lambda x: x['gene_name'],
                 'resfinder': lambda x: x['gene_name'] + '_' + x['reference_accession'],
-                'ncbi': lambda x: x['reference_accession']
+                'ncbi': lambda x: x['reference_accession'],
+                'abricate_card': lambda x: x['gene_symbol'] + '~~~' + x['reference_accession']
             }
         }
         input_genes = []
@@ -324,6 +332,8 @@ class HamronizationNormalizer(BaseNormalizer):
                     except KeyError:
                         sys.stderr.write(f'An unrecognized hamronization format has been detected. Please use hamronization v1.1.8 or v1.0.4')
                         sys.exit(1)
+                if 'card' in database and 'groot' not in database:
+                    database = 'abricate_card'
                 input_genes.append(input_id_lookup[analysis_software][database](row))
             else:
                 input_genes.append(input_id_lookup[analysis_software](row))
@@ -349,6 +359,8 @@ class HamronizationNormalizer(BaseNormalizer):
                 table.index = table.index.map(AbricateNormalizer.preprocess_argannot_ref_gene)
             elif db == 'resfinderfg':
                 table.index = table.index.str.split('|').str[1]
+            elif db == 'abricate-card':
+                table.index = table.index.str.split('~~~').str[1] + '~~~' + table.index.str.split('~~~').str[2]
 
             mapping_tables.append(table)
 

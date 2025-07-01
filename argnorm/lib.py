@@ -22,6 +22,7 @@ DATABASES = [
     'groot-argannot',
     'groot-resfinder',
     'groot-card',
+    'abricate-card'
 ]
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
@@ -56,6 +57,9 @@ def get_aro_mapping_table(database):
 
     if 'groot' in database:
         database = 'groot'
+    
+    if database == 'abricate-card':
+        database = 'abricate_card'
 
     aro_mapping_table = pd.read_csv(
             os.path.join(_ROOT, 'data', f'{database}_ARO_mapping.tsv'),
@@ -81,7 +85,7 @@ def map_to_aro(gene, database):
 
     Parameters:
         gene (str): The original ID of the gene as mentioned in source database.
-        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg, groot-db, groot-core-db, groot-argannot, groot-resfinder, groot-card
+        database (str): name of database. Can be: argannot, deeparg, megares, ncbi, resfinderfg, sarg, groot-db, groot-core-db, groot-argannot, groot-resfinder, groot-card, abricate-card
 
     Returns:
         ARO[result] (pronto.term.Term): A pronto term with the ARO number of input gene. ARO number can be accessed using 'id' attribute and gene name can be accessed using 'name' attribute.
@@ -92,6 +96,9 @@ def map_to_aro(gene, database):
 
     if database not in DATABASES:
         raise Exception(f'{database} is not a supported database.')
+    
+    if database == 'abricate-card':
+        database = 'abricate_card'
 
     mapping_table = get_aro_mapping_table(database)
 
@@ -106,6 +113,10 @@ def map_to_aro(gene, database):
             gene = gene.split('|')[-1]
         else:
             gene = gene.split('__')[1]
+            
+    if database == 'abricate_card':
+        gene = gene.split('~~~')[1] + '~~~' + gene.split('~~~')[2]
+        mapping_table.index = mapping_table.index.map(lambda x: '~~~'.join(str(x).split('~~~')[1:3]))
 
     try:
         result = mapping_table.loc[gene, 'ARO']
