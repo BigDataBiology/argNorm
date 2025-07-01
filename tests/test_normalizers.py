@@ -34,10 +34,14 @@ def test_deeparg_normalizer():
     pd.testing.assert_frame_equal(normed, golden_file)
 
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder'])
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'card'])
 def test_abricate_normalizer(database):
-    normalizer = argnorm.AbricateNormalizer(database=database)
     input_path = f'./examples/raw/abricate.{database}.tsv'
+    
+    if not database == 'card':
+        normalizer = argnorm.AbricateNormalizer(database=database)
+    else:
+        normalizer = argnorm.AbricateNormalizer(database='abricate-card')
 
     normed = get_normed(normalizer, input_path)
     golden_file = get_golden_file('raw', f'abricate.{database}.tsv')
@@ -45,7 +49,7 @@ def test_abricate_normalizer(database):
     pd.testing.assert_frame_equal(normed, golden_file)
 
 
-@pytest.mark.parametrize('database', ['random_db', 'sarg', 'resfinderfg'])
+@pytest.mark.parametrize('database', ['random_db', 'sarg', 'resfinderfg', 'card'])
 def test_abricate_validation(database):
     with pytest.raises(Exception):
         argnorm.AbricateNormalizer(database=database)
@@ -92,7 +96,7 @@ def test_hamronization_normalizer():
     normalizer = argnorm.HamronizationNormalizer()
 
     for file in os.listdir('./examples/hamronized/'):
-        if 'abricate.card' in file or 'args-oap.sarg.orfs' in file:
+        if 'args-oap.sarg.orfs' in file:
             continue
         if file == 'combined_hamronization_full.tsv':
             normalizer = argnorm.HamronizationNormalizer(skip_on_unsupported_tool=True)

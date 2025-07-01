@@ -16,7 +16,8 @@ def test_map_to_aro():
         ["gi:447201629:ref:WP_001278885.1:|FEATURES|cob(I)alamin_adenolsyltransferase|unclassified|cob(I)alamin_adenolsyltransferase", "deeparg"],
         ["argannot~~~(Bla)cfxA4~~~AY769933:1-966", 'groot-argannot'],
         ["ErmF.3000498.M17124.1181-1982.593", 'groot-card'],
-        ["groot-db_RESFINDER__tet(W)_1_DQ060146", 'groot-db']
+        ["groot-db_RESFINDER__tet(W)_1_DQ060146", 'groot-db'],
+        ["card~~~AAC(2')-IIa~~~AB669090.1:12438-13221~~~aminoglycoside AAC(2')-IIa is a kasugamycin 2' N-acetyltransferase protein found in Burkholderia glumae and Acidovorax avenae isolates", 'abricate-card']
     ]
 
     expected_output = [
@@ -29,7 +30,8 @@ def test_map_to_aro():
         ARO.get_term('ARO:0010004'),
         ARO.get_term('ARO:3003005'),
         ARO.get_term('ARO:3000498'),
-        ARO.get_term('ARO:3000194')
+        ARO.get_term('ARO:3000194'),
+        ARO.get_term('ARO:3004628')
     ]
 
     for t, e in zip(test_cases, expected_output):
@@ -38,7 +40,7 @@ def test_map_to_aro():
         else:
             assert map_to_aro(t[0], t[1]) == e
 
-@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'groot', 'groot-argannot'])
+@pytest.mark.parametrize('database', ['argannot', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'groot', 'groot-argannot', 'abricate_card'])
 def test_get_aro_mapping_table_smoke(database):
     df = get_aro_mapping_table(database)
     assert len(df) > 0

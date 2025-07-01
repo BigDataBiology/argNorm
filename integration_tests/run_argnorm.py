@@ -46,8 +46,12 @@ for folder in ['hamronized', 'raw']:
             database = f'groot-{db}'
         run_cli_test('groot', f'groot.{db}.tsv', folder, db=database)
 
-for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'resfinderfg']:
+for db in ['ARGANNOT', 'argannot', 'MEGAres', 'megares', 'ncbi', 'resfinder', 'resfinderfg', 'card']:
     file  = f'abricate.{db.lower()}.tsv'
+    
+    if db == 'card':
+        db = 'abricate-card'
+
     run_cli_test('hamronization', file, 'hamronized', db=db)
     if not 'resfinderfg' in db:
         run_cli_test('abricate', file, 'raw', db=db)
