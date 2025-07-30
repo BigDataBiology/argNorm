@@ -20,7 +20,7 @@
 
 For more high-level information on argNorm, please refer to the manuscript:
 
-> Svetlana Ugarcina Perovic, Vedanth Ramji, Hui Chong, Yiqian Duan, Finlay Maguire, Luis Pedro Coelho, argNorm: normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO), in _Bioinformatics_ (2025) https://doi.org/10.1093/bioinformatics/btaf173
+> Svetlana Ugarcina Perovic, Vedanth Ramji, Hui Chong, Yiqian Duan, Finlay Maguire, Luis Pedro Coelho, argNorm: normalization of antibiotic resistance gene annotations to the Antibiotic Resistance Ontology (ARO), in _Bioinformatics_ (2025) [https://doi.org/10.1093/bioinformatics/btaf173](https://doi.org/10.1093/bioinformatics/btaf173)
 
 We also ask that you cite the manuscript if you use argNorm in your work.
 
