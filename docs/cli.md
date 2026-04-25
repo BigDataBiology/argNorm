@@ -16,7 +16,7 @@ argnorm -h
 
 ```
 > argnorm -h
-usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}] [-i INPUT] [--hamronization_skip_unsupported_tool]
+usage: argnorm [-h] [--db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card,abricate-card}] [-i INPUT] [--hamronization_skip_unsupported_tool]
                [-o OUTPUT]
                {argsoap,abricate,deeparg,resfinder,amrfinderplus,groot,hamronization}
 
@@ -28,7 +28,7 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
-  --db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card}
+  --db {argannot,deeparg,megares,ncbi,resfinder,resfinderfg,sarg,groot-db,groot-core-db,groot-argannot,groot-resfinder,groot-card,abricate-card}
                         --db (mostly optional): The database used alongside the ARG annotation tool. This is only required if abricate or groot is used as a tool. Please refer here for more information
                         on --db: https://github.com/BigDataBiology/argNorm?tab=readme-ov-file#--db-optional
   -i INPUT, --input INPUT
