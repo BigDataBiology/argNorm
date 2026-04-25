@@ -36,7 +36,6 @@ def get_aro_ontology():
         ARO (pronto.Ontology): A pronto ontology object with ARO terms.
     """
     import pronto
-    import importlib.resources
     global _ARO
     if _ARO is None:
         _ARO = pronto.Ontology(os.path.join(_ROOT, 'data/aro.obo'))
